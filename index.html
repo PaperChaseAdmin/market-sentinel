@@ -121,6 +121,45 @@ a:hover{text-decoration:underline}
 .disclaimer{background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.2);border-radius:8px;padding:12px 16px;margin:16px 0 4px;font-size:11px;color:var(--muted);line-height:1.6}
 .disclaimer strong{color:var(--red)}
 
+/* ── Portfolio ── */
+.etf-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.etf-header{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.etf-sym{font-size:22px;font-weight:700;letter-spacing:.5px}
+.etf-name{font-size:11px;color:var(--muted);margin-top:2px;line-height:1.3}
+.etf-type{font-size:10px;background:var(--surface2);border:1px solid var(--border);padding:2px 7px;border-radius:10px;color:var(--muted);white-space:nowrap}
+.etf-price-row{display:flex;align-items:baseline;gap:10px}
+.etf-price{font-size:26px;font-weight:700}
+.etf-chg{font-size:14px;font-weight:600}
+.etf-perf-row{display:flex;gap:12px;flex-wrap:wrap}
+.etf-perf-item{display:flex;flex-direction:column;align-items:center}
+.etf-perf-label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.etf-perf-val{font-size:13px;font-weight:600;margin-top:1px}
+.etf-divider{height:1px;background:var(--border)}
+.etf-outlook{background:var(--surface2);border-radius:8px;padding:12px}
+.outlook-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.outlook-label{font-size:15px;font-weight:700}
+.outlook-conf{font-size:10px;color:var(--muted);background:var(--surface);border:1px solid var(--border);padding:2px 7px;border-radius:8px}
+.outlook-reasons{list-style:none;display:flex;flex-direction:column;gap:4px}
+.outlook-reasons li{font-size:11px;color:var(--muted);padding-left:10px;position:relative}
+.outlook-reasons li::before{content:'•';position:absolute;left:0;color:var(--border)}
+.rsi-row{display:flex;align-items:center;gap:8px;margin-top:4px}
+.rsi-label{font-size:10px;color:var(--muted);min-width:26px}
+.rsi-track{flex:1;height:6px;background:var(--surface);border-radius:3px;position:relative}
+.rsi-zones{position:absolute;inset:0;display:flex}
+.rsi-zone-fear{width:30%;background:rgba(34,197,94,.2);border-radius:3px 0 0 3px}
+.rsi-zone-mid{width:40%;background:rgba(234,179,8,.1)}
+.rsi-zone-greed{width:30%;background:rgba(239,68,68,.2);border-radius:0 3px 3px 0}
+.rsi-dot{position:absolute;top:-3px;width:12px;height:12px;border-radius:50%;border:2px solid var(--bg);transform:translateX(-50%)}
+.rsi-val{font-size:12px;font-weight:600;min-width:30px;text-align:right}
+.div-yield-row{display:flex;align-items:center;justify-content:space-between}
+.div-yield-val{font-size:18px;font-weight:700;color:var(--blue)}
+.div-yield-label{font-size:10px;color:var(--muted)}
+.week52-row{display:flex;gap:4px;align-items:center;font-size:11px;color:var(--muted)}
+.week52-bar{flex:1;height:4px;background:var(--surface);border-radius:2px;position:relative}
+.week52-fill{position:absolute;height:4px;background:var(--accent);border-radius:2px}
+.portfolio-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+@media(max-width:480px){.portfolio-grid{grid-template-columns:1fr}}
+
 /* ── Loading / Error ── */
 .loading{text-align:center;padding:60px 20px;color:var(--muted)}
 .spinner{width:30px;height:30px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 12px}
@@ -152,6 +191,7 @@ a:hover{text-decoration:underline}
 <div class="tabs">
   <div class="tab active" onclick="switchTab('crypto',this)">🪙 Crypto</div>
   <div class="tab" onclick="switchTab('stocks',this)">📈 Stocks</div>
+  <div class="tab" onclick="switchTab('portfolio',this)">💼 Portfolio</div>
 </div>
 
 <!-- ═══ CRYPTO ═══ -->
@@ -233,6 +273,25 @@ a:hover{text-decoration:underline}
       All data is for informational use only — not financial advice. This project strictly covers
       <strong>spot (cash) assets only</strong>. No leveraged products, futures, margin trading,
       perpetual contracts, or options are tracked or recommended.
+    </div>
+  </div>
+</div>
+
+<!-- ═══ PORTFOLIO ═══ -->
+<div class="section" id="tab-portfolio">
+  <div class="loading" id="portfolio-loading">
+    <div class="spinner"></div>Loading portfolio data…
+  </div>
+  <div id="portfolio-content" style="display:none">
+    <div style="margin-bottom:14px;color:var(--muted);font-size:12px">
+      Outlook is based on technical signals: price vs moving averages, RSI, and momentum.
+      All funds are spot ETFs. <strong style="color:var(--text)">Not financial advice.</strong>
+    </div>
+    <div class="portfolio-grid" id="portfolio-cards"></div>
+    <div class="disclaimer" style="margin-top:14px">
+      <strong>⚠️ Spot ETFs Only.</strong> BKHY, XYLD, JEPQ, SCHD, QQQM are all exchange-traded funds
+      holding underlying spot assets. Outlook signals are algorithmic estimates based on price history —
+      not predictions. Always do your own research.
     </div>
   </div>
 </div>
@@ -542,12 +601,119 @@ async function loadData() {
     document.getElementById('stocks-content').style.display = 'block';
     renderStocks(DATA.stocks);
 
+    // Portfolio
+    renderPortfolio(DATA.portfolio || []);
+
   } catch(e) {
     document.getElementById('crypto-loading').innerHTML =
       `<div style="color:var(--red)">⚠ Could not load data: ${e.message}<br><small>Run update_data.py to generate data/market_data.json</small></div>`;
     document.getElementById('stocks-loading').innerHTML =
       `<div style="color:var(--red)">⚠ Could not load data: ${e.message}</div>`;
   }
+}
+
+// ── Render Portfolio ─────────────────────────────────────────────────────
+function rsiColor(v) {
+  if (v < 30) return 'var(--green)';
+  if (v > 70) return 'var(--red)';
+  return 'var(--yellow)';
+}
+
+function renderPortfolio(funds) {
+  document.getElementById('portfolio-loading').style.display = 'none';
+  document.getElementById('portfolio-content').style.display = 'block';
+
+  if (!funds || !funds.length) {
+    document.getElementById('portfolio-cards').innerHTML =
+      '<div style="color:var(--muted)">No portfolio data available</div>';
+    return;
+  }
+
+  document.getElementById('portfolio-cards').innerHTML = funds.map(f => {
+    const o = f.outlook;
+    const outlookArrow = o.color === 'green' ? '↑' : o.color === 'red' ? '↓' : '→';
+    const chgColor = c => c > 0 ? 'var(--green)' : c < 0 ? 'var(--red)' : 'var(--muted)';
+    const fmtChgVal = c => c == null ? '—' : `${c >= 0 ? '+' : ''}${c.toFixed(2)}%`;
+
+    // RSI dot position (0-100 → 0-100%)
+    const rsiPct = Math.max(2, Math.min(98, f.rsi));
+
+    // 52-week position
+    const w52range = f.week52_high && f.week52_low ? f.week52_high - f.week52_low : 0;
+    const w52pos   = w52range > 0 ? Math.round((f.price_usd - f.week52_low) / w52range * 100) : 50;
+
+    return `
+    <div class="etf-card">
+      <div class="etf-header">
+        <div>
+          <div class="etf-sym">${f.symbol}</div>
+          <div class="etf-name">${f.name}</div>
+        </div>
+        <span class="etf-type">${f.type}</span>
+      </div>
+
+      <div class="etf-price-row">
+        <span class="etf-price">${fmtPrice(f.price_usd)}</span>
+        <span class="etf-chg" style="color:${chgColor(f.change_1d)}">${fmtChgVal(f.change_1d)}</span>
+      </div>
+
+      <div class="etf-perf-row">
+        <div class="etf-perf-item">
+          <span class="etf-perf-label">1 Week</span>
+          <span class="etf-perf-val" style="color:${chgColor(f.change_1w)}">${fmtChgVal(f.change_1w)}</span>
+        </div>
+        <div class="etf-perf-item">
+          <span class="etf-perf-label">1 Month</span>
+          <span class="etf-perf-val" style="color:${chgColor(f.change_1m)}">${fmtChgVal(f.change_1m)}</span>
+        </div>
+        ${f.div_yield != null ? `
+        <div class="etf-perf-item" style="margin-left:auto">
+          <span class="etf-perf-label">Div Yield</span>
+          <span class="etf-perf-val" style="color:var(--blue)">${f.div_yield.toFixed(2)}%</span>
+        </div>` : ''}
+      </div>
+
+      ${f.week52_high && f.week52_low ? `
+      <div>
+        <div class="week52-row">
+          <span>52W Low $${f.week52_low.toFixed(2)}</span>
+          <div class="week52-bar">
+            <div class="week52-fill" style="left:0;width:${w52pos}%"></div>
+          </div>
+          <span>High $${f.week52_high.toFixed(2)}</span>
+        </div>
+      </div>` : ''}
+
+      <div class="divider"></div>
+
+      <div>
+        <div class="rsi-row">
+          <span class="rsi-label">RSI</span>
+          <div class="rsi-track">
+            <div class="rsi-zones">
+              <div class="rsi-zone-fear"></div>
+              <div class="rsi-zone-mid"></div>
+              <div class="rsi-zone-greed"></div>
+            </div>
+            <div class="rsi-dot" style="left:${rsiPct}%;background:${rsiColor(f.rsi)}"></div>
+          </div>
+          <span class="rsi-val" style="color:${rsiColor(f.rsi)}">${f.rsi}</span>
+        </div>
+      </div>
+
+      <div class="etf-outlook">
+        <div class="outlook-header">
+          <span class="outlook-label" style="color:var(--${o.color})">
+            ${outlookArrow} ${o.label}
+          </span>
+          <span class="outlook-conf">Confidence: ${o.confidence}</span>
+        </div>
+        <ul class="outlook-reasons">
+          ${o.reasons.map(r => `<li>${r}</li>`).join('')}
+        </ul>
+      </div>
+    </div>`;
+  }).join('');
 }
 
 // Auto-refresh every 5 minutes

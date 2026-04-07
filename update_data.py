@@ -18,6 +18,7 @@ from scrapers.reddit_data import fetch_crypto_reddit, fetch_stock_reddit
 from scrapers.polymarket  import fetch_polymarket
 from scrapers.fear_greed  import fetch_fear_greed, fetch_crypto_prices
 from scrapers.stocks_data import fetch_stock_prices, fetch_market_indices, market_mood_score
+from scrapers.portfolio   import fetch_portfolio
 from scrapers.sentiment   import analyze_headlines, sentiment_label, sentiment_color
 from scrapers.assets      import CRYPTO_ASSETS, STOCK_ASSETS
 
@@ -132,6 +133,10 @@ def run():
     stock_mentions_raw = aggregate_mentions(stock_reddit)
     stock_mentions = enrich_stock_mentions(stock_mentions_raw, stock_prices)
 
+    # ── Portfolio ───────────────────────────────────────────────────────
+    print("  Fetching portfolio ETFs...")
+    portfolio = fetch_portfolio()
+
     # ── Polymarket ──────────────────────────────────────────────────────
     print("  Fetching Polymarket...")
     poly = fetch_polymarket()
@@ -170,6 +175,7 @@ def run():
             "polymarket":      poly["finance"],
             "reddit":          stock_reddit,
         },
+        "portfolio": portfolio,
     }
 
     with open(DATA_PATH, "w", encoding="utf-8") as f:
@@ -180,6 +186,7 @@ def run():
     print(f"  Market mood: {mood_score} ({sentiment_label(mood_score)})")
     print(f"  Crypto news sentiment: {crypto_avg_score}")
     print(f"  Stock news sentiment: {stock_avg_score}")
+    print(f"  Portfolio ETFs: {len(portfolio)} loaded")
 
 
 if __name__ == "__main__":
