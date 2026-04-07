@@ -25,7 +25,11 @@ STOCK_KEYWORDS = [
     "s&p", "nasdaq", "dow", "trump", "tariff", "trade", "earnings",
     "ipo", "merger", "tesla", "nvidia", "apple", "microsoft", "amazon",
     "google", "meta", "economy", "market", "interest rate", "cpi",
-    "unemployment", "payroll", "xi jinping", "china", "sanction"
+    "unemployment", "payroll", "xi jinping", "china", "sanction",
+    "iran", "ceasefire", "oil", "opec", "ukraine", "russia", "war",
+    "debt", "treasury", "dollar", "euro", "yen", "budget", "deficit",
+    "nato", "g7", "g20", "imf", "world bank", "bank", "powell",
+    "federal reserve", "jobs report", "election", "congress", "senate",
 ]
 
 def _categorize(title: str) -> str:
@@ -38,7 +42,7 @@ def _categorize(title: str) -> str:
         return "finance"
     return "other"
 
-def fetch_polymarket(limit: int = 100) -> dict:
+def fetch_polymarket(limit: int = 500) -> dict:
     crypto, finance, other = [], [], []
     try:
         r = requests.get(

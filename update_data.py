@@ -19,7 +19,7 @@ from scrapers.polymarket  import fetch_polymarket
 from scrapers.fear_greed  import fetch_fear_greed, fetch_crypto_prices
 from scrapers.stocks_data import fetch_stock_prices, fetch_market_indices, market_mood_score
 from scrapers.portfolio   import fetch_portfolio
-from scrapers.sentiment   import analyze_headlines, sentiment_label, sentiment_color
+from scrapers.sentiment   import analyze_headlines, sentiment_label, sentiment_color, generate_summary
 from scrapers.assets      import CRYPTO_ASSETS, STOCK_ASSETS
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "market_data.json")
@@ -141,6 +141,23 @@ def run():
     print("  Fetching Polymarket...")
     poly = fetch_polymarket()
 
+    # ── AI Summaries ────────────────────────────────────────────────────
+    print("  Generating AI summaries...")
+
+    def _news_text(news): return "\n".join(f"- {n['title']} ({n['sentiment']})" for n in news[:8])
+    def _poly_text(markets): return "\n".join(f"- {m['title']}: Yes {m['yes_price']*100:.0f}% (vol ${m['volume_24h']:,})" for m in markets)
+    def _reddit_text(mentions, reddit):
+        m = ", ".join(f"{x['symbol']} ({x['mentions']} mentions)" for x in mentions[:5])
+        s = "\n".join(f"- r/{r['subreddit']}: activity {r.get('activity_score',0):.0f}/100" for r in reddit[:3])
+        return f"Top mentioned: {m}\nSubreddits:\n{s}"
+
+    crypto_news_summary   = generate_summary("crypto news",               _news_text(crypto_news_out))
+    crypto_poly_summary   = generate_summary("crypto prediction markets",  _poly_text(poly["crypto"]))
+    crypto_reddit_summary = generate_summary("crypto Reddit discussion",   _reddit_text(crypto_mentions, crypto_reddit))
+    stock_news_summary    = generate_summary("stock/finance news",         _news_text(stock_news_out))
+    stock_poly_summary    = generate_summary("finance prediction markets", _poly_text(poly["finance"]))
+    stock_reddit_summary  = generate_summary("stock Reddit discussion",    _reddit_text(stock_mentions, stock_reddit))
+
     # ── Assemble output ─────────────────────────────────────────────────
     output = {
         "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -154,8 +171,11 @@ def run():
                 "label": sentiment_label(crypto_avg_score),
                 "color": sentiment_color(crypto_avg_score),
             },
-            "polymarket":      poly["crypto"],
-            "reddit":          crypto_reddit,
+            "polymarket":         poly["crypto"],
+            "polymarket_summary": crypto_poly_summary,
+            "reddit":             crypto_reddit,
+            "reddit_summary":     crypto_reddit_summary,
+            "news_summary":       crypto_news_summary,
         },
         "stocks": {
             "indices":         indices,
@@ -172,8 +192,11 @@ def run():
                 "label": sentiment_label(stock_avg_score),
                 "color": sentiment_color(stock_avg_score),
             },
-            "polymarket":      poly["finance"],
-            "reddit":          stock_reddit,
+            "polymarket":         poly["finance"],
+            "polymarket_summary": stock_poly_summary,
+            "reddit":             stock_reddit,
+            "reddit_summary":     stock_reddit_summary,
+            "news_summary":       stock_news_summary,
         },
         "portfolio": portfolio,
     }

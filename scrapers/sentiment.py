@@ -52,6 +52,54 @@ def analyze_headlines_groq(headlines: list[str], api_key: str) -> list[float]:
         print(f"  [Groq sentiment] fallback to keyword: {e}")
     return [keyword_sentiment(h) for h in headlines]
 
+def generate_summary(topic: str, data_text: str) -> dict:
+    """Generate a one-paragraph Bullish/Bearish/Mixed summary via Groq or keyword fallback."""
+    api_key = os.environ.get("GROQ_API_KEY", "")
+    if not data_text.strip():
+        return {"outlook": "Mixed", "summary": "Insufficient data to generate a summary."}
+
+    if api_key:
+        try:
+            from groq import Groq
+            client = Groq(api_key=api_key)
+            prompt = (
+                f"You are a concise financial analyst. Based on the following {topic} data, "
+                "write exactly ONE paragraph summarizing the overall market sentiment. "
+                "Start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. "
+                "Mention numbers and names where available. Max 80 words.\n\n"
+                f"Data:\n{data_text}"
+            )
+            resp = client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=150,
+                temperature=0.3,
+            )
+            text = resp.choices[0].message.content.strip()
+            outlook = "Mixed"
+            if text.lower().startswith("bullish"):
+                outlook = "Bullish"
+            elif text.lower().startswith("bearish"):
+                outlook = "Bearish"
+            return {"outlook": outlook, "summary": text}
+        except Exception as e:
+            print(f"  [Groq summary:{topic}] fallback: {e}")
+
+    # Keyword fallback
+    bull = sum(1 for w in BULLISH_WORDS if w in data_text.lower())
+    bear = sum(1 for w in BEARISH_WORDS if w in data_text.lower())
+    if bull > bear * 1.5:
+        outlook, prefix = "Bullish", "Bullish"
+    elif bear > bull * 1.5:
+        outlook, prefix = "Bearish", "Bearish"
+    else:
+        outlook, prefix = "Mixed", "Mixed"
+    return {
+        "outlook": outlook,
+        "summary": f"{prefix}: {bull} bullish vs {bear} bearish signals detected across {topic} data.",
+    }
+
+
 def analyze_headlines(headlines: list[str]) -> list[dict]:
     """Analyze a list of headlines. Returns list of {text, score, label, color}."""
     api_key = os.environ.get("GROQ_API_KEY", "")

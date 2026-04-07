@@ -164,6 +164,12 @@ a:hover{text-decoration:underline}
 .source-note{font-size:10px;color:var(--muted);margin-top:10px;padding-top:8px;border-top:1px solid var(--border);line-height:1.5}
 .source-note strong{color:#475569}
 
+/* ── AI Summary ── */
+.ai-summary{background:var(--surface2);border-radius:6px;padding:8px 10px;margin-bottom:10px;font-size:11px;line-height:1.6;color:var(--muted)}
+
+/* ── Countdown ── */
+.countdown{font-size:11px;color:var(--accent);font-variant-numeric:tabular-nums}
+
 /* ── Loading / Error ── */
 .loading{text-align:center;padding:60px 20px;color:var(--muted)}
 .spinner{width:30px;height:30px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 12px}
@@ -188,6 +194,7 @@ a:hover{text-decoration:underline}
   <div class="logo">Market <span>Sentinel</span><div style="font-size:10px;font-weight:400;color:var(--muted);letter-spacing:.3px;margin-top:1px">by David Tse</div></div>
   <div class="header-meta">
     <span class="last-updated" id="lastUpdated">Loading…</span>
+    <span class="countdown" id="countdown"></span>
     <button class="refresh-btn" onclick="loadData()">⟳ Refresh</button>
   </div>
 </div>
@@ -388,6 +395,32 @@ function switchTab(name, el) {
   document.getElementById('tab-' + name).classList.add('active');
 }
 
+// ── Countdown ────────────────────────────────────────────────────────────
+let _cdTimer = null;
+function startCountdown(updatedAt) {
+  clearInterval(_cdTimer);
+  const next = new Date(new Date(updatedAt).getTime() + 10 * 60 * 1000);
+  const el = document.getElementById('countdown');
+  function tick() {
+    const diff = next - Date.now();
+    if (diff <= 0) { clearInterval(_cdTimer); loadData(); return; }
+    const m = Math.floor(diff / 60000);
+    const s = Math.floor((diff % 60000) / 1000);
+    el.textContent = `· next update in ${m}:${String(s).padStart(2,'0')}`;
+  }
+  tick();
+  _cdTimer = setInterval(tick, 1000);
+}
+
+// ── AI Summary ───────────────────────────────────────────────────────────
+function renderSummary(summary) {
+  if (!summary || !summary.summary) return '';
+  const color = summary.outlook === 'Bullish' ? 'green' : summary.outlook === 'Bearish' ? 'red' : 'yellow';
+  // Strip "Bullish:" / "Bearish:" / "Mixed:" prefix from body (already shown in badge)
+  const body = summary.summary.replace(/^(bullish|bearish|mixed):\s*/i, '');
+  return `<div class="ai-summary"><span class="badge ${color}" style="margin-right:6px">${summary.outlook}</span>${body}</div>`;
+}
+
 // ── Helpers ──────────────────────────────────────────────────────────────
 const fmtPrice = v => v == null ? '—' : v >= 1000
   ? '$' + v.toLocaleString('en', {maximumFractionDigits:0})
@@ -487,7 +520,8 @@ function renderCrypto(c) {
 
   // Polymarket
   document.getElementById('crypto-polymarket').innerHTML =
-    (c.polymarket || []).map(m => `
+    renderSummary(c.polymarket_summary) +
+    ((c.polymarket || []).map(m => `
       <div class="poly-item">
         <div class="poly-title">${m.title}</div>
         <div class="poly-meta">
@@ -495,20 +529,22 @@ function renderCrypto(c) {
           <div class="prob-bar"><div class="prob-fill" style="width:${Math.round(m.yes_price*100)}%"></div></div>
           <span class="poly-yes" style="color:var(--blue)">${Math.round(m.yes_price*100)}% Yes</span>
         </div>
-      </div>`).join('') || '<div style="color:var(--muted)">No active markets</div>';
+      </div>`).join('') || '<div style="color:var(--muted)">No active markets</div>');
 
   // News
   document.getElementById('crypto-news').innerHTML =
-    (c.news || []).slice(0, 10).map(n => `
+    renderSummary(c.news_summary) +
+    ((c.news || []).slice(0, 10).map(n => `
       <div class="news-item">
         <span class="news-source">${n.source}</span>
         <a class="news-title" href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
         <div class="news-right">${badge(n.sentiment, n.color)}</div>
-      </div>`).join('') || '<div style="color:var(--muted)">No news</div>';
+      </div>`).join('') || '<div style="color:var(--muted)">No news</div>');
 
   // Reddit
   document.getElementById('crypto-reddit').innerHTML =
-    (c.reddit || []).map(r => `
+    renderSummary(c.reddit_summary) +
+    ((c.reddit || []).map(r => `
       <div class="reddit-sub">
         <div>
           <a href="https://reddit.com/${r.subreddit}" class="reddit-name" target="_blank">${r.subreddit}</a>
@@ -516,7 +552,7 @@ function renderCrypto(c) {
           <div class="reddit-top">${r.top_post ? r.top_post.slice(0,80)+'…' : ''}</div>
         </div>
         <span class="reddit-score">Activity ${r.activity_score}/100</span>
-      </div>`).join('') || '<div style="color:var(--muted)">No Reddit data</div>';
+      </div>`).join('') || '<div style="color:var(--muted)">No Reddit data</div>');
 }
 
 // ── Render Stocks ─────────────────────────────────────────────────────────
@@ -564,7 +600,8 @@ function renderStocks(s) {
 
   // Polymarket finance
   document.getElementById('stock-polymarket').innerHTML =
-    (s.polymarket || []).map(m => `
+    renderSummary(s.polymarket_summary) +
+    ((s.polymarket || []).map(m => `
       <div class="poly-item">
         <div class="poly-title">${m.title}</div>
         <div class="poly-meta">
@@ -572,20 +609,22 @@ function renderStocks(s) {
           <div class="prob-bar"><div class="prob-fill" style="width:${Math.round(m.yes_price*100)}%"></div></div>
           <span class="poly-yes" style="color:var(--blue)">${Math.round(m.yes_price*100)}% Yes</span>
         </div>
-      </div>`).join('') || '<div style="color:var(--muted)">No active markets</div>';
+      </div>`).join('') || '<div style="color:var(--muted)">No active markets</div>');
 
   // News
   document.getElementById('stock-news').innerHTML =
-    (s.news || []).slice(0, 10).map(n => `
+    renderSummary(s.news_summary) +
+    ((s.news || []).slice(0, 10).map(n => `
       <div class="news-item">
         <span class="news-source">${n.source}</span>
         <a class="news-title" href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
         <div class="news-right">${badge(n.sentiment, n.color)}</div>
-      </div>`).join('') || '<div style="color:var(--muted)">No news</div>';
+      </div>`).join('') || '<div style="color:var(--muted)">No news</div>');
 
   // Reddit
   document.getElementById('stock-reddit').innerHTML =
-    (s.reddit || []).map(r => `
+    renderSummary(s.reddit_summary) +
+    ((s.reddit || []).map(r => `
       <div class="reddit-sub">
         <div>
           <a href="https://reddit.com/${r.subreddit}" class="reddit-name" target="_blank">${r.subreddit}</a>
@@ -593,7 +632,7 @@ function renderStocks(s) {
           <div class="reddit-top">${r.top_post ? r.top_post.slice(0,80)+'…' : ''}</div>
         </div>
         <span class="reddit-score">Activity ${r.activity_score}/100</span>
-      </div>`).join('') || '<div style="color:var(--muted)">No Reddit data</div>';
+      </div>`).join('') || '<div style="color:var(--muted)">No Reddit data</div>');
 }
 
 // ── Load & Render ─────────────────────────────────────────────────────────
@@ -603,11 +642,12 @@ async function loadData() {
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     DATA = await resp.json();
 
-    // Header timestamp
+    // Header timestamp + countdown
     const d = new Date(DATA.updated_at);
     document.getElementById('lastUpdated').textContent =
       'Updated ' + d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) +
       ' · ' + d.toLocaleDateString([], {month:'short', day:'numeric'});
+    startCountdown(DATA.updated_at);
 
     // Crypto
     document.getElementById('crypto-loading').style.display = 'none';
