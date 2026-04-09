@@ -23,6 +23,34 @@ def fetch_fear_greed() -> dict:
         print(f"  [FearGreed] failed: {e}")
         return {"value": 50, "label": "Neutral", "previous_value": 50, "previous_label": "Neutral"}
 
+def fetch_coingecko_trending() -> list[dict]:
+    """Top 7 trending coins on CoinGecko in the last 24h (search-based social signal)."""
+    try:
+        r = requests.get(
+            "https://api.coingecko.com/api/v3/search/trending",
+            headers=HEADERS, timeout=10,
+        )
+        r.raise_for_status()
+        coins = r.json().get("coins", [])
+        return [
+            {
+                "symbol":     c["item"]["symbol"].upper(),
+                "name":       c["item"]["name"],
+                "rank":       c["item"].get("market_cap_rank", 999),
+                "score":      round(c["item"].get("score", 0), 2),
+                "change_24h": round(
+                    (c["item"].get("data") or {})
+                    .get("price_change_percentage_24h", {})
+                    .get("usd", 0), 2
+                ),
+            }
+            for c in coins[:7]
+        ]
+    except Exception as e:
+        print(f"  [CoinGecko Trending] failed: {e}")
+        return []
+
+
 def fetch_crypto_prices(symbols: list[str] = None) -> list[dict]:
     if symbols is None:
         symbols = ["bitcoin","ethereum","solana","binancecoin","ripple",

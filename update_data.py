@@ -13,14 +13,15 @@ from collections import Counter
 # Ensure scrapers package is importable
 sys.path.insert(0, os.path.dirname(__file__))
 
-from scrapers.news_rss    import fetch_crypto_news, fetch_stock_news
-from scrapers.reddit_data import fetch_crypto_reddit, fetch_stock_reddit
-from scrapers.polymarket  import fetch_polymarket
-from scrapers.fear_greed  import fetch_fear_greed, fetch_crypto_prices
-from scrapers.stocks_data import fetch_stock_prices, fetch_market_indices, market_mood_score
-from scrapers.portfolio   import fetch_portfolio
-from scrapers.sentiment   import analyze_headlines, sentiment_label, sentiment_color, generate_summary
-from scrapers.assets      import CRYPTO_ASSETS, STOCK_ASSETS
+from scrapers.news_rss       import fetch_crypto_news, fetch_stock_news
+from scrapers.reddit_data    import fetch_crypto_reddit, fetch_stock_reddit
+from scrapers.polymarket     import fetch_polymarket
+from scrapers.fear_greed     import fetch_fear_greed, fetch_crypto_prices, fetch_coingecko_trending
+from scrapers.stocks_data    import fetch_stock_prices, fetch_market_indices, market_mood_score
+from scrapers.portfolio      import fetch_portfolio
+from scrapers.sentiment      import analyze_headlines, sentiment_label, sentiment_color, generate_summary
+from scrapers.assets         import CRYPTO_ASSETS, STOCK_ASSETS
+from scrapers.fourchain_data import fetch_biz_sentiment
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "market_data.json")
 
@@ -133,6 +134,13 @@ def run():
     stock_mentions_raw = aggregate_mentions(stock_reddit)
     stock_mentions = enrich_stock_mentions(stock_mentions_raw, stock_prices)
 
+    # ── Social: 4chan /biz/ + CoinGecko Trending ────────────────────────────
+    print("  Fetching 4chan /biz/ sentiment...")
+    fourchain = fetch_biz_sentiment()
+
+    print("  Fetching CoinGecko trending searches...")
+    cg_trending = fetch_coingecko_trending()
+
     # ── Portfolio ───────────────────────────────────────────────────────
     print("  Fetching portfolio ETFs...")
     portfolio = fetch_portfolio()
@@ -176,6 +184,8 @@ def run():
             "reddit":             crypto_reddit,
             "reddit_summary":     crypto_reddit_summary,
             "news_summary":       crypto_news_summary,
+            "fourchain":          fourchain,
+            "cg_trending":        cg_trending,
         },
         "stocks": {
             "indices":         indices,
