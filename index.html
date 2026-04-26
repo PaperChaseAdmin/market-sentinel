@@ -12,537 +12,497 @@
   gtag('js', new Date());
   gtag('config', 'G-Z9PVD9YYWB');
 </script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
 /* ═══════════════════════════════════════════════
-   MARKET SENTINEL — CYBERPUNK EDITION
+   MARKET SENTINEL — PAPERCHASE EDITION
    ═══════════════════════════════════════════════ */
 :root {
-  --bg:         #020912;
-  --surface:    #04101f;
-  --surface2:   #061628;
-  --border:     rgba(0,255,255,0.10);
-  --border-hi:  rgba(0,255,255,0.40);
-  --text:       #a8d8f0;
-  --muted:      #2d5060;
-  --green:      #00ff88;
-  --red:        #ff1a55;
-  --yellow:     #ffe600;
-  --blue:       #00aaff;
-  --purple:     #cc00ff;
-  --accent:     #00ffff;
-  --magenta:    #ff00cc;
+  --bg:         #0d1117;
+  --surface:    #161b22;
+  --surface-2:  #1c2330;
+  --border:     #21262d;
+  --border-2:   #30363d;
+  --text:       #e6edf3;
+  --text-2:     #8b949e;
+  --text-3:     #484f58;
+  --profit:     #3fb950;
+  --loss:       #f85149;
+  --amber:      #d29922;
+  --accent:     #388bfd;
+  --font:       'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono:       'JetBrains Mono', 'Fira Code', monospace;
+  --radius:     6px;
+  --shadow:     0 1px 3px rgba(0,0,0,.4), 0 4px 12px rgba(0,0,0,.2);
 }
-*{box-sizing:border-box;margin:0;padding:0}
-body{
-  background:var(--bg);
-  background-image:
-    linear-gradient(rgba(0,255,255,0.022) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(0,255,255,0.022) 1px,transparent 1px);
-  background-size:32px 32px;
-  color:var(--text);
-  font-family:'Courier New',Consolas,'Lucida Console',monospace;
-  font-size:14px;line-height:1.55
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
 }
-/* scanline overlay */
-body::after{
-  content:'';position:fixed;inset:0;
-  background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.06) 2px,rgba(0,0,0,0.06) 4px);
-  pointer-events:none;z-index:9999
-}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-shadow:0 0 8px var(--accent)}
 
-/* ── Header ── */
-.header{
-  background:rgba(4,16,31,0.95);
-  border-bottom:1px solid var(--border-hi);
-  box-shadow:0 2px 30px rgba(0,255,255,0.08);
-  padding:12px 20px;display:flex;align-items:center;justify-content:space-between;
-  flex-wrap:wrap;gap:8px;position:sticky;top:0;z-index:100;
-  backdrop-filter:blur(4px)
+/* ── Topbar ── */
+.topbar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 100;
 }
-@keyframes neon-flicker{
-  0%,94%,100%{text-shadow:0 0 12px rgba(0,255,255,.9),0 0 28px rgba(0,255,255,.4),0 0 50px rgba(0,255,255,.15)}
-  95%{text-shadow:none;opacity:.85}
-  97%{text-shadow:0 0 12px rgba(0,255,255,.9),0 0 28px rgba(0,255,255,.4)}
-  98%{text-shadow:none;opacity:.9}
+.topbar-inner {
+  max-width: 1400px; margin: 0 auto; padding: 0 20px;
+  display: flex; align-items: center; gap: 24px; height: 52px;
 }
-.logo{
-  font-size:17px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
-  color:var(--accent);
-  animation:neon-flicker 10s infinite
+.logo { font-size: 15px; font-weight: 700; color: var(--text); text-decoration: none; letter-spacing: -.3px; }
+.logo span { color: var(--accent); }
+.topbar-nav { display: flex; gap: 4px; margin-left: auto; }
+.nav-link {
+  font-size: 13px; color: var(--text-2); text-decoration: none;
+  padding: 5px 12px; border-radius: var(--radius); transition: all .15s;
 }
-.logo span{color:var(--text);font-weight:400;letter-spacing:1px;text-shadow:none}
-.logo-sub{font-size:9px;font-weight:400;color:var(--muted);letter-spacing:2px;margin-top:1px;text-shadow:none;animation:none}
-.header-meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.last-updated{color:var(--muted);font-size:10px;letter-spacing:.5px}
-.refresh-btn{
-  background:transparent;border:1px solid var(--border-hi);
-  color:var(--accent);padding:4px 14px;border-radius:1px;cursor:pointer;
-  font-size:11px;font-family:monospace;letter-spacing:2px;text-transform:uppercase;
-  transition:.15s
-}
-.refresh-btn:hover{background:rgba(0,255,255,0.08);box-shadow:0 0 12px rgba(0,255,255,.25)}
-
-/* ── Tabs ── */
-.tabs{
-  display:flex;gap:0;
-  background:rgba(4,16,31,0.98);
-  border-bottom:1px solid var(--border);
-  padding:0 20px
-}
-.tab{
-  padding:10px 22px;cursor:pointer;
-  font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;
-  border-bottom:2px solid transparent;color:var(--muted);transition:.15s;
-  font-family:monospace
-}
-.tab.active{
-  color:var(--accent);border-bottom-color:var(--accent);
-  text-shadow:0 0 10px rgba(0,255,255,.7)
-}
-.tab:hover{color:var(--text)}
+.nav-link:hover, .nav-link.active { background: var(--surface-2); color: var(--text); }
 
 /* ── Layout ── */
-.section{display:none;padding:16px 20px;max-width:1400px;margin:0 auto}
-.section.active{display:block}
-.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-.full{grid-column:1/-1}
+.container { max-width: 1400px; margin: 0 auto; padding: 0 20px 80px; }
 
-/* ── Cards ── */
-.card{
-  background:var(--surface);
-  border:1px solid var(--border);
-  border-radius:2px;padding:16px;
-  position:relative;
-  box-shadow:0 0 20px rgba(0,255,255,0.04),inset 0 0 40px rgba(0,255,255,0.012)
+/* ── Page Header ── */
+.page-header { padding: 32px 0 0; margin-bottom: 20px; display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.page-title { font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.page-sub { font-size: 13px; color: var(--text-2); }
+.header-meta { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--text-2); }
+.refresh-btn {
+  font-size: 12px; font-weight: 500; padding: 5px 12px; border-radius: var(--radius);
+  border: 1px solid var(--border-2); color: var(--text-2); background: none;
+  cursor: pointer; transition: all .15s;
 }
-.card::before{
-  content:'';position:absolute;top:-1px;left:-1px;
-  width:16px;height:16px;
-  border-top:2px solid var(--accent);border-left:2px solid var(--accent)
+.refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ── Tabs ── */
+.tabs-wrap { border-bottom: 1px solid var(--border); margin-bottom: 24px; display: flex; gap: 0; }
+.tab {
+  padding: 10px 20px; cursor: pointer; font-size: 13px; font-weight: 500; color: var(--text-2);
+  border-bottom: 2px solid transparent; transition: all .15s; text-decoration: none;
 }
-.card::after{
-  content:'';position:absolute;bottom:-1px;right:-1px;
-  width:16px;height:16px;
-  border-bottom:2px solid var(--accent);border-right:2px solid var(--accent)
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--text); border-bottom-color: var(--accent); }
+
+/* ── Sections ── */
+.section { display: none; }
+.section.active { display: block; }
+
+/* ── Grid ── */
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.full { grid-column: 1 / -1; }
+
+@media (max-width: 900px) {
+  .grid-3, .grid-2 { grid-template-columns: 1fr; }
 }
-.card-title{
-  font-size:10px;text-transform:uppercase;letter-spacing:2px;
-  color:var(--accent);margin-bottom:12px;font-weight:700;
-  text-shadow:0 0 8px rgba(0,255,255,.5)
+
+/* ── Card ── */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  margin-bottom: 14px;
 }
+.card-title {
+  font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--text-2); margin-bottom: 14px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Stats ── */
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px,1fr)); gap: 10px; }
+.stat-label { font-size: 10px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--text-2); margin-bottom: 4px; }
 
 /* ── Fear & Greed Gauge ── */
-.gauge-wrap{display:flex;flex-direction:column;align-items:center}
-.gauge-svg{width:180px;height:110px}
-.gauge-value{font-size:36px;font-weight:700;margin-top:4px;font-family:monospace;letter-spacing:2px}
-.gauge-label{font-size:11px;color:var(--muted);margin-top:2px;letter-spacing:2px;text-transform:uppercase}
-.gauge-delta{font-size:10px;margin-top:4px;font-family:monospace}
+.gauge-wrap { display: flex; flex-direction: column; align-items: center; }
+.gauge-svg { width: 180px; height: 110px; }
+.gauge-value { font-size: 36px; font-weight: 700; margin-top: 4px; font-family: var(--mono); }
+.gauge-label { font-size: 11px; color: var(--text-2); margin-top: 2px; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+.gauge-delta { font-size: 11px; margin-top: 4px; font-family: var(--mono); }
 
-/* ── Sentiment Badge ── */
-.badge{
-  display:inline-block;padding:2px 8px;border-radius:1px;
-  font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
-  font-family:monospace
+/* ── Sentiment bars ── */
+.sentiment-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.sentiment-label { font-size: 11px; color: var(--text-2); min-width: 70px; }
+.bar-track { flex: 1; height: 4px; background: var(--surface-2); border-radius: 2px; }
+.bar-fill { height: 4px; border-radius: 2px; transition: width .4s; }
+
+/* ── Badges ── */
+.badge {
+  display: inline-flex; align-items: center;
+  font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 3px;
 }
-.badge.green{background:rgba(0,255,136,.1);color:var(--green);border:1px solid rgba(0,255,136,.35);box-shadow:0 0 6px rgba(0,255,136,.2)}
-.badge.red{background:rgba(255,26,85,.1);color:var(--red);border:1px solid rgba(255,26,85,.35);box-shadow:0 0 6px rgba(255,26,85,.2)}
-.badge.yellow{background:rgba(255,230,0,.1);color:var(--yellow);border:1px solid rgba(255,230,0,.35);box-shadow:0 0 6px rgba(255,230,0,.2)}
+.badge.green  { background: rgba(63,185,80,.15);  color: var(--profit); }
+.badge.red    { background: rgba(248,81,73,.15);  color: var(--loss);   }
+.badge.yellow { background: rgba(139,148,158,.1); color: var(--text-2); }
 
-/* ── Sentiment Bar ── */
-.sentiment-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
-.sentiment-label{font-size:10px;color:var(--muted);min-width:70px;text-transform:uppercase;letter-spacing:.5px}
-.bar-track{flex:1;height:3px;background:var(--surface2);border-radius:0;margin:0 10px}
-.bar-fill{height:3px;border-radius:0;transition:width .4s}
+/* ── Price rows ── */
+.price-row { display: flex; align-items: center; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid var(--border); }
+.price-row:last-child { border-bottom: none; }
+.price-sym { font-weight: 600; font-size: 13px; min-width: 55px; color: var(--text); font-family: var(--mono); }
+.price-val { font-size: 13px; color: var(--text); font-family: var(--mono); }
+.change-up { color: var(--profit); font-size: 12px; font-weight: 600; }
+.change-dn { color: var(--loss);   font-size: 12px; font-weight: 600; }
+.change-nt { color: var(--text-3); font-size: 12px; }
+.mention-count { font-size: 11px; color: var(--text-2); min-width: 80px; text-align: right; }
 
-/* ── Price List ── */
-.price-row{display:flex;align-items:center;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(0,255,255,0.05)}
-.price-row:last-child{border-bottom:none}
-.price-sym{font-weight:700;font-size:12px;min-width:55px;color:var(--accent);letter-spacing:1.5px}
-.price-val{font-size:12px;color:var(--text)}
-.change-up{color:var(--green);font-size:11px;font-weight:700;text-shadow:0 0 6px rgba(0,255,136,.5)}
-.change-dn{color:var(--red);font-size:11px;font-weight:700;text-shadow:0 0 6px rgba(255,26,85,.5)}
-.change-nt{color:var(--muted);font-size:11px}
-.mention-count{font-size:10px;color:var(--purple);min-width:70px;text-align:right;letter-spacing:.5px;text-shadow:0 0 6px rgba(204,0,255,.4)}
-
-/* ── News Feed ── */
-.news-item{padding:8px 0;border-bottom:1px solid rgba(0,255,255,0.05);display:flex;gap:10px;align-items:flex-start}
-.news-item:last-child{border-bottom:none}
-.news-source{font-size:9px;color:var(--muted);min-width:68px;margin-top:2px;text-transform:uppercase;letter-spacing:.5px}
-.news-title{font-size:12px;line-height:1.4;flex:1;color:var(--text)}
-.news-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;min-width:60px}
+/* ── News feed ── */
+.news-item { padding: 8px 0; border-bottom: 1px solid var(--border); display: flex; gap: 10px; align-items: flex-start; }
+.news-item:last-child { border-bottom: none; }
+.news-source { font-size: 10px; color: var(--text-3); min-width: 68px; margin-top: 1px; text-transform: uppercase; font-weight: 600; }
+.news-title { font-size: 12px; line-height: 1.5; flex: 1; color: var(--text-2); }
+.news-title:hover { color: var(--accent); }
+.news-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; min-width: 60px; }
 
 /* ── Polymarket ── */
-.poly-item{padding:8px 0;border-bottom:1px solid rgba(0,255,255,0.05)}
-.poly-item:last-child{border-bottom:none}
-.poly-title{font-size:12px;margin-bottom:5px;line-height:1.4;color:var(--text)}
-.poly-meta{display:flex;align-items:center;gap:10px}
-.poly-vol{font-size:10px;color:var(--muted)}
-.poly-yes{font-size:11px;font-weight:700;color:var(--blue);text-shadow:0 0 6px rgba(0,170,255,.5)}
-.prob-bar{flex:1;height:3px;background:var(--surface2);border-radius:0}
-.prob-fill{height:3px;border-radius:0;background:var(--blue);box-shadow:0 0 6px rgba(0,170,255,.5)}
+.poly-item { padding: 8px 0; border-bottom: 1px solid var(--border); }
+.poly-item:last-child { border-bottom: none; }
+.poly-title { font-size: 12px; margin-bottom: 5px; line-height: 1.5; color: var(--text); }
+.poly-meta { display: flex; align-items: center; gap: 10px; }
+.poly-vol { font-size: 10px; color: var(--text-3); }
+.poly-yes { font-size: 11px; font-weight: 700; color: var(--accent); font-family: var(--mono); }
+.prob-bar { flex: 1; height: 4px; background: var(--surface-2); border-radius: 2px; }
+.prob-fill { height: 4px; border-radius: 2px; background: var(--accent); }
 
 /* ── Reddit ── */
-.reddit-sub{display:flex;align-items:center;justify-content:space-between;padding:7px 0;border-bottom:1px solid rgba(0,255,255,0.05)}
-.reddit-sub:last-child{border-bottom:none}
-.reddit-name{font-size:12px;font-weight:700;color:var(--purple);text-shadow:0 0 6px rgba(204,0,255,.4)}
-.reddit-score{font-size:10px;color:var(--muted)}
-.reddit-top{font-size:10px;color:var(--muted);margin-top:2px;line-height:1.3}
-.activity-bar{width:60px;height:3px;background:var(--surface2);border-radius:0;margin-top:4px}
-.activity-fill{height:3px;border-radius:0;background:var(--purple);box-shadow:0 0 5px rgba(204,0,255,.5)}
+.reddit-sub { display: flex; align-items: center; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid var(--border); }
+.reddit-sub:last-child { border-bottom: none; }
+.reddit-name { font-size: 12px; font-weight: 600; color: var(--text); font-family: var(--mono); }
+.reddit-score { font-size: 10px; color: var(--text-3); }
+.reddit-top { font-size: 10px; color: var(--text-3); margin-top: 2px; line-height: 1.4; }
+
+/* ── Activity bar ── */
+.activity-bar { width: 60px; height: 3px; background: var(--surface-2); border-radius: 2px; margin-top: 4px; }
+.activity-fill { height: 3px; border-radius: 2px; background: var(--accent); }
 
 /* ── Index Cards ── */
-.index-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
-.index-item{
-  background:var(--surface2);border:1px solid var(--border);border-radius:2px;padding:10px;
-  position:relative;overflow:hidden
-}
-.index-item::before{content:'';position:absolute;top:0;left:0;width:2px;height:100%;background:var(--accent);opacity:.4}
-.index-name{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px}
-.index-val{font-size:18px;font-weight:700;margin-top:2px}
-.index-chg{font-size:12px;margin-top:1px}
+.index-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.index-item { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; }
+.index-name { font-size: 10px; color: var(--text-2); text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+.index-val { font-size: 18px; font-weight: 700; margin-top: 2px; font-family: var(--mono); }
+.index-chg { font-size: 12px; margin-top: 1px; font-family: var(--mono); font-weight: 600; }
 
-/* ── Mood Meter ── */
-.mood-score{font-size:42px;font-weight:700;text-align:center;margin:8px 0 4px;letter-spacing:4px}
-.mood-label{text-align:center;font-size:11px;color:var(--muted);letter-spacing:2px;text-transform:uppercase}
-
-/* ── Disclaimer ── */
-.disclaimer{
-  background:rgba(255,26,85,0.04);border:1px solid rgba(255,26,85,.18);
-  border-radius:2px;padding:12px 16px;margin:16px 0 4px;
-  font-size:10px;color:var(--muted);line-height:1.6
-}
-.disclaimer strong{color:var(--red)}
-
-/* ── Portfolio ── */
-.etf-card{
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:2px;padding:16px;display:flex;flex-direction:column;gap:10px;
-  position:relative
-}
-.etf-card::before{content:'';position:absolute;top:-1px;left:-1px;width:16px;height:16px;border-top:2px solid var(--accent);border-left:2px solid var(--accent)}
-.etf-card::after{content:'';position:absolute;bottom:-1px;right:-1px;width:16px;height:16px;border-bottom:2px solid var(--accent);border-right:2px solid var(--accent)}
-.etf-header{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
-.etf-sym{font-size:22px;font-weight:700;letter-spacing:3px;color:var(--accent);text-shadow:0 0 10px rgba(0,255,255,.5)}
-.etf-name{font-size:11px;color:var(--muted);margin-top:2px;line-height:1.3}
-.etf-type{font-size:9px;background:transparent;border:1px solid var(--border-hi);padding:2px 7px;border-radius:1px;color:var(--accent);white-space:nowrap;letter-spacing:1px;text-transform:uppercase}
-.etf-price-row{display:flex;align-items:baseline;gap:10px}
-.etf-price{font-size:24px;font-weight:700;color:var(--text)}
-.etf-chg{font-size:14px;font-weight:700}
-.etf-perf-row{display:flex;gap:12px;flex-wrap:wrap}
-.etf-perf-item{display:flex;flex-direction:column;align-items:center}
-.etf-perf-label{font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
-.etf-perf-val{font-size:13px;font-weight:700;margin-top:1px}
-.etf-divider,.divider{height:1px;background:var(--border)}
-.etf-outlook{background:var(--surface2);border:1px solid var(--border);border-radius:2px;padding:12px}
-.outlook-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
-.outlook-label{font-size:14px;font-weight:700;letter-spacing:2px;text-transform:uppercase}
-.outlook-conf{font-size:9px;color:var(--muted);background:transparent;border:1px solid var(--border);padding:2px 7px;border-radius:1px;letter-spacing:.5px;text-transform:uppercase}
-.outlook-reasons{list-style:none;display:flex;flex-direction:column;gap:4px}
-.outlook-reasons li{font-size:11px;color:var(--muted);padding-left:14px;position:relative}
-.outlook-reasons li::before{content:'›';position:absolute;left:0;color:var(--accent);font-size:14px;line-height:1}
-.rsi-row{display:flex;align-items:center;gap:8px;margin-top:4px}
-.rsi-label{font-size:9px;color:var(--muted);min-width:26px;text-transform:uppercase;letter-spacing:.5px}
-.rsi-track{flex:1;height:4px;background:var(--surface);border-radius:0;position:relative}
-.rsi-zones{position:absolute;inset:0;display:flex}
-.rsi-zone-fear{width:30%;background:rgba(0,255,136,.15);border-radius:0}
-.rsi-zone-mid{width:40%;background:rgba(255,230,0,.07)}
-.rsi-zone-greed{width:30%;background:rgba(255,26,85,.15);border-radius:0}
-.rsi-dot{position:absolute;top:-4px;width:12px;height:12px;border-radius:50%;border:2px solid var(--bg);transform:translateX(-50%);box-shadow:0 0 8px currentColor}
-.rsi-val{font-size:12px;font-weight:700;min-width:30px;text-align:right}
-.div-yield-row{display:flex;align-items:center;justify-content:space-between}
-.div-yield-val{font-size:18px;font-weight:700;color:var(--blue);text-shadow:0 0 8px rgba(0,170,255,.5)}
-.div-yield-label{font-size:10px;color:var(--muted)}
-.week52-row{display:flex;gap:4px;align-items:center;font-size:10px;color:var(--muted)}
-.week52-bar{flex:1;height:3px;background:var(--surface);border-radius:0;position:relative}
-.week52-fill{position:absolute;height:3px;background:var(--accent);border-radius:0;box-shadow:0 0 5px rgba(0,255,255,.5)}
-.portfolio-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-@media(max-width:480px){.portfolio-grid{grid-template-columns:1fr}}
-
-/* ── Source Notes ── */
-.source-note{font-size:9px;color:var(--muted);margin-top:10px;padding-top:8px;border-top:1px solid rgba(0,255,255,0.05);line-height:1.5}
-.source-note strong{color:#3a6070;text-transform:uppercase;letter-spacing:.3px}
+/* ── Mood Score ── */
+.mood-score { font-size: 42px; font-weight: 700; text-align: center; margin: 8px 0 4px; font-family: var(--mono); }
+.mood-label { text-align: center; font-size: 11px; color: var(--text-2); text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
 
 /* ── AI Summary ── */
-.ai-summary{
-  background:rgba(0,255,255,0.03);
-  border:1px solid rgba(0,255,255,0.10);
-  border-left:2px solid var(--accent);
-  border-radius:2px;padding:8px 10px;margin-bottom:10px;
-  font-size:11px;line-height:1.6;color:var(--muted)
+.ai-summary {
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius); padding: 10px 12px; margin-bottom: 10px;
+  font-size: 12px; line-height: 1.6; color: var(--text-2);
 }
 
-/* ── Countdown ── */
-.countdown{font-size:10px;color:var(--accent);font-variant-numeric:tabular-nums;text-shadow:0 0 8px rgba(0,255,255,.5);letter-spacing:.5px}
+/* ── Disclaimer ── */
+.disclaimer {
+  background: rgba(248,81,73,.05); border: 1px solid rgba(248,81,73,.15);
+  border-radius: var(--radius); padding: 12px 16px; margin: 16px 0 4px;
+  font-size: 11px; color: var(--text-2); line-height: 1.6;
+}
+.disclaimer strong { color: var(--loss); }
+
+/* ── Portfolio Cards ── */
+.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.etf-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px; display: flex; flex-direction: column; gap: 12px;
+  box-shadow: var(--shadow);
+}
+.etf-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.etf-sym { font-size: 22px; font-weight: 700; font-family: var(--mono); color: var(--text); }
+.etf-name { font-size: 11px; color: var(--text-2); margin-top: 2px; line-height: 1.3; }
+.etf-type { font-size: 9px; font-weight: 600; padding: 2px 7px; border-radius: 3px; text-transform: uppercase; letter-spacing: .05em; background: var(--surface-2); color: var(--text-2); border: 1px solid var(--border-2); }
+.etf-price-row { display: flex; align-items: baseline; gap: 10px; }
+.etf-price { font-size: 24px; font-weight: 700; color: var(--text); font-family: var(--mono); }
+.etf-chg { font-size: 14px; font-weight: 700; font-family: var(--mono); }
+.etf-perf-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.etf-perf-item { display: flex; flex-direction: column; }
+.etf-perf-label { font-size: 9px; color: var(--text-2); text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+.etf-perf-val { font-size: 13px; font-weight: 700; margin-top: 1px; font-family: var(--mono); }
+.etf-divider, .divider { height: 1px; background: var(--border); }
+.etf-outlook {
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 12px 14px;
+}
+.outlook-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.outlook-label { font-size: 13px; font-weight: 700; }
+.outlook-conf { font-size: 9px; color: var(--text-3); padding: 2px 7px; border-radius: 3px; background: var(--surface); text-transform: uppercase; letter-spacing: .05em; }
+.outlook-reasons { list-style: none; display: flex; flex-direction: column; gap: 4px; }
+.outlook-reasons li { font-size: 11px; color: var(--text-2); padding-left: 12px; position: relative; }
+.outlook-reasons li::before { content: "›"; position: absolute; left: 0; color: var(--accent); }
+.rsi-row { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+.rsi-label { font-size: 9px; color: var(--text-2); min-width: 26px; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+.rsi-track { flex: 1; height: 4px; background: var(--bg); border-radius: 2px; position: relative; }
+.rsi-zones { position: absolute; inset: 0; display: flex; }
+.rsi-zone-fear  { width: 30%; background: rgba(63,185,80,.15); border-radius: 2px 0 0 2px; }
+.rsi-zone-mid   { width: 40%; background: rgba(210,153,34,.08); }
+.rsi-zone-greed { width: 30%; background: rgba(248,81,73,.15); border-radius: 0 2px 2px 0; }
+.rsi-dot { position: absolute; top: -4px; width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--bg); transform: translateX(-50%); }
+.rsi-val { font-size: 12px; font-weight: 700; min-width: 28px; text-align: right; font-family: var(--mono); }
+.div-yield-row { display: flex; align-items: center; justify-content: space-between; }
+.div-yield-val { font-size: 16px; font-weight: 700; color: var(--accent); font-family: var(--mono); }
+.div-yield-label { font-size: 10px; color: var(--text-2); text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+.week52-row { display: flex; gap: 4px; align-items: center; font-size: 10px; color: var(--text-2); }
+.week52-bar { flex: 1; height: 3px; background: var(--surface-2); border-radius: 2px; position: relative; }
+.week52-fill { position: absolute; height: 3px; background: var(--accent); border-radius: 2px; }
+
+/* ── Source notes ── */
+.source-note { font-size: 10px; color: var(--text-3); margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border); line-height: 1.5; }
+.source-note strong { color: var(--text-2); text-transform: uppercase; letter-spacing: .03em; }
+
+/* ── Section label ── */
+.section-label {
+  font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--text-2); margin-bottom: 12px; padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Live dot ── */
+.live { display: inline-block; width: 7px; height: 7px; background: var(--profit);
+  border-radius: 50%; margin-right: 5px; animation: blink 2s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
 
 /* ── Loading ── */
-.loading{text-align:center;padding:60px 20px;color:var(--muted);text-transform:uppercase;letter-spacing:3px;font-size:11px}
-.spinner{
-  width:28px;height:28px;
-  border:2px solid rgba(0,255,255,.15);border-top-color:var(--accent);
-  border-radius:50%;animation:spin .8s linear infinite;
-  margin:0 auto 12px;box-shadow:0 0 12px rgba(0,255,255,.3)
+.loading { padding: 60px 20px; text-align: center; color: var(--text-2); font-size: 13px; }
+.spinner {
+  width: 24px; height: 24px;
+  border: 2px solid var(--border); border-top-color: var(--accent);
+  border-radius: 50%; animation: spin .8s linear infinite;
+  margin: 0 auto 10px;
 }
-@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spin { to { transform: rotate(360deg); } }
 
-/* ── ETF card corners: same cyan as rest ── */
-.etf-card::before{border-top-color:var(--accent);border-left-color:var(--accent)}
-.etf-card::after{border-bottom-color:var(--accent);border-right-color:var(--accent)}
-.etf-card{box-shadow:0 0 20px rgba(0,255,255,0.04)}
+/* ── Countdown ── */
+.countdown { font-size: 12px; font-family: var(--mono); color: var(--text-2); }
 
-/* ── AI summary ── */
-.ai-summary{
-  background:rgba(0,255,255,0.03);
-  border:1px solid rgba(0,255,255,0.10);
-  border-left:3px solid var(--accent);
-  border-radius:2px;padding:8px 10px;margin-bottom:10px;
-  font-size:12px;line-height:1.6;color:#4a8a9a
-}
+/* ── Trending / 4chan ── */
+.trending-row { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid var(--border); }
+.trending-row:last-child { border-bottom: none; }
+.trending-sym { font-weight: 600; font-size: 12px; font-family: var(--mono); min-width: 55px; color: var(--text); }
+.trending-name { font-size: 11px; color: var(--text-2); flex: 1; }
 
-/* ── Poly yes % ── */
-.poly-yes{font-size:13px}
-
-/* ── Index value: bigger ── */
-.index-val{font-size:20px;font-weight:700;margin-top:2px}
-
-/* ── Mood score: neon glow ── */
-.mood-score{font-size:44px;font-weight:700;text-align:center;margin:8px 0 4px;letter-spacing:4px;text-shadow:0 0 20px currentColor}
-
-/* ── Mobile ── */
-@media(max-width:900px){
-  .grid-3,.grid-2{grid-template-columns:1fr}
-  .section{padding:12px}
-  .tabs{overflow-x:auto;padding:0 12px}
-}
-@media(max-width:480px){
-  .header{padding:10px 12px}
-  .logo{font-size:14px}
-  .index-grid{grid-template-columns:1fr 1fr}
+@media (max-width: 480px) {
+  .portfolio-grid { grid-template-columns: 1fr; }
+  .tab { padding: 10px 12px; font-size: 12px; }
+  .page-header { flex-direction: column; align-items: flex-start; }
 }
 </style>
 </head>
 <body>
 
-<div class="header">
-  <div class="logo">Market <span>Sentinel</span><div class="logo-sub">// by David Tse</div></div>
-  <div class="header-meta">
-    <span class="last-updated" id="lastUpdated">Loading…</span>
-    <span class="countdown" id="countdown"></span>
-    <button class="refresh-btn" onclick="loadData()">⟳ Refresh</button>
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a class="logo" href="/">Paper<span>Chase</span></a>
+    <div class="topbar-nav">
+      <a class="nav-link" href="/trade/">Leaderboard</a>
+      <a class="nav-link active" href="/market-sentinel/">Market Sentinel</a>
+      <a class="nav-link" href="/">Home</a>
+    </div>
   </div>
-</div>
+</nav>
 
-<div class="tabs">
-  <div class="tab active" onclick="switchTab('crypto',this)">🪙 Crypto</div>
-  <div class="tab" onclick="switchTab('stocks',this)">📈 Stocks</div>
-  <div class="tab" onclick="switchTab('portfolio',this)">💼 ETF Portfolio</div>
-</div>
+<div class="container">
 
-<!-- ═══ CRYPTO ═══ -->
-<div class="section active" id="tab-crypto">
-  <div class="loading" id="crypto-loading">
-    <div class="spinner"></div>Fetching market data…
+  <div class="page-header">
+    <div>
+      <div class="page-title">Market Sentinel</div>
+      <div class="page-sub">Crowd sentiment dashboard · <span id="tabIndicator">Crypto</span></div>
+    </div>
+    <div class="header-meta">
+      <span class="live"></span><span id="lastUpdated">Loading…</span>
+      <span class="countdown" id="countdown"></span>
+      <button class="refresh-btn" onclick="loadData()">⟳ Refresh</button>
+    </div>
   </div>
-  <div id="crypto-content" style="display:none">
 
-    <div class="grid-3">
-      <!-- Fear & Greed -->
-      <div class="card">
-        <div class="card-title">Fear & Greed Index</div>
-        <div class="gauge-wrap" style="flex:1">
-          <svg class="gauge-svg" viewBox="0 0 200 120" id="gauge-svg">
-            <!-- gradient arcs: extreme fear → greed (cyberpunk neon) -->
-            <path d="M20,100 A80,80,0,0,1,60.6,43.4" stroke="#ff1a55" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#glow-red)"/>
-            <path d="M60.6,43.4 A80,80,0,0,1,100,20" stroke="#ff7700" stroke-width="16" fill="none" stroke-linecap="round"/>
-            <path d="M100,20 A80,80,0,0,1,139.4,43.4" stroke="#ffe600" stroke-width="16" fill="none" stroke-linecap="round"/>
-            <path d="M139.4,43.4 A80,80,0,0,1,179.4,100" stroke="#00ff88" stroke-width="16" fill="none" stroke-linecap="round" filter="url(#glow-green)"/>
-            <defs>
-              <filter id="glow-red" x="-30%" y="-30%" width="160%" height="160%">
-                <feGaussianBlur stdDeviation="3" result="blur"/>
-                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-              </filter>
-              <filter id="glow-green" x="-30%" y="-30%" width="160%" height="160%">
-                <feGaussianBlur stdDeviation="3" result="blur"/>
-                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-              </filter>
-            </defs>
-            <!-- Needle -->
-            <line id="gauge-needle" x1="100" y1="100" x2="100" y2="30" stroke="#00ffff" stroke-width="2.5" stroke-linecap="round"
-              transform="rotate(0,100,100)"/>
-            <circle cx="100" cy="100" r="5" fill="#00ffff" style="filter:drop-shadow(0 0 4px #00ffff)"/>
-          </svg>
-          <div class="gauge-value" id="fg-value">—</div>
-          <div class="gauge-label" id="fg-label">Loading</div>
-          <div class="gauge-delta" id="fg-delta"></div>
+  <div class="tabs-wrap">
+    <a class="tab active" data-tab="crypto" onclick="switchTab('crypto', this)">🪙 Crypto</a>
+    <a class="tab" data-tab="stocks" onclick="switchTab('stocks', this)">📈 Stocks</a>
+    <a class="tab" data-tab="portfolio" onclick="switchTab('portfolio', this)">💼 ETF Portfolio</a>
+  </div>
+
+  <!-- ═══ CRYPTO ═══ -->
+  <div class="section active" id="tab-crypto">
+    <div class="loading" id="crypto-loading">
+      <div class="spinner"></div>Fetching market data…
+    </div>
+    <div id="crypto-content" style="display:none">
+
+      <div class="grid-3">
+        <!-- Fear & Greed -->
+        <div class="card">
+          <div class="card-title">Fear & Greed Index</div>
+          <div class="gauge-wrap">
+            <svg class="gauge-svg" viewBox="0 0 200 120" id="gauge-svg">
+              <path d="M20,100 A80,80,0,0,1,60.6,43.4" stroke="#f85149" stroke-width="16" fill="none" stroke-linecap="round"/>
+              <path d="M60.6,43.4 A80,80,0,0,1,100,20" stroke="#f97316" stroke-width="16" fill="none" stroke-linecap="round"/>
+              <path d="M100,20 A80,80,0,0,1,139.4,43.4" stroke="#d29922" stroke-width="16" fill="none" stroke-linecap="round"/>
+              <path d="M139.4,43.4 A80,80,0,0,1,179.4,100" stroke="#3fb950" stroke-width="16" fill="none" stroke-linecap="round"/>
+              <line id="gauge-needle" x1="100" y1="100" x2="100" y2="30" stroke="#388bfd" stroke-width="2.5" stroke-linecap="round" transform="rotate(0,100,100)"/>
+              <circle cx="100" cy="100" r="5" fill="#388bfd"/>
+            </svg>
+            <div class="gauge-value" id="fg-value">—</div>
+            <div class="gauge-label" id="fg-label">Loading</div>
+            <div class="gauge-delta" id="fg-delta"></div>
+          </div>
+          <div class="source-note"><strong>Source:</strong> alternative.me Fear & Greed Index. Combines crypto volatility, momentum, social media volume, surveys, and BTC dominance into a 0–100 score (0 = Extreme Fear, 100 = Extreme Greed).</div>
         </div>
-        <div class="source-note"><strong>Source:</strong> alternative.me Fear &amp; Greed Index. Combines crypto volatility, momentum, social media volume, surveys, and BTC dominance into a 0–100 score (0 = Extreme Fear, 100 = Extreme Greed).</div>
-      </div>
 
-      <!-- News Sentiment -->
-      <div class="card">
-        <div class="card-title">Crypto News Sentiment</div>
-        <div style="margin-bottom:14px">
-          <div id="crypto-sentiment-score" class="mood-score" style="font-size:32px">—</div>
-          <div id="crypto-sentiment-label" class="mood-label"></div>
+        <!-- News Sentiment -->
+        <div class="card">
+          <div class="card-title">Crypto News Sentiment</div>
+          <div style="margin-bottom:14px">
+            <div id="crypto-sentiment-score" class="mood-score" style="font-size:32px">—</div>
+            <div id="crypto-sentiment-label" class="mood-label"></div>
+          </div>
+          <div id="crypto-sentiment-bars"></div>
+          <div class="source-note"><strong>Source:</strong> CoinDesk, Cointelegraph, Decrypt, CryptoSlate RSS feeds. <strong>Method:</strong> Keyword matching (e.g. surge/rally = bullish, crash/dump = bearish); upgrades to Groq AI semantic analysis when available. Updated every 30 min.</div>
         </div>
-        <div id="crypto-sentiment-bars"></div>
-        <div class="source-note"><strong>Source:</strong> CoinDesk, Cointelegraph, Decrypt, CryptoSlate RSS feeds. <strong>Method:</strong> Keyword matching (e.g. surge/rally = bullish, crash/dump = bearish); upgrades to Groq AI semantic analysis when available. Updated every 30 min.</div>
+
+        <!-- Top Mentioned -->
+        <div class="card">
+          <div class="card-title">Top Mentioned Coins (Reddit)</div>
+          <div id="crypto-mentions"></div>
+          <div class="source-note"><strong>Source:</strong> Reddit public API (r/CryptoCurrency, r/Bitcoin, r/ethereum, r/solana, r/CryptoMarkets). <strong>Method:</strong> Counts how often each coin's name or ticker appears in post titles. Higher = stronger community interest.</div>
+        </div>
       </div>
 
-      <!-- Top Mentioned -->
-      <div class="card">
-        <div class="card-title">Top Mentioned Coins (Reddit)</div>
-        <div id="crypto-mentions"></div>
-        <div class="source-note"><strong>Source:</strong> Reddit public API (r/CryptoCurrency, r/Bitcoin, r/ethereum, r/solana, r/CryptoMarkets). <strong>Method:</strong> Counts how often each coin's name or ticker appears in post titles. Higher = stronger community interest.</div>
-      </div>
-    </div>
-
-    <div class="grid-2" style="margin-top:14px">
-      <!-- Prices -->
-      <div class="card">
-        <div class="card-title">Crypto Prices (Spot)</div>
-        <div id="crypto-prices"></div>
-        <div class="source-note"><strong>Source:</strong> CoinGecko free API. Spot market prices and 24h change only — no leveraged or derivative products tracked.</div>
+      <div class="grid-2" style="margin-top:14px">
+        <div class="card">
+          <div class="card-title">Crypto Prices (Spot)</div>
+          <div id="crypto-prices"></div>
+          <div class="source-note"><strong>Source:</strong> CoinGecko free API. Spot market prices and 24h change only — no leveraged or derivative products tracked.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">🎲 Polymarket — Crypto Topics</div>
+          <div id="crypto-polymarket"></div>
+          <div class="source-note"><strong>Source:</strong> Polymarket decentralized prediction market. Yes% reflects real-money crowd probability for each event. Not a price forecast — it's collective judgment backed by actual stakes.</div>
+        </div>
       </div>
 
-      <!-- Polymarket -->
-      <div class="card">
-        <div class="card-title">🎲 Polymarket — Crypto Topics</div>
-        <div id="crypto-polymarket"></div>
-        <div class="source-note"><strong>Source:</strong> Polymarket decentralized prediction market. Yes% reflects real-money crowd probability for each event. Not a price forecast — it's collective judgment backed by actual stakes.</div>
-      </div>
-    </div>
-
-    <div class="grid-2" style="margin-top:14px">
-      <!-- News Feed -->
-      <div class="card">
-        <div class="card-title">Latest Crypto News</div>
-        <div id="crypto-news"></div>
-        <div class="source-note"><strong>Source:</strong> CoinDesk, Cointelegraph, Decrypt, CryptoSlate. Sentiment labels (Bullish / Bearish / Neutral) are generated by keyword analysis or Groq AI — for reference only.</div>
+      <div class="grid-2" style="margin-top:14px">
+        <div class="card">
+          <div class="card-title">Latest Crypto News</div>
+          <div id="crypto-news"></div>
+          <div class="source-note"><strong>Source:</strong> CoinDesk, Cointelegraph, Decrypt, CryptoSlate. Sentiment labels (Bullish / Bearish / Neutral) are generated by keyword analysis or Groq AI — for reference only.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Reddit Activity</div>
+          <div id="crypto-reddit"></div>
+          <div class="source-note"><strong>Source:</strong> Reddit public JSON API (no login required). Activity score combines post upvotes and comment count, reflecting real-time community engagement. Updated every 30 min.</div>
+        </div>
       </div>
 
-      <!-- Reddit Activity -->
-      <div class="card">
-        <div class="card-title">Reddit Activity</div>
-        <div id="crypto-reddit"></div>
-        <div class="source-note"><strong>Source:</strong> Reddit public JSON API (no login required). Activity score combines post upvotes and comment count, reflecting real-time community engagement. Updated every 30 min.</div>
-      </div>
-    </div>
-
-    <!-- Social Signals Row -->
-    <div class="grid-2" style="margin-top:14px">
-      <!-- CoinGecko Trending -->
-      <div class="card">
-        <div class="card-title">🔥 CoinGecko Trending Searches</div>
-        <div id="crypto-cg-trending"></div>
-        <div class="source-note"><strong>Source:</strong> CoinGecko trending search data — top 7 coins people are searching in the last 24h. A social signal for community attention, not price prediction.</div>
+      <div class="grid-2" style="margin-top:14px">
+        <div class="card">
+          <div class="card-title">🔥 CoinGecko Trending Searches</div>
+          <div id="crypto-cg-trending"></div>
+          <div class="source-note"><strong>Source:</strong> CoinGecko trending search data — top 7 coins people are searching in the last 24h. A social signal for community attention, not price prediction.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">🐸 4chan /biz/ Community Pulse</div>
+          <div id="crypto-fourchain"></div>
+          <div class="source-note"><strong>Source:</strong> 4chan /biz/ board public API. Counts crypto mentions and bullish/bearish keywords across all active threads. Raw community signal — treat with appropriate skepticism.</div>
+        </div>
       </div>
 
-      <!-- 4chan /biz/ -->
-      <div class="card">
-        <div class="card-title">🐸 4chan /biz/ Community Pulse</div>
-        <div id="crypto-fourchain"></div>
-        <div class="source-note"><strong>Source:</strong> 4chan /biz/ board public API. Counts crypto mentions and bullish/bearish keywords across all active threads. Raw community signal — treat with appropriate skepticism.</div>
+      <div class="disclaimer">
+        <strong>⚠️ Spot Assets Only.</strong> This dashboard monitors crowd sentiment for research purposes.
+        All data is for informational use only — not financial advice. This project strictly covers
+        <strong>spot (cash) assets only</strong>. No leveraged products, futures, margin trading,
+        perpetual contracts, or options are tracked or recommended.
       </div>
-    </div>
-
-    <div class="disclaimer">
-      <strong>⚠️ Spot Assets Only.</strong> This dashboard monitors crowd sentiment for research purposes.
-      All data is for informational use only — not financial advice. This project strictly covers
-      <strong>spot (cash) assets only</strong>. No leveraged products, futures, margin trading,
-      perpetual contracts, or options are tracked or recommended.
     </div>
   </div>
-</div>
 
-<!-- ═══ PORTFOLIO ═══ -->
-<div class="section" id="tab-portfolio">
-  <div class="loading" id="portfolio-loading">
-    <div class="spinner"></div>Loading portfolio data…
-  </div>
-  <div id="portfolio-content" style="display:none">
-    <div style="margin-bottom:14px;color:var(--muted);font-size:12px">
-      Outlook is based on technical signals: price vs moving averages, RSI, and momentum.
-      All funds are spot ETFs. <strong style="color:var(--text)">Not financial advice.</strong>
+  <!-- ═══ STOCKS ═══ -->
+  <div class="section" id="tab-stocks">
+    <div class="loading" id="stocks-loading">
+      <div class="spinner"></div>Fetching market data…
     </div>
-    <div class="portfolio-grid" id="portfolio-cards"></div>
-    <div class="disclaimer" style="margin-top:14px">
-      <strong>⚠️ Spot ETFs Only.</strong> BKHY, XYLD, JEPQ, SCHD, QQQM are all exchange-traded funds
-      holding underlying spot assets. Outlook signals are algorithmic estimates based on price history —
-      not predictions. Always do your own research.
-    </div>
-  </div>
-</div>
+    <div id="stocks-content" style="display:none">
 
-<!-- ═══ STOCKS ═══ -->
-<div class="section" id="tab-stocks">
-  <div class="loading" id="stocks-loading">
-    <div class="spinner"></div>Fetching market data…
-  </div>
-  <div id="stocks-content" style="display:none">
-
-    <div class="grid-3">
-      <!-- Market Indices -->
-      <div class="card">
-        <div class="card-title">Market Indices</div>
-        <div class="index-grid" id="stock-indices"></div>
-        <div class="source-note"><strong>Source:</strong> yfinance real-time data. Tracks S&amp;P 500 (^GSPC), Nasdaq (^IXIC), Dow Jones (^DJI), and VIX volatility index (^VIX) to reflect broad US market conditions.</div>
+      <div class="grid-3">
+        <div class="card">
+          <div class="card-title">Market Indices</div>
+          <div class="index-grid" id="stock-indices"></div>
+          <div class="source-note"><strong>Source:</strong> yfinance real-time data. Tracks S&P 500 (^GSPC), Nasdaq (^IXIC), Dow Jones (^DJI), and VIX volatility index (^VIX) to reflect broad US market conditions.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Market Mood Score</div>
+          <div id="market-mood-score" class="mood-score">—</div>
+          <div id="market-mood-label" class="mood-label"></div>
+          <div style="margin-top:14px" id="stock-sentiment-bars"></div>
+          <div class="source-note"><strong>Method:</strong> Composite score (-1 to +1) derived from the four major indices. S&P 500 and Nasdaq carry higher weight; a rising VIX is treated as a bearish signal and a falling VIX as bullish.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Top Mentioned Stocks (Reddit)</div>
+          <div id="stock-mentions"></div>
+          <div class="source-note"><strong>Source:</strong> Reddit public API (r/wallstreetbets, r/stocks, r/investing, r/StockMarket). <strong>Method:</strong> Counts ticker mentions in post titles, reflecting retail community buzz around each stock.</div>
+        </div>
       </div>
 
-      <!-- Market Mood -->
-      <div class="card">
-        <div class="card-title">Market Mood Score</div>
-        <div id="market-mood-score" class="mood-score">—</div>
-        <div id="market-mood-label" class="mood-label"></div>
-        <div style="margin-top:14px" id="stock-sentiment-bars"></div>
-        <div class="source-note"><strong>Method:</strong> Composite score (-1 to +1) derived from the four major indices. S&amp;P 500 and Nasdaq carry higher weight; a rising VIX is treated as a bearish signal and a falling VIX as bullish.</div>
+      <div class="grid-2" style="margin-top:14px">
+        <div class="card">
+          <div class="card-title">Stock Prices (Spot)</div>
+          <div id="stock-prices"></div>
+          <div class="source-note"><strong>Source:</strong> yfinance (shows last close after US market hours). Tracks top stocks: NVDA, TSLA, AAPL, MSFT, GOOGL, AMZN, META, AMD, PLTR, COIN. Spot prices only — no derivatives.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">🎲 Polymarket — Finance & Economy</div>
+          <div id="stock-polymarket"></div>
+          <div class="source-note"><strong>Source:</strong> Polymarket decentralized prediction market. Yes% shows real-money crowd probability for macro events (rate hikes, recession, trade policy, etc.). Higher volume = stronger market consensus.</div>
+        </div>
       </div>
 
-      <!-- Top Mentioned -->
-      <div class="card">
-        <div class="card-title">Top Mentioned Stocks (Reddit)</div>
-        <div id="stock-mentions"></div>
-        <div class="source-note"><strong>Source:</strong> Reddit public API (r/wallstreetbets, r/stocks, r/investing, r/StockMarket). <strong>Method:</strong> Counts ticker mentions in post titles, reflecting retail community buzz around each stock.</div>
-      </div>
-    </div>
-
-    <div class="grid-2" style="margin-top:14px">
-      <!-- Stock Prices -->
-      <div class="card">
-        <div class="card-title">Stock Prices (Spot)</div>
-        <div id="stock-prices"></div>
-        <div class="source-note"><strong>Source:</strong> yfinance (shows last close after US market hours). Tracks 10 stocks: NVDA, TSLA, AAPL, MSFT, GOOGL, AMZN, META, AMD, PLTR, COIN. Spot prices only — no derivatives.</div>
+      <div class="grid-2" style="margin-top:14px">
+        <div class="card">
+          <div class="card-title">Latest Stock & Finance News</div>
+          <div id="stock-news"></div>
+          <div class="source-note"><strong>Source:</strong> Reuters, CNBC, MarketWatch, Yahoo Finance RSS. Sentiment labels generated by keyword analysis or Groq AI, reflecting the overall tone of market news.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Reddit Activity</div>
+          <div id="stock-reddit"></div>
+          <div class="source-note"><strong>Source:</strong> Reddit public JSON API. Activity score = upvotes + (comments × 3), normalised to 100. Reflects real-time community heat per subreddit. Updated every 30 min.</div>
+        </div>
       </div>
 
-      <!-- Polymarket Finance -->
-      <div class="card">
-        <div class="card-title">🎲 Polymarket — Finance & Economy</div>
-        <div id="stock-polymarket"></div>
-        <div class="source-note"><strong>Source:</strong> Polymarket decentralized prediction market. Yes% shows real-money crowd probability for macro events (rate hikes, recession, trade policy, etc.). Higher volume = stronger market consensus.</div>
+      <div class="disclaimer">
+        <strong>⚠️ Spot Assets Only.</strong> Crowd sentiment data for research only. Not financial advice.
+        This dashboard <strong>does not</strong> cover futures, options, CFDs, leveraged ETFs, or margin products.
       </div>
-    </div>
-
-    <div class="grid-2" style="margin-top:14px">
-      <div class="card">
-        <div class="card-title">Latest Stock & Finance News</div>
-        <div id="stock-news"></div>
-        <div class="source-note"><strong>Source:</strong> Reuters, CNBC, MarketWatch, Yahoo Finance RSS. Sentiment labels generated by keyword analysis or Groq AI, reflecting the overall tone of market news.</div>
-      </div>
-      <div class="card">
-        <div class="card-title">Reddit Activity</div>
-        <div id="stock-reddit"></div>
-        <div class="source-note"><strong>Source:</strong> Reddit public JSON API. Activity score = upvotes + (comments × 3), normalised to 100. Reflects real-time community heat per subreddit. Updated every 30 min.</div>
-      </div>
-    </div>
-
-    <div class="disclaimer">
-      <strong>⚠️ Spot Assets Only.</strong> Crowd sentiment data for research only. Not financial advice.
-      This dashboard <strong>does not</strong> cover futures, options, CFDs, leveraged ETFs, or margin products.
     </div>
   </div>
+
+  <!-- ═══ PORTFOLIO ═══ -->
+  <div class="section" id="tab-portfolio">
+    <div class="loading" id="portfolio-loading">
+      <div class="spinner"></div>Loading portfolio data…
+    </div>
+    <div id="portfolio-content" style="display:none">
+      <div style="margin-bottom:14px;color:var(--text-2);font-size:12px">
+        Outlook is based on technical signals: price vs moving averages, RSI, and momentum.
+        All funds are spot ETFs. <strong style="color:var(--text)">Not financial advice.</strong>
+      </div>
+      <div class="portfolio-grid" id="portfolio-cards"></div>
+      <div class="disclaimer" style="margin-top:14px">
+        <strong>⚠️ Spot ETFs Only.</strong> BKHY, XYLD, JEPQ, SCHD, QQQM are all exchange-traded funds
+        holding underlying spot assets. Outlook signals are algorithmic estimates based on price history —
+        not predictions. Always do your own research.
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <script>
@@ -556,6 +516,7 @@ function switchTab(name, el) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   el.classList.add('active');
   document.getElementById('tab-' + name).classList.add('active');
+  document.getElementById('tabIndicator').textContent = el.textContent.trim();
 }
 
 // ── Countdown ────────────────────────────────────────────────────────────
@@ -567,11 +528,10 @@ function startCountdown(updatedAt) {
   const ageMs    = Date.now() - updated.getTime();
   const el       = document.getElementById('countdown');
 
-  // Data is stale (> 20 min old) — external trigger may be delayed; retry slowly
   if (ageMs > 20 * 60 * 1000) {
     const staleMins = Math.round(ageMs / 60000);
     el.textContent = `· data ${staleMins}m old`;
-    _cdTimer = setTimeout(() => loadData(), 90 * 1000); // retry in 90s
+    _cdTimer = setTimeout(() => loadData(), 90 * 1000);
     return;
   }
 
@@ -596,7 +556,6 @@ function startCountdown(updatedAt) {
 function renderSummary(summary) {
   if (!summary || !summary.summary) return '';
   const color = summary.outlook === 'Bullish' ? 'green' : summary.outlook === 'Bearish' ? 'red' : 'yellow';
-  // Strip "Bullish:" / "Bearish:" / "Mixed:" prefix from body (already shown in badge)
   const body = summary.summary.replace(/^(bullish|bearish|mixed):\s*/i, '');
   return `<div class="ai-summary"><span class="badge ${color}" style="margin-right:6px">${summary.outlook}</span>${body}</div>`;
 }
@@ -627,21 +586,18 @@ const badge = (label, color) =>
 
 // ── Gauge ────────────────────────────────────────────────────────────────
 function setGauge(value) {
-  // Value 0-100 maps to -90° … +90° (left to right)
   const angle = (value / 100) * 180 - 90;
-  document.getElementById('gauge-needle').setAttribute(
-    'transform', `rotate(${angle},100,100)`
-  );
+  document.getElementById('gauge-needle').setAttribute('transform', `rotate(${angle},100,100)`);
   const el = document.getElementById('fg-value');
   el.textContent = value;
-  if (value <= 24)      el.style.color = '#ef4444';
+  if (value <= 24)      el.style.color = '#f85149';
   else if (value <= 44) el.style.color = '#f97316';
-  else if (value <= 55) el.style.color = '#eab308';
+  else if (value <= 55) el.style.color = '#d29922';
   else if (value <= 74) el.style.color = '#86efac';
-  else                  el.style.color = '#22c55e';
+  else                  el.style.color = '#3fb950';
 }
 
-// ── Sentiment bars (bullish / neutral / bearish) ─────────────────────────
+// ── Sentiment bars ─────────────────────────────────────────────────────────
 function sentimentBars(news, containerId) {
   const counts = {green:0, yellow:0, red:0};
   news.forEach(n => counts[n.color]++);
@@ -655,50 +611,42 @@ function sentimentBars(news, containerId) {
     <div class="sentiment-row">
       <span class="sentiment-label">${lbl}</span>
       <div class="bar-track">
-        <div class="bar-fill" style="width:${(cnt/total*100).toFixed(0)}%;background:var(--${color})"></div>
+        <div class="bar-fill" style="width:${(cnt/total*100).toFixed(0)}%;background:var(--${color === 'green' ? 'profit' : color === 'red' ? 'loss' : 'amber'})"></div>
       </div>
-      <span style="font-size:11px;min-width:20px;text-align:right;color:var(--muted)">${cnt}</span>
+      <span style="font-size:11px;min-width:20px;text-align:right;color:var(--text-3)">${cnt}</span>
     </div>`).join('');
 }
 
 // ── Render Crypto ─────────────────────────────────────────────────────────
 function renderCrypto(c) {
-  // Fear & Greed
   setGauge(c.fear_greed.value);
   document.getElementById('fg-label').textContent = c.fear_greed.label;
   const diff = c.fear_greed.value - c.fear_greed.previous_value;
   const diffStr = diff >= 0 ? `▲ ${diff} from yesterday` : `▼ ${Math.abs(diff)} from yesterday`;
-  document.getElementById('fg-delta').innerHTML =
-    `<span style="color:var(--muted)">${diffStr}</span>`;
+  document.getElementById('fg-delta').innerHTML = `<span style="color:var(--text-2)">${diffStr}</span>`;
 
-  // News sentiment score
   const ns = c.news_sentiment;
   const pct = Math.round((ns.score + 1) / 2 * 100);
-  document.getElementById('crypto-sentiment-score').innerHTML =
-    `<span style="color:var(--${ns.color})">${pct}</span>`;
-  document.getElementById('crypto-sentiment-label').innerHTML =
-    badge(ns.label, ns.color) + ' <span style="color:var(--muted);font-size:11px">news sentiment</span>';
+  document.getElementById('crypto-sentiment-score').innerHTML = `<span style="color:var(--${ns.color === 'green' ? 'profit' : ns.color === 'red' ? 'loss' : 'amber'})">${pct}</span>`;
+  document.getElementById('crypto-sentiment-label').innerHTML = badge(ns.label, ns.color) + ' <span style="color:var(--text-2);font-size:11px">news sentiment</span>';
   sentimentBars(c.news, 'crypto-sentiment-bars');
 
-  // Top mentions
   document.getElementById('crypto-mentions').innerHTML =
     c.top_mentioned.filter(m => m.mentions > 0).slice(0, 8).map(m => `
       <div class="price-row">
         <span class="price-sym">${m.symbol}</span>
         <span class="mention-count">${m.mentions} mentions</span>
         <span>${fmtChg(m.change_24h)}</span>
-      </div>`).join('') || '<div style="color:var(--muted);padding:8px 0">No data</div>';
+      </div>`).join('') || '<div style="color:var(--text-2);padding:8px 0">No data</div>';
 
-  // Prices
   document.getElementById('crypto-prices').innerHTML =
     (c.prices || []).slice(0, 10).map(p => `
       <div class="price-row">
         <span class="price-sym">${p.symbol}</span>
         <span class="price-val">${fmtPrice(p.price_usd)}</span>
         ${fmtChg(p.change_24h)}
-      </div>`).join('') || '<div style="color:var(--muted)">No price data</div>';
+      </div>`).join('') || '<div style="color:var(--text-2)">No price data</div>';
 
-  // Polymarket
   document.getElementById('crypto-polymarket').innerHTML =
     renderSummary(c.polymarket_summary) +
     ((c.polymarket || []).map(m => `
@@ -707,11 +655,10 @@ function renderCrypto(c) {
         <div class="poly-meta">
           <span class="poly-vol">${fmtVol(m.volume_24h)}</span>
           <div class="prob-bar"><div class="prob-fill" style="width:${Math.round(m.yes_price*100)}%"></div></div>
-          <span class="poly-yes" style="color:var(--blue)">${Math.round(m.yes_price*100)}% Yes</span>
+          <span class="poly-yes">${Math.round(m.yes_price*100)}% Yes</span>
         </div>
-      </div>`).join('') || '<div style="color:var(--muted)">No active markets</div>');
+      </div>`).join('') || '<div style="color:var(--text-2)">No active markets</div>');
 
-  // News
   document.getElementById('crypto-news').innerHTML =
     renderSummary(c.news_summary) +
     ((c.news || []).slice(0, 10).map(n => `
@@ -719,9 +666,8 @@ function renderCrypto(c) {
         <span class="news-source">${n.source}</span>
         <a class="news-title" href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
         <div class="news-right">${badge(n.sentiment, n.color)}</div>
-      </div>`).join('') || '<div style="color:var(--muted)">No news</div>');
+      </div>`).join('') || '<div style="color:var(--text-2)">No news</div>');
 
-  // Reddit
   document.getElementById('crypto-reddit').innerHTML =
     renderSummary(c.reddit_summary) +
     ((c.reddit || []).map(r => `
@@ -732,68 +678,64 @@ function renderCrypto(c) {
           <div class="reddit-top">${r.top_post ? r.top_post.slice(0,80)+'…' : ''}</div>
         </div>
         <span class="reddit-score">Activity ${r.activity_score}/100</span>
-      </div>`).join('') || '<div style="color:var(--muted)">No Reddit data</div>');
+      </div>`).join('') || '<div style="color:var(--text-2)">No Reddit data</div>');
 
-  // CoinGecko Trending
   const tr = c.cg_trending || [];
   document.getElementById('crypto-cg-trending').innerHTML = tr.length
     ? tr.map(t => `
-      <div class="price-row">
-        <span class="price-sym">${t.symbol}</span>
-        <span style="font-size:11px;color:var(--muted);flex:1">${t.name}</span>
-        <span style="font-size:10px;color:var(--muted);margin-right:8px">Rank #${t.rank}</span>
+      <div class="trending-row">
+        <span class="trending-sym">${t.symbol}</span>
+        <span class="trending-name">${t.name}</span>
+        <span style="font-size:10px;color:var(--text-3);margin-right:8px">Rank #${t.rank}</span>
         ${fmtChg(t.change_24h)}
       </div>`).join('')
-    : '<div style="color:var(--muted)">No trending data</div>';
+    : '<div style="color:var(--text-2)">No trending data</div>';
 
-  // 4chan /biz/
   const biz = c.fourchain || {};
   if (biz.thread_count) {
     const bull = biz.bullish_pct || 0;
     const bear = 100 - bull;
-    const bullCol = bull >= 55 ? 'var(--green)' : bull <= 45 ? 'var(--red)' : 'var(--yellow)';
     const mentions = Object.entries(biz.mentions || {}).slice(0, 5);
     document.getElementById('crypto-fourchain').innerHTML = `
       <div style="display:flex;gap:16px;margin-bottom:12px;flex-wrap:wrap">
-        <div><div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Threads</div>
-          <div style="font-size:20px;font-weight:700;color:var(--accent)">${biz.thread_count}</div></div>
-        <div><div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px">Active</div>
-          <div style="font-size:20px;font-weight:700;color:var(--accent)">${biz.active_threads}</div></div>
+        <div><div style="font-size:10px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;font-weight:600">Threads</div>
+          <div style="font-size:20px;font-weight:700;font-family:var(--mono);color:var(--text)">${biz.thread_count}</div></div>
+        <div><div style="font-size:10px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;font-weight:600">Active</div>
+          <div style="font-size:20px;font-weight:700;font-family:var(--mono);color:var(--text)">${biz.active_threads}</div></div>
         <div style="flex:1;min-width:100px">
-          <div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">Sentiment</div>
-          <div style="display:flex;height:6px;border-radius:0;overflow:hidden;gap:1px">
-            <div style="width:${bull}%;background:var(--green);box-shadow:0 0 6px rgba(0,255,136,.5)"></div>
-            <div style="width:${bear}%;background:var(--red);box-shadow:0 0 6px rgba(255,26,85,.5)"></div>
+          <div style="font-size:10px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;font-weight:600;margin-bottom:4px">Sentiment</div>
+          <div style="display:flex;height:4px;border-radius:2px;overflow:hidden;gap:1px">
+            <div style="width:${bull}%;background:var(--profit)"></div>
+            <div style="width:${bear}%;background:var(--loss)"></div>
           </div>
           <div style="display:flex;justify-content:space-between;margin-top:3px">
-            <span style="font-size:10px;color:var(--green)">${bull}% Bull</span>
-            <span style="font-size:10px;color:var(--red)">${bear}% Bear</span>
+            <span style="font-size:10px;color:var(--profit)">${bull}% Bull</span>
+            <span style="font-size:10px;color:var(--loss)">${bear}% Bear</span>
           </div>
         </div>
       </div>
-      <div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px">Top Mentions</div>
+      <div style="font-size:10px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;font-weight:600;margin-bottom:6px">Top Mentions</div>
       ${mentions.map(([sym, cnt]) => `
         <div class="price-row">
           <span class="price-sym">${sym}</span>
           <div class="bar-track" style="margin:0 10px">
-            <div class="bar-fill" style="width:${Math.min(100, cnt * 4)}%;background:var(--accent);box-shadow:0 0 4px rgba(0,255,255,.4)"></div>
+            <div class="bar-fill" style="width:${Math.min(100, cnt * 4)}%;background:var(--accent)"></div>
           </div>
           <span class="mention-count">${cnt} mentions</span>
         </div>`).join('')}`;
   } else {
-    document.getElementById('crypto-fourchain').innerHTML = '<div style="color:var(--muted)">No data</div>';
+    document.getElementById('crypto-fourchain').innerHTML = '<div style="color:var(--text-2)">No data</div>';
   }
 }
 
 // ── Render Stocks ─────────────────────────────────────────────────────────
 function renderStocks(s) {
-  // Indices
   const idxMap = {sp500:'S&P 500', nasdaq:'Nasdaq', dow:'Dow Jones', vix:'VIX'};
   document.getElementById('stock-indices').innerHTML =
     Object.entries(idxMap).map(([k, label]) => {
       const v = s.indices?.[k];
-      if (!v) return `<div class="index-item"><div class="index-name">${label}</div><div class="index-val" style="color:var(--muted)">—</div></div>`;
-      const color = k === 'vix' ? (v.change_24h > 0 ? 'red' : 'green') : (v.change_24h >= 0 ? 'green' : 'red');
+      if (!v) return `<div class="index-item"><div class="index-name">${label}</div><div class="index-val" style="color:var(--text-3)">—</div></div>`;
+      const color = k === 'vix' ? (v.change_24h > 0 ? 'loss' : 'profit') : (v.change_24h >= 0 ? 'profit' : 'loss');
       return `<div class="index-item">
         <div class="index-name">${label}</div>
         <div class="index-val">${fmtPrice(v.value)}</div>
@@ -801,34 +743,29 @@ function renderStocks(s) {
       </div>`;
     }).join('');
 
-  // Market mood
   const mm = s.market_mood;
   const moodPct = Math.round((mm.score + 1) / 2 * 100);
-  document.getElementById('market-mood-score').innerHTML =
-    `<span style="color:var(--${mm.color})">${moodPct}</span>`;
-  document.getElementById('market-mood-label').innerHTML =
-    badge(mm.label, mm.color) + ' <span style="color:var(--muted);font-size:11px">market mood</span>';
+  const mmColor = mm.color === 'green' ? 'profit' : mm.color === 'red' ? 'loss' : 'amber';
+  document.getElementById('market-mood-score').innerHTML = `<span style="color:var(--${mmColor})">${moodPct}</span>`;
+  document.getElementById('market-mood-label').innerHTML = badge(mm.label, mm.color) + ' <span style="color:var(--text-2);font-size:11px">market mood</span>';
   sentimentBars(s.news || [], 'stock-sentiment-bars');
 
-  // Top mentions
   document.getElementById('stock-mentions').innerHTML =
     (s.top_mentioned || []).filter(m => m.mentions > 0).slice(0, 8).map(m => `
       <div class="price-row">
         <span class="price-sym">${m.symbol}</span>
         <span class="mention-count">${m.mentions} mentions</span>
         <span>${fmtChg(m.change_24h)}</span>
-      </div>`).join('') || '<div style="color:var(--muted);padding:8px 0">No data</div>';
+      </div>`).join('') || '<div style="color:var(--text-2);padding:8px 0">No data</div>';
 
-  // Prices
   document.getElementById('stock-prices').innerHTML =
     (s.prices || []).slice(0, 10).map(p => `
       <div class="price-row">
         <span class="price-sym">${p.symbol}</span>
         <span class="price-val">${fmtPrice(p.price_usd)}</span>
         ${fmtChg(p.change_24h)}
-      </div>`).join('') || '<div style="color:var(--muted)">No price data</div>';
+      </div>`).join('') || '<div style="color:var(--text-2)">No price data</div>';
 
-  // Polymarket finance
   document.getElementById('stock-polymarket').innerHTML =
     renderSummary(s.polymarket_summary) +
     ((s.polymarket || []).map(m => `
@@ -837,11 +774,10 @@ function renderStocks(s) {
         <div class="poly-meta">
           <span class="poly-vol">${fmtVol(m.volume_24h)}</span>
           <div class="prob-bar"><div class="prob-fill" style="width:${Math.round(m.yes_price*100)}%"></div></div>
-          <span class="poly-yes" style="color:var(--blue)">${Math.round(m.yes_price*100)}% Yes</span>
+          <span class="poly-yes">${Math.round(m.yes_price*100)}% Yes</span>
         </div>
-      </div>`).join('') || '<div style="color:var(--muted)">No active markets</div>');
+      </div>`).join('') || '<div style="color:var(--text-2)">No active markets</div>');
 
-  // News
   document.getElementById('stock-news').innerHTML =
     renderSummary(s.news_summary) +
     ((s.news || []).slice(0, 10).map(n => `
@@ -849,9 +785,8 @@ function renderStocks(s) {
         <span class="news-source">${n.source}</span>
         <a class="news-title" href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
         <div class="news-right">${badge(n.sentiment, n.color)}</div>
-      </div>`).join('') || '<div style="color:var(--muted)">No news</div>');
+      </div>`).join('') || '<div style="color:var(--text-2)">No news</div>');
 
-  // Reddit
   document.getElementById('stock-reddit').innerHTML =
     renderSummary(s.reddit_summary) +
     ((s.reddit || []).map(r => `
@@ -862,7 +797,7 @@ function renderStocks(s) {
           <div class="reddit-top">${r.top_post ? r.top_post.slice(0,80)+'…' : ''}</div>
         </div>
         <span class="reddit-score">Activity ${r.activity_score}/100</span>
-      </div>`).join('') || '<div style="color:var(--muted)">No Reddit data</div>');
+      </div>`).join('') || '<div style="color:var(--text-2)">No Reddit data</div>');
 }
 
 // ── Load & Render ─────────────────────────────────────────────────────────
@@ -872,39 +807,35 @@ async function loadData() {
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     DATA = await resp.json();
 
-    // Header timestamp + countdown
     const d = new Date(DATA.updated_at);
     document.getElementById('lastUpdated').textContent =
       'Updated ' + d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) +
       ' · ' + d.toLocaleDateString([], {month:'short', day:'numeric'});
     startCountdown(DATA.updated_at);
 
-    // Crypto
     document.getElementById('crypto-loading').style.display = 'none';
     document.getElementById('crypto-content').style.display = 'block';
     renderCrypto(DATA.crypto);
 
-    // Stocks
     document.getElementById('stocks-loading').style.display = 'none';
     document.getElementById('stocks-content').style.display = 'block';
     renderStocks(DATA.stocks);
 
-    // Portfolio
     renderPortfolio(DATA.portfolio || []);
 
   } catch(e) {
     document.getElementById('crypto-loading').innerHTML =
-      `<div style="color:var(--red)">⚠ Could not load data: ${e.message}<br><small>Run update_data.py to generate data/market_data.json</small></div>`;
+      `<div style="color:var(--loss)">⚠ Could not load data: ${e.message}<br><small>Run update_data.py to generate data/market_data.json</small></div>`;
     document.getElementById('stocks-loading').innerHTML =
-      `<div style="color:var(--red)">⚠ Could not load data: ${e.message}</div>`;
+      `<div style="color:var(--loss)">⚠ Could not load data: ${e.message}</div>`;
   }
 }
 
 // ── Render Portfolio ─────────────────────────────────────────────────────
 function rsiColor(v) {
-  if (v < 30) return 'var(--green)';
-  if (v > 70) return 'var(--red)';
-  return 'var(--yellow)';
+  if (v < 30) return 'var(--profit)';
+  if (v > 70) return 'var(--loss)';
+  return 'var(--amber)';
 }
 
 function renderPortfolio(funds) {
@@ -913,22 +844,19 @@ function renderPortfolio(funds) {
 
   if (!funds || !funds.length) {
     document.getElementById('portfolio-cards').innerHTML =
-      '<div style="color:var(--muted)">No portfolio data available</div>';
+      '<div style="color:var(--text-2);padding:40px;text-align:center">No portfolio data available</div>';
     return;
   }
 
   document.getElementById('portfolio-cards').innerHTML = funds.map(f => {
     const o = f.outlook;
+    const outlookColor = o.color === 'green' ? 'var(--profit)' : o.color === 'red' ? 'var(--loss)' : 'var(--amber)';
     const outlookArrow = o.color === 'green' ? '↑' : o.color === 'red' ? '↓' : '→';
-    const chgColor = c => c > 0 ? 'var(--green)' : c < 0 ? 'var(--red)' : 'var(--muted)';
+    const chgColor = c => c > 0 ? 'var(--profit)' : c < 0 ? 'var(--loss)' : 'var(--text-3)';
     const fmtChgVal = c => c == null ? '—' : `${c >= 0 ? '+' : ''}${c.toFixed(2)}%`;
-
-    // RSI dot position (0-100 → 0-100%)
     const rsiPct = Math.max(2, Math.min(98, f.rsi));
-
-    // 52-week position
     const w52range = f.week52_high && f.week52_low ? f.week52_high - f.week52_low : 0;
-    const w52pos   = w52range > 0 ? Math.round((f.price_usd - f.week52_low) / w52range * 100) : 50;
+    const w52pos = w52range > 0 ? Math.round((f.price_usd - f.week52_low) / w52range * 100) : 50;
 
     return `
     <div class="etf-card">
@@ -957,7 +885,7 @@ function renderPortfolio(funds) {
         ${f.div_yield != null ? `
         <div class="etf-perf-item" style="margin-left:auto">
           <span class="etf-perf-label">Div Yield</span>
-          <span class="etf-perf-val" style="color:var(--blue)">${f.div_yield.toFixed(2)}%</span>
+          <span class="etf-perf-val" style="color:var(--accent)">${f.div_yield.toFixed(2)}%</span>
         </div>` : ''}
       </div>
 
@@ -965,9 +893,7 @@ function renderPortfolio(funds) {
       <div>
         <div class="week52-row">
           <span>52W Low $${f.week52_low.toFixed(2)}</span>
-          <div class="week52-bar">
-            <div class="week52-fill" style="left:0;width:${w52pos}%"></div>
-          </div>
+          <div class="week52-bar"><div class="week52-fill" style="left:0;width:${w52pos}%"></div></div>
           <span>High $${f.week52_high.toFixed(2)}</span>
         </div>
       </div>` : ''}
@@ -991,9 +917,7 @@ function renderPortfolio(funds) {
 
       <div class="etf-outlook">
         <div class="outlook-header">
-          <span class="outlook-label" style="color:var(--${o.color})">
-            ${outlookArrow} ${o.label}
-          </span>
+          <span class="outlook-label" style="color:${outlookColor}">${outlookArrow} ${o.label}</span>
           <span class="outlook-conf">Confidence: ${o.confidence}</span>
         </div>
         <ul class="outlook-reasons">
@@ -1005,7 +929,7 @@ function renderPortfolio(funds) {
   }).join('');
 }
 
-// Initial load — countdown handles all subsequent refreshes
+// Initial load
 loadData();
 </script>
 </body>
