@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-28T11:20:44Z",
+  "updated_at": "2026-04-28T11:31:15Z",
   "crypto": {
     "fear_greed": {
       "value": 33,
@@ -7,116 +7,43 @@
       "previous_value": 47,
       "previous_label": "Neutral"
     },
-    "prices": [
-      {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "price_usd": 76421,
-        "change_24h": -1.83,
-        "market_cap": 1529916517892,
-        "volume_24h": 34384589660
-      },
-      {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "price_usd": 2275.63,
-        "change_24h": -1.97,
-        "market_cap": 274634588672,
-        "volume_24h": 13684446000
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price_usd": 1.39,
-        "change_24h": -1.95,
-        "market_cap": 85474155616,
-        "volume_24h": 1794903929
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price_usd": 622.17,
-        "change_24h": -0.85,
-        "market_cap": 83846037269,
-        "volume_24h": 849387729
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price_usd": 83.61,
-        "change_24h": -1.86,
-        "market_cap": 48164742434,
-        "volume_24h": 2889103481
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price_usd": 0.09888,
-        "change_24h": 0.91,
-        "market_cap": 15229402588,
-        "volume_24h": 1627085415
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price_usd": 0.245902,
-        "change_24h": -0.52,
-        "market_cap": 9091121637,
-        "volume_24h": 302160059
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price_usd": 9.21,
-        "change_24h": -1.15,
-        "market_cap": 6694591564,
-        "volume_24h": 201804536
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price_usd": 9.14,
-        "change_24h": -1.17,
-        "market_cap": 3950867873,
-        "volume_24h": 170922722
-      }
-    ],
+    "prices": [],
     "top_mentioned": [
       {
         "symbol": "BTC",
-        "mentions": 32,
-        "price_usd": 76421,
-        "change_24h": -1.83
+        "mentions": 33,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "SOL",
         "mentions": 25,
-        "price_usd": 83.61,
-        "change_24h": -1.86
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "ETH",
         "mentions": 15,
-        "price_usd": 2275.63,
-        "change_24h": -1.97
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "XRP",
         "mentions": 2,
-        "price_usd": 1.39,
-        "change_24h": -1.95
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "DOGE",
         "mentions": 1,
-        "price_usd": 0.09888,
-        "change_24h": 0.91
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "ADA",
         "mentions": 1,
-        "price_usd": 0.245902,
-        "change_24h": -0.52
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "LTC",
@@ -127,20 +54,20 @@
       {
         "symbol": "BNB",
         "mentions": 0,
-        "price_usd": 622.17,
-        "change_24h": -0.85
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": 9.14,
-        "change_24h": -1.17
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "LINK",
         "mentions": 0,
-        "price_usd": 9.21,
-        "change_24h": -1.15
+        "price_usd": null,
+        "change_24h": null
       }
     ],
     "news": [
@@ -187,7 +114,7 @@
           "BTC"
         ],
         "sentiment": "Bullish",
-        "score": 0.8,
+        "score": 0.7,
         "color": "green"
       },
       {
@@ -200,7 +127,7 @@
           "ETH"
         ],
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 0.6,
         "color": "green"
       },
       {
@@ -210,7 +137,7 @@
         "published": "Tue, 28 Apr 2026 07:29:34 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.5,
+        "score": 0.4,
         "color": "green"
       },
       {
@@ -222,7 +149,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -0.7,
         "color": "red"
       },
       {
@@ -234,7 +161,7 @@
           "XRP"
         ],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -260,7 +187,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.7,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -272,7 +199,7 @@
           "TON"
         ],
         "sentiment": "Bullish",
-        "score": 0.6,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -284,7 +211,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.6,
+        "score": -0.4,
         "color": "red"
       },
       {
@@ -296,7 +223,7 @@
           "BTC"
         ],
         "sentiment": "Bullish",
-        "score": 0.4,
+        "score": 0.3,
         "color": "green"
       },
       {
@@ -316,61 +243,61 @@
         "published": "Tue, 28 Apr 2026 07:00:30 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 0.6,
         "color": "green"
       }
     ],
     "news_sentiment": {
-      "score": 0.04,
+      "score": 0.033,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin reach $80,000 in April?",
-        "volume_24h": 297579,
+        "volume_24h": 297169,
         "yes_price": 0.17,
         "category": "crypto"
       },
       {
         "title": "Will Bitcoin dip to $75,000 in April?",
-        "volume_24h": 208143,
+        "volume_24h": 207927,
         "yes_price": 0.48,
         "category": "crypto"
       },
       {
         "title": "MegaETH market cap (FDV) >$2B one day after launch?",
-        "volume_24h": 187003,
+        "volume_24h": 186956,
         "yes_price": 0.32,
         "category": "crypto"
       },
       {
         "title": "Will the price of Bitcoin be above $78,000 on April 28?",
-        "volume_24h": 138279,
+        "volume_24h": 138276,
         "yes_price": 0.04,
         "category": "crypto"
       },
       {
         "title": "Will the price of Bitcoin be above $76,000 on April 28?",
-        "volume_24h": 127554,
+        "volume_24h": 127534,
         "yes_price": 0.83,
         "category": "crypto"
       },
       {
         "title": "MegaETH market cap (FDV) >$1.5B one day after launch?",
-        "volume_24h": 107113,
+        "volume_24h": 107076,
         "yes_price": 0.6,
         "category": "crypto"
       },
       {
         "title": "Will Bitcoin reach $82,500 in April?",
-        "volume_24h": 96796,
+        "volume_24h": 96376,
         "yes_price": 0.03,
         "category": "crypto"
       },
       {
         "title": "Will Bitcoin dip to $70,000 in April?",
-        "volume_24h": 93909,
+        "volume_24h": 93027,
         "yes_price": 0.03,
         "category": "crypto"
       }
@@ -402,7 +329,7 @@
       {
         "subreddit": "r/Bitcoin",
         "mentions": {
-          "BTC": 20,
+          "BTC": 21,
           "ETH": 0,
           "SOL": 0,
           "BNB": 0,
@@ -477,8 +404,8 @@
       }
     ],
     "reddit_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
+      "outlook": "Bullish",
+      "summary": "Bullish: High activity in CryptoCurrency, Bitcoin, and ethereum subreddits (100/100) with BTC leading mentions (33)."
     },
     "news_summary": {
       "outlook": "Mixed",
@@ -501,51 +428,51 @@
       {
         "symbol": "ZKJ",
         "name": "Polyhedra Network",
-        "rank": 992,
+        "rank": 1004,
         "score": 0,
-        "change_24h": 109.16
-      },
-      {
-        "symbol": "PI",
-        "name": "Pi Network",
-        "rank": 46,
-        "score": 1,
-        "change_24h": 8.39
+        "change_24h": 141.26
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 89,
+        "score": 1,
+        "change_24h": 3.63
+      },
+      {
+        "symbol": "PI",
+        "name": "Pi Network",
+        "rank": 46,
         "score": 2,
-        "change_24h": 3.81
+        "change_24h": 7.94
+      },
+      {
+        "symbol": "CHIP",
+        "name": "USD.AI",
+        "rank": 228,
+        "score": 3,
+        "change_24h": -6.04
+      },
+      {
+        "symbol": "LUNC",
+        "name": "Terra Luna Classic",
+        "rank": 123,
+        "score": 4,
+        "change_24h": 8.45
       },
       {
         "symbol": "MON",
         "name": "Monad",
         "rank": 129,
-        "score": 3,
-        "change_24h": -7.24
+        "score": 5,
+        "change_24h": -7.61
       },
       {
         "symbol": "PRL",
         "name": "Perle",
-        "rank": 396,
-        "score": 4,
-        "change_24h": 22.94
-      },
-      {
-        "symbol": "LUNC",
-        "name": "Terra Luna Classic",
-        "rank": 122,
-        "score": 5,
-        "change_24h": 9.94
-      },
-      {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "rank": 54,
+        "rank": 383,
         "score": 6,
-        "change_24h": 1.41
+        "change_24h": 22.55
       }
     ]
   },
@@ -564,12 +491,12 @@
         "change_24h": -0.13
       },
       "vix": {
-        "value": 18.49,
-        "change_24h": 2.61
+        "value": 18.65,
+        "change_24h": 3.5
       }
     },
     "market_mood": {
-      "score": -0.107,
+      "score": -0.151,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -692,7 +619,7 @@
         "title": "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/04/28/general-motors-gm-earnings-q1-2026.html",
-        "published": "Tue, 28 Apr 2026 11:10:22 GMT",
+        "published": "Tue, 28 Apr 2026 11:28:33 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
@@ -712,7 +639,7 @@
         "title": "Coca-Cola tops estimates, raises earnings outlook as global beverage demand rises",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/04/28/coca-cola-ko-q1-2026-earnings.html",
-        "published": "Tue, 28 Apr 2026 11:11:17 GMT",
+        "published": "Tue, 28 Apr 2026 11:27:11 GMT",
         "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
@@ -739,26 +666,6 @@
         "color": "green"
       },
       {
-        "title": "BP profits more than double, beating expectations as Iran war boosts oil prices",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/04/28/bp-q1-earnings-oil-energy.html",
-        "published": "Tue, 28 Apr 2026 08:45:34 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
-      },
-      {
-        "title": "Citi UK CEO: 'Phenomenal' market resilience is keeping recession risk at bay — for now",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/04/28/citi-tiina-lee-iran-recession-war-ai-data-energy-markets-economy.html",
-        "published": "Tue, 28 Apr 2026 09:32:00 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
-      },
-      {
         "title": "Trump discussed Iran's Hormuz Strait proposal with top aides, White House says",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/04/27/trump-iran-war-strait-of-hormuz-rubio.html",
@@ -767,6 +674,29 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
+      },
+      {
+        "title": "Meta, Google, OpenAI among Big Tech firms seeing top staff leaving to launch AI startups",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html",
+        "published": "Tue, 28 Apr 2026 07:14:19 GMT",
+        "assets": [
+          "GOOGL",
+          "META"
+        ],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
+        "title": "BP profits more than double, beating expectations as Iran war boosts oil prices",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/28/bp-q1-earnings-oil-energy.html",
+        "published": "Tue, 28 Apr 2026 08:45:34 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "True Anomaly raises $650 million to support space interceptors for Trump's Golden Dome",
@@ -779,10 +709,20 @@
         "color": "yellow"
       },
       {
-        "title": "Congressional Republicans rally around Trump's White House ballroom project",
+        "title": "Brent oil prices top $111 per barrel as traders weigh Iran’s Strait of Hormuz proposal",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/04/27/congressional-republicans-trump-white-house-ballroom.html",
-        "published": "Tue, 28 Apr 2026 01:40:11 GMT",
+        "url": "https://www.cnbc.com/2026/04/28/oil-prices-us-iran-hormuz-negotiations-wti-brent-crude.html",
+        "published": "Tue, 28 Apr 2026 07:27:48 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
+        "title": "Watch for these 21 best-in-class stocks to keep powering the tech rally, analysts advise",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/here-are-21-stocks-to-keep-powering-the-tech-rally-say-these-analysts-2fc55384?mod=mw_rss_topstories",
+        "published": "Tue, 28 Apr 2026 11:21:00 GMT",
         "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
@@ -797,16 +737,6 @@
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
-      },
-      {
-        "title": "Here are 21 stocks to keep powering the tech rally, say these analysts.",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/here-are-21-stocks-to-keep-powering-the-tech-rally-say-these-analysts-2fc55384?mod=mw_rss_topstories",
-        "published": "Tue, 28 Apr 2026 11:03:00 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
       },
       {
         "title": "‘I hope to retire early’: I’m 56 and have 80% in a traditional IRA and 20% in a Roth. Am I in trouble?",
@@ -847,20 +777,20 @@
     "polymarket": [
       {
         "title": "US x Iran diplomatic meeting by April 30, 2026?",
-        "volume_24h": 424041,
+        "volume_24h": 421806,
         "yes_price": 0.03,
         "category": "finance"
       },
       {
-        "title": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 30, 2026?",
-        "volume_24h": 354090,
-        "yes_price": 0.06,
+        "title": "Will the U.S. invade Iran before 2027?",
+        "volume_24h": 342299,
+        "yes_price": 0.34,
         "category": "finance"
       },
       {
-        "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 342801,
-        "yes_price": 0.34,
+        "title": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 30, 2026?",
+        "volume_24h": 341354,
+        "yes_price": 0.06,
         "category": "finance"
       },
       {
@@ -871,25 +801,25 @@
       },
       {
         "title": "US x Iran permanent peace deal by May 31, 2026?",
-        "volume_24h": 305810,
+        "volume_24h": 305733,
         "yes_price": 0.28,
         "category": "finance"
       },
       {
         "title": "US obtains Iranian enriched uranium by May 31?",
-        "volume_24h": 275908,
+        "volume_24h": 275872,
         "yes_price": 0.08,
         "category": "finance"
       },
       {
         "title": "Kharg Island no longer under Iranian control by May 31?",
-        "volume_24h": 211975,
+        "volume_24h": 202940,
         "yes_price": 0.12,
         "category": "finance"
       },
       {
         "title": "US x Iran diplomatic meeting by May 5, 2026?",
-        "volume_24h": 168456,
+        "volume_24h": 168318,
         "yes_price": 0.17,
         "category": "finance"
       }
@@ -1001,7 +931,7 @@
     },
     "news_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: 5 bullish vs 3 bearish signals detected across stock/finance news data."
+      "summary": "Bullish: 5 bullish vs 0 bearish signals detected across stock/finance news data."
     }
   },
   "portfolio": [
