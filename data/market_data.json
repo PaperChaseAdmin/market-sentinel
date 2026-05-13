@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T07:01:43Z",
+  "updated_at": "2026-05-13T07:11:38Z",
   "crypto": {
     "fear_greed": {
       "value": 42,
@@ -7,61 +7,134 @@
       "previous_value": 49,
       "previous_label": "Neutral"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 80982,
+        "change_24h": -0.06,
+        "market_cap": 1621707638088,
+        "volume_24h": 31333967417
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 2300.31,
+        "change_24h": -0.13,
+        "market_cap": 277651327818,
+        "volume_24h": 13854795231
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 676.72,
+        "change_24h": 2.49,
+        "market_cap": 91192547085,
+        "volume_24h": 1243076494
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.46,
+        "change_24h": -0.2,
+        "market_cap": 89991573928,
+        "volume_24h": 2027751838
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 95.13,
+        "change_24h": -1.03,
+        "market_cap": 54978480155,
+        "volume_24h": 3123875884
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.111952,
+        "change_24h": 1.91,
+        "market_cap": 17253921302,
+        "volume_24h": 1228658822
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.273041,
+        "change_24h": -0.98,
+        "market_cap": 10093733552,
+        "volume_24h": 393822482
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 10.54,
+        "change_24h": 1.24,
+        "market_cap": 7655777994,
+        "volume_24h": 381599124
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 9.99,
+        "change_24h": 0.07,
+        "market_cap": 4312182272,
+        "volume_24h": 217934571
+      }
+    ],
     "top_mentioned": [
       {
         "symbol": "BTC",
         "mentions": 19,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 80982,
+        "change_24h": -0.06
       },
       {
         "symbol": "SOL",
         "mentions": 19,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 95.13,
+        "change_24h": -1.03
       },
       {
         "symbol": "ETH",
         "mentions": 9,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 2300.31,
+        "change_24h": -0.13
       },
       {
         "symbol": "BNB",
         "mentions": 2,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 676.72,
+        "change_24h": 2.49
       },
       {
         "symbol": "LINK",
         "mentions": 2,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 10.54,
+        "change_24h": 1.24
       },
       {
         "symbol": "XRP",
         "mentions": 1,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1.46,
+        "change_24h": -0.2
       },
       {
         "symbol": "ADA",
         "mentions": 1,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.273041,
+        "change_24h": -0.98
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.111952,
+        "change_24h": 1.91
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 9.99,
+        "change_24h": 0.07
       },
       {
         "symbol": "TON",
@@ -82,7 +155,7 @@
           "XRP"
         ],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.8,
         "color": "green"
       },
       {
@@ -108,7 +181,7 @@
           "ADA"
         ],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -118,7 +191,7 @@
         "published": "Tue, 12 May 2026 21:18:10 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.8,
+        "score": 0.9,
         "color": "green"
       },
       {
@@ -129,9 +202,9 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Neutral",
-        "score": 0.2,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "Senate confirms Kevin Warsh to Fed board ahead of expected Chair vote",
@@ -150,7 +223,7 @@
         "published": "Tue, 12 May 2026 16:35:02 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.8,
+        "score": 0.7,
         "color": "green"
       },
       {
@@ -171,9 +244,9 @@
         "url": "https://www.coindesk.com/policy/2026/05/12/the-cftc-is-in-talks-with-every-major-pro-sports-league-to-crack-down-on-insider-trading",
         "published": "Tue, 12 May 2026 15:38:56 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": -0.2,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.6,
+        "color": "red"
       },
       {
         "title": "Bitcoin’s bull-bear cycle indicator turns green for first time since March 2023",
@@ -194,7 +267,7 @@
         "published": "Wed, 13 May 2026 05:07:10 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.5,
+        "score": 0.7,
         "color": "green"
       },
       {
@@ -207,7 +280,7 @@
           "UNI"
         ],
         "sentiment": "Bullish",
-        "score": 0.5,
+        "score": 0.8,
         "color": "green"
       },
       {
@@ -218,9 +291,9 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Neutral",
-        "score": 0.2,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.6,
+        "color": "green"
       },
       {
         "title": "Iran war, AI spending could push Bitcoin back to $126K this year: Hayes",
@@ -231,7 +304,7 @@
           "BTC"
         ],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.9,
         "color": "green"
       },
       {
@@ -240,44 +313,44 @@
         "url": "https://cointelegraph.com/news/senators-file-over-100-amendments-to-crypto-bill-ahead-of-markup?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Wed, 13 May 2026 03:59:47 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.5,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": 0.453,
+      "score": 0.52,
       "label": "Bullish",
       "color": "green"
     },
     "polymarket": [
       {
         "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-        "volume_24h": 242215,
-        "yes_price": 0.31,
+        "volume_24h": 252514,
+        "yes_price": 0.39,
         "category": "crypto"
       },
       {
         "title": "Will the price of Bitcoin be above $80,000 on May 13?",
-        "volume_24h": 118179,
-        "yes_price": 0.89,
+        "volume_24h": 117964,
+        "yes_price": 0.9,
         "category": "crypto"
       },
       {
         "title": "Bitcoin Up or Down on May 13?",
-        "volume_24h": 114678,
-        "yes_price": 0.78,
+        "volume_24h": 114858,
+        "yes_price": 0.79,
         "category": "crypto"
       },
       {
         "title": "MicroStrategy sells any Bitcoin by June 30, 2026?",
-        "volume_24h": 68484,
-        "yes_price": 0.69,
+        "volume_24h": 68721,
+        "yes_price": 0.68,
         "category": "crypto"
       },
       {
         "title": "Will Bitcoin dip to $65,000 in May?",
-        "volume_24h": 65339,
+        "volume_24h": 65170,
         "yes_price": 0.06,
         "category": "crypto"
       },
@@ -289,20 +362,20 @@
       },
       {
         "title": "Will Bitcoin reach $85,000 in May?",
-        "volume_24h": 61061,
+        "volume_24h": 60644,
         "yes_price": 0.53,
         "category": "crypto"
       },
       {
         "title": "Will Bitcoin dip to $70,000 in May?",
-        "volume_24h": 56116,
+        "volume_24h": 56083,
         "yes_price": 0.14,
         "category": "crypto"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 0 bullish vs 2 bearish signals detected across crypto prediction markets data."
+      "outlook": "Bullish",
+      "summary": "Bullish: Short-term sentiment is strongly positive, with 90% expecting Bitcoin above $80,000 by May 13, and 79% predicting an upward trend. Significant dips are largely dismissed, with only 6% foreseeing Bitcoin reaching $65,000 in May. While 68% anticipate MicroStrategy selling by June 2026, this does not temper immediate market optimism."
     },
     "reddit": [
       {
@@ -402,16 +475,16 @@
       }
     ],
     "reddit_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: Extremely high activity (100/100) across r/CryptoCurrency, r/Bitcoin, and r/ethereum, with BTC and SOL (19 mentions each) leading discussions, suggests strong community engagement. However, without direct sentiment from these discussions, the overall market direction remains ambiguous despite high participation."
+      "outlook": "Bullish",
+      "summary": "Bullish: Market sentiment is highly engaged, driven by extremely high activity (100/100) across r/CryptoCurrency, r/Bitcoin, and r/ethereum. Top assets BTC and SOL show significant interest with 19 mentions each, alongside ETH with 9 mentions, indicating robust discussion and potential optimism among Redditors."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "**Bullish:** Sentiment is strong as Bitcoin trades above $81,000, with BNB and DOGE leading major gains. XRP also topped volumes on South Korean exchanges. Institutional adoption is highlighted by JPMorgan filing for a tokenized fund. Furthermore, privacy projects like Arc, Canton, and Tempo attracted over $1 billion in funding, and a stablecoin yield project raised $13.5 million, largely outweighing Nevada's regulatory pushback."
+      "outlook": "Bullish",
+      "summary": "Bullish: Bitcoin surged past $81,000, with BNB and DOGE leading gains, while XRP topped volumes in South Korea. JPMorgan's tokenized fund filing, Ethereum Foundation's 'Clear Signing' initiative, and privacy projects like Arc and Canton raising over $1 billion, alongside a $13.5M stablecoin yield round, signal strong positive momentum despite Nevada regulatory pushback."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 150,
+      "active_threads": 148,
       "mentions": {
         "BTC": 27,
         "XRP": 9,
@@ -428,49 +501,49 @@
         "name": "Zano",
         "rank": 207,
         "score": 0,
-        "change_24h": -2.7
+        "change_24h": -2.87
       },
       {
         "symbol": "LAB",
         "name": "LAB",
         "rank": 133,
         "score": 1,
-        "change_24h": 14.12
+        "change_24h": 10.96
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "rank": 106,
+        "score": 2,
+        "change_24h": 11.72
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 97,
-        "score": 2,
-        "change_24h": -6.56
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "rank": 107,
         "score": 3,
-        "change_24h": 10.99
-      },
-      {
-        "symbol": "BILL",
-        "name": "Billions Network",
-        "rank": 131,
-        "score": 4,
-        "change_24h": 15.18
+        "change_24h": -6.69
       },
       {
         "symbol": "WOJAK",
         "name": "wojak",
         "rank": 622,
-        "score": 5,
-        "change_24h": -12.69
+        "score": 4,
+        "change_24h": -14.83
       },
       {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "rank": 1,
+        "symbol": "BILL",
+        "name": "Billions Network",
+        "rank": 131,
+        "score": 5,
+        "change_24h": 16.47
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "rank": 7,
         "score": 6,
-        "change_24h": -0.08
+        "change_24h": -1.08
       }
     ]
   },
@@ -626,7 +699,7 @@
         "title": "SoftBank posts $46 billion gain at Vision Fund driven mainly by massive OpenAI bet",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/05/13/softbank-earnings-fy-2025-vision-fund-openai-stake.html",
-        "published": "Wed, 13 May 2026 06:54:02 GMT",
+        "published": "Wed, 13 May 2026 07:06:49 GMT",
         "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
@@ -659,7 +732,7 @@
         "published": "Wed, 13 May 2026 01:14:04 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -689,7 +762,7 @@
         "published": "Tue, 12 May 2026 21:56:17 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.8,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -699,7 +772,7 @@
         "published": "Tue, 12 May 2026 20:04:29 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.7,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -709,7 +782,7 @@
         "published": "Tue, 12 May 2026 21:40:08 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -729,7 +802,7 @@
         "published": "Wed, 13 May 2026 00:00:00 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -764,32 +837,32 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.033,
+      "score": -0.067,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "US x Iran permanent peace deal by June 30, 2026?",
-        "volume_24h": 547573,
+        "volume_24h": 547572,
         "yes_price": 0.34,
         "category": "finance"
       },
       {
         "title": "Will Greece win Eurovision 2026?",
-        "volume_24h": 423818,
+        "volume_24h": 424086,
         "yes_price": 0.13,
         "category": "finance"
       },
       {
         "title": "US x Iran permanent peace deal by May 31, 2026?",
-        "volume_24h": 394307,
+        "volume_24h": 393680,
         "yes_price": 0.17,
         "category": "finance"
       },
       {
         "title": "Will the Iranian regime fall by June 30?",
-        "volume_24h": 357008,
+        "volume_24h": 356262,
         "yes_price": 0.04,
         "category": "finance"
       },
@@ -801,13 +874,13 @@
       },
       {
         "title": "Will there be no change in Fed interest rates after the June 2026 meeting?",
-        "volume_24h": 335412,
+        "volume_24h": 335420,
         "yes_price": 0.98,
         "category": "finance"
       },
       {
         "title": "US x Iran permanent peace deal by December 31, 2026?",
-        "volume_24h": 317520,
+        "volume_24h": 317621,
         "yes_price": 0.62,
         "category": "finance"
       },
@@ -820,7 +893,7 @@
     ],
     "polymarket_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: Markets foresee significant stability, with a 98% probability of no Fed interest rate change after June 2026. Geopolitical risks appear largely dismissed, indicated by only a 7% chance of China invading Taiwan by year-end and 8% for an Israel ground operation in Iran by May 2026. A US x Iran peace deal by December 2026 holds a 62% probability."
+      "summary": "Bullish: Market sentiment reflects strong confidence in economic stability, with 98% predicting no Fed interest rate change by June 2026. Geopolitical risks are notably low, as an Iranian regime fall registers 4%, China invading Taiwan 7%, and Israel launching ground operations in Iran 8%. A US-Iran permanent peace deal by December 2026 holds a moderate 62% probability, further contributing to stable outlooks."
     },
     "reddit": [
       {
@@ -920,12 +993,12 @@
       }
     ],
     "reddit_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: Significant interest in NVDA (5 mentions) reflects bullish tech sentiment, joined by MSFT (2) and PLTR (1). However, substantial discussion on SPY (4) and speculative GME (3), coupled with high activity across r/wallstreetbets, r/stocks, and r/investing, suggests a fragmented market. Retail enthusiasm for growth is balanced by broad market and meme stock speculation."
+      "outlook": "Bullish",
+      "summary": "Bullish: Sentiment leans positive, driven by strong interest in growth tech like NVDA (5 mentions), MSFT (2), and PLTR (1). Speculative optimism also surrounds GME (3 mentions). Broad market ETF SPY (4) is highly discussed. Sustained high activity (all 100/100) across r/wallstreetbets, r/stocks, and r/investing reflects intense market engagement."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: Bullish sentiment stems from SoftBank's $46 billion Vision Fund gain (OpenAI), Siemens' $7 billion buyback, Jensen Huang joining Trump's China trip, and markets rising despite Iran. However, reaccelerating inflation, Starmer’s EU political hurdles, and Chinese exporters prioritizing Iran worries over tariffs introduce significant bearish headwinds, creating overall market uncertainty."
+      "outlook": "Bullish",
+      "summary": "Bullish: Market sentiment is largely positive due to SoftBank's $46 billion OpenAI gain and Siemens' $7 billion buyback. Nvidia CEO Jensen Huang joining Trump's China trip also adds optimism. However, reaccelerating inflation, UK political realities with Starmer's EU push, and Iran worries for Chinese exporters present headwinds."
     }
   },
   "portfolio": [
