@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T22:30:51Z",
+  "updated_at": "2026-05-15T22:41:10Z",
   "crypto": {
     "fear_greed": {
       "value": 43,
@@ -7,61 +7,134 @@
       "previous_value": 34,
       "previous_label": "Fear"
     },
-    "prices": [],
-    "top_mentioned": [
+    "prices": [
       {
         "symbol": "BTC",
-        "mentions": 24,
-        "price_usd": null,
-        "change_24h": null
+        "name": "Bitcoin",
+        "price_usd": 79080,
+        "change_24h": -2.97,
+        "market_cap": 1583254088928,
+        "volume_24h": 38331919617
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 2221.42,
+        "change_24h": -3.37,
+        "market_cap": 267988317406,
+        "volume_24h": 17033458012
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 672.27,
+        "change_24h": -1.24,
+        "market_cap": 90627895422,
+        "volume_24h": 1112128076
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.43,
+        "change_24h": -4.73,
+        "market_cap": 88473773620,
+        "volume_24h": 2524069422
       },
       {
         "symbol": "SOL",
-        "mentions": 18,
-        "price_usd": null,
-        "change_24h": null
+        "name": "Solana",
+        "price_usd": 89.14,
+        "change_24h": -3.97,
+        "market_cap": 51535534611,
+        "volume_24h": 3264379081
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.11339,
+        "change_24h": -2.53,
+        "market_cap": 17491265867,
+        "volume_24h": 1599136113
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.261407,
+        "change_24h": -4.08,
+        "market_cap": 9669551846,
+        "volume_24h": 408391188
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 10.06,
+        "change_24h": -4.89,
+        "market_cap": 7313789959,
+        "volume_24h": 353341101
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 9.54,
+        "change_24h": -4.62,
+        "market_cap": 4115749637,
+        "volume_24h": 215010828
+      }
+    ],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 25,
+        "price_usd": 79080,
+        "change_24h": -2.97
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 19,
+        "price_usd": 89.14,
+        "change_24h": -3.97
       },
       {
         "symbol": "ETH",
         "mentions": 6,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 2221.42,
+        "change_24h": -3.37
       },
       {
         "symbol": "XRP",
         "mentions": 2,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1.43,
+        "change_24h": -4.73
       },
       {
         "symbol": "LINK",
         "mentions": 1,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 10.06,
+        "change_24h": -4.89
       },
       {
         "symbol": "BNB",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 672.27,
+        "change_24h": -1.24
       },
       {
         "symbol": "ADA",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.261407,
+        "change_24h": -4.08
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.11339,
+        "change_24h": -2.53
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 9.54,
+        "change_24h": -4.62
       },
       {
         "symbol": "TON",
@@ -198,7 +271,7 @@
           "SOL"
         ],
         "sentiment": "Bullish",
-        "score": 0.8,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -243,33 +316,33 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.02,
+      "score": -0.04,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-        "volume_24h": 488387,
+        "volume_24h": 487849,
         "yes_price": 0.58,
         "category": "crypto"
       },
       {
         "title": "Will Bitcoin reach $90,000 in May?",
-        "volume_24h": 197978,
+        "volume_24h": 197993,
         "yes_price": 0.07,
         "category": "crypto"
       }
     ],
     "polymarket_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
+      "summary": "Bearish: 58% predict MicroStrategy will sell Bitcoin by May 31, 2026, and only 7% expect it to reach $90,000 in May, indicating low confidence."
     },
     "reddit": [
       {
         "subreddit": "r/CryptoCurrency",
         "mentions": {
-          "BTC": 4,
+          "BTC": 5,
           "SOL": 1,
           "XRP": 1,
           "ETH": 0,
@@ -326,7 +399,7 @@
       {
         "subreddit": "r/solana",
         "mentions": {
-          "SOL": 17,
+          "SOL": 18,
           "ETH": 1,
           "BTC": 0,
           "BNB": 0,
@@ -389,49 +462,49 @@
         "name": "Chainlink",
         "rank": 18,
         "score": 0,
-        "change_24h": -4.8
+        "change_24h": -4.89
       },
       {
-        "symbol": "STORJ",
-        "name": "Storj",
-        "rank": 907,
+        "symbol": "XRP",
+        "name": "XRP",
+        "rank": 5,
         "score": 1,
-        "change_24h": 26.61
+        "change_24h": -4.74
       },
       {
         "symbol": "ASTEROID",
         "name": "Asteroid Shiba",
         "rank": 238,
         "score": 2,
-        "change_24h": 8.71
+        "change_24h": 8.85
       },
       {
-        "symbol": "XRP",
-        "name": "XRP",
-        "rank": 5,
+        "symbol": "STORJ",
+        "name": "Storj",
+        "rank": 908,
         "score": 3,
-        "change_24h": -4.36
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 13,
-        "score": 4,
-        "change_24h": 0.29
+        "change_24h": 26.64
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 99,
-        "score": 5,
-        "change_24h": -4.51
+        "score": 4,
+        "change_24h": -4.45
       },
       {
-        "symbol": "RUNE",
-        "name": "THORChain",
-        "rank": 200,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 13,
+        "score": 5,
+        "change_24h": 0.26
+      },
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "rank": 1,
         "score": 6,
-        "change_24h": -15.41
+        "change_24h": -3.0
       }
     ]
   },
@@ -580,9 +653,9 @@
         "url": "https://www.cnbc.com/2026/05/15/trump-stock-trade-tech-oge.html",
         "published": "Fri, 15 May 2026 19:34:05 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "What you need to know about Nvidia competitor Cerebras after wild IPO",
@@ -593,7 +666,7 @@
           "NVDA"
         ],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.1,
         "color": "yellow"
       },
       {
@@ -603,7 +676,7 @@
         "published": "Fri, 15 May 2026 20:50:03 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.9,
         "color": "green"
       },
       {
@@ -615,7 +688,7 @@
           "PLTR"
         ],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.8,
         "color": "green"
       },
       {
@@ -624,9 +697,9 @@
         "url": "https://www.cnbc.com/2026/05/15/traders-now-see-next-fed-interest-rate-move-as-a-hike-following-inflation-surge.html",
         "published": "Fri, 15 May 2026 18:55:25 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.9,
+        "color": "red"
       },
       {
         "title": "Democrats blast Trump over 'slush fund' in possible IRS lawsuit settlement",
@@ -674,9 +747,9 @@
         "url": "https://www.cnbc.com/2026/05/15/china-us-oil-iran-war-strait-hormuz-trump-xi.html",
         "published": "Fri, 15 May 2026 14:58:00 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.7,
+        "color": "green"
       },
       {
         "title": "This hedge fund just dumped the ‘big three’ airline stocks, as the industry faces soaring fuel costs",
@@ -684,9 +757,9 @@
         "url": "https://www.marketwatch.com/story/this-hedge-fund-just-dumped-the-big-three-airline-stocks-as-the-industry-faces-soaring-fuel-costs-4ae4f9ba?mod=mw_rss_topstories",
         "published": "Fri, 15 May 2026 21:48:00 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.9,
+        "color": "red"
       },
       {
         "title": "Berkshire’s Abel sours on some of Warren Buffett’s picks, while betting big on Delta",
@@ -695,7 +768,7 @@
         "published": "Fri, 15 May 2026 21:41:00 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.1,
         "color": "yellow"
       },
       {
@@ -705,7 +778,7 @@
         "published": "Fri, 15 May 2026 21:29:00 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.8,
         "color": "green"
       },
       {
@@ -714,9 +787,9 @@
         "url": "https://www.marketwatch.com/story/668-603-360-342-thats-how-much-people-have-legally-bet-on-sports-since-the-supreme-courts-2018-ruling-550e0a08?mod=mw_rss_topstories",
         "published": "Fri, 15 May 2026 21:08:00 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.7,
+        "color": "green"
       },
       {
         "title": "Stocks and bonds get swept up in a selloff, as Trump’s China visit fails to pry open the Strait of Hormuz",
@@ -730,50 +803,50 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.133,
+      "score": 0.127,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Trump say \"Iran\" during events with Xi Jinping?",
-        "volume_24h": 3755657,
+        "volume_24h": 3771627,
         "yes_price": 0.03,
         "category": "finance"
       },
       {
         "title": "Will Trump say \"Strait\" or \"Hormuz\" during events with Xi Jinping?",
-        "volume_24h": 1604879,
+        "volume_24h": 1609666,
         "yes_price": 0.03,
         "category": "finance"
       },
       {
         "title": "Will Trump say \"Nuclear\" during events with Xi Jinping?",
-        "volume_24h": 1030176,
+        "volume_24h": 1034928,
         "yes_price": 0.03,
         "category": "finance"
       },
       {
         "title": "US x Iran permanent peace deal by May 31, 2026?",
-        "volume_24h": 941632,
+        "volume_24h": 941548,
         "yes_price": 0.12,
         "category": "finance"
       },
       {
         "title": "Will Donald Trump win the Nobel Peace Prize in 2026?",
-        "volume_24h": 653558,
+        "volume_24h": 653567,
         "yes_price": 0.1,
         "category": "finance"
       },
       {
         "title": "Will Bulgaria win Eurovision 2026?",
-        "volume_24h": 434201,
+        "volume_24h": 430692,
         "yes_price": 0.03,
         "category": "finance"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 363541,
+        "volume_24h": 363241,
         "yes_price": 0.28,
         "category": "finance"
       },
@@ -891,7 +964,7 @@
     },
     "news_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: 4 bullish vs 1 bearish signals detected across stock/finance news data."
+      "summary": "Bullish: 4 bullish vs 2 bearish signals detected across stock/finance news data."
     }
   },
   "portfolio": [
