@@ -578,8 +578,8 @@ function renderStocks(s) {
 
   const mm = s.market_mood;
   const moodPct = Math.round((mm.score + 1) / 2 * 100);
-  const mmColor = mm.color === 'green' ? 'profit' : mm.color === 'red' ? 'loss' : 'amber';
-  document.getElementById('market-mood-score').innerHTML = '<span style="color:var(--' + mmColor === 'profit' ? 'tv-green' : mmColor === 'loss' ? 'tv-red' : 'tv-amber' + ')">' + moodPct + '</span>';
+  const mmColorVal = mm.color === 'green' ? 'var(--tv-green)' : mm.color === 'red' ? 'var(--tv-red)' : 'var(--tv-amber)';
+  document.getElementById('market-mood-score').innerHTML = '<span style="color:' + mmColorVal + '">' + moodPct + '</span>';
   document.getElementById('market-mood-label').innerHTML = badge(mm.label, mm.color) + ' <span style="color:var(--tv-text-2);font-size:11px">market mood</span>';
   sentimentBars(s.news || [], 'stock-sentiment-bars');
 
