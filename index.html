@@ -47,7 +47,6 @@ body{
 .topbar{background:rgba(19,23,34,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--tv-border);position:sticky;top:0;z-index:100}
 .topbar-inner{max-width:1400px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:4px;height:52px}
 .logo{font-size:15px;font-weight:800;color:var(--tv-text);text-decoration:none;display:flex;align-items:center;gap:10px;margin-right:20px}
-.logo::before{content:'';width:20px;height:20px;background:linear-gradient(135deg,var(--tv-blue),#7c4dff);border-radius:5px;display:inline-block}
 .topbar-nav{display:flex;align-items:center;gap:0}
 .nav-section{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--tv-text-3);padding:0 10px;margin-right:4px}
 .nav-link{font-size:13px;font-weight:500;color:var(--tv-text-2);text-decoration:none;padding:6px 12px;border-radius:var(--tv-radius-sm);transition:all .15s;white-space:nowrap}
@@ -232,13 +231,10 @@ body{
 <nav class="topbar"><div class="topbar-inner">
   <a class="logo" href="/trade/">PaperChase</a>
   <div class="topbar-nav">
-    <span class="nav-section">Trading</span>
-      <a class="nav-link" href="/trade/">Leaderboard</a>
-      <a class="nav-link active" href="/market-sentinel/">Market Sentinel</a>
-      <a class="nav-link" href="/trade/polymarket/">Polymarket</a>
-      <div class="nav-spacer"></div>
-      <span class="nav-section">Info</span>
-    <a class="nav-link" href="/">About</a>
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/trade/">AI Trading</a>
+    <a class="nav-link active" href="/market-sentinel/">Market Sentinel</a>
+    <a class="nav-link" href="/trade/polymarket/">Polymarket</a>
   </div>
 </div></nav>
 
