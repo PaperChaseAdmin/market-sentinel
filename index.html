@@ -243,7 +243,7 @@ body{
   </div>
 
   <div class="tabs-wrap">
-    <a class="tab active" data-tab="crypto" onclick="switchTab('crypto', this)">🚰 Crypto</a>
+    <a class="tab active" data-tab="crypto" onclick="switchTab('crypto', this)">🪙 Crypto</a>
     <a class="tab" data-tab="stocks" onclick="switchTab('stocks', this)">📈 Stocks</a>
     <a class="tab" data-tab="portfolio" onclick="switchTab('portfolio', this)">💼 ETF Portfolio</a>
   </div>
@@ -390,7 +390,305 @@ body{
 </div>
 
 <script>
+// ── Config ──────────────────────────────────────────────────────────────
+const DATA_URL = './data/market_data.json';
+let DATA = null;
 
+// ── Tab switching ────────────────────────────────────────────────────────
+function switchTab(name, el) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('tab-' + name).classList.add('active');
+  document.getElementById('tabIndicator').textContent = el.textContent.trim();
+}
+
+// ── Countdown ────────────────────────────────────────────────────────────
+let _cdTimer = null;
+function startCountdown(updatedAt) {
+  clearInterval(_cdTimer);
+  clearTimeout(_cdTimer);
+  const updated  = new Date(updatedAt);
+  const ageMs    = Date.now() - updated.getTime();
+  const el       = document.getElementById('countdown');
+
+  if (ageMs > 20 * 60 * 1000) {
+    const staleMins = Math.round(ageMs / 60000);
+    el.textContent = '· data ' + staleMins + 'm old';
+    _cdTimer = setTimeout(() => loadData(), 90 * 1000);
+    return;
+  }
+
+  const next = new Date(updated.getTime() + 10 * 60 * 1000);
+  function tick() {
+    const diff = next - Date.now();
+    if (diff <= 0) {
+      clearInterval(_cdTimer);
+      el.textContent = '· checking…';
+      loadData();
+      return;
+    }
+    const m = Math.floor(diff / 60000);
+    const s = Math.floor((diff % 60000) / 1000);
+    el.textContent = '· next in ' + m + ':' + String(s).padStart(2,'0');
+  }
+  tick();
+  _cdTimer = setInterval(tick, 1000);
+}
+
+// ── AI Summary ───────────────────────────────────────────────────────────
+function renderSummary(summary) {
+  if (!summary || !summary.summary) return '';
+  const color = summary.outlook === 'Bullish' ? 'green' : summary.outlook === 'Bearish' ? 'red' : 'yellow';
+  const body = summary.summary.replace(/^(bullish|bearish|mixed):\s*/i, '');
+  return '<div class="ai-summary"><span class="badge ' + color + '" style="margin-right:6px">' + summary.outlook + '</span>' + body + '</div>';
+}
+
+// ── Helpers ──────────────────────────────────────────────────────────────
+const fmtPrice = v => v == null ? '—' : v >= 1000
+  ? '$' + v.toLocaleString('en', {maximumFractionDigits:0})
+  : v >= 1 ? '$' + v.toFixed(2)
+  : v >= 0.01 ? '$' + v.toFixed(4)
+  : '$' + v.toFixed(6);
+
+const fmtChg = v => {
+  if (v == null) return '<span class="change-nt">—</span>';
+  const cls = v > 0 ? 'change-up' : v < 0 ? 'change-dn' : 'change-nt';
+  const sign = v > 0 ? '+' : '';
+  return '<span class="' + cls + '">' + sign + v.toFixed(2) + '%</span>';
+};
+
+const fmtVol = v => {
+  if (!v) return '—';
+  if (v >= 1e6) return '$' + (v/1e6).toFixed(1) + 'M';
+  if (v >= 1e3) return '$' + (v/1e3).toFixed(0) + 'K';
+  return '$' + v;
+};
+
+const badge = (label, color) =>
+  '<span class="badge ' + color + '">' + label + '</span>';
+
+// ── Gauge ────────────────────────────────────────────────────────────────
+function setGauge(value) {
+  const angle = (value / 100) * 180 - 90;
+  document.getElementById('gauge-needle').setAttribute('transform', 'rotate(' + angle + ',100,100)');
+  const el = document.getElementById('fg-value');
+  el.textContent = value;
+  if (value <= 24)      el.style.color = '#f23645';
+  else if (value <= 44) el.style.color = '#f97316';
+  else if (value <= 55) el.style.color = '#d29922';
+  else if (value <= 74) el.style.color = '#86efac';
+  else                  el.style.color = '#089981';
+}
+
+// ── Sentiment bars ─────────────────────────────────────────────────────────
+function sentimentBars(news, containerId) {
+  const counts = {green:0, yellow:0, red:0};
+  news.forEach(n => counts[n.color]++);
+  const total = news.length || 1;
+  const el = document.getElementById(containerId);
+  el.innerHTML =
+    '<div class="sentiment-row"><span class="sentiment-label">Bullish</span><div class="bar-track"><div class="bar-fill" style="width:' + (counts.green/total*100).toFixed(0) + '%;background:var(--tv-green)"></div></div><span style="font-size:11px;min-width:20px;text-align:right;color:var(--tv-text-3)">' + counts.green + '</span></div>' +
+    '<div class="sentiment-row"><span class="sentiment-label">Neutral</span><div class="bar-track"><div class="bar-fill" style="width:' + (counts.yellow/total*100).toFixed(0) + '%;background:var(--tv-amber)"></div></div><span style="font-size:11px;min-width:20px;text-align:right;color:var(--tv-text-3)">' + counts.yellow + '</span></div>' +
+    '<div class="sentiment-row"><span class="sentiment-label">Bearish</span><div class="bar-track"><div class="bar-fill" style="width:' + (counts.red/total*100).toFixed(0) + '%;background:var(--tv-red)"></div></div><span style="font-size:11px;min-width:20px;text-align:right;color:var(--tv-text-3)">' + counts.red + '</span></div>';
+}
+
+// ── Render Crypto ─────────────────────────────────────────────────────────
+function renderCrypto(c) {
+  setGauge(c.fear_greed.value);
+  document.getElementById('fg-label').textContent = c.fear_greed.label;
+  const diff = c.fear_greed.value - c.fear_greed.previous_value;
+  const diffStr = diff >= 0 ? '▲ ' + diff + ' from yesterday' : '▼ ' + Math.abs(diff) + ' from yesterday';
+  document.getElementById('fg-delta').innerHTML = '<span style="color:var(--tv-text-2)">' + diffStr + '</span>';
+
+  const ns = c.news_sentiment;
+  const pct = Math.round((ns.score + 1) / 2 * 100);
+  document.getElementById('crypto-sentiment-score').innerHTML = '<span style="color:var(--' + (ns.color === 'green' ? 'tv-green' : ns.color === 'red' ? 'tv-red' : 'tv-amber') + ')">' + pct + '</span>';
+  document.getElementById('crypto-sentiment-label').innerHTML = badge(ns.label, ns.color) + ' <span style="color:var(--tv-text-2);font-size:11px">news sentiment</span>';
+  sentimentBars(c.news, 'crypto-sentiment-bars');
+
+  document.getElementById('crypto-mentions').innerHTML =
+    (c.top_mentioned || []).filter(m => m.mentions > 0).slice(0, 8).map(m =>
+      '<div class="price-row"><span class="price-sym">' + m.symbol + '</span><span class="mention-count">' + m.mentions + ' mentions</span><span>' + fmtChg(m.change_24h) + '</span></div>'
+    ).join('') || '<div style="color:var(--tv-text-2);padding:8px 0">No data</div>';
+
+  document.getElementById('crypto-prices').innerHTML =
+    (c.prices || []).slice(0, 10).map(p =>
+      '<div class="price-row"><span class="price-sym">' + p.symbol + '</span><span class="price-val">' + fmtPrice(p.price_usd) + '</span>' + fmtChg(p.change_24h) + '</div>'
+    ).join('') || '<div style="color:var(--tv-text-2)">No price data</div>';
+
+  document.getElementById('crypto-polymarket').innerHTML =
+    renderSummary(c.polymarket_summary) +
+    (c.polymarket || []).map(m =>
+      '<div class="poly-item"><div class="poly-title">' + m.title + '</div><div class="poly-meta"><span class="poly-vol">' + fmtVol(m.volume_24h) + '</span><div class="prob-bar"><div class="prob-fill" style="width:' + Math.round(m.yes_price*100) + '%"></div></div><span class="poly-yes">' + Math.round(m.yes_price*100) + '% Yes</span></div></div>'
+    ).join('') || '<div style="color:var(--tv-text-2)">No active markets</div>';
+
+  document.getElementById('crypto-news').innerHTML =
+    renderSummary(c.news_summary) +
+    (c.news || []).slice(0, 10).map(n =>
+      '<div class="news-item"><span class="news-source">' + n.source + '</span><a class="news-title" href="' + n.url + '" target="_blank" rel="noopener">' + n.title + '</a><div class="news-right">' + badge(n.sentiment, n.color) + '</div></div>'
+    ).join('') || '<div style="color:var(--tv-text-2)">No news</div>';
+
+  document.getElementById('crypto-reddit').innerHTML =
+    renderSummary(c.reddit_summary) +
+    (c.reddit || []).map(r =>
+      '<div class="reddit-sub"><div><a href="https://reddit.com/' + r.subreddit + '" class="reddit-name" target="_blank">' + r.subreddit + '</a><div class="activity-bar"><div class="activity-fill" style="width:' + r.activity_score + '%"></div></div><div class="reddit-top">' + (r.top_post ? r.top_post.slice(0,80) + '…' : '') + '</div></div><span class="reddit-score">Activity ' + r.activity_score + '/100</span></div>'
+    ).join('') || '<div style="color:var(--tv-text-2)">No Reddit data</div>';
+
+  const tr = c.cg_trending || [];
+  document.getElementById('crypto-cg-trending').innerHTML = tr.length
+    ? tr.map(t =>
+      '<div class="trending-row"><span class="trending-sym">' + t.symbol + '</span><span class="trending-name">' + t.name + '</span><span style="font-size:10px;color:var(--tv-text-3);margin-right:8px">Rank #' + t.rank + '</span>' + fmtChg(t.change_24h) + '</div>'
+    ).join('')
+    : '<div style="color:var(--tv-text-2)">No trending data</div>';
+
+  const biz = c.fourchain || {};
+  if (biz.thread_count) {
+    const bull = biz.bullish_pct || 0;
+    const bear = 100 - bull;
+    const mentions = Object.entries(biz.mentions || {}).slice(0, 5);
+    document.getElementById('crypto-fourchain').innerHTML =
+      '<div style="display:flex;gap:16px;margin-bottom:12px;flex-wrap:wrap">' +
+        '<div><div style="font-size:10px;color:var(--tv-text-2);text-transform:uppercase;letter-spacing:.05em;font-weight:600">Threads</div><div style="font-size:20px;font-weight:700;font-family:var(--tv-mono);color:var(--tv-text)">' + biz.thread_count + '</div></div>' +
+        '<div><div style="font-size:10px;color:var(--tv-text-2);text-transform:uppercase;letter-spacing:.05em;font-weight:600">Active</div><div style="font-size:20px;font-weight:700;font-family:var(--tv-mono);color:var(--tv-text)">' + biz.active_threads + '</div></div>' +
+        '<div style="flex:1;min-width:100px"><div style="font-size:10px;color:var(--tv-text-2);text-transform:uppercase;letter-spacing:.05em;font-weight:600;margin-bottom:4px">Sentiment</div>' +
+          '<div style="display:flex;height:4px;border-radius:2px;overflow:hidden;gap:1px"><div style="width:' + bull + '%;background:var(--tv-green)"></div><div style="width:' + bear + '%;background:var(--tv-red)"></div></div>' +
+          '<div style="display:flex;justify-content:space-between;margin-top:3px"><span style="font-size:10px;color:var(--tv-green)">' + bull + '% Bull</span><span style="font-size:10px;color:var(--tv-red)">' + bear + '% Bear</span></div>' +
+        '</div>' +
+      '</div>' +
+      '<div style="font-size:10px;color:var(--tv-text-2);text-transform:uppercase;letter-spacing:.05em;font-weight:600;margin-bottom:6px">Top Mentions</div>' +
+      mentions.map(([sym, cnt]) =>
+        '<div class="price-row"><span class="price-sym">' + sym + '</span><div class="bar-track" style="margin:0 10px"><div class="bar-fill" style="width:' + Math.min(100, cnt * 4) + '%;background:var(--tv-blue)"></div></div><span class="mention-count">' + cnt + ' mentions</span></div>'
+      ).join('');
+  } else {
+    document.getElementById('crypto-fourchain').innerHTML = '<div style="color:var(--tv-text-2)">No data</div>';
+  }
+}
+
+// ── Render Stocks ─────────────────────────────────────────────────────────
+function renderStocks(s) {
+  const idxMap = {sp500:'S&P 500', nasdaq:'Nasdaq', dow:'Dow Jones', vix:'VIX'};
+  document.getElementById('stock-indices').innerHTML =
+    Object.entries(idxMap).map(([k, label]) => {
+      const v = s.indices?.[k];
+      if (!v) return '<div class="index-item"><div class="index-name">' + label + '</div><div class="index-val" style="color:var(--tv-text-3)">—</div></div>';
+      const color = k === 'vix' ? (v.change_24h > 0 ? 'loss' : 'profit') : (v.change_24h >= 0 ? 'profit' : 'loss');
+      return '<div class="index-item"><div class="index-name">' + label + '</div><div class="index-val">' + fmtPrice(v.value) + '</div><div class="index-chg" style="color:var(--' + color + ')">' + (v.change_24h >= 0 ? '+' : '') + v.change_24h.toFixed(2) + '%</div></div>';
+    }).join('');
+
+  const mm = s.market_mood;
+  const moodPct = Math.round((mm.score + 1) / 2 * 100);
+  const mmColor = mm.color === 'green' ? 'profit' : mm.color === 'red' ? 'loss' : 'amber';
+  document.getElementById('market-mood-score').innerHTML = '<span style="color:var(--' + mmColor === 'profit' ? 'tv-green' : mmColor === 'loss' ? 'tv-red' : 'tv-amber' + ')">' + moodPct + '</span>';
+  document.getElementById('market-mood-label').innerHTML = badge(mm.label, mm.color) + ' <span style="color:var(--tv-text-2);font-size:11px">market mood</span>';
+  sentimentBars(s.news || [], 'stock-sentiment-bars');
+
+  document.getElementById('stock-mentions').innerHTML =
+    (s.top_mentioned || []).filter(m => m.mentions > 0).slice(0, 8).map(m =>
+      '<div class="price-row"><span class="price-sym">' + m.symbol + '</span><span class="mention-count">' + m.mentions + ' mentions</span><span>' + fmtChg(m.change_24h) + '</span></div>'
+    ).join('') || '<div style="color:var(--tv-text-2);padding:8px 0">No data</div>';
+
+  document.getElementById('stock-prices').innerHTML =
+    (s.prices || []).slice(0, 10).map(p =>
+      '<div class="price-row"><span class="price-sym">' + p.symbol + '</span><span class="price-val">' + fmtPrice(p.price_usd) + '</span>' + fmtChg(p.change_24h) + '</div>'
+    ).join('') || '<div style="color:var(--tv-text-2)">No price data</div>';
+
+  document.getElementById('stock-polymarket').innerHTML =
+    renderSummary(s.polymarket_summary) +
+    (s.polymarket || []).map(m =>
+      '<div class="poly-item"><div class="poly-title">' + m.title + '</div><div class="poly-meta"><span class="poly-vol">' + fmtVol(m.volume_24h) + '</span><div class="prob-bar"><div class="prob-fill" style="width:' + Math.round(m.yes_price*100) + '%"></div></div><span class="poly-yes">' + Math.round(m.yes_price*100) + '% Yes</span></div></div>'
+    ).join('') || '<div style="color:var(--tv-text-2)">No active markets</div>';
+
+  document.getElementById('stock-news').innerHTML =
+    renderSummary(s.news_summary) +
+    (s.news || []).slice(0, 10).map(n =>
+      '<div class="news-item"><span class="news-source">' + n.source + '</span><a class="news-title" href="' + n.url + '" target="_blank" rel="noopener">' + n.title + '</a><div class="news-right">' + badge(n.sentiment, n.color) + '</div></div>'
+    ).join('') || '<div style="color:var(--tv-text-2)">No news</div>';
+
+  document.getElementById('stock-reddit').innerHTML =
+    renderSummary(s.reddit_summary) +
+    (s.reddit || []).map(r =>
+      '<div class="reddit-sub"><div><a href="https://reddit.com/' + r.subreddit + '" class="reddit-name" target="_blank">' + r.subreddit + '</a><div class="activity-bar"><div class="activity-fill" style="width:' + r.activity_score + '%"></div></div><div class="reddit-top">' + (r.top_post ? r.top_post.slice(0,80) + '…' : '') + '</div></div><span class="reddit-score">Activity ' + r.activity_score + '/100</span></div>'
+    ).join('') || '<div style="color:var(--tv-text-2)">No Reddit data</div>';
+}
+
+// ── Load & Render ─────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const resp = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    DATA = await resp.json();
+
+    const d = new Date(DATA.updated_at);
+    document.getElementById('lastUpdated').textContent =
+      'Updated ' + d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) +
+      ' · ' + d.toLocaleDateString([], {month:'short', day:'numeric'});
+    startCountdown(DATA.updated_at);
+
+    document.getElementById('crypto-loading').style.display = 'none';
+    document.getElementById('crypto-content').style.display = 'block';
+    renderCrypto(DATA.crypto);
+
+    document.getElementById('stocks-loading').style.display = 'none';
+    document.getElementById('stocks-content').style.display = 'block';
+    renderStocks(DATA.stocks);
+
+    renderPortfolio(DATA.portfolio || []);
+
+  } catch(e) {
+    document.getElementById('crypto-loading').innerHTML =
+      '<div style="color:var(--tv-red)">⚠ Could not load data: ' + e.message + '<br><small>Run update_data.py to generate data/market_data.json</small></div>';
+    document.getElementById('stocks-loading').innerHTML =
+      '<div style="color:var(--tv-red)">⚠ Could not load data: ' + e.message + '</div>';
+  }
+}
+
+// ── Render Portfolio ─────────────────────────────────────────────────────
+function rsiColor(v) {
+  if (v < 30) return 'var(--tv-green)';
+  if (v > 70) return 'var(--tv-red)';
+  return 'var(--tv-amber)';
+}
+
+function renderPortfolio(funds) {
+  document.getElementById('portfolio-loading').style.display = 'none';
+  document.getElementById('portfolio-content').style.display = 'block';
+
+  if (!funds || !funds.length) {
+    document.getElementById('portfolio-cards').innerHTML =
+      '<div style="color:var(--tv-text-2);padding:40px;text-align:center">No portfolio data available</div>';
+    return;
+  }
+
+  document.getElementById('portfolio-cards').innerHTML = funds.map(f => {
+    const o = f.outlook;
+    const outlookColor = o.color === 'green' ? 'var(--tv-green)' : o.color === 'red' ? 'var(--tv-red)' : 'var(--tv-amber)';
+    const outlookArrow = o.color === 'green' ? '↑' : o.color === 'red' ? '↓' : '→';
+    const chgColor = c => c > 0 ? 'var(--tv-green)' : c < 0 ? 'var(--tv-red)' : 'var(--tv-text-3)';
+    const fmtChgVal = c => c == null ? '—' : (c >= 0 ? '+' : '') + c.toFixed(2) + '%';
+    const rsiPct = Math.max(2, Math.min(98, f.rsi));
+    const w52range = f.week52_high && f.week52_low ? f.week52_high - f.week52_low : 0;
+    const w52pos = w52range > 0 ? Math.round((f.price_usd - f.week52_low) / w52range * 100) : 50;
+
+    return '<div class="etf-card">' +
+      '<div class="etf-header"><div><div class="etf-sym">' + f.symbol + '</div><div class="etf-name">' + f.name + '</div></div><span class="etf-type">' + f.type + '</span></div>' +
+      '<div class="etf-price-row"><span class="etf-price">' + fmtPrice(f.price_usd) + '</span><span class="etf-chg" style="color:' + chgColor(f.change_1d) + '">' + fmtChgVal(f.change_1d) + '</span></div>' +
+      '<div class="etf-perf-row">' +
+        '<div class="etf-perf-item"><span class="etf-perf-label">1 Week</span><span class="etf-perf-val" style="color:' + chgColor(f.change_1w) + '">' + fmtChgVal(f.change_1w) + '</span></div>' +
+        '<div class="etf-perf-item"><span class="etf-perf-label">1 Month</span><span class="etf-perf-val" style="color:' + chgColor(f.change_1m) + '">' + fmtChgVal(f.change_1m) + '</span></div>' +
+        (f.div_yield != null ? '<div class="etf-perf-item" style="margin-left:auto"><span class="etf-perf-label">Div Yield</span><span class="etf-perf-val" style="color:var(--tv-blue)">' + f.div_yield.toFixed(2) + '%</span></div>' : '') +
+      '</div>' +
+      (f.week52_high && f.week52_low ? '<div><div class="week52-row"><span>52W Low $' + f.week52_low.toFixed(2) + '</span><div class="week52-bar"><div class="week52-fill" style="left:0;width:' + w52pos + '%"></div></div><span>High $' + f.week52_high.toFixed(2) + '</span></div></div>' : '') +
+      '<div class="divider"></div>' +
+      '<div><div class="rsi-row"><span class="rsi-label">RSI</span><div class="rsi-track"><div class="rsi-zones"><div class="rsi-zone-fear"></div><div class="rsi-zone-mid"></div><div class="rsi-zone-greed"></div></div><div class="rsi-dot" style="left:' + rsiPct + '%;background:' + rsiColor(f.rsi) + '"></div></div><span class="rsi-val" style="color:' + rsiColor(f.rsi) + '">' + f.rsi + '</span></div></div>' +
+      '<div class="etf-outlook"><div class="outlook-header"><span class="outlook-label" style="color:' + outlookColor + '">' + outlookArrow + ' ' + o.label + '</span><span class="outlook-conf">Confidence: ' + o.confidence + '</span></div><ul class="outlook-reasons">' + o.reasons.map(r => '<li>' + r + '</li>').join('') + '</ul></div>' +
+      '<div class="source-note"><strong>Source:</strong> yfinance 3-month daily data.</div>' +
+    '</div>';
+  }).join('');
+}
+
+// Initial load
+loadData();
 </script>
 </body>
 </html>
