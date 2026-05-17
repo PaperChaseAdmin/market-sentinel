@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Market Sentinel — Crowd Sentiment Dashboard · PaperChase</title>
+<title data-i18n-title="page_title_sentinel">Market Sentinel — Crowd Sentiment Dashboard · PaperChase</title>
 <meta name="description" content="Real-time market sentiment dashboard tracking Fear & Greed, crypto prices, stock indices, Reddit sentiment, Polymarket predictions, and news analysis."/>
 <meta name="keywords" content="market sentiment, fear and greed index, crypto sentiment, stock market, reddit sentiment, polymarket"/>
 <meta name="robots" content="index, follow"/>
@@ -19,6 +19,7 @@
 <!-- Google Search Console - verified via Google Analytics -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="/trade/assets/i18n.js"></script>
 <style>
 :root {
   --tv-bg: #0a0b0f; --tv-surface: #131722; --tv-surface-2: #1e222d; --tv-surface-3: #2a2e39;
@@ -236,12 +237,33 @@ body{
 <div class="wrap">
 
 <nav class="topbar"><div class="topbar-inner">
-  <a class="logo" href="/trade/">PaperChase</a>
+  <a class="logo" href="/{LANG}/trade/">PaperChase</a>
   <div class="topbar-nav">
-    <a class="nav-link" href="/">Home</a>
-    <a class="nav-link" href="/trade/">AI Trading</a>
-    <a class="nav-link active" href="/market-sentinel/">Market Sentinel</a>
-    <a class="nav-link" href="/trade/polymarket/">Polymarket</a>
+    <a class="nav-link" href="/{LANG}/" data-i18n="nav_home">Home</a>
+    <a class="nav-link" href="/{LANG}/trade/" data-i18n="nav_trading">AI Trading</a>
+    <a class="nav-link active" href="/{LANG}/market-sentinel/" data-i18n="nav_sentinel">Market Sentinel</a>
+    <a class="nav-link" href="/{LANG}/trade/polymarket/" data-i18n="nav_polymarket">Polymarket</a>
+  </div>
+  <div class="topbar-spacer" style="flex:1"></div>
+  <!-- Language Switcher -->
+  <div class="lang-switcher" style="position:relative;display:flex;align-items:center">
+    <button class="lang-btn nav-link" id="langSwitcherBtn" data-i18n="nav_lang" style="cursor:pointer;display:flex;align-items:center;gap:4px;background:none;border:none;font-family:inherit;font-size:13px">
+      Language
+      <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M1 1l4 4 4-4"/></svg>
+    </button>
+    <div id="langDropdown" class="lang-dropdown" style="display:none;position:absolute;top:100%;right:0;background:var(--tv-surface-2);border:1px solid var(--tv-border-2);border-radius:var(--tv-radius);padding:4px 0;min-width:140px;z-index:200;box-shadow:0 8px 24px rgba(0,0,0,0.4)">
+      <button class="lang-option" data-lang="en" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇬🇧 <span data-i18n="lang_en">English</span></button>
+      <button class="lang-option" data-lang="tc" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇭🇰 <span data-i18n="lang_tc">繁體中文</span></button>
+      <button class="lang-option" data-lang="sc" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇨🇳 <span data-i18n="lang_sc">简体中文</span></button>
+      <button class="lang-option" data-lang="ja" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇯🇵 <span data-i18n="lang_ja">日本語</span></button>
+      <button class="lang-option" data-lang="fr" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇫🇷 <span data-i18n="lang_fr">Français</span></button>
+      <button class="lang-option" data-lang="es" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇪🇸 <span data-i18n="lang_es">Español</span></button>
+    </div>
+  </div>
+  <!-- Account / Login -->
+  <div class="topbar-auth" style="display:flex;align-items:center;gap:4px;margin-left:8px">
+    <a class="nav-link" href="/{LANG}/trade/login/" data-i18n="nav_login">Log In</a>
+    <a class="nav-link" href="/{LANG}/trade/register/" style="background:var(--tv-green);color:#fff;border-radius:var(--tv-radius-sm);padding:6px 14px" data-i18n="nav_register">Register</a>
   </div>
 </div></nav>
 
@@ -249,13 +271,13 @@ body{
 
   <div class="page-header">
     <div>
-      <div class="page-title">Market Sentinel</div>
-      <div class="page-sub">Crowd sentiment dashboard · <span id="tabIndicator">Crypto</span></div>
+      <div class="page-title" data-i18n="page_title_sentinel">Market Sentinel</div>
+      <div class="page-sub" data-i18n="page_sub_sentinel">Crowd sentiment dashboard · <span id="tabIndicator">Crypto</span></div>
     </div>
     <div class="header-meta">
       <span class="live"></span><span id="lastUpdated">Loading…</span>
       <span class="countdown" id="countdown"></span>
-      <button class="refresh-btn" onclick="loadData()">⟳ Refresh</button>
+      <button class="refresh-btn" onclick="loadData()" data-i18n="refresh">⟳ Refresh</button>
     </div>
   </div>
 
@@ -706,6 +728,26 @@ function renderPortfolio(funds) {
 
 // Initial load
 loadData();
+
+// ── Language Switcher ────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', function() {
+  var btn = document.getElementById('langSwitcherBtn');
+  var dd = document.getElementById('langDropdown');
+  if (btn && dd) {
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      dd.style.display = dd.style.display === 'none' ? 'block' : 'none';
+    });
+    document.addEventListener('click', function() { dd.style.display = 'none'; });
+    dd.addEventListener('click', function(e) { e.stopPropagation(); });
+    document.querySelectorAll('.lang-option').forEach(function(opt) {
+      opt.addEventListener('click', function() {
+        var lang = this.getAttribute('data-lang');
+        if (window.__setLang) { window.__setLang(lang); }
+      });
+    });
+  }
+});
 </script>
 </body>
 </html>
