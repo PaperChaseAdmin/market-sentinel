@@ -59,12 +59,10 @@ body{
 
 /* Page Header */
 .page-header{padding:28px 0 0;margin-bottom:20px;display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:12px}
-.page-title{font-size:24px;font-weight:700;color:var(--tv-text);margin-bottom:4px}
-.page-sub{font-size:13px;color:var(--tv-text-2)}
-.header-meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--tv-text-2)}
-.refresh-btn{font-size:12px;font-weight:500;padding:5px 14px;border-radius:var(--tv-radius-sm);border:1px solid var(--tv-border-2);color:var(--tv-text-2);background:var(--tv-surface);cursor:pointer;transition:all .15s;font-family:var(--tv-font)}
-.refresh-btn:hover{border-color:var(--tv-blue);color:var(--tv-blue)}
-
+.page-title{font-size:26px;font-weight:700;color:var(--tv-text);letter-spacing:-0.03em}
+.page-title-wrap{display:flex;flex-direction:column;gap:6px}
+.page-sub{font-size:13px;color:var(--tv-text-2);display:flex;align-items:center;gap:6px}
+.live{display:inline-block;width:7px;height:7px;background:var(--tv-green);border-radius:50%;margin-right:5px;animation:blink 2s infinite}
 /* Tabs */
 .tabs-wrap{border-bottom:1px solid var(--tv-border);margin-bottom:20px;display:flex;gap:0}
 .tab{padding:10px 20px;cursor:pointer;font-size:13px;font-weight:500;color:var(--tv-text-2);border-bottom:2px solid transparent;transition:all .15s;text-decoration:none}
@@ -88,6 +86,10 @@ body{
 /* Live dot */
 .live{display:inline-block;width:7px;height:7px;background:var(--tv-green);border-radius:50%;margin-right:5px;animation:blink 2s infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+
+.countdown-wrap{display:flex;flex-direction:column;align-items:flex-end;gap:2px;margin-left:auto;flex-shrink:0}
+.countdown-lbl{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--tv-text-3)}
+.countdown-num{font-size:16px;font-weight:700;font-family:var(--tv-mono);color:var(--tv-text);white-space:nowrap}
 
 /* Gauge */
 .gauge-wrap{display:flex;flex-direction:column;align-items:center}
@@ -209,9 +211,6 @@ body{
 .trending-sym{font-weight:600;font-size:12px;font-family:var(--tv-mono);min-width:55px;color:var(--tv-text)}
 .trending-name{font-size:11px;color:var(--tv-text-2);flex:1}
 
-/* Countdown */
-.countdown{font-size:12px;font-family:var(--tv-mono);color:var(--tv-text-2)}
-
 /* Loading */
 .loading{padding:60px 20px;text-align:center;color:var(--tv-text-2);font-size:13px}
 .spinner{width:24px;height:24px;border:2px solid var(--tv-border);border-top-color:var(--tv-blue);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 10px}
@@ -270,15 +269,11 @@ body{
 <div class="container">
 
   <div class="page-header">
-    <div>
+    <div class="page-title-wrap">
       <div class="page-title" data-i18n="page_title_sentinel">Market Sentinel</div>
       <div class="page-sub" data-i18n="page_sub_sentinel">Crowd sentiment dashboard · <span id="tabIndicator">Crypto</span></div>
     </div>
-    <div class="header-meta">
-      <span class="live"></span><span id="lastUpdated">Loading…</span>
-      <span class="countdown" id="countdown"></span>
-      <button class="refresh-btn" onclick="loadData()" data-i18n="refresh">⟳ Refresh</button>
-    </div>
+    <div id="countdown-wrap" class="countdown-wrap" style="margin-left:auto;flex-shrink:0"></div>
   </div>
 
   <div class="tabs-wrap">
@@ -449,11 +444,11 @@ function startCountdown(updatedAt) {
   clearTimeout(_cdTimer);
   const updated  = new Date(updatedAt);
   const ageMs    = Date.now() - updated.getTime();
-  const el       = document.getElementById('countdown');
+  const el       = document.getElementById('countdown-wrap');
 
   if (ageMs > 20 * 60 * 1000) {
     const staleMins = Math.round(ageMs / 60000);
-    el.textContent = '· data ' + staleMins + 'm old';
+    el.innerHTML = '<span class="countdown-lbl" data-i18n="next_review">Next Review</span><span class="countdown-num">data ' + staleMins + 'm old</span>';
     _cdTimer = setTimeout(() => loadData(), 90 * 1000);
     return;
   }
@@ -463,13 +458,14 @@ function startCountdown(updatedAt) {
     const diff = next - Date.now();
     if (diff <= 0) {
       clearInterval(_cdTimer);
-      el.textContent = '· checking…';
+      el.innerHTML = '<span class="countdown-lbl" data-i18n="next_review">Next Review</span><span class="countdown-num" data-i18n="checking_now">Checking now...</span>';
+      __retranslate();
       loadData();
       return;
     }
     const m = Math.floor(diff / 60000);
     const s = Math.floor((diff % 60000) / 1000);
-    el.textContent = '· next in ' + m + ':' + String(s).padStart(2,'0');
+    el.innerHTML = '<span class="countdown-lbl" data-i18n="next_review">Next Review</span><span class="countdown-num">' + m + ':' + String(s).padStart(2,'0') + '</span>';
   }
   tick();
   _cdTimer = setInterval(tick, 1000);
@@ -659,9 +655,9 @@ async function loadData() {
     DATA = await resp.json();
 
     const d = new Date(DATA.updated_at);
-    document.getElementById('lastUpdated').textContent =
+    document.getElementById('lastUpdated') && (document.getElementById('lastUpdated').textContent =
       'Updated ' + d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) +
-      ' · ' + d.toLocaleDateString([], {month:'short', day:'numeric'});
+      ' · ' + d.toLocaleDateString([], {month:'short', day:'numeric'}));
     startCountdown(DATA.updated_at);
 
     document.getElementById('crypto-loading').style.display = 'none';
