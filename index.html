@@ -45,7 +45,7 @@ body{
 
 /* Topbar */
 .topbar{background:rgba(19,23,34,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--tv-border);position:sticky;top:0;z-index:100}
-.topbar-inner{max-width:1400px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:4px;height:52px}
+.topbar-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:4px;height:52px}
 .logo{font-size:15px;font-weight:800;color:var(--tv-text);text-decoration:none;display:flex;align-items:center;gap:10px;margin-right:20px}
 .topbar-nav{display:flex;align-items:center;gap:0}
 .nav-section{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--tv-text-3);padding:0 10px;margin-right:4px}
@@ -216,6 +216,13 @@ body{
 .spinner{width:24px;height:24px;border:2px solid var(--tv-border);border-top-color:var(--tv-blue);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 10px}
 @keyframes spin{to{transform:rotate(360deg)}}
 
+@media(max-width:900px){
+  .grid-3,.grid-2{grid-template-columns:1fr}
+  .portfolio-grid{grid-template-columns:1fr}
+  .topbar-inner{gap:2px;padding:0 10px}
+  .logo{font-size:13px;margin-right:8px}
+  .nav-link{font-size:11px;padding:4px 6px}
+}
 @media(max-width:480px){
   .grid-3,.grid-2{grid-template-columns:1fr}
   .portfolio-grid{grid-template-columns:1fr}
