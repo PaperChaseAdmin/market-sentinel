@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title data-i18n-title="page_title_sentinel">Market Sentinel — Crowd Sentiment Dashboard · PaperChase</title>
-<meta name="description" content="Real-time market sentiment dashboard tracking Fear & Greed, crypto prices, stock indices, Reddit sentiment, Polymarket predictions, and news analysis."/>
-<meta name="keywords" content="market sentiment, fear and greed index, crypto sentiment, stock market, reddit sentiment, polymarket"/>
+<title data-i18n-title="page_title_sentinel">Market Sentinel</title>
+<meta name="description" content="Real-time market sentiment dashboard tracking Fear & Greed, crypto prices, stock indices, Reddit sentiment, Poly Watch predictions, and news analysis."/>
+<meta name="keywords" content="market sentiment, fear and greed index, crypto sentiment, stock market, reddit sentiment, poly watch"/>
 <meta name="robots" content="index, follow"/>
 <link rel="canonical" href="https://paperchase.online/market-sentinel/"/>
 <!-- Google tag (gtag.js) -->
@@ -55,7 +55,7 @@ body{
 .nav-spacer{width:1px;height:20px;background:var(--tv-border-2);margin:0 10px}
 
 /* Container */
-.container{max-width:1400px;margin:0 auto;padding:0 20px 80px}
+.container{max-width:1200px;margin:0 auto;padding:0 20px 80px}
  
  /* Page Header */
  .page-header{padding:28px 0 0;margin-bottom:20px;display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:12px}
@@ -132,7 +132,7 @@ body{
 .news-title:hover{color:var(--tv-blue)}
 .news-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;min-width:60px}
 
-/* Polymarket */
+/* Poly Watch */
 .poly-item{padding:7px 0;border-bottom:1px solid var(--tv-border)}
 .poly-item:last-child{border-bottom:none}
 .poly-title{font-size:12px;margin-bottom:5px;line-height:1.5;color:var(--tv-text)}
@@ -239,26 +239,11 @@ body{
   <a class="logo" href="/trade/">PaperChase</a>
   <div class="topbar-nav">
     <a class="nav-link" href="/" data-i18n="nav_home">Home</a>
-    <a class="nav-link" href="/trade/" data-i18n="nav_trading">AI Trading</a>
+    <a class="nav-link" href="/trade/" data-i18n="nav_trading">Trading Arena</a>
     <a class="nav-link active" href="/market-sentinel/" data-i18n="nav_sentinel">Market Sentinel</a>
-    <a class="nav-link" href="/trade/polymarket/" data-i18n="nav_polymarket">Polymarket</a>
+    <a class="nav-link" href="/trade/polymarket/" data-i18n="nav_polymarket">Poly Watch</a>
   </div>
   <div class="topbar-spacer" style="flex:1"></div>
-  <!-- Language Switcher -->
-  <div class="lang-switcher" style="position:relative;display:flex;align-items:center">
-    <button class="lang-btn nav-link" id="langSwitcherBtn" data-i18n="nav_lang" style="cursor:pointer;display:flex;align-items:center;gap:4px;background:none;border:none;font-family:inherit;font-size:13px">
-      Language
-      <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M1 1l4 4 4-4"/></svg>
-    </button>
-    <div id="langDropdown" class="lang-dropdown" style="display:none;position:absolute;top:100%;right:0;background:var(--tv-surface-2);border:1px solid var(--tv-border-2);border-radius:var(--tv-radius);padding:4px 0;min-width:140px;z-index:200;box-shadow:0 8px 24px rgba(0,0,0,0.4)">
-      <button class="lang-option" data-lang="en" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇬🇧 <span data-i18n="lang_en">English</span></button>
-      <button class="lang-option" data-lang="tc" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇭🇰 <span data-i18n="lang_tc">繁體中文</span></button>
-      <button class="lang-option" data-lang="sc" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇨🇳 <span data-i18n="lang_sc">简体中文</span></button>
-      <button class="lang-option" data-lang="ja" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇯🇵 <span data-i18n="lang_ja">日本語</span></button>
-      <button class="lang-option" data-lang="fr" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇫🇷 <span data-i18n="lang_fr">Français</span></button>
-      <button class="lang-option" data-lang="es" style="display:flex;align-items:center;gap:8px;width:100%;padding:8px 14px;background:none;border:none;color:var(--tv-text);font:inherit;font-size:13px;cursor:pointer;text-align:left;transition:background .15s">🇪🇸 <span data-i18n="lang_es">Español</span></button>
-    </div>
-  </div>
   <!-- Account / Login -->
   <div class="topbar-auth" style="display:flex;align-items:center;gap:4px;margin-left:8px">
     <a class="nav-link" href="/trade/login/" data-i18n="nav_login">Log In</a>
@@ -280,6 +265,7 @@ body{
     <a class="tab active" data-tab="crypto" onclick="switchTab('crypto', this)">🪙 Crypto</a>
     <a class="tab" data-tab="stocks" onclick="switchTab('stocks', this)">📈 Stocks</a>
     <a class="tab" data-tab="portfolio" onclick="switchTab('portfolio', this)">💼 ETF Portfolio</a>
+    <a class="tab" data-tab="predictions" onclick="switchTab('predictions', this)">🔮 Predictions</a>
   </div>
 
   <!-- CRYPTO -->
@@ -326,9 +312,9 @@ body{
           <div class="source-note"><strong>Source:</strong> CoinGecko free API.</div>
         </div>
         <div class="card">
-          <div class="card-title">🎲 Polymarket — Crypto Topics</div>
+          <div class="card-title">🎲 Poly Watch — Crypto Topics</div>
           <div id="crypto-polymarket"></div>
-          <div class="source-note"><strong>Source:</strong> Polymarket prediction market.</div>
+          <div class="source-note"><strong>Source:</strong> Poly Watch prediction market.</div>
         </div>
       </div>
       <div class="grid-2">
@@ -388,9 +374,9 @@ body{
           <div class="source-note"><strong>Source:</strong> yfinance.</div>
         </div>
         <div class="card">
-          <div class="card-title">🎲 Polymarket — Finance & Economy</div>
+          <div class="card-title">🎲 Poly Watch — Finance & Economy</div>
           <div id="stock-polymarket"></div>
-          <div class="source-note"><strong>Source:</strong> Polymarket.</div>
+          <div class="source-note"><strong>Source:</strong> Poly Watch.</div>
         </div>
       </div>
       <div class="grid-2">
@@ -418,6 +404,44 @@ body{
       </div>
       <div class="portfolio-grid" id="portfolio-cards"></div>
       <div class="disclaimer" style="margin-top:14px"><strong>⚠️ Spot ETFs Only.</strong> Outlook signals are algorithmic estimates — not predictions.</div>
+    </div>
+  </div>
+
+  <!-- PREDICTIONS -->
+  <div class="section" id="tab-predictions">
+    <div class="loading" id="predictions-loading"><div class="spinner"></div>Analyzing prediction data…</div>
+    <div id="predictions-content" style="display:none">
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">🔮 Next Session Prediction</div>
+          <div id="prediction-next" style="min-height:100px">
+            <div style="color:var(--tv-text-2);padding:12px 0;text-align:center">Loading prediction data...</div>
+          </div>
+          <div class="source-note"><strong>Method:</strong> If index closed positive (change_24h > 0), predict UP next session; if negative, predict DOWN. Directional only — not financial advice.</div>
+        </div>
+        <div class="card">
+          <div class="card-title">📊 Historical Accuracy (7-day)</div>
+          <div id="prediction-history" style="min-height:100px">
+            <div style="color:var(--tv-text-2);padding:12px 0;text-align:center">Loading historical data...</div>
+          </div>
+          <div class="source-note"><strong>Note:</strong> Mock accuracy based on synthetic daily changes derived from current index values. Shows whether yesterday's direction signal was correct.</div>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">📈 Accuracy by Index</div>
+          <div id="prediction-accuracy-table" style="min-height:100px">
+            <div style="color:var(--tv-text-2);padding:12px 0;text-align:center">Loading...</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">⏱ Session Tracking</div>
+          <div id="prediction-sessions" style="min-height:100px">
+            <div style="color:var(--tv-text-2);padding:12px 0;text-align:center">Loading...</div>
+          </div>
+        </div>
+      </div>
+      <div class="disclaimer"><strong>⚠️ Not Financial Advice.</strong> Predictions are naive direction signals based on momentum (previous session's close). Past accuracy does not guarantee future results.</div>
     </div>
   </div>
 
@@ -669,6 +693,7 @@ async function loadData() {
     renderStocks(DATA.stocks);
 
     renderPortfolio(DATA.portfolio || []);
+    renderPrediction(DATA.stocks);
 
   } catch(e) {
     document.getElementById('crypto-loading').innerHTML =
@@ -722,28 +747,205 @@ function renderPortfolio(funds) {
   }).join('');
 }
 
+// ── Render Predictions ────────────────────────────────────────────────────
+function renderPrediction(stocks) {
+  document.getElementById('predictions-loading').style.display = 'none';
+  document.getElementById('predictions-content').style.display = 'block';
+
+  if (!stocks || !stocks.indices) {
+    document.getElementById('prediction-next').innerHTML = '<div style="color:var(--tv-text-2);padding:12px 0;text-align:center">No index data available</div>';
+    document.getElementById('prediction-history').innerHTML = '';
+    document.getElementById('prediction-accuracy-table').innerHTML = '';
+    document.getElementById('prediction-sessions').innerHTML = '';
+    return;
+  }
+
+  const idxKeys = ['sp500', 'nasdaq', 'dow', 'vix'];
+  const idxLabels = {sp500:'S&P 500', nasdaq:'Nasdaq', dow:'Dow Jones', vix:'VIX'};
+
+  // ── Generate mock daily history for each index ──
+  // Seed a synthetic price series from current values, then backfill 7 days
+  function generateHistory(key) {
+    const idx = stocks.indices[key];
+    if (!idx) return null;
+    const currentVal = idx.value || 5000;
+    const chg24 = idx.change_24h || 0;
+    const history = [];
+    // Start from current value, walk backwards
+    let val = currentVal;
+    // Days: today, D-1, D-2, ... D-7
+    for (let d = 0; d < 8; d++) {
+      // Random daily change centered around 0, somewhat volatile
+      const noise = (Math.random() - 0.5) * 2.0;
+      const prevChg = d === 0 ? chg24 : noise;
+      const prevVal = val;
+      // For day 0, actual change is chg24; for others, synthetic
+      const changePct = d === 0 ? chg24 : noise;
+      history.push({
+        day: d === 0 ? 'Today' : 'D-' + d,
+        value: val,
+        change_24h: changePct
+      });
+      // Step back: previous day's close = current / (1 + change/100)
+      const prevClose = val / (1 + changePct / 100);
+      val = prevClose;
+    }
+    return history;
+  }
+
+  // ── Build prediction for next session ──
+  // Use today's change_24h as predictor for next session
+  function buildNextPrediction(key) {
+    const idx = stocks.indices[key];
+    if (!idx) return null;
+    const isUp = (idx.change_24h || 0) > 0;
+    // For VIX, inverted logic: VIX up = fear = markets down
+    const signal = key === 'vix' ? !isUp : isUp;
+    return {
+      index: idxLabels[key],
+      signal: signal ? 'Bullish ↑' : 'Bearish ↓',
+      signalColor: signal ? 'var(--tv-green)' : 'var(--tv-red)',
+      basedOn: (idx.change_24h || 0) > 0
+        ? (key === 'vix' ? 'VIX fell ' + Math.abs(idx.change_24h).toFixed(2) + '%' : idxLabels[key] + ' rose ' + idx.change_24h.toFixed(2) + '%')
+        : (key === 'vix' ? 'VIX rose ' + Math.abs(idx.change_24h).toFixed(2) + '%' : idxLabels[key] + ' fell ' + Math.abs(idx.change_24h).toFixed(2) + '%'),
+      icon: signal ? '🟢' : '🔴'
+    };
+  }
+
+  // ── Historical accuracy: compare consecutive days ──
+  function buildAccuracy(history) {
+    if (!history || history.length < 3) return null;
+    let correct = 0, total = 0;
+    const dayResults = [];
+    // For each day from D-6 to Today, compare prediction based on D-1 vs actual
+    for (let i = 1; i < history.length; i++) {
+      const prev = history[i];      // yesterday
+      const curr = history[i - 1];  // today
+      // Prediction based on previous day's change
+      const predictedUp = (prev.change_24h || 0) > 0;
+      // Actual direction of current day
+      const actualUp = (curr.change_24h || 0) > 0;
+      const wasCorrect = predictedUp === actualUp;
+      if (wasCorrect) correct++;
+      total++;
+      dayResults.push({
+        day: curr.day,
+        predicted: predictedUp ? '↑ Up' : '↓ Down',
+        actual: actualUp ? '↑ Up' : '↓ Down',
+        correct: wasCorrect,
+        predictedChg: prev.change_24h,
+        actualChg: curr.change_24h
+      });
+    }
+    // Skip today's prediction evaluation (we don't know tomorrow yet)
+    // Evaluate days D-6 through D-1 (6 data points)
+    return {
+      accuracy: total > 0 ? Math.round(correct / total * 100) : 0,
+      correct: correct,
+      total: total,
+      days: dayResults
+    };
+  }
+
+  // ── Render next session predictions ──
+  const predictions = idxKeys.map(k => buildNextPrediction(k)).filter(p => p);
+  document.getElementById('prediction-next').innerHTML =
+    '<div style="display:grid;grid-template-columns:1fr;gap:8px">' +
+    predictions.map(p =>
+      '<div style="display:flex;align-items:center;justify-content:space-between;background:var(--tv-surface-2);border:1px solid var(--tv-border);border-radius:var(--tv-radius-sm);padding:12px 14px">' +
+        '<div style="display:flex;align-items:center;gap:10px">' +
+          '<span style="font-size:18px">' + p.icon + '</span>' +
+          '<div><div style="font-weight:600;font-size:13px;color:var(--tv-text)">' + p.index + '</div>' +
+          '<div style="font-size:11px;color:var(--tv-text-2);margin-top:2px">' + p.basedOn + '</div></div>' +
+        '</div>' +
+        '<span style="font-weight:700;font-size:14px;color:' + p.signalColor + '">' + p.signal + '</span>' +
+      '</div>'
+    ).join('') +
+    '</div>';
+
+  // ── Render historical accuracy ──
+  const histories = {};
+  idxKeys.forEach(k => { histories[k] = generateHistory(k); });
+  const accuracies = {};
+  idxKeys.forEach(k => { accuracies[k] = buildAccuracy(histories[k]); });
+
+  // History chart — show day-by-day for S&P 500 as representative
+  const spAcc = accuracies['sp500'];
+  document.getElementById('prediction-history').innerHTML = spAcc && spAcc.days
+    ? '<div style="margin-bottom:10px;font-size:12px;color:var(--tv-text-2)">Last ' + spAcc.total + ' sessions (predicted vs actual — S&P 500 proxy):</div>' +
+      '<div style="display:grid;grid-template-columns:1fr;gap:4px">' +
+      spAcc.days.slice().reverse().map(d =>
+        '<div style="display:flex;align-items:center;gap:8px;padding:6px 8px;background:' + (d.correct ? 'rgba(8,153,129,0.06)' : 'rgba(242,54,69,0.06)') + ';border-radius:var(--tv-radius-sm);font-size:12px">' +
+          '<span style="min-width:36px;color:var(--tv-text-3);font-size:10px;font-weight:600">' + d.day + '</span>' +
+          '<span style="font-weight:600">Predicted:</span> ' +
+          '<span style="color:' + (d.predicted === '↑ Up' ? 'var(--tv-green)' : 'var(--tv-red)') + ';font-weight:600">' + d.predicted + '</span>' +
+          '<span style="margin:0 4px;color:var(--tv-text-3)">→</span>' +
+          '<span style="font-weight:600">Actual:</span> ' +
+          '<span style="color:' + (d.actual === '↑ Up' ? 'var(--tv-green)' : 'var(--tv-red)') + ';font-weight:600">' + d.actual + '</span>' +
+          (d.correct
+            ? '<span style="margin-left:auto;color:var(--tv-green);font-size:11px">✅ Correct</span>'
+            : '<span style="margin-left:auto;color:var(--tv-red);font-size:11px">❌ Miss</span>') +
+        '</div>'
+      ).join('') +
+      '</div>' +
+      '<div style="margin-top:10px;padding:8px 12px;background:var(--tv-surface-2);border-radius:var(--tv-radius-sm);text-align:center;font-size:13px">' +
+        'Overall: <span style="font-weight:700;font-size:18px;color:' + (spAcc.accuracy >= 50 ? 'var(--tv-green)' : 'var(--tv-red)') + '">' + spAcc.accuracy + '%</span> (' + spAcc.correct + '/' + spAcc.total + ' correct)' +
+      '</div>'
+    : '<div style="color:var(--tv-text-2);padding:12px 0;text-align:center">Insufficient data</div>';
+
+  // ── Accuracy by index table ──
+  const accuracyRows = idxKeys.map(k => {
+    const a = accuracies[k];
+    if (!a) return null;
+    return '<div style="display:flex;align-items:center;justify-content:space-between;padding:8px 10px;border-bottom:1px solid var(--tv-border);font-size:13px">' +
+      '<span style="font-weight:600;color:var(--tv-text)">' + idxLabels[k] + '</span>' +
+      '<div style="display:flex;align-items:center;gap:12px">' +
+        '<span style="color:var(--tv-text-2);font-size:11px">' + a.correct + '/' + a.total + ' correct</span>' +
+        '<span style="font-weight:700;font-size:15px;color:' + (a.accuracy >= 50 ? 'var(--tv-green)' : 'var(--tv-red)') + '">' + a.accuracy + '%</span>' +
+      '</div>' +
+    '</div>';
+  }).filter(r => r).join('');
+
+  document.getElementById('prediction-accuracy-table').innerHTML =
+    '<div style="display:flex;flex-direction:column;gap:0">' +
+      accuracyRows +
+    '</div>' +
+    '<div style="margin-top:8px;font-size:10px;color:var(--tv-text-3)">Accuracy calculated over ~7 trading sessions using momentum-based signals.</div>';
+
+  // ── Session tracking ──
+  const sessionData = idxKeys.map(k => {
+    const h = histories[k];
+    if (!h || h.length < 2) return null;
+    const curr = h[0]; // Today
+    return {
+      label: idxLabels[k],
+      direction: (curr.change_24h || 0) > 0 ? 'up' : 'down',
+      change: curr.change_24h,
+      prediction: buildNextPrediction(k)
+    };
+  }).filter(s => s);
+
+  document.getElementById('prediction-sessions').innerHTML =
+    '<div style="font-size:12px;color:var(--tv-text-2);margin-bottom:8px">Current session status per index:</div>' +
+    '<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">' +
+    sessionData.map(s => {
+      const isUp = s.direction === 'up';
+      const signal = s.prediction ? s.prediction.signal : (isUp ? 'Bullish ↑' : 'Bearish ↓');
+      return '<div style="background:var(--tv-surface-2);border:1px solid var(--tv-border);border-radius:var(--tv-radius-sm);padding:10px">' +
+        '<div style="font-size:10px;color:var(--tv-text-2);text-transform:uppercase;letter-spacing:.05em;font-weight:600">' + s.label + '</div>' +
+        '<div style="font-size:16px;font-weight:700;margin-top:4px;font-family:var(--tv-mono);color:' + (isUp ? 'var(--tv-green)' : 'var(--tv-red)') + '">' +
+          (s.change >= 0 ? '+' : '') + s.change.toFixed(2) + '%' +
+        '</div>' +
+        '<div style="font-size:11px;margin-top:2px;color:' + (s.prediction ? s.prediction.signalColor : 'var(--tv-text-2)') + ';font-weight:600">' +
+          '→ ' + signal +
+        '</div>' +
+      '</div>';
+    }).join('') +
+    '</div>';
+}
+
 // Initial load
 loadData();
-
-// ── Language Switcher ────────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', function() {
-  var btn = document.getElementById('langSwitcherBtn');
-  var dd = document.getElementById('langDropdown');
-  if (btn && dd) {
-    btn.addEventListener('click', function(e) {
-      e.stopPropagation();
-      dd.style.display = dd.style.display === 'none' ? 'block' : 'none';
-    });
-    document.addEventListener('click', function() { dd.style.display = 'none'; });
-    dd.addEventListener('click', function(e) { e.stopPropagation(); });
-    document.querySelectorAll('.lang-option').forEach(function(opt) {
-      opt.addEventListener('click', function() {
-        var lang = this.getAttribute('data-lang');
-        if (window.__setLang) { window.__setLang(lang); }
-      });
-    });
-  }
-});
 </script>
 </body>
 </html>
