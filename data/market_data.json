@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T08:20:44Z",
+  "updated_at": "2026-05-31T08:30:43Z",
   "crypto": {
     "fear_greed": {
       "value": 28,
@@ -7,31 +7,104 @@
       "previous_value": 23,
       "previous_label": "Extreme Fear"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 73854,
+        "change_24h": 0.53,
+        "market_cap": 1479655650537,
+        "volume_24h": 16737376364
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 2023.76,
+        "change_24h": 0.53,
+        "market_cap": 244233203026,
+        "volume_24h": 6369071166
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 723.91,
+        "change_24h": 7.87,
+        "market_cap": 97564642068,
+        "volume_24h": 3542924484
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.34,
+        "change_24h": -0.36,
+        "market_cap": 82769258670,
+        "volume_24h": 1202574695
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 82.69,
+        "change_24h": 0.54,
+        "market_cap": 47841295175,
+        "volume_24h": 1279456721
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.100501,
+        "change_24h": -0.51,
+        "market_cap": 15523013541,
+        "volume_24h": 470992600
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.236937,
+        "change_24h": 0.81,
+        "market_cap": 8801760906,
+        "volume_24h": 265070744
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 9.23,
+        "change_24h": 1.07,
+        "market_cap": 6713218146,
+        "volume_24h": 176052683
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 9.0,
+        "change_24h": 1.11,
+        "market_cap": 3883173754,
+        "volume_24h": 127534587
+      }
+    ],
     "top_mentioned": [
       {
         "symbol": "BTC",
         "mentions": 26,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 73854,
+        "change_24h": 0.53
       },
       {
         "symbol": "SOL",
         "mentions": 16,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 82.69,
+        "change_24h": 0.54
       },
       {
         "symbol": "ETH",
         "mentions": 11,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 2023.76,
+        "change_24h": 0.53
       },
       {
         "symbol": "ADA",
         "mentions": 1,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.236937,
+        "change_24h": 0.81
       },
       {
         "symbol": "MATIC",
@@ -42,32 +115,32 @@
       {
         "symbol": "BNB",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 723.91,
+        "change_24h": 7.87
       },
       {
         "symbol": "XRP",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1.34,
+        "change_24h": -0.36
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.100501,
+        "change_24h": -0.51
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 9.0,
+        "change_24h": 1.11
       },
       {
         "symbol": "LINK",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 9.23,
+        "change_24h": 1.07
       }
     ],
     "news": [
@@ -252,26 +325,26 @@
     "polymarket": [
       {
         "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-        "volume_24h": 586696,
-        "yes_price": 0.15,
+        "volume_24h": 587412,
+        "yes_price": 0.16,
         "category": "crypto"
       },
       {
         "title": "MicroStrategy sells any Bitcoin by June 30, 2026?",
-        "volume_24h": 338501,
+        "volume_24h": 334974,
         "yes_price": 0.72,
         "category": "crypto"
       },
       {
         "title": "Will Bitcoin dip to $72,500 in May?",
-        "volume_24h": 183574,
+        "volume_24h": 183393,
         "yes_price": 0.17,
         "category": "crypto"
       }
     ],
     "polymarket_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: 72% predict MicroStrategy will sell Bitcoin by June 30, 2026, with $338,501 volume, indicating a pessimistic outlook."
+      "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
     "reddit": [
       {
@@ -380,7 +453,7 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 132,
+      "active_threads": 133,
       "mentions": {
         "BTC": 33,
         "XRP": 15,
@@ -393,53 +466,53 @@
     },
     "cg_trending": [
       {
-        "symbol": "OP",
-        "name": "Optimism",
-        "rank": 162,
-        "score": 0,
-        "change_24h": -1.22
-      },
-      {
         "symbol": "BONK",
         "name": "Bonk",
         "rank": 111,
+        "score": 0,
+        "change_24h": -0.46
+      },
+      {
+        "symbol": "OP",
+        "name": "Optimism",
+        "rank": 162,
         "score": 1,
-        "change_24h": -0.55
+        "change_24h": -1.33
       },
       {
         "symbol": "KITE",
         "name": "Kite",
-        "rank": 112,
+        "rank": 113,
         "score": 2,
-        "change_24h": 9.82
+        "change_24h": 9.31
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 11,
         "score": 3,
-        "change_24h": 5.02
+        "change_24h": 5.09
       },
       {
         "symbol": "LAB",
         "name": "LAB",
         "rank": 32,
         "score": 4,
-        "change_24h": 27.49
+        "change_24h": 26.72
       },
       {
         "symbol": "ASTER",
         "name": "Aster",
         "rank": 48,
         "score": 5,
-        "change_24h": 7.75
+        "change_24h": 7.72
       },
       {
-        "symbol": "BNB",
-        "name": "BNB",
-        "rank": 4,
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "rank": 1,
         "score": 6,
-        "change_24h": 7.56
+        "change_24h": 0.55
       }
     ]
   },
@@ -743,49 +816,49 @@
     "polymarket": [
       {
         "title": "US x Iran permanent peace deal by June 7, 2026?",
-        "volume_24h": 675706,
+        "volume_24h": 676010,
         "yes_price": 0.12,
         "category": "finance"
       },
       {
         "title": "Iran closes its airspace by May 31?",
-        "volume_24h": 490787,
+        "volume_24h": 490330,
         "yes_price": 0.04,
         "category": "finance"
       },
       {
         "title": "US-Iran nuclear deal by May 31?",
-        "volume_24h": 471598,
+        "volume_24h": 470432,
         "yes_price": 0.02,
         "category": "finance"
       },
       {
         "title": "US announces new Iran agreement/ceasefire extension by May 31?",
-        "volume_24h": 392701,
+        "volume_24h": 392906,
         "yes_price": 0.04,
         "category": "finance"
       },
       {
         "title": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by May 31, 2026?",
-        "volume_24h": 327019,
+        "volume_24h": 328262,
         "yes_price": 0.03,
         "category": "finance"
       },
       {
         "title": "US x Iran permanent peace deal by June 30, 2026?",
-        "volume_24h": 254216,
+        "volume_24h": 250978,
         "yes_price": 0.29,
         "category": "finance"
       },
       {
         "title": "US x Iran permanent peace deal by July 31, 2026?",
-        "volume_24h": 210669,
+        "volume_24h": 210346,
         "yes_price": 0.42,
         "category": "finance"
       },
       {
         "title": "Will the Iranian regime fall by June 30?",
-        "volume_24h": 197470,
+        "volume_24h": 197386,
         "yes_price": 0.02,
         "category": "finance"
       }
