@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T03:01:01Z",
+  "updated_at": "2026-06-01T03:10:44Z",
   "crypto": {
     "fear_greed": {
       "value": 29,
@@ -7,25 +7,98 @@
       "previous_value": 28,
       "previous_label": "Fear"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 73860,
+        "change_24h": -0.19,
+        "market_cap": 1479227269332,
+        "volume_24h": 17586755046
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 2013.14,
+        "change_24h": -0.83,
+        "market_cap": 242800934989,
+        "volume_24h": 9559715658
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 707.81,
+        "change_24h": -3.73,
+        "market_cap": 95491056853,
+        "volume_24h": 2364268142
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.33,
+        "change_24h": -0.62,
+        "market_cap": 82485338433,
+        "volume_24h": 1306572220
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 82.73,
+        "change_24h": -0.38,
+        "market_cap": 47840803405,
+        "volume_24h": 1493809846
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.101077,
+        "change_24h": -0.05,
+        "market_cap": 15603884406,
+        "volume_24h": 573171881
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.236736,
+        "change_24h": -0.19,
+        "market_cap": 8784273184,
+        "volume_24h": 325326233
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 9.18,
+        "change_24h": -0.7,
+        "market_cap": 6670325425,
+        "volume_24h": 201235772
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 9.04,
+        "change_24h": 0.47,
+        "market_cap": 3903794813,
+        "volume_24h": 165293077
+      }
+    ],
     "top_mentioned": [
       {
         "symbol": "BTC",
         "mentions": 24,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 73860,
+        "change_24h": -0.19
       },
       {
         "symbol": "SOL",
         "mentions": 19,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 82.73,
+        "change_24h": -0.38
       },
       {
         "symbol": "ETH",
         "mentions": 7,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 2013.14,
+        "change_24h": -0.83
       },
       {
         "symbol": "ATOM",
@@ -42,32 +115,32 @@
       {
         "symbol": "BNB",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 707.81,
+        "change_24h": -3.73
       },
       {
         "symbol": "XRP",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1.33,
+        "change_24h": -0.62
       },
       {
         "symbol": "ADA",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.236736,
+        "change_24h": -0.19
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.101077,
+        "change_24h": -0.05
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 9.04,
+        "change_24h": 0.47
       }
     ],
     "news": [
@@ -176,13 +249,23 @@
         "color": "red"
       },
       {
+        "title": "White hat hacker recovers $2M from faulty 2016 ICO smart contract",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/whitehat-helps-recover-2m-from-2016-ico-smart-contract?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Mon, 01 Jun 2026 02:21:56 +0000",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
+      },
+      {
         "title": "US, UK central bankers offer contrary views on stablecoins",
         "source": "Cointelegraph",
         "url": "https://cointelegraph.com/news/us-uk-central-bankers-offer-contrary-views-on-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Sun, 31 May 2026 21:11:35 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.2,
         "color": "yellow"
       },
       {
@@ -194,7 +277,7 @@
           "BTC"
         ],
         "sentiment": "Bullish",
-        "score": 0.8,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -216,42 +299,32 @@
           "BTC"
         ],
         "sentiment": "Neutral",
-        "score": -0.2,
-        "color": "yellow"
-      },
-      {
-        "title": "Here’s what happened in crypto today",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Sun, 31 May 2026 14:10:00 +0000",
-        "assets": [],
-        "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": 0.14,
+      "score": 0.187,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "MicroStrategy sells any Bitcoin by June 30, 2026?",
-        "volume_24h": 925692,
-        "yes_price": 0.73,
+        "volume_24h": 938984,
+        "yes_price": 0.76,
         "category": "crypto"
       },
       {
         "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
-        "volume_24h": 662793,
-        "yes_price": 0.1,
+        "volume_24h": 666210,
+        "yes_price": 0.12,
         "category": "crypto"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: 73% predict MicroStrategy won't sell Bitcoin by June 30, 2026, with $925,692 volume, indicating confidence."
+      "outlook": "Bearish",
+      "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
     "reddit": [
       {
@@ -377,49 +450,49 @@
         "name": "Optimism",
         "rank": 164,
         "score": 0,
-        "change_24h": -1.06
+        "change_24h": -1.29
       },
       {
         "symbol": "BONK",
         "name": "Bonk",
         "rank": 111,
         "score": 1,
-        "change_24h": 1.45
-      },
-      {
-        "symbol": "LAB",
-        "name": "LAB",
-        "rank": 28,
-        "score": 2,
-        "change_24h": 17.19
-      },
-      {
-        "symbol": "KITE",
-        "name": "Kite",
-        "rank": 110,
-        "score": 3,
-        "change_24h": 2.55
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 10,
-        "score": 4,
-        "change_24h": 6.02
+        "change_24h": 1.09
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 108,
+        "score": 2,
+        "change_24h": -1.8
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 10,
+        "score": 3,
+        "change_24h": 5.41
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "rank": 28,
+        "score": 4,
+        "change_24h": 14.93
+      },
+      {
+        "symbol": "SLX",
+        "name": "Solstice",
+        "rank": 327,
         "score": 5,
-        "change_24h": -1.69
+        "change_24h": 56.56
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
         "rank": 78,
         "score": 6,
-        "change_24h": 14.88
+        "change_24h": 14.11
       }
     ]
   },
@@ -721,37 +794,37 @@
     "polymarket": [
       {
         "title": "US x Iran permanent peace deal by June 7, 2026?",
-        "volume_24h": 1237751,
+        "volume_24h": 1237526,
         "yes_price": 0.07,
         "category": "finance"
       },
       {
         "title": "Will Abelardo de la Espriella  win the 2026 Colombian presidential election?",
-        "volume_24h": 482512,
+        "volume_24h": 483565,
         "yes_price": 0.79,
         "category": "finance"
       },
       {
         "title": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
-        "volume_24h": 462703,
-        "yes_price": 0.23,
+        "volume_24h": 463005,
+        "yes_price": 0.22,
         "category": "finance"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 454537,
+        "volume_24h": 454306,
         "yes_price": 0.15,
         "category": "finance"
       },
       {
         "title": "US x Iran permanent peace deal by June 15, 2026?",
-        "volume_24h": 399090,
+        "volume_24h": 398778,
         "yes_price": 0.12,
         "category": "finance"
       },
       {
         "title": "Will Spencer Pratt win the 2026 Los Angeles mayoral election?",
-        "volume_24h": 331243,
+        "volume_24h": 332039,
         "yes_price": 0.21,
         "category": "finance"
       }
