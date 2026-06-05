@@ -734,7 +734,7 @@ function renderPortfolio(funds) {
   }).join('');
 }
 
-// ── Render Predictions (CLEAN VISUAL: S&P 500 + NASDAQ) ─────────────────
+// ── Render Predictions (localStorage-persisted: S&P 500 + NASDAQ) ─────
 function renderPrediction(stocks) {
   document.getElementById('predictions-loading').style.display = 'none';
   document.getElementById('predictions-content').style.display = 'block';
@@ -745,27 +745,7 @@ function renderPrediction(stocks) {
   }
 
   const idx = stocks.indices;
-  const focus = ['sp500', 'nasdaq']; // Only S&P 500 and NASDAQ
-
-  // ── Generate 10-day synthetic history ──
-  function genHist(key) {
-    const d = idx[key];
-    if (!d) return null;
-    let val = d.value || 5000;
-    const chg24 = d.change_24h || 0;
-    const hist = [];
-    // Day 0 = today (real change), D-1 to D-9 = synthetic
-    for (let day = 0; day < 10; day++) {
-      const noise = day === 0 ? chg24 : (Math.random() - 0.5) * 2.5;
-      hist.push({
-        day: day === 0 ? 'Today' : 'D-' + day,
-        change: day === 0 ? chg24 : noise,
-        val: val
-      });
-      val = val / (1 + noise / 100);
-    }
-    return hist;
-  }
+  const today = new Date().toISOString().split('T')[0];
 
   // ── Build next session prediction ──
   function predict(key) {
@@ -782,12 +762,12 @@ function renderPrediction(stocks) {
       pct: pct,
       reason: isUp
         ? (key === 'sp500' ? 'S&P 500 rose +' : 'NASDAQ rose +') + pct.toFixed(2) + '% today — momentum suggests follow-through'
-        : (key === 'sp500' ? 'S&P 500 fell -' : 'NASDAQ fell -') + pct.toFixed(2) + '% today — bearish momentum likely to continue',
-      icon: isUp ? '🟢' : '🔴'
+        : (key === 'sp500' ? 'S&P 500 fell -' : 'NASDAQ fell -') + pct.toFixed(2) + '% today — bearish momentum likely to continue'
     };
   }
 
   // ── Render BIG prediction cards (S&P 500 + NASDAQ) ──
+  const focus = ['sp500', 'nasdaq'];
   const predictions = focus.map(k => predict(k)).filter(p => p);
   document.getElementById('prediction-big-cards').innerHTML = predictions.map(p => {
     const bigArrow = p.arrow.repeat(3);
@@ -799,77 +779,125 @@ function renderPrediction(stocks) {
     '</div>';
   }).join('');
 
-  // ── Build 10-day track record ──
-  const histories = {};
-  focus.forEach(k => { histories[k] = genHist(k); });
+  // ── Save today's predictions to localStorage ──
+  function saveTodaysPrediction() {
+    let history = JSON.parse(localStorage.getItem('sentinel_predictions') || '[]');
+    // Clear anything from before today (fresh start)
+    history = history.filter(h => h.date >= today);
+    
+    // Don't save duplicate for today
+    if (history.length > 0 && history[0].date === today) return;
+    
+    const entry = {
+      date: today,
+      indices: {}
+    };
+    focus.forEach(k => {
+      const p = predict(k);
+      if (p) {
+        entry.indices[k] = {
+          label: p.label,
+          predicted: p.direction,    // 'UP' or 'DOWN'
+          actual: null,              // unknown until tomorrow
+          correct: null
+        };
+      }
+    });
+    
+    history.unshift(entry);
+    // Keep max 15
+    history = history.slice(0, 15);
+    localStorage.setItem('sentinel_predictions', JSON.stringify(history));
+  }
+  saveTodaysPrediction();
 
-  function build10Day(key) {
-    const h = histories[key];
-    if (!h || h.length < 3) return [];
-    const days = [];
-    for (let i = 1; i < h.length; i++) {
-      const prev = h[i];
-      const curr = h[i - 1];
-      const predictedUp = (prev.change || 0) > 0;
-      const actualUp = (curr.change || 0) > 0;
-      days.push({
-        day: curr.day,
-        predicted: predictedUp ? '▲ UP' : '▼ DOWN',
-        actual: actualUp ? '▲ UP' : '▼ DOWN',
-        correct: predictedUp === actualUp,
-        predChg: prev.change,
-        actChg: curr.change
-      });
+  // ── Check & update yesterday's predictions ──
+  function resolveYesterdaysPredictions() {
+    let history = JSON.parse(localStorage.getItem('sentinel_predictions') || '[]');
+    let changed = false;
+    
+    for (let i = 0; i < history.length; i++) {
+      const entry = history[i];
+      if (entry.date === today) continue; // skip today (not resolved yet)
+      
+      for (const k of focus) {
+        const rec = entry.indices[k];
+        if (!rec || rec.correct !== null) continue; // already resolved
+        
+        // Get today's actual direction for this index
+        const d = idx[k];
+        if (!d) continue;
+        const actualUp = (d.change_24h || 0) > 0;
+        rec.actual = actualUp ? 'UP' : 'DOWN';
+        rec.correct = rec.predicted === rec.actual;
+        changed = true;
+      }
     }
-    return days;
+    
+    if (changed) {
+      localStorage.setItem('sentinel_predictions', JSON.stringify(history));
+    }
   }
+  resolveYesterdaysPredictions();
 
-  function calcAcc(days) {
-    const correct = days.filter(d => d.correct).length;
-    return { correct, total: days.length, pct: days.length > 0 ? Math.round(correct / days.length * 100) : 0 };
-  }
+  // ── Render 10-day track record (from localStorage) ──
+  const history = JSON.parse(localStorage.getItem('sentinel_predictions') || '[]');
+  const recent = history.slice(0, 10); // max 10 days
 
-  // ── Render 10-day table ──
-  const spDays = build10Day('sp500');
-  const ndDays = build10Day('nasdaq');
-  const spAcc = calcAcc(spDays);
-  const ndAcc = calcAcc(ndDays);
-
-  function dayRow(d) {
-    return '<div style="display:grid;grid-template-columns:60px 1fr 1fr 60px;gap:4px;align-items:center;padding:5px 8px;border-radius:var(--tv-radius-sm);font-size:11px;background:' +
-      (d.correct ? 'rgba(8,153,129,0.06)' : 'rgba(242,54,69,0.06)') + ';margin-bottom:2px">' +
-      '<span style="color:var(--tv-text-3);font-weight:600">' + d.day + '</span>' +
-      '<span style="font-weight:600;color:' + (d.predicted === '▲ UP' ? '#089981' : '#f23645') + '">Pred: ' + d.predicted + '</span>' +
-      '<span style="font-weight:600;color:' + (d.actual === '▲ UP' ? '#089981' : '#f23645') + '">Act: ' + d.actual + '</span>' +
-      (d.correct
-        ? '<span style="color:#089981;font-size:13px;text-align:right">✅</span>'
-        : '<span style="color:#f23645;font-size:13px;text-align:right">❌</span>') +
+  function dayRow(entry, key) {
+    const rec = entry.indices[key];
+    if (!rec) return '';
+    const predictedUp = rec.predicted === 'UP';
+    const hasResult = rec.correct !== null;
+    const correct = rec.correct;
+    
+    return '<div style="display:grid;grid-template-columns:60px 1fr 1fr 55px;gap:4px;align-items:center;padding:5px 8px;border-radius:var(--tv-radius-sm);font-size:11px;background:' +
+      (hasResult ? (correct ? 'rgba(8,153,129,0.06)' : 'rgba(242,54,69,0.06)') : 'var(--tv-surface-2)') +
+      ';margin-bottom:2px;border:1px solid var(--tv-border)">' +
+      '<span style="color:var(--tv-text-3);font-weight:600;font-size:10px">' + entry.date.slice(5) + '</span>' +
+      '<span style="font-weight:600;color:' + (predictedUp ? '#089981' : '#f23645') + '">Pred: ' + rec.predicted + '</span>' +
+      (hasResult
+        ? '<span style="font-weight:600;color:' + (correct ? '#089981' : '#f23645') + '">Act: ' + rec.actual + '</span>'
+        : '<span style="color:var(--tv-text-3);font-size:10px">⏳ Pending</span>') +
+      (hasResult
+        ? (correct ? '<span style="color:#089981;font-size:13px;text-align:right">✅</span>' : '<span style="color:#f23645;font-size:13px;text-align:right">❌</span>')
+        : '<span style="color:var(--tv-text-3);text-align:right;font-size:11px">⏳</span>') +
     '</div>';
   }
 
-  const maxDays = Math.max(spDays.length, ndDays.length);
+  function calcAcc(entries, key) {
+    const resolved = entries.filter(e => e.indices[key] && e.indices[key].correct !== null);
+    const correct = resolved.filter(e => e.indices[key].correct).length;
+    return { correct, total: resolved.length, pct: resolved.length > 0 ? Math.round(correct / resolved.length * 100) : 0 };
+  }
+
+  const spAcc = calcAcc(recent, 'sp500');
+  const ndAcc = calcAcc(recent, 'nasdaq');
+
+  const hasSpData = recent.some(e => e.indices.sp500);
+  const hasNdData = recent.some(e => e.indices.nasdaq);
 
   document.getElementById('prediction-10day').innerHTML =
-    '<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">' +
-      '<div>' +
-        '<div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--tv-text-2);margin-bottom:6px">S&P 500</div>' +
-        '<div style="display:flex;flex-direction:column;gap:0">' +
-          spDays.slice(0, 10).map(dayRow).join('') +
-          (spDays.length === 0 ? '<div style="color:var(--tv-text-2);padding:8px;font-size:11px">Insufficient data</div>' : '') +
+    hasSpData || hasNdData
+    ? '<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">' +
+        '<div>' +
+          '<div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--tv-text-2);margin-bottom:6px">S&P 500</div>' +
+          '<div style="display:flex;flex-direction:column;gap:0">' +
+            recent.map(e => dayRow(e, 'sp500')).join('') +
+          '</div>' +
         '</div>' +
-      '</div>' +
-      '<div>' +
-        '<div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--tv-text-2);margin-bottom:6px">NASDAQ</div>' +
-        '<div style="display:flex;flex-direction:column;gap:0">' +
-          ndDays.slice(0, 10).map(dayRow).join('') +
-          (ndDays.length === 0 ? '<div style="color:var(--tv-text-2);padding:8px;font-size:11px">Insufficient data</div>' : '') +
+        '<div>' +
+          '<div style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--tv-text-2);margin-bottom:6px">NASDAQ</div>' +
+          '<div style="display:flex;flex-direction:column;gap:0">' +
+            recent.map(e => dayRow(e, 'nasdaq')).join('') +
+          '</div>' +
         '</div>' +
-      '</div>' +
-    '</div>';
+      '</div>'
+    : '<div style="color:var(--tv-text-2);padding:12px 0;text-align:center;font-size:13px">📡 No prediction history yet — tracking starts today. Check back tomorrow to see accuracy.</div>';
 
   // ── Render accuracy overview ──
-  function accCard(label, acc, days) {
-    if (!days || days.length === 0) return '';
+  function accCard(label, acc) {
+    if (acc.total === 0) return '';
     const pct = acc.pct;
     const color = pct >= 60 ? '#089981' : pct >= 40 ? '#ff9800' : '#f23645';
     return '<div style="background:var(--tv-surface-2);border:1px solid var(--tv-border);border-radius:var(--tv-radius-sm);padding:12px 16px;text-align:center">' +
@@ -880,10 +908,12 @@ function renderPrediction(stocks) {
   }
 
   document.getElementById('prediction-stats').innerHTML =
-    '<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">' +
-      accCard('S&P 500 Accuracy', spAcc, spDays) +
-      accCard('NASDAQ Accuracy', ndAcc, ndDays) +
-    '</div>';
+    (spAcc.total > 0 || ndAcc.total > 0)
+    ? '<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">' +
+        accCard('S&P 500 Accuracy', spAcc) +
+        accCard('NASDAQ Accuracy', ndAcc) +
+      '</div>'
+    : '<div style="color:var(--tv-text-2);padding:8px;text-align:center;font-size:12px">Accuracy data will appear after at least one resolved prediction</div>';
 }
 // Initial load
 loadData();
