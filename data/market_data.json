@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T23:40:51Z",
+  "updated_at": "2026-06-10T23:51:33Z",
   "crypto": {
     "fear_greed": {
       "value": 9,
@@ -7,61 +7,134 @@
       "previous_value": 10,
       "previous_label": "Extreme Fear"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 61447,
+        "change_24h": -0.34,
+        "market_cap": 1231337200713,
+        "volume_24h": 27736528370
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 1619.76,
+        "change_24h": -1.14,
+        "market_cap": 195541752787,
+        "volume_24h": 12471547781
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 585.79,
+        "change_24h": -1.19,
+        "market_cap": 78961027243,
+        "volume_24h": 655920857
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.096,
+        "change_24h": -3.65,
+        "market_cap": 68007788287,
+        "volume_24h": 1956697354
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 63.12,
+        "change_24h": -2.76,
+        "market_cap": 36577942708,
+        "volume_24h": 2991122532
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.082903,
+        "change_24h": -2.16,
+        "market_cap": 12817528303,
+        "volume_24h": 600421804
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.160663,
+        "change_24h": -2.71,
+        "market_cap": 5971394678,
+        "volume_24h": 477027304
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 7.56,
+        "change_24h": -3.33,
+        "market_cap": 5499048065,
+        "volume_24h": 249883880
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 6.38,
+        "change_24h": -3.64,
+        "market_cap": 2756303885,
+        "volume_24h": 218711033
+      }
+    ],
     "top_mentioned": [
       {
         "symbol": "BTC",
         "mentions": 24,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 61447,
+        "change_24h": -0.34
       },
       {
         "symbol": "SOL",
         "mentions": 20,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 63.12,
+        "change_24h": -2.76
       },
       {
         "symbol": "ETH",
         "mentions": 8,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1619.76,
+        "change_24h": -1.14
       },
       {
         "symbol": "XRP",
         "mentions": 4,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1.096,
+        "change_24h": -3.65
       },
       {
         "symbol": "BNB",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 585.79,
+        "change_24h": -1.19
       },
       {
         "symbol": "ADA",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.160663,
+        "change_24h": -2.71
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.082903,
+        "change_24h": -2.16
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 6.38,
+        "change_24h": -3.64
       },
       {
         "symbol": "LINK",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 7.56,
+        "change_24h": -3.33
       },
       {
         "symbol": "TON",
@@ -101,9 +174,9 @@
         "url": "https://www.coindesk.com/business/2026/06/10/over-280-000-uk-crypto-holders-kick-off-campaign-against-banks-blocking-transactions",
         "published": "Wed, 10 Jun 2026 17:53:09 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.3,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "Crypto Long & Short: Who answers the 3am call when DeFi breaks?",
@@ -134,9 +207,9 @@
           "BTC",
           "ETH"
         ],
-        "sentiment": "Neutral",
-        "score": 0.2,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
       },
       {
         "title": "Mastercard prepares for a future where AI agents make payments",
@@ -144,9 +217,9 @@
         "url": "https://www.coindesk.com/business/2026/06/10/mastercard-prepares-for-a-future-where-ai-agents-make-payments-with-latest-introduction",
         "published": "Wed, 10 Jun 2026 16:00:54 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.5,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.2,
+        "color": "yellow"
       },
       {
         "title": "Kalshi now requires users to reveal employers as it fights insider trading and market manipulation",
@@ -154,9 +227,9 @@
         "url": "https://www.coindesk.com/markets/2026/06/10/kalshi-now-requires-users-to-reveal-employers-as-it-fights-insider-trading-and-market-manipulation",
         "published": "Wed, 10 Jun 2026 14:49:43 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": -0.2,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "Prediction markets get first U.S. rule proposal as CFTC pursues contract reviews",
@@ -175,7 +248,7 @@
         "published": "Wed, 10 Jun 2026 13:56:41 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -216,9 +289,9 @@
         "url": "https://cointelegraph.com/news/uk-crypto-advocates-launch-campaign-against-banks-blocking-exchange-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Wed, 10 Jun 2026 18:55:00 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.3,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "Pending Bank of Japan rate decision may impact Bitcoin price: Should traders prepare?",
@@ -229,26 +302,26 @@
           "BTC"
         ],
         "sentiment": "Neutral",
-        "score": -0.2,
+        "score": 0.0,
         "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.007,
+      "score": -0.02,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin dip to $60,000 on June 10?",
-        "volume_24h": 234816,
-        "yes_price": 0.15,
+        "volume_24h": 238133,
+        "yes_price": 0.12,
         "category": "crypto"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto prediction markets data."
+      "outlook": "Bearish",
+      "summary": "Bearish: 12% of traders predict Bitcoin will dip to $60,000 on June 10, with $238,133 in volume."
     },
     "reddit": [
       {
@@ -357,15 +430,15 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 138,
+      "active_threads": 136,
       "mentions": {
-        "BTC": 21,
+        "BTC": 20,
         "XRP": 14,
         "ETH": 1
       },
-      "bullish_hits": 96,
+      "bullish_hits": 98,
       "bearish_hits": 63,
-      "bullish_pct": 60,
+      "bullish_pct": 61,
       "top_coin": "BTC"
     },
     "cg_trending": [
@@ -374,49 +447,49 @@
         "name": "Audiera",
         "rank": 42,
         "score": 0,
-        "change_24h": 45.97
+        "change_24h": 46.24
       },
       {
         "symbol": "VELVET",
         "name": "Velvet",
-        "rank": 122,
+        "rank": 119,
         "score": 1,
-        "change_24h": 115.14
-      },
-      {
-        "symbol": "H",
-        "name": "Humanity",
-        "rank": 134,
-        "score": 2,
-        "change_24h": -6.57
+        "change_24h": 123.19
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 11,
+        "score": 2,
+        "change_24h": -7.42
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "rank": 134,
         "score": 3,
-        "change_24h": -7.74
+        "change_24h": -6.73
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
         "rank": 89,
         "score": 4,
-        "change_24h": -15.45
+        "change_24h": -14.92
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
         "rank": 43,
         "score": 5,
-        "change_24h": -2.38
+        "change_24h": -2.39
       },
       {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 113,
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "rank": 1,
         "score": 6,
-        "change_24h": -4.87
+        "change_24h": -0.35
       }
     ]
   },
@@ -499,7 +572,7 @@
     "top_mentioned": [
       {
         "symbol": "NVDA",
-        "mentions": 4,
+        "mentions": 3,
         "price_usd": 200.42,
         "change_24h": -3.73
       },
@@ -563,7 +636,7 @@
         "title": "U.S. military begins strikes on 'multiple targets' in Iran at Trump's direction",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/06/10/trump-iran-war-attacks-deal.html",
-        "published": "Wed, 10 Jun 2026 23:39:54 GMT",
+        "published": "Wed, 10 Jun 2026 23:45:47 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
@@ -660,6 +733,16 @@
         "color": "yellow"
       },
       {
+        "title": "My elderly mother and I own a home together. Will Medicaid force its sale?",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/my-elderly-mother-and-i-own-a-home-together-will-medicaid-force-its-sale-fdfbad4a?mod=mw_rss_topstories",
+        "published": "Wed, 10 Jun 2026 23:48:00 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "When a World Cup team loses, its country’s stock market also goes down. Here’s the weird reason why.",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/the-weird-reason-why-a-teams-world-cup-loss-can-trigger-a-sharp-drop-in-stock-prices-ac385f51?mod=mw_rss_topstories",
@@ -698,83 +781,73 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Micron, Intel drag the tech sector into a new bearish phase. Will the correction last this time?",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/micron-intel-drag-the-tech-sector-into-a-new-bearish-phase-will-the-correction-last-this-time-9ba4f3f5?mod=mw_rss_topstories",
-        "published": "Wed, 10 Jun 2026 22:58:00 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.267,
+      "score": -0.2,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Roberto Sánchez Palomino win the 2026 Peruvian presidential election?",
-        "volume_24h": 3532878,
+        "volume_24h": 3536119,
         "yes_price": 0.07,
         "category": "finance"
       },
       {
         "title": "US x Iran permanent peace deal by June 15, 2026?",
-        "volume_24h": 2113568,
-        "yes_price": 0.03,
+        "volume_24h": 2392445,
+        "yes_price": 0.04,
         "category": "finance"
       },
       {
         "title": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
-        "volume_24h": 1295105,
+        "volume_24h": 1303541,
         "yes_price": 0.93,
         "category": "finance"
       },
       {
         "title": "US x Iran permanent peace deal by June 30, 2026?",
-        "volume_24h": 1137054,
-        "yes_price": 0.14,
+        "volume_24h": 1192644,
+        "yes_price": 0.15,
         "category": "finance"
       },
       {
         "title": "Will Trump restart Project Freedom by June 30?",
-        "volume_24h": 1040588,
+        "volume_24h": 1051712,
         "yes_price": 0.95,
         "category": "finance"
       },
       {
         "title": "US announces new Iran agreement/ceasefire extension by June 12?",
-        "volume_24h": 644993,
+        "volume_24h": 671966,
         "yes_price": 0.09,
         "category": "finance"
       },
       {
-        "title": "Will the Iranian regime fall by June 30?",
-        "volume_24h": 601049,
-        "yes_price": 0.03,
+        "title": "Trump announces US x Iran ceasefire over by June 12?",
+        "volume_24h": 471758,
+        "yes_price": 0.12,
         "category": "finance"
       },
       {
-        "title": "Trump announces US x Iran ceasefire over by June 12?",
-        "volume_24h": 468743,
-        "yes_price": 0.11,
+        "title": "Will the U.S. invade Iran before 2027?",
+        "volume_24h": 369668,
+        "yes_price": 0.2,
         "category": "finance"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 0 bullish vs 1 bearish signals detected across finance prediction markets data."
+      "outlook": "Mixed",
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across finance prediction markets data."
     },
     "reddit": [
       {
         "subreddit": "r/wallstreetbets",
         "mentions": {
           "AMD": 2,
-          "NVDA": 1,
+          "NVDA": 0,
           "TSLA": 0,
           "AAPL": 0,
           "MSFT": 0,
