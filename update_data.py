@@ -23,6 +23,7 @@ from scrapers.sentiment      import analyze_headlines, sentiment_label, sentimen
 from scrapers.assets         import CRYPTO_ASSETS, STOCK_ASSETS
 from scrapers.fourchain_data import fetch_biz_sentiment
 from scrapers.market_data import fetch_macro_indicators, fetch_most_active
+from scrapers.google_trends import fetch_stock_trends, fetch_crypto_trends
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "market_data.json")
 
@@ -146,9 +147,14 @@ def run():
     print("  Fetching macro indicators (10yr, DXY, gold, oil)...")
     macro = fetch_macro_indicators()
 
-    # ── NEW: Most active stocks ──────────────────────────────────────────
+    # ── Most active stocks ──────────────────────────────────────────
     print("  Fetching most active stocks...")
     most_active = fetch_most_active()
+
+    # ── Google Trends ───────────────────────────────────────────────
+    print("  Fetching Google Trends (stock search interest)...")
+    google_trends_stocks = fetch_stock_trends()
+    google_trends_crypto = fetch_crypto_trends()
 
     # ── Portfolio ───────────────────────────────────────────────────────
     print("  Fetching portfolio ETFs...")
@@ -218,6 +224,7 @@ def run():
             "news_summary":       stock_news_summary,
             "macro":              macro,
             "most_active":        most_active,
+            "google_trends":      {"stocks": google_trends_stocks, "crypto": google_trends_crypto},
         },
         "portfolio": portfolio,
     }
