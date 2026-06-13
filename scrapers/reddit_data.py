@@ -15,9 +15,12 @@ REDDIT_CLIENT_ID     = os.environ.get("REDDIT_CLIENT_ID", "")
 REDDIT_CLIENT_SECRET = os.environ.get("REDDIT_CLIENT_SECRET", "")
 
 HEADERS = {
-    "User-Agent": "MarketSentinel/1.0 (read-only sentiment dashboard; github.com/dancingturtle14/market-sentinel)"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 }
 _ATOM_NS     = {"a": "http://www.w3.org/2005/Atom"}
+
+# RSS feed URLs — old.reddit.com bypasses some blocks
+RSS_URL_TMPL = "https://old.reddit.com/r/{}/hot.rss?limit=25"
 _oauth_token = None   # cached per process run
 
 CRYPTO_SUBS = ["CryptoCurrency", "Bitcoin", "ethereum", "solana", "CryptoMarkets"]
@@ -162,7 +165,7 @@ def fetch_crypto_reddit() -> list[dict]:
     results = []
     for sub in CRYPTO_SUBS:
         try:
-            feed = f"https://www.reddit.com/r/{sub}/hot.rss?limit=25"
+            feed = RSS_URL_TMPL.format(sub)
             r = requests.get(feed, headers=HEADERS, timeout=15, verify=False)
             r.raise_for_status()
             root = ET.fromstring(r.content)
@@ -193,7 +196,7 @@ def fetch_stock_reddit() -> list[dict]:
     results = []
     for sub in STOCK_SUBS:
         try:
-            feed = f"https://www.reddit.com/r/{sub}/hot.rss?limit=25"
+            feed = RSS_URL_TMPL.format(sub)
             r = requests.get(feed, headers=HEADERS, timeout=15, verify=False)
             r.raise_for_status()
             # Parse RSS XML
