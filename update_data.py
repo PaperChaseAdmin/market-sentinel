@@ -17,12 +17,13 @@ from scrapers.news_rss       import fetch_crypto_news, fetch_stock_news
 from scrapers.reddit_data    import fetch_crypto_reddit, fetch_stock_reddit
 from scrapers.polymarket     import fetch_polymarket
 from scrapers.fear_greed     import fetch_fear_greed, fetch_crypto_prices, fetch_coingecko_trending
-from scrapers.stocks_data    import fetch_stock_prices, fetch_market_indices, market_mood_score, fetch_macro_indicators, fetch_most_active
+from scrapers.stocks_data    import fetch_stock_prices, fetch_market_indices, market_mood_score
 from scrapers.portfolio      import fetch_portfolio
 from scrapers.sentiment      import analyze_headlines, sentiment_label, sentiment_color, generate_summary
 from scrapers.assets         import CRYPTO_ASSETS, STOCK_ASSETS
 from scrapers.fourchain_data import fetch_biz_sentiment
 from scrapers.stocktwits_data import fetch_stock_sentiment
+from scrapers.market_data import fetch_macro_indicators, fetch_most_active
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "market_data.json")
 
