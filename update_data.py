@@ -22,7 +22,6 @@ from scrapers.portfolio      import fetch_portfolio
 from scrapers.sentiment      import analyze_headlines, sentiment_label, sentiment_color, generate_summary
 from scrapers.assets         import CRYPTO_ASSETS, STOCK_ASSETS
 from scrapers.fourchain_data import fetch_biz_sentiment
-from scrapers.stocktwits_data import fetch_stock_sentiment
 from scrapers.market_data import fetch_macro_indicators, fetch_most_active
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "market_data.json")
@@ -143,11 +142,7 @@ def run():
     print("  Fetching CoinGecko trending searches...")
     cg_trending = fetch_coingecko_trending()
 
-    # ── NEW: StockTwits ──────────────────────────────────────────────────
-    print("  Fetching StockTwits sentiment...")
-    stocktwits = fetch_stock_sentiment()
-
-    # ── NEW: Macro indicators ────────────────────────────────────────────
+    # ── Macro indicators ────────────────────────────────────────────
     print("  Fetching macro indicators (10yr, DXY, gold, oil)...")
     macro = fetch_macro_indicators()
 
@@ -221,7 +216,6 @@ def run():
             "reddit":             stock_reddit,
             "reddit_summary":     stock_reddit_summary,
             "news_summary":       stock_news_summary,
-            "stocktwits":         stocktwits,
             "macro":              macro,
             "most_active":        most_active,
         },
