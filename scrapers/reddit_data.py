@@ -158,36 +158,63 @@ def _activity_score(posts: list[dict]) -> int:
 # ── Public API ────────────────────────────────────────────────────────────────
 
 def fetch_crypto_reddit() -> list[dict]:
+    """Fetch crypto subreddit data via public RSS (no auth needed)."""
     results = []
     for sub in CRYPTO_SUBS:
-        posts = _fetch_subreddit(sub)
-        if not posts:
-            continue
-        top = max(posts, key=lambda x: x["score"], default={})
-        results.append({
-            "subreddit":      f"r/{sub}",
-            "mentions":       _count_mentions(posts, CRYPTO_ASSETS),
-            "activity_score": _activity_score(posts),
-            "top_post":       top.get("title", ""),
-            "top_post_url":   top.get("url", ""),
-            "top_post_score": top.get("score", 0),
-        })
+        try:
+            feed = f"https://www.reddit.com/r/{sub}/hot.rss?limit=25"
+            r = requests.get(feed, headers=HEADERS, timeout=15, verify=False)
+            r.raise_for_status()
+            root = ET.fromstring(r.content)
+            posts = []
+            for entry in root.findall("a:entry", _ATOM_NS):
+                title_el = entry.find("a:title", _ATOM_NS)
+                link_el  = entry.find("a:link", _ATOM_NS)
+                title = title_el.text if title_el is not None else ""
+                href  = link_el.get("href", "") if link_el is not None else ""
+                posts.append({"title": title, "score": 0, "comments": 0, "url": href})
+            top = max(posts, key=lambda x: x["score"], default={})
+            results.append({
+                "subreddit": f"r/{sub}",
+                "mentions": _count_mentions(posts, CRYPTO_ASSETS),
+                "activity_score": _activity_score(posts),
+                "top_post": top.get("title", ""),
+                "top_post_url": top.get("url", ""),
+                "top_post_score": top.get("score", 0),
+                "posts": len(posts),
+            })
+        except Exception as e:
+            print(f"  [Reddit RSS] r/{sub}: {e}")
     return results
 
 
 def fetch_stock_reddit() -> list[dict]:
+    """Fetch stock subreddit data via public RSS (no auth needed)."""
     results = []
     for sub in STOCK_SUBS:
-        posts = _fetch_subreddit(sub)
-        if not posts:
-            continue
-        top = max(posts, key=lambda x: x["score"], default={})
-        results.append({
-            "subreddit":      f"r/{sub}",
-            "mentions":       _count_mentions(posts, STOCK_ASSETS),
-            "activity_score": _activity_score(posts),
-            "top_post":       top.get("title", ""),
-            "top_post_url":   top.get("url", ""),
-            "top_post_score": top.get("score", 0),
-        })
+        try:
+            feed = f"https://www.reddit.com/r/{sub}/hot.rss?limit=25"
+            r = requests.get(feed, headers=HEADERS, timeout=15, verify=False)
+            r.raise_for_status()
+            # Parse RSS XML
+            root = ET.fromstring(r.content)
+            posts = []
+            for entry in root.findall("a:entry", _ATOM_NS):
+                title_el = entry.find("a:title", _ATOM_NS)
+                link_el  = entry.find("a:link", _ATOM_NS)
+                title = title_el.text if title_el is not None else ""
+                href  = link_el.get("href", "") if link_el is not None else ""
+                posts.append({"title": title, "score": 0, "comments": 0, "url": href})
+            top = max(posts, key=lambda x: x["score"], default={})
+            results.append({
+                "subreddit": f"r/{sub}",
+                "mentions": _count_mentions(posts, STOCK_ASSETS),
+                "activity_score": _activity_score(posts),
+                "top_post": top.get("title", ""),
+                "top_post_url": top.get("url", ""),
+                "top_post_score": top.get("score", 0),
+                "posts": len(posts),
+            })
+        except Exception as e:
+            print(f"  [Reddit RSS] r/{sub}: {e}")
     return results
