@@ -52,7 +52,7 @@ def analyze_headlines_groq(headlines: list[str], api_key: str) -> list[float]:  
         print(f"  [Groq sentiment] fallback to keyword: {e}")
     return [keyword_sentiment(h) for h in headlines]
 
-def _call_openrouter(prompt: str, max_tokens: int = 300, model: str = "qwen/qwen-2.5-72b-instruct:free") -> str | None:
+def _call_openrouter(prompt: str, max_tokens: int = 300, model: str = "meta-llama/llama-3.3-70b-instruct:free") -> str | None:
     """Call OpenRouter AI. Returns text or None."""
     key = os.environ.get("OPENROUTER_API_KEY", "")
     if not key:
