@@ -74,57 +74,49 @@ def market_mood_score(indices: dict) -> float:
 
 
 def fetch_macro_indicators() -> list[dict]:
-    """Fetch macro indicators: 10yr yield, DXY, gold, crude oil via yfinance."""
+    """Fetch macro indicators via yfinance with individual downloads."""
     results = []
-    try:
-        data = yf.download(MACRO_TICKERS, period="2d", auto_adjust=True, progress=False)
-        closes = data["Close"]
-        for ticker, name in MACRO_NAMES.items():
-            try:
-                vals = closes[ticker].dropna()
-                if len(vals) < 2:
-                    continue
-                prev, curr = float(vals.iloc[-2]), float(vals.iloc[-1])
-                change = round((curr - prev) / prev * 100, 2)
-                results.append({
-                    "symbol": ticker,
-                    "name": name,
-                    "value": round(curr, 2),
-                    "change_24h": change,
-                })
-            except Exception:
-                pass
-    except Exception as e:
-        print(f"  [yfinance macro] failed: {e}")
+    for ticker, name in MACRO_NAMES.items():
+        try:
+            data = yf.download(ticker, period="2d", auto_adjust=True, progress=False)
+            if data.empty:
+                print(f"  [yfinance macro] {ticker}: no data")
+                continue
+            closes = data["Close"].dropna()
+            if len(closes) < 2:
+                print(f"  [yfinance macro] {ticker}: only {len(closes)} data points")
+                continue
+            prev, curr = float(closes.iloc[-2]), float(closes.iloc[-1])
+            change = round((curr - prev) / prev * 100, 2)
+            results.append({
+                "symbol": ticker, "name": name,
+                "value": round(curr, 2), "change_24h": change,
+            })
+        except Exception as e:
+            print(f"  [yfinance macro] {ticker}: {e}")
     return results
 
 
 def fetch_most_active() -> list[dict]:
-    """Fetch Yahoo Finance most active stocks (popularity proxy)."""
-    try:
-        data = yf.download(WATCHLIST, period="2d", auto_adjust=True, progress=False)
-        closes = data["Close"]
-        volumes = data["Volume"]
-        active = []
-        for sym in WATCHLIST:
-            try:
-                v = volumes[sym].dropna()
-                c = closes[sym].dropna()
-                if len(v) < 1 or len(c) < 2:
-                    continue
-                vol = int(v.iloc[-1])
-                prev, curr = float(c.iloc[-2]), float(c.iloc[-1])
-                chg = round((curr - prev) / prev * 100, 2)
-                active.append({
-                    "symbol": sym,
-                    "volume": vol,
-                    "price_usd": round(curr, 2),
-                    "change_24h": chg,
-                })
-            except Exception:
-                pass
-        active.sort(key=lambda x: x["volume"], reverse=True)
-        return active[:10]
-    except Exception as e:
-        print(f"  [yfinance most active] {e}")
-        return []
+    """Fetch most active stocks by volume (individual downloads)."""
+    active = []
+    for sym in WATCHLIST:
+        try:
+            data = yf.download(sym, period="2d", auto_adjust=True, progress=False)
+            if data.empty:
+                continue
+            closes = data["Close"].dropna()
+            volumes = data["Volume"].dropna()
+            if len(closes) < 2 or len(volumes) < 1:
+                continue
+            vol = int(volumes.iloc[-1])
+            prev, curr = float(closes.iloc[-2]), float(closes.iloc[-1])
+            chg = round((curr - prev) / prev * 100, 2)
+            active.append({
+                "symbol": sym, "volume": vol,
+                "price_usd": round(curr, 2), "change_24h": chg,
+            })
+        except Exception:
+            pass
+    active.sort(key=lambda x: x["volume"], reverse=True)
+    return active[:10]

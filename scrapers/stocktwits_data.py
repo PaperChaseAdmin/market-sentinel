@@ -10,27 +10,28 @@ HEADERS = {
 }
 STOCKTWITS_API = "https://api.stocktwits.com/api/2"
 
+# Fallback: scrape StockTwits trending page as alternative
+STOCKTWITS_FALLBACK = "https://stocktwits.com/trending.json"
+
 
 def fetch_trending_symbols(limit: int = 15) -> list[dict]:
     """Get trending symbols on StockTwits right now."""
-    try:
-        r = requests.get(
-            f"{STOCKTWITS_API}/trending/symbols.json",
-            headers=HEADERS, timeout=10,
-        )
-        r.raise_for_status()
-        symbols = r.json().get("symbols", [])
-        return [
-            {
-                "symbol": s["symbol"],
-                "title": s.get("title", s["symbol"]),
-                "watchlist_count": s.get("watchlist_count", 0),
-            }
-            for s in symbols[:limit]
-        ]
-    except Exception as e:
-        print(f"  [StockTwits trending] {e}")
-        return []
+    # Try API first, then fallback
+    for url in [f"{STOCKTWITS_API}/trending/symbols.json", STOCKTWITS_FALLBACK]:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=10)
+            r.raise_for_status()
+            data = r.json()
+            symbols = data.get("symbols", [])
+            if symbols:
+                return [
+                    {"symbol": s["symbol"], "title": s.get("title", s["symbol"]), "watchlist_count": s.get("watchlist_count", 0)}
+                    for s in symbols[:limit]
+                ]
+        except Exception as e:
+            print(f"  [StockTwits] {url.split('/')[-1]}: {e}")
+            continue
+    return []
 
 
 def fetch_symbol_sentiment(symbol: str) -> dict:
