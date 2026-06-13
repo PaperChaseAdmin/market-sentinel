@@ -1,95 +1,95 @@
 """
-StockTwits public API — no authentication required.
-Provides trending symbols and user-labelled bullish/bearish sentiment.
-API docs: https://api.stocktwits.com/developers/docs
+StockTwits — social sentiment for stocks (free, no API key).
+Replaces Reddit as the primary social data source.
 """
-import requests, time
+import requests
+from collections import Counter
 
-HEADERS = {"User-Agent": "MarketSentinel/1.0 (read-only)"}
-BASE    = "https://api.stocktwits.com/api/2"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+}
+STOCKTWITS_API = "https://api.stocktwits.com/api/2"
 
-CRYPTO_SYMBOLS = ["BTC.X", "ETH.X", "SOL.X", "XRP.X", "BNB.X", "DOGE.X"]
-STOCK_SYMBOLS  = ["NVDA", "TSLA", "AAPL", "MSFT", "AMD", "META", "AMZN"]
 
-
-def _get(path: str) -> dict | None:
+def fetch_trending_symbols(limit: int = 15) -> list[dict]:
+    """Get trending symbols on StockTwits right now."""
     try:
-        r = requests.get(f"{BASE}{path}", headers=HEADERS, timeout=10)
+        r = requests.get(
+            f"{STOCKTWITS_API}/trending/symbols.json",
+            headers=HEADERS, timeout=10,
+        )
         r.raise_for_status()
-        return r.json()
+        symbols = r.json().get("symbols", [])
+        return [
+            {
+                "symbol": s["symbol"],
+                "title": s.get("title", s["symbol"]),
+                "watchlist_count": s.get("watchlist_count", 0),
+            }
+            for s in symbols[:limit]
+        ]
     except Exception as e:
-        print(f"  [StockTwits] {path} failed: {e}")
-        return None
-
-
-def fetch_trending() -> list[dict]:
-    """All trending symbols on StockTwits right now."""
-    data = _get("/trending/symbols.json")
-    if not data:
+        print(f"  [StockTwits trending] {e}")
         return []
-    return [
-        {
-            "symbol":          s["symbol"],
-            "name":            s.get("title", ""),
-            "watchlist_count": s.get("watchlist_count", 0),
-        }
-        for s in data.get("symbols", [])[:20]
-    ]
 
 
 def fetch_symbol_sentiment(symbol: str) -> dict:
-    """Recent messages for a symbol with Bullish/Bearish user labels."""
-    data = _get(f"/streams/symbol/{symbol}.json")
-    if not data:
-        return {}
-    messages = data.get("messages", [])
-    bullish, bearish = 0, 0
-    for m in messages:
-        senti = (m.get("entities") or {}).get("sentiment") or {}
-        basic = senti.get("basic", "")
-        if basic == "Bullish":
-            bullish += 1
-        elif basic == "Bearish":
-            bearish += 1
-    labeled = bullish + bearish
+    """Get recent messages for a symbol, return sentiment breakdown."""
+    try:
+        r = requests.get(
+            f"{STOCKTWITS_API}/streams/symbol/{symbol}.json",
+            params={"limit": 30},
+            headers=HEADERS, timeout=10,
+        )
+        r.raise_for_status()
+        data = r.json()
+        messages = data.get("messages", [])
+        bullish = sum(1 for m in messages if m.get("entities", {}).get("sentiment", {}).get("basic") == "Bullish")
+        bearish = sum(1 for m in messages if m.get("entities", {}).get("sentiment", {}).get("basic") == "Bearish")
+        total = len(messages)
+        return {
+            "symbol": symbol,
+            "messages_24h": data.get("symbol", {}).get("watchlist_count", total),
+            "recent_messages": total,
+            "bullish": bullish,
+            "bearish": bearish,
+            "sentiment_score": round((bullish - bearish) / max(total, 1), 3),
+        }
+    except Exception as e:
+        print(f"  [StockTwits {symbol}] {e}")
+        return {"symbol": symbol, "messages_24h": 0, "recent_messages": 0, "bullish": 0, "bearish": 0, "sentiment_score": 0}
+
+
+def fetch_stock_sentiment() -> dict:
+    """Main entry point: trending symbols + sentiment for top ones."""
+    print("  Fetching StockTwits trending...")
+    trending = fetch_trending_symbols(15)
+    if not trending:
+        return {"trending": [], "sentiment": []}
+
+    # Get detailed sentiment for top 10
+    top_symbols = [s["symbol"] for s in trending[:10]]
+    sentiment_data = [fetch_symbol_sentiment(sym) for sym in top_symbols]
+
     return {
-        "symbol":       symbol.replace(".X", ""),
-        "messages":     len(messages),
-        "bullish":      bullish,
-        "bearish":      bearish,
-        "bullish_pct":  round(bullish / labeled * 100) if labeled else 50,
-        "labeled":      labeled,
+        "trending": trending,
+        "sentiment": sentiment_data,
+        "summary": _generate_summary(sentiment_data),
     }
 
 
-def _sentiment_for_symbols(symbols: list[str]) -> list[dict]:
-    results = []
-    for sym in symbols:
-        s = fetch_symbol_sentiment(sym)
-        if s and s.get("messages", 0) > 0:
-            results.append(s)
-        time.sleep(0.25)   # gentle rate limiting
-    return results
-
-
-def fetch_crypto_stocktwits() -> dict:
-    print("  [StockTwits] fetching crypto data…")
-    trending = fetch_trending()
-    # Separate crypto (ends in .X) vs stocks
-    crypto_trending = [t for t in trending if t["symbol"].endswith(".X")][:8]
-    sentiments = _sentiment_for_symbols(CRYPTO_SYMBOLS[:4])
-    return {
-        "trending":   crypto_trending,
-        "sentiments": sentiments,
-    }
-
-
-def fetch_stock_stocktwits() -> dict:
-    print("  [StockTwits] fetching stock data…")
-    trending = fetch_trending()
-    stock_trending = [t for t in trending if not t["symbol"].endswith(".X")][:8]
-    sentiments = _sentiment_for_symbols(STOCK_SYMBOLS[:4])
-    return {
-        "trending":   stock_trending,
-        "sentiments": sentiments,
-    }
+def _generate_summary(sentiment: list[dict]) -> str:
+    """Brief summary of overall sentiment."""
+    if not sentiment:
+        return "No StockTwits data"
+    bullish = sum(s["bullish"] for s in sentiment)
+    bearish = sum(s["bearish"] for s in sentiment)
+    total = sum(s["recent_messages"] for s in sentiment)
+    if total == 0:
+        return "No recent messages on StockTwits"
+    ratio = round((bullish - bearish) / total * 100, 1)
+    if ratio > 10:
+        return f"Bullish divergence ({ratio}% net bullish) across {len(sentiment)} trending stocks"
+    elif ratio < -10:
+        return f"Bearish divergence ({abs(ratio)}% net bearish) across {len(sentiment)} trending stocks"
+    return f"Mixed sentiment ({ratio}% net) across {len(sentiment)} trending stocks"
