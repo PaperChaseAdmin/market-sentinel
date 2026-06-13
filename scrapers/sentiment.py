@@ -52,11 +52,45 @@ def analyze_headlines_groq(headlines: list[str], api_key: str) -> list[float]:  
         print(f"  [Groq sentiment] fallback to keyword: {e}")
     return [keyword_sentiment(h) for h in headlines]
 
-def _ai_generate(prompt: str) -> str | None:
-    """Try Gemini first, then Groq. Returns text or None."""
-    gemini_key = os.environ.get("GEMINI_API_KEY", "")
-    groq_key   = os.environ.get("GROQ_API_KEY", "")
+def _call_openrouter(prompt: str, max_tokens: int = 300, model: str = "qwen/qwen-2.5-72b-instruct:free") -> str | None:
+    """Call OpenRouter AI. Returns text or None."""
+    key = os.environ.get("OPENROUTER_API_KEY", "")
+    if not key:
+        return None
+    try:
+        import requests
+        resp = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers={
+                "Authorization": f"Bearer {key}",
+                "Content-Type": "application/json",
+                "HTTP-Referer": "https://paperchase.online",
+            },
+            json={
+                "model": model,
+                "messages": [{"role": "user", "content": prompt}],
+                "max_tokens": max_tokens,
+                "temperature": 0.1,
+            },
+            timeout=20,
+        )
+        if resp.ok:
+            return resp.json()["choices"][0]["message"]["content"].strip()
+        print(f"  [OpenRouter] HTTP {resp.status_code}: {resp.text[:200]}")
+    except Exception as e:
+        print(f"  [OpenRouter] {e}")
+    return None
 
+
+def _ai_generate(prompt: str, max_tokens: int = 300) -> str | None:
+    """Try OpenRouter first, then Gemini, then Groq. Returns text or None."""
+    # 1) OpenRouter (primary)
+    result = _call_openrouter(prompt, max_tokens)
+    if result:
+        return result
+
+    # 2) Gemini (fallback)
+    gemini_key = os.environ.get("GEMINI_API_KEY", "")
     if gemini_key:
         try:
             from google import genai
@@ -66,13 +100,15 @@ def _ai_generate(prompt: str) -> str | None:
         except Exception as e:
             print(f"  [Gemini] {e}")
 
+    # 3) Groq (last resort)
+    groq_key = os.environ.get("GROQ_API_KEY", "")
     if groq_key:
         try:
             from groq import Groq
             resp = Groq(api_key=groq_key).chat.completions.create(
                 model="llama-3.3-70b-versatile",
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=150,
+                max_tokens=max_tokens,
                 temperature=0.3,
             )
             return resp.choices[0].message.content.strip()
