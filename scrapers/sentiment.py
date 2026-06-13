@@ -186,3 +186,37 @@ def analyze_headlines(headlines: list[str]) -> list[dict]:
         }
         for i, h in enumerate(headlines)
     ]
+
+
+def ai_market_mood_score(indices: dict, stock_news: list, news_sentiment: float,
+                          fear_greed: dict, macro: list, most_active: list,
+                          crypto_prices: list) -> float | None:
+    """Use OpenRouter to calculate market mood (-1 to +1) from ALL available data."""
+    # Build context
+    idx_text = "\n".join(f"{k}: {v.get('value','?')} ({v.get('change_24h',0):+.2f}%)" for k,v in (indices or {}).items() if v)
+    mood_text = f"News sentiment score: {news_sentiment}"
+    fg_text = f"Fear & Greed: {fear_greed.get('value','?')} ({fear_greed.get('label','?')})"
+    macro_text = "\n".join(f"{m.get('name','?')}: {m.get('value','?')} ({m.get('change_24h',0):+.2f}%)" for m in (macro or [])[:4])
+    active_text = ", ".join(a['symbol'] for a in (most_active or [])[:5])
+    btc = next((p for p in (crypto_prices or []) if p.get('symbol') == 'BTC'), {})
+    btc_text = f"BTC: ${btc.get('price_usd','?')} ({btc.get('change_24h',0):+.2f}%)" if btc else ""
+
+    prompt = (
+        f"Analyze the overall US stock market mood based on ALL data below. "
+        f"Reply with a single float number between -1.0 (extremely bearish) and +1.0 (extremely bullish). Nothing else.\n\n"
+        f"Indices:\n{idx_text}\n\n"
+        f"{mood_text}\n"
+        f"{fg_text}\n"
+        f"Macro:\n{macro_text}\n"
+        f"Most Active: {active_text}\n"
+        f"{btc_text}\n"
+        f"\nOnly reply with a number like 0.35 or -0.20, no other text."
+    )
+    text = _ai_generate(prompt, max_tokens=20)
+    if text:
+        try:
+            val = float(text.strip())
+            return max(-1.0, min(1.0, val))
+        except ValueError:
+            pass
+    return None

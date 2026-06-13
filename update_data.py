@@ -19,7 +19,7 @@ from scrapers.polymarket     import fetch_polymarket
 from scrapers.fear_greed     import fetch_fear_greed, fetch_crypto_prices, fetch_coingecko_trending
 from scrapers.stocks_data    import fetch_stock_prices, fetch_market_indices, market_mood_score
 from scrapers.portfolio      import fetch_portfolio
-from scrapers.sentiment      import analyze_headlines, sentiment_label, sentiment_color, generate_summary
+from scrapers.sentiment      import analyze_headlines, sentiment_label, sentiment_color, generate_summary, ai_market_mood_score
 from scrapers.assets         import CRYPTO_ASSETS, STOCK_ASSETS
 from scrapers.fourchain_data import fetch_biz_sentiment
 from scrapers.market_data import fetch_macro_indicators, fetch_most_active
@@ -129,7 +129,7 @@ def run():
     print("  Fetching stock prices & indices...")
     stock_prices   = fetch_stock_prices()
     indices        = fetch_market_indices()
-    mood_score     = market_mood_score(indices)
+    mood_score     = market_mood_score(indices)  # initial calculation
 
     print("  Fetching stock Reddit...")
     stock_reddit = fetch_stock_reddit()
@@ -180,6 +180,15 @@ def run():
     stock_news_summary    = generate_summary("stock/finance news",         _news_text(stock_news_out))
     stock_poly_summary    = generate_summary("finance prediction markets", _poly_text(poly["finance"]))
     stock_reddit_summary  = generate_summary("stock Reddit discussion",    _reddit_text(stock_mentions, stock_reddit))
+
+    # ── AI Market Mood (refined with ALL data) ────────────────────────
+    print("  AI-powered market mood score...")
+    ai_mood = ai_market_mood_score(indices, stock_news_out, stock_avg_score, fear_greed, macro, most_active, crypto_prices)
+    if ai_mood is not None:
+        mood_score = ai_mood
+        print(f"  AI Mood: {mood_score:.3f} ({sentiment_label(mood_score)})")
+    else:
+        print(f"  Using formula mood: {mood_score:.3f} ({sentiment_label(mood_score)})")
 
     # ── Assemble output ─────────────────────────────────────────────────
     output = {
