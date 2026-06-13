@@ -52,33 +52,39 @@ def analyze_headlines_groq(headlines: list[str], api_key: str) -> list[float]:  
         print(f"  [Groq sentiment] fallback to keyword: {e}")
     return [keyword_sentiment(h) for h in headlines]
 
-def _call_openrouter(prompt: str, max_tokens: int = 300, model: str = "meta-llama/llama-3.3-70b-instruct:free") -> str | None:
-    """Call OpenRouter AI. Returns text or None."""
+def _call_openrouter(prompt: str, max_tokens: int = 300, model: str = None) -> str | None:
+    """Call OpenRouter AI. Tries models in order. Returns text or None."""
     key = os.environ.get("OPENROUTER_API_KEY", "")
     if not key:
         return None
-    try:
-        import requests
-        resp = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {key}",
-                "Content-Type": "application/json",
-                "HTTP-Referer": "https://paperchase.online",
-            },
-            json={
-                "model": model,
-                "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": max_tokens,
-                "temperature": 0.1,
-            },
-            timeout=20,
-        )
-        if resp.ok:
-            return resp.json()["choices"][0]["message"]["content"].strip()
-        print(f"  [OpenRouter] HTTP {resp.status_code}: {resp.text[:200]}")
-    except Exception as e:
-        print(f"  [OpenRouter] {e}")
+
+    models = model or ["meta-llama/llama-3.3-70b-instruct:free", "nvidia/nemotron-3-nano-30b-a3b:free", "qwen/qwen3-coder:free"]
+    if isinstance(models, str):
+        models = [models]
+
+    for m in models:
+        try:
+            import requests
+            resp = requests.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {key}",
+                    "Content-Type": "application/json",
+                    "HTTP-Referer": "https://paperchase.online",
+                },
+                json={
+                    "model": m,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "max_tokens": max_tokens,
+                    "temperature": 0.1,
+                },
+                timeout=20,
+            )
+            if resp.ok:
+                return resp.json()["choices"][0]["message"]["content"].strip()
+            print(f"  [OpenRouter] {m}: {resp.json().get('error',{}).get('message','?')[:60]}")
+        except Exception as e:
+            print(f"  [OpenRouter] {m}: {e}")
     return None
 
 
