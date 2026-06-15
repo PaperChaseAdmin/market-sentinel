@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T19:41:02Z",
+  "updated_at": "2026-06-15T19:44:09Z",
   "crypto": {
     "fear_greed": {
       "value": 20,
@@ -7,25 +7,98 @@
       "previous_value": 18,
       "previous_label": "Extreme Fear"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 66648,
+        "change_24h": 4.59,
+        "market_cap": 1335959867859,
+        "volume_24h": 38687581865
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 1826.94,
+        "change_24h": 9.77,
+        "market_cap": 220457105791,
+        "volume_24h": 18913810445
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 621.1,
+        "change_24h": 2.99,
+        "market_cap": 83679657027,
+        "volume_24h": 1092572684
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.27,
+        "change_24h": 12.42,
+        "market_cap": 79016121025,
+        "volume_24h": 3448955632
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 75.26,
+        "change_24h": 11.4,
+        "market_cap": 43604188403,
+        "volume_24h": 3429628895
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.089063,
+        "change_24h": 2.99,
+        "market_cap": 13772014546,
+        "volume_24h": 1103473268
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.186093,
+        "change_24h": 12.04,
+        "market_cap": 6923767438,
+        "volume_24h": 746278843
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 8.43,
+        "change_24h": 7.72,
+        "market_cap": 6130463167,
+        "volume_24h": 326275166
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 6.93,
+        "change_24h": 7.47,
+        "market_cap": 2987931581,
+        "volume_24h": 256938738
+      }
+    ],
     "top_mentioned": [
       {
         "symbol": "BTC",
         "mentions": 6,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 66648,
+        "change_24h": 4.59
       },
       {
         "symbol": "ETH",
         "mentions": 4,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1826.94,
+        "change_24h": 9.77
       },
       {
         "symbol": "ADA",
         "mentions": 1,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.186093,
+        "change_24h": 12.04
       },
       {
         "symbol": "LTC",
@@ -36,38 +109,38 @@
       {
         "symbol": "SOL",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 75.26,
+        "change_24h": 11.4
       },
       {
         "symbol": "BNB",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 621.1,
+        "change_24h": 2.99
       },
       {
         "symbol": "XRP",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1.27,
+        "change_24h": 12.42
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.089063,
+        "change_24h": 2.99
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 6.93,
+        "change_24h": 7.47
       },
       {
         "symbol": "LINK",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 8.43,
+        "change_24h": 7.72
       }
     ],
     "news": [
@@ -276,7 +349,7 @@
     },
     "news_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: Market sentiment is strongly positive, driven by Bitcoin potentially bottoming at $60,000 and XRP's 8% breakout above $1.20. Growth is highlighted by Bittensor (TAO) surging 31.9% and Bitmine adding $136 million in Ether. Institutional momentum continues with Kraken debuting U.S. perpetual futures and analysts signaling a \"crypto spring.\" These gains outweigh the bearish news of Hyperliquid losing Anthropic and OpenAI markets, reflecting a broader trend of onshore expansion and price recovery."
+      "summary": "Bullish: Market sentiment is strongly positive, driven by Bitcoin potentially bottoming at $60,000 and XRP's 8% breakout above $1.20. Growth is evident as Bittensor (TAO) surges 31.9% and Bitmine adds $136 million in Ether. Institutional momentum continues with Kraken debuting U.S. perpetual futures and analysts signaling a \"crypto spring.\" These gains outweigh the bearish news of Hyperliquid losing Anthropic and OpenAI markets, reflecting a broader trend of onshore expansion and price recovery."
     },
     "fourchain": {
       "thread_count": 201,
@@ -293,73 +366,73 @@
     },
     "cg_trending": [
       {
-        "symbol": "JTO",
-        "name": "Jito",
-        "rank": 124,
-        "score": 0,
-        "change_24h": 41.73
-      },
-      {
         "symbol": "SIREN",
         "name": "Siren",
         "rank": 586,
+        "score": 0,
+        "change_24h": -35.71
+      },
+      {
+        "symbol": "JTO",
+        "name": "Jito",
+        "rank": 124,
         "score": 1,
-        "change_24h": -35.5
+        "change_24h": 40.83
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 113,
         "score": 2,
-        "change_24h": 9.96
+        "change_24h": 10.34
+      },
+      {
+        "symbol": "H",
+        "name": "Humanity",
+        "rank": 116,
+        "score": 3,
+        "change_24h": -28.0
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
-        "score": 3,
-        "change_24h": 4.35
-      },
-      {
-        "symbol": "H",
-        "name": "Humanity",
-        "rank": 115,
         "score": 4,
-        "change_24h": -27.61
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "rank": 30,
-        "score": 5,
-        "change_24h": 18.95
+        "change_24h": 4.43
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
         "rank": 2,
+        "score": 5,
+        "change_24h": 9.34
+      },
+      {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "rank": 30,
         "score": 6,
-        "change_24h": 9.21
+        "change_24h": 17.89
       }
     ]
   },
   "stocks": {
     "indices": {
       "sp500": {
-        "value": 7555.02,
-        "change_24h": 1.66
+        "value": 7555.72,
+        "change_24h": 1.67
       },
       "nasdaq": {
-        "value": 26638.44,
-        "change_24h": 2.9
+        "value": 26651.05,
+        "change_24h": 2.94
       },
       "dow": {
-        "value": 51752.97,
+        "value": 51755.06,
         "change_24h": 1.08
       },
       "vix": {
-        "value": 16.08,
-        "change_24h": -9.05
+        "value": 16.11,
+        "change_24h": -8.88
       }
     },
     "market_mood": {
@@ -370,53 +443,53 @@
     "prices": [
       {
         "symbol": "NVDA",
-        "price_usd": 211.69,
-        "change_24h": 3.17
+        "price_usd": 211.66,
+        "change_24h": 3.15
       },
       {
         "symbol": "TSLA",
-        "price_usd": 409.02,
+        "price_usd": 409.05,
         "change_24h": 0.64
       },
       {
         "symbol": "AAPL",
-        "price_usd": 296.2,
-        "change_24h": 1.74
+        "price_usd": 296.14,
+        "change_24h": 1.72
       },
       {
         "symbol": "MSFT",
-        "price_usd": 399.76,
-        "change_24h": 2.31
+        "price_usd": 399.73,
+        "change_24h": 2.3
       },
       {
         "symbol": "GOOGL",
-        "price_usd": 369.63,
-        "change_24h": 2.77
+        "price_usd": 369.36,
+        "change_24h": 2.69
       },
       {
         "symbol": "AMZN",
-        "price_usd": 245.65,
-        "change_24h": 2.97
+        "price_usd": 246.01,
+        "change_24h": 3.13
       },
       {
         "symbol": "META",
-        "price_usd": 592.4,
-        "change_24h": 4.48
+        "price_usd": 592.62,
+        "change_24h": 4.52
       },
       {
         "symbol": "AMD",
-        "price_usd": 547.94,
-        "change_24h": 7.11
+        "price_usd": 548.59,
+        "change_24h": 7.24
       },
       {
         "symbol": "PLTR",
-        "price_usd": 134.5,
-        "change_24h": 5.09
+        "price_usd": 134.45,
+        "change_24h": 5.05
       },
       {
         "symbol": "COIN",
-        "price_usd": 170.13,
-        "change_24h": 6.48
+        "price_usd": 170.2,
+        "change_24h": 6.52
       }
     ],
     "top_mentioned": [],
@@ -522,14 +595,24 @@
         "color": "red"
       },
       {
+        "title": "All eyes are now on the bond market as oil prices fall. Will the Fed hike rates?",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/all-eyes-are-now-on-the-bond-market-as-oil-prices-fall-will-the-fed-hike-rates-1be0b1f5?mod=mw_rss_topstories",
+        "published": "Mon, 15 Jun 2026 19:41:00 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -0.4,
+        "color": "red"
+      },
+      {
         "title": "It could take years for oil prices to return to $67 a barrel. Here’s why.",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/it-could-take-years-for-oil-prices-to-return-to-67-a-barrel-heres-why-a862b57e?mod=mw_rss_topstories",
         "published": "Mon, 15 Jun 2026 19:29:00 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.4,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "Here’s when gas prices will come down if the U.S.’s deal to end the Iran war pans out",
@@ -538,7 +621,7 @@
         "published": "Mon, 15 Jun 2026 19:26:00 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.6,
+        "score": 0.4,
         "color": "green"
       },
       {
@@ -560,33 +643,23 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "‘We are comfortable financially’: My husband is in his 60s and has $500,000 life insurance. Is this a good time to cancel?",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/we-pay-100-per-month-my-husband-is-in-his-mid-60s-and-has-a-500-000-life-insurance-policy-is-it-time-to-cancel-it-4cc49ffe?mod=mw_rss_topstories",
-        "published": "Mon, 15 Jun 2026 18:57:00 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": 0.24,
+      "score": 0.213,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "US x Iran permanent peace deal by June 15, 2026?",
-        "volume_24h": 22635222,
-        "yes_price": 0.96,
+        "volume_24h": 22746265,
+        "yes_price": 0.95,
         "category": "finance"
       },
       {
         "title": "US x Iran permanent peace deal by June 30, 2026?",
-        "volume_24h": 5691048,
+        "volume_24h": 5678772,
         "yes_price": 0.98,
         "category": "finance"
       },
@@ -616,20 +689,20 @@
       },
       {
         "title": " Iran agrees to end enrichment of uranium by June 30?",
-        "volume_24h": 483489,
+        "volume_24h": 480207,
         "yes_price": 0.29,
         "category": "finance"
       },
       {
         "title": "US x Iran diplomatic meeting by June 30, 2026?",
-        "volume_24h": 358949,
+        "volume_24h": 362747,
         "yes_price": 0.91,
         "category": "finance"
       }
     ],
     "polymarket_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: Markets strongly anticipate a US-Iran peace deal by mid-2026, with confidence levels reaching 96-98% and high volume ($22.6M). Sentiment is supported by a 91% probability of a diplomatic meeting and a low 12% chance of a US invasion. However, sentiment remains mixed regarding specific terms, as only 29% expect Iran to end uranium enrichment, and only 11% foresee a peace deal between Israel and Iran."
+      "summary": "Bullish: Markets strongly anticipate a US-Iran peace deal by mid-2026, with confidence levels reaching 95-98% and high volume ($22.7M). Sentiment is supported by a 91% probability of a diplomatic meeting and a low 12% chance of a US invasion. However, sentiment remains mixed regarding specific terms, as only 29% expect Iran to end uranium enrichment, and only 11% foresee a peace deal between Israel and Iran."
     },
     "reddit": [],
     "reddit_summary": {
@@ -638,7 +711,7 @@
     },
     "news_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: Market sentiment is driven by high-profile corporate activity, including SpaceX's $85.7 billion IPO and Fox's $22 billion acquisition of Roku. These events have caused Wall Street's fear gauge to tumble. While political tensions persist regarding Gavin Newsom's DOJ investigation and ongoing discussions between Anthropic and the Trump administration, confidence is bolstered by JD Vance's assertive stance on Iran and expectations that a Warsh-led Fed will hold interest rates steady."
+      "summary": "Bullish: Market sentiment is driven by high-profile corporate activity, including SpaceX's IPO raising $85.7 billion and Fox's $22 billion acquisition of Roku. These gains, alongside Vance's confidence in U.S. leverage over Iran, have caused Wall Street's fear gauge to tumble. While political tensions persist regarding Gavin Newsom's DOJ investigation and neutral outlooks on Warsh's potential Fed leadership, the dominant trend is positive, fueled by significant capital inflows and strategic M&A activity."
     },
     "macro": [
       {
@@ -651,86 +724,103 @@
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
         "value": 99.64,
-        "change_24h": -0.11
+        "change_24h": -0.12
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4345.1,
-        "change_24h": 3.09
+        "value": 4344.7,
+        "change_24h": 3.08
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 81.1,
-        "change_24h": -4.45
+        "value": 81.13,
+        "change_24h": -4.42
       }
     ],
     "most_active": [
       {
         "symbol": "NVDA",
-        "volume": 99522595,
-        "price_usd": 211.69,
-        "change_24h": 3.17
+        "volume": 100004555,
+        "price_usd": 211.65,
+        "change_24h": 3.15
       },
       {
         "symbol": "QQQ",
-        "volume": 36736111,
-        "price_usd": 743.52,
+        "volume": 36914856,
+        "price_usd": 743.49,
         "change_24h": 3.07
       },
       {
         "symbol": "TSLA",
-        "volume": 36689075,
+        "volume": 36870086,
         "price_usd": 409.01,
         "change_24h": 0.63
       },
       {
         "symbol": "SPY",
-        "volume": 35311228,
-        "price_usd": 754.42,
+        "volume": 35762062,
+        "price_usd": 754.43,
         "change_24h": 1.71
       },
       {
         "symbol": "PLTR",
-        "volume": 30158779,
-        "price_usd": 134.51,
-        "change_24h": 5.09
+        "volume": 30288774,
+        "price_usd": 134.46,
+        "change_24h": 5.06
       },
       {
         "symbol": "AMZN",
-        "volume": 28218998,
-        "price_usd": 245.64,
-        "change_24h": 2.97
+        "volume": 28400342,
+        "price_usd": 245.98,
+        "change_24h": 3.11
       },
       {
         "symbol": "AAPL",
-        "volume": 27794827,
-        "price_usd": 296.17,
-        "change_24h": 1.73
+        "volume": 27970855,
+        "price_usd": 296.14,
+        "change_24h": 1.72
       },
       {
         "symbol": "AMD",
-        "volume": 23238122,
-        "price_usd": 547.9,
-        "change_24h": 7.1
+        "volume": 23379678,
+        "price_usd": 548.59,
+        "change_24h": 7.24
       },
       {
         "symbol": "MSFT",
-        "volume": 20653815,
-        "price_usd": 399.76,
-        "change_24h": 2.31
+        "volume": 20794725,
+        "price_usd": 399.74,
+        "change_24h": 2.3
       },
       {
         "symbol": "BAC",
-        "volume": 18279918,
-        "price_usd": 56.01,
-        "change_24h": -0.02
+        "volume": 18426206,
+        "price_usd": 56.03,
+        "change_24h": 0.01
       }
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 51
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 7
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 5
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 18
+        }
+      ]
     }
   },
   "portfolio": [
@@ -739,14 +829,14 @@
       "name": "BlackRock High Yield Bond",
       "type": "Bond Income",
       "price_usd": 47.63,
-      "change_1d": 0.21,
-      "change_1w": 0.7,
-      "change_1m": 0.89,
+      "change_1d": 0.2,
+      "change_1w": 0.69,
+      "change_1m": 0.88,
       "high_3m": 47.63,
       "low_3m": 45.95,
       "week52_high": 48.89,
       "week52_low": 46.84,
-      "rsi": 61.3,
+      "rsi": 61.1,
       "div_yield": 7.38,
       "last_div": null,
       "outlook": {
@@ -760,7 +850,7 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 61.3 — Above neutral, mild upward momentum ↑",
+          "RSI 61.1 — Above neutral, mild upward momentum ↑",
           "5-day momentum +0.7% — consolidating sideways →",
           "1-month return +0.9% — range-bound"
         ]
@@ -772,13 +862,13 @@
       "type": "Covered Call Income",
       "price_usd": 40.94,
       "change_1d": 0.63,
-      "change_1w": 0.98,
-      "change_1m": 1.79,
+      "change_1w": 0.97,
+      "change_1m": 1.78,
       "high_3m": 40.94,
       "low_3m": 37.65,
       "week52_high": 41.1,
       "week52_low": 38.22,
-      "rsi": 58.3,
+      "rsi": 58.2,
       "div_yield": 10.53,
       "last_div": null,
       "outlook": {
@@ -792,7 +882,7 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 58.3 — Above neutral, mild upward momentum ↑",
+          "RSI 58.2 — Above neutral, mild upward momentum ↑",
           "5-day momentum +1.0% — consolidating sideways →",
           "1-month return +1.8% — range-bound"
         ]
@@ -803,14 +893,14 @@
       "name": "JPMorgan Nasdaq Equity Premium",
       "type": "Equity Income",
       "price_usd": 61.15,
-      "change_1d": 2.15,
-      "change_1w": 2.54,
-      "change_1m": 2.84,
+      "change_1d": 2.16,
+      "change_1w": 2.55,
+      "change_1m": 2.85,
       "high_3m": 61.15,
       "low_3m": 52.21,
       "week52_high": 61.17,
       "week52_low": 52.565,
-      "rsi": 56.6,
+      "rsi": 56.7,
       "div_yield": 10.11,
       "last_div": null,
       "outlook": {
@@ -824,7 +914,7 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 56.6 — Above neutral, mild upward momentum ↑",
+          "RSI 56.7 — Above neutral, mild upward momentum ↑",
           "5-day momentum +2.5% — short-term buying pressure ↑",
           "1-month return +2.8% — range-bound"
         ]
@@ -866,7 +956,7 @@
       "symbol": "QQQM",
       "name": "Invesco Nasdaq 100",
       "type": "Growth",
-      "price_usd": 306.14,
+      "price_usd": 306.13,
       "change_1d": 3.07,
       "change_1w": 3.84,
       "change_1m": 3.29,
