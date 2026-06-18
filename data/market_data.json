@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T20:40:58Z",
+  "updated_at": "2026-06-18T20:50:51Z",
   "crypto": {
     "fear_greed": {
       "value": 15,
@@ -7,134 +7,61 @@
       "previous_value": 22,
       "previous_label": "Extreme Fear"
     },
-    "prices": [
-      {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "price_usd": 63059,
-        "change_24h": -1.81,
-        "market_cap": 1263931877530,
-        "volume_24h": 31113641024
-      },
-      {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "price_usd": 1711.25,
-        "change_24h": -1.45,
-        "market_cap": 206496622186,
-        "volume_24h": 13012148615
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price_usd": 580.18,
-        "change_24h": -3.03,
-        "market_cap": 78180720990,
-        "volume_24h": 842765747
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price_usd": 1.15,
-        "change_24h": -3.04,
-        "market_cap": 71470009276,
-        "volume_24h": 1942608159
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price_usd": 69.77,
-        "change_24h": -3.07,
-        "market_cap": 40477658206,
-        "volume_24h": 2526680118
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price_usd": 0.083375,
-        "change_24h": -2.9,
-        "market_cap": 12900042328,
-        "volume_24h": 570397527
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price_usd": 0.163597,
-        "change_24h": -2.05,
-        "market_cap": 6089216040,
-        "volume_24h": 382767836
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price_usd": 7.98,
-        "change_24h": -1.21,
-        "market_cap": 5798067548,
-        "volume_24h": 231210471
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price_usd": 6.36,
-        "change_24h": -5.91,
-        "market_cap": 2746465795,
-        "volume_24h": 239943516
-      }
-    ],
+    "prices": [],
     "top_mentioned": [
       {
         "symbol": "BTC",
         "mentions": 3,
-        "price_usd": 63059,
-        "change_24h": -1.81
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "ETH",
         "mentions": 2,
-        "price_usd": 1711.25,
-        "change_24h": -1.45
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "BNB",
         "mentions": 1,
-        "price_usd": 580.18,
-        "change_24h": -3.03
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "SOL",
         "mentions": 0,
-        "price_usd": 69.77,
-        "change_24h": -3.07
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "XRP",
         "mentions": 0,
-        "price_usd": 1.15,
-        "change_24h": -3.04
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "ADA",
         "mentions": 0,
-        "price_usd": 0.163597,
-        "change_24h": -2.05
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": 0.083375,
-        "change_24h": -2.9
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": 6.36,
-        "change_24h": -5.91
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "LINK",
         "mentions": 0,
-        "price_usd": 7.98,
-        "change_24h": -1.21
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "TON",
@@ -207,7 +134,7 @@
         "published": "Thu, 18 Jun 2026 13:13:44 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.1,
         "color": "yellow"
       },
       {
@@ -283,7 +210,7 @@
           "ETH"
         ],
         "sentiment": "Bearish",
-        "score": -0.7,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -310,7 +237,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.007,
+      "score": 0.007,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -343,11 +270,11 @@
     ],
     "reddit_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: BTC and ETH dominate discussion with 5 mentions, indicating optimism, in highly active r/CryptoCurrency subreddit with 100/100 activity."
+      "summary": "Bullish: BTC and ETH dominate discussion with 5 mentions, indicating optimism in top cryptos, on highly active r/CryptoCurrency subreddit."
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: Regulatory bans, such as the CFTC ban on Mashinsky, and potential stablecoin rules contribute to negative sentiment, outweighing bullish news like Algorand's quantum resistance roadmap and Alchemy's Visa network access."
+      "summary": "Bearish: Regulatory bans, such as the CFTC ban on Ex-Celsius CEO Mashinsky, and potential stablecoin rules, weigh on the market, with key leaders like Hsiao-Wei Wang resigning from the Ethereum Foundation."
     },
     "fourchain": {
       "thread_count": 201,
@@ -368,49 +295,49 @@
         "name": "Autonomi",
         "rank": 717,
         "score": 0,
-        "change_24h": 11.82
-      },
-      {
-        "symbol": "BP",
-        "name": "Backpack",
-        "rank": 206,
-        "score": 1,
-        "change_24h": 28.76
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 10,
-        "score": 2,
-        "change_24h": -4.24
+        "change_24h": 12.02
       },
       {
         "symbol": "KINS",
         "name": "Kintara",
-        "rank": 828,
-        "score": 3,
-        "change_24h": 68.15
+        "rank": 812,
+        "score": 1,
+        "change_24h": 60.72
       },
       {
         "symbol": "LAB",
         "name": "LAB",
         "rank": 22,
+        "score": 2,
+        "change_24h": 33.99
+      },
+      {
+        "symbol": "BP",
+        "name": "Backpack",
+        "rank": 207,
+        "score": 3,
+        "change_24h": 28.44
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "rank": 7,
         "score": 4,
-        "change_24h": 32.95
+        "change_24h": -3.07
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 5,
-        "change_24h": -1.93
+        "change_24h": -1.81
       },
       {
-        "symbol": "SOL",
-        "name": "Solana",
-        "rank": 7,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 10,
         "score": 6,
-        "change_24h": -2.94
+        "change_24h": -4.27
       }
     ]
   },
@@ -540,9 +467,9 @@
         "assets": [
           "AMZN"
         ],
-        "sentiment": "Bearish",
-        "score": -0.3,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "U.S. Navy ends blockade of Iran's ports and coastal areas",
@@ -551,7 +478,7 @@
         "published": "Thu, 18 Jun 2026 19:29:26 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.6,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -561,7 +488,7 @@
         "published": "Thu, 18 Jun 2026 17:24:11 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.4,
+        "score": -0.3,
         "color": "red"
       },
       {
@@ -580,9 +507,9 @@
         "url": "https://www.cnbc.com/2026/06/04/barack-obama-presidential-library-opening-chicago.html",
         "published": "Thu, 04 Jun 2026 17:01:55 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.3,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.1,
+        "color": "yellow"
       },
       {
         "title": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
@@ -612,9 +539,9 @@
         "url": "https://www.marketwatch.com/story/ill-probably-be-working-until-i-die-im-60-work-as-a-restaurant-server-and-have-2-000-in-an-ira-who-can-help-me-6e36253a?mod=mw_rss_topstories",
         "published": "Thu, 18 Jun 2026 20:05:00 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.5,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "The Iran oil shock taught traders these key lessons about demand and China",
@@ -648,63 +575,63 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.033,
+      "score": -0.007,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": " Iran agrees to end enrichment of uranium by June 30?",
-        "volume_24h": 1131269,
-        "yes_price": 0.64,
+        "volume_24h": 1144747,
+        "yes_price": 0.62,
         "category": "finance"
       },
       {
         "title": "US x Iran diplomatic meeting by June 19, 2026?",
-        "volume_24h": 939580,
-        "yes_price": 0.45,
+        "volume_24h": 942340,
+        "yes_price": 0.53,
         "category": "finance"
       },
       {
         "title": "US x Iran diplomatic meeting by June 30, 2026?",
-        "volume_24h": 450043,
-        "yes_price": 0.81,
+        "volume_24h": 453307,
+        "yes_price": 0.82,
         "category": "finance"
       },
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 391699,
+        "volume_24h": 392148,
         "yes_price": 0.74,
         "category": "finance"
       },
       {
         "title": "Israel x Iran permanent peace deal by June 30, 2026?",
-        "volume_24h": 383125,
+        "volume_24h": 373925,
         "yes_price": 0.07,
         "category": "finance"
       },
       {
         "title": "Will China invade Taiwan by end of 2026?",
-        "volume_24h": 365039,
+        "volume_24h": 364066,
         "yes_price": 0.06,
         "category": "finance"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "volume_24h": 327533,
+        "volume_24h": 326074,
         "yes_price": 0.24,
         "category": "finance"
       },
       {
         "title": "Will Trump agree to Iranian transit fees in the Strait of Hormuz by June 30?",
-        "volume_24h": 319044,
+        "volume_24h": 318291,
         "yes_price": 0.11,
         "category": "finance"
       }
     ],
     "polymarket_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: Markets predict a US-Iran diplomatic meeting by June 30 (81%) and no change in Fed interest rates after July (74%), with $1.1 million volume on Iran ending uranium enrichment."
+      "summary": "Bullish: Markets predict a US-Iran diplomatic meeting by June 30 (82%) and no change in Fed interest rates (74%), with $453,307 and $392,148 in volume, respectively."
     },
     "reddit": [],
     "reddit_summary": {
@@ -713,7 +640,7 @@
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: Markets expect a hawkish Warsh Fed, and SpaceX buyers are underwater after a two-day slide, with Amazon also facing criticism, indicating a negative market sentiment."
+      "summary": "Bearish: Markets expect a hawkish Warsh Fed, and SpaceX buyers are underwater after a two-day slide, with Trump's Fed actions costing Lisa Cook over $1M."
     },
     "macro": [
       {
@@ -725,20 +652,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 100.8,
-        "change_24h": 0.71
+        "value": 100.81,
+        "change_24h": 0.72
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4237.1,
-        "change_24h": -2.79
+        "value": 4233.5,
+        "change_24h": -2.88
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 75.41,
-        "change_24h": -1.8
+        "value": 75.43,
+        "change_24h": -1.77
       }
     ],
     "most_active": [
@@ -808,19 +735,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 79
+          "interest_score": 83
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 10
+          "interest_score": 9
         },
         {
           "keyword": "Solana",
-          "interest_score": 12
+          "interest_score": 9
         },
         {
           "keyword": "crypto",
-          "interest_score": 38
+          "interest_score": 35
         }
       ]
     }
