@@ -6,12 +6,11 @@ Safe to run repeatedly; gracefully handles partial failures.
 
 POLICY: Spot assets only. No leverage, futures, margin, or derivatives data.
 """
-import sys, os, json
+import sys, os, json, math
 from datetime import datetime, timezone
 from collections import Counter
 
-# Ensure scrapers package is importable
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from scrapers.news_rss       import fetch_crypto_news, fetch_stock_news
 from scrapers.reddit_data    import fetch_crypto_reddit, fetch_stock_reddit
@@ -239,7 +238,7 @@ def run():
     }
 
     with open(DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+        json.dump(clean_nan(output), f, ensure_ascii=False, indent=2)
 
     print(f"  [OK] Saved to {DATA_PATH}")
     print(f"  Crypto F&G: {fear_greed['value']} ({fear_greed['label']})")
@@ -248,6 +247,16 @@ def run():
     print(f"  Stock news sentiment: {stock_avg_score}")
     print(f"  Portfolio ETFs: {len(portfolio)} loaded")
 
+
+def clean_nan(obj):
+    """Recursively replace NaN/Inf with None for valid JSON."""
+    if isinstance(obj, float):
+        return None if (math.isnan(obj) or math.isinf(obj)) else obj
+    if isinstance(obj, dict):
+        return {k: clean_nan(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [clean_nan(v) for v in obj]
+    return obj
 
 if __name__ == "__main__":
     run()
