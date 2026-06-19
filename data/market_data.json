@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T10:41:03Z",
+  "updated_at": "2026-06-19T10:51:29Z",
   "crypto": {
     "fear_greed": {
       "value": 14,
@@ -7,143 +7,21 @@
       "previous_value": 15,
       "previous_label": "Extreme Fear"
     },
-    "prices": [
-      {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "price_usd": 62377,
-        "change_24h": -2.49,
-        "market_cap": 1250566885282,
-        "volume_24h": 29724800638
-      },
-      {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "price_usd": 1686.97,
-        "change_24h": -3.03,
-        "market_cap": 203611334984,
-        "volume_24h": 11389815221
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price_usd": 571.4,
-        "change_24h": -2.96,
-        "market_cap": 77017839273,
-        "volume_24h": 841422747
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price_usd": 1.12,
-        "change_24h": -4.02,
-        "market_cap": 69611873560,
-        "volume_24h": 1953860946
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price_usd": 68.12,
-        "change_24h": -4.21,
-        "market_cap": 39528714468,
-        "volume_24h": 2602524734
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price_usd": 0.082172,
-        "change_24h": -3.0,
-        "market_cap": 12716396353,
-        "volume_24h": 557852282
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price_usd": 0.159425,
-        "change_24h": -4.27,
-        "market_cap": 5933957165,
-        "volume_24h": 373149763
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price_usd": 7.81,
-        "change_24h": -2.2,
-        "market_cap": 5682429574,
-        "volume_24h": 242338448
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price_usd": 6.03,
-        "change_24h": -9.14,
-        "market_cap": 2602829567,
-        "volume_24h": 299590294
-      }
-    ],
-    "top_mentioned": [
-      {
-        "symbol": "BTC",
-        "mentions": 2,
-        "price_usd": 62377,
-        "change_24h": -2.49
-      },
-      {
-        "symbol": "BNB",
-        "mentions": 2,
-        "price_usd": 571.4,
-        "change_24h": -2.96
-      },
-      {
-        "symbol": "ETH",
-        "mentions": 0,
-        "price_usd": 1686.97,
-        "change_24h": -3.03
-      },
-      {
-        "symbol": "SOL",
-        "mentions": 0,
-        "price_usd": 68.12,
-        "change_24h": -4.21
-      },
-      {
-        "symbol": "XRP",
-        "mentions": 0,
-        "price_usd": 1.12,
-        "change_24h": -4.02
-      },
-      {
-        "symbol": "ADA",
-        "mentions": 0,
-        "price_usd": 0.159425,
-        "change_24h": -4.27
-      },
-      {
-        "symbol": "DOGE",
-        "mentions": 0,
-        "price_usd": 0.082172,
-        "change_24h": -3.0
-      },
-      {
-        "symbol": "AVAX",
-        "mentions": 0,
-        "price_usd": 6.03,
-        "change_24h": -9.14
-      },
-      {
-        "symbol": "LINK",
-        "mentions": 0,
-        "price_usd": 7.81,
-        "change_24h": -2.2
-      },
-      {
-        "symbol": "TON",
-        "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
-      }
-    ],
+    "prices": [],
+    "top_mentioned": [],
     "news": [
+      {
+        "title": "Smart-contract and DeFi coins lead losses as bitcoin wilts for 4th straight day",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/06/19/smart-contract-and-defi-coins-lead-losses-as-bitcoin-wilts-for-4th-straight-day",
+        "published": "Fri, 19 Jun 2026 10:47:03 +0000",
+        "assets": [
+          "BTC"
+        ],
+        "sentiment": "Bearish",
+        "score": -0.8,
+        "color": "red"
+      },
       {
         "title": "Digital credit market hit by huge selloff as Strive CEO blames leverage liquidations",
         "source": "CoinDesk",
@@ -151,7 +29,7 @@
         "published": "Fri, 19 Jun 2026 09:19:28 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -0.9,
         "color": "red"
       },
       {
@@ -221,7 +99,7 @@
           "SOL"
         ],
         "sentiment": "Bearish",
-        "score": -0.4,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -230,9 +108,9 @@
         "url": "https://www.coindesk.com/policy/2026/06/18/u-s-agencies-seek-stablecoin-customer-id-rules-akin-to-banks-in-new-genius-act-rule",
         "published": "Thu, 18 Jun 2026 17:17:22 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": -0.2,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.3,
+        "color": "red"
       },
       {
         "title": "Ethereum Foundation loses another key leader as co-executive director Hsiao-Wei Wang resigns",
@@ -247,16 +125,16 @@
         "color": "red"
       },
       {
-        "title": "Crypto for Advisors: Trading the bitcoin cycle",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/06/17/crypto-for-advisors-trading-the-bitcoin-cycle",
-        "published": "Thu, 18 Jun 2026 15:00:00 +0000",
+        "title": "Bitcoin tipped for Q3 'macro bottom' near $50K as major liquidity grab looms",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-q3-macro-bottom-near-50k-as-major-liquidity-grab-looms?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Fri, 19 Jun 2026 10:44:28 GMT",
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.6,
+        "color": "red"
       },
       {
         "title": "Bitcoin activity nears record highs on microtransaction surge",
@@ -301,70 +179,39 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Algorand plans ‘broad quantum resilience’ by 2027",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/algorand-plans-broad-quantum-resilience-by-2027?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "published": "Fri, 19 Jun 2026 05:51:24 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.7,
-        "color": "green"
       }
     ],
     "news_sentiment": {
-      "score": -0.233,
-      "label": "Neutral",
-      "color": "yellow"
+      "score": -0.4,
+      "label": "Bearish",
+      "color": "red"
     },
     "polymarket": [
       {
         "title": "Bitcoin Up or Down on June 19?",
-        "volume_24h": 253498,
-        "yes_price": 0.47,
+        "volume_24h": 253684,
+        "yes_price": 0.46,
         "category": "crypto"
       },
       {
         "title": "Will Bitcoin dip to $47,500 in June?",
-        "volume_24h": 208799,
+        "volume_24h": 208903,
         "yes_price": 0.02,
         "category": "crypto"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: Market sentiment leans positive as only 2% of traders believe Bitcoin will dip to $47,500 in June, despite a $208,799 volume. While the outlook for June 19 is nearly split with 47% predicting an upward move on $253,498 volume, the strong rejection of a deep correction suggests confidence in a higher price floor."
+      "outlook": "Mixed",
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: then specific reasons, mention numbers and names where available. Max 80 words. Data: Bitcoin Up or Down on June 19?: Yes 46% (vol $253,684). Will Bitcoin dip to $47,500 in June?: Yes 2% (vol $208,903). So sentiment: moderate bullish (46% chance up) but low chance of dip to 47.5k (2%). So overall bullish. Provide numbers. Must be one paragraph, start with \"Bullish:\" then reasons. Max 80 words. Let's craft ~45 words.\n\n\"Bullish: The prediction market shows a 46% probability (≈$254k volume) that Bitcoin will be higher on June 19, while only a 2% chance (≈$209k volume) exists of it falling to $47,500 this month, indicating traders expect upside with limited downside risk.\"\n\nCount words: Bullish:(1) The2 prediction3 market4 shows5 a6 46%7 probability8 (≈$254k9 volume)10 that11 Bitcoin12 will13 be14 higher15 on16 June 19,17 while18"
     },
-    "reddit": [
-      {
-        "subreddit": "r/CryptoCurrency",
-        "mentions": {
-          "BTC": 2,
-          "BNB": 2,
-          "ETH": 0,
-          "SOL": 0,
-          "XRP": 0,
-          "ADA": 0,
-          "DOGE": 0,
-          "AVAX": 0,
-          "LINK": 0,
-          "TON": 0
-        },
-        "activity_score": 100,
-        "top_post": "Daily Crypto Discussion - June 18, 2026 (GMT+0)",
-        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1u9l8qr/daily_crypto_discussion_june_18_2026_gmt0/",
-        "top_post_score": 0,
-        "posts": 25
-      }
-    ],
+    "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Sentiment is neutral to cautious as activity is concentrated in r/CryptoCurrency. While BTC and BNB are the most discussed assets with 2 mentions each, the lack of volume for ETH, SOL, and XRP suggests a lack of broad market conviction. The high activity level (100/100) indicates strong engagement, but the narrow focus on only two assets prevents a definitive bullish or bearish trend."
+      "summary": "Please provide the data (Top mentioned coins/topics and Subreddits). Once you provide the text, I will analyze it and deliver the summary in the exact format requested."
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: Market sentiment is overwhelmingly negative as Bitcoin falls below $63,000, with traders placing bearish bets down to $52,000. Pressure is mounting due to leverage liquidations in the digital credit market, XRP dropping 3% after losing $1.15 support, and Microsoft discovering wallet-hijacking malware. Further headwinds include the CFTC ban of ex-Celsius CEO Mashinsky and proposed strict customer-ID rules for stablecoins under the GENIUS Act, contributing to a broader sell-off of risk assets."
+      "outlook": "Mixed",
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. All data points are bearish. So start with 'Bearish:' then list reasons with numbers and names where available. Must be max 80 words. One paragraph.\n\nLet's craft: \"Bearish: Bitcoin fell below $63,000 and traders piled bearish bets down to $52,000, marking a fourth straight decline; smart‑contract and DeFi tokens led losses, XRP dropped 3% after losing $1.15 support, and a broad sell‑off in digital credit was blamed on leverage liquidations cited by Strive’s CEO; Microsoft disclosed malware that hijacks crypto wallets via USB sticks, while former Celsius CEO Alex Mashinsky received a U.S. CFTC ban, adding regulatory pressure.\"\n\nNow count words.\n\nCount: Bearish:(1) Bitcoin2 fell3 below4 $63,0005 and6 traders7 piled8 bearish9 bets10 down11 to12 $52,000,13 marking14 a15 fourth16 straight17 decline;18 smart‑contract19 and20 DeFi21 tokens22 led23 losses,24 XRP25 dropped26 3%27 after28 losing29 $1.15"
     },
     "fourchain": {
       "thread_count": 201,
@@ -374,8 +221,8 @@
         "BTC": 18,
         "BNB": 2
       },
-      "bullish_hits": 94,
-      "bearish_hits": 58,
+      "bullish_hits": 93,
+      "bearish_hits": 57,
       "bullish_pct": 62,
       "top_coin": "XRP"
     },
@@ -385,49 +232,49 @@
         "name": "Autonomi",
         "rank": 711,
         "score": 0,
-        "change_24h": 6.67
+        "change_24h": 6.59
       },
       {
         "symbol": "SIREN",
         "name": "Siren",
         "rank": 305,
         "score": 1,
-        "change_24h": 134.94
+        "change_24h": 134.45
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 2,
-        "change_24h": -2.29
+        "change_24h": -2.44
       },
       {
         "symbol": "SOL",
         "name": "Solana",
         "rank": 7,
         "score": 3,
-        "change_24h": -4.1
+        "change_24h": -4.24
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 116,
         "score": 4,
-        "change_24h": -4.67
+        "change_24h": -4.86
       },
       {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "rank": 2,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "rank": 48,
         "score": 5,
-        "change_24h": -2.99
+        "change_24h": -4.9
       },
       {
         "symbol": "SUI",
         "name": "Sui",
         "rank": 32,
         "score": 6,
-        "change_24h": -5.05
+        "change_24h": -5.27
       }
     ]
   },
@@ -446,8 +293,8 @@
         "change_24h": 0.14
       },
       "vix": {
-        "value": 17.09,
-        "change_24h": 4.21
+        "value": 17.16,
+        "change_24h": 4.63
       }
     },
     "market_mood": {
@@ -526,7 +373,7 @@
         "published": "Thu, 18 Jun 2026 20:10:47 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.7,
+        "score": -0.4,
         "color": "red"
       },
       {
@@ -540,20 +387,30 @@
         "color": "red"
       },
       {
+        "title": "Musk's SpaceX stake is worth over $1 trillion. Here are the other billionaire shareholders",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/19/musk-spacex-billionaire-shareholders.html",
+        "published": "Fri, 19 Jun 2026 10:47:57 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 0.7,
+        "color": "green"
+      },
+      {
         "title": "Hormuz relief may not ease the economic toll that's already 'baked in,' analysts warn",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/06/19/hormuz-relief-may-not-ease-the-economic-toll-thats-already-baked-in-analysts-warn.html",
         "published": "Fri, 19 Jun 2026 08:08:34 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.4,
+        "score": -0.5,
         "color": "red"
       },
       {
         "title": "India's largest telecom and digital service Jio Platforms files for IPO",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/06/19/india-jio-platforms-ipo-mukesh-ambani.html",
-        "published": "Fri, 19 Jun 2026 09:29:58 GMT",
+        "published": "Fri, 19 Jun 2026 10:50:22 GMT",
         "assets": [],
         "sentiment": "Bullish",
         "score": 0.8,
@@ -566,7 +423,7 @@
         "published": "Fri, 19 Jun 2026 02:04:53 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -576,7 +433,7 @@
         "published": "Fri, 19 Jun 2026 08:50:14 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.6,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -590,23 +447,13 @@
         "color": "red"
       },
       {
-        "title": "What this biotech's volatile stock price tells you about the weight loss market right now",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/06/19/zealand-pharma-stock-weight-loss-drugmaker-novo-lilly.html",
-        "published": "Fri, 19 Jun 2026 07:30:34 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
         "title": "In photos: Star-studded crowd gathers to celebrate the Obama Presidential Center dedication",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/06/18/obama-presidential-center-opening-chicago-photos-trump.html",
         "published": "Thu, 18 Jun 2026 20:51:33 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -648,7 +495,7 @@
           "TSLA"
         ],
         "sentiment": "Neutral",
-        "score": 0.2,
+        "score": 0.1,
         "color": "yellow"
       },
       {
@@ -658,96 +505,96 @@
         "published": "Thu, 18 Jun 2026 23:22:00 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.1,
+        "score": 0.2,
         "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.307,
-      "label": "Bearish",
-      "color": "red"
+      "score": -0.233,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
         "title": " Iran agrees to end enrichment of uranium by June 30?",
-        "volume_24h": 1888135,
+        "volume_24h": 1885651,
         "yes_price": 0.54,
         "category": "finance"
       },
       {
         "title": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
-        "volume_24h": 637607,
+        "volume_24h": 653478,
         "yes_price": 0.03,
         "category": "finance"
       },
       {
         "title": "Will China invade Taiwan by end of 2026?",
-        "volume_24h": 602459,
+        "volume_24h": 602404,
         "yes_price": 0.06,
         "category": "finance"
       },
       {
         "title": "US x Iran diplomatic meeting by June 30, 2026?",
-        "volume_24h": 449717,
+        "volume_24h": 449865,
         "yes_price": 0.49,
         "category": "finance"
       },
       {
         "title": "US x Iran diplomatic meeting by June 21, 2026?",
-        "volume_24h": 411450,
-        "yes_price": 0.17,
+        "volume_24h": 415465,
+        "yes_price": 0.16,
         "category": "finance"
       },
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 395266,
+        "volume_24h": 394856,
         "yes_price": 0.71,
         "category": "finance"
       },
       {
         "title": "Israel x Iran permanent peace deal by June 30, 2026?",
-        "volume_24h": 275335,
+        "volume_24h": 270894,
         "yes_price": 0.07,
         "category": "finance"
       },
       {
-        "title": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in June?",
-        "volume_24h": 237313,
-        "yes_price": 0.05,
+        "title": "Will Trump agree to Iranian transit fees in the Strait of Hormuz by June 30?",
+        "volume_24h": 231264,
+        "yes_price": 0.1,
         "category": "finance"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Markets show optimism regarding Iran's uranium enrichment cessation (54%) and a strong expectation (71%) that the Fed will hold interest rates steady after July 2026. However, sentiment is bearish on geopolitical stability and commodity spikes, with low probabilities for an Israel-Iran peace deal (7%), a China-Taiwan invasion (6%), and WTI Crude hitting $100 (5%). Political confidence in Jon Stewart for the 2028 nomination is negligible at 3%."
+      "summary": "Mixed: Markets show optimism regarding Iran ending uranium enrichment (54%) and a strong expectation (71%) that the Fed will hold interest rates steady after July 2026. However, sentiment is bearish on geopolitical stability, with low probabilities for an Israel-Iran peace deal (7%) and Trump agreeing to Hormuz transit fees (10%). Low confidence also exists for a China-Taiwan invasion (6%) and Jon Stewart’s 2028 nomination (3%), reflecting a cautious outlook on major disruptive events."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Please provide the stock Reddit discussion data (Top mentioned stocks and Subreddits) so I can analyze it and write the summary for you."
+      "summary": "Please provide the stock Reddit discussion data (Top mentioned stocks and Subreddits). Once you provide the data, I will generate the concise summary for you."
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: Geopolitical instability dominates as Russia threatens escalation following drone attacks on Moscow and U.S.-Iran talks falter. Financial pressure mounts with Japan's $70 billion intervention failing to prop up the yen, UK gilt yields jumping under PM Starmer, and SpaceX buyers facing losses. While Jio Platforms' IPO filing provides a bullish spark, it is outweighed by U.S. tariff probes into Germany and warnings that economic tolls in Hormuz are already baked in."
+      "summary": "Bearish: Geopolitical instability dominates as Russia threatens escalation following drone attacks on Moscow and U.S.-Iran talks falter. Economic headwinds persist with Japan's $70 billion intervention failing to prop up the yen and a U.S. tariff probe targeting Germany. While Jio Platforms' IPO filing and SpaceX's $1 trillion valuation provide positive sparks, these are offset by SpaceX buyers facing losses and analysts warning that economic tolls in Hormuz remain \"baked in.\""
     },
     "macro": [
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 100.83,
-        "change_24h": -0.02
+        "value": 100.81,
+        "change_24h": -0.04
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4170.8,
-        "change_24h": -1.26
+        "value": 4169.6,
+        "change_24h": -1.29
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 75.79,
-        "change_24h": -1.06
+        "value": 76.12,
+        "change_24h": -0.63
       }
     ],
     "most_active": [
@@ -817,11 +664,11 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 66
+          "interest_score": 71
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 9
+          "interest_score": 8
         },
         {
           "keyword": "Solana",
@@ -829,7 +676,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 42
+          "interest_score": 32
         }
       ]
     }
