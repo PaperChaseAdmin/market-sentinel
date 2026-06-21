@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T09:01:34Z",
+  "updated_at": "2026-06-21T09:11:18Z",
   "crypto": {
     "fear_greed": {
       "value": 23,
@@ -7,92 +7,19 @@
       "previous_value": 23,
       "previous_label": "Extreme Fear"
     },
-    "prices": [
-      {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "price_usd": 63938,
-        "change_24h": 0.84,
-        "market_cap": 1281142138684,
-        "volume_24h": 16637552394
-      },
-      {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "price_usd": 1727.22,
-        "change_24h": 0.22,
-        "market_cap": 208375587342,
-        "volume_24h": 8351583134
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price_usd": 588.21,
-        "change_24h": 0.4,
-        "market_cap": 79245376348,
-        "volume_24h": 476293655
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price_usd": 1.14,
-        "change_24h": -0.23,
-        "market_cap": 70938356020,
-        "volume_24h": 868170069
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price_usd": 73.03,
-        "change_24h": 2.35,
-        "market_cap": 42367813651,
-        "volume_24h": 2088667094
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price_usd": 0.083027,
-        "change_24h": -0.99,
-        "market_cap": 12847101838,
-        "volume_24h": 366075639
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price_usd": 0.160792,
-        "change_24h": -1.1,
-        "market_cap": 5981688420,
-        "volume_24h": 265442922
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price_usd": 7.92,
-        "change_24h": -0.12,
-        "market_cap": 5926822435,
-        "volume_24h": 138095237
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price_usd": 6.27,
-        "change_24h": 1.87,
-        "market_cap": 2707865494,
-        "volume_24h": 252956993
-      }
-    ],
+    "prices": [],
     "top_mentioned": [
       {
         "symbol": "BTC",
         "mentions": 7,
-        "price_usd": 63938,
-        "change_24h": 0.84
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "SOL",
         "mentions": 1,
-        "price_usd": 73.03,
-        "change_24h": 2.35
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "TON",
@@ -109,38 +36,38 @@
       {
         "symbol": "ETH",
         "mentions": 0,
-        "price_usd": 1727.22,
-        "change_24h": 0.22
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "BNB",
         "mentions": 0,
-        "price_usd": 588.21,
-        "change_24h": 0.4
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "XRP",
         "mentions": 0,
-        "price_usd": 1.14,
-        "change_24h": -0.23
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "ADA",
         "mentions": 0,
-        "price_usd": 0.160792,
-        "change_24h": -1.1
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": 0.083027,
-        "change_24h": -0.99
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": 6.27,
-        "change_24h": 1.87
+        "price_usd": null,
+        "change_24h": null
       }
     ],
     "news": [
@@ -152,9 +79,9 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.8,
+        "color": "red"
       },
       {
         "title": "Bitcoin holds near $64,000 as a renewed Hormuz threat clouds US-Iran ceasefire talks",
@@ -165,7 +92,7 @@
           "BTC"
         ],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.2,
         "color": "yellow"
       },
       {
@@ -174,9 +101,9 @@
         "url": "https://www.coindesk.com/tech/2026/06/20/ai-is-making-crypto-security-cheaper-faster-and-harder-to-ignore",
         "published": "Sat, 20 Jun 2026 15:00:00 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.7,
+        "color": "green"
       },
       {
         "title": "How STRC lost its par: The timeline behind Strategy's preferred-stock meltdown",
@@ -185,7 +112,7 @@
         "published": "Sat, 20 Jun 2026 13:00:00 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.9,
         "color": "red"
       },
       {
@@ -194,9 +121,9 @@
         "url": "https://www.coindesk.com/markets/2026/06/19/schwab-to-join-prediction-markets-race-with-s-and-p-500-event-based-options-wsj",
         "published": "Fri, 19 Jun 2026 17:51:12 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.6,
+        "color": "green"
       },
       {
         "title": "GoMining challenges Jack Dorsey's Square with payments system designed around bitcoin",
@@ -206,9 +133,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
       },
       {
         "title": "Franklin Templeton proposes new ETFs that turn corporate dividends into bitcoin",
@@ -219,9 +146,9 @@
           "BTC",
           "TON"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "Smart-contract and DeFi coins lead losses as bitcoin wilts for 4th straight day",
@@ -232,7 +159,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.7,
         "color": "red"
       },
       {
@@ -242,7 +169,7 @@
         "published": "Fri, 19 Jun 2026 09:19:28 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -251,9 +178,19 @@
         "url": "https://www.coindesk.com/tech/2026/06/19/microsoft-found-malware-that-hijacks-crypto-wallets-and-spreads-through-usb-sticks",
         "published": "Fri, 19 Jun 2026 08:48:14 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.7,
+        "color": "red"
+      },
+      {
+        "title": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Sun, 21 Jun 2026 08:54:41 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "Here’s what happened in crypto today",
@@ -273,9 +210,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.9,
+        "color": "red"
       },
       {
         "title": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
@@ -285,9 +222,9 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.6,
+        "color": "red"
       },
       {
         "title": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
@@ -299,22 +236,12 @@
           "LTC"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.7,
         "color": "red"
-      },
-      {
-        "title": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "published": "Sat, 20 Jun 2026 14:57:41 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.267,
+      "score": -0.193,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -351,11 +278,11 @@
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Market sentiment is cautious as Bitcoin wilts for a fourth straight day, holding near $64,000 amid geopolitical tensions. Bearish pressure is evident from the STRC preferred-stock meltdown and losses in DeFi and smart-contract coins. However, institutional interest remains a positive catalyst, highlighted by Franklin Templeton’s proposed dividend-to-bitcoin ETFs and Schwab’s entry into prediction markets, while GoMining challenges Square's payment systems. A $7.5 million exploit of an Ethereum bot adds to the overall volatility."
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: list items with sentiment tags: Bearish (Ethereum sandwich bot $7.5M), Neutral (Bitcoin near $64k Hormuz threat), Bullish (AI crypto security cheaper), Bearish (STRC lost its par), Bullish (Schwab prediction markets), Bullish (GoMining challenges Square), Bullish (Franklin Templeton ETFs), Bearish (Smart-contract and DeFi coins lead losses as bitcoin wilts 4th day). Count: Bullish: AI, Schwab, GoMining, Franklin Templeton = 4. Bearish: Ethereum bot, STRC, DeFi losses = 3. Neutral: Bitcoin near $64k. So overall maybe Mixed? Since more bullish than bearish but also bearish items. Could argue Mixed. Provide reasons with numbers/names.\n\nWe need exactly one paragraph, start with e.g., \"Mixed:\" then reasons. Must be <=80 words.\n\nLet's craft ~70 words.\n\n\"Mixed: While AI-driven security advances (Bullish) and bullish moves from Schwab’s prediction‑market entry, GoMining’s bitcoin‑focused payments system, and"
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 144,
+      "active_threads": 143,
       "mentions": {
         "BTC": 21,
         "XRP": 13,
@@ -370,51 +297,51 @@
       {
         "symbol": "TNSR",
         "name": "Tensor",
-        "rank": 897,
+        "rank": 888,
         "score": 0,
-        "change_24h": 78.33
+        "change_24h": 87.82
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 113,
         "score": 1,
-        "change_24h": -0.97
-      },
-      {
-        "symbol": "MET",
-        "name": "Meteora",
-        "rank": 283,
-        "score": 2,
-        "change_24h": 18.57
+        "change_24h": -0.55
       },
       {
         "symbol": "BP",
         "name": "Backpack",
         "rank": 181,
-        "score": 3,
-        "change_24h": 24.31
+        "score": 2,
+        "change_24h": 23.22
       },
       {
-        "symbol": "SIREN",
-        "name": "Siren",
-        "rank": 302,
-        "score": 4,
-        "change_24h": -10.38
+        "symbol": "MET",
+        "name": "Meteora",
+        "rank": 282,
+        "score": 3,
+        "change_24h": 20.08
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 10,
-        "score": 5,
-        "change_24h": -4.31
+        "score": 4,
+        "change_24h": -4.1
       },
       {
-        "symbol": "JUP",
-        "name": "Jupiter",
-        "rank": 82,
+        "symbol": "SIREN",
+        "name": "Siren",
+        "rank": 303,
+        "score": 5,
+        "change_24h": -11.94
+      },
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "rank": 1,
         "score": 6,
-        "change_24h": 8.23
+        "change_24h": 0.88
       }
     ]
   },
@@ -499,9 +426,9 @@
         "url": "https://www.cnbc.com/2026/06/20/iran-reportedly-closes-strait-of-hormuz-again-raising-doubt-over-talks.html",
         "published": "Sun, 21 Jun 2026 07:19:43 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.4,
+        "color": "red"
       },
       {
         "title": "AI buildout gives tech investors new reasons to watch bond market",
@@ -510,7 +437,7 @@
         "published": "Sat, 20 Jun 2026 12:00:01 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -519,9 +446,9 @@
         "url": "https://www.cnbc.com/2026/06/20/cheap-airline-fares-summer-travel.html",
         "published": "Sat, 20 Jun 2026 15:05:02 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.8,
+        "color": "red"
       },
       {
         "title": "SNAP restrictions could change what shoppers buy — and food giants are watching",
@@ -529,9 +456,9 @@
         "url": "https://www.cnbc.com/2026/06/20/maha-snap-restrictions-junk-food-spending.html",
         "published": "Sat, 20 Jun 2026 12:00:01 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.3,
+        "color": "red"
       },
       {
         "title": "Bitcoin's future as revolutionary as the smartphone, according to CoinDesk",
@@ -539,9 +466,9 @@
         "url": "https://www.cnbc.com/2026/06/20/bitcoin-as-revolutionary-as-smartphone-according-to-coindesk.html",
         "published": "Sat, 20 Jun 2026 15:00:01 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.9,
+        "color": "green"
       },
       {
         "title": "Musk's SpaceX stake is worth over $1 trillion. Here are the other billionaire shareholders",
@@ -549,9 +476,9 @@
         "url": "https://www.cnbc.com/2026/06/19/musk-spacex-billionaire-shareholders.html",
         "published": "Fri, 19 Jun 2026 10:47:57 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.6,
+        "color": "green"
       },
       {
         "title": "Memory crisis hits such extremes that 'even Apple can't be safe'",
@@ -561,9 +488,9 @@
         "assets": [
           "AAPL"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.9,
+        "color": "red"
       },
       {
         "title": "In photos: Star-studded crowd gathers to celebrate the Obama Presidential Center dedication",
@@ -571,9 +498,9 @@
         "url": "https://www.cnbc.com/2026/06/18/obama-presidential-center-opening-chicago-photos-trump.html",
         "published": "Fri, 19 Jun 2026 13:51:01 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "'Fun dads' get 5 things right about parenting that many people forget—'they're worth borrowing' this Father's Day, says expert",
@@ -581,9 +508,9 @@
         "url": "https://www.cnbc.com/2026/06/20/fun-dads-get-5-things-right-about-parenting-that-many-people-forget-says-expert.html",
         "published": "Sat, 20 Jun 2026 17:35:35 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "DOJ rebuffs judge's request to put in writing it won't move forward with 'anti-weaponization' fund",
@@ -592,7 +519,7 @@
         "published": "Fri, 19 Jun 2026 22:53:09 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.2,
         "color": "yellow"
       },
       {
@@ -601,9 +528,9 @@
         "url": "https://www.marketwatch.com/story/money-can-make-you-happy-my-wife-and-i-have-no-heirs-but-were-making-the-world-a-better-place-by-giving-it-away-f61fad98?mod=mw_rss_topstories",
         "published": "Sat, 20 Jun 2026 20:00:00 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.3,
+        "color": "green"
       },
       {
         "title": "Scared to spend your retirement money? Here’s one way to get over the fear of running out.",
@@ -611,9 +538,9 @@
         "url": "https://www.marketwatch.com/story/scared-to-spend-your-retirement-money-heres-one-way-to-get-over-the-fear-of-running-out-05a13dd9?mod=mw_rss_topstories",
         "published": "Sat, 20 Jun 2026 18:59:00 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "You’re going to pay tax on RMDs — there’s no way around it. Or is there?",
@@ -632,7 +559,7 @@
         "published": "Sat, 20 Jun 2026 18:36:00 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -642,37 +569,37 @@
         "published": "Sat, 20 Jun 2026 18:28:00 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.4,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": 0.0,
+      "score": -0.12,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
-        "volume_24h": 559048,
+        "volume_24h": 560137,
         "yes_price": 0.14,
         "category": "finance"
       },
       {
         "title": " Iran agrees to end enrichment of uranium by June 30?",
-        "volume_24h": 486682,
+        "volume_24h": 477860,
         "yes_price": 0.04,
         "category": "finance"
       },
       {
         "title": "Will Abelardo de la Espriella  win the 2026 Colombian presidential election?",
-        "volume_24h": 446478,
+        "volume_24h": 446754,
         "yes_price": 0.85,
         "category": "finance"
       },
       {
         "title": "Will China invade Taiwan by end of 2026?",
-        "volume_24h": 257863,
+        "volume_24h": 257270,
         "yes_price": 0.06,
         "category": "finance"
       },
@@ -684,35 +611,35 @@
       },
       {
         "title": "Will IR Iran win on 2026-06-21?",
-        "volume_24h": 200437,
+        "volume_24h": 200640,
         "yes_price": 0.12,
         "category": "finance"
       },
       {
         "title": "Israel x Iran permanent peace deal by June 30, 2026?",
-        "volume_24h": 165269,
+        "volume_24h": 165091,
         "yes_price": 0.03,
         "category": "finance"
       },
       {
         "title": "Will Russia capture all of Stepnohirsk by September 30, 2026?",
-        "volume_24h": 160873,
+        "volume_24h": 159841,
         "yes_price": 0.11,
         "category": "finance"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on these prediction market data. The data includes various events with probabilities (Yes %). High probability indicates market expects event to happen. Low probability indicates unlikely.\n\nWe need overall market sentiment: Are they bullish or bearish? Typically bullish sentiment would be optimism about markets, economic growth, peace, etc. Bearish would be pessimism about conflict, war, etc.\n\nLet's examine events:\n\n- Ivan Cepeda Castro win 2026 Colombian presidential election: Yes 14% (low) => unlikely.\n- Iran agrees to end enrichment of uranium by June 30: Yes 4% (very low) => unlikely.\n- Abelardo de la Espriella win 2026 Colombian presidential election: Yes 85% (high) => likely.\n- China invade Taiwan by end of 2026: Yes 6% (low) => unlikely.\n- Iran agrees to unrestricted shipping through Hormuz by June 30: Yes 4% (low) => unlikely.\n- IR Iran win on 2026-06-21: Yes 12% (low) => unlikely.\n- Israel x Iran permanent peace deal by June 30"
+      "summary": "Mixed: Sentiment is strongly bullish on Abelardo de la Espriella winning the 2026 Colombian election (85%), but overwhelmingly bearish on geopolitical stability and military outcomes. Markets see a very low probability of Iran ending uranium enrichment (4%), ensuring unrestricted Hormuz shipping (4%), or reaching a peace deal with Israel (3%). Additionally, confidence is low regarding a Chinese invasion of Taiwan (6%), Russia capturing Stepnohirsk (11%), and an IR Iran victory on 2026-06-21 (12%)."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect we infer from given data? There's no actual discussion content. Might be a trick: we have no data, so we cannot mention numbers/names. But we must mention numbers and names where available. Since none, we can say none available. But need to start with one of the three labels. We need to decide sentiment based on no data? Could say Mixed: insufficient data to determine sentiment. Mention that no specific tickers or numbers were provided. Keep within 80 words.\n\nOne paragraph, start with e.g., \"Mixed:\". Then explanation. Ensure max 80 words. Let's craft ~30 words.\n\n\"Mixed: The Reddit data shows only subreddit listings without any comment volume, ticker mentions, or sentiment cues, making it impossible to gauge bullish or bearish bias; thus overall sentiment remains indeterminate given the lack of quantitative or qualitative signals.\"\n\nCount words: Mixed:(1) The2 Reddit3 data4 shows5 only6 subreddit7 listings8 without9 any10 comment11 volume,12 ticker13 mentions,14 or1"
+      "summary": "Please provide the stock Reddit discussion data (Top mentioned stocks and Subreddits). Once you provide the data, I will generate the concise summary for you."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: then specific reasons, mention numbers and names where available. Max 80 words. Need to summarize overall market sentiment based on data. Data includes several neutral items, two bullish items: SNAP restrictions could change what shoppers buy — and food giants are watching (Bullish); In photos: Star-studded crowd gathers to celebrate the Obama Presidential Center dedication (Bullish). No bearish items. So overall sentiment likely Bullish. Provide reasons: SNAP restrictions could affect food giants; Obama Center dedication star-studded crowd indicates optimism. Also maybe mention numbers? Not many numbers present. Could mention \"over $1 trillion\" from SpaceX stake but that's neutral. But we can include numbers if relevant. Keep within 80 words.\n\nWrite one paragraph: start with \"Bullish:\" then reasons. Ensure max 80 words. Let's craft ~50 words.\n\n\"Bullish: Positive cues emerge as SNAP policy shifts could boost demand for packaged goods, benefiting food giants, and the high‑profile Obama Presidential Center dedication drew a star‑studded crowd, signaling strong consumer and civic confidence; these developments outweigh the largely neutral geopolitical, tech, and aviation headlines.\"\n\nCount words: Let's count.\n\nBullish:(1) Positive2 cues3 emerge4 as5 SNAP6 policy7 shifts8 could"
+      "outlook": "Bearish",
+      "summary": "Bearish: Market sentiment is weighed down by geopolitical tensions in the Strait of Hormuz, a failing U.S. budget airline model, and a severe memory crisis threatening Apple. Additionally, SNAP restrictions pose risks to food giants. While SpaceX's $1 trillion valuation and bullish CoinDesk outlooks for Bitcoin provide some optimism, these are offset by systemic risks in tech and consumer sectors, leading to an overall negative outlook."
     },
     "macro": [
       {
@@ -804,7 +731,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 84
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 14
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 14
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 48
+        }
+      ]
     }
   },
   "portfolio": [
