@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T10:43:36Z",
+  "updated_at": "2026-06-22T10:54:00Z",
   "crypto": {
     "fear_greed": {
       "value": 20,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64036,
-        "change_24h": -0.41,
-        "market_cap": 1284074438420,
-        "volume_24h": 20156906158
+        "price_usd": 64099,
+        "change_24h": -0.31,
+        "market_cap": 1284951881291,
+        "volume_24h": 20353628774
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1745.62,
-        "change_24h": 0.83,
-        "market_cap": 210735537416,
-        "volume_24h": 11907838263
+        "price_usd": 1747.73,
+        "change_24h": 0.97,
+        "market_cap": 210922923799,
+        "volume_24h": 12383574154
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 590.87,
-        "change_24h": 0.18,
-        "market_cap": 79668779127,
-        "volume_24h": 510087784
+        "price_usd": 591.57,
+        "change_24h": 0.34,
+        "market_cap": 79732467578,
+        "volume_24h": 508169350
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.14,
-        "change_24h": -1.31,
-        "market_cap": 70472224458,
-        "volume_24h": 1294286099
+        "change_24h": -1.22,
+        "market_cap": 70503108018,
+        "volume_24h": 1223293393
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 73.6,
-        "change_24h": -0.68,
-        "market_cap": 42729341116,
-        "volume_24h": 2220372692
+        "price_usd": 73.73,
+        "change_24h": -0.41,
+        "market_cap": 42774000224,
+        "volume_24h": 2252024818
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.083532,
-        "change_24h": 0.26,
-        "market_cap": 12935188485,
-        "volume_24h": 347380361
+        "price_usd": 0.083512,
+        "change_24h": 0.24,
+        "market_cap": 12924721377,
+        "volume_24h": 346878207
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 7.99,
-        "change_24h": 0.09,
-        "market_cap": 5980242473,
-        "volume_24h": 169157190
+        "change_24h": 0.13,
+        "market_cap": 5976126465,
+        "volume_24h": 170454311
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.159983,
-        "change_24h": -1.24,
-        "market_cap": 5960117619,
-        "volume_24h": 301274626
+        "price_usd": 0.160059,
+        "change_24h": -1.2,
+        "market_cap": 5956184227,
+        "volume_24h": 302138479
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.25,
-        "change_24h": -0.83,
-        "market_cap": 2698157201,
-        "volume_24h": 179958356
+        "price_usd": 6.26,
+        "change_24h": -0.8,
+        "market_cap": 2699843192,
+        "volume_24h": 179494212
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 7,
+        "price_usd": 64099,
+        "change_24h": -0.31
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 1,
+        "price_usd": 591.57,
+        "change_24h": 0.34
+      },
+      {
+        "symbol": "DOT",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1747.73,
+        "change_24h": 0.97
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 73.73,
+        "change_24h": -0.41
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.14,
+        "change_24h": -1.22
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.160059,
+        "change_24h": -1.2
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.083512,
+        "change_24h": 0.24
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.26,
+        "change_24h": -0.8
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 7.99,
+        "change_24h": 0.13
+      }
+    ],
     "news": [
       {
         "title": "Geopolitical relief meets the Warsh Fed: Crypto Week Ahead",
@@ -90,7 +151,7 @@
         "published": "Mon, 22 Jun 2026 10:22:22 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.2,
+        "score": 0.0,
         "color": "yellow"
       },
       {
@@ -101,9 +162,9 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Bearish",
-        "score": -0.9,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Bitcoin price may be headed to $54,000, says analyst who forecast October's all-time high",
@@ -113,9 +174,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bearish",
-        "score": -0.4,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Live markets: Friday's biggest bitcoin options expiry of the year puts $60,000 in focus",
@@ -126,7 +187,7 @@
           "BTC"
         ],
         "sentiment": "Neutral",
-        "score": 0.1,
+        "score": 0.0,
         "color": "yellow"
       },
       {
@@ -151,7 +212,7 @@
           "ETH"
         ],
         "sentiment": "Neutral",
-        "score": -0.2,
+        "score": 0.0,
         "color": "yellow"
       },
       {
@@ -163,7 +224,7 @@
           "XRP"
         ],
         "sentiment": "Bullish",
-        "score": 0.3,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -174,9 +235,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "Are perps swaps? A quick look at that CME suit: State of Crypto",
@@ -196,9 +257,9 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Bearish",
-        "score": -0.8,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Inception Labs' Mercury 2 AI Beats Google's DiffusionGemma at Its Own Game",
@@ -207,7 +268,7 @@
         "published": "Sun, 21 Jun 2026 16:01:03 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -216,9 +277,9 @@
         "url": "https://decrypt.co/371648/ai-amplification-spiral-causing-delusions-among-users-study",
         "published": "Sun, 21 Jun 2026 13:01:03 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.5,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "OpenRouter's Fusion Promises Claude Fable-Level AI for Cheap—Right as Fable 5 Goes Dark",
@@ -226,9 +287,9 @@
         "url": "https://decrypt.co/371711/openrouter-fusion-claude-fable-level-ai-cheap",
         "published": "Sat, 20 Jun 2026 18:01:04 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.4,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Bitcoin Network Activity Is Rising as BTC Falls Nearly 50% Below Peak Price: CryptoQuant",
@@ -238,9 +299,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": -0.2,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Charles Schwab Planning to Roll Out S&#038;P 500 Prediction Markets With Cboe: WSJ",
@@ -248,13 +309,13 @@
         "url": "https://decrypt.co/371708/charles-schwab-planning-sp-500-prediction-markets-cboe",
         "published": "Fri, 19 Jun 2026 20:02:32 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.6,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.047,
+      "score": 0.133,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -263,14 +324,35 @@
       "outlook": "Mixed",
       "summary": "Insufficient data to generate a summary."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 7,
+          "BNB": 1,
+          "DOT": 1,
+          "ETH": 0,
+          "SOL": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - June 21, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1uc3w1f/daily_crypto_discussion_june_21_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Please provide the data (Top mentioned coins/topics and Subreddits). Once you provide the text, I will analyze it and deliver the summary in the exact format requested."
+      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: top mentioned: BTC (7 mentions), BNB (1), DOT (1), ETH (0), SOL (0). Subreddits: r/r/CryptoCurrency: activity 100/100 (maybe indicates high activity). No explicit sentiment given. We need to infer sentiment from mentions? Possibly high activity and BTC mentions suggests bullish? But we need to be concise. Since no explicit sentiment, we could say Mixed: because BTC high mentions but no ETH/SOL, activity max. Could argue bullish due to BTC dominance and high activity. Let's choose Bullish: with reasons: BTC leading with 7 mentions, high subreddit activity 100/100 indicates strong interest, while other altcoins low. Must be <=80 words. Let's craft ~45 words.\n\nParagraph: \"Bullish: Bitcoin dominates discussion with 7 mentions, far outpacing BNB (1) and DOT (1), while Ethereum and Solana receive none, signaling focused investor confidence; the r/CryptoCurrency subreddit shows maximal activity (100/100), reflecting heightened engagement and optimism about BTC’s near‑term prospects.\"\n\nCount words"
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: Market sentiment is weighed down by a bridge exploit causing Taiko tokens to dive and analyst predictions that Bitcoin could drop to $54,000. While XRP showed resilience by rebounding from $1.14 and Bitcoin holds near $64,000, the overall tone is cautious. Neutral developments regarding Ethereum staking and Bitcoin developer updates, alongside a critical options expiry focusing on $60,000, suggest significant uncertainty despite some geopolitical relief."
+      "outlook": "Mixed",
+      "summary": "Mixed: Sentiment is divided as Bitcoin holds near $64,000 amid US-Iran talks and XRP shows resilience after rebounding from $1.14. However, bearish pressure persists with Taiko halting its network following a bridge exploit and analysts suggesting Bitcoin could drop to $54,000. Market focus remains on the year's largest options expiry and the $60,000 price level, while Ethereum validators consider a 10% staking reward funding proposal."
     },
     "fourchain": {
       "thread_count": 201,
@@ -287,53 +369,53 @@
     },
     "cg_trending": [
       {
-        "symbol": "SYN",
-        "name": "Synapse",
-        "rank": 387,
-        "score": 0,
-        "change_24h": 96.07
-      },
-      {
         "symbol": "ARX",
         "name": "Arcium",
-        "rank": 318,
-        "score": 1,
-        "change_24h": 12.35
+        "rank": 305,
+        "score": 0,
+        "change_24h": 26.31
       },
       {
-        "symbol": "TAIKO",
-        "name": "Taiko",
-        "rank": 981,
-        "score": 2,
-        "change_24h": -12.1
+        "symbol": "SYN",
+        "name": "Synapse",
+        "rank": 386,
+        "score": 1,
+        "change_24h": 90.08
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
-        "score": 3,
-        "change_24h": -0.24
+        "score": 2,
+        "change_24h": -0.37
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 10,
+        "symbol": "TAIKO",
+        "name": "Taiko",
+        "rank": 983,
+        "score": 3,
+        "change_24h": -11.28
+      },
+      {
+        "symbol": "SLX",
+        "name": "Solstice",
+        "rank": 451,
         "score": 4,
-        "change_24h": -1.15
+        "change_24h": 10.83
       },
       {
         "symbol": "RE",
         "name": "RE",
         "rank": 225,
         "score": 5,
-        "change_24h": -20.96
+        "change_24h": -21.79
       },
       {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 114,
+        "symbol": "SIREN",
+        "name": "Siren",
+        "rank": 316,
         "score": 6,
-        "change_24h": -2.24
+        "change_24h": -0.5
       }
     ]
   },
@@ -354,7 +436,7 @@
       "vix": null
     },
     "market_mood": {
-      "score": 0.15,
+      "score": 0.25,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -426,7 +508,7 @@
         "title": "UK PM Starmer resigns as Britain faces its seventh leader in 10 years",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/06/22/keir-starmer-resigns-uk-prime-minister.html",
-        "published": "Mon, 22 Jun 2026 10:24:36 GMT",
+        "published": "Mon, 22 Jun 2026 10:50:13 GMT",
         "assets": [],
         "sentiment": "Bearish",
         "score": -0.7,
@@ -438,9 +520,9 @@
         "url": "https://www.cnbc.com/2026/06/22/uhnw-wealth-management-list-cnbc-elite-advisors.html",
         "published": "Mon, 22 Jun 2026 10:00:41 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.3,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.2,
+        "color": "yellow"
       },
       {
         "title": "SpaceX stock drops again after rally following blockbuster IPO",
@@ -449,8 +531,18 @@
         "published": "Mon, 22 Jun 2026 10:19:24 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.6,
+        "score": -0.5,
         "color": "red"
+      },
+      {
+        "title": "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html",
+        "published": "Mon, 22 Jun 2026 07:42:51 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "China imposes trade curbs on dozens of U.S. firms in retaliation for Pentagon blacklist",
@@ -459,7 +551,7 @@
         "published": "Mon, 22 Jun 2026 03:45:13 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -479,7 +571,7 @@
         "published": "Mon, 22 Jun 2026 10:00:53 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.4,
+        "score": 0.3,
         "color": "green"
       },
       {
@@ -488,9 +580,9 @@
         "url": "https://www.cnbc.com/2026/06/21/raise-minimum-wage-inflation-politics.html",
         "published": "Sun, 21 Jun 2026 14:07:29 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.3,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "The No. 1 question ultra-high net worth families should ask a financial advisor",
@@ -503,23 +595,13 @@
         "color": "yellow"
       },
       {
-        "title": "Treasury yields rise ahead of key inflation data and traders weigh U.S.-Iran negotiations",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/06/22/treasury-yields-investors-look-ahead-to-key-inflation-data.html",
-        "published": "Mon, 22 Jun 2026 10:42:37 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": -0.2,
-        "color": "yellow"
-      },
-      {
         "title": "I gave my HomeExchange guest a 5-star review. Then I found heat marks all over my dining table. Do I call her out?",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/i-gave-my-homeexchange-guest-a-5-star-review-then-i-found-heat-marks-all-over-my-dining-table-do-i-call-her-out-855d3836?mod=mw_rss_topstories",
         "published": "Mon, 22 Jun 2026 10:15:00 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.1,
         "color": "yellow"
       },
       {
@@ -529,7 +611,7 @@
         "published": "Mon, 22 Jun 2026 10:13:00 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.6,
+        "score": -0.4,
         "color": "red"
       },
       {
@@ -559,50 +641,50 @@
         "published": "Mon, 22 Jun 2026 08:58:00 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.4,
+        "score": -0.3,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.28,
+      "score": -0.187,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 300045,
+        "volume_24h": 299326,
         "yes_price": 0.74,
         "category": "finance"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "volume_24h": 264139,
+        "volume_24h": 263654,
         "yes_price": 0.25,
         "category": "finance"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 232797,
+        "volume_24h": 232804,
         "yes_price": 0.14,
         "category": "finance"
       },
       {
         "title": " Iran agrees to end enrichment of uranium by June 30?",
-        "volume_24h": 196677,
+        "volume_24h": 194325,
         "yes_price": 0.03,
         "category": "finance"
       },
       {
         "title": "Will Trump agree to Iranian transit fees in the Strait of Hormuz by June 30?",
-        "volume_24h": 187151,
+        "volume_24h": 186836,
         "yes_price": 0.03,
         "category": "finance"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: Market sentiment is stable regarding monetary policy, with a 74% probability ($300,045 volume) that the Fed will maintain interest rates after July 2026. Geopolitical risk remains low, as only 14% ($232,797 volume) anticipate a U.S. invasion of Iran before 2027. However, diplomatic optimism is nearly nonexistent, with only 3% probability for both Iran ending uranium enrichment and Trump agreeing to Strait of Hormuz transit fees by June 30."
+      "outlook": "Mixed",
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nInterpretation: Fed interest rates: high probability of no change (74%) vs increase 25bps (25%). So sentiment likely bullish (stable rates). Also low probability of US invading Iran (14%) and low probability of Iran ending enrichment (3%) and low probability of Trump agreeing to transit fees (3%). Overall market sentiment: bullish on stable monetary policy, bearish on geopolitical risk? But we need one label. Probably Mixed? Let's see: The data shows high confidence in no rate change (bullish for markets), but low chance of Iran actions (maybe bearish for oil?). However the instruction: \"Based on the following finance prediction markets data, write exactly ONE paragraph summarizing the overall market sentiment.\" So we need to decide overall sentiment. The Fed data suggests stability (bullish). The Iran data suggests low chance of conflict or concessions, which could be seen as reducing geopolitical risk (bullish). Actually low chance of invasion (14%) and low chance of Iran ending enrichment (3%) and low chance of transit fees (3%) suggests status quo persists, which may be neutral/bullish. So overall bullish.\n\nThus start with \"Bullish:\" then mention numbers: Fed no change 74% vol $"
     },
     "reddit": [],
     "reddit_summary": {
@@ -610,8 +692,8 @@
       "summary": "Please provide the stock Reddit discussion data (Top mentioned stocks and Subreddits). Once you provide the data, I will generate the concise summary for you."
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: Geopolitical instability dominates as Iran closes the Strait of Hormuz and India-Pakistan tensions rise over a water treaty. Political volatility persists with UK PM Starmer's resignation and U.S.-China trade curbs. Additionally, SpaceX stock is declining post-IPO and minimum wage policies face resistance. While wealth management firms see growth opportunities for ultra-high net worth clients toward 2026, these positive trends are outweighed by systemic global risks and diplomatic friction."
+      "outlook": "Mixed",
+      "summary": "We need exactly ONE paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: many bearish items: shipping stalls, UK PM resignation, SpaceX stock drops, China trade curbs, India-Pakistan flashpoint. Bullish: US-Iran agreement, new arms race in wealth management (bullish). Also CNBC Elite Advisors neutral. So more bearish than bullish. So overall Mixed? Could be Bearish leaning. But we must start with one of those three words exactly. Choose Bearish: then list reasons with numbers/names. Must be one paragraph, max 80 words.\n\nLet's craft ~70 words.\n\n\"Bearish: Shipping through the Strait of Hormuz stalled after Iran declared the waterway closed again; UK Prime Minister Starmer resigned, marking Britain’s seventh leader in a decade; SpaceX shares fell again post‑IPO rally; China imposed trade curbs on dozens of U.S. firms in retaliation for the Pentagon blacklist; and a 66‑year‑old water treaty reignited India‑Pakistan tensions. Although the U.S. and Iran agreed on a roadmap to end military operations in Lebanon and wealth‑management firms touted a new ultra‑wealthy arms race, the negative drivers outweigh the positives.\"\n\nCount words. Let's count."
     },
     "macro": [
       {
@@ -629,14 +711,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4172.9,
-        "change_24h": -1.21
+        "value": 4226.8,
+        "change_24h": 0.06
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 75.36,
-        "change_24h": -1.62
+        "value": 75.31,
+        "change_24h": -1.68
       }
     ],
     "most_active": [
@@ -703,24 +785,7 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": [
-        {
-          "keyword": "Bitcoin",
-          "interest_score": 84
-        },
-        {
-          "keyword": "Ethereum",
-          "interest_score": 14
-        },
-        {
-          "keyword": "Solana",
-          "interest_score": 12
-        },
-        {
-          "keyword": "crypto",
-          "interest_score": 53
-        }
-      ]
+      "crypto": []
     }
   },
   "portfolio": [
