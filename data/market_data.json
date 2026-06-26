@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T03:21:22Z",
+  "updated_at": "2026-06-26T03:31:16Z",
   "crypto": {
     "fear_greed": {
       "value": 13,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 58806,
-        "change_24h": -3.15,
-        "market_cap": 1178599338746,
-        "volume_24h": 42979535080
+        "price_usd": 59011,
+        "change_24h": -2.8,
+        "market_cap": 1183297586805,
+        "volume_24h": 43084526672
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1530.1,
-        "change_24h": -5.41,
-        "market_cap": 184604598859,
-        "volume_24h": 16383087470
+        "price_usd": 1530.42,
+        "change_24h": -5.32,
+        "market_cap": 184757966770,
+        "volume_24h": 16440541942
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 555.75,
-        "change_24h": -1.68,
-        "market_cap": 74904959673,
-        "volume_24h": 982259857
+        "price_usd": 556.34,
+        "change_24h": -1.48,
+        "market_cap": 74977267565,
+        "volume_24h": 990635585
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.018,
-        "change_24h": -4.78,
-        "market_cap": 63390372737,
-        "volume_24h": 2366105535
+        "change_24h": -4.73,
+        "market_cap": 63385223226,
+        "volume_24h": 2378603352
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 66.81,
-        "change_24h": -1.06,
-        "market_cap": 38790414216,
-        "volume_24h": 3704461757
+        "price_usd": 66.64,
+        "change_24h": -1.34,
+        "market_cap": 38680617702,
+        "volume_24h": 3731013931
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.073337,
-        "change_24h": -3.48,
-        "market_cap": 11352350908,
-        "volume_24h": 801656811
+        "price_usd": 0.073304,
+        "change_24h": -3.54,
+        "market_cap": 11348165782,
+        "volume_24h": 805691659
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 7.08,
-        "change_24h": -4.28,
-        "market_cap": 5298277901,
-        "volume_24h": 275041436
+        "change_24h": -4.2,
+        "market_cap": 5299261269,
+        "volume_24h": 276990641
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.140102,
-        "change_24h": -4.96,
-        "market_cap": 5217823936,
-        "volume_24h": 428291770
+        "price_usd": 0.140017,
+        "change_24h": -4.91,
+        "market_cap": 5214527834,
+        "volume_24h": 430247281
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.04,
-        "change_24h": -5.5,
-        "market_cap": 2607736598,
-        "volume_24h": 261122518
+        "price_usd": 6.03,
+        "change_24h": -5.96,
+        "market_cap": 2605898889,
+        "volume_24h": 276660343
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 2,
+        "price_usd": 59011,
+        "change_24h": -2.8
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 1,
+        "price_usd": 1.018,
+        "change_24h": -4.73
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 1,
+        "price_usd": 0.140017,
+        "change_24h": -4.91
+      },
+      {
+        "symbol": "UNI",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1530.42,
+        "change_24h": -5.32
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 66.64,
+        "change_24h": -1.34
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 556.34,
+        "change_24h": -1.48
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.073304,
+        "change_24h": -3.54
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.03,
+        "change_24h": -5.96
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 7.08,
+        "change_24h": -4.2
+      }
+    ],
     "news": [
       {
         "title": "Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market",
@@ -89,9 +150,9 @@
         "url": "https://www.coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market",
         "published": "Thu, 25 Jun 2026 20:47:24 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.8,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Coinbase's Base blockchain resumes after two-hour outage disrupted network",
@@ -100,7 +161,7 @@
         "published": "Thu, 25 Jun 2026 18:46:08 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": -0.2,
+        "score": 0.0,
         "color": "yellow"
       },
       {
@@ -111,9 +172,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bullish",
-        "score": 0.3,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Kraken in talks to buy 15% stake in DeFi lender Aave at $385 million valuation",
@@ -122,7 +183,7 @@
         "published": "Thu, 25 Jun 2026 17:14:19 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -135,7 +196,7 @@
           "ADA"
         ],
         "sentiment": "Neutral",
-        "score": 0.2,
+        "score": 0.0,
         "color": "yellow"
       },
       {
@@ -144,9 +205,9 @@
         "url": "https://www.coindesk.com/markets/2026/06/25/blackberry-is-making-a-massive-comeback-as-an-uncrashable-software-layer-for-ai-and-robotics",
         "published": "Thu, 25 Jun 2026 16:05:06 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.6,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Strategy has a 10-month cash runway for dividends, but retail investors are losing faith",
@@ -154,9 +215,9 @@
         "url": "https://www.coindesk.com/markets/2026/06/25/michael-saylor-s-broken-promises-have-shattered-strategy-investor-trust-says-tw-prime-ceo",
         "published": "Thu, 25 Jun 2026 15:45:43 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.6,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Quant fund says bitcoin is near a major inflection point as rare onchain signals align",
@@ -166,9 +227,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bullish",
-        "score": 0.7,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Bitcoin tumbles to new multi-year low of $58,000, but a short-squeeze setup emerges",
@@ -178,9 +239,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": -0.1,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Crypto for Advisors: Bitcoin: planning for inheritance",
@@ -200,9 +261,9 @@
         "url": "https://cointelegraph.com/news/crypto-infrastructure-firm-bitgo-lays-off-15-of-staff?utm_source=rss&utm_medium=rss&utm_campaign=rss",
         "published": "Fri, 26 Jun 2026 00:41:02 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.3,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Does Botanix’s failure prove Bitcoiners don’t care about DeFi?",
@@ -212,9 +273,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bearish",
-        "score": -0.5,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Bitcoin bounces off new 2026 price lows: Will US stock weakness push BTC lower?",
@@ -225,7 +286,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.4,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -237,7 +298,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.6,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -249,35 +310,56 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.3,
+        "score": -1.0,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": 0.02,
+      "score": -0.267,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin dip to $57,500 in June?",
-        "volume_24h": 418247,
-        "yes_price": 0.68,
+        "volume_24h": 418143,
+        "yes_price": 0.6,
         "category": "crypto"
       }
     ],
     "polymarket_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: Market sentiment is leaning toward a price drop, with 68% of traders betting that Bitcoin will dip to $57,500 in June. This sentiment is backed by a significant trading volume of $418,247, indicating strong conviction in a short-term downward trend."
+      "summary": "Bearish: Market sentiment leans toward a price drop, with 60% of traders betting that Bitcoin will dip to $57,500 in June. This sentiment is backed by a significant trading volume of $418,143, indicating strong conviction in a downward move for the asset."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 2,
+          "XRP": 1,
+          "ADA": 1,
+          "UNI": 1,
+          "ETH": 0,
+          "SOL": 0,
+          "BNB": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - June 25, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1ufpfir/daily_crypto_discussion_june_25_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Please provide the Reddit discussion data (Top mentioned coins/topics and Subreddits). Once you provide the data, I will generate the concise summary for you."
+      "summary": "Mixed: Sentiment is fragmented across a small sample of assets. While BTC leads mentions (2), the equal distribution of interest in XRP, ADA, and UNI suggests a lack of clear market direction. High activity in r/CryptoCurrency (100/100) indicates strong engagement, but the absence of ETH mentions suggests a shift in focus away from the second-largest cryptocurrency, leaving the overall outlook uncertain."
     },
     "news_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: Market sentiment is driven by institutional expansion, including Invesco’s tokenized fund filing and Kraken’s potential $385 million stake in Aave. Positive momentum is further supported by Quant fund's inflection point signals for Bitcoin and BlackBerry's AI software pivot. While Strategy faces retail skepticism despite a 10-month dividend runway, the overall trend remains positive due to strong corporate adoption and the increasing correlation between STRC and BTC."
+      "outlook": "Mixed",
+      "summary": "Mixed: Sentiment is balanced as Kraken’s potential $385 million acquisition of a 15% stake in Aave provides a bullish catalyst. However, retail faith is wavering regarding Strategy’s dividend runway, and BlackBerry's pivot creates bearish noise. Neutral signals persist with Invesco’s tokenized fund filing, Base recovering from a two-hour outage, and quant funds noting Bitcoin is near a major inflection point. Overall, institutional activity is active, but retail confidence and network stability remain volatile."
     },
     "fourchain": {
       "thread_count": 201,
@@ -287,60 +369,60 @@
         "XRP": 12,
         "ETH": 7
       },
-      "bullish_hits": 145,
-      "bearish_hits": 64,
-      "bullish_pct": 69,
+      "bullish_hits": 144,
+      "bearish_hits": 62,
+      "bullish_pct": 70,
       "top_coin": "BTC"
     },
     "cg_trending": [
       {
+        "symbol": "RAIN",
+        "name": "Rain",
+        "rank": 13,
+        "score": 0,
+        "change_24h": -1.32
+      },
+      {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
-        "score": 0,
-        "change_24h": -3.46
+        "score": 1,
+        "change_24h": -3.25
       },
       {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 118,
-        "score": 1,
-        "change_24h": -5.73
+        "symbol": "SLX",
+        "name": "Solstice",
+        "rank": 254,
+        "score": 2,
+        "change_24h": 28.26
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
         "rank": 57,
-        "score": 2,
-        "change_24h": -1.2
-      },
-      {
-        "symbol": "RAIN",
-        "name": "Rain",
-        "rank": 13,
         "score": 3,
-        "change_24h": -1.44
-      },
-      {
-        "symbol": "SLX",
-        "name": "Solstice",
-        "rank": 260,
-        "score": 4,
-        "change_24h": 26.08
+        "change_24h": -0.35
       },
       {
         "symbol": "ARX",
         "name": "Arcium",
-        "rank": 404,
-        "score": 5,
-        "change_24h": 7.33
+        "rank": 385,
+        "score": 4,
+        "change_24h": 13.02
       },
       {
-        "symbol": "PEPE",
-        "name": "Pepe",
-        "rank": 67,
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "rank": 3,
+        "score": 5,
+        "change_24h": -5.71
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 10,
         "score": 6,
-        "change_24h": -9.31
+        "change_24h": -1.83
       }
     ]
   },
@@ -429,7 +511,7 @@
         "published": "Fri, 26 Jun 2026 01:29:31 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -438,9 +520,9 @@
         "url": "https://www.cnbc.com/2026/06/26/strait-of-hormuz-vessel-attack-evacuation-pauses-iran-united-states-peace-deal-negotiation-.html",
         "published": "Fri, 26 Jun 2026 02:07:59 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.6,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "ON Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
@@ -448,9 +530,9 @@
         "url": "https://www.cnbc.com/2026/06/25/on-semi-synaptics-deal-physical-ai.html",
         "published": "Thu, 25 Jun 2026 22:59:43 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.8,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Iran behind attack on cargo vessel near Oman in Strait of Hormuz, U.S. official tells MS NOW",
@@ -458,9 +540,9 @@
         "url": "https://www.cnbc.com/2026/06/25/iran-ghalibaf-trump-us-farm-products-assets.html",
         "published": "Thu, 25 Jun 2026 19:46:29 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.7,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
@@ -468,9 +550,9 @@
         "url": "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
         "published": "Thu, 25 Jun 2026 21:03:16 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Democrats probe Trump's troubled $16 million reflecting pool renovation",
@@ -479,7 +561,7 @@
         "published": "Thu, 25 Jun 2026 22:07:34 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": -0.2,
+        "score": 0.0,
         "color": "yellow"
       },
       {
@@ -488,9 +570,9 @@
         "url": "https://www.cnbc.com/2026/06/25/trump-gop-housing-bill-save-act-fisa.html",
         "published": "Thu, 25 Jun 2026 23:45:22 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.3,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Luxury spending now driven by experiences and 'inheritourism'",
@@ -498,9 +580,9 @@
         "url": "https://www.cnbc.com/2026/06/25/luxury-spending-now-driven-by-experiences-and-inheritourism.html",
         "published": "Thu, 25 Jun 2026 16:46:39 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.4,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Supreme Court limits Roundup cancer suits against Bayer's Monsanto",
@@ -509,7 +591,7 @@
         "published": "Thu, 25 Jun 2026 18:19:35 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -518,9 +600,9 @@
         "url": "https://www.cnbc.com/2026/06/25/trump-doj-fund-lawsuit-blanche.html",
         "published": "Thu, 25 Jun 2026 18:05:48 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": -0.2,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "SpaceX FOMO is officially over. Space stocks across the board are getting punished.",
@@ -528,9 +610,9 @@
         "url": "https://www.marketwatch.com/story/spacex-fomo-is-officially-over-space-stocks-across-the-board-are-getting-punished-77234fe8?mod=mw_rss_topstories",
         "published": "Fri, 26 Jun 2026 02:27:00 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.8,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "SpaceX stock is a terrible buy — what that actually means for the bull market",
@@ -538,9 +620,9 @@
         "url": "https://www.marketwatch.com/story/spacex-is-a-bad-buy-why-openai-and-anthropic-will-be-too-2448ea73?mod=mw_rss_topstories",
         "published": "Thu, 25 Jun 2026 23:12:00 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.9,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "A world rejecting OPEC controls could usher in oil below $50 a barrel",
@@ -548,9 +630,9 @@
         "url": "https://www.marketwatch.com/story/a-world-rejecting-opec-controls-could-usher-in-oil-below-50-a-barrel-3d7eda1b?mod=mw_rss_topstories",
         "published": "Thu, 25 Jun 2026 22:29:00 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.6,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "‘I have full guardianship’: My son has special needs. If I buy him a condo, will that hurt his benefits?",
@@ -558,9 +640,9 @@
         "url": "https://www.marketwatch.com/story/i-have-full-guardianship-my-son-has-special-needs-if-i-buy-him-a-condo-will-that-hurt-his-benefits-6f26e904?mod=mw_rss_topstories",
         "published": "Thu, 25 Jun 2026 21:48:00 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "The S&P 500 is at a critical crossroads. A break lower could signal more losses ahead.",
@@ -571,19 +653,19 @@
           "SPY"
         ],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -1.0,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.253,
+      "score": 0.067,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 360938,
+        "volume_24h": 360847,
         "yes_price": 0.81,
         "category": "finance"
       },
@@ -595,20 +677,20 @@
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "volume_24h": 256236,
-        "yes_price": 0.17,
+        "volume_24h": 272430,
+        "yes_price": 0.18,
         "category": "finance"
       },
       {
         "title": "Putin out as President of Russia by December 31, 2026?",
-        "volume_24h": 231408,
+        "volume_24h": 231423,
         "yes_price": 0.1,
         "category": "finance"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Market sentiment is bullish on monetary stability, with 81% ($360,938 vol) predicting no Fed interest rate change by July 2026 and only 17% expecting a 25 bps increase. However, geopolitical outlooks are bearish; there is low confidence in a US-Iran Nuclear Deal by August 2026 (26%) and a very low probability (10%) of Putin leaving the Russian presidency by December 2026, signaling expectations of continued global political volatility."
+      "summary": "Mixed: Market sentiment is bullish on monetary stability, with 81% ($360,847 vol) predicting no Fed interest rate change by July 2026, while only 18% expect a 25 bps increase. However, geopolitical outlooks remain bearish and skeptical; there is low confidence in a US-Iran Nuclear Deal by August 2026 (26%) and a very low probability (10%) of Putin leaving the Russian presidency by year-end 2026."
     },
     "reddit": [],
     "reddit_summary": {
@@ -616,8 +698,8 @@
       "summary": "Please provide the stock Reddit discussion data (Top mentioned stocks and Subreddits). Once you provide the data, I will generate the concise summary for you."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nWe have multiple bearish items: SoftBank -12%, UN agency pause, Iran attack, Trump political liabilities. Bullish: ON Semiconductor $7B deal for Synaptics, luxury spending driven by experiences and 'inheritourism'. Neutral: Chicago Fed statements, Democrats probe Trump pool (neutral). Overall sentiment? More bearish items (4) vs bullish (2) plus neutrals. Likely Mixed or Bearish. Since there are notable bullish deals, but overall negative sentiment due to tech rout and geopolitical risk. I'd choose Mixed: mention both sides.\n\nNeed to start with \"Mixed:\" then reasons. Include numbers: SoftBank sinks 12%, ON Semiconductor $7 billion deal, etc. Keep under 80 words.\n\nLet's craft ~70 words.\n\n\"Mixed: SoftBank fell 12% amid a broader Asia‑tech selloff tracking U.S. declines, while geopolitical tensions rose as the UN halted Hormuz ship evacuations after an Iranian‑backed attack on a cargo vessel near Oman and Trump’s political liabilities grew. Conversely, ON Semiconductor announced a $7 billion acquisition of Synaptics to boost its physical‑"
+      "outlook": "Bearish",
+      "summary": "Bearish: Market sentiment is weighed down by a tech rout, highlighted by SoftBank sinking 12% following U.S. declines. Economic uncertainty persists as Chicago Fed President Goolsbee warns that inflation remains too high, despite contrasting views from Williams. While ON Semiconductor’s $7 billion deal for Synaptics shows strategic growth in AI, geopolitical tensions in the Strait of Hormuz and conflicting Fed signals create a cautious environment for investors."
     },
     "macro": [
       {
@@ -629,20 +711,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 101.51,
-        "change_24h": -0.1
+        "value": 101.5,
+        "change_24h": -0.11
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4009.4,
-        "change_24h": 0.48
+        "value": 4012.6,
+        "change_24h": 0.56
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 70.7,
-        "change_24h": 0.51
+        "value": 70.63,
+        "change_24h": 0.41
       }
     ],
     "most_active": [
@@ -712,7 +794,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 70
+          "interest_score": 59
         },
         {
           "keyword": "Ethereum",
@@ -720,11 +802,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 7
+          "interest_score": 6
         },
         {
           "keyword": "crypto",
-          "interest_score": 38
+          "interest_score": 31
         }
       ]
     }
