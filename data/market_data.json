@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T03:31:47Z",
+  "updated_at": "2026-07-05T03:41:25Z",
   "crypto": {
     "fear_greed": {
       "value": 23,
@@ -7,61 +7,134 @@
       "previous_value": 22,
       "previous_label": "Extreme Fear"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 62699,
+        "change_24h": 0.08,
+        "market_cap": 1257223389064,
+        "volume_24h": 18171859035
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 1760.05,
+        "change_24h": 0.38,
+        "market_cap": 212373236339,
+        "volume_24h": 8637611108
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 569.97,
+        "change_24h": -0.41,
+        "market_cap": 76822253151,
+        "volume_24h": 600973771
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.14,
+        "change_24h": -0.14,
+        "market_cap": 70728719313,
+        "volume_24h": 1817707885
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 80.41,
+        "change_24h": -2.39,
+        "market_cap": 46728067328,
+        "volume_24h": 2004479331
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.075987,
+        "change_24h": -1.48,
+        "market_cap": 11772248128,
+        "volume_24h": 615142785
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.18989,
+        "change_24h": 7.41,
+        "market_cap": 7073180599,
+        "volume_24h": 789175032
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 7.88,
+        "change_24h": -0.33,
+        "market_cap": 5896280256,
+        "volume_24h": 142679906
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 6.81,
+        "change_24h": -1.56,
+        "market_cap": 2938748649,
+        "volume_24h": 141207381
+      }
+    ],
     "top_mentioned": [
       {
         "symbol": "BTC",
         "mentions": 2,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 62699,
+        "change_24h": 0.08
       },
       {
         "symbol": "ETH",
         "mentions": 1,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1760.05,
+        "change_24h": 0.38
       },
       {
         "symbol": "SOL",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 80.41,
+        "change_24h": -2.39
       },
       {
         "symbol": "BNB",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 569.97,
+        "change_24h": -0.41
       },
       {
         "symbol": "XRP",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1.14,
+        "change_24h": -0.14
       },
       {
         "symbol": "ADA",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.18989,
+        "change_24h": 7.41
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.075987,
+        "change_24h": -1.48
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 6.81,
+        "change_24h": -1.56
       },
       {
         "symbol": "LINK",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 7.88,
+        "change_24h": -0.33
       },
       {
         "symbol": "TON",
@@ -244,14 +317,14 @@
     "polymarket": [
       {
         "title": "Will Bitcoin reach $64,000 June 29-July 5?",
-        "volume_24h": 123285,
-        "yes_price": 0.17,
+        "volume_24h": 123436,
+        "yes_price": 0.19,
         "category": "crypto"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, start with Bullish:, Bearish:, or Mixed: then specific reasons, mention numbers and names where available. Max 80 words. Data: only one market: \"Will Bitcoin reach $64,000 June 29-July 5?: Yes 17% (vol $123,285)\". So sentiment: low probability (17%) suggests bearish. So start with Bearish: then mention that only 17% of market participants expect Bitcoin to hit $64k, volume $123k, indicating skepticism. Must be one paragraph, max 80 words. Let's craft ~30 words.\n\n\"Bearish: Prediction‑market participants assign just a 17% chance that Bitcoin will reach $64,000 between June 29 and July 5, with only $123,285 traded on the contract, reflecting weak confidence and a skeptical outlook for the cryptocurrency’s short‑term price.\"\n\nCount words: Bearish:(1) Prediction‑market2 participants3 assign4 just5 a6 17%7 chance8 that9 Bitcoin10 will11 reach12 $64,00013 between14 June 2915 and16 July 5,17 with18 only19 $123,28520 traded"
+      "outlook": "Bearish",
+      "summary": "Bearish: Market sentiment is strongly negative regarding Bitcoin's short-term price action, with only 19% of traders betting it will reach $64,000 between June 29 and July 5. Despite a trading volume of $123,436, the overwhelming majority of the market expects the asset to remain below this threshold."
     },
     "reddit": [
       {
@@ -277,11 +350,11 @@
     ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Sentiment is neutral to slightly positive, though data is limited. Activity is peaked at 100/100 in r/CryptoCurrency, showing high engagement. BTC leads discussions with 2 mentions, followed by ETH with 1 mention, while SOL, BNB, and XRP saw no activity. The concentration on major assets suggests a cautious focus on market leaders rather than speculative altcoins."
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Top mentioned: BTC (2 mentions), ETH (1 mentions), SOL (0), BNB (0), XRP (0). Subreddits: r/r/CryptoCurrency: activity 100/100.\n\nInterpretation: The data shows BTC mentioned twice, ETH once, others zero. Activity high (100/100). No explicit sentiment given. We need to infer sentiment? Possibly high activity and mentions of BTC and ETH could be bullish? But we need to be concise and mention numbers and names.\n\nWe could say Mixed: because BTC mentions 2, ETH 1, others zero, activity full but no clear direction. Or Bullish: because BTC and ETH mentioned, activity high indicating interest. But we need to decide.\n\nGiven limited data, maybe Mixed: because while BTC and ETH get some mentions, other major coins have zero mentions, indicating limited breadth. Activity max suggests engagement but not necessarily bullish.\n\nThus: Mixed: BTC cited twice, ETH once, while SOL, BNB, XRP received zero mentions despite full subreddit activity (100/100), showing focused but narrow interest."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Need to decide sentiment based on data: Most items neutral, one bearish (ethical hackers flaw could put $70B at risk). No bullish items. So overall sentiment likely Mixed or Bearish? Since only one bearish, many neutral, maybe Mixed. Provide reasons: mention the $70B risk, Bitcoin above $63k, Trump token buyers down $3.8B, etc. Must start with \"Mixed:\" then reasons. Keep under 80 words. Let's craft ~70 words.\n\nWord count: Let's draft:\n\n\"Mixed: Bitcoin rose above $63,000, reversing June losses, yet ethical hackers demonstrated a $3,000‑server flaw that could have endangered $70 billion in crypto, and Trump‑linked token buyers are down $3.8 billion per blockchain data; meanwhile, experts debate freezing Satoshi’s 1.1 million BTC amid quantum fears, Europe’s regulatory lead awaits implementation, and EU moves to restrict retail access to prediction markets, leaving sentiment divided.\"\n\nNow count words.\n\nCount manually:\n\nMixed:(1)\nBitcoin2\nrose3\nabove4\n$63,000,5\nreversing"
+      "summary": "Mixed: Bitcoin's recovery above $63,000 and potential alignment with record-high stocks provide optimism. However, sentiment is dampened by a critical security flaw that endangered $70 billion in assets and reports that Trump's token buyers have lost $3.8 billion. Additionally, regulatory pressures in the EU and debates over freezing Satoshi's 1.1 million BTC introduce uncertainty, balancing the market between price recovery and systemic risks."
     },
     "fourchain": {
       "thread_count": 200,
@@ -302,49 +375,49 @@
         "name": "LAB",
         "rank": 22,
         "score": 0,
-        "change_24h": 126.63
+        "change_24h": 122.43
       },
       {
         "symbol": "ANSEM",
         "name": "The Black Bull",
-        "rank": 232,
+        "rank": 227,
         "score": 1,
-        "change_24h": -18.16
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "rank": 102,
-        "score": 2,
-        "change_24h": -7.56
+        "change_24h": -17.21
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 115,
+        "score": 2,
+        "change_24h": -3.58
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "rank": 102,
         "score": 3,
-        "change_24h": -3.49
+        "change_24h": -7.12
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 4,
-        "change_24h": 0.21
+        "change_24h": -0.03
+      },
+      {
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "rank": 98,
+        "score": 5,
+        "change_24h": 4.78
       },
       {
         "symbol": "MORPHO",
         "name": "Morpho",
         "rank": 59,
-        "score": 5,
-        "change_24h": -1.97
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "rank": 101,
         "score": 6,
-        "change_24h": 1.13
+        "change_24h": -1.98
       }
     ]
   },
@@ -421,68 +494,7 @@
         "change_24h": 3.92
       }
     ],
-    "top_mentioned": [
-      {
-        "symbol": "AAPL",
-        "mentions": 1,
-        "price_usd": 308.63,
-        "change_24h": 4.84
-      },
-      {
-        "symbol": "AMZN",
-        "mentions": 1,
-        "price_usd": 242.67,
-        "change_24h": 0.4
-      },
-      {
-        "symbol": "META",
-        "mentions": 1,
-        "price_usd": 582.9,
-        "change_24h": -4.9
-      },
-      {
-        "symbol": "NVDA",
-        "mentions": 0,
-        "price_usd": 194.83,
-        "change_24h": -1.39
-      },
-      {
-        "symbol": "TSLA",
-        "mentions": 0,
-        "price_usd": 393.45,
-        "change_24h": -7.49
-      },
-      {
-        "symbol": "MSFT",
-        "mentions": 0,
-        "price_usd": 390.49,
-        "change_24h": 1.62
-      },
-      {
-        "symbol": "GOOGL",
-        "mentions": 0,
-        "price_usd": 359.91,
-        "change_24h": -0.36
-      },
-      {
-        "symbol": "AMD",
-        "mentions": 0,
-        "price_usd": 517.82,
-        "change_24h": -4.26
-      },
-      {
-        "symbol": "PLTR",
-        "mentions": 0,
-        "price_usd": 129.3,
-        "change_24h": 2.84
-      },
-      {
-        "symbol": "GME",
-        "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
-      }
-    ],
+    "top_mentioned": [],
     "news": [
       {
         "title": "First known congressional SpaceX stock buys surface after record IPO",
@@ -645,13 +657,13 @@
     "polymarket": [
       {
         "title": "Putin out as President of Russia by December 31, 2026?",
-        "volume_24h": 484647,
+        "volume_24h": 483935,
         "yes_price": 0.1,
         "category": "finance"
       },
       {
         "title": "US-Iran Final Nuclear Deal by December 31, 2026?",
-        "volume_24h": 217467,
+        "volume_24h": 217613,
         "yes_price": 0.46,
         "category": "finance"
       },
@@ -669,44 +681,23 @@
       },
       {
         "title": "Will Russia capture Kostyantynivka by December 31, 2026?",
-        "volume_24h": 123762,
+        "volume_24h": 124682,
         "yes_price": 0.94,
         "category": "finance"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes predictions: Putin out by end 2026 only 10% chance (low). US-Iran final nuclear deal by end 2026 46% (moderate). By Sep 30 2026 29% (lower). US-Iran diplomatic meeting by July 10 2026 only 4% (very low). Russia capture Kostyantynivka by end 2026 94% (high). So overall sentiment: Mixed? The high chance of Russia capturing a city suggests bearish for Ukraine/peace, low chance of Putin leaving suggests status quo, low chance of US-Iran meeting suggests limited diplomacy, moderate chance of nuclear deal. So overall maybe bearish regarding geopolitical stability? But we need to pick one label. Could be Mixed because some indicators bullish (deal chance 46%) others bearish (Russia capture 94%). So Mixed.\n\nWe need to start with \"Mixed:\" then reasons, mention numbers and names. Must be one paragraph, max 80 words. Let's craft ~70 words.\n\nCount words. We'll write:\n\n\"Mixed: markets show a 46% probability ("
+      "outlook": "Bearish",
+      "summary": "Bearish: Geopolitical sentiment is pessimistic, with a 94% probability that Russia captures Kostyantynivka and only a 10% chance of Putin leaving office by 2026. Diplomatic optimism is low, as markets price a mere 4% chance of a US-Iran meeting by July 2026, though a final nuclear deal by year-end 2026 remains a toss-up at 46%. High volume across these markets underscores strong conviction in continued Russian aggression and stalled US-Iran diplomacy."
     },
-    "reddit": [
-      {
-        "subreddit": "r/wallstreetbets",
-        "mentions": {
-          "AAPL": 1,
-          "AMZN": 1,
-          "META": 1,
-          "NVDA": 0,
-          "TSLA": 0,
-          "MSFT": 0,
-          "GOOGL": 0,
-          "AMD": 0,
-          "PLTR": 0,
-          "GME": 0
-        },
-        "activity_score": 100,
-        "top_post": "Weekly earnings thread 7/6 - 7/10",
-        "top_post_url": "https://old.reddit.com/r/wallstreetbets/comments/1uln7nr/weekly_earnings_thread_76_710/",
-        "top_post_score": 0,
-        "posts": 25
-      }
-    ],
+    "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Top mentioned: AAPL (1 mentions), AMZN (1 mentions), META (1 mentions), NVDA (0 mentions), TSLA (0 mentions). Subreddits: - r/r/wallstreetbets: activity 100/100.\n\nInterpretation: Very high activity in wallstreetbets, but only few mentions of AAPL, AMZN, META each 1 mention. No mentions of NVDA, TSLA. So sentiment? Hard to infer. Could be mixed because low specific stock mentions but high activity suggests hype. Probably Mixed: high activity but limited bullish mentions. Provide reasons: wallstreetbets activity max (100/100) indicates heightened retail interest; only single mentions each for AAPL, AMZN, META suggest limited conviction; no mentions for NVDA/TSLA. So Mixed.\n\nNeed to start with \"Mixed:\" then reasons. Max 80 words. Let's craft ~40 words.\n\n\"Mixed: r/wallstreetbets shows peak activity (100/100), signaling strong retail engagement, yet only AAPL, AMZN, and META each received a single"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data provided: \"Top mentioned: Subreddits:\" but no actual data? The data seems incomplete. Possibly they expect we infer from given snippet? There's no actual mentions. Might need to note that data is insufficient? But must follow instruction: write exactly one paragraph summarizing overall market sentiment based on the data. Since data is minimal, we can say Mixed due to limited mentions? But need numbers and names where available. There are none. Could we say \"No specific tickers mentioned\"? That would be a name? Might be considered not available. Could we say \"Top mentioned subreddits: ...\"? Actually the line says \"Top mentioned: Subreddits:\" then nothing after colon. So maybe we treat that as no data. Could we still produce a paragraph: \"Mixed: The discussion shows limited engagement with no specific tickers or subreddit names highlighted, indicating uncertainty among retail investors.\" That mentions no numbers though. Need numbers where available. Could we say \"0 mentions\"? That is a number. So we can say \"0 specific tickers were mentioned\". That satisfies numbers. Also mention subreddits? Could say \"no subreddits were listed\". That's a number 0. Let's craft"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: several items labeled Bullish: \"First known congressional SpaceX stock buys surface after record IPO (Bullish)\", \"The World Cup sends prediction market volumes soaring to record highs (Bullish)\", \"Iran begins six-day funeral for Ayatollah Khamenei nearly four months after his death (Bullish)\". Others neutral.\n\nThus overall sentiment likely Bullish. Need to mention numbers and names: SpaceX, World Cup, prediction market volumes record highs, Iran funeral six-day, Ayatollah Khamenei. Also maybe mention congressional SpaceX stock buys. Provide reasons.\n\nWord count max 80. Let's craft ~50 words.\n\nParagraph: \"Bullish: Congressional lawmakers disclosed the first known purchases of SpaceX stock after its record‑setting IPO, signaling confidence in the aerospace firm; the FIFA World Cup drove prediction‑market volumes to all‑time highs, reflecting heightened speculative activity; and Iran’s six‑day funeral for Ayatollah Khamenei, held nearly four months after his death, was interpreted as a stabilizing event that boosted risk appetite.\"\n\nCount words: Let's count.\n\nBullish:(1) Congressional2 lawmakers3 disclosed4 the5 first6 known"
+      "summary": "We need to produce exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: several items labeled Bullish: first known congressional SpaceX stock buys surface after record IPO; The World Cup sends prediction market volumes soaring to record highs; Iran begins six-day funeral for Ayatollah Khamenei nearly four months after his death (they labeled Bullish). Others neutral.\n\nThus overall sentiment likely Bullish. Need to mention numbers and names: SpaceX, record IPO, World Cup prediction market volumes record highs, Ayatollah Khamenei funeral six-day, maybe mention numbers like record IPO, record highs, six-day.\n\nWe need to keep under 80 words. Let's craft ~50 words.\n\nParagraph: \"Bullish: Congressional lawmakers disclosed their first known purchases of SpaceX stock following the company's record‑setting IPO, while the World Cup drove prediction‑market volumes to record highs, and Iran's six‑day funeral for Ayatollah Khamenei—held nearly four months after his death—sparked safe‑haven buying, together signaling strong upward market sentiment.\"\n\nCount words: Let's count.\n\nBullish:(1) Congressional2 lawmakers3 disclosed4 their5 first6 known7 purchases8 of9 SpaceX10 stock11 following"
     },
     "macro": [
       {
@@ -795,19 +786,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 38
+          "interest_score": 30
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 6
+          "interest_score": 4
         },
         {
           "keyword": "Solana",
-          "interest_score": 9
+          "interest_score": 7
         },
         {
           "keyword": "crypto",
-          "interest_score": 29
+          "interest_score": 24
         }
       ]
     }
