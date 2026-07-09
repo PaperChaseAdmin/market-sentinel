@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T09:12:17Z",
+  "updated_at": "2026-07-09T09:36:44Z",
   "crypto": {
     "fear_greed": {
       "value": 22,
@@ -11,66 +11,130 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 62789,
-        "change_24h": 1.39,
-        "market_cap": 1259163749911,
-        "volume_24h": 25138546091
+        "price_usd": 62914,
+        "change_24h": 1.42,
+        "market_cap": 1261794455309,
+        "volume_24h": 24934679214
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 1752.87,
+        "change_24h": 0.94,
+        "market_cap": 211553883100,
+        "volume_24h": 472341581
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 571.66,
+        "change_24h": 1.72,
+        "market_cap": 77049730243,
+        "volume_24h": 34480142
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.094,
+        "change_24h": 1.62,
+        "market_cap": 68365206615,
+        "volume_24h": 731315583
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 78.04,
+        "change_24h": 1.21,
+        "market_cap": 45404209521,
+        "volume_24h": 1184590146
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.072807,
+        "change_24h": 2.28,
+        "market_cap": 11284773852,
+        "volume_24h": 484071424
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.16704,
+        "change_24h": 0.79,
+        "market_cap": 6225538482,
+        "volume_24h": 10101974
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 7.76,
+        "change_24h": 2.39,
+        "market_cap": 5807157218,
+        "volume_24h": 2545689
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 6.74,
+        "change_24h": 6.1,
+        "market_cap": 2908645841,
+        "volume_24h": 35178328
       }
     ],
     "top_mentioned": [
       {
         "symbol": "BTC",
         "mentions": 5,
-        "price_usd": 62789,
-        "change_24h": 1.39
+        "price_usd": 62914,
+        "change_24h": 1.42
       },
       {
         "symbol": "SOL",
         "mentions": 1,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 78.04,
+        "change_24h": 1.21
       },
       {
         "symbol": "ETH",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1752.87,
+        "change_24h": 0.94
       },
       {
         "symbol": "BNB",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 571.66,
+        "change_24h": 1.72
       },
       {
         "symbol": "XRP",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 1.094,
+        "change_24h": 1.62
       },
       {
         "symbol": "ADA",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.16704,
+        "change_24h": 0.79
       },
       {
         "symbol": "DOGE",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 0.072807,
+        "change_24h": 2.28
       },
       {
         "symbol": "AVAX",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 6.74,
+        "change_24h": 6.1
       },
       {
         "symbol": "LINK",
         "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "price_usd": 7.76,
+        "change_24h": 2.39
       },
       {
         "symbol": "TON",
@@ -81,6 +145,16 @@
     ],
     "news": [
       {
+        "title": "Two blockbuster AI IPO's on the horizon could leave crypto further behind",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/07/09/two-blockbuster-ai-ipo-s-on-the-horizon-could-leave-crypto-further-behind",
+        "published": "Thu, 09 Jul 2026 09:31:56 +0000",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Bitcoin's dwindling exchange reserves don't pack the same bullish punch anymore",
         "source": "CoinDesk",
         "url": "https://www.coindesk.com/markets/2026/07/09/bitcoin-s-dwindling-exchange-reserves-don-t-pack-the-same-bullish-punch-anymore",
@@ -88,9 +162,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bearish",
-        "score": -0.4,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "Live markets: Second day of U.S, Iran conflict keeps markets volatile as oil drops",
@@ -99,7 +173,7 @@
         "published": "Thu, 09 Jul 2026 06:51:10 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.7,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -108,9 +182,9 @@
         "url": "https://www.coindesk.com/markets/2026/07/09/bank-of-japan-may-speed-up-rate-hikes-pushing-borrowing-costs-above-2-ex-boj-official-warns",
         "published": "Thu, 09 Jul 2026 06:42:09 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.8,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "'CASHCAT' trader turns $800 into over $1 million on Robinhood's brand new blockchain",
@@ -118,9 +192,9 @@
         "url": "https://www.coindesk.com/tech/2026/07/09/cashcat-trader-turns-usd800-into-over-usd1-million-on-robinhood-s-brand-new-blockchain",
         "published": "Thu, 09 Jul 2026 06:40:50 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "XRP holds near $1.10 as traders watch long-term breakout setup",
@@ -131,7 +205,7 @@
           "XRP"
         ],
         "sentiment": "Bullish",
-        "score": 0.6,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -144,7 +218,7 @@
           "ETH"
         ],
         "sentiment": "Bullish",
-        "score": 0.4,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -154,7 +228,7 @@
         "published": "Wed, 08 Jul 2026 15:58:40 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.2,
+        "score": 0.0,
         "color": "yellow"
       },
       {
@@ -165,9 +239,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bullish",
-        "score": 0.7,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Crypto VC Paradigm launches $1.2 billion AI fund as it broadens beyond digital assets",
@@ -175,19 +249,19 @@
         "url": "https://www.coindesk.com/markets/2026/07/08/crypto-vc-paradigm-launches-usd1-2-billion-ai-fund-as-it-broadens-beyond-digital-assets-bbg",
         "published": "Wed, 08 Jul 2026 15:11:45 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.9,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
-        "title": "Dinari, tZERO join forces on turnkey platform for tokenized U.S. equities",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/business/2026/07/08/dinari-tzero-join-forces-on-turnkey-platform-for-tokenized-u-s-equities",
-        "published": "Wed, 08 Jul 2026 14:35:04 +0000",
+        "title": "Bank of Korea stands firm on bank-led stablecoin push as deposit token pilots advance",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/bank-of-korea-bank-led-stablecoins-deposit-token-pilots?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Thu, 09 Jul 2026 09:19:38 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.8,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "SWIFT launches blockchain ledger with 17-bank tokenized deposit pilot",
@@ -195,9 +269,9 @@
         "url": "https://cointelegraph.com/news/swift-launches-blockchain-announces-tokenized-deposit-pilot-with-17-banks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Thu, 09 Jul 2026 08:51:48 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Regulators invited Binance to seek new licenses after MiCA setback, co-CEO says",
@@ -205,9 +279,9 @@
         "url": "https://cointelegraph.com/news/regulators-invite-binance-seek-new-license-mica-setback-teng?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Thu, 09 Jul 2026 08:26:30 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.6,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Russia's largest private bank Alfa-Bank tests crypto trading",
@@ -215,9 +289,9 @@
         "url": "https://cointelegraph.com/news/russia-largest-private-bank-alfa-bank-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Thu, 09 Jul 2026 08:22:36 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.8,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Wyden urges Senate leaders to keep dev protections in crypto bill",
@@ -225,37 +299,20 @@
         "url": "https://cointelegraph.com/news/senate-leaders-urged-to-keep-dev-protections-in-crypto-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Thu, 09 Jul 2026 06:03:49 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.5,
-        "color": "green"
-      },
-      {
-        "title": "Here’s what happened in crypto today",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Thu, 09 Jul 2026 06:00:00 +0000",
-        "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": 0.373,
-      "label": "Bullish",
-      "color": "green"
+      "score": 0.133,
+      "label": "Neutral",
+      "color": "yellow"
     },
-    "polymarket": [
-      {
-        "title": "Will Bitcoin reach $70,000 in July?",
-        "volume_24h": 120685,
-        "yes_price": 0.22,
-        "category": "crypto"
-      }
-    ],
+    "polymarket": [],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: only one market: \"Will Bitcoin reach $70,000 in July?: Yes 22% (vol $120,685)\". So sentiment: low probability (22%) suggests bearish. So start with 'Bearish:' then mention that only 22% of market participants think Bitcoin will hit $70k in July, with volume $120,685 indicating limited conviction. Must be one paragraph, max 80 words. Let's craft ~30 words.\n\n\"Bearish: Only 22% of participants in the prediction market expect Bitcoin to reach $70,000 in July, reflecting low confidence, while the modest trading volume of $120,685 suggests limited conviction and weak bullish momentum.\"\n\nCount words: Bearish:(1) Only2 22%3 of4 participants5 in6 the7 prediction8 market9 expect10 Bitcoin11 to12 reach13 $70,00014 in15 July,16 reflecting17 low18 confidence,19 while20 the21 modest22 trading23 volume24 of25 $120"
+      "summary": "Insufficient data to generate a summary."
     },
     "reddit": [
       {
@@ -281,23 +338,23 @@
     ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Top mentioned: BTC (5 mentions), SOL (1 mentions), ETH (0), BNB (0), XRP (0). Subreddits: r/r/CryptoCurrency: activity 100/100.\n\nInterpretation: high activity in CryptoCurrency subreddit, BTC mentioned 5 times, SOL 1 time, others zero. Likely sentiment? Not given explicit sentiment, but we infer from mentions? Usually more mentions of BTC could be bullish? But we need to decide. Since no explicit sentiment, we could say Mixed due to limited data. But we need to mention numbers and names. Provide reasons: high activity, BTC leading mentions, SOL minor, others absent. Could interpret as bullish because BTC dominant. Let's choose Bullish.\n\nParagraph: \"Bullish: The r/CryptoCurrency subreddit shows maximal engagement (activity 100/100), with Bitcoin dominating discussion at 5 mentions, followed by a single Solana reference, while Ethereum, BNB, and XRP receive zero mentions, indicating strong focus on the leading crypto assets and suggesting optimistic market sentiment.\"\n\nCount words: Let's count.\n\n\"Bullish:\" (1"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Top mentioned: BTC (5 mentions), SOL (1 mentions), ETH (0), BNB (0), XRP (0). Subreddits: r/r/CryptoCurrency: activity 100/100.\n\nInterpretation: high activity in CryptoCurrency subreddit, BTC mentioned 5 times, SOL 1 time. No other mentions. Likely sentiment? Not given directly, but we infer from mentions? Usually more mentions of BTC could be bullish? But we need to decide. Since only BTC and SOL mentioned, and high activity, maybe bullish. Provide reasons: BTC 5 mentions, SOL 1 mention, subreddit activity max 100/100 indicates strong engagement. So Bullish.\n\nWe need to keep under 80 words. Let's craft ~40 words.\n\n\"Bullish: Bitcoin dominated discussion with 5 mentions, while Solana appeared once, indicating focused interest in major assets; the r/CryptoCurrency subreddit showed peak activity (100/100), reflecting heightened trader engagement and optimism about market direction.\"\n\nCount words: Bullish:(1) Bitcoin2 dominated3 discussion4 with5 5 mentions"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's count: Bearish items: Bitcoin's dwindling exchange reserves (Bearish), Live markets: second day of US Iran conflict (Bearish), Bank of Japan may speed up rate hikes (Bearish). That's 3 bearish.\n\nBullish items: 'CASHCAT' trader turns $800 into over $1 million on Robinhood's brand new blockchain (Bullish), XRP holds near $1.10 as traders watch long-term breakout setup (Bullish), Bitcoin, ether steady, gold slides as US-Iran tensions escalate again (Bullish), Crypto Long & Short: With MSTR concerns assuaged, look to traditional signals around BTC (Bullish). That's 4 bullish.\n\nNeutral: Polymarket bets on US marketing blitz (Neutral). So overall maybe Mixed, but more bullish than bearish. Could be Mixed with reasons. The instruction: start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. So we choose Mixed: and give reasons.\n\nWe need to mention numbers and names where available. Include: $800 turned into over"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Must be concise. Determine overall sentiment: we have several bullish statements: Bitcoin's dwindling exchange reserves don't pack same bullish punch (actually says \"don't pack the same bullish punch anymore\" - that's bearish? It says \"Bitcoin's dwindling exchange reserves don't pack the same bullish punch anymore\" implies less bullish, maybe neutral/bearish. But they labeled it Bullish in data. We'll trust label. XRP holds near $1.10 (bullish). Bitcoin, ether steady, gold slides as US-Iran tensions escalate again (bullish). Also Live markets: second day of US, Iran conflict keeps markets volatile as oil drops (bearish). Others neutral. So overall maybe Mixed. Need start with Mixed: then reasons. Include numbers: XRP near $1.10, $800 to over $1 million, oil drops (no number), US-Iran conflict, Bank of Japan rate hikes above 2%, two blockbuster AI IPOs, Polymarket bets. Keep under 80 words.\n\nLet's craft ~70 words.\n\nParagraph: Mixed: ... Ensure start exactly \"Mixed:\" then space then sentence.\n\nWord count: Let's draft ~65"
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 149,
+      "active_threads": 148,
       "mentions": {
         "XRP": 21,
-        "BTC": 14,
+        "BTC": 13,
         "ETH": 3
       },
-      "bullish_hits": 85,
-      "bearish_hits": 46,
-      "bullish_pct": 65,
+      "bullish_hits": 83,
+      "bearish_hits": 43,
+      "bullish_pct": 66,
       "top_coin": "XRP"
     },
     "cg_trending": [
@@ -306,49 +363,49 @@
         "name": "Bitcoin",
         "rank": 1,
         "score": 0,
-        "change_24h": 1.39
+        "change_24h": 1.51
       },
       {
         "symbol": "LAB",
         "name": "LAB",
-        "rank": null,
+        "rank": 120,
         "score": 1,
-        "change_24h": 0
+        "change_24h": -54.57
       },
       {
         "symbol": "CASHCAT",
         "name": "Cash Cat",
-        "rank": 38,
+        "rank": 273,
         "score": 2,
-        "change_24h": -4.97
+        "change_24h": -0.98
       },
       {
         "symbol": "ANSEM",
         "name": "The Black Bull",
-        "rank": 25,
+        "rank": 230,
         "score": 3,
-        "change_24h": 2.07
+        "change_24h": 4.57
       },
       {
         "symbol": "ARB",
         "name": "Arbitrum",
-        "rank": null,
+        "rank": 97,
         "score": 4,
-        "change_24h": 0
+        "change_24h": 13.36
       },
       {
-        "symbol": "GRAM",
-        "name": "Gram (prev. Toncoin)",
-        "rank": null,
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "rank": 2,
         "score": 5,
-        "change_24h": 0
+        "change_24h": 1.02
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "rank": null,
+        "symbol": "XRP",
+        "name": "XRP",
+        "rank": 6,
         "score": 6,
-        "change_24h": 0
+        "change_24h": 1.73
       }
     ]
   },
@@ -367,12 +424,12 @@
         "change_24h": -1.09
       },
       "vix": {
-        "value": 16.71,
-        "change_24h": -1.12
+        "value": 16.82,
+        "change_24h": -0.47
       }
     },
     "market_mood": {
-      "score": -0.09,
+      "score": -0.123,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -436,8 +493,18 @@
         "url": "https://www.cnbc.com/2026/07/09/oil-rises-as-iran-us-tensions-raise-concerns-over-supply-disruptions-.html",
         "published": "Thu, 09 Jul 2026 06:51:07 GMT",
         "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
+        "title": "Ukraine’s drone playbook is wreaking havoc in Russia — and upending where NATO wants to invest",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/09/ukraine-drone-strikes-russia-nato.html",
+        "published": "Thu, 09 Jul 2026 05:15:02 GMT",
+        "assets": [],
         "sentiment": "Neutral",
-        "score": -0.2,
+        "score": 0.0,
         "color": "yellow"
       },
       {
@@ -447,28 +514,18 @@
         "published": "Thu, 09 Jul 2026 08:53:44 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -1.0,
         "color": "red"
       },
       {
-        "title": "Ukraine’s drone playbook is wreaking havoc in Russia — and upending where NATO wants to invest",
+        "title": "Jim Cramer sees a big risk to the bull market resurfacing — and it's not the Iran war",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/07/09/ukraine-drone-strikes-russia-nato.html",
-        "published": "Thu, 09 Jul 2026 05:15:02 GMT",
+        "url": "https://www.cnbc.com/2026/07/08/jim-cramer-risk-bull-market-resurfacing.html",
+        "published": "Wed, 08 Jul 2026 22:14:51 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": -0.1,
+        "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Why the world’s best-performing stock market this year fell into bear territory",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/07/09/kospi-bear-territory-ai-samsung-skhynix-chipmakers.html",
-        "published": "Thu, 09 Jul 2026 08:48:32 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.7,
-        "color": "red"
       },
       {
         "title": "Platner quits Maine Senate race; Democrats set to pick new nominee",
@@ -481,14 +538,36 @@
         "color": "yellow"
       },
       {
-        "title": "Jim Cramer sees a big risk to the bull market resurfacing — and it's not the Iran war",
+        "title": "McConnell health update demanded by Gov. Beshear as Senate vacancy questions grow",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/07/08/jim-cramer-risk-bull-market-resurfacing.html",
-        "published": "Wed, 08 Jul 2026 22:14:51 GMT",
+        "url": "https://www.cnbc.com/2026/07/08/mcconnell-health-update-beshear-hospitalization-kentucky.html",
+        "published": "Wed, 08 Jul 2026 17:42:25 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.4,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
+        "title": "Trump announces long-shot bid to get Supreme Court to rehear birthright citizenship case",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/08/trump-supreme-court-birthright-citizenship-rehearing.html",
+        "published": "Wed, 08 Jul 2026 22:06:19 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
+        "title": "Meta is building its first big Canadian data center as AI expansion crosses the border",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html",
+        "published": "Wed, 08 Jul 2026 20:40:10 GMT",
+        "assets": [
+          "META"
+        ],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Levi Strauss beats quarterly expectations, raises guidance and dividend",
@@ -497,40 +576,28 @@
         "published": "Wed, 08 Jul 2026 21:32:49 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.9,
+        "score": 1.0,
         "color": "green"
       },
       {
-        "title": "AirPods-maker Luxshare sees shares close lower in tepid Hong Kong debut",
+        "title": "Fed officials were split on direction of interest rates at last meeting, minutes show",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/07/09/luxshare-ipo-hong-kong-debut-apple-airpod-.html",
-        "published": "Thu, 09 Jul 2026 08:42:13 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.3,
-        "color": "red"
-      },
-      {
-        "title": "Trump loses appeals court bid to delay paying E. Jean Carroll $5M in damages",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/07/08/trump-e-jean-carroll-supreme-court-sex-abuse.html",
-        "published": "Thu, 09 Jul 2026 02:47:58 GMT",
+        "url": "https://www.cnbc.com/2026/07/08/fed-minutes-june-2026-.html",
+        "published": "Wed, 08 Jul 2026 19:05:47 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": -0.2,
+        "score": 0.0,
         "color": "yellow"
       },
       {
-        "title": "World Cup drives Google Search to record queries per second",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/07/08/world-cup-drives-google-search-to-record-queries-per-second.html",
-        "published": "Thu, 09 Jul 2026 00:34:21 GMT",
-        "assets": [
-          "GOOGL"
-        ],
-        "sentiment": "Bullish",
-        "score": 0.6,
-        "color": "green"
+        "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
+        "published": "Thu, 09 Jul 2026 09:30:00 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Former Dallas Cowboys cheerleader Reece Weaver buys $750,000 home in Alabama after sudden exit from squad",
@@ -538,9 +605,9 @@
         "url": "https://www.marketwatch.com/story/former-dallas-cowboys-cheerleader-reece-weaver-buys-750-000-home-in-alabama-after-sudden-exit-from-squad-71796a9b?mod=mw_rss_topstories",
         "published": "Thu, 09 Jul 2026 09:01:00 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "7-Eleven made $349 million from surge in gasoline prices in the U.S. last quarter",
@@ -549,7 +616,7 @@
         "published": "Thu, 09 Jul 2026 08:39:00 GMT",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.5,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -558,9 +625,9 @@
         "url": "https://www.marketwatch.com/story/levis-is-finding-new-ways-to-win-customers-by-looking-toward-tops-and-denim-luxury-b6e0890a?mod=mw_rss_topstories",
         "published": "Thu, 09 Jul 2026 00:38:00 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.6,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Higher gas prices aren’t the only way rising tensions with Iran will hit home",
@@ -568,88 +635,78 @@
         "url": "https://www.marketwatch.com/story/higher-gas-prices-arent-the-only-way-rising-tensions-with-iran-will-hit-home-0a995066?mod=mw_rss_topstories",
         "published": "Thu, 09 Jul 2026 00:07:00 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.5,
-        "color": "red"
-      },
-      {
-        "title": "I started retirement with $3 million. Now I’m 89 and down to $2 million. What if I get sick?",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/i-started-retirement-with-3-million-now-im-89-and-down-to-2-million-what-if-i-get-sick-7401056a?mod=mw_rss_topstories",
-        "published": "Wed, 08 Jul 2026 22:48:00 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.8,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.1,
+      "score": 0.267,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 903812,
-        "yes_price": 0.8,
+        "volume_24h": 750834,
+        "yes_price": 0.81,
         "category": "finance"
       },
       {
         "title": "Will Count Binface win the Clacton by-election?",
-        "volume_24h": 555981,
+        "volume_24h": 549483,
         "yes_price": 0.08,
         "category": "finance"
       },
       {
         "title": "Putin out as President of Russia by December 31, 2026?",
-        "volume_24h": 502650,
+        "volume_24h": 502620,
         "yes_price": 0.09,
         "category": "finance"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "volume_24h": 405164,
-        "yes_price": 0.2,
-        "category": "finance"
-      },
-      {
-        "title": "Iran full airspace closure by July 15?",
-        "volume_24h": 381943,
-        "yes_price": 0.14,
+        "volume_24h": 443791,
+        "yes_price": 0.19,
         "category": "finance"
       },
       {
         "title": "Will Pete Buttigieg win the 2028 US Presidential Election?",
-        "volume_24h": 380085,
+        "volume_24h": 399807,
         "yes_price": 0.02,
         "category": "finance"
       },
       {
+        "title": "Iran full airspace closure by July 15?",
+        "volume_24h": 381264,
+        "yes_price": 0.13,
+        "category": "finance"
+      },
+      {
         "title": "Will Iran announce withdrawal from MOU negotiations by July 31?",
-        "volume_24h": 379146,
-        "yes_price": 0.17,
+        "volume_24h": 359227,
+        "yes_price": 0.15,
         "category": "finance"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 324629,
+        "volume_24h": 321713,
         "yes_price": 0.17,
         "category": "finance"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:'? Actually start with 'Bullish:', 'Bearish:', or 'Mixed:'\". So we need to choose based on overall market sentiment: We have a Fed no change 80% (vol $Mixed:? Actually 'Mixed:' is allowed. Must start with one of those words followed by colon. Then summarize overall market sentiment, mention numbers and names where available. Max 80 words.\n\nWe need to interpret data: Fed interest rates: high probability of no change (80% yes) vs increase 20% yes. So sentiment about Fed is stable/no hike, which is bullish for markets? Typically no change is neutral to slightly bullish. Other events: low probabilities for political events (Binface 8%, Putin out 9%, Buttigieg 2%, Iran airspace closure 14%, Iran withdrawal 17%, US invade Iran 17%). These are low probabilities, indicating market expects status quo. Overall sentiment maybe mixed? But given Fed stable expectation, maybe bullish? However low probability of geopolitical shocks suggests risk-off? Actually low probability of negative events suggests confidence, bullish. So we can say Bullish: because Fed likely holds rates (80% yes) and low chances of disruptive geopolitical events (e.g., Putin out 9%,"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret overall market sentiment based on these prediction markets. The data: Fed no change after July 2026: Yes 81% (vol $750,834) => high confidence of no change. Fed increase 25bps after July 2026: Yes 19% (vol $443,791). So low chance of increase. So overall sentiment about Fed is stable/no hike => maybe bullish for markets? But other events: low probabilities for political events: Count Binface winning Clacton by-election 8%, Putin out 9%, Buttigieg winning 2028 election 2%, Iran airspace closure 13%, Iran withdrawal from MOU 15%, US invade Iran before 2027 17%. All low probabilities, suggesting market expects status quo, low geopolitical risk. That could be bullish (risk-on). So overall sentiment likely Bullish.\n\nWe need to start with \"Bullish:\" then reasons, mention numbers and names where available. Must be one paragraph, max 80 words.\n\nLet's craft ~70 words.\n\n\"Bullish: Prediction markets show an 81"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Please provide the stock Reddit discussion data (Top mentioned stocks and Subreddits) so I can analyze it and write the summary for you."
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no specifics, we can say insufficient data leads to mixed sentiment? But need to mention numbers and names where available. There are none. Could we say \"No specific tickers or numbers were mentioned\"? That would be a mention of absence. Might be acceptable.\n\nWe need to start with one of those prefixes. Choose \"Mixed:\" because no clear bullish/bearish signals. Then give reasons: limited discussion, no specific tickers, low volume, etc. Must be max 80 words. Let's craft ~40 words.\n\n\"Mixed: The Reddit snapshot shows only subreddit listings without any ticker mentions, volume figures, or sentiment cues, making it impossible to gauge a clear direction; absent concrete numbers or named stocks, analysts cannot discern bullish or bearish bias, resulting in an indeterminate, mixed outlook.\"\n\nCount words: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 subreddit7 listings8 without9 any10 ticker11 mentions,12 volume1"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: then specific reasons, mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data. Let's count sentiment: Bearish items: AstraZeneca -9%, world's best-performing stock market fell into bear territory, Jim Cramer sees big risk, Luxshare shares lower. Bullish: Levi Strauss beats expectations, raises guidance and dividend. Neutral: oil prices ease, Ukraine drone playbook, Platner quits. So more bearish than bullish. Overall sentiment likely Mixed or Bearish. Since more bearish, we could say Bearish: with reasons. Must start with Bearish: then list reasons. Include numbers and names: AstraZeneca -9%, Levi Strauss beats expectations (maybe mention %), Jim Cramer, Luxshare shares lower, world’s best-performing stock market fell into bear territory (maybe name? Not given). Could mention \"global equity index\" but not given. We'll keep generic.\n\nWord count max 80. Let's craft ~50 words.\n\nParagraph: \"Bearish: AstraZeneca’s stock slid 9% after its heart‑drug trial missed the primary endpoint, Luxshare’s shares fell in a tepid Hong Kong debut, Jim Cramer warned of a renewed risk to the bull market, and the year‑top‑performing equity market slipped into bear territory;"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Items: Oil prices ease after spiking following fresh U.S. strikes against Iran (Bullish). Ukraine’s drone playbook is wreaking havoc in Russia — and upending where NATO wants to invest (Neutral). AstraZeneca stock dives 9% after heart drug trial misses target (Bearish). Jim Cramer sees a big risk to the bull market resurfacing — and it's not the Iran war (Neutral). Platner quits Maine Senate race; Democrats set to pick new nominee (Neutral). McConnell health update demanded by Gov. Beshear as Senate vacancy questions grow (Neutral). Trump announces long-shot bid to get Supreme Court to rehear birthright citizenship case (Bullish). Meta is building its first big Canadian data center as AI expansion crosses the border (Neutral).\n\nWe have two bullish items (oil price ease, Trump Supreme Court bid) and one bearish (AstraZeneca -9%). Others neutral. Overall maybe Mixed. Provide reasons with numbers and names.\n\nWe need exactly one paragraph, start with \"Mixed:\" then reasons. Max 80 words. Let's craft ~55 words"
     },
     "macro": [
       {
@@ -661,20 +718,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 100.97,
-        "change_24h": -0.08
+        "value": 100.98,
+        "change_24h": -0.07
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4116.5,
-        "change_24h": 1.12
+        "value": 4117.4,
+        "change_24h": 1.14
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 73.1,
-        "change_24h": -0.57
+        "value": 73.13,
+        "change_24h": -0.53
       }
     ],
     "most_active": [
