@@ -14,13 +14,13 @@ CRYPTO_FEEDS = [
 ]
 
 STOCK_FEEDS = [
+    ("Bloomberg",        "https://feeds.bloomberg.com/markets/news.rss"),
     ("CNBC",             "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
     ("MarketWatch",      "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
-    ("Yahoo Fin",        "https://finance.yahoo.com/news/rssindex"),
-    ("Bloomberg",        "https://feeds.bloomberg.com/markets/news.rss"),
     ("WSJ",              "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml"),
     ("Fortune",          "https://fortune.com/feed"),
     ("Financial Times",  "https://www.ft.com/?format=rss"),
+    ("Yahoo Fin",        "https://finance.yahoo.com/news/rssindex"),
 ]
 
 HEADERS = {"User-Agent": "MarketSentinelBot/1.0 (research dashboard)"}
@@ -30,7 +30,7 @@ def _parse_feed(name: str, url: str, max_items: int = 10) -> list[dict]:
     try:
         feed = feedparser.parse(url, request_headers=HEADERS)
         for i, entry in enumerate(feed.entries):
-            if i >= 7: break
+            if i >= 3: break
             title = entry.get("title", "").strip()
             link  = entry.get("link", "")
             pub   = entry.get("published", entry.get("updated", ""))
