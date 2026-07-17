@@ -217,6 +217,7 @@ def fetch_stock_reddit() -> list[dict]:
                 "top_post_url": top.get("url", ""),
                 "top_post_score": top.get("score", 0),
                 "posts": len(posts),
+                "posts_list": [{"title": p["title"], "url": p["url"]} for p in posts[:8]],
             })
         except Exception as e:
             print(f"  [Reddit RSS] r/{sub}: {e}")

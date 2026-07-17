@@ -66,6 +66,15 @@ def fetch_biz_sentiment() -> dict:
         active = sum(1 for t in threads if t["replies"] >= 5)
         top = mentions.most_common(3)
 
+        # Top post titles (top 5 by reply count)
+        threads_sorted = sorted(threads, key=lambda t: t["replies"], reverse=True)
+        top_posts = []
+        for t in threads_sorted[:5]:
+            # Clean up: remove excessive whitespace, truncate
+            txt = re.sub(r"\s+", " ", t["text"]).strip()[:120]
+            if txt:
+                top_posts.append(txt)
+
         return {
             "thread_count":   len(threads),
             "active_threads": active,
@@ -74,6 +83,7 @@ def fetch_biz_sentiment() -> dict:
             "bearish_hits":   bear,
             "bullish_pct":    round(bull / total * 100),
             "top_coin":       top[0][0] if top else "BTC",
+            "top_posts":      top_posts,
         }
 
     except Exception as e:
