@@ -74,6 +74,7 @@ def fetch_polymarket(limit: int = 500) -> dict:
                 "volume_24h": round(volume),
                 "yes_price":  round(yes_bid, 2),
                 "category":   _categorize(title),
+                "url":        f"https://polymarket.com/event/{m.get('slug','')}",
             }
             if item["category"] == "crypto":
                 crypto.append(item)
