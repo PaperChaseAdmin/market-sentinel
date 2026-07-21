@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T23:10:50Z",
+  "updated_at": "2026-07-21T23:20:46Z",
   "crypto": {
     "fear_greed": {
       "value": 25,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 66235,
-        "change_24h": 1.73,
-        "market_cap": 1328672691722,
-        "volume_24h": 29958422350
+        "price_usd": 66283,
+        "change_24h": 1.69,
+        "market_cap": 1329614620305,
+        "volume_24h": 30171507467
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1917.3,
-        "change_24h": 1.03,
-        "market_cap": 231425989650,
-        "volume_24h": 10932388086
+        "price_usd": 1918.77,
+        "change_24h": 0.91,
+        "market_cap": 231560650523,
+        "volume_24h": 11120807063
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 571.88,
-        "change_24h": 0.38,
-        "market_cap": 76153576485,
-        "volume_24h": 609417801
+        "price_usd": 572.11,
+        "change_24h": 0.31,
+        "market_cap": 76185032517,
+        "volume_24h": 605132806
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.14,
-        "change_24h": 2.61,
-        "market_cap": 71139617752,
-        "volume_24h": 1445163320
+        "change_24h": 2.43,
+        "market_cap": 71116442108,
+        "volume_24h": 1445456804
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 77.83,
-        "change_24h": 0.5,
-        "market_cap": 45355736851,
-        "volume_24h": 1507812838
+        "price_usd": 77.8,
+        "change_24h": 0.27,
+        "market_cap": 45337946231,
+        "volume_24h": 1506825837
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.073024,
-        "change_24h": 1.75,
-        "market_cap": 11330805579,
-        "volume_24h": 491202491
+        "price_usd": 0.073006,
+        "change_24h": 1.46,
+        "market_cap": 11327906503,
+        "volume_24h": 490801228
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 8.62,
         "change_24h": 0.73,
-        "market_cap": 6445153292,
-        "volume_24h": 225879016
+        "market_cap": 6451579247,
+        "volume_24h": 223197421
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.172563,
-        "change_24h": 1.93,
-        "market_cap": 6434453760,
-        "volume_24h": 387410388
+        "price_usd": 0.172412,
+        "change_24h": 1.56,
+        "market_cap": 6428853457,
+        "volume_24h": 383416981
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.54,
-        "change_24h": -0.26,
-        "market_cap": 2824388843,
-        "volume_24h": 155289344
+        "price_usd": 6.53,
+        "change_24h": -0.54,
+        "market_cap": 2819363768,
+        "volume_24h": 152017033
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 4,
+        "price_usd": 66283,
+        "change_24h": 1.69
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 1918.77,
+        "change_24h": 0.91
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 1,
+        "price_usd": 0.172412,
+        "change_24h": 1.56
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 77.8,
+        "change_24h": 0.27
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 572.11,
+        "change_24h": 0.31
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.14,
+        "change_24h": 2.43
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.073006,
+        "change_24h": 1.46
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.53,
+        "change_24h": -0.54
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.62,
+        "change_24h": 0.73
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Crypto lobby group Digital Chamber sues Illinois to block digital asset tax",
@@ -90,7 +151,7 @@
         "published": "Tue, 21 Jul 2026 22:08:10 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -102,7 +163,7 @@
           "ETH"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -114,7 +175,7 @@
           "BTC"
         ],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -123,9 +184,9 @@
         "url": "https://cointelegraph.com/news/clarity-act-cftc-prediction-markets-resources?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Tue, 21 Jul 2026 21:36:43 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "Movement Labs files for Chapter 11 bankruptcy after months of MOVE token turmoil",
@@ -156,7 +217,7 @@
         "published": "Tue, 21 Jul 2026 21:29:03 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -165,9 +226,9 @@
         "url": "https://decrypt.co/374001/pavel-durov-telegram-crypto-wallet-billion-users",
         "published": "Tue, 21 Jul 2026 20:20:49 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "Google Ships New Gemini Flash Models, But Pro Is Still Missing",
@@ -175,9 +236,9 @@
         "url": "https://decrypt.co/373975/google-new-gemini-flash-models-pro-still-missing",
         "published": "Tue, 21 Jul 2026 18:55:45 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Senator Lummis says with CLARITY “your crypto stays yours” – but bankruptcy shields have limits",
@@ -185,9 +246,9 @@
         "url": "https://cryptoslate.com/senator-lummis-says-with-clarity-your-crypto-stays-yours-but-bankruptcy-shields-have-limits/",
         "published": "Tue, 21 Jul 2026 21:35:14 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
       },
       {
         "title": "BitMine gets 98% of revenue from staking as a decade-long contract complicates an early exit",
@@ -195,9 +256,9 @@
         "url": "https://cryptoslate.com/bitmine-gets-98-of-revenue-from-staking-as-a-decade-long-contract-complicates-an-early-exit/",
         "published": "Tue, 21 Jul 2026 20:35:33 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "Winklevoss twins gave Trump’s super PAC $10 million 23 days after CFTC joined Gemini relief bid",
@@ -205,13 +266,13 @@
         "url": "https://cryptoslate.com/winklevoss-twins-gave-trumps-super-pac-10-million-23-days-after-cftc-joined-gemini-relief-bid/",
         "published": "Tue, 21 Jul 2026 19:30:26 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.083,
+      "score": 0.083,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -219,7 +280,7 @@
       {
         "title": "Will Bitcoin reach $67,500 in July?",
         "volume_24h": 148534,
-        "yes_price": 0.73,
+        "yes_price": 0.72,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-67pt5k-in-july-2026"
       },
@@ -232,21 +293,21 @@
       },
       {
         "title": "Will Bitcoin reach $67,000 on July 21?",
-        "volume_24h": 116233,
+        "volume_24h": 117403,
         "yes_price": 0.1,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-67k-on-july-21"
       },
       {
         "title": "Will Bitcoin reach $70,000 in July?",
-        "volume_24h": 106318,
+        "volume_24h": 106599,
         "yes_price": 0.33,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-70k-in-july-2026"
       },
       {
         "title": "Will Bitcoin reach $72,500 in July?",
-        "volume_24h": 94592,
+        "volume_24h": 94634,
         "yes_price": 0.12,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-72pt5k-in-july-2026"
@@ -263,10 +324,31 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 4,
+          "ETH": 1,
+          "ADA": 1,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - July 21, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1v2y8nv/daily_crypto_discussion_july_21_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Discussion lacks clear direction, with no specific numbers or names mentioned, indicating uncertainty among Redditors about the crypto market's future."
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Bearish",
@@ -298,49 +380,49 @@
         "name": "Caldera",
         "rank": 908,
         "score": 0,
-        "change_24h": 53.32
+        "change_24h": 50.28
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "rank": 114,
+        "rank": 115,
         "score": 1,
-        "change_24h": -0.05
-      },
-      {
-        "symbol": "PONS",
-        "name": "Pons",
-        "rank": 676,
-        "score": 2,
-        "change_24h": 77.84
+        "change_24h": -0.28
       },
       {
         "symbol": "DEXE",
         "name": "DeXe",
-        "rank": 131,
+        "rank": 126,
+        "score": 2,
+        "change_24h": -80.6
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "rank": 659,
         "score": 3,
-        "change_24h": -81.98
+        "change_24h": 81.99
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
         "rank": 77,
         "score": 4,
-        "change_24h": 0.59
+        "change_24h": -0.05
       },
       {
         "symbol": "MOVE",
         "name": "Movement",
-        "rank": 474,
+        "rank": 473,
         "score": 5,
-        "change_24h": 0.73
+        "change_24h": 0.67
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
         "rank": 42,
         "score": 6,
-        "change_24h": 2.36
+        "change_24h": 2.14
       }
     ]
   },
@@ -483,6 +565,16 @@
         "color": "yellow"
       },
       {
+        "title": "Here’s how to time your retirement to keep your healthcare costs down",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/heres-how-to-time-your-retirement-to-keep-your-healthcare-costs-down-b1a4d427?mod=mw_rss_topstories",
+        "published": "Tue, 21 Jul 2026 23:16:00 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
         "title": "Super Micro’s stock soars as its margins unexpectedly double",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/super-micros-stock-soars-as-its-margins-unexpectedly-double-8aa83784?mod=mw_rss_topstories",
@@ -501,16 +593,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "I will definitely claim Social Security early. Why do so few people talk about the elephant in the room?",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/i-will-claim-social-security-early-why-do-so-few-people-talk-about-the-elephant-in-the-room-64820675?mod=mw_rss_topstories",
-        "published": "Tue, 21 Jul 2026 20:30:00 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
@@ -576,42 +658,42 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.0,
+      "score": -0.067,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 1912814,
+        "volume_24h": 1914346,
         "yes_price": 0.84,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "volume_24h": 1230534,
+        "volume_24h": 1231126,
         "yes_price": 0.15,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting"
       },
       {
         "title": "Will LeBron James play for the Golden State Warriors in 2026-27?",
-        "volume_24h": 302514,
+        "volume_24h": 306763,
         "yes_price": 0.2,
         "category": "finance",
         "url": "https://polymarket.com/event/will-lebron-james-play-for-the-golden-state-warriors-in-2026-27"
       },
       {
         "title": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
-        "volume_24h": 286582,
+        "volume_24h": 286584,
         "yes_price": 0.73,
         "category": "finance",
         "url": "https://polymarket.com/event/will-mojtaba-khamenei-be-head-of-state-in-iran-end-of-2026"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 240910,
+        "volume_24h": 249090,
         "yes_price": 0.28,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
@@ -632,7 +714,7 @@
       },
       {
         "title": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in July?",
-        "volume_24h": 134297,
+        "volume_24h": 134268,
         "yes_price": 0.45,
         "category": "finance",
         "url": "https://polymarket.com/event/will-wti-reach-90-in-july-2026-334"
@@ -649,7 +731,7 @@
     },
     "news_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: 8 bullish vs 1 bearish signals detected across stock/finance news data."
+      "summary": "Bullish: 7 bullish vs 4 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -667,14 +749,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4084.1,
-        "change_24h": 1.84
+        "value": 4085.1,
+        "change_24h": 1.87
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 84.71,
-        "change_24h": 1.78
+        "value": 84.68,
+        "change_24h": 1.74
       }
     ],
     "most_active": [
@@ -741,7 +823,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 76
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 13
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 11
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 46
+        }
+      ]
     }
   },
   "portfolio": [
