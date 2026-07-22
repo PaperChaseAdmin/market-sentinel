@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T23:31:05Z",
+  "updated_at": "2026-07-22T23:41:30Z",
   "crypto": {
     "fear_greed": {
       "value": 33,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 65945,
-        "change_24h": -0.66,
-        "market_cap": 1322882866321,
-        "volume_24h": 27830290412
+        "price_usd": 65937,
+        "change_24h": -0.67,
+        "market_cap": 1322686761953,
+        "volume_24h": 28149958506
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1928.08,
-        "change_24h": 0.32,
-        "market_cap": 232711124180,
-        "volume_24h": 9602880600
+        "price_usd": 1929.15,
+        "change_24h": 0.36,
+        "market_cap": 232815792640,
+        "volume_24h": 9410945845
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 569.87,
-        "change_24h": -0.47,
-        "market_cap": 75888305061,
-        "volume_24h": 517588868
+        "price_usd": 569.94,
+        "change_24h": -0.52,
+        "market_cap": 75896329532,
+        "volume_24h": 514108127
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.14,
-        "change_24h": 0.04,
-        "market_cap": 71126436628,
-        "volume_24h": 1042646434
+        "change_24h": -0.1,
+        "market_cap": 71159887014,
+        "volume_24h": 1034499860
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 77.67,
-        "change_24h": -0.24,
-        "market_cap": 45270334935,
-        "volume_24h": 1609585787
+        "price_usd": 77.72,
+        "change_24h": -0.34,
+        "market_cap": 45295924835,
+        "volume_24h": 1608817134
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.072692,
-        "change_24h": -0.49,
-        "market_cap": 11280244467,
-        "volume_24h": 487305481
+        "price_usd": 0.072749,
+        "change_24h": -0.45,
+        "market_cap": 11289228646,
+        "volume_24h": 478033033
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.173632,
-        "change_24h": 0.66,
-        "market_cap": 6474159426,
-        "volume_24h": 292068218
+        "price_usd": 0.173705,
+        "change_24h": 0.6,
+        "market_cap": 6477073922,
+        "volume_24h": 292260164
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 8.6,
-        "change_24h": -0.34,
-        "market_cap": 6435183079,
-        "volume_24h": 185647293
+        "change_24h": -0.36,
+        "market_cap": 6435800652,
+        "volume_24h": 185837321
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 6.6,
-        "change_24h": 0.89,
-        "market_cap": 2848150696,
-        "volume_24h": 123720699
+        "change_24h": 0.79,
+        "market_cap": 2850331852,
+        "volume_24h": 126797911
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 4,
+        "price_usd": 65937,
+        "change_24h": -0.67
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 2,
+        "price_usd": 1.14,
+        "change_24h": -0.1
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 1929.15,
+        "change_24h": 0.36
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 1,
+        "price_usd": 0.173705,
+        "change_24h": 0.6
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 1,
+        "price_usd": 8.6,
+        "change_24h": -0.36
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 77.72,
+        "change_24h": -0.34
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 569.94,
+        "change_24h": -0.52
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.072749,
+        "change_24h": -0.45
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.6,
+        "change_24h": 0.79
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Senator Lummis: Ethics, other provisions in crypto Clarity Act to be further discussed",
@@ -92,7 +153,7 @@
           "ETH"
         ],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -104,7 +165,7 @@
           "ETH"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -116,7 +177,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.3,
         "color": "red"
       },
       {
@@ -126,7 +187,7 @@
         "published": "Wed, 22 Jul 2026 21:09:59 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.8,
         "color": "green"
       },
       {
@@ -136,7 +197,7 @@
         "published": "Wed, 22 Jul 2026 20:38:08 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.1,
         "color": "yellow"
       },
       {
@@ -157,9 +218,9 @@
         "assets": [
           "ADA"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.9,
+        "color": "green"
       },
       {
         "title": "Kraken Parent Company Makes Moves to Offer xStocks From Global Markets",
@@ -167,9 +228,9 @@
         "url": "https://decrypt.co/374106/kraken-parent-xstocks-beyond-us-equities",
         "published": "Wed, 22 Jul 2026 20:07:34 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.7,
+        "color": "green"
       },
       {
         "title": "Alibaba's New Qwen Image 3 AI Wants to Be Useful, Not Just Pretty",
@@ -189,9 +250,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 0.6,
+        "color": "green"
       },
       {
         "title": "New CLARITY Act update bans officials including presidents from issuing or even holding crypto tokens",
@@ -200,7 +261,7 @@
         "published": "Wed, 22 Jul 2026 18:15:09 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -210,14 +271,14 @@
         "published": "Wed, 22 Jul 2026 17:50:08 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.9,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.333,
-      "label": "Bearish",
-      "color": "red"
+      "score": 0.067,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
@@ -230,16 +291,37 @@
       {
         "title": "Will Bitcoin dip to $62,500 in July?",
         "volume_24h": 75950,
-        "yes_price": 0.35,
+        "yes_price": 0.34,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: Sentiment is divided, with 39% predicting Ethereum will dip to $1,500 and 35% expecting Bitcoin to fall to $62,500, indicating uncertainty."
+      "outlook": "Bearish",
+      "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 4,
+          "XRP": 2,
+          "ETH": 1,
+          "ADA": 1,
+          "LINK": 1,
+          "SOL": 0,
+          "BNB": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - July 22, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1v3w5na/daily_crypto_discussion_july_22_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -270,53 +352,53 @@
     },
     "cg_trending": [
       {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 114,
-        "score": 0,
-        "change_24h": -0.48
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "rank": 82,
-        "score": 1,
-        "change_24h": -5.57
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "rank": 39,
-        "score": 2,
-        "change_24h": 1.24
-      },
-      {
         "symbol": "ZAMA",
         "name": "Zama",
-        "rank": 259,
-        "score": 3,
-        "change_24h": 17.97
+        "rank": 261,
+        "score": 0,
+        "change_24h": 17.9
       },
       {
         "symbol": "ONDO",
         "name": "Ondo",
         "rank": 41,
+        "score": 1,
+        "change_24h": 3.73
+      },
+      {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "rank": 114,
+        "score": 2,
+        "change_24h": -0.33
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "rank": 39,
+        "score": 3,
+        "change_24h": 1.01
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "rank": 82,
         "score": 4,
-        "change_24h": 4.0
+        "change_24h": -5.3
+      },
+      {
+        "symbol": "BANK",
+        "name": "Lorenzo Protocol",
+        "rank": 275,
+        "score": 5,
+        "change_24h": 27.28
       },
       {
         "symbol": "PONS",
         "name": "Pons",
-        "rank": 669,
-        "score": 5,
-        "change_24h": -10.39
-      },
-      {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "rank": 421,
+        "rank": 686,
         "score": 6,
-        "change_24h": -25.15
+        "change_24h": -11.5
       }
     ]
   },
@@ -525,6 +607,28 @@
         "color": "red"
       },
       {
+        "title": "Anthropic and SpaceX just handed Google the biggest profit quarter in company history—on paper",
+        "source": "Fortune",
+        "url": "https://fortune.com/2026/07/22/anthropic-spacex-investments-google-earnings-biggest-ever-profit-quarter/",
+        "published": "Wed, 22 Jul 2026 23:24:30 +0000",
+        "assets": [
+          "GOOGL"
+        ],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
+        "title": "‘Dr. Doom’ Nouriel Roubini says we’re headed for universal basic income or ‘some form of socialism’ as AI revolutionizes work—He calls that optimistic",
+        "source": "Fortune",
+        "url": "https://fortune.com/2026/07/18/nouriel-roubini-universal-basic-income-socialism-ai-revolution-work-agi-government-stakes/",
+        "published": "Sat, 18 Jul 2026 22:30:44 +0000",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
         "title": "How David Senra built the podcast the world’s most powerful CEOs can’t stop listening to",
         "source": "Fortune",
         "url": "https://fortune.com/2026/07/05/how-david-senra-built-founders-podcast-powerful-ceos-spotify-bezos-coinbase-ramp-tbpn/",
@@ -533,88 +637,66 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Trump admin deferring $1 billion-plus Medicaid payments to California and Minnesota amid ‘suspected fraud’",
-        "source": "Fortune",
-        "url": "https://fortune.com/2026/07/22/donald-trump-1-billion-medicaid-california-minnesota-fraud/",
-        "published": "Wed, 22 Jul 2026 20:49:22 +0000",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "‘It’s called StreetEasy, not StreetHard’: Mamdani cracks down on scourge of ‘housefishing’ and ‘real estate slop’",
-        "source": "Fortune",
-        "url": "https://fortune.com/2026/07/22/mamdani-ai-altered-rental-listing-disclosures/",
-        "published": "Wed, 22 Jul 2026 20:47:21 +0000",
-        "assets": [
-          "AMD"
-        ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.3,
-      "label": "Bearish",
-      "color": "red"
+      "score": -0.1,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 1191911,
+        "volume_24h": 1189630,
         "yes_price": 0.77,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "volume_24h": 454466,
+        "volume_24h": 459420,
         "yes_price": 0.23,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting"
       },
       {
         "title": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in July?",
-        "volume_24h": 347211,
+        "volume_24h": 347167,
         "yes_price": 0.43,
         "category": "finance",
         "url": "https://polymarket.com/event/will-wti-reach-95-in-july-2026"
       },
       {
         "title": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in July?",
-        "volume_24h": 317829,
-        "yes_price": 0.76,
+        "volume_24h": 318250,
+        "yes_price": 0.73,
         "category": "finance",
         "url": "https://polymarket.com/event/will-wti-reach-90-in-july-2026-334"
       },
       {
         "title": "Will LeBron James play for the Golden State Warriors in 2026-27?",
-        "volume_24h": 299854,
+        "volume_24h": 296629,
         "yes_price": 0.13,
         "category": "finance",
         "url": "https://polymarket.com/event/will-lebron-james-play-for-the-golden-state-warriors-in-2026-27"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 215401,
+        "volume_24h": 212861,
         "yes_price": 0.28,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "Israel x Iran ceasefire continues through July 25?",
-        "volume_24h": 200725,
+        "volume_24h": 200544,
         "yes_price": 0.77,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-july-25-20260716224448967-454"
       },
       {
         "title": "US x Iran Effective Ceasefire by July 24?",
-        "volume_24h": 183159,
+        "volume_24h": 183149,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-24-20260715194822044"
@@ -649,14 +731,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4122.5,
-        "change_24h": 1.26
+        "value": 4121.6,
+        "change_24h": 1.24
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 87.93,
-        "change_24h": 3.56
+        "value": 87.79,
+        "change_24h": 3.39
       }
     ],
     "most_active": [
@@ -726,19 +808,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 74
+          "interest_score": 76
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 10
+          "interest_score": 16
         },
         {
           "keyword": "Solana",
-          "interest_score": 12
+          "interest_score": 14
         },
         {
           "keyword": "crypto",
-          "interest_score": 57
+          "interest_score": 50
         }
       ]
     }
@@ -818,10 +900,10 @@
       "change_1m": -2.11,
       "high_3m": 60.82,
       "low_3m": 57.11,
-      "week52_high": 61.72,
-      "week52_low": 53.51,
+      "week52_high": null,
+      "week52_low": null,
       "rsi": 45.5,
-      "div_yield": 9.95,
+      "div_yield": null,
       "last_div": null,
       "outlook": {
         "label": "Neutral",
