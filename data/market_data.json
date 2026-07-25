@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T18:40:44Z",
+  "updated_at": "2026-07-25T18:52:04Z",
   "crypto": {
     "fear_greed": {
       "value": 27,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64333,
-        "change_24h": 0.38,
-        "market_cap": 1290623641309,
-        "volume_24h": 15346913413
+        "price_usd": 64360,
+        "change_24h": 0.5,
+        "market_cap": 1291274918542,
+        "volume_24h": 15572969985
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1872.56,
-        "change_24h": 0.78,
-        "market_cap": 225989252069,
-        "volume_24h": 4040916091
+        "price_usd": 1873.85,
+        "change_24h": 0.8,
+        "market_cap": 226173145351,
+        "volume_24h": 4769909656
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 568.23,
-        "change_24h": 1.28,
-        "market_cap": 75669913451,
-        "volume_24h": 405272249
+        "price_usd": 568.29,
+        "change_24h": 1.3,
+        "market_cap": 75679351847,
+        "volume_24h": 407889930
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.1,
-        "change_24h": 1.53,
-        "market_cap": 68918536552,
-        "volume_24h": 613114580
+        "change_24h": 1.6,
+        "market_cap": 68966405126,
+        "volume_24h": 647375378
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 74.53,
-        "change_24h": 0.81,
-        "market_cap": 43446209125,
-        "volume_24h": 987591139
+        "price_usd": 74.56,
+        "change_24h": 0.8,
+        "market_cap": 43468307089,
+        "volume_24h": 1025283077
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.072898,
-        "change_24h": 5.72,
-        "market_cap": 11314463477,
-        "volume_24h": 576859675
+        "price_usd": 0.072917,
+        "change_24h": 6.7,
+        "market_cap": 11327227438,
+        "volume_24h": 579102802
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 8.42,
         "change_24h": 1.0,
-        "market_cap": 6298428909,
-        "volume_24h": 115222231
+        "market_cap": 6296686473,
+        "volume_24h": 115287773
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.165877,
-        "change_24h": 1.59,
-        "market_cap": 6187357924,
-        "volume_24h": 144426920
+        "price_usd": 0.165734,
+        "change_24h": 1.6,
+        "market_cap": 6181869885,
+        "volume_24h": 148803118
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.67,
-        "change_24h": 7.38,
-        "market_cap": 2879160176,
-        "volume_24h": 203295404
+        "price_usd": 6.69,
+        "change_24h": 7.6,
+        "market_cap": 2886076951,
+        "volume_24h": 204819240
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 3,
+        "price_usd": 64360,
+        "change_24h": 0.5
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 1873.85,
+        "change_24h": 0.8
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 74.56,
+        "change_24h": 0.8
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 568.29,
+        "change_24h": 1.3
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.1,
+        "change_24h": 1.6
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.165734,
+        "change_24h": 1.6
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.072917,
+        "change_24h": 6.7
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.69,
+        "change_24h": 7.6
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.42,
+        "change_24h": 1.0
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
@@ -161,9 +222,9 @@
         "url": "https://decrypt.co/374334/stocks-crypto-hyperliquid-ark-invest",
         "published": "Fri, 24 Jul 2026 22:03:16 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.3,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "Samsung Wallet Will Add Stablecoin Support, Including USDC",
@@ -204,12 +265,12 @@
         "published": "Sat, 25 Jul 2026 14:50:50 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.4,
+        "score": -0.3,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": 0.092,
+      "score": 0.108,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -218,7 +279,28 @@
       "outlook": "Mixed",
       "summary": "Insufficient data to generate a summary."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 3,
+          "ETH": 1,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - July 24, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1v5qyrt/daily_crypto_discussion_july_24_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -253,49 +335,49 @@
         "name": "Shiba Inu",
         "rank": 31,
         "score": 0,
-        "change_24h": 18.63
+        "change_24h": 17.7
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 112,
         "score": 1,
-        "change_24h": 4.44
+        "change_24h": 4.25
       },
       {
         "symbol": "ADI",
         "name": "ADI",
-        "rank": 338,
+        "rank": 339,
         "score": 2,
-        "change_24h": -0.07
+        "change_24h": -0.19
       },
       {
         "symbol": "DEXE",
         "name": "DeXe",
-        "rank": 158,
+        "rank": 161,
         "score": 3,
-        "change_24h": 14.23
-      },
-      {
-        "symbol": "EUL",
-        "name": "Euler",
-        "rank": 512,
-        "score": 4,
-        "change_24h": 59.18
+        "change_24h": 11.05
       },
       {
         "symbol": "SOL",
         "name": "Solana",
         "rank": 7,
-        "score": 5,
-        "change_24h": 0.74
+        "score": 4,
+        "change_24h": 0.83
       },
       {
-        "symbol": "AERO",
-        "name": "Aerodrome Finance",
-        "rank": 111,
+        "symbol": "EUL",
+        "name": "Euler",
+        "rank": 512,
+        "score": 5,
+        "change_24h": 58.01
+      },
+      {
+        "symbol": "MON",
+        "name": "Monad",
+        "rank": 144,
         "score": 6,
-        "change_24h": 0.08
+        "change_24h": -5.22
       }
     ]
   },
@@ -319,7 +401,7 @@
       }
     },
     "market_mood": {
-      "score": 0.016,
+      "score": 0.12,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -343,11 +425,6 @@
         "symbol": "MSFT",
         "price_usd": 381.7,
         "change_24h": 0.03
-      },
-      {
-        "symbol": "GOOGL",
-        "price_usd": 319.74,
-        "change_24h": 0.65
       },
       {
         "symbol": "AMZN",
@@ -438,6 +515,16 @@
         "color": "yellow"
       },
       {
+        "title": "Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/south-korean-stocks-werent-a-big-deal-in-your-emerging-markets-fund-artificial-intelligence-changed-that-21308089?mod=mw_rss_topstories",
+        "published": "Sat, 25 Jul 2026 18:45:00 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
         "title": "Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/oil-prices-may-fall-but-gasoline-prices-wont-look-at-the-trap-were-in-7f4c3738?mod=mw_rss_topstories",
@@ -452,16 +539,6 @@
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/we-are-not-romantically-involved-im-marrying-my-platonic-best-friend-of-20-years-should-i-leave-him-my-home-3faa0a77?mod=mw_rss_topstories",
         "published": "Sat, 25 Jul 2026 18:31:00 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "Here’s the net worth you need to start getting ahead in your 20s, 30s, 40s and beyond in the U.S.",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/heres-the-net-worth-you-need-to-start-getting-ahead-in-your-20s-30s-40s-and-beyond-in-the-u-s-520c8d72?mod=mw_rss_topstories",
-        "published": "Sat, 25 Jul 2026 18:15:00 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
@@ -533,71 +610,71 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.4,
+      "score": -0.333,
       "label": "Bearish",
       "color": "red"
     },
     "polymarket": [
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 618590,
-        "yes_price": 0.27,
+        "volume_24h": 663460,
+        "yes_price": 0.26,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 408659,
+        "volume_24h": 408145,
         "yes_price": 0.76,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting"
       },
       {
         "title": "Israel x Iran ceasefire continues through July 26?",
-        "volume_24h": 382966,
+        "volume_24h": 382772,
         "yes_price": 0.95,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-july-26"
       },
       {
         "title": "Israel x Iran ceasefire continues through July 31?",
-        "volume_24h": 273781,
+        "volume_24h": 281026,
         "yes_price": 0.81,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243"
       },
       {
-        "title": "Putin out as President of Russia by December 31, 2026?",
-        "volume_24h": 227556,
-        "yes_price": 0.09,
-        "category": "finance",
-        "url": "https://polymarket.com/event/putin-out-before-2027-346"
-      },
-      {
         "title": "Iran leadership change by July 31?",
-        "volume_24h": 225773,
+        "volume_24h": 225800,
         "yes_price": 0.02,
         "category": "finance",
         "url": "https://polymarket.com/event/iran-leadership-change-by-july-31-20260629143932628"
       },
       {
-        "title": "Will Donald Trump win the 2028 Republican presidential nomination?",
-        "volume_24h": 186403,
-        "yes_price": 0.03,
+        "title": "Putin out as President of Russia by December 31, 2026?",
+        "volume_24h": 225541,
+        "yes_price": 0.09,
         "category": "finance",
-        "url": "https://polymarket.com/event/will-donald-trump-win-the-2028-republican-presidential-nomination"
+        "url": "https://polymarket.com/event/putin-out-before-2027-346"
       },
       {
         "title": "US x Iran Effective Ceasefire by July 24?",
-        "volume_24h": 182412,
-        "yes_price": 0.21,
+        "volume_24h": 187617,
+        "yes_price": 0.24,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-24-20260715194822044"
+      },
+      {
+        "title": "US x Iran Effective Ceasefire by July 31?",
+        "volume_24h": 177341,
+        "yes_price": 0.34,
+        "category": "finance",
+        "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045"
       }
     ],
     "polymarket_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: 3 bullish vs 0 bearish signals detected across finance prediction markets data."
+      "summary": "Bullish: 2 bullish vs 0 bearish signals detected across finance prediction markets data."
     },
     "reddit": [],
     "reddit_summary": {
@@ -606,7 +683,7 @@
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: 0 bullish vs 8 bearish signals detected across stock/finance news data."
+      "summary": "Bearish: 3 bullish vs 8 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -698,7 +775,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 77
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 15
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 12
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 45
+        }
+      ]
     }
   },
   "portfolio": [
@@ -770,15 +864,15 @@
       "symbol": "JEPQ",
       "name": "JPMorgan Nasdaq Equity Premium",
       "type": "Equity Income",
-      "price_usd": 57.96,
-      "change_1d": -0.97,
-      "change_1w": -0.94,
-      "change_1m": -1.88,
+      "price_usd": 58.53,
+      "change_1d": -1.56,
+      "change_1w": -1.23,
+      "change_1m": -1.2,
       "high_3m": 60.82,
       "low_3m": 57.21,
       "week52_high": 61.72,
       "week52_low": 53.51,
-      "rsi": 36.4,
+      "rsi": 44.8,
       "div_yield": 9.95,
       "last_div": null,
       "outlook": {
@@ -792,9 +886,9 @@
         "reasons": [
           "Price below 20-day moving average ↓",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 36.4 — Below neutral, mild downward pressure ↓",
-          "5-day momentum -0.9% — consolidating sideways →",
-          "1-month return -1.9% — range-bound"
+          "RSI 44.8 — Below neutral, mild downward pressure ↓",
+          "5-day momentum -1.2% — consolidating sideways →",
+          "1-month return -1.2% — range-bound"
         ]
       }
     },
