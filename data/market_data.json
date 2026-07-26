@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T14:48:36Z",
+  "updated_at": "2026-07-26T14:51:30Z",
   "crypto": {
     "fear_greed": {
       "value": 26,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64681,
-        "change_24h": 0.87,
-        "market_cap": 1297061227932,
-        "volume_24h": 12750306441
+        "price_usd": 64650,
+        "change_24h": 0.79,
+        "market_cap": 1297289641390,
+        "volume_24h": 12777229939
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1896.77,
-        "change_24h": 1.68,
-        "market_cap": 228746567739,
-        "volume_24h": 3827151290
+        "price_usd": 1895.78,
+        "change_24h": 1.56,
+        "market_cap": 228855993960,
+        "volume_24h": 3824079330
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 572.02,
-        "change_24h": 1.03,
-        "market_cap": 76145217947,
-        "volume_24h": 351363512
+        "price_usd": 571.96,
+        "change_24h": 1.0,
+        "market_cap": 76178841759,
+        "volume_24h": 349938729
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.097,
-        "change_24h": 0.49,
-        "market_cap": 68556133817,
-        "volume_24h": 574673712
+        "change_24h": 0.55,
+        "market_cap": 68623328586,
+        "volume_24h": 576545034
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 74.93,
-        "change_24h": 1.42,
-        "market_cap": 43683285048,
-        "volume_24h": 831700969
+        "price_usd": 74.97,
+        "change_24h": 1.48,
+        "market_cap": 43705640432,
+        "volume_24h": 833515594
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.072925,
-        "change_24h": 3.97,
-        "market_cap": 11315901597,
-        "volume_24h": 752809193
+        "price_usd": 0.072965,
+        "change_24h": 4.02,
+        "market_cap": 11327199669,
+        "volume_24h": 751657419
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.47,
-        "change_24h": 1.47,
-        "market_cap": 6335841480,
-        "volume_24h": 108241819
+        "price_usd": 8.48,
+        "change_24h": 1.54,
+        "market_cap": 6341369633,
+        "volume_24h": 108393704
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.164376,
-        "change_24h": 0.39,
-        "market_cap": 6130165724,
-        "volume_24h": 139304728
+        "price_usd": 0.16456,
+        "change_24h": 0.46,
+        "market_cap": 6137866559,
+        "volume_24h": 139184513
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.66,
-        "change_24h": 1.81,
-        "market_cap": 2877010874,
-        "volume_24h": 266731362
+        "price_usd": 6.67,
+        "change_24h": 1.87,
+        "market_cap": 2879054791,
+        "volume_24h": 265787690
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 2,
+        "price_usd": 64650,
+        "change_24h": 0.79
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 1895.78,
+        "change_24h": 1.56
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 1,
+        "price_usd": 74.97,
+        "change_24h": 1.48
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 571.96,
+        "change_24h": 1.0
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.097,
+        "change_24h": 0.55
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.16456,
+        "change_24h": 0.46
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.072965,
+        "change_24h": 4.02
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.67,
+        "change_24h": 1.87
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.48,
+        "change_24h": 1.54
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "U.S. regulator warns prediction markets against cutting corners in event contracts",
@@ -218,14 +279,35 @@
       "outlook": "Mixed",
       "summary": "Insufficient data to generate a summary."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 2,
+          "ETH": 1,
+          "SOL": 1,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - July 25, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1v6mp08/daily_crypto_discussion_july_25_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with either \"Bullish:\", \"Bearish:\", or \"Mixed:\" followed by specific reasons, mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer? But we must use given data. The data only shows \"Top mentioned: Subreddits:\" with nothing after. So we have no numbers or names. We must still mention numbers and names where available; if none, we can say none? But they said mention numbers and names where available. If none, we can say none mentioned. But we need to start with Bullish/Bearish/Mixed. Since no sentiment data, we might say Mixed due to lack of clear sentiment. Provide reasons: insufficient data, no clear trend. Mention that no specific numbers or names were provided. Keep within 80 words.\n\nLet's craft: \"Mixed: The Reddit snippet only lists 'Top mentioned: Subreddits:' without any actual posts, upvote counts, or user names, so there is no quantifiable evidence to lean bullish or bearish; consequently sentiment remains indeterminate given the absence of concrete metrics or named tokens.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snippet4 only5 lists6 'Top7 mentioned:8 Subreddits:'9"
+      "summary": "We need to produce exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Top mentioned: BTC (2 mentions), ETH (1), SOL (1), BNB (0), XRP (0). Subreddits: r/r/CryptoCurrency: activity 100/100 (maybe high activity). So overall sentiment? Not given directly. We need to infer from mentions? Possibly high activity and mentions of BTC, ETH, SOL suggests some interest. Could be bullish? But we need to be concise.\n\nWe need to start with one of those prefixes. Provide reasons: e.g., Bullish: BTC mentioned twice, ETH and SOL each once, high activity in r/CryptoCurrency (100/100) indicates strong engagement, suggesting optimism. Or Mixed: some mentions but zero for BNB/XRP.\n\nWe need to decide. Since activity is max, likely bullish. Provide numbers.\n\nWord count max 80. Let's craft ~40 words.\n\n\"Bullish: Bitcoin was cited twice, Ethereum and Solana each once, while BNB and XRP received no mentions; the r/CryptoCurrency subreddit showed peak activity at 100/100, reflecting heightened trader interest and optimism across major"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Data includes: Bearish: US regulator warning, Europe high regulatory bar, Bitcoin OG selling eases (dormant BTC movement hits 4-year low) - that's bearish. Bullish: Shiba Inu surges 36% as South Korean traders fuel mystery rally. Neutral items: Here's what happened in crypto today, South Korea's largest bank to launch payment service on JPMorgan's Kinexys, Mira Murati’s Inkling AI Model Review, AI kill switch. So we have more bearish points (3) vs bullish (1) plus neutrals. Overall sentiment likely Bearish or Mixed. Since there is a notable bullish surge, but overall regulatory pressure dominates. Could be Mixed. The instruction: start with Bullish:, Bearish:, or Mixed:. Choose Mixed: and give reasons: mention Shiba Inu 36% surge, South Korean traders, US regulator warning, Europe high regulatory bar, Bitcoin dormant BTC movement 4-year low, etc. Must be max 80 words. Let's craft ~70 words.\n\nParagraph: \"Mixed: Shiba Inu jumped 36% amid a mystery rally driven by South"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nData: Bearish items: US regulator warning prediction markets (Bearish), Europe's high regulatory bar could spark new crypto industry M&A wave (Bearish), Bitcoin OG selling eases as dormant BTC movement hits 4-year low: Galaxy (Bearish). Bullish: Shiba Inu surges 36% as South Korean traders fuel mystery rally (Bullish). Neutral items: Here's what happened in crypto today (Neutral), South Korea’s largest bank to launch payment service on JPMorgan’s Kinexys (Neutral), Mira Murati’s Inkling AI Model Review: Best Open-Source Model in the West (Neutral), What Is an AI Kill Switch and Why Do US Lawmakers Want One? (Neutral).\n\nOverall sentiment: more bearish (3) vs bullish (1) plus neutrals. So Mixed? Could be Mixed with more bearish leaning. But need to start with Bullish:, Bearish:, or Mixed:. Choose Mixed: and give reasons: mention Shiba Inu up 36%, South Korean traders, US regulator warning, Europe regulatory bar, Bitcoin OG selling eases, dormant BTC movement 4-year low. Keep"
     },
     "fourchain": {
       "thread_count": 201,
@@ -301,80 +383,17 @@
   },
   "stocks": {
     "indices": {
-      "sp500": {
-        "value": 7411.98,
-        "change_24h": 0.05
-      },
-      "nasdaq": {
-        "value": 24975.82,
-        "change_24h": -0.64
-      },
-      "dow": {
-        "value": 51947.25,
-        "change_24h": 0.46
-      },
-      "vix": {
-        "value": 18.58,
-        "change_24h": -0.64
-      }
+      "sp500": null,
+      "nasdaq": null,
+      "dow": null,
+      "vix": null
     },
     "market_mood": {
-      "score": 0.016,
+      "score": 0.0,
       "label": "Neutral",
       "color": "yellow"
     },
-    "prices": [
-      {
-        "symbol": "NVDA",
-        "price_usd": 206.84,
-        "change_24h": -0.92
-      },
-      {
-        "symbol": "TSLA",
-        "price_usd": 313.03,
-        "change_24h": -2.08
-      },
-      {
-        "symbol": "AAPL",
-        "price_usd": 333.02,
-        "change_24h": 3.53
-      },
-      {
-        "symbol": "MSFT",
-        "price_usd": 381.7,
-        "change_24h": 0.03
-      },
-      {
-        "symbol": "GOOGL",
-        "price_usd": 319.74,
-        "change_24h": 0.65
-      },
-      {
-        "symbol": "AMZN",
-        "price_usd": 232.11,
-        "change_24h": -0.66
-      },
-      {
-        "symbol": "META",
-        "price_usd": 595.19,
-        "change_24h": -1.8
-      },
-      {
-        "symbol": "AMD",
-        "price_usd": 521.95,
-        "change_24h": -3.29
-      },
-      {
-        "symbol": "PLTR",
-        "price_usd": 122.92,
-        "change_24h": -0.36
-      },
-      {
-        "symbol": "COIN",
-        "price_usd": 158.29,
-        "change_24h": -1.78
-      }
-    ],
+    "prices": [],
     "top_mentioned": [],
     "news": [
       {
@@ -411,7 +430,7 @@
         "title": "Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
-        "published": "Sun, 26 Jul 2026 14:12:17 GMT",
+        "published": "Sun, 26 Jul 2026 14:50:20 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
@@ -599,29 +618,29 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes probabilities for various events. High probability of no change in Fed rates (83%) suggests stable monetary policy -> bullish? Also high probability of Israel-Iran ceasefire continues (88%) suggests reduced geopolitical risk -> bullish. Low probability of US invading Iran (20%) and low probability of Kharg Island not under Iranian control (5%) suggests less conflict -> bullish. However, probability of US-Iran ceasefire moderate (43-47%). Putin out low (9%). Overall seems bullish due to stability expectations. So start with Bullish: then reasons with numbers.\n\nNeed max 80 words. Let's craft ~70 words.\n\nParagraph: \"Bullish: Markets show strong confidence in monetary stability, with an 83% chance of no Fed rate change after the July 2026 meeting (vol $500k), and only a 17% chance of a 25‑bp hike (vol $274k). Geopolitical risk is low, as the odds of a U.S. invasion of Iran before 2027 stand at just 20% (vol $948k) and Kharg Island remaining under Iranian control"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on data: high probability of no change in Fed rates (83%) suggests stable monetary policy -> bullish? Also high probability of Israel-Iran ceasefire continues (88%) suggests reduced geopolitical risk -> bullish. Low probability of US invasion of Iran (20%) and low probability of Kharg Island not under Iranian control (5%) suggests low risk of conflict -> bullish. However, probability of US-Iran ceasefire moderate (43-47%) suggests some uncertainty. Overall sentiment likely bullish due to stable Fed and ceasefire expectations.\n\nThus start with \"Bullish:\" then reasons: Fed rates unchanged 83% ($500k vol), Israel-Iran ceasefire continues 88% ($372k vol), low invasion odds 20% ($948k vol), low Kharg Island loss 5% ($218k vol). Mention numbers. Keep under 80 words.\n\nLet's craft ~70 words.\n\nWord count: Let's draft:\n\n\"Bullish: Markets show strong confidence in monetary stability, with an 83% chance ($500,249 volume) of no Fed rate change"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" maybe they omitted details. We need to infer? Possibly they expect we note that no specific tickers or numbers given, so we say insufficient data? But must mention numbers and names where available. If none, we can say none mentioned. But we still need to start with one of those prefixes. Could say \"Mixed: ...\" and note that no specific tickers or numbers were provided, so sentiment unclear. Must be <=80 words. Let's craft ~30 words.\n\n\"Mixed: The Reddit discussion shows varied opinions across subreddits, with no clear consensus; no specific tickers, mention counts, or numerical sentiment metrics were provided, making it impossible to determine a bullish or bearish bias.\"\n\nCount words: Mixed:(1) The2 Reddit3 discussion4 shows5 varied6 opinions7 across8 subreddits,9 with10 no11 clear12 consensus;13 no14 specific15 tickers,16 mention17 counts,18 or19 numerical20 sentiment21 metrics22 were23"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer? But we have no actual mentions. Could be they omitted data inadvertently. We must still produce a paragraph based on given data. Since data is empty, we might say no clear sentiment? But must start with one of the three. Could say Mixed: due to lack of clear consensus, limited mentions. Mention numbers? We have none. Could say \"0 mentions\". But that seems odd.\n\nWe must follow instruction: exactly ONE paragraph, start with Bullish:, Bearish:, or Mixed:. Max 80 words. Provide specific reasons, mention numbers and names where available. Since data is missing, we can note that no specific tickers were mentioned, etc.\n\nLet's craft: \"Mixed: The Reddit snapshot shows no dominant subreddit discussion, with zero top-mentioned tickers and no clear volume of posts, indicating traders are split between optimism about potential earnings beats and caution over macro‑economic headwinds, resulting in an ambiguous sentiment.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 no6 dominant7 subreddit8 discussion,9 with10"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: Several items labeled Bullish: \"Big Tech Earnings Slam Into a Market in Revolt Over AI Spending (Bullish)\", \"Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks (Bullish)\", \"The S&P 500’s earnings growth has gone bonkers thanks to one company (Bullish)\". Others neutral.\n\nThus overall sentiment likely Bullish. Provide reasons: big tech earnings, industrials benefiting from AI boom, S&P 500 earnings growth driven by one company (maybe Nvidia). Mention numbers? Not given numbers. Could mention \"S&P 500 earnings growth\" but no number. Could infer \"bonkers\". Might mention \"AI spending\". Keep within 80 words.\n\nWrite one paragraph starting with \"Bullish:\" then reasons. Ensure max 80 words. Let's craft ~50 words.\n\n\"Bullish: Big tech earnings are beating expectations despite concerns over AI spending, industrials within the S&P 500 are seeing AI‑driven gains comparable to tech stocks, and the index’s earnings growth has surged—largely fueled by a single company’s performance—signaling strong"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to infer overall market sentiment from data. Data includes several items: \"Big Tech Earnings Slam Into a Market in Revolt Over AI Spending (Bullish)\", \"Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks (Bullish)\", \"The S&P 500’s earnings growth has gone bonkers thanks to one company (Bullish)\". Others are neutral. So overall sentiment seems bullish. Need to mention numbers and names where available. We have S&P 500, maybe mention earnings growth numbers? Not given exact numbers, but we can say \"earnings growth has gone bonkers\" but need numbers? Could mention \"S&P 500 earnings growth\" but no specific number. Could mention \"Big Tech earnings\" maybe mention companies like Apple, Microsoft? Not given. Could mention \"one company\" maybe Nvidia? Not given. But we can still mention names: S&P 500, Big Tech, industrials. Provide reasons: strong AI-driven earnings, industrials benefiting, S&P 500 earnings surge.\n\nWord count max 80. Let's craft ~45 words.\n\nParagraph: \"Bullish: Big Tech earnings"
     },
     "macro": [
       {
         "symbol": "^TNX",
         "name": "10Y Treasury Yield",
-        "value": 4.68,
-        "change_24h": -0.51
+        "value": 4.7,
+        "change_24h": 0.99
       },
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 101.47,
-        "change_24h": 0.04
+        "value": 101.43,
+        "change_24h": 0.29
       },
       {
         "symbol": "GC=F",
@@ -639,63 +658,63 @@
     "most_active": [
       {
         "symbol": "NVDA",
-        "volume": 114672100,
-        "price_usd": 206.84,
-        "change_24h": -0.92
+        "volume": 110844026,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "TSLA",
-        "volume": 62575300,
-        "price_usd": 313.03,
-        "change_24h": -2.08
+        "volume": 62168329,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "AAPL",
-        "volume": 47443900,
-        "price_usd": 333.02,
-        "change_24h": 3.53
+        "volume": 47402209,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "SPY",
-        "volume": 44725600,
-        "price_usd": 738.93,
-        "change_24h": 0.1
+        "volume": 41480799,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "QQQ",
-        "volume": 42783600,
-        "price_usd": 684.23,
-        "change_24h": -1.12
+        "volume": 39636030,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "AMZN",
-        "volume": 34965800,
-        "price_usd": 232.11,
-        "change_24h": -0.66
+        "volume": 33836532,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "GOOGL",
-        "volume": 31740600,
-        "price_usd": 319.74,
-        "change_24h": 0.65
-      },
-      {
-        "symbol": "BAC",
-        "volume": 29018300,
-        "price_usd": 62.05,
-        "change_24h": 1.26
+        "volume": 31306769,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "MSFT",
-        "volume": 27624500,
-        "price_usd": 381.7,
-        "change_24h": 0.03
+        "volume": 27544509,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "AMD",
-        "volume": 27136700,
-        "price_usd": 521.95,
-        "change_24h": -3.29
+        "volume": 27087296,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "BAC",
+        "volume": 23438472,
+        "price_usd": null,
+        "change_24h": null
       }
     ],
     "google_trends": {
@@ -703,19 +722,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 69
+          "interest_score": 68
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 13
-        },
-        {
-          "keyword": "Solana",
           "interest_score": 12
         },
         {
+          "keyword": "Solana",
+          "interest_score": 11
+        },
+        {
           "keyword": "crypto",
-          "interest_score": 42
+          "interest_score": 40
         }
       ]
     }
@@ -725,15 +744,15 @@
       "symbol": "BKHY",
       "name": "BlackRock High Yield Bond",
       "type": "Bond Income",
-      "price_usd": 47.12,
-      "change_1d": -0.08,
-      "change_1w": -0.48,
-      "change_1m": -0.15,
+      "price_usd": 47.16,
+      "change_1d": -0.29,
+      "change_1w": -0.57,
+      "change_1m": -0.08,
       "high_3m": 47.44,
       "low_3m": 46.68,
       "week52_high": 48.89,
       "week52_low": 46.84,
-      "rsi": 30.3,
+      "rsi": 31.9,
       "div_yield": 7.45,
       "last_div": null,
       "outlook": {
@@ -747,9 +766,9 @@
         "reasons": [
           "Price below 20-day moving average ↓",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 30.3 — Below neutral, mild downward pressure ↓",
-          "5-day momentum -0.5% — consolidating sideways →",
-          "1-month return -0.2% — range-bound"
+          "RSI 31.9 — Below neutral, mild downward pressure ↓",
+          "5-day momentum -0.6% — consolidating sideways →",
+          "1-month return -0.1% — range-bound"
         ]
       }
     },
@@ -757,31 +776,31 @@
       "symbol": "XYLD",
       "name": "Global X S&P 500 Covered Call",
       "type": "Covered Call Income",
-      "price_usd": 40.76,
-      "change_1d": 0.15,
-      "change_1w": 0.05,
-      "change_1m": 2.36,
+      "price_usd": 40.7,
+      "change_1d": -0.61,
+      "change_1w": -0.39,
+      "change_1m": 2.18,
       "high_3m": 40.97,
       "low_3m": 38.96,
       "week52_high": 41.32,
       "week52_low": 38.22,
-      "rsi": 53.9,
+      "rsi": 58.6,
       "div_yield": 9.29,
       "last_div": null,
       "outlook": {
-        "label": "Mild Bullish",
+        "label": "Bullish",
         "color": "green",
-        "score": 2,
-        "bull_count": 2,
+        "score": 3,
+        "bull_count": 3,
         "bear_count": 0,
         "total": 5,
-        "confidence": "Low",
+        "confidence": "Medium",
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 53.9 — In neutral range (45–55)",
-          "5-day momentum +0.0% — consolidating sideways →",
-          "1-month return +2.4% — range-bound"
+          "RSI 58.6 — Above neutral, mild upward momentum ↑",
+          "5-day momentum -0.4% — consolidating sideways →",
+          "1-month return +2.2% — range-bound"
         ]
       }
     },
@@ -789,15 +808,15 @@
       "symbol": "JEPQ",
       "name": "JPMorgan Nasdaq Equity Premium",
       "type": "Equity Income",
-      "price_usd": 57.96,
-      "change_1d": -0.97,
-      "change_1w": -0.94,
-      "change_1m": -1.88,
+      "price_usd": 58.53,
+      "change_1d": -1.56,
+      "change_1w": -1.23,
+      "change_1m": -1.2,
       "high_3m": 60.82,
       "low_3m": 57.21,
       "week52_high": 61.72,
       "week52_low": 53.51,
-      "rsi": 36.4,
+      "rsi": 44.8,
       "div_yield": 9.95,
       "last_div": null,
       "outlook": {
@@ -811,9 +830,9 @@
         "reasons": [
           "Price below 20-day moving average ↓",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 36.4 — Below neutral, mild downward pressure ↓",
-          "5-day momentum -0.9% — consolidating sideways →",
-          "1-month return -1.9% — range-bound"
+          "RSI 44.8 — Below neutral, mild downward pressure ↓",
+          "5-day momentum -1.2% — consolidating sideways →",
+          "1-month return -1.2% — range-bound"
         ]
       }
     },
@@ -821,15 +840,15 @@
       "symbol": "SCHD",
       "name": "Schwab US Dividend Equity",
       "type": "Dividend Growth",
-      "price_usd": 33.29,
-      "change_1d": 1.49,
-      "change_1w": 1.15,
-      "change_1m": 4.95,
-      "high_3m": 33.29,
+      "price_usd": 32.8,
+      "change_1d": -0.3,
+      "change_1w": -0.73,
+      "change_1m": 3.25,
+      "high_3m": 33.04,
       "low_3m": 30.88,
       "week52_high": 33.5,
       "week52_low": 26.21,
-      "rsi": 66.9,
+      "rsi": 57.4,
       "div_yield": 3.3,
       "last_div": null,
       "outlook": {
@@ -843,9 +862,9 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 66.9 — Above neutral, mild upward momentum ↑",
-          "5-day momentum +1.2% — consolidating sideways →",
-          "1-month return +4.9% — sustained uptrend ↑"
+          "RSI 57.4 — Above neutral, mild upward momentum ↑",
+          "5-day momentum -0.7% — consolidating sideways →",
+          "1-month return +3.3% — sustained uptrend ↑"
         ]
       }
     },
@@ -853,15 +872,15 @@
       "symbol": "QQQM",
       "name": "Invesco Nasdaq 100",
       "type": "Growth",
-      "price_usd": 281.68,
-      "change_1d": -1.16,
-      "change_1w": -1.62,
-      "change_1m": -3.74,
+      "price_usd": 284.98,
+      "change_1d": -1.87,
+      "change_1w": -1.96,
+      "change_1m": -3.03,
       "high_3m": 306.87,
       "low_3m": 270.45,
       "week52_high": 308.21,
       "week52_low": 227.0,
-      "rsi": 33.0,
+      "rsi": 41.1,
       "div_yield": 43.0,
       "last_div": null,
       "outlook": {
@@ -875,9 +894,9 @@
         "reasons": [
           "Price below 20-day moving average ↓",
           "Short-term trend below long-term (bearish cross) ↓",
-          "RSI 33.0 — Below neutral, mild downward pressure ↓",
-          "5-day momentum -1.6% — short-term selling pressure ↓",
-          "1-month return -3.7% — sustained downtrend ↓"
+          "RSI 41.1 — Below neutral, mild downward pressure ↓",
+          "5-day momentum -2.0% — short-term selling pressure ↓",
+          "1-month return -3.0% — sustained downtrend ↓"
         ]
       }
     }
