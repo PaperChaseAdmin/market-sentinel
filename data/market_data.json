@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T00:51:09Z",
+  "updated_at": "2026-07-26T01:01:49Z",
   "crypto": {
     "fear_greed": {
       "value": 26,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64376,
-        "change_24h": 0.3,
-        "market_cap": 1291441942704,
-        "volume_24h": 14492866689
+        "price_usd": 64440,
+        "change_24h": 0.5,
+        "market_cap": 1292749566434,
+        "volume_24h": 14493436502
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1876.27,
+        "price_usd": 1878.82,
         "change_24h": 0.9,
-        "market_cap": 226435316894,
-        "volume_24h": 4506425264
+        "market_cap": 226758188903,
+        "volume_24h": 4529771638
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 569.48,
-        "change_24h": 0.7,
-        "market_cap": 75836506689,
-        "volume_24h": 373991387
+        "price_usd": 569.62,
+        "change_24h": 0.9,
+        "market_cap": 75855526396,
+        "volume_24h": 372542094
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.098,
-        "change_24h": 0.5,
-        "market_cap": 68690177448,
-        "volume_24h": 594520051
+        "price_usd": 1.099,
+        "change_24h": 0.7,
+        "market_cap": 68694040138,
+        "volume_24h": 594359889
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 74.66,
-        "change_24h": 0.8,
-        "market_cap": 43525391962,
-        "volume_24h": 917633440
+        "price_usd": 74.72,
+        "change_24h": 1.1,
+        "market_cap": 43560965717,
+        "volume_24h": 916476671
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.071692,
-        "change_24h": 3.3,
-        "market_cap": 11128093607,
-        "volume_24h": 611060058
+        "price_usd": 0.071749,
+        "change_24h": 3.2,
+        "market_cap": 11136546858,
+        "volume_24h": 600343380
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.38,
-        "change_24h": 0.6,
-        "market_cap": 6271368812,
-        "volume_24h": 107802538
+        "price_usd": 8.39,
+        "change_24h": 0.8,
+        "market_cap": 6279143533,
+        "volume_24h": 107386592
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.165123,
-        "change_24h": 0.5,
-        "market_cap": 6157164495,
-        "volume_24h": 145995509
+        "price_usd": 0.165216,
+        "change_24h": 0.8,
+        "market_cap": 6162220630,
+        "volume_24h": 146595371
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.74,
-        "change_24h": 7.8,
-        "market_cap": 2911112179,
-        "volume_24h": 259991991
+        "price_usd": 6.77,
+        "change_24h": 7.4,
+        "market_cap": 2924790179,
+        "volume_24h": 260263861
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 2,
+        "price_usd": 64440,
+        "change_24h": 0.5
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 1878.82,
+        "change_24h": 0.9
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 74.72,
+        "change_24h": 1.1
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 569.62,
+        "change_24h": 0.9
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.099,
+        "change_24h": 0.7
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.165216,
+        "change_24h": 0.8
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.071749,
+        "change_24h": 3.2
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.77,
+        "change_24h": 7.4
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.39,
+        "change_24h": 0.8
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Russia’s largest bank Sberbank plans crypto trading infrastructure by December",
@@ -218,18 +279,39 @@
       "outlook": "Mixed",
       "summary": "Insufficient data to generate a summary."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 2,
+          "ETH": 1,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - July 25, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1v6mp08/daily_crypto_discussion_july_25_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. The data given: \"Top mentioned: Subreddits:\" but no actual data? Possibly missing. We must work with what we have: only \"Top mentioned: Subreddits:\" no further details. Might need to infer that there is no data? But we must still produce a paragraph. Could say Mixed: limited data shows only subreddit mentions, no clear sentiment. But need numbers and names where available. We have none. Could say \"No specific numbers or names provided\". That still mentions that there are none. Might be acceptable. Must be <=80 words. Let's craft: \"Mixed: The discussion shows activity across multiple subreddits but lacks concrete price targets or sentiment cues; only subreddit names are cited without accompanying metrics, making it impossible to gauge bullish or bearish bias.\" Count words.\n\nCount: Mixed:(1) The2 discussion3 shows4 activity5 across6 multiple7 subreddits8 but9 lacks10 concrete11 price12 targets13 or14 sentiment15 cues;16 only17 subreddit18 names19 are20 cited21 without22 accompanying23 metrics,24 making25 it26 impossible27 to28 gauge29 bull"
+      "summary": "We need to produce exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: top mentioned: BTC (2 mentions), ETH (1 mention), SOL (0), BNB (0), XRP (0). Subreddits: r/r/CryptoCurrency: activity 100/100. So high activity. Need to infer sentiment: high activity but limited mentions? Could be mixed? Probably bullish due to high activity and BTC mentions. Provide reasons: BTC 2 mentions, ETH 1, activity 100/100. Keep within 80 words. Let's craft ~40 words.\n\nParagraph: \"Bullish: The r/CryptoCurrency subreddit shows maximum activity (100/100) with Bitcoin leading discussion at two mentions and Ethereum at one, indicating strong focus on major assets despite zero chatter on altcoins like SOL, BNB, and XRP, suggesting confidence in market leaders.\"\n\nCount words: Bullish:(1) The2 r/CryptoCurrency3 subreddit4 shows5 maximum6 activity7 (100/100)8 with9 Bitcoin10 leading11 discussion12 at13 two14 mentions15 and16 Ethereum17 at18 one,19 indicating"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: Sberbank plans crypto trading infrastructure by December (Bearish). North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto (Bearish). Democratizing weather derivatives through tokenization could be crypto's most important real-world use case (Bullish). Others neutral.\n\nOverall sentiment? Two bearish, one bullish, many neutral. Likely Mixed. Must start with \"Mixed:\" then reasons. Include numbers and names where available: Sberbank, North Korea, weather derivatives tokenization, maybe mention December, etc. Keep under 80 words.\n\nLet's craft ~50 words.\n\n\"Mixed: Bearish pressure stems from Russia’s Sberbank planning crypto trading infrastructure by December and North Korea’s arrest of hackers laundering stolen bank funds via crypto, while bullish optimism arises from the prospect of tokenizing weather derivatives as crypto’s top real‑world use case; other items remain neutral.\"\n\nCount words: Mixed:(1) Bearish(2) pressure3 stems4 from5 Russia’s6 Sberbank7 planning8 crypto9 trading10 infrastructure11 by12 December13 and14 North15 Korea’s16 arrest17 of18 hackers19 laundering20 stolen2"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide sentiment based on data: we have two bearish items (Sberbank plans crypto trading infrastructure by December - actually that's a positive? but labeled Bearish; North Korea arrests hackers laundering stolen funds via crypto - bearish). Bullish: democratizing weather derivatives through tokenization could be crypto's most important real-world use case. Others neutral.\n\nThus overall maybe Mixed? Since we have both bullish and bearish. Could be Mixed. Provide reasons: mention Sberbank, North Korea, weather derivatives tokenization. No numbers given. Could mention December timeline. Keep under 80 words.\n\nWrite one paragraph, start with \"Mixed:\" then reasons.\n\nWord count: Let's craft ~50 words.\n\n\"Mixed: While Sberbank’s plan to launch crypto trading infrastructure by December and North Korea’s crackdown on hackers laundering stolen bank funds via crypto signal regulatory headwinds (Bearish), the prospect of tokenizing weather derivatives as crypto’s most impactful real‑world use case offers a strong upside (Bullish), leaving sentiment divided.\"\n\nCount words: Mixed:(1) While2 Sberbank’s3 plan4 to5 launch6 crypto7 trading8 infrastructure9 by10 December11 and"
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 140,
+      "active_threads": 139,
       "mentions": {
         "BTC": 18,
         "XRP": 10,
@@ -251,51 +333,51 @@
       {
         "symbol": "SHIB",
         "name": "Shiba Inu",
-        "rank": 33,
+        "rank": 31,
         "score": 0,
-        "change_24h": 18.89
+        "change_24h": 19.11
       },
       {
         "symbol": "DEXE",
         "name": "DeXe",
-        "rank": 162,
+        "rank": 163,
         "score": 1,
-        "change_24h": 1.22
+        "change_24h": 1.66
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 113,
         "score": 2,
-        "change_24h": 2.39
+        "change_24h": 2.95
       },
       {
         "symbol": "CASHCAT",
         "name": "Cash Cat",
         "rank": 416,
         "score": 3,
-        "change_24h": 6.81
+        "change_24h": 7.14
       },
       {
         "symbol": "EUL",
         "name": "Euler",
-        "rank": 448,
+        "rank": 430,
         "score": 4,
-        "change_24h": 85.55
+        "change_24h": 85.26
       },
       {
         "symbol": "ANSEM",
         "name": "The Black Bull",
         "rank": 300,
         "score": 5,
-        "change_24h": 14.57
+        "change_24h": 13.77
       },
       {
         "symbol": "BANK",
         "name": "Lorenzo Protocol",
-        "rank": 197,
+        "rank": 198,
         "score": 6,
-        "change_24h": 17.76
+        "change_24h": 19.52
       }
     ]
   },
@@ -313,13 +395,10 @@
         "value": 51947.25,
         "change_24h": 0.46
       },
-      "vix": {
-        "value": 18.58,
-        "change_24h": -0.64
-      }
+      "vix": null
     },
     "market_mood": {
-      "score": 0.016,
+      "score": -0.022,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -335,24 +414,9 @@
         "change_24h": -2.08
       },
       {
-        "symbol": "AAPL",
-        "price_usd": 333.02,
-        "change_24h": 3.53
-      },
-      {
-        "symbol": "MSFT",
-        "price_usd": 381.7,
-        "change_24h": 0.03
-      },
-      {
         "symbol": "GOOGL",
         "price_usd": 319.74,
         "change_24h": 0.65
-      },
-      {
-        "symbol": "AMZN",
-        "price_usd": 232.11,
-        "change_24h": -0.66
       },
       {
         "symbol": "META",
@@ -375,8 +439,79 @@
         "change_24h": -1.78
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "NVDA",
+        "mentions": 1,
+        "price_usd": 206.84,
+        "change_24h": -0.92
+      },
+      {
+        "symbol": "MSFT",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "GOOGL",
+        "mentions": 1,
+        "price_usd": 319.74,
+        "change_24h": 0.65
+      },
+      {
+        "symbol": "META",
+        "mentions": 1,
+        "price_usd": 595.19,
+        "change_24h": -1.8
+      },
+      {
+        "symbol": "SPY",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "TSLA",
+        "mentions": 0,
+        "price_usd": 313.03,
+        "change_24h": -2.08
+      },
+      {
+        "symbol": "AAPL",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "AMZN",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "AMD",
+        "mentions": 0,
+        "price_usd": 521.95,
+        "change_24h": -3.29
+      },
+      {
+        "symbol": "PLTR",
+        "mentions": 0,
+        "price_usd": 122.92,
+        "change_24h": -0.36
+      }
+    ],
     "news": [
+      {
+        "title": "Australian Prime Minister Albanese to Press Trump on New Tariffs",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-26/australian-prime-minister-albanese-to-press-trump-on-new-tariffs",
+        "published": "Sun, 26 Jul 2026 00:34:20 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
       {
         "title": "Iraq to Sign Agreement with Syria on Building of Oil Pipelines",
         "source": "Bloomberg",
@@ -396,16 +531,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "The ‘Trump Trade’ Is Turning Into a Loser in the Stock Market",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-25/the-trump-trade-is-turning-into-a-loser-in-the-stock-market",
-        "published": "Sat, 25 Jul 2026 13:00:01 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "Imax 70 mm screenings become the biggest star for Christopher Nolan’s ‘The Odyssey’",
@@ -540,43 +665,43 @@
     "polymarket": [
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 624249,
+        "volume_24h": 626258,
         "yes_price": 0.24,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "US x Iran Effective Ceasefire by July 24?",
-        "volume_24h": 479231,
+        "volume_24h": 480105,
         "yes_price": 0.31,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-24-20260715194822044"
       },
       {
         "title": "Israel x Iran ceasefire continues through July 26?",
-        "volume_24h": 468731,
+        "volume_24h": 468722,
         "yes_price": 0.98,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-july-26"
       },
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 450030,
+        "volume_24h": 450102,
         "yes_price": 0.79,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting"
       },
       {
         "title": "Israel x Iran ceasefire continues through July 31?",
-        "volume_24h": 311805,
+        "volume_24h": 311773,
         "yes_price": 0.85,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243"
       },
       {
         "title": "US x Iran Effective Ceasefire by July 31?",
-        "volume_24h": 263644,
-        "yes_price": 0.4,
+        "volume_24h": 264331,
+        "yes_price": 0.38,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045"
       },
@@ -589,7 +714,7 @@
       },
       {
         "title": "Will Donald Trump win the 2028 Republican presidential nomination?",
-        "volume_24h": 179410,
+        "volume_24h": 179417,
         "yes_price": 0.02,
         "category": "finance",
         "url": "https://polymarket.com/event/will-donald-trump-win-the-2028-republican-presidential-nomination"
@@ -597,16 +722,71 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on data. The data shows various predictions: US invade Iran before 2027: Yes 24% (low). US x Iran Effective Ceasefire by July 24: Yes 31% (low). Israel x Iran ceasefire continues through July 26: Yes 98% (high). No change in Fed interest rates after July 2026 meeting: Yes 79% (high). Israel x Iran ceasefire continues through July 31: Yes 85% (high). US x Iran Effective Ceasefire by July 31: Yes 40% (moderate). Putin out as President of Russia by Dec 31 2026: Yes 9% (low). Trump win 2028 Republican nomination: Yes 2% (very low).\n\nOverall sentiment: high confidence in ceasefire continuation and stable Fed rates, low confidence in US invasion of Iran, Putin removal, Trump nomination. So overall maybe mixed but leaning bullish? The question: \"summarize the overall market sentiment.\" The data suggests optimism about de-escalation (ceasefires high) and monetary stability, pessimism about geopolit"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes predictions about geopolitical events and Fed rates. High probability of ceasefire continuing (98% for July 26, 85% for July 31) suggests stability, maybe bullish. Also high probability of no change in Fed rates after July 2026 meeting (79%). Low probability of US invading Iran (24%) and low probability of effective ceasefire by July 24 (31%) and July 31 (38%). Low probability of Putin out (9%) and Trump winning 2028 nomination (2%). Overall seems mixed: some bullish signals (stable ceasefire, rates unchanged) but also low chance of effective ceasefire early and low invasion probability? Actually low invasion probability is bullish (less conflict). So overall maybe bullish? But we need to decide.\n\nSentiment: The market expects ceasefire to continue (high), expects Fed rates unchanged (high), expects low chance of US invading Iran (low), low chance of Putin out (low), low chance Trump nomination (low). So overall sentiment appears optimistic about stability and no major shocks => bullish.\n\nThus start with \"Bullish:\" then mention numbers: ceasefire through"
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/wallstreetbets",
+        "mentions": {
+          "NVDA": 1,
+          "MSFT": 1,
+          "GOOGL": 1,
+          "META": 1,
+          "SPY": 1,
+          "TSLA": 0,
+          "AAPL": 0,
+          "AMZN": 0,
+          "AMD": 0,
+          "PLTR": 0
+        },
+        "activity_score": 100,
+        "top_post": "Weekly Earnings Thread 7/27 - 7/31",
+        "top_post_url": "https://old.reddit.com/r/wallstreetbets/comments/1v5jo48/weekly_earnings_thread_727_731/",
+        "top_post_score": 0,
+        "posts": 25,
+        "posts_list": [
+          {
+            "title": "Weekly Earnings Thread 7/27 - 7/31",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1v5jo48/weekly_earnings_thread_727_731/"
+          },
+          {
+            "title": "Weekend Discussion Thread for the Weekend of July 25-26",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1v5m9je/weekend_discussion_thread_for_the_weekend_of_july/"
+          },
+          {
+            "title": "Debt mgmt to wealth mgmt: $15k to $1.5M in < 2 months",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1v6a4yw/debt_mgmt_to_wealth_mgmt_15k_to_15m_in_2_months/"
+          },
+          {
+            "title": "Qualcomm's AI robot presentation",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1v62du4/qualcomms_ai_robot_presentation/"
+          },
+          {
+            "title": "Investors increase bets on Federal Reserve rate rise after oil price surge",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1v6niqc/investors_increase_bets_on_federal_reserve_rate/"
+          },
+          {
+            "title": "Apparently SpaceX launched a rocket at my portfolio.",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1v6hf4t/apparently_spacex_launched_a_rocket_at_my/"
+          },
+          {
+            "title": "Oracle signs 10-year software contract with Pentagon worth up to $7 billion",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1v697lb/oracle_signs_10year_software_contract_with/"
+          },
+          {
+            "title": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no.",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1v5iy5v/no_no_no_no_no_no_no_no_no_no_no_no_no_no_no_no/"
+          }
+        ]
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer that no data? Might need to respond with something like \"Mixed: ...\" but we need numbers and names. Since data is missing, we can note that no specific tickers or numbers were provided. But we must mention numbers and names where available. If none, we can say none provided. But we still need to start with one of those prefixes. Perhaps we can say \"Mixed: No specific tickers or numbers were mentioned in the provided data, indicating limited concrete sentiment signals.\" That mentions that no numbers/names were given. It's still a reason. Word count? Let's count: \"Mixed: No specific tickers or numbers were mentioned in the provided data, indicating limited concrete sentiment signals.\" Count words: Mixed:(1) No2 specific3 tickers4 or5 numbers6 were7 mentioned8 in9 the10 provided11 data,12 indicating13 limited14 concrete15 sentiment16 signals17. That's 17 words, under 80. It starts with Mixed:. Good. Provide exactly one paragraph. Ensure no extra line breaks. Provide"
+      "summary": "We need to produce exactly ONE paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: top mentioned: NVDA (1 mentions), MSFT (1 mentions), GOOGL (1 mentions), META (1 mentions), SPY (1 mentions). Subreddits: r/r/wallstreetbets: activity 100/100. So activity is max. Only one mention each. So sentiment? Not given directly. We infer from activity high but low mentions? Could be mixed? Probably we say Mixed: high activity in WSB but only single mentions each, indicating limited conviction. Provide reasons. Must be one paragraph. Max 80 words. Let's craft ~45 words.\n\nStart with \"Mixed:\" then reasons.\n\nCheck word count. Example:\n\n\"Mixed: WallStreetBets shows peak activity (100/100), yet only single‑ticker mentions for NVDA, MSFT, GOOGL, META and SPY, suggesting fragmented interest rather than a unified bullish or bearish stance; the lack of repeated discussion points to cautious, speculative sentiment.\"\n\nCount words.\n\nLet's count:\n\nMixed: (1)\nWallStreetBets(2) shows3 peak4 activity5 (100/100),6 yet7 only8 single‑ticker"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Items: Bullish: Iraq-Syria oil pipelines, SpaceX IPO allocation (bullish). Bearish: Trump trade turning loser, Wells Fargo credit limit low (bearish). Neutral items: wildfires, Imax, AI distillation, AI skeptics coalition. So we have both bullish and bearish signals. Likely Mixed. Provide reasons with numbers/names: Iraq-Syria oil pipelines, SpaceX IPO allocation, Trump trade losing, Wells Fargo $4k limit vs $17k debt. Keep within 80 words.\n\nLet's craft: \"Mixed: Bullish signals include Iraq’s agreement with Syria to build oil pipelines and a full SpaceX IPO allocation noted by an adviser, while bearish pressures come from the ‘Trump Trade’ losing favor in stocks and Wells Fargo offering only a $4,000 credit limit on a $17,000 credit‑card debt transfer. Neutral items such as wildfires in France/Spain, Imax 70 mm screenings for Nolan’s ‘The Odyssey’, AI distillation focus, and emerging AI‑skeptic coalition do not tip the balance.\"\n\nCount words. Let's count.\n\n\"Mixed"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Bearish: Mixed? Determine overall market sentiment based on data: We need to decide. Let's count: Bullish: or Mixed: followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe have data with sentiment tags: Australian PM Albanese to Press Trump on New Tariffs (Bearish); Iraq to Sign Agreement with Syria on Building of Oil Pipelines (Bullish); Over 250,000 People Flee Wildfires Ravaging France and Spain (Neutral); Imax 70 mm screenings become the biggest star for Christopher Nolan’s ‘The Odyssey’ (Neutral); From Silicon Valley to DC, the tech world is suddenly obsessed with one concept in AI: Distillation (Neutral); Analysis: A powerful new coalition of AI skeptics is coalescing right in Trump's blind spot (Neutral); ‘Time will tell whether that was a good bet’: My adviser got me a full SpaceX IPO allocation. Was I lucky? (Bullish); I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit? (Bearish).\n\nWe have two bullish items: Iraq-Syria oil pipeline agreement; SpaceX IPO allocation full. Two bearish:"
     },
     "macro": [
       {
@@ -649,9 +829,9 @@
       },
       {
         "symbol": "AAPL",
-        "volume": 47443900,
-        "price_usd": 333.02,
-        "change_24h": 3.53
+        "volume": 47402209,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "SPY",
@@ -673,9 +853,9 @@
       },
       {
         "symbol": "GOOGL",
-        "volume": 31740600,
-        "price_usd": 319.74,
-        "change_24h": 0.65
+        "volume": 31306769,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "BAC",
@@ -701,11 +881,11 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 79
+          "interest_score": 86
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 13
+          "interest_score": 15
         },
         {
           "keyword": "Solana",
@@ -755,31 +935,31 @@
       "symbol": "XYLD",
       "name": "Global X S&P 500 Covered Call",
       "type": "Covered Call Income",
-      "price_usd": 40.76,
-      "change_1d": 0.15,
-      "change_1w": 0.05,
-      "change_1m": 2.36,
+      "price_usd": 40.7,
+      "change_1d": -0.61,
+      "change_1w": -0.39,
+      "change_1m": 2.18,
       "high_3m": 40.97,
       "low_3m": 38.96,
       "week52_high": 41.32,
       "week52_low": 38.22,
-      "rsi": 53.9,
+      "rsi": 58.6,
       "div_yield": 9.29,
       "last_div": null,
       "outlook": {
-        "label": "Mild Bullish",
+        "label": "Bullish",
         "color": "green",
-        "score": 2,
-        "bull_count": 2,
+        "score": 3,
+        "bull_count": 3,
         "bear_count": 0,
         "total": 5,
-        "confidence": "Low",
+        "confidence": "Medium",
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 53.9 — In neutral range (45–55)",
-          "5-day momentum +0.0% — consolidating sideways →",
-          "1-month return +2.4% — range-bound"
+          "RSI 58.6 — Above neutral, mild upward momentum ↑",
+          "5-day momentum -0.4% — consolidating sideways →",
+          "1-month return +2.2% — range-bound"
         ]
       }
     },
@@ -851,15 +1031,15 @@
       "symbol": "QQQM",
       "name": "Invesco Nasdaq 100",
       "type": "Growth",
-      "price_usd": 281.68,
-      "change_1d": -1.16,
-      "change_1w": -1.62,
-      "change_1m": -3.74,
+      "price_usd": 284.98,
+      "change_1d": -1.87,
+      "change_1w": -1.96,
+      "change_1m": -3.03,
       "high_3m": 306.87,
       "low_3m": 270.45,
       "week52_high": 308.21,
       "week52_low": 227.0,
-      "rsi": 33.0,
+      "rsi": 41.1,
       "div_yield": 43.0,
       "last_div": null,
       "outlook": {
@@ -873,9 +1053,9 @@
         "reasons": [
           "Price below 20-day moving average ↓",
           "Short-term trend below long-term (bearish cross) ↓",
-          "RSI 33.0 — Below neutral, mild downward pressure ↓",
-          "5-day momentum -1.6% — short-term selling pressure ↓",
-          "1-month return -3.7% — sustained downtrend ↓"
+          "RSI 41.1 — Below neutral, mild downward pressure ↓",
+          "5-day momentum -2.0% — short-term selling pressure ↓",
+          "1-month return -3.0% — sustained downtrend ↓"
         ]
       }
     }
