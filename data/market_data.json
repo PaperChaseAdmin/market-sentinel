@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T20:40:58Z",
+  "updated_at": "2026-07-27T20:51:11Z",
   "crypto": {
     "fear_greed": {
       "value": 30,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64931,
+        "price_usd": 64860,
         "change_24h": 0.4,
-        "market_cap": 1302730436235,
-        "volume_24h": 25664091403
+        "market_cap": 1301408989964,
+        "volume_24h": 25721467506
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1944.49,
+        "price_usd": 1943.95,
         "change_24h": 1.8,
-        "market_cap": 234672934869,
-        "volume_24h": 11992008791
+        "market_cap": 234617911037,
+        "volume_24h": 11977480492
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 574.61,
+        "price_usd": 573.89,
         "change_24h": 0.4,
-        "market_cap": 76521676273,
-        "volume_24h": 494403098
+        "market_cap": 76426513116,
+        "volume_24h": 494802459
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.09,
+        "price_usd": 1.089,
         "change_24h": -1.0,
-        "market_cap": 68166163465,
-        "volume_24h": 1035927321
+        "market_cap": 68103735209,
+        "volume_24h": 1038878730
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 75.94,
+        "price_usd": 75.78,
         "change_24h": 0.8,
-        "market_cap": 44278926146,
-        "volume_24h": 1758421970
+        "market_cap": 44186096718,
+        "volume_24h": 1748533374
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.07202,
+        "price_usd": 0.071951,
         "change_24h": -1.0,
-        "market_cap": 11180698497,
-        "volume_24h": 491154097
+        "market_cap": 11170169588,
+        "volume_24h": 479026740
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.62,
+        "price_usd": 8.61,
         "change_24h": 0.5,
-        "market_cap": 6449297186,
-        "volume_24h": 241440461
+        "market_cap": 6439706366,
+        "volume_24h": 241314751
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.158785,
+        "price_usd": 0.158576,
         "change_24h": -3.5,
-        "market_cap": 5922637940,
-        "volume_24h": 238658882
+        "market_cap": 5916073694,
+        "volume_24h": 238823500
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.6,
+        "price_usd": 6.59,
         "change_24h": -1.0,
-        "market_cap": 2849636963,
-        "volume_24h": 153521472
+        "market_cap": 2846669505,
+        "volume_24h": 153611685
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 7,
+        "price_usd": 64860,
+        "change_24h": 0.4
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 2,
+        "price_usd": 1943.95,
+        "change_24h": 1.8
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 75.78,
+        "change_24h": 0.8
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 573.89,
+        "change_24h": 0.4
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.089,
+        "change_24h": -1.0
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.158576,
+        "change_24h": -3.5
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.071951,
+        "change_24h": -1.0
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.59,
+        "change_24h": -1.0
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.61,
+        "change_24h": 0.5
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Bitcoin shrugs off AI selloff but high-stakes Fed meeting could determine what's next",
@@ -91,9 +152,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Crypto’s favorite $90 trillion trading product is coming to Wall Street, but big banks are taking it slow",
@@ -101,9 +162,9 @@
         "url": "https://www.coindesk.com/markets/2026/07/22/crypto-s-favorite-usd90-trillion-trading-product-is-coming-to-wall-street-but-big-banks-are-taking-it-slow",
         "published": "Mon, 27 Jul 2026 18:00:00 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.2,
+        "color": "yellow"
       },
       {
         "title": "Digital asset trading platform Uphold cuts 17% of global headcount as crypto winter bites",
@@ -112,7 +173,7 @@
         "published": "Mon, 27 Jul 2026 16:47:06 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.333,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -125,7 +186,7 @@
           "ETH"
         ],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -144,8 +205,18 @@
         "url": "https://cointelegraph.com/news/securitize-becomes-sec-registered-investment-adviser-through-capital-unit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Mon, 27 Jul 2026 18:41:30 +0000",
         "assets": [],
+        "sentiment": "Bullish",
+        "score": 0.3,
+        "color": "green"
+      },
+      {
+        "title": "Prediction Market Traders Brace for Surprise Fed Rate Hike",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/374453/prediction-market-traders-brace-for-surprise-fed-rate-hike",
+        "published": "Mon, 27 Jul 2026 20:43:16 +0000",
+        "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -154,9 +225,9 @@
         "url": "https://decrypt.co/374450/sparkkitty-malware-mobile-apps-crypto-wallet",
         "published": "Mon, 27 Jul 2026 20:09:57 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.8,
+        "color": "red"
       },
       {
         "title": "Fanatics Buys CFTC-Registered Exchange in Prediction Markets Land Grab",
@@ -165,20 +236,8 @@
         "published": "Mon, 27 Jul 2026 19:45:31 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.5,
         "color": "green"
-      },
-      {
-        "title": "Microsoft Says MDASH Beats Claude Mythos and GPT-5.6 Sol in Cybersecurity Test",
-        "source": "Decrypt",
-        "url": "https://decrypt.co/374441/microsoft-mdash-beats-claude-mythos-gpt-5-6-sol-cybersecurity",
-        "published": "Mon, 27 Jul 2026 19:01:04 +0000",
-        "assets": [
-          "SOL"
-        ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Compromised owner contract just let hackers print 5.2 million WEMIX stablecoins out of thin air, forcing a complete network freeze",
@@ -199,7 +258,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -210,35 +269,42 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.8,
+        "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.194,
+      "score": -0.267,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin reach $67,500 in July?",
-        "volume_24h": 156052,
+        "volume_24h": 158969,
         "yes_price": 0.28,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-67pt5k-in-july-2026"
       },
       {
+        "title": "Will Bitcoin dip to $57,500 in July?",
+        "volume_24h": 102257,
+        "yes_price": 0.02,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/will-bitcoin-dip-to-57pt5k-in-july-2026-618"
+      },
+      {
         "title": "Will Bitcoin dip to $62,500 in July?",
-        "volume_24h": 100577,
+        "volume_24h": 100648,
         "yes_price": 0.3,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14"
       },
       {
         "title": "Will Bitcoin reach $70,000 in July?",
-        "volume_24h": 96129,
-        "yes_price": 0.05,
+        "volume_24h": 97147,
+        "yes_price": 0.04,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-70k-in-july-2026"
       },
@@ -254,18 +320,39 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 7,
+          "ETH": 2,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - July 26, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1v7j02m/daily_crypto_discussion_july_26_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 5 bullish vs 8 bearish signals detected across crypto news data."
+      "outlook": "Mixed",
+      "summary": "Mixed: 6 bullish vs 9 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 135,
+      "active_threads": 134,
       "mentions": {
         "BTC": 24,
         "XRP": 24,
@@ -280,7 +367,7 @@
         "/smg/ - stock market general collapse edition &gt;educational sites: https://www.investopedia.com &gt;financial tv strea",
         "/smg/ - stock market general stocks are bombing edition &gt;educational sites: https://www.investopedia.com &gt;financia",
         "/smg/ - stock market general hedgies edition &gt;educational sites: https://www.investopedia.com &gt;financial tv stream",
-        "/gme/ - ryan cohen is a bbbyq creditor and co-debtor edition &gt;basic information &gt;gme.cac site redacted due to aids"
+        "/smg/ - stock market general eating your dram edition &gt;educational sites: https://www.investopedia.com &gt;financial "
       ]
     },
     "cg_trending": [
@@ -289,49 +376,49 @@
         "name": "Casper Network",
         "rank": 678,
         "score": 0,
-        "change_24h": 1.5
+        "change_24h": 2.24
       },
       {
         "symbol": "ZIG",
         "name": "ZIGChain",
-        "rank": 377,
+        "rank": 378,
         "score": 1,
-        "change_24h": 1.67
+        "change_24h": 1.76
       },
       {
         "symbol": "PONS",
         "name": "Pons",
-        "rank": 495,
+        "rank": 484,
         "score": 2,
-        "change_24h": 3.72
+        "change_24h": 5.01
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
         "rank": 74,
         "score": 3,
-        "change_24h": 14.95
+        "change_24h": 14.01
       },
       {
         "symbol": "BANK",
         "name": "Lorenzo Protocol",
-        "rank": 201,
+        "rank": 199,
         "score": 4,
-        "change_24h": -12.4
+        "change_24h": -11.71
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 10,
         "score": 5,
-        "change_24h": -2.98
+        "change_24h": -3.1
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 113,
         "score": 6,
-        "change_24h": -2.92
+        "change_24h": -2.97
       }
     ]
   },
@@ -469,11 +556,21 @@
         "title": "Trump says U.S. has sold more than $13 billion of Venezuela oil since Maduro's capture",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/07/27/trump-says-us-has-sold-more-than-13-billion-of-venezuela-oil-.html",
-        "published": "Mon, 27 Jul 2026 20:07:33 GMT",
+        "published": "Mon, 27 Jul 2026 20:44:34 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
+      },
+      {
+        "title": "SpaceX’s stock falls to a new low despite a near-flawless Starship flight",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/spacexs-stock-falls-to-a-new-low-despite-a-near-flawless-starship-flight-034a99ab?mod=mw_rss_topstories",
+        "published": "Mon, 27 Jul 2026 20:41:00 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Micron and other chip stocks fall as China steals the spotlight",
@@ -491,18 +588,6 @@
         "url": "https://www.marketwatch.com/story/im-still-confused-i-sold-80-000-in-shares-on-june-30-so-why-didnt-i-receive-my-dividend-d066016c?mod=mw_rss_topstories",
         "published": "Mon, 27 Jul 2026 20:30:00 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
-      },
-      {
-        "title": "Apple reclaims title of world’s largest company after historic stretch of outperformance",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/apple-reclaims-title-of-worlds-largest-company-after-historic-stretch-of-outperformance-92920ab6?mod=mw_rss_topstories",
-        "published": "Mon, 27 Jul 2026 20:12:00 GMT",
-        "assets": [
-          "AAPL"
-        ],
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
@@ -573,63 +658,63 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.222,
-      "label": "Neutral",
-      "color": "yellow"
+      "score": -0.356,
+      "label": "Bearish",
+      "color": "red"
     },
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-        "volume_24h": 1981139,
-        "yes_price": 0.73,
+        "volume_24h": 2054847,
+        "yes_price": 0.72,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-        "volume_24h": 1694534,
+        "volume_24h": 1742269,
         "yes_price": 0.27,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting"
       },
       {
         "title": "US announces halt in Iran offensive operations by July 31?",
-        "volume_24h": 674988,
+        "volume_24h": 674447,
         "yes_price": 0.94,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-announce-an-iran-ceasefire-by-july-31-20260718000915875"
       },
       {
         "title": "US x Iran Effective Ceasefire by July 24?",
-        "volume_24h": 360713,
+        "volume_24h": 363244,
         "yes_price": 0.53,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-24-20260715194822044"
       },
       {
         "title": "Israel x Iran ceasefire continues through July 31?",
-        "volume_24h": 291795,
+        "volume_24h": 291648,
         "yes_price": 0.94,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-july-31-20260716224448968-384-155-519-798-243"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 225746,
+        "volume_24h": 220826,
         "yes_price": 0.23,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "US x Iran Effective Ceasefire by July 31?",
-        "volume_24h": 195527,
-        "yes_price": 0.54,
+        "volume_24h": 203748,
+        "yes_price": 0.56,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045"
       },
       {
         "title": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in July?",
-        "volume_24h": 164841,
+        "volume_24h": 164915,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/will-wti-reach-100-in-july-2026-928"
@@ -646,7 +731,7 @@
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: 6 bullish vs 10 bearish signals detected across stock/finance news data."
+      "summary": "Bearish: 3 bullish vs 10 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -658,20 +743,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 101.52,
-        "change_24h": 0.05
+        "value": 101.53,
+        "change_24h": 0.06
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4080.4,
-        "change_24h": 0.31
+        "value": 4079.1,
+        "change_24h": 0.28
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 81.89,
-        "change_24h": -8.31
+        "value": 82.02,
+        "change_24h": -8.16
       }
     ],
     "most_active": [
@@ -741,7 +826,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 83
+          "interest_score": 81
         },
         {
           "keyword": "Ethereum",
@@ -749,11 +834,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 12
+          "interest_score": 14
         },
         {
           "keyword": "crypto",
-          "interest_score": 45
+          "interest_score": 56
         }
       ]
     }
