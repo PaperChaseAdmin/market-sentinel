@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T17:20:55Z",
+  "updated_at": "2026-08-01T17:31:03Z",
   "crypto": {
     "fear_greed": {
       "value": 27,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 62815,
+        "price_usd": 62764,
         "change_24h": 0.2,
-        "market_cap": 1260287020173,
-        "volume_24h": 14613954920
+        "market_cap": 1259328135093,
+        "volume_24h": 14549285926
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1863.55,
+        "price_usd": 1861.2,
         "change_24h": 0.3,
-        "market_cap": 224911995943,
-        "volume_24h": 3817504689
+        "market_cap": 224594388018,
+        "volume_24h": 3800740952
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 576.95,
+        "price_usd": 577.09,
         "change_24h": -1.2,
-        "market_cap": 76838829248,
-        "volume_24h": 564256126
+        "market_cap": 76847611815,
+        "volume_24h": 570752168
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.058,
         "change_24h": 0,
-        "market_cap": 66185611080,
-        "volume_24h": 565780849
+        "market_cap": 66135433099,
+        "volume_24h": 564713732
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 72.39,
+        "price_usd": 72.11,
         "change_24h": -0.6,
-        "market_cap": 42070437561,
-        "volume_24h": 943206053
+        "market_cap": 41895932231,
+        "volume_24h": 963426230
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.0698,
+        "price_usd": 0.069706,
         "change_24h": 1.5,
-        "market_cap": 10841165332,
-        "volume_24h": 342912556
+        "market_cap": 10825452010,
+        "volume_24h": 346647020
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.173505,
+        "price_usd": 0.172843,
         "change_24h": 3.1,
-        "market_cap": 6477622139,
-        "volume_24h": 280589426
+        "market_cap": 6453742307,
+        "volume_24h": 282685342
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 8.07,
         "change_24h": -0.3,
-        "market_cap": 6039206670,
-        "volume_24h": 126463270
+        "market_cap": 6034194045,
+        "volume_24h": 124548437
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.34,
+        "price_usd": 6.33,
         "change_24h": -0.8,
-        "market_cap": 2737827350,
-        "volume_24h": 93843323
+        "market_cap": 2734527726,
+        "volume_24h": 93972210
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 3,
+        "price_usd": 62764,
+        "change_24h": 0.2
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1861.2,
+        "change_24h": 0.3
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 72.11,
+        "change_24h": -0.6
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 577.09,
+        "change_24h": -1.2
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.058,
+        "change_24h": 0
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.172843,
+        "change_24h": 3.1
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.069706,
+        "change_24h": 1.5
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.33,
+        "change_24h": -0.8
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.07,
+        "change_24h": -0.3
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
@@ -176,7 +237,7 @@
         "published": "Fri, 31 Jul 2026 20:32:50 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.6,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -200,7 +261,7 @@
           "ETH"
         ],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -0.9,
         "color": "red"
       },
       {
@@ -217,7 +278,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.333,
+      "score": -0.358,
       "label": "Bearish",
       "color": "red"
     },
@@ -226,18 +287,39 @@
       "outlook": "Mixed",
       "summary": "Insufficient data to generate a summary."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 3,
+          "ETH": 0,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - July 31, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vc6739/daily_crypto_discussion_july_31_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: Sentiment is unclear due to lack of data on top mentioned topics and subreddits."
+      "outlook": "Bullish",
+      "summary": "Bullish: BTC dominates discussion with 3 mentions in highly active r/CryptoCurrency subreddit, indicating optimism with activity at 100/100."
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: Multiple factors, including a 14% drop in Bitcoin mining difficulty, a $70M Coldcard Bitcoin loss, and warnings from CZ, contribute to negative sentiment, outweighing tokenized stock trading's 288% surge and a $1M crypto PAC investment."
+      "summary": "Bearish: Multiple factors, including a 14% shrink in Bitcoin mining difficulty, a $70M Coldcard Bitcoin loss, and warnings from CZ, contribute to a negative market sentiment, with only tokenized stock trading and crypto PAC's $1M investment offering bullish counterpoints."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 146,
+      "active_threads": 147,
       "mentions": {
         "BTC": 21,
         "XRP": 17,
@@ -261,49 +343,49 @@
         "name": "Shiba Inu",
         "rank": 31,
         "score": 0,
-        "change_24h": 5.19
+        "change_24h": 5.49
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 10,
+        "symbol": "GRVT",
+        "name": "GRVT Token",
+        "rank": 589,
         "score": 1,
-        "change_24h": -1.86
+        "change_24h": 2.76
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
         "rank": 67,
         "score": 2,
-        "change_24h": 5.55
-      },
-      {
-        "symbol": "GRVT",
-        "name": "GRVT Token",
-        "rank": 586,
-        "score": 3,
-        "change_24h": 5.13
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "rank": 75,
-        "score": 4,
-        "change_24h": 0.18
+        "change_24h": 6.17
       },
       {
         "symbol": "BEAT",
         "name": "Audiera",
         "rank": 49,
-        "score": 5,
-        "change_24h": 18.38
+        "score": 3,
+        "change_24h": 28.05
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 112,
+        "score": 4,
+        "change_24h": -1.8
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 10,
+        "score": 5,
+        "change_24h": -2.18
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "rank": 75,
         "score": 6,
-        "change_24h": -1.79
+        "change_24h": -0.84
       }
     ]
   },
@@ -524,7 +606,7 @@
         "published": "Sat, 01 Aug 2026 15:12:44 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -539,7 +621,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.28,
+      "score": -0.26,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -554,7 +636,7 @@
       {
         "title": "Israel x Iran ceasefire continues through August 2?",
         "volume_24h": 813599,
-        "yes_price": 0.74,
+        "yes_price": 0.72,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-2-20260727170555149"
       },
@@ -568,7 +650,7 @@
       {
         "title": "US x Iran Effective Ceasefire by July 31?",
         "volume_24h": 482521,
-        "yes_price": 0.1,
+        "yes_price": 0.09,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045"
       },
@@ -603,7 +685,7 @@
     ],
     "polymarket_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: Market sentiment is positive, with 59% predicting a Fed interest rate hike and 74% expecting an Israel-Iran ceasefire through August 2, with $813,599 volume."
+      "summary": "Bullish: Markets predict a 72% chance of Israel-Iran ceasefire through August 2 and a 59% chance of a Fed interest rate hike, with $813,751 and $185,674 in volume, respectively."
     },
     "reddit": [],
     "reddit_summary": {
@@ -612,7 +694,7 @@
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Sentiment is divided, with bullish views on immigration reform and health savings accounts, while bearish concerns arise from the OpenAI hack and Iran's threats to shipping routes, affecting overall market outlook."
+      "summary": "Mixed: Sentiment is divided, with bullish views on immigration reform and health savings accounts, but bearish concerns over AI cyber threats and Iran's shipping route disruptions."
     },
     "macro": [
       {
@@ -704,24 +786,7 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": [
-        {
-          "keyword": "Bitcoin",
-          "interest_score": 43
-        },
-        {
-          "keyword": "Ethereum",
-          "interest_score": 5
-        },
-        {
-          "keyword": "Solana",
-          "interest_score": 6
-        },
-        {
-          "keyword": "crypto",
-          "interest_score": 22
-        }
-      ]
+      "crypto": []
     }
   },
   "portfolio": [
