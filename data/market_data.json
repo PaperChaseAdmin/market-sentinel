@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T16:41:36Z",
+  "updated_at": "2026-08-01T16:51:09Z",
   "crypto": {
     "fear_greed": {
       "value": 27,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 62950,
+        "price_usd": 62904,
         "change_24h": 0.7,
-        "market_cap": 1263218581422,
-        "volume_24h": 14928903466
+        "market_cap": 1262192235006,
+        "volume_24h": 14873094861
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1871.07,
+        "price_usd": 1867.77,
         "change_24h": 0.7,
-        "market_cap": 225842572028,
-        "volume_24h": 4010667406
+        "market_cap": 225414857913,
+        "volume_24h": 3945245261
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 577.9,
+        "price_usd": 577.7,
         "change_24h": -1.5,
-        "market_cap": 76958139620,
-        "volume_24h": 573798655
+        "market_cap": 76932699538,
+        "volume_24h": 573184342
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.063,
+        "price_usd": 1.061,
         "change_24h": 0,
-        "market_cap": 66494042822,
-        "volume_24h": 576367199
+        "market_cap": 66350006017,
+        "volume_24h": 571951000
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 72.85,
+        "price_usd": 72.77,
         "change_24h": -0.2,
-        "market_cap": 42336100615,
-        "volume_24h": 931288741
+        "market_cap": 42285863535,
+        "volume_24h": 927421325
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070052,
+        "price_usd": 0.070075,
         "change_24h": 1.2,
-        "market_cap": 10882363117,
-        "volume_24h": 352540496
+        "market_cap": 10882624984,
+        "volume_24h": 350524941
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.173762,
+        "price_usd": 0.174083,
         "change_24h": 3.0,
-        "market_cap": 6488289330,
-        "volume_24h": 281957851
+        "market_cap": 6495685397,
+        "volume_24h": 283465278
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.1,
+        "price_usd": 8.08,
         "change_24h": -0.1,
-        "market_cap": 6061802757,
-        "volume_24h": 131092923
+        "market_cap": 6048050228,
+        "volume_24h": 130148380
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.37,
+        "price_usd": 6.36,
         "change_24h": -0.3,
-        "market_cap": 2750186961,
-        "volume_24h": 92299766
+        "market_cap": 2744569254,
+        "volume_24h": 95012298
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 5,
+        "price_usd": 62904,
+        "change_24h": 0.7
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1867.77,
+        "change_24h": 0.7
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 72.77,
+        "change_24h": -0.2
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 577.7,
+        "change_24h": -1.5
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.061,
+        "change_24h": 0
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.174083,
+        "change_24h": 3.0
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.070075,
+        "change_24h": 1.2
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.36,
+        "change_24h": -0.3
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.08,
+        "change_24h": -0.1
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
@@ -89,9 +150,9 @@
         "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
         "published": "Sat, 01 Aug 2026 16:00:00 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.7,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Bitcoin mining difficulty shrinks 14% from this year's high as plunging revenues force operators to pivot",
@@ -114,7 +175,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.4,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -124,7 +185,7 @@
         "published": "Sat, 01 Aug 2026 15:44:02 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.6,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -134,7 +195,7 @@
         "published": "Sat, 01 Aug 2026 10:23:41 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -146,7 +207,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.9,
         "color": "red"
       },
       {
@@ -158,7 +219,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -168,7 +229,7 @@
         "published": "Sat, 01 Aug 2026 15:01:09 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.2,
         "color": "yellow"
       },
       {
@@ -177,9 +238,9 @@
         "url": "https://decrypt.co/374805/google-yanks-google-earth-ai-image-tool-deepfake-fears",
         "published": "Fri, 31 Jul 2026 20:32:50 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "Tether claims $1.5B profit, but hidden math reveals a $4.2B hit that halved its safety cushion in 90 days",
@@ -190,7 +251,7 @@
           "ETH"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.9,
         "color": "red"
       },
       {
@@ -228,18 +289,39 @@
       "outlook": "Mixed",
       "summary": "Insufficient data to generate a summary."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 5,
+          "ETH": 0,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - July 31, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vc6739/daily_crypto_discussion_july_31_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: Discussion lacks clear direction, with no dominant sentiment or specific numbers mentioned, and no notable names or subreddits referenced."
+      "outlook": "Bullish",
+      "summary": "Bullish: BTC dominates discussion with 5 mentions, indicating strong interest, in highly active r/CryptoCurrency subreddit with 100/100 activity."
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: Multiple factors, including a 14% drop in Bitcoin mining difficulty, a $70M Coldcard Bitcoin loss, and regulatory challenges, weigh on the market, with Bank of Italy and SEC reviews adding to concerns."
+      "summary": "Bearish: Bitcoin mining difficulty and revenues are down, with a $70M Coldcard Bitcoin loss, and regulatory challenges from the SEC and Russia's crypto mining ban, indicating a negative market sentiment."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 145,
+      "active_threads": 146,
       "mentions": {
         "BTC": 19,
         "XRP": 17,
@@ -263,49 +345,49 @@
         "name": "Shiba Inu",
         "rank": 31,
         "score": 0,
-        "change_24h": 6.85
+        "change_24h": 8.47
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 10,
         "score": 1,
-        "change_24h": -3.66
+        "change_24h": -2.13
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
         "rank": 68,
         "score": 2,
-        "change_24h": 4.63
+        "change_24h": 4.9
       },
       {
         "symbol": "GRVT",
         "name": "GRVT Token",
         "rank": 614,
         "score": 3,
-        "change_24h": -3.16
+        "change_24h": -2.48
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 112,
         "score": 4,
-        "change_24h": -0.78
+        "change_24h": -0.7
       },
       {
         "symbol": "SOL",
         "name": "Solana",
         "rank": 7,
         "score": 5,
-        "change_24h": -0.45
+        "change_24h": -0.29
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
         "rank": 42,
         "score": 6,
-        "change_24h": -0.73
+        "change_24h": -0.36
       }
     ]
   },
@@ -329,9 +411,9 @@
       }
     },
     "market_mood": {
-      "score": 0.15,
-      "label": "Neutral",
-      "color": "yellow"
+      "score": 0.35,
+      "label": "Bullish",
+      "color": "green"
     },
     "prices": [
       {
@@ -393,9 +475,9 @@
         "url": "https://www.bloomberg.com/news/videos/2026-08-01/bipartisan-governors-to-tackle-immigration-reform-video",
         "published": "Sat, 01 Aug 2026 13:03:55 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
       },
       {
         "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
@@ -414,7 +496,7 @@
         "published": "Sat, 01 Aug 2026 14:37:44 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -424,7 +506,7 @@
         "published": "Sat, 01 Aug 2026 12:00:01 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -434,7 +516,7 @@
         "published": "Sat, 01 Aug 2026 10:56:11 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.9,
         "color": "red"
       },
       {
@@ -443,9 +525,19 @@
         "url": "https://www.cnbc.com/2026/08/01/best-buy-ceo-jason-bonfig-smaller-stores.html",
         "published": "Sat, 01 Aug 2026 12:00:01 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.6,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.1,
+        "color": "yellow"
+      },
+      {
+        "title": "I’m 75 and afraid to let my retirement fund dip below $1 million. Am I being too conservative?",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/im-75-and-afraid-to-let-my-retirement-fund-dip-below-1-million-am-i-being-too-aggressive-6b780ef9?mod=mw_rss_topstories",
+        "published": "Sat, 01 Aug 2026 16:41:00 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "My ex-husband’s sister died — so why is Fidelity asking me for her death certificate?",
@@ -454,7 +546,7 @@
         "published": "Sat, 01 Aug 2026 16:30:00 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.1,
         "color": "yellow"
       },
       {
@@ -464,17 +556,7 @@
         "published": "Sat, 01 Aug 2026 16:15:00 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "I’ve seen families destroyed by this common estate-planning mistake. Here’s how to protect yours.",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/ive-seen-families-destroyed-by-this-common-estate-planning-mistake-heres-how-to-protect-yours-4f997564?mod=mw_rss_topstories",
-        "published": "Sat, 01 Aug 2026 16:06:00 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.1,
         "color": "yellow"
       },
       {
@@ -484,7 +566,7 @@
         "published": "Fri, 24 Jan 2025 15:37:00 -0500",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -493,9 +575,9 @@
         "url": "https://www.wsj.com/articles/canada-to-provide-720-million-to-canada-post-to-avoid-insolvency-at-mail-service-fc09a6b9?mod=pls_whats_news_us_business_f",
         "published": "Fri, 24 Jan 2025 15:13:00 -0500",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.7,
+        "color": "red"
       },
       {
         "title": "Amazon Willing to Discuss Quebec Shutdown With Canadian Officials",
@@ -506,7 +588,7 @@
           "AMZN"
         ],
         "sentiment": "Bearish",
-        "score": -0.7,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -526,7 +608,7 @@
         "published": "Sat, 01 Aug 2026 15:12:44 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -0.7,
         "color": "red"
       },
       {
@@ -536,47 +618,47 @@
         "published": "Sat, 01 Aug 2026 15:05:32 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.8,
+        "score": 0.5,
         "color": "green"
       }
     ],
     "news_sentiment": {
-      "score": -0.253,
+      "score": -0.267,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
-        "title": "Israel x Iran ceasefire continues through August 2?",
-        "volume_24h": 772248,
-        "yes_price": 0.74,
-        "category": "finance",
-        "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-2-20260727170555149"
-      },
-      {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 625259,
+        "volume_24h": 813751,
         "yes_price": 0.26,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
+        "title": "Israel x Iran ceasefire continues through August 2?",
+        "volume_24h": 813599,
+        "yes_price": 0.73,
+        "category": "finance",
+        "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-2-20260727170555149"
+      },
+      {
         "title": "Israel x Iran ceasefire continues through August 1?",
-        "volume_24h": 519095,
+        "volume_24h": 607000,
         "yes_price": 0.96,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-1"
       },
       {
         "title": "US x Iran Effective Ceasefire by July 31?",
-        "volume_24h": 511395,
+        "volume_24h": 482521,
         "yes_price": 0.07,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045"
       },
       {
         "title": "Will Donald Trump publicly insult Emmanuel Macron by July 31, 2026?",
-        "volume_24h": 343853,
+        "volume_24h": 390048,
         "yes_price": 0.22,
         "category": "finance",
         "url": "https://polymarket.com/event/will-donald-trump-publicly-insult-emmanuel-macron-by-july-31-2026-20260626210612731"
@@ -590,31 +672,31 @@
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "volume_24h": 197887,
+        "volume_24h": 185674,
         "yes_price": 0.59,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649"
       },
       {
         "title": "Kharg Island no longer under Iranian control by August 31?",
-        "volume_24h": 175014,
+        "volume_24h": 181185,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/kharg-island-no-longer-under-iranian-control-by-august-31"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: Markets predict a high likelihood of Israel-Iran ceasefire, with 96% and 74% confidence through August 1 and 2, respectively, and a 59% chance of a US interest rate hike in September."
+      "outlook": "Mixed",
+      "summary": "Mixed: Markets predict a likely Israel-Iran ceasefire (73-96% yes) and potential Fed rate hike (59% yes), but are uncertain about US-Iran relations (7-26% yes) and political outcomes (22-43% yes)."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: No specific data is available to determine market sentiment, with no top mentions or subreddits provided."
+      "summary": "Mixed: No specific data available to determine market sentiment, with no top mentions or subreddits provided."
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: Concerns arise from OpenAI's Hugging Face hack and Iran's threats to shipping routes, with potential disruptions to global markets."
+      "summary": "Bearish: Concerns arise from OpenAI's Hugging Face hack and Iran's threats to shipping routes, citing potential cyber and geopolitical risks."
     },
     "macro": [
       {
@@ -706,24 +788,7 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": [
-        {
-          "keyword": "Bitcoin",
-          "interest_score": 47
-        },
-        {
-          "keyword": "Ethereum",
-          "interest_score": 6
-        },
-        {
-          "keyword": "Solana",
-          "interest_score": 7
-        },
-        {
-          "keyword": "crypto",
-          "interest_score": 26
-        }
-      ]
+      "crypto": []
     }
   },
   "portfolio": [
