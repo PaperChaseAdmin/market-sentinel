@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T04:01:42Z",
+  "updated_at": "2026-08-01T04:11:15Z",
   "crypto": {
     "fear_greed": {
       "value": 27,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 62938,
+        "price_usd": 62942,
         "change_24h": -2.0,
-        "market_cap": 1262824187009,
-        "volume_24h": 27446841929
+        "market_cap": 1262850238585,
+        "volume_24h": 27335373803
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1867.83,
+        "price_usd": 1867.4,
         "change_24h": -1.7,
-        "market_cap": 225419165422,
-        "volume_24h": 8016747097
+        "market_cap": 225352362885,
+        "volume_24h": 7994966460
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 588.91,
+        "price_usd": 588.61,
         "change_24h": 0.3,
-        "market_cap": 78423429242,
-        "volume_24h": 677127125
+        "market_cap": 78383638814,
+        "volume_24h": 675593612
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.065,
         "change_24h": -1.4,
-        "market_cap": 66586950422,
-        "volume_24h": 994835407
+        "market_cap": 66577620093,
+        "volume_24h": 988396357
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 72.95,
+        "price_usd": 73.0,
         "change_24h": -1.4,
-        "market_cap": 42392720809,
-        "volume_24h": 1462955306
+        "market_cap": 42417899452,
+        "volume_24h": 1457139861
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070051,
+        "price_usd": 0.070087,
         "change_24h": 0.2,
-        "market_cap": 10879180446,
-        "volume_24h": 478539971
+        "market_cap": 10884799627,
+        "volume_24h": 477851955
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.170829,
+        "price_usd": 0.170996,
         "change_24h": 0.6,
-        "market_cap": 6378737692,
-        "volume_24h": 302773297
+        "market_cap": 6384875174,
+        "volume_24h": 302739759
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 8.2,
         "change_24h": -1.7,
-        "market_cap": 6132171707,
-        "volume_24h": 188546402
+        "market_cap": 6132217653,
+        "volume_24h": 188028987
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.4,
+        "price_usd": 6.41,
         "change_24h": 0,
-        "market_cap": 2765331995,
-        "volume_24h": 131630072
+        "market_cap": 2769549228,
+        "volume_24h": 135544641
       }
     ],
     "top_mentioned": [],
@@ -242,16 +242,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nInterpret data: Bitcoin above $64k on Aug 1: Yes 3% (vol $138,754) => low confidence. Above $62k: Yes 97% (vol $116,869) => high confidence. Bitcoin Up or Down on Aug 1?: Yes 77% (vol $111,445). The \"Up or Down\" question ambiguous: maybe \"Will Bitcoin be up?\" Yes 77% suggests expectation of price increase.\n\nThus overall sentiment: Mixed? Actually high confidence above $62k, low above $64k, and 77% up. So overall bullish but with caution about surpassing $64k. Could be \"Bullish: ...\" with reasons: 97% chance above $62k, 77% chance up, but only 3% chance above $64k indicates limited upside. That's mixed? The instruction: start with Bullish:, Bearish:, or Mixed:. Choose one. I'd say Mixed because there's strong belief it'll be above $62k but weak above $64k, and up probability 77% moderate."
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nData: \n- Bitcoin > $64k on Aug 1: Yes 3% (vol $138,754) -> low confidence.\n- Bitcoin > $62k on Aug 1: Yes 97% (vol $116,869) -> high confidence.\n- Bitcoin Up or Down on Aug 1?: Yes 77% (vol $111,445). The phrasing \"Bitcoin Up or Down on August 1?: Yes 77%\" ambiguous: likely \"Will Bitcoin be up on Aug 1?\" Yes 77% meaning expectation of price increase.\n\nThus overall sentiment: mixed? Actually high confidence > $62k, low confidence > $64k, and 77% expecting up. So overall bullish but with caution about surpassing $64k. Could be \"Bullish: ...\" with reasons: 97% chance above $62k, 77% expecting up, but only 3% chance above $64k indicating limited upside.\n\nWord count: need <=80 words. Let's craft ~45 words.\n\nParagraph:"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data provided: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" and then nothing else. Possibly they expect us to infer that there is no data? But we must still produce a summary. Since no specifics, we can say insufficient data leads to mixed? But need mention numbers and names where available. There are none. Could we say \"No specific numbers or names were provided, leading to an indeterminate sentiment\"? But must start with Bullish:, Bearish:, or Mixed:. Choose Mixed: and note lack of concrete data. Must be <=80 words. One paragraph.\n\nLet's craft: \"Mixed: The Reddit snapshot shows only a header listing top-mentioned subreddits without any actual post counts, tickers, or user comments, so there is no quantifiable evidence of bullish or bearish bias; without numbers like mention frequency or named tokens (e.g., Bitcoin, Ethereum) the sentiment remains ambiguous.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 a7 header8 listing9 top-mentioned10 subreddits11 without12 any13 actual14 post1"
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect we infer from given data? But only \"Top mentioned: Subreddits:\" with no list. Might be a trick: we have no specifics, so we must say Mixed? But need numbers and names where available. Since none, we can say no specific numbers/names available. But must mention numbers and names where available—if none, we can say none mentioned. Still need to start with one of the three prefixes. Choose Mixed: because no clear sentiment. Provide reasons: lack of clear bullish/bearish signals, limited data. Keep under 80 words.\n\nLet's craft: \"Mixed: The Reddit snapshot shows only that subreddits were the top mentioned category without any specific tickers, price moves, or user counts, making it impossible to discern a clear bullish or bearish bias; thus sentiment remains ambiguous given the absence of concrete metrics or named assets.\"\n\nCount words: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 that7 subreddits8 were9 the10 top11 mentioned12 category13 without14 any15 specific16"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: we have multiple items: Bitcoin holds monthly gain, faces choppy August as forced-selling exhausted (neutral). Tether posts $1.5B profit Q2 as reserve buffer falls by half (Bearish). Good and bad of perps (neutral). Bank of Italy finds no consistent cost advantage for stablecoin remittances (Bearish). Pump.fun laid off workers before they received millions in PUMP tokens: Report (Bullish). Here's what happened in crypto today (neutral). Google Yanks Google Earth AI Image Tool a Day After Launch Over Deepfake Fears (Bearish). AI Music Company Suno Loses Copyright Case in Germany (Bearish).\n\nSo we have many bearish items, one bullish (Pump.fun layoffs before receiving tokens? Actually that seems bullish? The label says Bullish). So overall sentiment likely Bearish due to multiple bearish points. Provide numbers: Tether $1.5B profit, reserve buffer half, Pump.fun millions in PUMP tokens (unspecified number). Also mention names: Tether, Pump.fun, Bank of Italy, Google, Suno.\n\nWe need exactly one paragraph, start with \"Bearish"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Let's tally: Bullish: Pump.fun laid off workers before they received millions in PUMP tokens: Report (Bullish). That's one bullish. Bearish: Tether profit but reserve buffer falls half (Bearish). Bank of Italy finds no consistent cost advantage for stablecoin remittances (Bearish). Google Yanks Google Earth AI Image Tool a Day After Launch Over Deepfake Fears (Bearish). AI Music Company Suno Loses Copyright Case in Germany (Bearish). That's four bearish. Neutral: Bitcoin holds monthly gain, faces 'choppy' August as 'forced-selling' exhausted, analysts say (Neutral). The good and the bad of perps, according to crypto traders (Neutral). Here’s what happened in crypto today (Neutral). So overall more bearish. So start with 'Bearish:' then list reasons with numbers/names.\n\nWe need to mention numbers and names where available: Tether $1.5 billion operating profit Q2, reserve buffer fell by half. Bank of Italy (no name but institution). Google Yanks Google Earth AI Image Tool. Suno loses copyright case. Pump.fun laid"
     },
     "fourchain": {
       "thread_count": 201,
@@ -279,49 +279,49 @@
         "name": "Ethena",
         "rank": 78,
         "score": 0,
-        "change_24h": -1.65
+        "change_24h": -1.33
       },
       {
         "symbol": "GIGGLE",
         "name": "Giggle Fund",
-        "rank": 448,
+        "rank": 456,
         "score": 1,
-        "change_24h": 45.45
+        "change_24h": 46.76
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 111,
         "score": 2,
-        "change_24h": 1.13
+        "change_24h": 1.07
       },
       {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "rank": 1,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "rank": 19,
         "score": 3,
-        "change_24h": -2.22
+        "change_24h": -1.88
       },
       {
-        "symbol": "AAVE",
-        "name": "Aave",
-        "rank": 51,
+        "symbol": "PI",
+        "name": "Pi Network",
+        "rank": 69,
         "score": 4,
-        "change_24h": -7.71
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 10,
-        "score": 5,
-        "change_24h": -5.47
+        "change_24h": 3.45
       },
       {
         "symbol": "PONS",
         "name": "Pons",
         "rank": 797,
+        "score": 5,
+        "change_24h": -26.3
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 10,
         "score": 6,
-        "change_24h": -29.69
+        "change_24h": -4.93
       }
     ]
   },
@@ -583,7 +583,7 @@
       {
         "title": "Israel x Iran ceasefire continues through August 2?",
         "volume_24h": 497283,
-        "yes_price": 0.79,
+        "yes_price": 0.8,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-2-20260727170555149"
       },
@@ -625,16 +625,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactlyceushack\n\n\n//  // $/ / $/:/ md ///"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to infer overall market sentiment from these prediction markets. The data includes ceasefire probabilities, invasion probability, Fed rate increase probability, leadership change, Kharg Island control.\n\nInterpretation: High probability of Israel-Iran ceasefire continuing (80%) suggests reduced tension -> bullish for markets? Low probability of US-Iran effective ceasefire by July 31 (9%) and by Aug 14 (39%) suggests uncertainty. Invasion probability 24% moderate. Fed rate increase probability 59% > no change 39% suggests expectation of rate hike -> bearish for equities? Leadership change low 6%; Kharg Island not under Iranian control low 4% suggests status quo.\n\nOverall sentiment maybe mixed: some bullish signs (ceasefire likely continues) but also bearish (Fed likely hike, low chance of de-escalation with US). So start with 'Mixed:' then give reasons with numbers.\n\nNeed max 80 words. Let's craft ~70 words.\n\nParagraph: \"Mixed: Prediction markets show an 80% chance the Israel‑Iran ceasefire holds through Aug 2 (vol $497k), suggesting reduced regional risk, but only a 9%"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The data seems incomplete. Possibly they expect we infer from given? But there is no actual mentions. Might be a trick: we have to note that no data provided, so sentiment cannot be determined? But we must start with one of those and give reasons, mention numbers and names where available. Since no data, we could say \"No specific mentions found\" but that doesn't mention numbers/names. Could we say \"Bullish: No specific tickers mentioned in the data, so sentiment unclear\"? That mentions no numbers/names. Might be acceptable? But they said mention numbers and names where available. If none, we can say none available. Probably okay.\n\nWe need max 80 words. Let's craft ~30 words.\n\n\"Bullish: The discussion shows no specific tickers or subreddit activity highlighted, indicating a lack of concrete bullish signals; therefore sentiment remains neutral with no quantifiable support.\"\n\nBut starts with Bullish: then reasons. It mentions no numbers/names. Could say \"No numbers or names available\". That satisfies mention numbers and names where available (i.e., none). Let's produce.\n\nWord count: Count words.\n\n\""
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Perhaps we can note that no specific tickers or sentiment given, so we say Mixed due to lack of clear direction? But we need to mention numbers and names where available. Since none are provided, we can say \"No specific tickers or numbers were mentioned\". That still mentions that there are none. That might be acceptable.\n\nWe need to start with one of those prefixes. Let's choose Mixed: and then explain that the discussion lacked clear bullish or bearish signals, with no specific tickers or numbers cited, leading to ambiguous sentiment.\n\nWord count: need <=80 words. Let's craft ~30 words.\n\n\"Mixed: The Reddit discussion did not highlight any particular stocks or provide quantitative cues, with no top tickers, volume figures, or price targets mentioned, leaving participants without a clear bullish or bearish bias and resulting in an overall ambiguous market sentiment.\"\n\nCount words: Mixed:(1) The2 Reddit3 discussion4 did5 not6 highlight7 any8 particular9 stocks10 or11 provide1"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Must mention numbers and names where available. Max 80 words. Need to summarize overall market sentiment based on data. Count bullish vs bearish items: Bullish: Kerala aging population (Bullish), Lawmakers E15 proposal (Bullish). Bearish: Danantara Dollar Bond Plan (Bearish), Leopold Aschenbrenner AI hedge fund $45B lost most (Bearish), Warsh’s Fed pressure (Bearish), Trump's AI exec order (Bearish), Social Security funding crisis (Bearish). Neutral: Fidelity question (Neutral). So more bearish. Overall sentiment likely Bearish. Provide reasons with numbers/names: Danantara Dollar Bond Plan, Leopold Aschenbrenner $45B AI hedge fund, Warsh’s Fed, Trump AI exec order, Social Security funding crisis. Also mention bullish points maybe but overall Bearish. Must start with \"Bearish:\" then reasons. Max 80 words. Let's craft ~70 words.\n\nWord count: Let's draft:\n\n\"Bearish: Global volatility is hurting Danantara’s dollar‑bond plan, while Leopold Aschenbrenner’s $45 billion AI hedge fund lost most of its value in days; Fed Governor Warsh faces mounting inflation pressure with indicators at"
+      "summary": "We need to produce exactly ONE paragraph summarizing overall market sentiment. Must start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data with sentiment tags: some bullish, some bearish, one neutral. Need to decide overall sentiment. Count: Bullish items: 2 (Kerala aging population, E15 proposal). Bearish items: Danantara Dollar Bond Plan, Leopold Aschenbrenner AI hedge fund loss, Warsh's Fed pressure, Trump's AI exec order, Social Security funding crisis (bearish). That's 5 bearish. Neutral: 1. So overall bearish.\n\nThus start with 'Bearish:' then list reasons with numbers/names where available. Must be max 80 words. Let's craft ~70 words.\n\nInclude numbers: $45 billion AI hedge fund, maybe mention Kerala fertility rate low (no number given), E15 proposal (no number), Danantara Dollar Bond Plan (no number), Warsh's Fed (no number), Trump's AI exec order (no number), Social Security funding crisis (no number). We can include the $45B.\n\nWrite one paragraph.\n\nCheck word count. Let's draft:\n\n\"Bearish: Market sentiment is weighed down by multiple headwinds, including Danantara’s dollar‑bond plan struggling amid"
     },
     "macro": [
       {
@@ -726,7 +726,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 75
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 14
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 8
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 53
+        }
+      ]
     }
   },
   "portfolio": [
