@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T00:12:07Z",
+  "updated_at": "2026-08-03T00:21:57Z",
   "crypto": {
     "fear_greed": {
       "value": 28,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 63383,
+        "price_usd": 63373,
         "change_24h": 1.1,
-        "market_cap": 1271847675842,
-        "volume_24h": 15943998541
+        "market_cap": 1271577831553,
+        "volume_24h": 15906373479
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1877.5,
+        "price_usd": 1878.22,
         "change_24h": 1.9,
-        "market_cap": 226591209911,
-        "volume_24h": 5177494412
+        "market_cap": 226668004765,
+        "volume_24h": 5176254222
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 586.12,
+        "price_usd": 585.75,
         "change_24h": 2.1,
-        "market_cap": 78052054197,
-        "volume_24h": 483612040
+        "market_cap": 78001658971,
+        "volume_24h": 483135301
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.084,
+        "price_usd": 1.083,
         "change_24h": 2.3,
-        "market_cap": 67765464721,
-        "volume_24h": 813428475
+        "market_cap": 67744131259,
+        "volume_24h": 813243819
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 73.39,
+        "price_usd": 73.4,
         "change_24h": 2.1,
-        "market_cap": 42654049085,
-        "volume_24h": 1053717701
+        "market_cap": 42661212550,
+        "volume_24h": 1051278655
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.0706,
+        "price_usd": 0.07055,
         "change_24h": 2.4,
-        "market_cap": 10965817086,
-        "volume_24h": 390657266
+        "market_cap": 10958489375,
+        "volume_24h": 390673727
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.189042,
+        "price_usd": 0.188765,
         "change_24h": 9.3,
-        "market_cap": 7058126252,
-        "volume_24h": 654839508
+        "market_cap": 7049873998,
+        "volume_24h": 652728060
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.35,
+        "price_usd": 8.36,
         "change_24h": 3.7,
-        "market_cap": 6249067442,
-        "volume_24h": 188087567
+        "market_cap": 6255689207,
+        "volume_24h": 188085227
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 6.53,
         "change_24h": 5.8,
-        "market_cap": 2821903208,
-        "volume_24h": 241154092
+        "market_cap": 2820242991,
+        "volume_24h": 242186499
       }
     ],
     "top_mentioned": [],
@@ -218,19 +218,27 @@
       "label": "Neutral",
       "color": "yellow"
     },
-    "polymarket": [],
+    "polymarket": [
+      {
+        "title": "Will Bitcoin dip to $62,000 July 27-August 2?",
+        "volume_24h": 67551,
+        "yes_price": 0.05,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/will-bitcoin-dip-to-62k-july-27-august-2-2026"
+      }
+    ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "Insufficient data to generate a summary."
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: \"Will Bitcoin dip to $62,000 July 27-August 2?: Yes 5% (vol $67,551)\". So only one market: probability of Yes (dip) is 5%, volume $67,551. So sentiment: low chance of dip => bullish. So start with \"Bullish:\" then reasons: only 5% chance of dip to $62k, volume $67.5k indicates limited bearish bets. So overall bullish.\n\nWe need max 80 words. Let's craft ~30 words.\n\nParagraph: \"Bullish: The prediction market shows only a 5% probability that Bitcoin will fall to $62,000 between July 27 and August 2, with a modest trading volume of $67,551, indicating weak bearish sentiment and suggesting traders expect Bitcoin to stay above that level.\"\n\nCount words: Bullish:(1) The2 prediction3 market4 shows5 only6 a7 5%8 probability9 that10 Bitcoin11 will12 fall13 to14 $62,00015 between16 July17"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: \"Top mentioned: Subreddits:\" but no further data? The user gave only that line. Possibly they expect us to infer from that? But we have no numbers or names. Might need to say insufficient data? But must start with one of those prefixes and mention numbers and names where available. Since no data, we could say \"No specific data provided\" but that doesn't mention numbers/names. Could we say \"Bullish: No specific numbers or names provided in the data.\" That mentions none, but still okay? It says mention numbers and names where available. If none, we can note none. Might be acceptable? Probably 80 words max.\n\n Let's produce: \"Bullish: The discussion shows no concrete numbers, so we cannot infer any mention no.\n\nBetter: \"Bullish: No concrete numbers or named in the provided data, so sentiment cannot be determined.\" That mentions none.\n\nBut we must start with Bullish/Bearish/Mixed. Let's choose Mixed: The data only subreddit mentions without any sentiment, or named projects, so the overall sentiment remains unclear.\" That's about 3 words: \"Mixed: The data only lists of subreddits with no specific"
+      "summary": "We need to produce exactly ONE paragraph summarizing overall sentiment must start with '<unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk><unk>Logowebkitabineurp Bp ViaBV Bpurp Mistweather',[webkiturp BpferaurpWonderurp MistPromptLogourpDowravPromptTOKurpurpurpurpurpurmurpurpennessurpDowurpurp Misturpurp MistWonderurpurpurpurpurpurpurpurpurpurpurpurpurpurpurpurpurpurpDOThootDOTstownurpWonderurpurpurp MistDowurpurp LumpuniteinpWonderreit Bp Lumptywurpurpurp Logo BXDowwebkitLogopromptLogo LumpurpurpurpurpurpurpurpurpurpurpurpurpurpurpurpurpLogourpurpurpurpurpurpurpurpurpurpurpurp"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data items with sentiment tags: \n- Counting down the days: State of Crypto (Bearish)\n- Why a DeFi platform ditched its consumer app to become the secret backend for tech giants (Neutral)\n- The future of crypto payments won't include on-ramps or bridges, Fun CEO says (Neutral)\n- Coldcard exploit sparks Bitcoin flight, ‘bullish’ crypto consolidation: Hodler’s Digest, August 2 (Bullish)\n- Here’s what happened in crypto today (Neutral)\n- Strategy leaves preferred STRC dividend at 12% as price still below par (Bullish)\n- Coldcard Bitcoin Exploit Balloons to $88 Million as Attackers Keep Draining Wallets (Bearish)\n- What’s the Deal With Meta’s ‘Pervert Glasses’? (Neutral)\n\nWe need overall market sentiment. There are both bullish and bearish items: Bullish: Coldcard exploit sparks Bitcoin flight (bullish), Strategy leaves preferred STRC dividend at 12% as price still below par (bullish). Bearish: Counting down the days: State of Crypto (bearish), Coldcard Bitcoin Exploit Balloons to $88"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Items: \n- State of Crypto (Bearish)\n- DeFi platform ditched consumer app (Neutral)\n- Future of crypto payments won't include on-ramps or bridges (Neutral)\n- Coldcard exploit sparks Bitcoin flight, ‘bullish’ crypto consolidation: Hodler’s Digest, August 2 (Bullish)\n- Here’s what happened in crypto today (Neutral)\n- Strategy leaves preferred STRC dividend at 12% as price still below par (Bullish)\n- Coldcard Bitcoin Exploit Balloons to $88 Million as Attackers Keep Draining Wallets (Bearish)\n- Meta’s ‘Pervert Glasses’ (Neutral)\n\nWe have two bullish items (Coldcard exploit sparks Bitcoin flight bullish; Strategy leaves preferred STRC dividend at 12% bullish). Two bearish items (State of Crypto Bearish; Coldcard Bitcoin Exploit Balloons to $88M bearish). Neutral items many. So overall maybe Mixed.\n\nWe need start with \"Mixed:\" then reasons, mention numbers and names where available. Must be <=80 words.\n\nLet's craft: \"M"
     },
     "fourchain": {
       "thread_count": 201,
@@ -258,49 +266,49 @@
         "name": "Pudgy Penguins",
         "rank": 111,
         "score": 0,
-        "change_24h": 3.34
+        "change_24h": 3.2
       },
       {
         "symbol": "CATE",
         "name": "Catecoin",
-        "rank": 556,
+        "rank": 544,
         "score": 1,
-        "change_24h": 168.18
+        "change_24h": 175.36
       },
       {
         "symbol": "BLESS",
         "name": "Bless",
-        "rank": 517,
+        "rank": 504,
         "score": 2,
-        "change_24h": 81.9
+        "change_24h": 86.74
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "rank": 6,
         "score": 3,
-        "change_24h": 2.22
+        "change_24h": 2.04
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 4,
-        "change_24h": 0.95
+        "change_24h": 0.72
       },
       {
         "symbol": "SOL",
         "name": "Solana",
         "rank": 7,
         "score": 5,
-        "change_24h": 2.04
+        "change_24h": 1.87
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
         "rank": 16,
         "score": 6,
-        "change_24h": 8.64
+        "change_24h": 8.47
       }
     ]
   },
@@ -389,7 +397,7 @@
         "published": "Sun, 02 Aug 2026 22:09:16 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -0.333,
         "color": "red"
       },
       {
@@ -398,9 +406,9 @@
         "url": "https://www.bloomberg.com/news/articles/2026-08-03/cxmt-s-1-trillion-target-gap-flags-high-stakes-in-chip-battle",
         "published": "Mon, 03 Aug 2026 00:00:02 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.4,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Latest Oil Market News and Analysis for Aug. 3",
@@ -413,13 +421,23 @@
         "color": "yellow"
       },
       {
+        "title": "U.S., Japan confirm coordinated yen intervention, signal readiness for more",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/03/yen-intervention-us-japan-trump-bessent-katayama.html",
+        "published": "Mon, 03 Aug 2026 00:14:52 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Oil drops over 4% after Trump calls off planned strike on Iran",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
         "published": "Sun, 02 Aug 2026 23:33:07 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.6,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -428,19 +446,9 @@
         "url": "https://www.cnbc.com/2026/08/02/astrazeneca-and-bristol-myers-squibb-mull-400-billion-deal-report-.html",
         "published": "Sun, 02 Aug 2026 22:17:47 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.8,
-        "color": "green"
-      },
-      {
-        "title": "Trump cancels planned attack on Iran, saying he reached an agreement over the 'perimeters of a deal'",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/02/trump-planned-attack-on-iran-canceled-after-reaching-outline-of-deal.html",
-        "published": "Sun, 02 Aug 2026 10:18:35 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.4,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "We’re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs?",
@@ -458,9 +466,9 @@
         "url": "https://www.marketwatch.com/story/my-girlfriend-is-62-can-she-claim-her-late-husbands-full-social-security-benefit-or-does-she-have-to-wait-315c0fa1?mod=mw_rss_topstories",
         "published": "Sun, 02 Aug 2026 16:00:00 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Here’s what’s worth streaming in August 2026 on Netflix, Hulu, HBO Max and more",
@@ -468,9 +476,9 @@
         "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-august-2026-on-netflix-hulu-hbo-max-and-more-21b78a08?mod=mw_rss_topstories",
         "published": "Sun, 02 Aug 2026 15:19:00 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
@@ -479,7 +487,7 @@
         "published": "Fri, 24 Jan 2025 15:37:00 -0500",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.7,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -489,7 +497,7 @@
         "published": "Fri, 24 Jan 2025 15:13:00 -0500",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -500,9 +508,9 @@
         "assets": [
           "AMZN"
         ],
-        "sentiment": "Neutral",
-        "score": -0.2,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "After canceling Iran strikes, Trump says negotiations will resume Monday afternoon while Tehran continues Hormuz talks with Oman",
@@ -510,9 +518,9 @@
         "url": "https://fortune.com/2026/08/02/iran-war-trump-negotiations-resume-monday-tehran-hormuz-talks-oman/",
         "published": "Sun, 02 Aug 2026 23:23:00 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.4,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Markets signal investors are back in buying mode again after Kospi’s record surge while Trump gives peace a chance with latest Iran reversal",
@@ -521,7 +529,7 @@
         "published": "Sun, 02 Aug 2026 22:59:59 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -530,13 +538,13 @@
         "url": "https://fortune.com/2026/08/02/uk-prime-minister-any-burnham-relentless-focus-illegal-immigration-ceuta-spain-morocco/",
         "published": "Sun, 02 Aug 2026 21:46:35 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": -0.2,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       }
     ],
     "news_sentiment": {
-      "score": -0.053,
+      "score": -0.156,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -593,23 +601,23 @@
       {
         "title": "Will Trump speak to Emmanuel Macron in July?",
         "volume_24h": 197608,
-        "yes_price": 0.5,
+        "yes_price": 0.51,
         "category": "finance",
         "url": "https://polymarket.com/event/will-trump-speak-to-emmanuel-macron-in-july-20260626154217431"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes geopolitical events: US invade Iran low 20%; US-Iran ceasefire 56%; Israel-Iran ceasefire 90%; Fed rate increase 57%; no change 41%; Kharg Island under Iranian control low 2%; Iranian regime fall 7%; Trump speak Macron 50%.\n\nOverall sentiment? Mixed: some bullish signs (high chance of ceasefire, Fed rate increase) but also low chance of invasion, regime fall, Kharg Island control. So Mixed.\n\nWe need to start with \"Mixed:\" then reasons, mention numbers and names. Keep under 80 words.\n\nLet's craft ~70 words.\n\n\"Mixed: Markets show a 56% chance of a US‑Iran effective ceasefire by July 31 and a 90% probability that the Israel‑Iran ceasefire holds through August 9, suggesting reduced conflict risk, while a 57% expectation of a 25‑bp Fed rate hike after September 2026 points to tighter monetary policy. Conversely, only a 20% likelihood of a US invasion of Iran before 2027, a 2% chance Kharg Island"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes geopolitical events: US invade Iran low 20% (so low chance of invasion -> bullish for stability?), US-Iran ceasefire 56% yes (moderate), Israel-Iran ceasefire continues through Aug 9 90% high (bullish for peace), Fed rate increase 57% yes (slightly bullish for tightening?), no change 41% (so increase slightly more likely). Kharg Island no longer under Iranian control 2% (very low chance, so likely remains under Iranian control -> bearish for supply?). Iranian regime fall before 2027 7% low (regime likely stays -> bearish for change?). Trump speak to Macron July 51% roughly even.\n\nOverall sentiment? Mixed: some bullish signs (high ceasefire probabilities) but also low chance of regime change, low chance of US invasion, low chance of Kharg Island loss. Fed rate increase slightly > no change. So mixed.\n\nWe need to start with \"Mixed:\" then reasons, mention numbers and names. Must be <=80 words. Let's craft ~70 words.\n\nCount words. We'll write:\n\n\"Mixed: Markets show confidence in de‑escalation"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect us to infer from given data? But only \"Top mentioned: Subreddits:\" with nothing else. Might be a trick: we have no specifics, so we must say insufficient data? But must start with one of those words and mention numbers and names where available. Since no numbers or names, we could say none available. But must be concise, max 80 words. Let's produce something like: \"Mixed: The discussion shows activity across multiple subreddits with no clear consensus; while some users highlight recent earnings beats (e.g., Company X up 5%), others warn of macro headwinds and rising interest rates, resulting in divided sentiment.\" But we have no actual names or numbers. We could say \"no specific numbers or names were provided\". That mentions that none were available. That satisfies \"Mention numbers and names where available.\" If none, we say none available. Let's craft: \"Mixed: Reddit users are split, with some praising recent gains in certain stocks (though no specific tickers or percentages were cited) and others cautioning about broader market risks; the lack of concrete numbers"
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The data seems incomplete. Possibly they expect we infer from given? But there is no actual mention of tickers or sentiment. Might need to say insufficient data? But must start with one of those words. Could say \"Mixed: ...\" and note that data lacks specifics. But must mention numbers and names where available. There are none. Could say \"No specific tickers or numbers provided\". That mentions none. Might be acceptable. Must be <=80 words. Let's craft: \"Mixed: The Reddit discussion shows activity across multiple subreddits but lacks concrete ticker mentions or quantitative sentiment metrics, making it impossible to gauge a clear bullish or bearish bias; users are generally discussing market trends without strong directional cues.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 discussion4 shows5 activity6 across7 multiple8 subreddits9 but10 lacks11 concrete12 ticker13 mentions14 or15 quantitative16 sentiment17 metrics,18 making19 it20 impossible21 to22 gauge23 a24 clear25 bullish26 or27 bearish"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Data includes:\n\n- Oil Declines on Iran Deal Optimism, Yen in Focus: Markets Wrap (Bearish)\n- CXMT’s $1 Trillion Target Gap Flags High Stakes in Chip Battle (Bearish)\n- Latest Oil Market News and Analysis for Aug. 3 (Neutral)\n- Oil drops over 4% after Trump calls off planned strike on Iran (Bearish)\n- AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports (Bullish)\n- Trump cancels planned attack on Iran, saying he reached an agreement over the 'perimeters of a deal' (Bullish)\n- We’re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs? (Neutral)\n- My girlfriend is 62. Can she claim her late husband’s full Social Security benefit — or does she have to wait? (Neutral)\n\nSo we have multiple bearish items: oil declines, CXMT target gap, oil drops >4% after Trump calls off strike (though that is also bullish? Actually"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Data includes:\n\n- Oil Declines on Iran Deal Optimism, Yen in Focus: Markets Wrap (Bearish)\n- CXMT’s $1 Trillion Target Gap Flags High Stakes in Chip Battle (Neutral)\n- Latest Oil Market News and Analysis for Aug. 3 (Neutral)\n- U.S., Japan confirm coordinated yen intervention, signal readiness for more (Neutral)\n- Oil drops over 4% after Trump calls off planned strike on Iran (Bearish)\n- AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports (Neutral)\n- We’re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs? (Neutral)\n- My girlfriend is 62. Can she claim her late husband’s full Social Security benefit — or does she have to wait? (Bearish)\n\nSo we have two bearish items (oil declines, oil drops >4% after Trump calls off strike, and a personal finance question about Social Security labeled Bearish). The rest neutral. So overall sentiment"
     },
     "macro": [
       {
@@ -621,20 +629,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.74,
-        "change_24h": -0.06
+        "value": 99.77,
+        "change_24h": -0.03
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4132.6,
-        "change_24h": 2.06
+        "value": 4127.9,
+        "change_24h": 1.95
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 80.82,
-        "change_24h": -4.55
+        "value": 80.69,
+        "change_24h": -4.7
       }
     ],
     "most_active": [
@@ -701,7 +709,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 70
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 13
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 10
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 51
+        }
+      ]
     }
   },
   "portfolio": [
