@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T08:31:53Z",
+  "updated_at": "2026-08-03T08:42:59Z",
   "crypto": {
     "fear_greed": {
       "value": 28,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 62284,
+        "price_usd": 62320,
         "change_24h": -1.4,
-        "market_cap": 1249747946113,
-        "volume_24h": 16877950832
+        "market_cap": 1250499527308,
+        "volume_24h": 17000185231
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1831.17,
+        "price_usd": 1832.14,
         "change_24h": -1.8,
-        "market_cap": 221036615386,
-        "volume_24h": 5236091596
+        "market_cap": 221136737905,
+        "volume_24h": 5269619001
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 581.25,
+        "price_usd": 582.26,
         "change_24h": -0.3,
-        "market_cap": 77404654851,
-        "volume_24h": 436760214
+        "market_cap": 77531084515,
+        "volume_24h": 438323576
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.063,
+        "price_usd": 1.064,
         "change_24h": -1.3,
-        "market_cap": 66471023587,
-        "volume_24h": 789270001
+        "market_cap": 66506346295,
+        "volume_24h": 790744019
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 72.02,
+        "price_usd": 72.08,
         "change_24h": -1.3,
-        "market_cap": 41876719063,
-        "volume_24h": 981562447
+        "market_cap": 41897877982,
+        "volume_24h": 987638598
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.069,
+        "price_usd": 0.069104,
         "change_24h": -1.5,
-        "market_cap": 10718188628,
-        "volume_24h": 396561150
+        "market_cap": 10733664728,
+        "volume_24h": 398398661
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.181825,
+        "price_usd": 0.181997,
         "change_24h": -1.9,
-        "market_cap": 6789398740,
-        "volume_24h": 506543466
+        "market_cap": 6796880341,
+        "volume_24h": 506418254
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.17,
+        "price_usd": 8.18,
         "change_24h": -1.8,
-        "market_cap": 6110430835,
-        "volume_24h": 157007147
+        "market_cap": 6118108587,
+        "volume_24h": 157044541
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.39,
+        "price_usd": 6.4,
         "change_24h": -3.1,
-        "market_cap": 2757369821,
-        "volume_24h": 181422556
+        "market_cap": 2762641346,
+        "volume_24h": 181436838
       }
     ],
     "top_mentioned": [],
@@ -234,20 +234,20 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: only one market: \"Will Bitcoin dip to $50,000 in August?: Yes 7% (vol $78,131)\". So sentiment: low probability of dip (7% yes) suggests bullish. So start with Bullish: then mention that only 7% chance of dip to $50k, volume $78k, indicating confidence Bitcoin stays above $50k. Must be one paragraph, max 80 words. Let's craft ~30 words.\n\n\"Bullish: The prediction market shows only a 7% chance that Bitcoin will fall to $50,000 in August, with $78,131 traded on the 'Yes' side, indicating strong confidence that BTC will stay above that level.\"\n\nCount words: Bullish:(1) The2 prediction3 market4 shows5 only6 a7 7%8 chance9 that10 Bitcoin11 will12 fall13 to14 $50,00015 in16 August,17 with18 $78,13119 traded20 on21 the22 'Yes'23 side,24 indicating25 strong26 confidence27 that2"
+      "summary": "We need to produce exactly one paragraph, starting with either Bullish:, Bearish:, or Mixed:. Must summarize overall market sentiment based on the data: only one data point: \"Will Bitcoin dip to $50,000 in August?: Yes 7% (vol $78,131)\". So only 7% probability of dip to $50k, implying low chance of bearish scenario, thus bullish sentiment. Must mention numbers and names where available: Bitcoin, $50,000, August, 7%, volume $78,131. Must be max 80 words. One paragraph. Start with \"Bullish:\" then reasons. Ensure it's one paragraph (no line breaks). Let's craft ~30 words.\n\n\"Bullish: The prediction market shows only a 7% chance of Bitcoin falling to $50,000 in August, with $78,131 traded, indicating strong confidence that BTC will stay above that level and reflecting overall optimistic sentiment.\"\n\nCount words: Bullish:(1) The2 prediction3 market4 shows5 only6 a7 7%8 chance9 of10 Bitcoin11 falling12 to13 $50,00014 in15 August,16 with17 $78,13118 traded,19 indicating20 strong21 confidence22 that23"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: \"Top mentioned: Subreddits:\" but no further data? The prompt seems incomplete. Possibly they expect us to infer from given data? But only \"Top mentioned: Subreddits:\" with nothing else. Might be a trick: we have no data, so we cannot mention numbers/names. But we must mention numbers and names where available. If none, we can say none? But must mention numbers and names where available—if none, we can omit? Probably we need to say something like \"Mixed: ...\" but we have no specifics. Could we say \"No specific data provided\"? That would not mention numbers/names. Might be considered not following instruction.\n\nMaybe the data is truncated in the prompt but we assume there is some data like \"Top mentioned: Subreddits: r/CryptoCurrency, r/Bitcoin, r/Ethereum\" etc. But not given.\n\nGiven the instruction, we must produce a paragraph starting with Bullish/Bearish/Mixed, mention numbers and names where available. Since we have no numbers/names, we could say \"No specific numbers or names were provided in the data.\" That mentions that there are none. Is that acceptable? It mentions that there are no"
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave placeholder? Possibly they expect us to infer from given data? There's no actual data. Might need to respond that insufficient data? But must follow instruction: exactly one paragraph, start with Bullish/Bearish/Mixed, mention numbers and names where available, max 80 words. Since data is empty, we could say \"Mixed: ...\" but need numbers and names. Could say \"No specific data provided\" but that doesn't mention numbers/names. Might be considered not following. Perhaps we assume the data is missing, so we state that sentiment cannot be determined. But must start with one of the three words. Could do \"Mixed: Insufficient data to determine sentiment; no specific numbers or names provided.\" That mentions no numbers/names though. The instruction: \"Mention numbers and names where available.\" If none available, we can say none available. That's okay.\n\nWord count: Let's craft: \"Mixed: The Reddit discussion lacks concrete metrics or named assets, making sentiment unclear; no specific numbers or prominent tokens were highlighted in the provided data.\" Count words.\n\nCount: Mixed:(1) The2 Reddit"
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: Market sentiment is dominated by significant security breaches and financial instability, highlighted by the $88 million Coldcard exploit and ZeroStack’s $82.5 million loss. Bitcoin has slipped below $63,000, further pressured by a $165 million BTC move from Trump Media and Bitget’s exit from Japan. While some anticipate positive U.S. jobs data and earnings from Galaxy and Circle, these bullish hopes are currently outweighed by systemic risks and liquidity concerns."
+      "outlook": "Mixed",
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: many bearish items, one bullish (Crypto Week Ahead), some neutral. Likely Mixed or Bearish. Since many bearish, maybe Bearish. Provide reasons: Bitcoin under $63k, Coldcard exploit $88M, Trump Media BTC move $165M, Bitget exit Japan, ZeroStack $82.5M loss, etc. Also mention bullish: Crypto Week Ahead (U.S. Jobs, Circle, Galaxy, American Bitcoin earnings). Keep under 80 words.\n\nLet's craft ~70 words.\n\nParagraph: Bearish: Bitcoin fell under $63,000, Coldcard exploit $88888M, Trump Media's $165M move, Bitget exiting Japan, ZeroStack $82.5M loss? Actually \"U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead (Bullish)\"). So we can mention that as bullish factor.\n\nWe need exactly one paragraph, start with Bearish: or Mixed: etc. Let's choose Bearish: because more bearish. Provide reasons with numbers and names.\n\nWord count: need <=80 words. Let's draft ~70"
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 156,
+      "active_threads": 158,
       "mentions": {
         "BTC": 20,
         "XRP": 12,
@@ -269,51 +269,51 @@
       {
         "symbol": "BLESS",
         "name": "Bless",
-        "rank": 572,
+        "rank": 587,
         "score": 0,
-        "change_24h": 30.89
+        "change_24h": 27.11
       },
       {
         "symbol": "GRVT",
         "name": "GRVT Token",
-        "rank": 585,
+        "rank": 591,
         "score": 1,
-        "change_24h": 7.38
+        "change_24h": 5.22
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 2,
-        "change_24h": -1.67
+        "change_24h": -1.66
       },
       {
         "symbol": "PONS",
         "name": "Pons",
-        "rank": 782,
+        "rank": 768,
         "score": 3,
-        "change_24h": 0.39
+        "change_24h": 1.76
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
-        "rank": 111,
+        "rank": 112,
         "score": 4,
-        "change_24h": -1.35
+        "change_24h": -1.18
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 10,
         "score": 5,
-        "change_24h": 0.16
+        "change_24h": 0.19
       },
       {
         "symbol": "ONDO",
         "name": "Ondo",
         "rank": 43,
         "score": 6,
-        "change_24h": -5.35
+        "change_24h": -5.13
       }
     ]
   },
@@ -332,12 +332,12 @@
         "change_24h": 0.53
       },
       "vix": {
-        "value": 16.12,
-        "change_24h": 0.81
+        "value": 16.2,
+        "change_24h": 1.31
       }
     },
     "market_mood": {
-      "score": 0.238,
+      "score": 0.213,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -396,6 +396,16 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Korean Stocks Drop as Chipmakers Reverse Friday’s Record Gains",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-03/korean-stocks-drop-as-chipmakers-reverse-friday-s-record-gains",
+        "published": "Mon, 03 Aug 2026 00:59:28 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -0.333,
+        "color": "red"
+      },
+      {
         "title": "Stocks Rise as Oil Plunge Eases Pressure on Yields: Markets Wrap",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-08-02/oil-slumps-us-futures-rise-on-iran-talks-optimism-markets-wrap",
@@ -414,16 +424,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "AstraZeneca Shares Fall on Deal Talks With Bristol-Myers",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-02/astrazeneca-is-said-to-have-explored-bristol-myers-mega-merger",
-        "published": "Sun, 02 Aug 2026 20:13:51 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "Trump says Iran talks to resume Monday after calling off planned strikes",
@@ -446,14 +446,14 @@
         "color": "red"
       },
       {
-        "title": "Why the U.S. stepped in after decades to prop up Japan's yen — and what's at stake",
+        "title": "U.S. Treasury yields fall as oil prices plunge on Iran de-escalation hopes",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/03/japan-yen-intervention-us-treasurys-euros-.html",
-        "published": "Mon, 03 Aug 2026 07:28:46 GMT",
+        "url": "https://www.cnbc.com/2026/08/03/us-treasury-yields-investors-bonds-war.html",
+        "published": "Mon, 03 Aug 2026 08:39:18 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.6,
+        "color": "red"
       },
       {
         "title": "We’re in our 60s with $1.5 million. Would a trust be more effective than a will to prevent conflict among our heirs?",
@@ -549,7 +549,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.289,
+      "score": -0.284,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -592,7 +592,7 @@
       {
         "title": "Will WTI Crude Oil (WTI) hit (LOW) $60 in August?",
         "volume_24h": 152222,
-        "yes_price": 0.05,
+        "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/will-wti-dip-to-60-in-august-2026"
       },
@@ -613,16 +613,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes geopolitical and Fed predictions. High probability of ceasefire (US-Iran 60%, Israel-Iran 91%) suggests reduced tension -> bullish for markets? Low probability of US invading Iran (20%) also bullish. Fed rate increase probability 56% (slightly >50) suggests modest tightening, maybe bearish. No change probability 41% (less than 50). Oil low $60 only 5% chance -> bullish for oil prices (expect higher). Regime fall low 7%, Putin out low 9% -> status quo.\n\nOverall sentiment seems mildly bullish due to reduced conflict risk, low chance of oil hitting low, moderate chance of rate hike. Could be Mixed? Let's decide: The majority of indicators point to lower geopolitical risk and low chance of oil price drop, which is bullish for risk assets, while Fed hike slightly >50% is modestly bearish. Net maybe Mixed but leaning bullish. The instruction: start with Bullish:, Bearish:, or Mixed:. Choose one. I'd choose Bullish: with reasons: high ceasefire probabilities, low invasion chance, low oil low chance, etc. Mention numbers."
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes geopolitical and Fed rates. High probability of US-Iran ceasefire (60%), Israel-Iran ceasefire continues (91%). Low probability of US invading Iran (20%). Low probability of WTI hitting $60 (4%). Fed increase rates after Sep 2026 meeting: Yes 56% (so slight bullish for rates increase). No change: 41% (so less likely). Overall sentiment: Mixed? The ceasefire probabilities high suggest reduced tension => bullish for markets? But Fed rate increase probability >50 suggests tightening => bearish for equities. So mixed.\n\nWe need to start with \"Mixed:\" then reasons, mention numbers and names. Must be <=80 words.\n\nLet's craft ~70 words.\n\n\"Mixed: Markets see reduced geopolitical risk with a 60% chance of a US‑Iran effective ceasefire by July 31 and a 91% chance the Israel‑Iran ceasefire holds through Aug 9, while only a 20% chance of a US invasion of Iran before 2027. Conversely, Fed policy leans tighter, with a 56% probability of a 25‑bp rate h"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave placeholder? Possibly they omitted actual data. We must work with what we have: only \"Top mentioned: Subreddits:\" no numbers or names. We need to mention numbers and names where available, but none are given. Could we say none? Might be okay to say no specific numbers. But they ask to mention numbers and names where available. If none, we can say none provided. Keep within 80 words. One paragraph.\n\nLet's craft: \"Mixed: The discussion shows activity across several subreddits, but no specific tickers or volume figures are highlighted in the provided data, making sentiment ambiguous; users express both optimism about potential upside and caution regarding downside risks, resulting in a balanced outlook.\" Count words.\n\nCount: Mixed:(1) The2 discussion3 shows4 activity5 across6 several7 subreddits,8 but9 no10 specific11 tickers12 or13 volume14 figures15 are16 highlighted17 in18 the19 provided20 data,21 making22 sentiment23 ambiguous;24 users25 express26 both27 optimism28 about29 potential30"
+      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" maybe they omitted details. We need to infer? Possibly they expect we note that no specific data provided, so we can't give numbers? But we must mention numbers and names where available. Since none are given, we can say no specific numbers or names provided. But we still need to start with Bullish/Bearish/Mixed. Based on lack of data, maybe Mixed? We can say sentiment unclear due to insufficient data. Provide reasons: limited mentions, no clear trend. Must be <=80 words. One paragraph.\n\nLet's craft: \"Mixed: The Reddit discussion shows limited engagement with only a few top-mentioned subreddits cited and no specific tickers or sentiment scores provided, making it difficult to gauge a clear bullish or bearish bias; without quantitative metrics such as upvote counts or comment volume, analysts cannot confidently assign a directional stance.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 discussion4 shows5 limited6 engagement7 with8 only9 a10 few11 top-mentioned12 subreddits13 cited14 and15 no16 specific"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Data includes: Stocks rise as oil plunge eases pressure on yields (neutral). Yen rises amid speculation of more intervention after US support (neutral). AstraZeneca shares fall on deal talks with Bristol-Myers (bearish). Trump says Iran talks to resume Monday after calling off planned strikes (neutral). AstraZeneca shares drop 7% after report on $400 billion merger talks with Bristol Myers Squibb (bearish). Why the US stepped in after decades to prop up Japan's yen — and what's at stake (neutral). Personal finance questions (neutral, bearish? The last one: My girlfriend is 62... (Bearish) maybe personal finance but not market). So overall we have some bearish signals (AstraZeneca down 7%, $400bn merger talk causing drop). Also neutral/positive: stocks rise as oil plunge eases pressure on yields (implies bullish for equities). Yen rise maybe indicates risk-off? But overall mixed.\n\nThus start with \"Mixed:\" then give reasons: stocks rose due to oil price drop easing yields; AstraZeneca fell 7% on $400bn merger talks; yen rose"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Items: Korean Stocks Drop (Bearish), Stocks Rise as Oil Plunge Eases Pressure on Yields (Neutral), Yen Rises (Neutral), Trump says Iran talks to resume Monday after calling off planned strikes (Neutral), AstraZeneca shares drop 7% after report on $400 billion merger talks with Bristol Myers Squibb (Bearish), U.S. Treasury yields fall as oil prices plunge on Iran de-escalation hopes (Bearish), personal finance questions (Neutral/Bearish). So overall seems more bearish: Korean stocks drop, AstraZeneca drop 7%, Treasury yields fall (bearish). So we choose Bearish: with reasons: Korean stocks drop, AstraZeneca shares down 7% on $400B merger rumors, US Treasury yields falling as oil plunges on Iran de-escalation hopes. Mention numbers: 7%, $400 billion, Korean stocks drop (no %). Could mention \"Korean stocks fell\". Keep under 80 words.\n\nLet's craft ~50 words.\n\nParagraph: \"Bearish: Korean stocks slipped as chipmakers reversed Friday’s"
     },
     "macro": [
       {
@@ -634,20 +634,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.81,
-        "change_24h": 0.01
+        "value": 99.82,
+        "change_24h": 0.02
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4114.2,
-        "change_24h": 1.61
+        "value": 4112.0,
+        "change_24h": 1.55
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 79.92,
-        "change_24h": -5.61
+        "value": 80.03,
+        "change_24h": -5.48
       }
     ],
     "most_active": [
