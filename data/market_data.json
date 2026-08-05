@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T20:10:53Z",
+  "updated_at": "2026-08-05T20:20:59Z",
   "crypto": {
     "fear_greed": {
       "value": 27,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64784,
+        "price_usd": 64846,
         "change_24h": 0.9,
-        "market_cap": 1299973578648,
-        "volume_24h": 23271359973
+        "market_cap": 1301285147032,
+        "volume_24h": 23252609317
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1916.37,
+        "price_usd": 1918.23,
         "change_24h": 2.4,
-        "market_cap": 231272143144,
-        "volume_24h": 8560631466
+        "market_cap": 231523060768,
+        "volume_24h": 8524592416
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 598.35,
+        "price_usd": 598.68,
         "change_24h": 1.0,
-        "market_cap": 79679333177,
-        "volume_24h": 717350153
+        "market_cap": 79719503448,
+        "volume_24h": 717057032
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.068,
+        "price_usd": 1.07,
         "change_24h": -0.5,
-        "market_cap": 66758255809,
-        "volume_24h": 1010491174
+        "market_cap": 66892809126,
+        "volume_24h": 1006850034
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 74.31,
+        "price_usd": 74.45,
         "change_24h": 0.5,
-        "market_cap": 43196660500,
-        "volume_24h": 1681914770
+        "market_cap": 43286741869,
+        "volume_24h": 1676640560
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070116,
+        "price_usd": 0.070229,
         "change_24h": -0.2,
-        "market_cap": 10893912049,
-        "volume_24h": 383658473
+        "market_cap": 10911378649,
+        "volume_24h": 384485891
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.189084,
+        "price_usd": 0.189811,
         "change_24h": -1.0,
-        "market_cap": 7061786613,
-        "volume_24h": 412945978
+        "market_cap": 7082874854,
+        "volume_24h": 413570166
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.18,
+        "price_usd": 8.2,
         "change_24h": -0.4,
-        "market_cap": 6120762202,
-        "volume_24h": 143954199
+        "market_cap": 6137009483,
+        "volume_24h": 143130412
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.66,
+        "price_usd": 6.68,
         "change_24h": -1.1,
-        "market_cap": 2876925237,
-        "volume_24h": 182938052
+        "market_cap": 2882721941,
+        "volume_24h": 183121403
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "MATIC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "LTC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "BTC",
+        "mentions": 0,
+        "price_usd": 64846,
+        "change_24h": 0.9
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1918.23,
+        "change_24h": 2.4
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 74.45,
+        "change_24h": 0.5
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 598.68,
+        "change_24h": 1.0
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.07,
+        "change_24h": -0.5
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.189811,
+        "change_24h": -1.0
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.070229,
+        "change_24h": -0.2
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.68,
+        "change_24h": -1.1
+      }
+    ],
     "news": [
       {
         "title": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
@@ -89,9 +150,9 @@
         "url": "https://www.coindesk.com/policy/2026/08/05/crypto-s-campaign-efforts-see-rare-loss-but-crypto-roster-in-congress-likely-to-grow",
         "published": "Wed, 05 Aug 2026 18:15:21 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.2,
+        "color": "yellow"
       },
       {
         "title": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
@@ -101,9 +162,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
       },
       {
         "title": "Crypto Long & Short: Putting the bitcoin sizing question to the test",
@@ -123,9 +184,9 @@
         "url": "https://cointelegraph.com/news/senator-lummis-clarity-vote-movement-calendar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Wed, 05 Aug 2026 19:18:24 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
       },
       {
         "title": "Here’s what happened in crypto today",
@@ -144,8 +205,18 @@
         "published": "Wed, 05 Aug 2026 18:53:47 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.8,
         "color": "green"
+      },
+      {
+        "title": "Perplexity Wins Appeal Against Amazon in AI Agent Shopping Lawsuit",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/374996/perplexity-amazon-ai-agent-lawsuit",
+        "published": "Wed, 05 Aug 2026 20:16:03 +0000",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.2,
+        "color": "yellow"
       },
       {
         "title": "Visa Widens Stablecoin Payouts via Zerohash Rails",
@@ -153,9 +224,9 @@
         "url": "https://decrypt.co/374994/visa-stablecoin-payouts-zerohash",
         "published": "Wed, 05 Aug 2026 19:42:48 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "OpenAI and Anthropic's Rogue Models Hacked Real Companies. The Law Has No Answer",
@@ -164,18 +235,8 @@
         "published": "Wed, 05 Aug 2026 19:11:23 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.5,
         "color": "red"
-      },
-      {
-        "title": "Feds Say an NFT Founder Raised $10 Million Only to Blow It All on Gambling, Trading, and a DJ Hobby",
-        "source": "Decrypt",
-        "url": "https://decrypt.co/374986/nft-founder-10-million-fraud-gambling-dj-hobby",
-        "published": "Wed, 05 Aug 2026 18:43:47 +0000",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "A massive 100 million PROVE tokens unlock today, but razor-thin liquidity reveals a market unprepared for a 51% supply shock",
@@ -183,9 +244,9 @@
         "url": "https://cryptoslate.com/a-massive-100-million-prove-tokens-unlock-today-but-razor-thin-exchange-liquidity-reveals-a-market-completely-unprepared-for-a-51-supply-shock/",
         "published": "Wed, 05 Aug 2026 19:30:35 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.8,
+        "color": "red"
       },
       {
         "title": "USDC redemptions just outpaced mints by $4B, but a massive new token presale is quietly doubling Circle’s revenue outlook",
@@ -193,9 +254,9 @@
         "url": "https://cryptoslate.com/usdc-redemptions-just-outpaced-mints-by-4-billion-but-a-massive-new-token-presale-is-quietly-doubling-circles-revenue-outlook/",
         "published": "Wed, 05 Aug 2026 18:20:07 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.2,
+        "color": "yellow"
       },
       {
         "title": "Bitcoin treasury Strive bought 20 BTC, but 110,000 new shares left holders with less Bitcoin exposure",
@@ -206,12 +267,12 @@
           "BTC"
         ],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.2,
         "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": 0.0,
+      "score": 0.142,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -228,33 +289,54 @@
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "MATIC": 1,
+          "LTC": 1,
+          "BTC": 0,
+          "ETH": 0,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 4, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vfpwqu/daily_crypto_discussion_august_4_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 6 bullish vs 8 bearish signals detected across crypto news data."
+      "summary": "Mixed: 8 bullish vs 7 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 150,
+      "active_threads": 148,
       "mentions": {
         "BTC": 23,
         "XRP": 9,
         "ETH": 2
       },
-      "bullish_hits": 102,
-      "bearish_hits": 53,
-      "bullish_pct": 66,
+      "bullish_hits": 101,
+      "bearish_hits": 54,
+      "bullish_pct": 65,
       "top_coin": "BTC",
       "top_posts": [
         "/smg/ – stock market general qt3.14 edition &gt;educational sites: https://www.investopedia.com https://www.khanacademy.",
         "/smg/ stock market general chad edition &gt;educational sites: https://www.investopedia.com https://www.khanacademy.org/",
         "/smg/ - stock market general &gt;educational sites: https://www.investopedia.com https://www.khanacademy.org/economi cs-",
-        "/smg/ – stock market general saas gods edition &gt;educational sites: https://www.investopedia.com https://www.khanacade",
-        "buy spcx. $135 is the absolute floor. it will be at $260 within 12 months. you will hate yourself if you don&#039;t get "
+        "/smg/ - stock market general crazy market edition &gt;educational sites: https://www.investopedia.com https://www.khanac",
+        "/smg/ – stock market general saas gods edition &gt;educational sites: https://www.investopedia.com https://www.khanacade"
       ]
     },
     "cg_trending": [
@@ -263,49 +345,49 @@
         "name": "ZIGChain",
         "rank": 395,
         "score": 0,
-        "change_24h": -2.57
+        "change_24h": -1.31
       },
       {
         "symbol": "HEI",
         "name": "Heima",
-        "rank": 763,
+        "rank": 769,
         "score": 1,
-        "change_24h": 118.89
+        "change_24h": 120.83
       },
       {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "rank": 264,
+        "symbol": "BLESS",
+        "name": "Bless",
+        "rank": 466,
         "score": 2,
-        "change_24h": 59.58
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "rank": 37,
-        "score": 3,
-        "change_24h": 6.29
+        "change_24h": 135.97
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 110,
+        "score": 3,
+        "change_24h": 0.85
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "rank": 261,
         "score": 4,
-        "change_24h": 0.91
+        "change_24h": 64.07
       },
       {
-        "symbol": "BLESS",
-        "name": "Bless",
-        "rank": 456,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "rank": 37,
         "score": 5,
-        "change_24h": 137.61
+        "change_24h": 5.68
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "rank": 68,
+        "symbol": "SUI",
+        "name": "Sui",
+        "rank": 33,
         "score": 6,
-        "change_24h": -1.5
+        "change_24h": -0.65
       }
     ]
   },
@@ -324,12 +406,12 @@
         "change_24h": 0.49
       },
       "vix": {
-        "value": 15.56,
-        "change_24h": -5.7
+        "value": 15.82,
+        "change_24h": -4.12
       }
     },
     "market_mood": {
-      "score": 0.186,
+      "score": 0.142,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -353,11 +435,6 @@
         "symbol": "MSFT",
         "price_usd": 487.46,
         "change_24h": -1.09
-      },
-      {
-        "symbol": "GOOGL",
-        "price_usd": 362.43,
-        "change_24h": -4.03
       },
       {
         "symbol": "AMZN",
@@ -388,6 +465,28 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Stocks Edge Lower as Rate Hike Rumbles Offset Nvidia’s Rally",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-05/s-p-500-poised-for-another-record-as-ai-spending-narrative-holds",
+        "published": "Wed, 05 Aug 2026 11:52:30 GMT",
+        "assets": [
+          "NVDA"
+        ],
+        "sentiment": "Bullish",
+        "score": 0.333,
+        "color": "green"
+      },
+      {
+        "title": "Dorsey’s Block Boosts Profit Outlook as Revamp Takes Shape",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-05/dorsey-s-block-boosts-profit-outlook-as-revamp-takes-shape",
+        "published": "Wed, 05 Aug 2026 20:07:14 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
         "title": "S&P 500 Edges Lower After $3.7 Trillion Advance: Markets Wrap",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-08-04/stock-market-today-dow-s-p-live-updates",
@@ -398,26 +497,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "Kalshi Not Running 'a Casino' Says Head of Enforcement",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-05/kalshi-not-running-a-casino-says-head-of-enforcement-video",
-        "published": "Wed, 05 Aug 2026 19:59:13 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.333,
-        "color": "green"
-      },
-      {
-        "title": "US Signals Steady Debt Sales to 2027, Offers ‘Subtle’ Change",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-05/us-keeps-debt-sale-guidance-steady-deepening-reliance-on-bills",
-        "published": "Wed, 05 Aug 2026 12:32:16 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "Google's AI reshuffle: Chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO",
@@ -452,6 +531,16 @@
         "color": "red"
       },
       {
+        "title": "Figma’s push into AI agents drives an earnings beat",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/figmas-push-into-ai-agents-drives-an-earnings-beat-1f6e200a?mod=mw_rss_topstories",
+        "published": "Wed, 05 Aug 2026 20:09:00 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
         "title": "How parents can keep saving for retirement during the expensive childcare years",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/how-parents-can-keep-saving-for-retirement-during-the-expensive-childcare-years-e06b3abe?mod=mw_rss_topstories",
@@ -470,16 +559,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Taxes are on the ballot this fall, as Republicans and Democrats grow further apart on whether to cut or raise them",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/taxes-are-on-the-ballot-this-fall-as-republicans-and-democrats-grow-further-apart-on-whether-to-raise-them-c7990380?mod=mw_rss_topstories",
-        "published": "Wed, 05 Aug 2026 19:46:00 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
@@ -545,9 +624,9 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.333,
-      "label": "Bearish",
-      "color": "red"
+      "score": -0.067,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
@@ -617,8 +696,8 @@
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: 7 bullish vs 8 bearish signals detected across stock/finance news data."
+      "outlook": "Bullish",
+      "summary": "Bullish: 12 bullish vs 7 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -630,20 +709,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.69,
-        "change_24h": -0.2
+        "value": 99.7,
+        "change_24h": -0.19
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4308.0,
-        "change_24h": 5.19
+        "value": 4308.9,
+        "change_24h": 5.21
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 75.15,
-        "change_24h": -0.82
+        "value": 74.92,
+        "change_24h": -1.12
       }
     ],
     "most_active": [
@@ -667,7 +746,7 @@
       },
       {
         "symbol": "GOOGL",
-        "volume": 45138575,
+        "volume": 46331184,
         "price_usd": 362.43,
         "change_24h": -4.03
       },
@@ -678,16 +757,16 @@
         "change_24h": 0.52
       },
       {
+        "symbol": "SPY",
+        "volume": 43789419,
+        "price_usd": 769.77,
+        "change_24h": -0.2
+      },
+      {
         "symbol": "AMZN",
         "volume": 42366662,
         "price_usd": 272.65,
         "change_24h": -1.72
-      },
-      {
-        "symbol": "SPY",
-        "volume": 40163863,
-        "price_usd": 769.77,
-        "change_24h": -0.2
       },
       {
         "symbol": "QQQ",
@@ -703,7 +782,7 @@
       },
       {
         "symbol": "TSLA",
-        "volume": 26795678,
+        "volume": 27506311,
         "price_usd": 321.55,
         "change_24h": -1.77
       }
@@ -750,15 +829,15 @@
       "symbol": "XYLD",
       "name": "Global X S&P 500 Covered Call",
       "type": "Covered Call Income",
-      "price_usd": 41.5,
-      "change_1d": 0.02,
-      "change_1w": 2.42,
-      "change_1m": 2.24,
-      "high_3m": 41.5,
+      "price_usd": 41.51,
+      "change_1d": 0.05,
+      "change_1w": 2.44,
+      "change_1m": 2.26,
+      "high_3m": 41.51,
       "low_3m": 39.24,
       "week52_high": 41.55,
       "week52_low": 38.22,
-      "rsi": 65.3,
+      "rsi": 65.4,
       "div_yield": 9.29,
       "last_div": null,
       "outlook": {
@@ -772,9 +851,9 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 65.3 — Above neutral, mild upward momentum ↑",
+          "RSI 65.4 — Above neutral, mild upward momentum ↑",
           "5-day momentum +2.4% — short-term buying pressure ↑",
-          "1-month return +2.2% — range-bound"
+          "1-month return +2.3% — range-bound"
         ]
       }
     },
@@ -814,15 +893,15 @@
       "symbol": "SCHD",
       "name": "Schwab US Dividend Equity",
       "type": "Dividend Growth",
-      "price_usd": 33.63,
-      "change_1d": -0.64,
-      "change_1w": -0.58,
-      "change_1m": 3.37,
+      "price_usd": 33.64,
+      "change_1d": -0.62,
+      "change_1w": -0.56,
+      "change_1m": 3.38,
       "high_3m": 33.89,
       "low_3m": 31.29,
       "week52_high": 34.24,
       "week52_low": 26.32,
-      "rsi": 60.8,
+      "rsi": 60.9,
       "div_yield": 3.3,
       "last_div": null,
       "outlook": {
@@ -836,7 +915,7 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 60.8 — Above neutral, mild upward momentum ↑",
+          "RSI 60.9 — Above neutral, mild upward momentum ↑",
           "5-day momentum -0.6% — consolidating sideways →",
           "1-month return +3.4% — sustained uptrend ↑"
         ]
