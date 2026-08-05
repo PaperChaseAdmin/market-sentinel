@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T21:30:51Z",
+  "updated_at": "2026-08-05T21:40:54Z",
   "crypto": {
     "fear_greed": {
       "value": 27,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64617,
+        "price_usd": 64620,
         "change_24h": 1.1,
-        "market_cap": 1296685081628,
-        "volume_24h": 23432095491
+        "market_cap": 1296682053047,
+        "volume_24h": 23489304123
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1908.83,
+        "price_usd": 1906.29,
         "change_24h": 2.3,
-        "market_cap": 230368529858,
-        "volume_24h": 8661034659
+        "market_cap": 230053606228,
+        "volume_24h": 8673493272
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 595.87,
+        "price_usd": 595.44,
         "change_24h": 0.7,
-        "market_cap": 79347051051,
-        "volume_24h": 723422112
+        "market_cap": 79294502950,
+        "volume_24h": 725329032
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.064,
         "change_24h": -0.8,
-        "market_cap": 66536346998,
-        "volume_24h": 1004899391
+        "market_cap": 66528355004,
+        "volume_24h": 1007678315
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 74.06,
+        "price_usd": 74.03,
         "change_24h": 0.4,
-        "market_cap": 43050357384,
-        "volume_24h": 1664668887
+        "market_cap": 43036501731,
+        "volume_24h": 1664534247
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070095,
+        "price_usd": 0.070008,
         "change_24h": 0,
-        "market_cap": 10891345944,
-        "volume_24h": 385129780
+        "market_cap": 10877129090,
+        "volume_24h": 385177955
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.190005,
+        "price_usd": 0.190216,
         "change_24h": -1.0,
-        "market_cap": 7096354997,
-        "volume_24h": 413842560
+        "market_cap": 7104447523,
+        "volume_24h": 412769849
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.15,
+        "price_usd": 8.14,
         "change_24h": 0,
-        "market_cap": 6097882301,
-        "volume_24h": 141731118
+        "market_cap": 6091875467,
+        "volume_24h": 142271541
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 6.64,
         "change_24h": -0.6,
-        "market_cap": 2869719095,
-        "volume_24h": 180516395
+        "market_cap": 2867410556,
+        "volume_24h": 177048908
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 1,
+        "price_usd": 64620,
+        "change_24h": 1.1
+      },
+      {
+        "symbol": "MATIC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "LTC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1906.29,
+        "change_24h": 2.3
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 74.03,
+        "change_24h": 0.4
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 595.44,
+        "change_24h": 0.7
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.064,
+        "change_24h": -0.8
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.190216,
+        "change_24h": -1.0
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.070008,
+        "change_24h": 0
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.64,
+        "change_24h": -0.6
+      }
+    ],
     "news": [
       {
         "title": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
@@ -134,7 +195,7 @@
         "published": "Wed, 05 Aug 2026 19:18:24 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.8,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -211,7 +272,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.033,
+      "score": -0.058,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -220,7 +281,28 @@
       "outlook": "Mixed",
       "summary": "Insufficient data to generate a summary."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 1,
+          "MATIC": 1,
+          "LTC": 1,
+          "ETH": 0,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 4, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vfpwqu/daily_crypto_discussion_august_4_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -231,7 +313,7 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 150,
+      "active_threads": 149,
       "mentions": {
         "BTC": 23,
         "XRP": 9,
@@ -253,51 +335,51 @@
       {
         "symbol": "CASHCAT",
         "name": "Cash Cat",
-        "rank": 283,
+        "rank": 282,
         "score": 0,
-        "change_24h": 42.16
+        "change_24h": 34.27
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
         "rank": 38,
         "score": 1,
-        "change_24h": 4.86
-      },
-      {
-        "symbol": "ZIG",
-        "name": "ZIGChain",
-        "rank": 394,
-        "score": 2,
-        "change_24h": -1.17
+        "change_24h": 5.24
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
         "rank": 68,
-        "score": 3,
-        "change_24h": -2.95
+        "score": 2,
+        "change_24h": -3.42
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 109,
-        "score": 4,
-        "change_24h": 0.27
+        "score": 3,
+        "change_24h": 0.26
       },
       {
-        "symbol": "BLESS",
-        "name": "Bless",
-        "rank": 445,
+        "symbol": "ZIG",
+        "name": "ZIGChain",
+        "rank": 394,
+        "score": 4,
+        "change_24h": -0.12
+      },
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "rank": 1,
         "score": 5,
-        "change_24h": 125.36
+        "change_24h": 0.74
       },
       {
         "symbol": "PI",
         "name": "Pi Network",
         "rank": 67,
         "score": 6,
-        "change_24h": 4.42
+        "change_24h": 4.54
       }
     ]
   },
@@ -380,6 +462,16 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Phillips 66 Expects Soaring Fuel Margins to Last Into 2027",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-05/phillips-66-expects-soaring-fuel-margins-to-last-into-2027",
+        "published": "Wed, 05 Aug 2026 20:20:08 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
         "title": "Carry Trade Is Powering On as Investors Sidestep Yen’s Gains",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-08-05/carry-trade-is-powering-on-as-investors-sidestep-yen-s-gains",
@@ -398,18 +490,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "S&P 500 Edges Lower After $3.7 Trillion Advance: Markets Wrap",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-04/stock-market-today-dow-s-p-live-updates",
-        "published": "Tue, 04 Aug 2026 22:11:08 GMT",
-        "assets": [
-          "SPY"
-        ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
       },
       {
         "title": "Google's AI reshuffle: Chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO",
@@ -434,14 +514,24 @@
         "color": "yellow"
       },
       {
-        "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
+        "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/05/as-warsh-and-the-fed-contemplate-fewer-meetings-markets-brace-for-potential-volatility-ahead.html",
-        "published": "Wed, 05 Aug 2026 19:21:24 GMT",
+        "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
+        "published": "Wed, 05 Aug 2026 20:36:16 GMT",
         "assets": [],
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
+      },
+      {
+        "title": "Why AT&T, Verizon and T-Mobile shares are down after SpaceX’s earnings",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/why-at-t-verizon-and-t-mobile-shares-are-down-after-spacexs-earnings-033a07ce?mod=mw_rss_topstories",
+        "published": "Wed, 05 Aug 2026 21:28:00 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "SpaceX’s stock falls as Wall Street gets spooked by the extent of AI spending",
@@ -464,16 +554,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Missouri voters just rejected a bid to ditch income tax, while other tax votes loom in Florida and California this fall",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/taxes-are-on-the-ballot-this-fall-as-republicans-and-democrats-grow-further-apart-on-whether-to-raise-them-c7990380?mod=mw_rss_topstories",
-        "published": "Wed, 05 Aug 2026 21:22:00 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
@@ -539,56 +619,56 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.333,
-      "label": "Bearish",
-      "color": "red"
+      "score": -0.267,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
         "title": "US announces end of Iranian blockade by August 7, 2026?",
-        "volume_24h": 546901,
-        "yes_price": 0.4,
+        "volume_24h": 545945,
+        "yes_price": 0.39,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 537037,
+        "volume_24h": 537052,
         "yes_price": 0.15,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "US x Iran Effective Ceasefire by July 31?",
-        "volume_24h": 355514,
+        "volume_24h": 351610,
         "yes_price": 0.85,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045"
       },
       {
-        "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 278741,
-        "yes_price": 0.53,
-        "category": "finance",
-        "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
-      },
-      {
         "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "volume_24h": 272508,
+        "volume_24h": 269949,
         "yes_price": 0.45,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649"
       },
       {
+        "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "volume_24h": 258072,
+        "yes_price": 0.53,
+        "category": "finance",
+        "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
+      },
+      {
         "title": "Israel x Iran ceasefire continues through August 9?",
-        "volume_24h": 192490,
+        "volume_24h": 192508,
         "yes_price": 0.93,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-9-20260727170733638"
       },
       {
         "title": "US announces end of Iranian blockade by August 15, 2026?",
-        "volume_24h": 138589,
+        "volume_24h": 137364,
         "yes_price": 0.67,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-15-2026-20260713152715083-347"
@@ -608,11 +688,11 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
+      "summary": "Undetermined: No stock Reddit discussion data was provided for analysis, therefore an overall market sentiment, specific reasons, numbers, or names cannot be determined."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: 5 bullish vs 7 bearish signals detected across stock/finance news data."
+      "outlook": "Bearish",
+      "summary": "Bearish: 5 bullish vs 9 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -704,7 +784,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 82
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 16
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 11
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 48
+        }
+      ]
     }
   },
   "portfolio": [
