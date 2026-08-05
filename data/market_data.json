@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T22:54:11Z",
+  "updated_at": "2026-08-05T23:02:06Z",
   "crypto": {
     "fear_greed": {
       "value": 27,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64627,
+        "price_usd": 64587,
         "change_24h": 0.7,
-        "market_cap": 1296828401204,
-        "volume_24h": 23673575367
+        "market_cap": 1296021655532,
+        "volume_24h": 23664865625
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1908.02,
-        "change_24h": 1.8,
-        "market_cap": 230271033884,
-        "volume_24h": 8774092981
+        "price_usd": 1906.05,
+        "change_24h": 2.0,
+        "market_cap": 230027819260,
+        "volume_24h": 8775371342
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 593.11,
-        "change_24h": 0.4,
-        "market_cap": 78966082247,
-        "volume_24h": 738487095
+        "price_usd": 592.1,
+        "change_24h": -0.2,
+        "market_cap": 78847285799,
+        "volume_24h": 737919637
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.063,
-        "change_24h": -1.2,
-        "market_cap": 66462927038,
-        "volume_24h": 1014084166
+        "price_usd": 1.062,
+        "change_24h": -1.1,
+        "market_cap": 66400983980,
+        "volume_24h": 1014767461
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 74.01,
-        "change_24h": -0.1,
-        "market_cap": 43020182211,
-        "volume_24h": 1669023057
+        "price_usd": 73.97,
+        "change_24h": 0,
+        "market_cap": 42997119147,
+        "volume_24h": 1669149610
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070009,
+        "price_usd": 0.069977,
         "change_24h": -0.3,
-        "market_cap": 10877451968,
-        "volume_24h": 389168331
+        "market_cap": 10871869005,
+        "volume_24h": 389041510
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.191545,
+        "price_usd": 0.191369,
         "change_24h": -1.0,
-        "market_cap": 7152269889,
-        "volume_24h": 415098599
+        "market_cap": 7147358580,
+        "volume_24h": 414564064
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.15,
-        "change_24h": -0.6,
-        "market_cap": 6095383379,
-        "volume_24h": 142162583
+        "price_usd": 8.14,
+        "change_24h": -0.2,
+        "market_cap": 6093469081,
+        "volume_24h": 142093506
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.66,
-        "change_24h": -0.7,
-        "market_cap": 2872644282,
-        "volume_24h": 170189714
+        "price_usd": 6.65,
+        "change_24h": -0.3,
+        "market_cap": 2872091125,
+        "volume_24h": 173859099
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 1,
+        "price_usd": 64587,
+        "change_24h": 0.7
+      },
+      {
+        "symbol": "MATIC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "LTC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1906.05,
+        "change_24h": 2.0
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 73.97,
+        "change_24h": 0
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 592.1,
+        "change_24h": -0.2
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.062,
+        "change_24h": -1.1
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.191369,
+        "change_24h": -1.0
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.069977,
+        "change_24h": -0.3
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.65,
+        "change_24h": -0.3
+      }
+    ],
     "news": [
       {
         "title": "Crypto firm RedotPay says it will defend itself ‘vigorously’ against Binance lawsuit",
@@ -222,14 +283,35 @@
       "outlook": "Mixed",
       "summary": "Insufficient data to generate a summary."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 1,
+          "MATIC": 1,
+          "LTC": 1,
+          "ETH": 0,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 4, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vfpwqu/daily_crypto_discussion_august_4_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: 2 bullish vs 7 bearish signals detected across crypto news data."
+      "summary": "Bearish: Lawsuits, such as Binance's against RedotPay, and rare losses in campaign efforts may negatively impact the market, with no strongly positive news to counterbalance these effects."
     },
     "fourchain": {
       "thread_count": 201,
@@ -257,49 +339,49 @@
         "name": "Pump.fun",
         "rank": 67,
         "score": 0,
-        "change_24h": -0.59
+        "change_24h": -1.14
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "rank": 227,
+        "score": 1,
+        "change_24h": 57.57
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 108,
-        "score": 1,
-        "change_24h": 1.11
-      },
-      {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "rank": 263,
         "score": 2,
-        "change_24h": 58.64
-      },
-      {
-        "symbol": "ZIG",
-        "name": "ZIGChain",
-        "rank": 392,
-        "score": 3,
-        "change_24h": 0.12
+        "change_24h": 1.14
       },
       {
         "symbol": "VVV",
         "name": "Venice Token",
-        "rank": 92,
-        "score": 4,
-        "change_24h": -2.55
+        "rank": 91,
+        "score": 3,
+        "change_24h": -2.39
       },
       {
         "symbol": "PONS",
         "name": "Pons",
         "rank": 993,
-        "score": 5,
-        "change_24h": -29.45
+        "score": 4,
+        "change_24h": -26.43
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 10,
+        "score": 5,
+        "change_24h": 2.8
+      },
+      {
+        "symbol": "XMR",
+        "name": "Monero",
+        "rank": 17,
         "score": 6,
-        "change_24h": 3.0
+        "change_24h": 3.63
       }
     ]
   },
@@ -323,7 +405,7 @@
       }
     },
     "market_mood": {
-      "score": -0.17,
+      "score": 0.145,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -382,7 +464,7 @@
     "top_mentioned": [],
     "news": [
       {
-        "title": "Hedge Funds Take Big Hit in July After AI Selloff",
+        "title": "Hedge Funds Take Big Hit in July After Bruising AI Selloff",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-08-05/hedge-funds-take-big-hit-in-july-after-bruising-ai-selloff",
         "published": "Wed, 05 Aug 2026 21:50:02 GMT",
@@ -392,24 +474,24 @@
         "color": "red"
       },
       {
-        "title": "DBS Profit Beats Estimates as Singapore Lender Raises Guidance",
+        "title": "Japan’s Kishida Sees Growth as Game Changer for Yen",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-05/dbs-profit-beats-estimates-as-singapore-lender-raises-guidance",
-        "published": "Wed, 05 Aug 2026 22:45:26 GMT",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-05/japan-s-kishida-sees-growth-as-game-changer-for-yen",
+        "published": "Wed, 05 Aug 2026 23:00:11 GMT",
         "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
       },
       {
-        "title": "Zillow’s Revenue Jumps as Rentals Offer ‘Bright Spot’",
+        "title": "Avocados at Risk as US Halts Government Work in Michoacan",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-05/zillow-s-revenue-jumps-as-rentals-offer-bright-spot",
-        "published": "Wed, 05 Aug 2026 20:35:16 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-05/avocado-imports-at-risk-as-us-halts-government-work-in-michoacan",
+        "published": "Wed, 05 Aug 2026 20:52:16 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Google's AI reshuffle: Chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO",
@@ -537,7 +619,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.489,
+      "score": -0.622,
       "label": "Bearish",
       "color": "red"
     },
@@ -610,7 +692,7 @@
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: Overall sentiment is negative, driven by hedge funds taking a hit from an AI selloff and Google's AI leadership changes involving Jeff Dean and Demis Hassabis. Fed Governor Cook's readiness for rate hikes, Sandisk's disappointing forecast, and Block's 40% workforce reduction further weigh on markets, despite strong profits from DBS and Zillow's rental growth providing some optimism."
+      "summary": "Bearish: 5 bullish vs 15 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -628,14 +710,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4307.8,
-        "change_24h": 5.19
+        "value": 4307.6,
+        "change_24h": 5.18
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 75.05,
-        "change_24h": -0.95
+        "value": 75.06,
+        "change_24h": -0.94
       }
     ],
     "most_active": [
