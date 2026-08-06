@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T02:51:30Z",
+  "updated_at": "2026-08-06T03:02:36Z",
   "crypto": {
     "fear_greed": {
       "value": 25,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64501,
-        "change_24h": 0.9,
-        "market_cap": 1294559443913,
-        "volume_24h": 22452106801
+        "price_usd": 64515,
+        "change_24h": 0.3,
+        "market_cap": 1294522874751,
+        "volume_24h": 22476530668
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1897.45,
-        "change_24h": 2.4,
-        "market_cap": 229033624760,
-        "volume_24h": 8732820131
+        "price_usd": 1897.28,
+        "change_24h": 1.3,
+        "market_cap": 228953835639,
+        "volume_24h": 8739946946
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 592.64,
-        "change_24h": -0.5,
-        "market_cap": 78932752053,
-        "volume_24h": 653669298
+        "price_usd": 593.04,
+        "change_24h": -1.8,
+        "market_cap": 78970077897,
+        "volume_24h": 655611852
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.048,
-        "change_24h": -1.3,
-        "market_cap": 65531339718,
-        "volume_24h": 1105434862
+        "price_usd": 1.047,
+        "change_24h": -2.5,
+        "market_cap": 65450025488,
+        "volume_24h": 1105320463
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 73.49,
-        "change_24h": 0.5,
-        "market_cap": 42728129933,
-        "volume_24h": 1621818776
+        "price_usd": 73.48,
+        "change_24h": -0.9,
+        "market_cap": 42712012954,
+        "volume_24h": 1619142732
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.069662,
-        "change_24h": 0,
-        "market_cap": 10828011630,
-        "volume_24h": 372513034
+        "price_usd": 0.06964,
+        "change_24h": -0.8,
+        "market_cap": 10820242043,
+        "volume_24h": 372482807
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.190859,
-        "change_24h": -0.3,
-        "market_cap": 7131423776,
-        "volume_24h": 402464364
+        "price_usd": 0.190584,
+        "change_24h": -1.0,
+        "market_cap": 7117799517,
+        "volume_24h": 402258706
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 8.11,
-        "change_24h": 0.3,
-        "market_cap": 6069752856,
-        "volume_24h": 137151039
+        "change_24h": -0.8,
+        "market_cap": 6066279242,
+        "volume_24h": 137030301
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.63,
-        "change_24h": -0.1,
-        "market_cap": 2865396482,
-        "volume_24h": 165540602
+        "price_usd": 6.64,
+        "change_24h": -0.4,
+        "market_cap": 2868193170,
+        "volume_24h": 165711812
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "LTC",
+        "mentions": 2,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "MATIC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "BTC",
+        "mentions": 0,
+        "price_usd": 64515,
+        "change_24h": 0.3
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1897.28,
+        "change_24h": 1.3
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 73.48,
+        "change_24h": -0.9
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 593.04,
+        "change_24h": -1.8
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.047,
+        "change_24h": -2.5
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.190584,
+        "change_24h": -1.0
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.06964,
+        "change_24h": -0.8
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.64,
+        "change_24h": -0.4
+      }
+    ],
     "news": [
       {
         "title": "Crypto firm RedotPay says it will defend itself ‘vigorously’ against Binance lawsuit",
@@ -224,14 +285,35 @@
       "outlook": "Mixed",
       "summary": "Insufficient data to generate a summary."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "LTC": 2,
+          "MATIC": 1,
+          "BTC": 0,
+          "ETH": 0,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 5, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vgmxjl/daily_crypto_discussion_august_5_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: \"Top mentioned: Subreddits:\" but no actual data? The user gave placeholder? Possibly they omitted actual data. We need to infer? The data is incomplete. We must still produce a paragraph based on given data. Since no specifics, we can say no clear sentiment? But must mention numbers and names where available. There are none. Could we say \"No specific data provided\"? But that would not mention numbers/names. Might be considered not following instruction.\n\nWe could assume that the data is missing, so we state that sentiment cannot be determined. But we need to start with Bullish/Bearish/Mixed. Perhaps we choose \"Mixed:\" and say due to lack of concrete data, sentiment is indeterminate. But we need to mention numbers and names where available—none, so we can say \"No specific numbers or names were provided.\" That mentions that there are none. That might satisfy.\n\nWord count: Let's craft: \"Mixed: The Reddit discussion lacks concrete metrics or named assets, making it impossible to gauge a clear bullish or bearish bias; without specific mention of coin prices, volume changes, or influential users, sentiment remains ambiguous.\" Count words.\n\nCount: Mixed:(1) The2 Red"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Top mentioned: LTC (2 mentions), MATIC (1 mentions), BTC (0 mentions), ETH (0 mentions), SOL (0 mentions). Subreddits: r/r/CryptoCurrency: activity 100/100.\n\nInterpretation: The discussion mentions LTC twice, MATIC once, no mentions of BTC, ETH, SOL. Activity is max (100/100) indicating high engagement. Sentiment? Not directly given. We need to infer overall market sentiment based on mentions? Possibly bullish if LTC and MATIC are mentioned positively? But we have no explicit sentiment. We must decide based on limited data: LTC and MATIC being mentioned could indicate interest; no mentions of major coins could suggest focus on altcoins. Activity high suggests engagement. Could be mixed? Since no clear sentiment, maybe Mixed: mention of LTC (2) and MATIC (1) showing some interest, but lack of BTC/ETH mentions suggests uncertainty. Provide reasons: LTC 2 mentions, MATIC 1 mention, high activity 100/100, zero mentions of major coins.\n\nWe need to start with one of those prefixes. Choose"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Need to decide overall sentiment based on data.\n\nData items with sentiment tags: \n- RedotPay vs Binance lawsuit: Bearish\n- Crypto campaign efforts see rare loss, but crypto roster in Congress likely to grow: Bearish (they label Bearish)\n- Coldcard exploit could boost demand for regulated bitcoin exposure: Neutral\n- Block raises 2026 outlook on strong quarter, says AI touches nearly all code: Bullish\n- Mysten Labs tech chief joins Anthropic to work on AI security: Bearish\n- Bitcoin Red Team reports 5K findings in sweeping security audit: Bearish\n- Meta Debuts AI Coding Agent Muse: Neutral\n- Cloudflare OS: Neutral\n\nSo we have multiple bearish items, one bullish, several neutral. Overall sentiment likely Bearish. Need to start with \"Bearish:\" then reasons, mention numbers and names where available. Include numbers: 5K findings, Block raises 2026 outlook, maybe mention RedotPay, Binance lawsuit, Mysten Labs tech chief, Anthropic, Bitcoin Red Team, etc. Keep under 80 words.\n\nLet's craft ~70 words.\n\n\"Bearish: RedotPay vows a vigorous defense against a Binance lawsuit, Mysten Labs’"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Let's tally: Bearish items: RedotPay lawsuit defense (Bearish), Crypto campaign rare loss (Bearish), Mysten Labs tech chief joins Anthropic (Bearish), Bitcoin Red Team reports 5K findings (Bearish). That's 4 bearish. Bullish: Block raises 2026 outlook (Bullish). Neutral: Coldcard exploit (Neutral), Meta Debuts AI Coding Agent (Neutral), Cloudflare OS (Neutral). So more bearish than bullish. Overall sentiment likely Bearish. Provide reasons: mention RedotPay defending against Binance lawsuit, crypto campaign loss, Mysten Labs chief moving to Anthropic, Bitcoin Red Team 5K findings. Also mention Block's bullish outlook as counter but overall bearish. Must start with \"Bearish:\" then reasons. Must be one paragraph, max 80 words. Include numbers and names where available.\n\nLet's craft ~70 words.\n\n\"Bearish: RedotPay says it will defend itself ‘vigorously’ against a Binance lawsuit, crypto’s campaign efforts suffered a rare loss while the congressional crypto roster is expected to grow, Mysten Labs’ technology chief left for"
     },
     "fourchain": {
       "thread_count": 201,
@@ -255,53 +337,53 @@
     },
     "cg_trending": [
       {
-        "symbol": "BLESS",
-        "name": "Bless",
-        "rank": 473,
+        "symbol": "CAP",
+        "name": "Cap",
+        "rank": 435,
         "score": 0,
-        "change_24h": 104.11
+        "change_24h": 23.91
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 108,
         "score": 1,
-        "change_24h": 1.05
+        "change_24h": 1.06
       },
       {
         "symbol": "CASHCAT",
         "name": "Cash Cat",
-        "rank": 248,
+        "rank": 245,
         "score": 2,
-        "change_24h": 27.59
+        "change_24h": 29.88
       },
       {
-        "symbol": "CAP",
-        "name": "Cap",
-        "rank": 424,
+        "symbol": "BLESS",
+        "name": "Bless",
+        "rank": 472,
         "score": 3,
-        "change_24h": 25.15
+        "change_24h": 94.46
       },
       {
         "symbol": "UNI",
         "name": "Uniswap",
         "rank": 36,
         "score": 4,
-        "change_24h": 5.15
+        "change_24h": 4.96
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
         "rank": 67,
         "score": 5,
-        "change_24h": -1.95
+        "change_24h": -2.87
       },
       {
         "symbol": "SOL",
         "name": "Solana",
         "rank": 7,
         "score": 6,
-        "change_24h": -1.18
+        "change_24h": -1.04
       }
     ]
   },
@@ -381,7 +463,68 @@
         "change_24h": -0.56
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "SPY",
+        "mentions": 2,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "NVDA",
+        "mentions": 1,
+        "price_usd": 219.22,
+        "change_24h": 3.43
+      },
+      {
+        "symbol": "GOOGL",
+        "mentions": 1,
+        "price_usd": 362.43,
+        "change_24h": -4.03
+      },
+      {
+        "symbol": "AMD",
+        "mentions": 1,
+        "price_usd": 482.05,
+        "change_24h": -7.04
+      },
+      {
+        "symbol": "TSLA",
+        "mentions": 0,
+        "price_usd": 321.55,
+        "change_24h": -1.77
+      },
+      {
+        "symbol": "AAPL",
+        "mentions": 0,
+        "price_usd": 311.0,
+        "change_24h": 0.52
+      },
+      {
+        "symbol": "MSFT",
+        "mentions": 0,
+        "price_usd": 487.46,
+        "change_24h": -1.09
+      },
+      {
+        "symbol": "AMZN",
+        "mentions": 0,
+        "price_usd": 272.65,
+        "change_24h": -1.72
+      },
+      {
+        "symbol": "META",
+        "mentions": 0,
+        "price_usd": 588.77,
+        "change_24h": 0.14
+      },
+      {
+        "symbol": "PLTR",
+        "mentions": 0,
+        "price_usd": 158.43,
+        "change_24h": -2.6
+      }
+    ],
     "news": [
       {
         "title": "Traders in India Dial Back October Rate-Hike Bets After Dovish RBI Speak",
@@ -417,7 +560,7 @@
         "title": "U.S. ready to return to 'commitments,' Iran says, after Trump signals deal is near",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/08/06/us-iran-war-hormuz-trump-bessent-deal.html",
-        "published": "Thu, 06 Aug 2026 02:43:25 GMT",
+        "published": "Thu, 06 Aug 2026 03:00:05 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
@@ -434,13 +577,11 @@
         "color": "yellow"
       },
       {
-        "title": "Google's AI reshuffle: Chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO",
+        "title": "Inside India newsletter: What's behind India’s rush to sell shares in state-owned firms",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/05/google-chief-scientist-jeff-dean-leaving-company-after-27-years.html",
-        "published": "Wed, 05 Aug 2026 18:51:53 GMT",
-        "assets": [
-          "GOOGL"
-        ],
+        "url": "https://www.cnbc.com/2026/08/06/india-lic-shares-economy-disinvestment-.html",
+        "published": "Thu, 06 Aug 2026 00:11:08 GMT",
+        "assets": [],
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
@@ -547,7 +688,7 @@
       {
         "title": "US announces end of Iranian blockade by August 7, 2026?",
         "volume_24h": 582854,
-        "yes_price": 0.33,
+        "yes_price": 0.32,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-7-2026-20260727171523690"
       },
@@ -582,7 +723,7 @@
       {
         "title": "Israel x Iran ceasefire continues through August 9?",
         "volume_24h": 174289,
-        "yes_price": 0.93,
+        "yes_price": 0.92,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-9-20260727170733638"
       },
@@ -594,25 +735,80 @@
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-15-2026-20260713152715083-347"
       },
       {
-        "title": "Will Ronaldo Caiado win the 2026 Brazilian presidential election?",
-        "volume_24h": 115531,
-        "yes_price": 0.02,
+        "title": "Xi Jinping out before 2027?",
+        "volume_24h": 100365,
+        "yes_price": 0.05,
         "category": "finance",
-        "url": "https://polymarket.com/event/will-ronaldo-caiado-win-the-2026-brazilian-presidential-election"
+        "url": "https://polymarket.com/event/xi-jinping-out-before-2027"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes predictions about US-Iran relations, Fed rates, etc. High probability of ceasefire (83% US-Iran effective ceasefire by July 31, 93% Israel-Iran ceasefire continues through Aug 9). Also US announces end of Iranian blockade by Aug 7 (33%) and by Aug 15 (63%). Mixed signals: some think blockade ends later (63% for Aug 15) but earlier date lower probability. Fed rate increase after Sep 2026 meeting: 45% yes, no change 55% yes. So slight bearish on rates (more likely no change). Invasion of Iran before 2027 low 15%. Ronaldo Caiado winning Brazilian election 2% (very low). Overall sentiment: moderate optimism about de-escalation in Middle East, but uncertainty about US policy (blockade timing) and Fed rates. Could be Mixed.\n\nWe need to start with \"Mixed:\" then reasons, include numbers and names. Must be <=80 words.\n\nLet's craft ~70 words.\n\n\"Mixed: Markets show strong confidence in de‑escalation, with an 83% chance of a US‑Iran effective"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes predictions about US-Iran ceasefire, blockade ending, Fed rates, US invasion, Israel-Iran ceasefire, Xi Jinping out.\n\nHigh probabilities: US x Iran Effective Ceasefire by July 31: Yes 83% (vol $372k). Israel x Iran ceasefire continues through August 9: Yes 92% (vol $174k). US announces end of Iranian blockade by August 7: Yes 32% (vol $582k). US announces end of Iranian blockade by August 15: Yes 63% (vol $131k). Fed increase rates after Sep 2026: Yes 45%; no change: Yes 55% (so slight bearish on rate hike). US invade Iran before 2027: Yes 15% (low). Xi Jinping out before 2027: Yes 5% (very low). So overall sentiment: Mixed? There's optimism about ceasefires, but uncertainty about Fed rates and low chance of invasion or leadership change. Probably Mixed.\n\nWe need to start with \"Mixed:\" then reasons, mention numbers and names."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/wallstreetbets",
+        "mentions": {
+          "SPY": 2,
+          "NVDA": 1,
+          "GOOGL": 1,
+          "AMD": 1,
+          "TSLA": 0,
+          "AAPL": 0,
+          "MSFT": 0,
+          "AMZN": 0,
+          "META": 0,
+          "PLTR": 0
+        },
+        "activity_score": 100,
+        "top_post": "Weekly Earnings Thread 8/3 - 8/7",
+        "top_post_url": "https://old.reddit.com/r/wallstreetbets/comments/1vbzucm/weekly_earnings_thread_83_87/",
+        "top_post_score": 0,
+        "posts": 25,
+        "posts_list": [
+          {
+            "title": "Weekly Earnings Thread 8/3 - 8/7",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vbzucm/weekly_earnings_thread_83_87/"
+          },
+          {
+            "title": "What Are Your Moves Tomorrow, August 6, 2026",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vgi8wm/what_are_your_moves_tomorrow_august_6_2026/"
+          },
+          {
+            "title": "Type of shi that happens on a red day",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vgk1ij/type_of_shi_that_happens_on_a_red_day/"
+          },
+          {
+            "title": "SanDisk stock sinks as revenue forecast falls short of expectations",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vgjear/sandisk_stock_sinks_as_revenue_forecast_falls/"
+          },
+          {
+            "title": "Western Digital Earnings Beat With 44% Sales Growth. But Stock Tumbles Late.",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vgkl19/western_digital_earnings_beat_with_44_sales/"
+          },
+          {
+            "title": "Sndk is on crack",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vglnl3/sndk_is_on_crack/"
+          },
+          {
+            "title": "TURNS OUT IM RETARDED",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vgfjln/turns_out_im_retarded/"
+          },
+          {
+            "title": "$21 to $3.9k in 2 minutes - 185 bagger",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vgj53p/21_to_39k_in_2_minutes_185_bagger/"
+          }
+        ]
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave placeholder? Possibly they omitted actual data. We must work with what we have: \"Top mentioned: Subreddits:\" No numbers or names. We need to mention numbers and names where available, but none are given. Could we infer? Probably we need to state that data insufficient? But must start with one of those prefixes. Could say \"Mixed: ...\" and note lack of specific metrics. But must mention numbers and names where available—if none, we can say none provided. But that might violate \"Mention numbers and names where available.\" If none, we can say \"No specific numbers or names were provided.\" That still mentions that there are none. That's okay.\n\nWe need max 80 words. Let's craft ~30 words.\n\n\"Mixed: The Reddit chatter shows varied opinions across subreddits, with no clear consensus; users cite both optimism and caution, but without specific tickers, volume figures, or sentiment scores provided, making a definitive bullish or bearish stance unclear.\"\n\nCount words: Mixed:(1) The2 Reddit3 chatter4 shows5 varied6 opinions7 across8 subred"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Top mentioned: SPY (2 mentions), NVDA (1), GOOGL (1), AMD (1), TSLA (0). Subreddits: r/r/wallstreetbets: activity 100/100.\n\nInterpretation: The data shows mentions of certain tickers, with SPY being most mentioned (2). Activity in wallstreetbets is max (100/100). Likely bullish sentiment due to high activity and mentions of growth stocks like NVDA, GOOGL, AMD. No mention of TSLA (zero). So we can say Bullish: high activity in r/wallstreetbets (100/100) and multiple mentions of SPY (2) plus individual mentions of NVDA, GOOGL, AMD indicating interest in tech and broad market. No bearish signals.\n\nWe need to keep within 80 words. Let's craft ~40 words.\n\n\"Bullish: The r/wallstreetbets forum shows maximal engagement (100/100 activity), with SPY leading mentions at 2, alongside single mentions of NVDA, GOOGL, and AMD, indicating"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nData includes: Traders in India dial back October rate-hike bets after dovish RBI speak (neutral). SK Hynix hit by another 30% pre-market flash crash on Nextrade (bearish). Asian stocks drop on chipmakers, gold extends gain: markets wrap (bearish). US ready to return to 'commitments,' Iran says, after Trump signals deal is near (neutral). JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market' (neutral). Google's AI reshuffle: chief scientist Jeff Dean exits and Demis Hassabis steps down as DeepMind CEO (bearish). Others neutral.\n\nOverall sentiment: more bearish signals (SK Hynix -30%, Asian stocks drop, Google AI leadership exits). So likely Bearish.\n\nWe need to start with \"Bearish:\" then reasons, mention numbers and names. Keep under 80 words.\n\nLet's craft ~55 words.\n\n\"Bearish: SK Hynix suffered a 30% pre‑market flash crash on Nextrade, Asian equities fell amid chip‑maker weakness, and Google’s AI division lost chief scientist Jeff Dean and DeepMind CEO Demis Hassabis"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to summarize overall market sentiment based on data. Data includes: Traders in India dial back October rate-hike bets after dovish RBI speak (neutral). SK Hynix hit by another 30% pre-market flash crash on Nextrade (bearish). Asian stocks drop on chipmakers, gold extends gain: markets wrap (bearish). US ready to return to 'commitments,' Iran says, after Trump signals deal is near (neutral). JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market' (neutral). Inside India newsletter: What's behind India’s rush to sell shares in state-owned firms (bearish). Others neutral.\n\nOverall sentiment: more bearish signals (SK Hynix -30%, Asian stocks drop, India rush to sell state-owned shares). So likely Bearish.\n\nWe need to start with \"Bearish:\" then reasons, mention numbers and names: SK Hynix 30% pre-market flash crash, Asian stocks drop on chipmakers, India’s rush to sell shares in state-owned firms, maybe mention RBI dovish, Jamie Dimon warning, etc. Keep under 80 words.\n\nLet's craft ~70 words.\n\n\"Bearish: SK Hynix suffered another"
     },
     "macro": [
       {
@@ -624,14 +820,14 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.65,
-        "change_24h": -0.24
+        "value": 99.66,
+        "change_24h": -0.23
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4341.0,
-        "change_24h": 6.0
+        "value": 4337.7,
+        "change_24h": 5.92
       },
       {
         "symbol": "CL=F",
@@ -704,24 +900,7 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": [
-        {
-          "keyword": "Bitcoin",
-          "interest_score": 74
-        },
-        {
-          "keyword": "Ethereum",
-          "interest_score": 11
-        },
-        {
-          "keyword": "Solana",
-          "interest_score": 8
-        },
-        {
-          "keyword": "crypto",
-          "interest_score": 49
-        }
-      ]
+      "crypto": []
     }
   },
   "portfolio": [
