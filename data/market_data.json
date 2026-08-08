@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T22:41:04Z",
+  "updated_at": "2026-08-08T22:50:47Z",
   "crypto": {
     "fear_greed": {
       "value": 30,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64938,
+        "price_usd": 64931,
         "change_24h": 0,
-        "market_cap": 1303138916966,
-        "volume_24h": 12543457438
+        "market_cap": 1303014635873,
+        "volume_24h": 12547855206
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1918.25,
+        "price_usd": 1917.79,
         "change_24h": 0.3,
-        "market_cap": 231510106807,
-        "volume_24h": 3381936975
+        "market_cap": 231451643172,
+        "volume_24h": 3383171826
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 600.51,
+        "price_usd": 600.07,
         "change_24h": 1.5,
-        "market_cap": 79966524270,
-        "volume_24h": 583033140
+        "market_cap": 79908625715,
+        "volume_24h": 583894573
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.04,
+        "price_usd": 1.039,
         "change_24h": 1.7,
-        "market_cap": 65019377949,
-        "volume_24h": 745753746
+        "market_cap": 64980147179,
+        "volume_24h": 744678303
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 76.18,
+        "price_usd": 76.05,
         "change_24h": 3.1,
-        "market_cap": 44352528125,
-        "volume_24h": 1398211822
+        "market_cap": 44273737880,
+        "volume_24h": 1390499616
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070608,
+        "price_usd": 0.070584,
         "change_24h": 1.7,
-        "market_cap": 10973296074,
-        "volume_24h": 349660923
+        "market_cap": 10969425906,
+        "volume_24h": 351224700
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.198322,
+        "price_usd": 0.197986,
         "change_24h": -1.5,
-        "market_cap": 7406345529,
-        "volume_24h": 194695723
+        "market_cap": 7392432746,
+        "volume_24h": 196771582
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.33,
+        "price_usd": 8.32,
         "change_24h": 1.7,
-        "market_cap": 6231200804,
-        "volume_24h": 128148748
+        "market_cap": 6221679358,
+        "volume_24h": 128139660
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.48,
+        "price_usd": 6.47,
         "change_24h": 0.9,
-        "market_cap": 2796655614,
-        "volume_24h": 117388097
+        "market_cap": 2795306340,
+        "volume_24h": 117011958
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 1,
+        "price_usd": 64931,
+        "change_24h": 0
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 1917.79,
+        "change_24h": 0.3
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 1,
+        "price_usd": 8.32,
+        "change_24h": 1.7
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 76.05,
+        "change_24h": 3.1
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 600.07,
+        "change_24h": 1.5
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.039,
+        "change_24h": 1.7
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.197986,
+        "change_24h": -1.5
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.070584,
+        "change_24h": 1.7
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.47,
+        "change_24h": 0.9
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
@@ -91,9 +152,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
       },
       {
         "title": "Hardware wallet sales in Russia more than double as new crypto rules near",
@@ -101,9 +162,9 @@
         "url": "https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near",
         "published": "Sat, 08 Aug 2026 17:48:02 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
@@ -112,7 +173,7 @@
         "published": "Sat, 08 Aug 2026 15:25:38 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -123,9 +184,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.9,
+        "color": "red"
       },
       {
         "title": "Here’s what happened in crypto today",
@@ -146,7 +207,7 @@
           "BTC"
         ],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.9,
         "color": "green"
       },
       {
@@ -158,7 +219,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.7,
         "color": "red"
       },
       {
@@ -168,7 +229,7 @@
         "published": "Sat, 08 Aug 2026 16:33:02 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -191,7 +252,7 @@
           "ETH"
         ],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.9,
         "color": "green"
       },
       {
@@ -202,9 +263,9 @@
         "assets": [
           "SOL"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "Bitcoin, XRP, Solana and Tron beat Ethereum and Cardano every month since 2022 on investor buying",
@@ -219,29 +280,50 @@
           "ADA"
         ],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.7,
         "color": "green"
       }
     ],
     "news_sentiment": {
-      "score": 0.083,
+      "score": 0.092,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will the price of Bitcoin be above $66,000 on August 9?",
-        "volume_24h": 80421,
+        "volume_24h": 80481,
         "yes_price": 0.02,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-66k-on-august-9-2026"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: Sentiment is negative, with only 2% predicting Bitcoin will be above $66,000 on August 9, and a relatively low volume of $80,421."
+      "outlook": "Mixed",
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 1,
+          "ETH": 1,
+          "LINK": 1,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 7, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vifjz5/daily_crypto_discussion_august_7_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -252,22 +334,22 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 139,
+      "active_threads": 138,
       "mentions": {
         "BTC": 25,
         "XRP": 7,
         "SOL": 2
       },
-      "bullish_hits": 88,
-      "bearish_hits": 50,
-      "bullish_pct": 64,
+      "bullish_hits": 87,
+      "bearish_hits": 51,
+      "bullish_pct": 63,
       "top_coin": "BTC",
       "top_posts": [
         "/smg/ - stock market general weekend has started edition &gt;educational sites: https://www.investopedia.com https://www",
         "/smg/ stock market general taste the gold edition &gt;educational sites: https://www.investopedia.com https://www.khanac",
-        "/smg/ stock market general friday edition &gt;educational sites: https://www.investopedia.com https://www.khanacademy.or",
         "/pmg/ - precious metals general new stuff edition &gt;why precious metals? https://youtu.be/i3s4rl6ehii https://youtu.be",
-        "/xsg/ xrp schizo general #2554 previous: &gt;&gt;62501241 # &gt;buy xrp on: coinbase, binance, bitrue, uphold, robinhood"
+        "/xsg/ xrp schizo general #2554 previous: &gt;&gt;62501241 # &gt;buy xrp on: coinbase, binance, bitrue, uphold, robinhood",
+        "/bbbyq/ - larry cheng and bill pulte went onto theppshow edition &gt;rc buys 7,780,000 shares of bbby, and $60-$80 strik"
       ]
     },
     "cg_trending": [
@@ -276,49 +358,49 @@
         "name": "Pudgy Penguins",
         "rank": 108,
         "score": 0,
-        "change_24h": 5.96
+        "change_24h": 5.72
       },
       {
         "symbol": "FWA",
         "name": "Fake World Assets",
-        "rank": 826,
+        "rank": 819,
         "score": 1,
-        "change_24h": 121.76
+        "change_24h": 124.63
+      },
+      {
+        "symbol": "TUT",
+        "name": "Tutorial",
+        "rank": 300,
+        "score": 2,
+        "change_24h": 151.61
       },
       {
         "symbol": "CASHCAT",
         "name": "Cash Cat",
         "rank": 234,
-        "score": 2,
-        "change_24h": 27.36
-      },
-      {
-        "symbol": "TUT",
-        "name": "Tutorial",
-        "rank": 307,
         "score": 3,
-        "change_24h": 138.38
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "rank": 7,
-        "score": 4,
-        "change_24h": 3.53
+        "change_24h": 26.94
       },
       {
         "symbol": "WKC",
         "name": "Wiki Cat",
-        "rank": 469,
-        "score": 5,
-        "change_24h": -4.86
+        "rank": 470,
+        "score": 4,
+        "change_24h": -5.52
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "rank": 67,
+        "symbol": "ONDO",
+        "name": "Ondo",
+        "rank": 42,
+        "score": 5,
+        "change_24h": 1.89
+      },
+      {
+        "symbol": "STONKBROKER",
+        "name": "StonkBroker",
+        "rank": 454,
         "score": 6,
-        "change_24h": 6.38
+        "change_24h": 27.87
       }
     ]
   },
@@ -561,56 +643,56 @@
     "polymarket": [
       {
         "title": "US announces end of Iranian blockade by August 9, 2026?",
-        "volume_24h": 310215,
+        "volume_24h": 309561,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-9-2026"
       },
       {
         "title": "US x Iran Effective Ceasefire by July 31?",
-        "volume_24h": 230643,
+        "volume_24h": 232258,
         "yes_price": 0.85,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-effective-ceasfire-by-july-31-20260715194822045"
       },
       {
         "title": "US announces end of Iranian blockade by August 15, 2026?",
-        "volume_24h": 191520,
+        "volume_24h": 191118,
         "yes_price": 0.34,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-15-2026-20260713152715083-347-987-697-628-574-676"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 184603,
+        "volume_24h": 184889,
         "yes_price": 0.15,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "Iran leadership change by August 31?",
-        "volume_24h": 154981,
+        "volume_24h": 155252,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/iran-leadership-change-by-august-31-669-893"
       },
       {
         "title": "Israel x Iran ceasefire continues through August 15?",
-        "volume_24h": 115204,
+        "volume_24h": 116821,
         "yes_price": 0.91,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-15-20260716224448969-246-815-987-693"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "volume_24h": 104577,
+        "volume_24h": 104377,
         "yes_price": 0.35,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649"
       },
       {
         "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 101409,
+        "volume_24h": 101408,
         "yes_price": 0.62,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
@@ -722,11 +804,11 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 94
+          "interest_score": 92
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 15
+          "interest_score": 16
         },
         {
           "keyword": "Solana",
@@ -734,7 +816,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 64
+          "interest_score": 67
         }
       ]
     }
