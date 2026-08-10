@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T20:50:55Z",
+  "updated_at": "2026-08-10T21:01:11Z",
   "crypto": {
     "fear_greed": {
       "value": 30,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64109,
-        "change_24h": -1.8,
-        "market_cap": 1286564167419,
-        "volume_24h": 21795543078
+        "price_usd": 64100,
+        "change_24h": -1.6,
+        "market_cap": 1286360009183,
+        "volume_24h": 21807685814
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1878.12,
-        "change_24h": -2.3,
-        "market_cap": 226655035285,
-        "volume_24h": 7876984848
+        "price_usd": 1877.72,
+        "change_24h": -2.2,
+        "market_cap": 226612918510,
+        "volume_24h": 7882366651
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 600.63,
-        "change_24h": -1.3,
-        "market_cap": 79982279966,
-        "volume_24h": 576057829
+        "price_usd": 600.3,
+        "change_24h": -1.1,
+        "market_cap": 79934959420,
+        "volume_24h": 575630403
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.019,
-        "change_24h": -1.9,
-        "market_cap": 63721566633,
-        "volume_24h": 1024267493
+        "change_24h": -2.1,
+        "market_cap": 63689030095,
+        "volume_24h": 1025456821
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 76.36,
-        "change_24h": -1.4,
-        "market_cap": 44455039290,
-        "volume_24h": 1469771399
+        "price_usd": 76.34,
+        "change_24h": -1.1,
+        "market_cap": 44436950773,
+        "volume_24h": 1469630461
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.069828,
-        "change_24h": -1.0,
-        "market_cap": 10854039000,
-        "volume_24h": 351436025
+        "price_usd": 0.069845,
+        "change_24h": -0.8,
+        "market_cap": 10856400151,
+        "volume_24h": 351662743
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.193167,
+        "price_usd": 0.193192,
         "change_24h": -2.2,
-        "market_cap": 7215472824,
-        "volume_24h": 240693041
+        "market_cap": 7215425934,
+        "volume_24h": 244455374
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 8.28,
-        "change_24h": -0.6,
-        "market_cap": 6197706713,
-        "volume_24h": 205610833
+        "change_24h": -0.4,
+        "market_cap": 6197044046,
+        "volume_24h": 205727069
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.46,
-        "change_24h": -1.1,
-        "market_cap": 2788353143,
-        "volume_24h": 141229264
+        "price_usd": 6.45,
+        "change_24h": -1.7,
+        "market_cap": 2785783863,
+        "volume_24h": 141233228
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 5,
+        "price_usd": 64100,
+        "change_24h": -1.6
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 1877.72,
+        "change_24h": -2.2
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 1,
+        "price_usd": 76.34,
+        "change_24h": -1.1
+      },
+      {
+        "symbol": "MATIC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 600.3,
+        "change_24h": -1.1
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.019,
+        "change_24h": -2.1
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.193192,
+        "change_24h": -2.2
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.069845,
+        "change_24h": -0.8
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.45,
+        "change_24h": -1.7
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.28,
+        "change_24h": -0.4
+      }
+    ],
     "news": [
       {
         "title": "Bitwise's Rasmussen: Circle is mispriced as stablecoins head toward trillions",
@@ -90,7 +151,7 @@
         "published": "Mon, 10 Aug 2026 20:20:06 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -102,7 +163,7 @@
           "BTC"
         ],
         "sentiment": "Bullish",
-        "score": 0.5,
+        "score": 0.8,
         "color": "green"
       },
       {
@@ -115,8 +176,20 @@
           "DOT"
         ],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -0.7,
         "color": "red"
+      },
+      {
+        "title": "Judge stays CFTC’s case against US solider over prediction market bets",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/cftc-us-solider-insider-trading-polymarket-nicolas-maduro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Mon, 10 Aug 2026 20:50:59 +0000",
+        "assets": [
+          "SOL"
+        ],
+        "sentiment": "Neutral",
+        "score": 0.2,
+        "color": "yellow"
       },
       {
         "title": "TRON USDT supply hits $87.9B as transfers reach $2.1T in Q2: Messari",
@@ -125,7 +198,7 @@
         "published": "Mon, 10 Aug 2026 19:47:01 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.8,
+        "score": 0.9,
         "color": "green"
       },
       {
@@ -135,17 +208,7 @@
         "published": "Mon, 10 Aug 2026 19:35:19 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.9,
-        "color": "red"
-      },
-      {
-        "title": "Coinsbuy offers $100K reward after Sunday security breach",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/coinsbuy-confirms-security-breach-after-wallets-reportedly-drained-of-79m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Mon, 10 Aug 2026 18:43:26 +0000",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -167,7 +230,7 @@
           "BTC"
         ],
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 0.9,
         "color": "green"
       },
       {
@@ -177,7 +240,7 @@
         "published": "Mon, 10 Aug 2026 18:31:06 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.3,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -189,7 +252,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -199,7 +262,7 @@
         "published": "Mon, 10 Aug 2026 19:30:56 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.9,
         "color": "red"
       },
       {
@@ -209,12 +272,12 @@
         "published": "Mon, 10 Aug 2026 18:45:06 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.192,
+      "score": -0.083,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -222,7 +285,7 @@
       {
         "title": "Will the price of Bitcoin be above $66,000 on August 11?",
         "volume_24h": 82052,
-        "yes_price": 0.03,
+        "yes_price": 0.02,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-66k-on-august-11-2026"
       },
@@ -238,84 +301,105 @@
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 5,
+          "ETH": 1,
+          "SOL": 1,
+          "MATIC": 1,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 9, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vk40us/daily_crypto_discussion_august_9_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 5 bullish vs 6 bearish signals detected across crypto news data."
+      "summary": "Mixed: 6 bullish vs 5 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
       "active_threads": 149,
       "mentions": {
-        "BTC": 20,
+        "BTC": 22,
         "XRP": 7,
         "SOL": 1
       },
-      "bullish_hits": 83,
-      "bearish_hits": 51,
-      "bullish_pct": 62,
+      "bullish_hits": 82,
+      "bearish_hits": 52,
+      "bullish_pct": 61,
       "top_coin": "BTC",
       "top_posts": [
         "/smg/ - stock market general lil&#039; smiggers edition take a smigger, leave a smigger &gt;educational sites: https://w",
-        "/smg/ - stock market general oil casino edition &gt;educational sites: https://www.investopedia.com https://www.khanacad",
+        "/smg/ - stock market general you know the drill edition &gt;educational sites: https://www.investopedia.com https://www.",
         "/smg/ - stock market general black money 1987 edition last &gt;&gt;62579114 &gt;educational sites: https://www.investope",
         "/smg/ - stock market general taiwanese stock bbss edition https://www.ptt.cc/bbs/stock/index. html https://disp.cc/m/sto",
-        "/smg/ - stock market general you know the drill edition &gt;educational sites: https://www.investopedia.com https://www."
+        "/smg/ - stock market general &quot;it&#039;s like a chess game&quot; edition &gt;educational sites: https://www.investop"
       ]
     },
     "cg_trending": [
       {
         "symbol": "MOW",
         "name": "MowCat",
-        "rank": 806,
+        "rank": 807,
         "score": 0,
-        "change_24h": -2.17
+        "change_24h": -2.27
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "rank": 195,
+        "score": 1,
+        "change_24h": 12.12
       },
       {
         "symbol": "DOS",
         "name": "DAPPOS",
-        "rank": 334,
-        "score": 1,
-        "change_24h": 0
-      },
-      {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 105,
+        "rank": 329,
         "score": 2,
-        "change_24h": 1.13
+        "change_24h": 0
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
         "rank": 63,
         "score": 3,
-        "change_24h": 3.94
+        "change_24h": 4.26
       },
       {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "rank": 196,
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "rank": 105,
         "score": 4,
-        "change_24h": 11.85
-      },
-      {
-        "symbol": "CRV",
-        "name": "Curve DAO",
-        "rank": 108,
-        "score": 5,
-        "change_24h": 8.75
+        "change_24h": 0.68
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
+        "score": 5,
+        "change_24h": -1.52
+      },
+      {
+        "symbol": "CRV",
+        "name": "Curve DAO",
+        "rank": 107,
         "score": 6,
-        "change_24h": -1.57
+        "change_24h": 8.92
       }
     ]
   },
@@ -398,6 +482,26 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Gold Nears $4,400 as Traders Weigh Hormuz Standoff, Inflation",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-09/gold-holds-gain-after-soft-us-jobs-data-eases-rate-hike-concerns",
+        "published": "Sun, 09 Aug 2026 23:30:12 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
+        "title": "Emerging Currencies Weaken as US-Iran Standoff Lifts Dollar",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-10/emerging-market-stocks-currencies-gain-after-soft-us-jobs-data",
+        "published": "Mon, 10 Aug 2026 04:25:49 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
         "title": "US Stocks End Mixed as Chipmaker Earnings, CPI Due to Set Pace",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-08-10/us-futures-drop-as-focus-turns-on-chipmaker-earnings-inflation",
@@ -408,30 +512,10 @@
         "color": "green"
       },
       {
-        "title": "Gautam Adani Wins Dismissal of US Securities Fraud Charges",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-10/gautam-adani-wins-dismissal-of-us-securities-fraud-charges",
-        "published": "Mon, 10 Aug 2026 19:44:24 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.333,
-        "color": "red"
-      },
-      {
-        "title": "Oil Jumps as Markets Await Middle East Clarity | Closing Bell",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-10/oil-jumps-as-markets-await-clarity-closing-bell-video",
-        "published": "Mon, 10 Aug 2026 20:25:13 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
-      },
-      {
-        "title": "Nvidia taps Wall Street for $500 billion financing. CEO Jensen Huang tells CNBC AI chips now 'investable asset'",
+        "title": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are ‘investable asset’",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
-        "published": "Mon, 10 Aug 2026 20:49:38 GMT",
+        "published": "Mon, 10 Aug 2026 20:58:23 GMT",
         "assets": [
           "NVDA"
         ],
@@ -443,7 +527,7 @@
         "title": "Trump signs executive order calling for fewer childhood vaccines, falsely linking shots to autism",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html",
-        "published": "Mon, 10 Aug 2026 20:33:48 GMT",
+        "published": "Mon, 10 Aug 2026 20:51:17 GMT",
         "assets": [],
         "sentiment": "Bearish",
         "score": -1.0,
@@ -555,7 +639,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.329,
+      "score": -0.507,
       "label": "Bearish",
       "color": "red"
     },
@@ -598,7 +682,7 @@
       {
         "title": "US announces end of Iranian blockade by August 31, 2026?",
         "volume_24h": 168122,
-        "yes_price": 0.34,
+        "yes_price": 0.33,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729"
       },
@@ -627,8 +711,8 @@
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: 6 bullish vs 7 bearish signals detected across stock/finance news data."
+      "outlook": "Bearish",
+      "summary": "Bearish: 4 bullish vs 9 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -646,14 +730,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4449.6,
-        "change_24h": 2.51
+        "value": 4449.0,
+        "change_24h": 2.49
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 82.35,
-        "change_24h": 5.33
+        "value": 82.33,
+        "change_24h": 5.31
       }
     ],
     "most_active": [
@@ -677,7 +761,7 @@
       },
       {
         "symbol": "AMZN",
-        "volume": 32556031,
+        "volume": 34530747,
         "price_usd": 278.09,
         "change_24h": 1.32
       },
@@ -689,7 +773,7 @@
       },
       {
         "symbol": "MSFT",
-        "volume": 28731159,
+        "volume": 31137345,
         "price_usd": 506.06,
         "change_24h": 1.21
       },
@@ -713,31 +797,14 @@
       },
       {
         "symbol": "GOOGL",
-        "volume": 18416019,
+        "volume": 18914905,
         "price_usd": 357.52,
         "change_24h": 0.91
       }
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": [
-        {
-          "keyword": "Bitcoin",
-          "interest_score": 86
-        },
-        {
-          "keyword": "Ethereum",
-          "interest_score": 13
-        },
-        {
-          "keyword": "Solana",
-          "interest_score": 14
-        },
-        {
-          "keyword": "crypto",
-          "interest_score": 53
-        }
-      ]
+      "crypto": []
     }
   },
   "portfolio": [
