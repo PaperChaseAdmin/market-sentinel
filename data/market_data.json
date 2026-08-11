@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T22:41:35Z",
+  "updated_at": "2026-08-11T22:51:00Z",
   "crypto": {
     "fear_greed": {
       "value": 29,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 63636,
+        "price_usd": 63578,
         "change_24h": -0.7,
-        "market_cap": 1277111968107,
-        "volume_24h": 20198923494
+        "market_cap": 1275965256932,
+        "volume_24h": 20213434497
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1881.45,
+        "price_usd": 1878.19,
         "change_24h": 0.3,
-        "market_cap": 227054280246,
-        "volume_24h": 7043369639
+        "market_cap": 226677273848,
+        "volume_24h": 7027122643
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 612.57,
+        "price_usd": 612.98,
         "change_24h": 2.0,
-        "market_cap": 81567314991,
-        "volume_24h": 719495201
+        "market_cap": 81627463771,
+        "volume_24h": 722369445
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.02,
         "change_24h": 0.5,
-        "market_cap": 63804815030,
-        "volume_24h": 1329522482
+        "market_cap": 63924308068,
+        "volume_24h": 1325340249
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 76.31,
+        "price_usd": 76.22,
         "change_24h": 0,
-        "market_cap": 44451497208,
-        "volume_24h": 1360784668
+        "market_cap": 44410002284,
+        "volume_24h": 1366290298
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.072574,
+        "price_usd": 0.072177,
         "change_24h": 3.7,
-        "market_cap": 11282904472,
-        "volume_24h": 450212683
+        "market_cap": 11226369515,
+        "volume_24h": 451039481
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.187087,
+        "price_usd": 0.186429,
         "change_24h": -3.4,
-        "market_cap": 6988329065,
-        "volume_24h": 272134247
+        "market_cap": 6965502326,
+        "volume_24h": 270787976
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.77,
+        "price_usd": 8.75,
         "change_24h": 5.8,
-        "market_cap": 6559067420,
-        "volume_24h": 380033086
+        "market_cap": 6547840905,
+        "volume_24h": 379932301
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.32,
+        "price_usd": 6.31,
         "change_24h": -2.2,
-        "market_cap": 2727776322,
-        "volume_24h": 163696702
+        "market_cap": 2722782408,
+        "volume_24h": 163616627
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 4,
+        "price_usd": 63578,
+        "change_24h": -0.7
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 2,
+        "price_usd": 1878.19,
+        "change_24h": 0.3
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 76.22,
+        "change_24h": 0
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 612.98,
+        "change_24h": 2.0
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.02,
+        "change_24h": 0.5
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.186429,
+        "change_24h": -3.4
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.072177,
+        "change_24h": 3.7
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.31,
+        "change_24h": -2.2
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.75,
+        "change_24h": 5.8
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Bitcoin stuck as ETF inflows offset selling, but inflation data could spark a move",
@@ -92,7 +153,7 @@
           "BTC"
         ],
         "sentiment": "Neutral",
-        "score": -0.2,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -101,9 +162,9 @@
         "url": "https://www.coindesk.com/policy/2026/08/11/cftc-orders-kalshi-to-continue-offering-prediction-markets-in-new-york-after-state-lawsuit",
         "published": "Tue, 11 Aug 2026 21:28:59 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
       },
       {
         "title": "Brazil's largest lender Itaú is stepping deeper into the tokenization",
@@ -111,9 +172,9 @@
         "url": "https://www.coindesk.com/business/2026/08/11/brazil-s-largest-lender-itau-is-stepping-deeper-into-the-tokenization",
         "published": "Tue, 11 Aug 2026 19:06:23 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "SEC to address crypto regulations in absence of CLARITY passage",
@@ -121,9 +182,9 @@
         "url": "https://cointelegraph.com/news/sec-crypto-regulations-absence-clarity-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Tue, 11 Aug 2026 20:59:07 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "Itaú joins Brazil tokenization pilot with OpenAssets",
@@ -131,9 +192,9 @@
         "url": "https://cointelegraph.com/news/ita-joins-brazil-tokenization-pilot-with-openassets-brief?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Tue, 11 Aug 2026 20:55:58 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "MoneyGram expands crypto cash ramps to Solana",
@@ -144,7 +205,7 @@
           "SOL"
         ],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.5,
         "color": "green"
       },
       {
@@ -153,9 +214,9 @@
         "url": "https://decrypt.co/375381/openai-exec-brad-lightcap-quits-leadership-shake-up-ipo",
         "published": "Tue, 11 Aug 2026 22:04:06 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "BTCPay Backers Offer Bitcoin Bounty After Wallet Exploit",
@@ -166,7 +227,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -189,9 +250,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bullish",
-        "score": 0.333,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.8,
+        "color": "red"
       },
       {
         "title": "Bitcoin miner Bitdeer unlocks a $1B cash tap that dilutes shareholders by up to 30% to build its AI empire",
@@ -201,9 +262,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "Friday’s SEC vote could unlock $75 million crypto raises – or trap token issuers in unexpected legal fine print",
@@ -211,13 +272,13 @@
         "url": "https://cryptoslate.com/fridays-sec-vote-could-unlock-75-million-crypto-raises-or-trap-token-issuers-in-unexpected-legal-fine-print/",
         "published": "Tue, 11 Aug 2026 20:10:02 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.2,
+        "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.072,
+      "score": 0.017,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -225,7 +286,7 @@
       {
         "title": "Will Bitcoin dip to $63,000 on August 11?",
         "volume_24h": 73052,
-        "yes_price": 0.05,
+        "yes_price": 0.06,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-63k-on-august-11"
       }
@@ -234,18 +295,39 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 4,
+          "ETH": 2,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 10, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vl092d/daily_crypto_discussion_august_10_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Sentiment is divided, with bullish moves like MoneyGram's Solana expansion and OpenAI's potential IPO, offset by bearish news such as the CFTC's Kalshi order and SEC's crypto regulation plans."
+      "summary": "Mixed: 8 bullish vs 11 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 142,
+      "active_threads": 143,
       "mentions": {
         "BTC": 26,
         "XRP": 9,
@@ -276,42 +358,42 @@
         "name": "Pudgy Penguins",
         "rank": 105,
         "score": 1,
-        "change_24h": -1.47
+        "change_24h": -1.59
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 2,
-        "change_24h": -0.48
+        "change_24h": -0.4
       },
       {
         "symbol": "HOLO",
         "name": "Holoworld",
-        "rank": 181,
+        "rank": 180,
         "score": 3,
-        "change_24h": 21.94
+        "change_24h": 22.91
       },
       {
         "symbol": "PONS",
         "name": "Pons",
         "rank": 603,
         "score": 4,
-        "change_24h": 14.6
+        "change_24h": 15.93
       },
       {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "rank": 18,
+        "symbol": "XRP",
+        "name": "XRP",
+        "rank": 6,
         "score": 5,
-        "change_24h": 5.71
+        "change_24h": 1.16
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 10,
         "score": 6,
-        "change_24h": -1.29
+        "change_24h": -1.19
       }
     ]
   },
@@ -427,7 +509,7 @@
         "title": "CoreWeave stock pops 13% as revenue doubles on accelerating AI infrastructure demand",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
-        "published": "Tue, 11 Aug 2026 22:20:14 GMT",
+        "published": "Tue, 11 Aug 2026 22:50:31 GMT",
         "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
@@ -583,7 +665,7 @@
       {
         "title": "US announces end of Iranian blockade by August 31, 2026?",
         "volume_24h": 195552,
-        "yes_price": 0.36,
+        "yes_price": 0.38,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729"
       },
@@ -638,14 +720,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4435.3,
-        "change_24h": 1.69
+        "value": 4434.7,
+        "change_24h": 1.67
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 83.5,
-        "change_24h": 1.67
+        "value": 83.54,
+        "change_24h": 1.72
       }
     ],
     "most_active": [
