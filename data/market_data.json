@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T21:39:58Z",
+  "updated_at": "2026-08-12T21:40:47Z",
   "crypto": {
     "fear_greed": {
       "value": 27,
@@ -102,7 +102,7 @@
         "published": "Wed, 12 Aug 2026 16:34:24 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.5,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -111,9 +111,9 @@
         "url": "https://www.coindesk.com/business/2026/08/12/solana-platform-taps-prediction-market-kalshi-for-wall-street-style-high-speed-data-feed",
         "published": "Wed, 12 Aug 2026 16:14:49 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.5,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Hawaii crypto ATM ban to take effect on Oct. 1",
@@ -142,7 +142,7 @@
         "published": "Wed, 12 Aug 2026 20:22:46 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -162,7 +162,7 @@
         "published": "Wed, 12 Aug 2026 20:31:04 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -171,9 +171,9 @@
         "url": "https://decrypt.co/375507/china-deepseek-upgrades-v4-pro-claude-fable",
         "published": "Wed, 12 Aug 2026 20:01:05 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.5,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "Russia picks Bitcoin, Ethereum and USDT for public trading as retail faces $58,000 cap",
@@ -184,9 +184,9 @@
           "BTC",
           "ETH"
         ],
-        "sentiment": "Bullish",
-        "score": 0.5,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "21Shares XRP ETF loses 54% of assets as redemptions lock in $13.4 million loss",
@@ -197,7 +197,7 @@
           "XRP"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.5,
         "color": "red"
       },
       {
@@ -212,7 +212,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.083,
+      "score": -0.042,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -341,6 +341,11 @@
         "symbol": "AAPL",
         "price_usd": 302.25,
         "change_24h": -0.87
+      },
+      {
+        "symbol": "MSFT",
+        "price_usd": 492.43,
+        "change_24h": -2.26
       },
       {
         "symbol": "GOOGL",
