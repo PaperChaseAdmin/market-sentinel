@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T17:21:00Z",
+  "updated_at": "2026-08-12T17:28:00Z",
   "crypto": {
     "fear_greed": {
       "value": 27,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 63489,
+        "price_usd": 63377,
         "change_24h": -0.2,
-        "market_cap": 1274167535753,
-        "volume_24h": 21895182994
+        "market_cap": 1272056294859,
+        "volume_24h": 21895217736
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1887.77,
+        "price_usd": 1884.9,
         "change_24h": 1.5,
-        "market_cap": 227813415269,
-        "volume_24h": 6957362957
+        "market_cap": 227526701508,
+        "volume_24h": 6963956043
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 610.79,
+        "price_usd": 610.2,
         "change_24h": 0.3,
-        "market_cap": 81332527178,
-        "volume_24h": 736931380
+        "market_cap": 81264008200,
+        "volume_24h": 735160519
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.008,
+        "price_usd": 1.006,
         "change_24h": 0.5,
-        "market_cap": 63154347477,
-        "volume_24h": 1047696561
+        "market_cap": 63083818766,
+        "volume_24h": 1045447730
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 75.7,
+        "price_usd": 75.67,
         "change_24h": 1.0,
-        "market_cap": 44095459526,
-        "volume_24h": 1359945425
+        "market_cap": 44085628681,
+        "volume_24h": 1362335437
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070755,
+        "price_usd": 0.070629,
         "change_24h": 0.3,
-        "market_cap": 11000111646,
-        "volume_24h": 498341410
+        "market_cap": 10981833351,
+        "volume_24h": 497995691
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.182298,
+        "price_usd": 0.182205,
         "change_24h": -1.6,
-        "market_cap": 6809198933,
-        "volume_24h": 235665299
+        "market_cap": 6805456792,
+        "volume_24h": 235622504
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.76,
+        "price_usd": 8.75,
         "change_24h": 2.3,
-        "market_cap": 6552027981,
-        "volume_24h": 280422737
+        "market_cap": 6550642886,
+        "volume_24h": 280700126
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.34,
+        "price_usd": 6.33,
         "change_24h": 2.2,
-        "market_cap": 2736051191,
-        "volume_24h": 170967542
+        "market_cap": 2734129378,
+        "volume_24h": 170939470
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "ETH",
+        "mentions": 2,
+        "price_usd": 1884.9,
+        "change_24h": 1.5
+      },
+      {
+        "symbol": "BTC",
+        "mentions": 1,
+        "price_usd": 63377,
+        "change_24h": -0.2
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 75.67,
+        "change_24h": 1.0
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 610.2,
+        "change_24h": 0.3
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.006,
+        "change_24h": 0.5
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.182205,
+        "change_24h": -1.6
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.070629,
+        "change_24h": 0.3
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.33,
+        "change_24h": 2.2
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.75,
+        "change_24h": 2.3
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Wintermute plans $1 billion AI push beyond crypto: Bloomberg",
@@ -90,7 +151,7 @@
         "published": "Wed, 12 Aug 2026 16:34:24 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.5,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -101,9 +162,9 @@
         "assets": [
           "SOL"
         ],
-        "sentiment": "Bullish",
-        "score": 0.8,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Miden bets on privacy stablecoins with introduction of USDCx",
@@ -111,9 +172,9 @@
         "url": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
         "published": "Wed, 12 Aug 2026 15:00:00 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.7,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "FlightAware drops Kalshi lawsuit one day after filing",
@@ -122,7 +183,7 @@
         "published": "Wed, 12 Aug 2026 16:58:52 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -131,9 +192,9 @@
         "url": "https://cointelegraph.com/news/bank-of-england-tests-stablecoin-digital-pound-interoperability-in-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Wed, 12 Aug 2026 16:50:25 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.9,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "HashKey begins beta distribution of Hong Kong-regulated HKDAP stablecoin",
@@ -141,9 +202,9 @@
         "url": "https://cointelegraph.com/news/hashkey-begins-beta-distribution-of-hong-kong-regulated-hkdap-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Wed, 12 Aug 2026 16:07:59 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.8,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Fidelity Files to Let Its Ethereum ETF Stake and Pay Investors",
@@ -154,7 +215,7 @@
           "ETH"
         ],
         "sentiment": "Bullish",
-        "score": 0.9,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -165,9 +226,9 @@
         "assets": [
           "XRP"
         ],
-        "sentiment": "Bearish",
-        "score": -0.9,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Crypto-Backed Loans, Explained: How to Unlock Cash Without Selling Your Bitcoin",
@@ -177,9 +238,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bullish",
-        "score": 0.6,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Tron Inc. put over 90% of assets behind an uninsured JustLend dependency as its TRX treasury kept growing",
@@ -189,9 +250,9 @@
         "assets": [
           "UNI"
         ],
-        "sentiment": "Bearish",
-        "score": -0.7,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "After selling 832 BTC to clear debt, this Nasdaq-listed crypto firm is using a 1-for-50 reverse split to mask its shrinking treasury",
@@ -202,7 +263,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -212,14 +273,14 @@
         "published": "Wed, 12 Aug 2026 14:35:52 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.4,
+        "score": -1.0,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": 0.125,
-      "label": "Neutral",
-      "color": "yellow"
+      "score": -0.333,
+      "label": "Bearish",
+      "color": "red"
     },
     "polymarket": [
       {
@@ -234,14 +295,35 @@
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "ETH": 2,
+          "BTC": 1,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 11, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vlwxea/daily_crypto_discussion_august_11_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 4 bullish vs 10 bearish signals detected across crypto news data."
+      "outlook": "Mixed",
+      "summary": "Mixed: Bullish sentiments from Wintermute's $1 billion AI push and Fidelity's Ethereum ETF filing are offset by bearish trends, including Miden's privacy stablecoin introduction and the Bank of England's stablecoin testing."
     },
     "fourchain": {
       "thread_count": 201,
@@ -251,9 +333,9 @@
         "XRP": 12,
         "ETH": 5
       },
-      "bullish_hits": 74,
+      "bullish_hits": 77,
       "bearish_hits": 41,
-      "bullish_pct": 64,
+      "bullish_pct": 65,
       "top_coin": "BTC",
       "top_posts": [
         "/gme/ - metroid&#039;s 40th edition &gt;basic information &gt;gme.cac site redacted due to aids https://finra-markets.mo",
@@ -265,69 +347,69 @@
     },
     "cg_trending": [
       {
+        "symbol": "DEUS",
+        "name": "XMAQUINA",
+        "rank": 832,
+        "score": 0,
+        "change_24h": 23.51
+      },
+      {
         "symbol": "APR",
         "name": "aPriori",
-        "rank": 226,
-        "score": 0,
-        "change_24h": 113.96
+        "rank": 230,
+        "score": 1,
+        "change_24h": 114.18
       },
       {
         "symbol": "HMM",
         "name": "Thinking Cat",
-        "rank": 735,
-        "score": 1,
-        "change_24h": 150.72
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 10,
+        "rank": 741,
         "score": 2,
-        "change_24h": 4.97
+        "change_24h": 118.53
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 3,
-        "change_24h": -0.03
+        "change_24h": 0.04
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "rank": 88,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 10,
         "score": 4,
-        "change_24h": -4.52
+        "change_24h": 4.64
       },
       {
         "symbol": "VIRTUAL",
         "name": "Virtuals Protocol",
-        "rank": 106,
+        "rank": 107,
         "score": 5,
-        "change_24h": 17.27
+        "change_24h": 16.35
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "rank": 64,
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "rank": 106,
         "score": 6,
-        "change_24h": 1.23
+        "change_24h": 0.11
       }
     ]
   },
   "stocks": {
     "indices": {
       "sp500": {
-        "value": 7751.28,
-        "change_24h": 0.3
+        "value": 7751.95,
+        "change_24h": 0.31
       },
       "nasdaq": {
-        "value": 26613.49,
-        "change_24h": 0.64
+        "value": 26622.68,
+        "change_24h": 0.67
       },
       "dow": {
-        "value": 53796.49,
-        "change_24h": 0.01
+        "value": 53812.0,
+        "change_24h": 0.04
       },
       "vix": {
         "value": 14.67,
@@ -335,45 +417,45 @@
       }
     },
     "market_mood": {
-      "score": 0.318,
+      "score": 0.327,
       "label": "Bullish",
       "color": "green"
     },
     "prices": [
       {
         "symbol": "NVDA",
-        "price_usd": 223.96,
-        "change_24h": 2.97
+        "price_usd": 224.18,
+        "change_24h": 3.07
       },
       {
         "symbol": "TSLA",
-        "price_usd": 326.49,
-        "change_24h": -1.9
+        "price_usd": 326.24,
+        "change_24h": -1.97
       },
       {
         "symbol": "AAPL",
-        "price_usd": 302.23,
-        "change_24h": -0.88
+        "price_usd": 302.37,
+        "change_24h": -0.83
       },
       {
         "symbol": "MSFT",
-        "price_usd": 493.7,
-        "change_24h": -2.01
+        "price_usd": 493.32,
+        "change_24h": -2.08
       },
       {
         "symbol": "GOOGL",
-        "price_usd": 342.73,
-        "change_24h": -0.31
+        "price_usd": 342.56,
+        "change_24h": -0.36
       },
       {
         "symbol": "AMZN",
-        "price_usd": 269.02,
-        "change_24h": -1.19
+        "price_usd": 268.95,
+        "change_24h": -1.22
       },
       {
         "symbol": "AMD",
-        "price_usd": 486.7,
-        "change_24h": 2.61
+        "price_usd": 486.82,
+        "change_24h": 2.64
       }
     ],
     "top_mentioned": [],
@@ -439,6 +521,16 @@
         "color": "green"
       },
       {
+        "title": "SpaceX’s stock is getting a Grok-fueled boost",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/spacexs-stock-is-getting-a-grok-fueled-boost-e99497b4?mod=mw_rss_topstories",
+        "published": "Wed, 12 Aug 2026 17:26:00 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
         "title": "Social Security recipients will get more money next year. Here’s how much the COLA may boost benefits.",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/social-security-recipients-will-get-more-money-next-year-heres-how-much-benefits-may-rise-dfa50c98?mod=mw_rss_topstories",
@@ -457,16 +549,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "Is $1 million enough for a household to retire? The answer keeps changing.",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
-        "published": "Wed, 12 Aug 2026 16:00:00 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
@@ -534,7 +616,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.067,
+      "score": 0.0,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -607,94 +689,94 @@
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 13 bullish vs 10 bearish signals detected across stock/finance news data."
+      "summary": "Mixed: 11 bullish vs 10 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
         "symbol": "^TNX",
         "name": "10Y Treasury Yield",
         "value": 4.67,
-        "change_24h": -0.3
+        "change_24h": -0.34
       },
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.95,
-        "change_24h": 0.13
+        "value": 99.96,
+        "change_24h": 0.14
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4465.8,
-        "change_24h": 1.89
+        "value": 4464.4,
+        "change_24h": 1.86
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 83.01,
-        "change_24h": -0.23
+        "value": 83.25,
+        "change_24h": 0.06
       }
     ],
     "most_active": [
       {
         "symbol": "NVDA",
-        "volume": 65315264,
-        "price_usd": 223.94,
-        "change_24h": 2.96
+        "volume": 66023442,
+        "price_usd": 224.18,
+        "change_24h": 3.07
       },
       {
         "symbol": "PLTR",
-        "volume": 22416654,
-        "price_usd": 172.18,
-        "change_24h": -1.74
+        "volume": 22720955,
+        "price_usd": 172.4,
+        "change_24h": -1.61
       },
       {
         "symbol": "TSLA",
-        "volume": 19076636,
-        "price_usd": 326.49,
-        "change_24h": -1.9
+        "volume": 19307379,
+        "price_usd": 326.24,
+        "change_24h": -1.97
       },
       {
         "symbol": "QQQ",
-        "volume": 18829770,
-        "price_usd": 724.96,
-        "change_24h": 0.91
+        "volume": 18988723,
+        "price_usd": 725.23,
+        "change_24h": 0.94
       },
       {
         "symbol": "AAPL",
-        "volume": 18352298,
-        "price_usd": 302.26,
-        "change_24h": -0.87
+        "volume": 18623861,
+        "price_usd": 302.37,
+        "change_24h": -0.83
       },
       {
         "symbol": "SPY",
-        "volume": 16584556,
-        "price_usd": 772.82,
-        "change_24h": 0.29
+        "volume": 16820133,
+        "price_usd": 772.92,
+        "change_24h": 0.31
       },
       {
         "symbol": "AMZN",
-        "volume": 16286906,
-        "price_usd": 269.02,
-        "change_24h": -1.19
+        "volume": 16454095,
+        "price_usd": 268.95,
+        "change_24h": -1.22
       },
       {
         "symbol": "BAC",
-        "volume": 14743490,
-        "price_usd": 64.54,
-        "change_24h": 0.84
+        "volume": 14893037,
+        "price_usd": 64.58,
+        "change_24h": 0.91
       },
       {
         "symbol": "MSFT",
-        "volume": 12966068,
-        "price_usd": 493.7,
-        "change_24h": -2.01
+        "volume": 13121667,
+        "price_usd": 493.36,
+        "change_24h": -2.07
       },
       {
         "symbol": "GOOGL",
-        "volume": 12680743,
-        "price_usd": 342.72,
-        "change_24h": -0.31
+        "volume": 12870925,
+        "price_usd": 342.56,
+        "change_24h": -0.36
       }
     ],
     "google_trends": {
@@ -772,14 +854,14 @@
       "name": "JPMorgan Nasdaq Equity Premium",
       "type": "Equity Income",
       "price_usd": 60.03,
-      "change_1d": 0.58,
-      "change_1w": 0.78,
-      "change_1m": 1.96,
+      "change_1d": 0.59,
+      "change_1w": 0.79,
+      "change_1m": 1.97,
       "high_3m": 60.09,
       "low_3m": 55.46,
       "week52_high": 61.72,
       "week52_low": 53.51,
-      "rsi": 57.6,
+      "rsi": 57.7,
       "div_yield": 10.76,
       "last_div": null,
       "outlook": {
@@ -793,7 +875,7 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend below long-term (bearish cross) ↓",
-          "RSI 57.6 — Above neutral, mild upward momentum ↑",
+          "RSI 57.7 — Above neutral, mild upward momentum ↑",
           "5-day momentum +0.8% — consolidating sideways →",
           "1-month return +2.0% — range-bound"
         ]
@@ -803,15 +885,15 @@
       "symbol": "SCHD",
       "name": "Schwab US Dividend Equity",
       "type": "Dividend Growth",
-      "price_usd": 34.21,
-      "change_1d": -0.19,
-      "change_1w": 1.68,
-      "change_1m": 6.23,
+      "price_usd": 34.19,
+      "change_1d": -0.23,
+      "change_1w": 1.63,
+      "change_1m": 6.18,
       "high_3m": 34.27,
       "low_3m": 31.47,
       "week52_high": 34.34,
       "week52_low": 26.32,
-      "rsi": 74.1,
+      "rsi": 73.7,
       "div_yield": 3.13,
       "last_div": null,
       "outlook": {
@@ -825,8 +907,8 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 74.1 — Overbought zone, historically signals a pullback ↓",
-          "5-day momentum +1.7% — short-term buying pressure ↑",
+          "RSI 73.7 — Overbought zone, historically signals a pullback ↓",
+          "5-day momentum +1.6% — short-term buying pressure ↑",
           "1-month return +6.2% — sustained uptrend ↑"
         ]
       }
@@ -835,15 +917,15 @@
       "symbol": "QQQM",
       "name": "Invesco Nasdaq 100",
       "type": "Growth",
-      "price_usd": 298.51,
-      "change_1d": 0.56,
-      "change_1w": 0.16,
-      "change_1m": 1.86,
+      "price_usd": 298.61,
+      "change_1d": 0.59,
+      "change_1w": 0.19,
+      "change_1m": 1.89,
       "high_3m": 306.87,
       "low_3m": 272.51,
       "week52_high": 308.21,
       "week52_low": 228.75,
-      "rsi": 57.6,
+      "rsi": 57.7,
       "div_yield": 46.0,
       "last_div": null,
       "outlook": {
@@ -857,7 +939,7 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend below long-term (bearish cross) ↓",
-          "RSI 57.6 — Above neutral, mild upward momentum ↑",
+          "RSI 57.7 — Above neutral, mild upward momentum ↑",
           "5-day momentum +0.2% — consolidating sideways →",
           "1-month return +1.9% — range-bound"
         ]
