@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T22:51:08Z",
+  "updated_at": "2026-08-13T23:01:03Z",
   "crypto": {
     "fear_greed": {
       "value": 29,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 63484,
-        "change_24h": -0.2,
-        "market_cap": 1274131370083,
-        "volume_24h": 19202316343
+        "price_usd": 63476,
+        "change_24h": 0.1,
+        "market_cap": 1273929793700,
+        "volume_24h": 19214241513
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1888.46,
-        "change_24h": 0.1,
-        "market_cap": 227888456065,
-        "volume_24h": 6240026027
+        "price_usd": 1887.63,
+        "change_24h": 0.6,
+        "market_cap": 227797708799,
+        "volume_24h": 6244430797
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 610.54,
-        "change_24h": -0.1,
-        "market_cap": 81298269872,
-        "volume_24h": 513960801
+        "price_usd": 610.49,
+        "change_24h": 0.2,
+        "market_cap": 81311904770,
+        "volume_24h": 512395646
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.008,
-        "change_24h": -0.1,
-        "market_cap": 63170837097,
-        "volume_24h": 859838811
+        "change_24h": 0.4,
+        "market_cap": 63182724005,
+        "volume_24h": 858428683
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 76.31,
-        "change_24h": 0.4,
-        "market_cap": 44457982750,
-        "volume_24h": 1160992177
+        "price_usd": 76.19,
+        "change_24h": 1.0,
+        "market_cap": 44390178112,
+        "volume_24h": 1166254367
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070162,
-        "change_24h": -0.6,
-        "market_cap": 10908759805,
-        "volume_24h": 288317267
+        "price_usd": 0.070082,
+        "change_24h": 1.1,
+        "market_cap": 10895287198,
+        "volume_24h": 286849128
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.182203,
-        "change_24h": -0.6,
-        "market_cap": 6806971012,
-        "volume_24h": 199751319
+        "price_usd": 0.182152,
+        "change_24h": 0.7,
+        "market_cap": 6805058345,
+        "volume_24h": 199485569
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 8.84,
-        "change_24h": 1.2,
-        "market_cap": 6610591861,
-        "volume_24h": 191551442
+        "change_24h": 2.2,
+        "market_cap": 6610046600,
+        "volume_24h": 196256306
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.43,
-        "change_24h": 0.5,
-        "market_cap": 2777975506,
-        "volume_24h": 162918469
+        "price_usd": 6.44,
+        "change_24h": 1.6,
+        "market_cap": 2779211307,
+        "volume_24h": 162049567
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 3,
+        "price_usd": 63476,
+        "change_24h": 0.1
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 1,
+        "price_usd": 76.19,
+        "change_24h": 1.0
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1887.63,
+        "change_24h": 0.6
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 610.49,
+        "change_24h": 0.2
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.008,
+        "change_24h": 0.4
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.182152,
+        "change_24h": 0.7
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.070082,
+        "change_24h": 1.1
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.44,
+        "change_24h": 1.6
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.84,
+        "change_24h": 2.2
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "SEC cancels long-awaited proposal of Reg Crypto, postponing meeting without new date",
@@ -248,7 +309,28 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 3,
+          "SOL": 1,
+          "ETH": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 12, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vmtils/daily_crypto_discussion_august_12_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -259,7 +341,7 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 151,
+      "active_threads": 152,
       "mentions": {
         "BTC": 12,
         "XRP": 11,
@@ -283,49 +365,49 @@
         "name": "Ether.fi",
         "rank": 104,
         "score": 0,
-        "change_24h": 18.33
-      },
-      {
-        "symbol": "TAO",
-        "name": "Bittensor",
-        "rank": 41,
-        "score": 1,
-        "change_24h": 1.93
+        "change_24h": 17.39
       },
       {
         "symbol": "SOL",
         "name": "Solana",
         "rank": 7,
+        "score": 1,
+        "change_24h": 1.18
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "rank": 186,
         "score": 2,
-        "change_24h": 1.19
+        "change_24h": 2.37
       },
       {
         "symbol": "67",
         "name": "SIXSEVEN",
-        "rank": 608,
+        "rank": 607,
         "score": 3,
-        "change_24h": 7.18
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "rank": 88,
-        "score": 4,
-        "change_24h": 6.28
+        "change_24h": 8.16
       },
       {
         "symbol": "STONKBROKER",
         "name": "StonkBroker",
-        "rank": 447,
-        "score": 5,
-        "change_24h": 7.6
+        "rank": 448,
+        "score": 4,
+        "change_24h": 8.34
       },
       {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "rank": 63,
+        "symbol": "TRX",
+        "name": "TRON",
+        "rank": 8,
+        "score": 5,
+        "change_24h": -0.4
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "rank": 291,
         "score": 6,
-        "change_24h": 5.66
+        "change_24h": -5.77
       }
     ]
   },
@@ -589,7 +671,7 @@
       {
         "title": "Will Nigel Farage win 60–70% of votes in the Clacton parliamentary by-election?",
         "volume_24h": 415228,
-        "yes_price": 0.21,
+        "yes_price": 0.2,
         "category": "finance",
         "url": "https://polymarket.com/event/will-nigel-farage-win-6070-of-votes-in-the-clacton-parliamentary-by-election-20260708151424124"
       },
@@ -658,14 +740,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4416.6,
-        "change_24h": 0.17
+        "value": 4412.6,
+        "change_24h": 0.08
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 81.07,
-        "change_24h": -2.64
+        "value": 81.11,
+        "change_24h": -2.59
       }
     ],
     "most_active": [
@@ -725,7 +807,7 @@
       },
       {
         "symbol": "AMD",
-        "volume": 18190245,
+        "volume": 18194677,
         "price_usd": 483.01,
         "change_24h": 0.02
       }
@@ -735,19 +817,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 0
+          "interest_score": 99
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 0
+          "interest_score": 17
         },
         {
           "keyword": "Solana",
-          "interest_score": 0
+          "interest_score": 17
         },
         {
           "keyword": "crypto",
-          "interest_score": 0
+          "interest_score": 62
         }
       ]
     }
@@ -759,8 +841,8 @@
       "type": "Bond Income",
       "price_usd": 47.4,
       "change_1d": 0.18,
-      "change_1w": 0.38,
-      "change_1m": 0.07,
+      "change_1w": 0.4,
+      "change_1m": 0.16,
       "high_3m": 47.44,
       "low_3m": 46.68,
       "week52_high": 48.89,
@@ -781,7 +863,7 @@
           "Short-term trend below long-term (bearish cross) ↓",
           "RSI 61.1 — Above neutral, mild upward momentum ↑",
           "5-day momentum +0.4% — consolidating sideways →",
-          "1-month return +0.1% — range-bound"
+          "1-month return +0.2% — range-bound"
         ]
       }
     },
