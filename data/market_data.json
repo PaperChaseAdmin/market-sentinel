@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T21:40:49Z",
+  "updated_at": "2026-08-13T21:51:05Z",
   "crypto": {
     "fear_greed": {
       "value": 29,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 63415,
+        "price_usd": 63388,
         "change_24h": 0,
-        "market_cap": 1272692353978,
-        "volume_24h": 19105721374
+        "market_cap": 1272181893971,
+        "volume_24h": 19137726170
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1887.15,
+        "price_usd": 1886.58,
         "change_24h": 0.4,
-        "market_cap": 227732160155,
-        "volume_24h": 6294732110
+        "market_cap": 227664606178,
+        "volume_24h": 6279340422
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 610.48,
+        "price_usd": 610.75,
         "change_24h": 0.1,
-        "market_cap": 81315553819,
-        "volume_24h": 514847045
+        "market_cap": 81328861112,
+        "volume_24h": 516240417
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.007,
         "change_24h": 0.2,
-        "market_cap": 63131641699,
-        "volume_24h": 870904080
+        "market_cap": 63128321821,
+        "volume_24h": 867554301
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 76.08,
+        "price_usd": 76.14,
         "change_24h": 0.6,
-        "market_cap": 44327529228,
-        "volume_24h": 1156349192
+        "market_cap": 44358257660,
+        "volume_24h": 1159156110
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070154,
+        "price_usd": 0.070121,
         "change_24h": -0.6,
-        "market_cap": 10907396659,
-        "volume_24h": 330038024
+        "market_cap": 10902977617,
+        "volume_24h": 325439647
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.18169,
+        "price_usd": 0.181619,
         "change_24h": -0.6,
-        "market_cap": 6786685849,
-        "volume_24h": 197242806
+        "market_cap": 6786417986,
+        "volume_24h": 196696662
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 8.87,
+        "price_usd": 8.86,
         "change_24h": 1.1,
-        "market_cap": 6633101278,
-        "volume_24h": 193383154
+        "market_cap": 6629618552,
+        "volume_24h": 192387983
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 6.41,
         "change_24h": 0.9,
-        "market_cap": 2767288547,
-        "volume_24h": 163282202
+        "market_cap": 2768918437,
+        "volume_24h": 166430208
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 3,
+        "price_usd": 63388,
+        "change_24h": 0
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 1,
+        "price_usd": 76.14,
+        "change_24h": 0.6
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1886.58,
+        "change_24h": 0.4
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 610.75,
+        "change_24h": 0.1
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.007,
+        "change_24h": 0.2
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.181619,
+        "change_24h": -0.6
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.070121,
+        "change_24h": -0.6
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.41,
+        "change_24h": 0.9
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 8.86,
+        "change_24h": 1.1
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
@@ -91,9 +152,9 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.8,
+        "color": "green"
       },
       {
         "title": "Forecasts for $1 million bitcoin price likely look too ambitious, key ratio suggests",
@@ -103,9 +164,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.7,
+        "color": "red"
       },
       {
         "title": "Trezor warns 14,000 customers after fulfilment partner suffers data breach",
@@ -114,7 +175,7 @@
         "published": "Thu, 13 Aug 2026 17:10:57 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.9,
         "color": "red"
       },
       {
@@ -124,7 +185,7 @@
         "published": "Thu, 13 Aug 2026 21:08:23 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -135,15 +196,25 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.9,
+        "color": "green"
       },
       {
         "title": "Delio CEO sentenced to 15 years in prison on crypto fraud in South Korea",
         "source": "Cointelegraph",
         "url": "https://cointelegraph.com/news/delio-ceo-prison-crypto-fraud-south-korea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Thu, 13 Aug 2026 19:21:02 +0000",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
+        "title": "Anthropic's AI Agents Started a Virtual War. The Quotes Are Unhinged",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/375596/anthropic-ai-agents-virtual-war-quotes-unhinged",
+        "published": "Thu, 13 Aug 2026 21:45:04 +0000",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
@@ -157,9 +228,9 @@
         "assets": [
           "SOL"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 0.9,
+        "color": "green"
       },
       {
         "title": "Anthropic Is Quietly Watermarking Every Claude AI Output. Builders Are Already Trying to Break It",
@@ -167,18 +238,6 @@
         "url": "https://decrypt.co/375594/anthropic-quietly-watermarking-ai-claude-output-builders-break",
         "published": "Thu, 13 Aug 2026 20:30:24 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
-      },
-      {
-        "title": "Google and OpenAI Debut Super Fast AI Models—Gemini 3.7 Flash Is Out, But GPT-5.6 Sol Ultrafast Is Invite-Only",
-        "source": "Decrypt",
-        "url": "https://decrypt.co/375580/google-openai-super-fast-ai-models-gemini-flash-gpt-ultrafast",
-        "published": "Thu, 13 Aug 2026 19:11:03 +0000",
-        "assets": [
-          "SOL"
-        ],
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
@@ -189,9 +248,9 @@
         "url": "https://cryptoslate.com/data-foundation-ex-story-protocol-keeps-insider-tokens-locked-past-deadline-with-no-new-unlock-date/",
         "published": "Thu, 13 Aug 2026 20:40:39 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "Gaming firm GameSquare boasts a $26M Ethereum fortune, but quiet debt fine print leaves just $2.1M in real cash",
@@ -202,7 +261,7 @@
           "ETH"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -214,26 +273,26 @@
           "SOL"
         ],
         "sentiment": "Bearish",
-        "score": -0.333,
+        "score": -0.9,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.111,
+      "score": -0.167,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Bitcoin Up or Down on August 14?",
-        "volume_24h": 86747,
-        "yes_price": 0.55,
+        "volume_24h": 86851,
+        "yes_price": 0.52,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-up-or-down-on-august-14-2026"
       },
       {
         "title": "Will the price of Bitcoin be above $62,000 on August 14?",
-        "volume_24h": 69136,
+        "volume_24h": 71445,
         "yes_price": 0.96,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-62k-on-august-14-2026"
@@ -243,17 +302,38 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 3,
+          "SOL": 1,
+          "ETH": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 12, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vmtils/daily_crypto_discussion_august_12_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 4 bullish vs 4 bearish signals detected across crypto news data."
+      "summary": "Mixed: 3 bullish vs 4 bearish signals detected across crypto news data."
     },
     "fourchain": {
-      "thread_count": 201,
+      "thread_count": 199,
       "active_threads": 152,
       "mentions": {
         "BTC": 12,
@@ -276,51 +356,51 @@
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "rank": 188,
+        "rank": 197,
         "score": 0,
-        "change_24h": 78.29
+        "change_24h": 60.99
       },
       {
         "symbol": "ETHFI",
         "name": "Ether.fi",
         "rank": 104,
         "score": 1,
-        "change_24h": 15.53
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "rank": 63,
-        "score": 2,
-        "change_24h": 5.45
-      },
-      {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "rank": 189,
-        "score": 3,
-        "change_24h": 4.56
+        "change_24h": 15.86
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 107,
+        "score": 2,
+        "change_24h": -0.96
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "rank": 188,
+        "score": 3,
+        "change_24h": 5.42
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "rank": 63,
         "score": 4,
-        "change_24h": -1.07
+        "change_24h": 6.32
+      },
+      {
+        "symbol": "LAB",
+        "name": "LAB",
+        "rank": 293,
+        "score": 5,
+        "change_24h": -6.53
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
-        "score": 5,
-        "change_24h": -0.08
-      },
-      {
-        "symbol": "LAB",
-        "name": "LAB",
-        "rank": 294,
         "score": 6,
-        "change_24h": -6.45
+        "change_24h": -0.05
       }
     ]
   },
@@ -565,57 +645,57 @@
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 480937,
+        "volume_24h": 480764,
         "yes_price": 0.7,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
       },
       {
         "title": "Will Nigel Farage win at least 80% of votes in the Clacton parliamentary by-election?",
-        "volume_24h": 458934,
+        "volume_24h": 460151,
         "yes_price": 0.3,
         "category": "finance",
         "url": "https://polymarket.com/event/will-nigel-farage-win-at-least-80-of-votes-in-the-clacton-parliamentary-by-election-20260708151424126"
       },
       {
         "title": "Will Nigel Farage win 60–70% of votes in the Clacton parliamentary by-election?",
-        "volume_24h": 401368,
-        "yes_price": 0.15,
+        "volume_24h": 404835,
+        "yes_price": 0.14,
         "category": "finance",
         "url": "https://polymarket.com/event/will-nigel-farage-win-6070-of-votes-in-the-clacton-parliamentary-by-election-20260708151424124"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "volume_24h": 350380,
+        "volume_24h": 350327,
         "yes_price": 0.28,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649"
       },
       {
         "title": "US announces end of Iranian blockade by August 15, 2026?",
-        "volume_24h": 187161,
+        "volume_24h": 189083,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-15-2026-20260713152715083-347-987-697-628-574-676"
       },
       {
         "title": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
-        "volume_24h": 124031,
+        "volume_24h": 124022,
         "yes_price": 0.13,
         "category": "finance",
         "url": "https://polymarket.com/event/will-alexandria-ocasio-cortez-win-the-2028-us-presidential-election"
       },
       {
         "title": "US announces end of Iranian blockade by August 22, 2026?",
-        "volume_24h": 119363,
+        "volume_24h": 118558,
         "yes_price": 0.15,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-22-2026"
       },
       {
         "title": "Will Nigel Farage win 70–80% of votes in the Clacton parliamentary by-election?",
-        "volume_24h": 106644,
-        "yes_price": 0.54,
+        "volume_24h": 106816,
+        "yes_price": 0.56,
         "category": "finance",
         "url": "https://polymarket.com/event/will-nigel-farage-win-7080-of-votes-in-the-clacton-parliamentary-by-election-20260708151424125"
       }
@@ -680,7 +760,7 @@
       },
       {
         "symbol": "TSLA",
-        "volume": 33336616,
+        "volume": 33327029,
         "price_usd": 339.96,
         "change_24h": 3.8
       },
@@ -716,7 +796,7 @@
       },
       {
         "symbol": "AMD",
-        "volume": 18194677,
+        "volume": 18190245,
         "price_usd": 483.01,
         "change_24h": 0.02
       }
@@ -726,15 +806,15 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 95
+          "interest_score": 97
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 11
+          "interest_score": 14
         },
         {
           "keyword": "Solana",
-          "interest_score": 13
+          "interest_score": 16
         },
         {
           "keyword": "crypto",
@@ -751,12 +831,12 @@
       "price_usd": 47.4,
       "change_1d": 0.18,
       "change_1w": 0.38,
-      "change_1m": -0.05,
+      "change_1m": 0.07,
       "high_3m": 47.44,
       "low_3m": 46.68,
       "week52_high": 48.89,
       "week52_low": 46.84,
-      "rsi": 63.4,
+      "rsi": 61.1,
       "div_yield": 7.55,
       "last_div": null,
       "outlook": {
@@ -770,9 +850,9 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend below long-term (bearish cross) ↓",
-          "RSI 63.4 — Above neutral, mild upward momentum ↑",
+          "RSI 61.1 — Above neutral, mild upward momentum ↑",
           "5-day momentum +0.4% — consolidating sideways →",
-          "1-month return -0.1% — range-bound"
+          "1-month return +0.1% — range-bound"
         ]
       }
     },
