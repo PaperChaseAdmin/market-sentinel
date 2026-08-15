@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T18:41:04Z",
+  "updated_at": "2026-08-15T18:50:54Z",
   "crypto": {
     "fear_greed": {
       "value": 34,
@@ -13,72 +13,72 @@
         "name": "Bitcoin",
         "price_usd": 62990,
         "change_24h": -0.1,
-        "market_cap": 1264250365767,
-        "volume_24h": 11457274056
+        "market_cap": 1264242961747,
+        "volume_24h": 11391627951
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1881.11,
+        "price_usd": 1881.15,
         "change_24h": -0.1,
-        "market_cap": 227018345400,
-        "volume_24h": 3103270441
+        "market_cap": 227021988148,
+        "volume_24h": 3087802706
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 609.7,
+        "price_usd": 609.77,
         "change_24h": 0.7,
-        "market_cap": 81194313739,
-        "volume_24h": 430801545
+        "market_cap": 81199715041,
+        "volume_24h": 431514925
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.001,
         "change_24h": 0,
-        "market_cap": 62713593599,
-        "volume_24h": 663492367
+        "market_cap": 62751992012,
+        "volume_24h": 658924927
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 75.5,
+        "price_usd": 75.52,
         "change_24h": 0.2,
-        "market_cap": 43996312307,
-        "volume_24h": 776315869
+        "market_cap": 44009068556,
+        "volume_24h": 769382891
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
         "price_usd": 0.069767,
         "change_24h": 0,
-        "market_cap": 10849151323,
-        "volume_24h": 161331620
+        "market_cap": 10849085603,
+        "volume_24h": 160788700
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 9.52,
+        "price_usd": 9.57,
         "change_24h": 7.7,
-        "market_cap": 7134009926,
-        "volume_24h": 514605639
+        "market_cap": 7156825816,
+        "volume_24h": 513357587
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.177362,
+        "price_usd": 0.177379,
         "change_24h": -1.4,
-        "market_cap": 6626497457,
-        "volume_24h": 135017939
+        "market_cap": 6627957066,
+        "volume_24h": 134624906
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 6.49,
         "change_24h": 0.9,
-        "market_cap": 2802796887,
-        "volume_24h": 228553919
+        "market_cap": 2803123699,
+        "volume_24h": 223829503
       }
     ],
     "top_mentioned": [],
@@ -104,7 +104,7 @@
           "BTC"
         ],
         "sentiment": "Bullish",
-        "score": 0.333,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -148,9 +148,9 @@
           "BTC",
           "MATIC"
         ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Apple Turns to Alibaba to Help Build AI Model for China",
@@ -158,9 +158,9 @@
         "url": "https://decrypt.co/375724/apple-alibaba-build-ai-model-china",
         "published": "Sat, 15 Aug 2026 17:01:03 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Meta Patents Cameras That Recognize Faces and Log Your Actions",
@@ -180,9 +180,9 @@
         "assets": [
           "LINK"
         ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 0.5,
+        "color": "green"
       },
       {
         "title": "A staked Ethereum ETF processed $48M in redemptions while keeping 86% of ETH locked, 21Shares filing shows",
@@ -192,9 +192,9 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "How a public crypto firm’s 4.3% AI gain hides millions in balance sheet losses",
@@ -203,7 +203,7 @@
         "published": "Sat, 15 Aug 2026 15:20:09 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.333,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -220,14 +220,22 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.25,
+      "score": 0.0,
       "label": "Neutral",
       "color": "yellow"
     },
-    "polymarket": [],
+    "polymarket": [
+      {
+        "title": "Will the price of Bitcoin be above $62,000 on August 16?",
+        "volume_24h": 69909,
+        "yes_price": 0.98,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/bitcoin-above-62k-on-august-16-2026"
+      }
+    ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "Insufficient data to generate a summary."
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto prediction markets data."
     },
     "reddit": [],
     "reddit_summary": {
@@ -240,13 +248,13 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 143,
+      "active_threads": 142,
       "mentions": {
         "BTC": 25,
         "XRP": 11,
         "BNB": 1
       },
-      "bullish_hits": 90,
+      "bullish_hits": 91,
       "bearish_hits": 60,
       "bullish_pct": 60,
       "top_coin": "BTC",
@@ -260,53 +268,53 @@
     },
     "cg_trending": [
       {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "rank": 17,
+        "score": 0,
+        "change_24h": 7.03
+      },
+      {
         "symbol": "COW",
         "name": "CoW Protocol",
-        "rank": 287,
-        "score": 0,
-        "change_24h": 36.75
+        "rank": 282,
+        "score": 1,
+        "change_24h": 40.45
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 108,
-        "score": 1,
-        "change_24h": -0.92
-      },
-      {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "rank": 1,
         "score": 2,
-        "change_24h": 0.02
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "rank": 17,
-        "score": 3,
-        "change_24h": 7.29
-      },
-      {
-        "symbol": "WAL",
-        "name": "Walrus",
-        "rank": 349,
-        "score": 4,
-        "change_24h": 22.98
+        "change_24h": -0.8
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 10,
+        "score": 3,
+        "change_24h": 2.32
+      },
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "rank": 1,
+        "score": 4,
+        "change_24h": 0.09
+      },
+      {
+        "symbol": "WAL",
+        "name": "Walrus",
+        "rank": 351,
         "score": 5,
-        "change_24h": 2.17
+        "change_24h": 22.4
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
         "rank": 64,
         "score": 6,
-        "change_24h": -1.2
+        "change_24h": -1.13
       }
     ]
   },
@@ -551,56 +559,56 @@
     "polymarket": [
       {
         "title": "US announces end of Iranian blockade by August 31, 2026?",
-        "volume_24h": 181929,
+        "volume_24h": 181959,
         "yes_price": 0.21,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729"
       },
       {
         "title": "US-Iran 60 day negotiation period extended?",
-        "volume_24h": 142868,
+        "volume_24h": 142903,
         "yes_price": 0.2,
         "category": "finance",
         "url": "https://polymarket.com/event/us-iran-60-day-negotiation-period-extended-20260624044855448"
       },
       {
         "title": "Israel x Iran ceasefire continues through August 31?",
-        "volume_24h": 129286,
+        "volume_24h": 129272,
         "yes_price": 0.94,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-31-20260716224448970-754-896-823"
       },
       {
-        "title": "US announces end of Iranian blockade by August 22, 2026?",
-        "volume_24h": 120854,
-        "yes_price": 0.12,
-        "category": "finance",
-        "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-22-2026"
-      },
-      {
         "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 120364,
+        "volume_24h": 120175,
         "yes_price": 0.73,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
       },
       {
+        "title": "US announces end of Iranian blockade by August 22, 2026?",
+        "volume_24h": 120102,
+        "yes_price": 0.12,
+        "category": "finance",
+        "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-22-2026"
+      },
+      {
         "title": "Will Iran announce withdrawal from MOU negotiations by August 15?",
-        "volume_24h": 109432,
-        "yes_price": 0.03,
+        "volume_24h": 119335,
+        "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/will-iran-announce-withdrawal-from-mou-negotiations-by-august-15-881-867"
       },
       {
         "title": "Will Renan Santos win the 2026 Brazilian presidential election?",
-        "volume_24h": 108506,
+        "volume_24h": 109247,
         "yes_price": 0.06,
         "category": "finance",
         "url": "https://polymarket.com/event/will-renan-santos-win-the-2026-brazilian-presidential-election"
       },
       {
         "title": "Will Donald Trump win the 2028 US Presidential Election?",
-        "volume_24h": 86114,
+        "volume_24h": 73302,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/will-donald-trump-win-the-2028-us-presidential-election"
@@ -613,7 +621,7 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
+      "summary": "Mixed: No specific data available to determine market sentiment, with no top mentions or subreddits provided."
     },
     "news_summary": {
       "outlook": "Bearish",
@@ -709,7 +717,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 48
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 6
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 8
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 31
+        }
+      ]
     }
   },
   "portfolio": [
@@ -720,28 +745,28 @@
       "price_usd": 47.36,
       "change_1d": -0.08,
       "change_1w": 0.08,
-      "change_1m": 0.18,
-      "high_3m": 47.44,
-      "low_3m": 46.68,
+      "change_1m": 0.43,
+      "high_3m": 47.4,
+      "low_3m": 46.41,
       "week52_high": 48.89,
       "week52_low": 46.84,
-      "rsi": 61.0,
+      "rsi": 75.0,
       "div_yield": 7.55,
       "last_div": null,
       "outlook": {
-        "label": "Mild Bullish",
-        "color": "green",
-        "score": 1,
+        "label": "Neutral",
+        "color": "yellow",
+        "score": 0,
         "bull_count": 2,
-        "bear_count": 1,
-        "total": 5,
+        "bear_count": 2,
+        "total": 6,
         "confidence": "Low",
         "reasons": [
           "Price above 20-day moving average ↑",
-          "Short-term trend below long-term (bearish cross) ↓",
-          "RSI 61.0 — Above neutral, mild upward momentum ↑",
+          "Short-term trend above long-term (bullish cross) ↑",
+          "RSI 75.0 — Overbought zone, historically signals a pullback ↓",
           "5-day momentum +0.1% — consolidating sideways →",
-          "1-month return +0.2% — range-bound"
+          "1-month return +0.4% — range-bound"
         ]
       }
     },
