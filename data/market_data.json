@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T18:50:56Z",
+  "updated_at": "2026-08-16T18:54:08Z",
   "crypto": {
     "fear_greed": {
       "value": 34,
@@ -13,75 +13,136 @@
         "name": "Bitcoin",
         "price_usd": 63090,
         "change_24h": 0.1,
-        "market_cap": 1266314610766,
-        "volume_24h": 9106308265
+        "market_cap": 1266284652705,
+        "volume_24h": 9077205442
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1883.92,
+        "price_usd": 1884.1,
         "change_24h": 0,
-        "market_cap": 227363423523,
-        "volume_24h": 2854805580
+        "market_cap": 227378121173,
+        "volume_24h": 2854634699
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 605.01,
+        "price_usd": 604.97,
         "change_24h": -0.8,
-        "market_cap": 80568810919,
-        "volume_24h": 474491188
+        "market_cap": 80560219868,
+        "volume_24h": 475553264
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 0.998484,
+        "price_usd": 0.998853,
         "change_24h": -0.2,
-        "market_cap": 62587671505,
-        "volume_24h": 402214938
+        "market_cap": 62603802251,
+        "volume_24h": 402271629
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 75.15,
+        "price_usd": 75.16,
         "change_24h": -0.3,
-        "market_cap": 43796320854,
-        "volume_24h": 596704482
+        "market_cap": 43802517567,
+        "volume_24h": 596977994
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.069961,
+        "price_usd": 0.069958,
         "change_24h": 0,
-        "market_cap": 10879174615,
-        "volume_24h": 167687993
+        "market_cap": 10879511536,
+        "volume_24h": 167815307
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 9.4,
+        "price_usd": 9.39,
         "change_24h": -1.9,
-        "market_cap": 7031243308,
-        "volume_24h": 235774996
+        "market_cap": 7028403496,
+        "volume_24h": 235491950
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.175387,
+        "price_usd": 0.175474,
         "change_24h": -1.1,
-        "market_cap": 6552371466,
-        "volume_24h": 122724574
+        "market_cap": 6555586909,
+        "volume_24h": 122516613
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 6.34,
         "change_24h": -2.3,
-        "market_cap": 2737859770,
-        "volume_24h": 158634507
+        "market_cap": 2737503445,
+        "volume_24h": 157473091
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 2,
+        "price_usd": 63090,
+        "change_24h": 0.1
+      },
+      {
+        "symbol": "LTC",
+        "mentions": 2,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 1,
+        "price_usd": 75.16,
+        "change_24h": -0.3
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 1,
+        "price_usd": 0.998853,
+        "change_24h": -0.2
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1884.1,
+        "change_24h": 0
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 604.97,
+        "change_24h": -0.8
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.175474,
+        "change_24h": -1.1
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.069958,
+        "change_24h": 0
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.34,
+        "change_24h": -2.3
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 9.39,
+        "change_24h": -1.9
+      }
+    ],
     "news": [
       {
         "title": "The SEC meeting that wasn't: State of Crypto",
@@ -89,9 +150,9 @@
         "url": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
         "published": "Sun, 16 Aug 2026 18:30:00 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Crypto investors are looking past market-cap rankings and back to fundamentals",
@@ -99,9 +160,9 @@
         "url": "https://www.coindesk.com/business/2026/08/16/crypto-investors-are-looking-past-market-cap-rankings-and-back-to-fundamentals",
         "published": "Sun, 16 Aug 2026 16:00:00 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.8,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
@@ -109,9 +170,9 @@
         "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
         "published": "Sun, 16 Aug 2026 14:02:32 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.9,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
@@ -119,9 +180,9 @@
         "url": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "published": "Sun, 16 Aug 2026 12:48:09 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.5,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "Ethereum devs to narrow 66 proposals tied to Hegotá upgrade",
@@ -132,7 +193,7 @@
           "ETH"
         ],
         "sentiment": "Bullish",
-        "score": 0.5,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -144,7 +205,7 @@
           "UNI"
         ],
         "sentiment": "Bullish",
-        "score": 0.7,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -153,9 +214,9 @@
         "url": "https://decrypt.co/375730/gemini-3-7-flash-review-google-cheap-model",
         "published": "Sun, 16 Aug 2026 16:00:05 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.2,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
@@ -164,7 +225,7 @@
         "published": "Sun, 16 Aug 2026 14:01:03 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.8,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -174,7 +235,7 @@
         "published": "Sat, 15 Aug 2026 17:01:03 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 0.6,
+        "score": 1.0,
         "color": "green"
       },
       {
@@ -186,7 +247,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -198,9 +259,9 @@
           "BTC",
           "ETH"
         ],
-        "sentiment": "Bullish",
-        "score": 0.4,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "Over 1.3 million staked tokens remain stranded onchain after a major validator missed its deadline to exit Aztec",
@@ -209,12 +270,12 @@
         "published": "Sun, 16 Aug 2026 15:30:52 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.7,
+        "score": -1.0,
         "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.05,
+      "score": 0.042,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -235,8 +296,8 @@
       },
       {
         "title": "Bitcoin Up or Down on August 17?",
-        "volume_24h": 86581,
-        "yes_price": 0.52,
+        "volume_24h": 86683,
+        "yes_price": 0.51,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-up-or-down-on-august-17-2026"
       }
@@ -245,10 +306,31 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 2 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 2,
+          "LTC": 2,
+          "SOL": 1,
+          "XRP": 1,
+          "ETH": 0,
+          "BNB": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 15, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vpgqr3/daily_crypto_discussion_august_15_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
+      "outlook": "Bullish",
+      "summary": "Bullish: BTC and LTC dominate discussion with 2 mentions each, indicating optimism, in highly active r/CryptoCurrency subreddit with 100/100 activity."
     },
     "news_summary": {
       "outlook": "Bullish",
@@ -263,7 +345,7 @@
         "ETH": 2
       },
       "bullish_hits": 91,
-      "bearish_hits": 52,
+      "bearish_hits": 51,
       "bullish_pct": 64,
       "top_coin": "BTC",
       "top_posts": [
@@ -567,38 +649,31 @@
     "polymarket": [
       {
         "title": "US announces end of Iranian blockade by August 31, 2026?",
-        "volume_24h": 222227,
+        "volume_24h": 222243,
         "yes_price": 0.14,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729"
       },
       {
         "title": "Israel x Iran ceasefire continues through August 31?",
-        "volume_24h": 192747,
+        "volume_24h": 193040,
         "yes_price": 0.95,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-31-20260716224448970-754-896-823"
       },
       {
         "title": "US announces end of Iranian blockade by August 22, 2026?",
-        "volume_24h": 142991,
+        "volume_24h": 143055,
         "yes_price": 0.06,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-22-2026"
       },
       {
         "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 77026,
-        "yes_price": 0.73,
+        "volume_24h": 77096,
+        "yes_price": 0.74,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
-      },
-      {
-        "title": "Trump out as President before 2027?",
-        "volume_24h": 70476,
-        "yes_price": 0.06,
-        "category": "finance",
-        "url": "https://polymarket.com/event/trump-out-as-president-before-2027"
       }
     ],
     "polymarket_summary": {
@@ -707,19 +782,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 64
+          "interest_score": 65
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 8
+          "interest_score": 10
         },
         {
           "keyword": "Solana",
-          "interest_score": 9
+          "interest_score": 10
         },
         {
           "keyword": "crypto",
-          "interest_score": 40
+          "interest_score": 43
         }
       ]
     }
