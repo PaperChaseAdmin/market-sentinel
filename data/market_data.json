@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T23:20:50Z",
+  "updated_at": "2026-08-17T23:31:03Z",
   "crypto": {
     "fear_greed": {
       "value": 31,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64329,
+        "price_usd": 64422,
         "change_24h": 2.3,
-        "market_cap": 1291121045882,
-        "volume_24h": 21366469292
+        "market_cap": 1292976844393,
+        "volume_24h": 21431927311
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1908.07,
+        "price_usd": 1912.77,
         "change_24h": 1.7,
-        "market_cap": 230247836825,
-        "volume_24h": 6705403991
+        "market_cap": 230755339496,
+        "volume_24h": 6757577491
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 604.64,
+        "price_usd": 604.85,
         "change_24h": 0.1,
-        "market_cap": 80516791420,
-        "volume_24h": 536380189
+        "market_cap": 80543299905,
+        "volume_24h": 536308102
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.001,
+        "price_usd": 1.002,
         "change_24h": 0.6,
-        "market_cap": 62741682826,
-        "volume_24h": 834378144
+        "market_cap": 62820509859,
+        "volume_24h": 833264274
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 75.8,
+        "price_usd": 75.9,
         "change_24h": 2.0,
-        "market_cap": 44180296347,
-        "volume_24h": 1267955826
+        "market_cap": 44235476368,
+        "volume_24h": 1271921167
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.070204,
+        "price_usd": 0.070303,
         "change_24h": 1.2,
-        "market_cap": 10919021307,
-        "volume_24h": 280621077
+        "market_cap": 10932441718,
+        "volume_24h": 281263738
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 9.5,
+        "price_usd": 9.52,
         "change_24h": 1.3,
-        "market_cap": 7105011577,
-        "volume_24h": 240100683
+        "market_cap": 7117797197,
+        "volume_24h": 240869265
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.173746,
+        "price_usd": 0.174058,
         "change_24h": -1.2,
-        "market_cap": 6511737918,
-        "volume_24h": 195363472
+        "market_cap": 6524830002,
+        "volume_24h": 195069914
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.32,
+        "price_usd": 6.34,
         "change_24h": 0.3,
-        "market_cap": 2730971571,
-        "volume_24h": 123090525
+        "market_cap": 2736719448,
+        "volume_24h": 127133783
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 6,
+        "price_usd": 64422,
+        "change_24h": 2.3
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 1,
+        "price_usd": 1.002,
+        "change_24h": 0.6
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 1912.77,
+        "change_24h": 1.7
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 75.9,
+        "change_24h": 2.0
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 604.85,
+        "change_24h": 0.1
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.174058,
+        "change_24h": -1.2
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.070303,
+        "change_24h": 1.2
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.34,
+        "change_24h": 0.3
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 9.52,
+        "change_24h": 1.3
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Kraken parent Payward joins Anthropic’s Project Glasswing for AI security push",
@@ -222,7 +283,7 @@
       {
         "title": "Bitcoin Up or Down on August 18?",
         "volume_24h": 196798,
-        "yes_price": 0.62,
+        "yes_price": 0.67,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-up-or-down-on-august-18-2026"
       },
@@ -238,7 +299,28 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 2 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 6,
+          "XRP": 1,
+          "ETH": 0,
+          "SOL": 0,
+          "BNB": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -249,7 +331,7 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 144,
+      "active_threads": 145,
       "mentions": {
         "BTC": 20,
         "XRP": 10,
@@ -273,49 +355,49 @@
         "name": "Venice Token",
         "rank": 88,
         "score": 0,
-        "change_24h": 13.83
+        "change_24h": 13.44
+      },
+      {
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "rank": 228,
+        "score": 1,
+        "change_24h": 22.97
+      },
+      {
+        "symbol": "PEAQ",
+        "name": "peaq",
+        "rank": 443,
+        "score": 2,
+        "change_24h": 16.0
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 109,
-        "score": 1,
-        "change_24h": 0.95
-      },
-      {
-        "symbol": "ANSEM",
-        "name": "The Black Bull",
-        "rank": 230,
-        "score": 2,
-        "change_24h": 20.65
-      },
-      {
-        "symbol": "TIBBIR",
-        "name": "Ribbita by Virtuals",
-        "rank": 172,
         "score": 3,
-        "change_24h": 1.88
-      },
-      {
-        "symbol": "PEAQ",
-        "name": "peaq",
-        "rank": 435,
-        "score": 4,
-        "change_24h": 18.84
+        "change_24h": 1.44
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
         "rank": 64,
-        "score": 5,
-        "change_24h": 2.55
+        "score": 4,
+        "change_24h": 2.76
       },
       {
-        "symbol": "WKC",
-        "name": "Wiki Cat",
-        "rank": 371,
+        "symbol": "TIBBIR",
+        "name": "Ribbita by Virtuals",
+        "rank": 172,
+        "score": 5,
+        "change_24h": 1.88
+      },
+      {
+        "symbol": "CYS",
+        "name": "Cysic",
+        "rank": 291,
         "score": 6,
-        "change_24h": 17.66
+        "change_24h": -41.01
       }
     ]
   },
@@ -398,6 +480,26 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Oil Advances on Middle East, Treasuries Sell Off: Markets Wrap",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates",
+        "published": "Mon, 17 Aug 2026 22:07:13 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 0.333,
+        "color": "green"
+      },
+      {
+        "title": "Gold Holds Two-Day Gain on Reduced Rate-Hike Expectations",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-17/gold-holds-two-day-gain-on-reduced-rate-hike-expectations",
+        "published": "Mon, 17 Aug 2026 23:20:40 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -0.333,
+        "color": "red"
+      },
+      {
         "title": "Hedge Fund Tax Break Grips Hong Kong as Banks Fear Exodus",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-08-17/hedge-fund-tax-break-grips-hong-kong-as-banks-fear-exodus",
@@ -405,26 +507,6 @@
         "assets": [],
         "sentiment": "Bearish",
         "score": -0.6,
-        "color": "red"
-      },
-      {
-        "title": "Latest Oil Market News and Analysis for Aug. 18",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-17/latest-oil-market-news-and-analysis-for-aug-18",
-        "published": "Mon, 17 Aug 2026 22:01:31 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "Petrobras Mulls Improving Braskem Credit Terms Amid Debt Talks",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-17/petrobras-mulls-improving-braskem-credit-terms-amid-debt-talks",
-        "published": "Mon, 17 Aug 2026 22:35:41 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
         "color": "red"
       },
       {
@@ -553,9 +635,9 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.307,
-      "label": "Bearish",
-      "color": "red"
+      "score": -0.24,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
@@ -603,7 +685,7 @@
       {
         "title": "US announces end of Iranian blockade by August 22, 2026?",
         "volume_24h": 167556,
-        "yes_price": 0.04,
+        "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-22-2026"
       },
@@ -626,7 +708,7 @@
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 6 bullish vs 8 bearish signals detected across stock/finance news data."
+      "summary": "Mixed: 9 bullish vs 9 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -644,14 +726,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4469.4,
-        "change_24h": 2.03
+        "value": 4473.7,
+        "change_24h": 2.13
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 85.0,
-        "change_24h": 3.16
+        "value": 85.04,
+        "change_24h": 3.2
       }
     ],
     "most_active": [
@@ -718,24 +800,7 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": [
-        {
-          "keyword": "Bitcoin",
-          "interest_score": 80
-        },
-        {
-          "keyword": "Ethereum",
-          "interest_score": 13
-        },
-        {
-          "keyword": "Solana",
-          "interest_score": 16
-        },
-        {
-          "keyword": "crypto",
-          "interest_score": 64
-        }
-      ]
+      "crypto": []
     }
   },
   "portfolio": [
@@ -745,29 +810,29 @@
       "type": "Bond Income",
       "price_usd": 47.28,
       "change_1d": -0.16,
-      "change_1w": 0.0,
-      "change_1m": 0.44,
+      "change_1w": -0.08,
+      "change_1m": 0.27,
       "high_3m": 47.4,
       "low_3m": 46.41,
       "week52_high": 48.89,
       "week52_low": 46.84,
-      "rsi": 66.7,
+      "rsi": 70.1,
       "div_yield": 7.55,
       "last_div": null,
       "outlook": {
-        "label": "Bullish",
-        "color": "green",
-        "score": 3,
-        "bull_count": 3,
-        "bear_count": 0,
-        "total": 5,
-        "confidence": "Medium",
+        "label": "Neutral",
+        "color": "yellow",
+        "score": 0,
+        "bull_count": 2,
+        "bear_count": 2,
+        "total": 6,
+        "confidence": "Low",
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 66.7 — Above neutral, mild upward momentum ↑",
-          "5-day momentum +0.0% — consolidating sideways →",
-          "1-month return +0.4% — range-bound"
+          "RSI 70.1 — Overbought zone, historically signals a pullback ↓",
+          "5-day momentum -0.1% — consolidating sideways →",
+          "1-month return +0.3% — range-bound"
         ]
       }
     },
