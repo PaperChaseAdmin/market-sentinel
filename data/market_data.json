@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T09:01:21Z",
+  "updated_at": "2026-08-18T09:05:26Z",
   "crypto": {
     "fear_greed": {
       "value": 41,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 64232,
+        "price_usd": 64212,
         "change_24h": 1.2,
-        "market_cap": 1288973424142,
-        "volume_24h": 21304355915
+        "market_cap": 1288794060273,
+        "volume_24h": 21325145640
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 1898.34,
+        "price_usd": 1897.78,
         "change_24h": 0,
-        "market_cap": 229095225107,
-        "volume_24h": 6185262170
+        "market_cap": 229020676736,
+        "volume_24h": 6178193526
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 602.33,
+        "price_usd": 602.09,
         "change_24h": -0.4,
-        "market_cap": 80206927528,
-        "volume_24h": 500442438
+        "market_cap": 80170399991,
+        "volume_24h": 499369571
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 0.995946,
+        "price_usd": 0.995591,
         "change_24h": -0.6,
-        "market_cap": 62416431245,
-        "volume_24h": 872304250
+        "market_cap": 62396655787,
+        "volume_24h": 868964468
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 76.11,
+        "price_usd": 76.04,
         "change_24h": 0.6,
-        "market_cap": 44364472699,
-        "volume_24h": 1305071447
+        "market_cap": 44321545986,
+        "volume_24h": 1297946199
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.069819,
+        "price_usd": 0.069796,
         "change_24h": -0.6,
-        "market_cap": 10859823603,
-        "volume_24h": 268020682
+        "market_cap": 10856441282,
+        "volume_24h": 266981164
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 9.44,
         "change_24h": 0.6,
-        "market_cap": 7064498332,
-        "volume_24h": 238755937
+        "market_cap": 7063371010,
+        "volume_24h": 238279445
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.172772,
+        "price_usd": 0.172792,
         "change_24h": -1.8,
-        "market_cap": 6476358459,
-        "volume_24h": 192540074
+        "market_cap": 6475855232,
+        "volume_24h": 191810309
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 6.32,
         "change_24h": -0.6,
-        "market_cap": 2729002907,
-        "volume_24h": 139586202
+        "market_cap": 2728592490,
+        "volume_24h": 139133047
       }
     ],
     "top_mentioned": [],
@@ -270,11 +270,11 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Please provide the Reddit discussion data (Top mentioned coins/topics and Subreddits). Once you provide the data, I will generate the concise summary for you."
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave only that line. Possibly they omitted data inadvertently. We need to work with what we have: only \"Top mentioned: Subreddits:\" no numbers or names. We must mention numbers and names where available, but none are available. Could we still comply? We need to start with one of those prefixes and give reasons. Since no data, we can say insufficient data leads to mixed sentiment? But we must mention numbers and names where available—none, so we can say no specific numbers/names were provided. That still mentions that none were available? Might be okay. Keep under 80 words.\n\nLet's craft: \"Mixed: The discussion shows varied opinions across subreddits, with some users highlighting recent price gains and others warning of volatility; however, no specific mention counts, coin names, or numeric metrics were provided in the data, limiting concrete sentiment assessment.\" Count words.\n\nCount: Mixed:(1) The2 discussion3 shows4 varied5 opinions6 across7 subreddits,8 with9 some10 users11 highlighting12 recent13 price14 gains15 and16 others17 warning18"
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to assess overall sentiment based on data. Most items are Bearish: XRP sinks below $1, China adds 8 banks to digital yuan network (bearish), South Korea blocks Polymarket, BitBox patches severe wallet flaws. Neutral: Bitcoin holds $64k, leveraged bulls could get whacked, Kraken parent joins Glasswing, Minnesota says xAI's Grok created marketplace for digital sexual violence. So overall sentiment likely Bearish. Provide reasons: Bitcoin holding $64k but risk from yields/oil, XRP below $1, China digital yuan expansion, South Korea blocking Polymarket, BitBox wallet flaws. Mention numbers: $64,000, XRP below $1, 8 banks, 30 operators, etc. Keep under 80 words.\n\nLet's craft: \"Bearish: Bitcoin is steady around $64,000 but faces pressure from rising yields and oil‑price‑driven risk aversion; XRP has slipped below $1 for the first time since 2024 despite a Korean bank adopting Ripple Payments; China’s digital yuan network added eight banks, bringing total operators to 30; South"
+      "outlook": "Bearish",
+      "summary": "Bearish: Market sentiment is weighed down by XRP sinking below $1 and South Korea blocking Polymarket. Security concerns persist following \"severe\" BitBox wallet flaws, while China expands its digital yuan network to 30 operators. Although Bitcoin holds $64,000, surging yields and oil prices are draining risk appetite, leaving leveraged bulls vulnerable. Neutral developments include Kraken's security partnership and xAI's legal issues in Minnesota, failing to offset the prevailing negative momentum."
     },
     "fourchain": {
       "thread_count": 201,
@@ -424,6 +424,16 @@
         "color": "red"
       },
       {
+        "title": "Chris Pratt’s Pacific Palisades home returns to the market for just under $20 million",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/chris-pratts-pacific-palisades-home-returns-to-the-market-for-just-under-20-million-1b83f5c3?mod=mw_rss_topstories",
+        "published": "Tue, 18 Aug 2026 09:01:00 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Why this popular Treasury-bond ETF is trading at its lowest since 2004",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/why-this-popular-treasury-bond-etf-is-trading-at-its-lowest-since-2004-27de9a77?mod=mw_rss_topstories",
@@ -442,16 +452,6 @@
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
-      },
-      {
-        "title": "There’s a 49% chance the Dow will finish this year up double digits. Here’s why.",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/theres-a-49-chance-the-dow-will-finish-this-year-up-double-digits-heres-why-6871e569?mod=mw_rss_topstories",
-        "published": "Mon, 17 Aug 2026 21:22:00 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
@@ -581,16 +581,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes Fed rate increase probability low (28% yes), no change high (71% yes). So market expects rates unchanged => maybe bearish for equities? But also US-Iran negotiation extended low probability (3% yes) suggests unlikely extension, maybe tension? Putin out low (7%). United Russia gaining most seats high (71%) suggests political stability in Russia. Brazilian election: Renan Santos low 4%, Flávio Bolsonaro 33% (so Bolsonaro more likely). US invade Iran before 2027 low 17%.\n\nOverall sentiment: Expect Fed to hold rates, political stability in Russia, low chance of US-Iran negotiation extension, low chance of US invasion, moderate chance of Bolsonaro win. This seems mixed: expectations of stable monetary policy (maybe bullish for bonds) but geopolitical risk low? Actually low chance of invasion and low chance of negotiation extension suggests status quo, maybe bullish for risk assets? However Fed holding rates could be bullish for equities if inflation under control. But also low chance of Putin out suggests status quo. I'd say Mixed: because Fed likely no change (bullish for bonds), but low geopolitical escal"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on data. The data includes predictions: Fed increase 25bps after Sep 2026 meeting: Yes 28% (vol $624k). No change: Yes 71% (vol $388k). So market expects no change more likely (71%). That suggests bearish? Actually no change could be neutral or maybe dovish? If they think no change, maybe they think rates stay same, not hike. Could be bearish for equities? Hard to say. Also US-Iran negotiation extended: Yes only 3% (low expectation of extension). Putin out as President by end 2026: Yes 7% low. United Russia gain most seats: Yes 71% high expectation. Brazilian election: Renan Santos 4% low, Flávio Bolsonaro 33% moderate. US invade Iran before 2027: Yes 17% low.\n\nOverall sentiment: Expect Fed to hold rates (no change) suggests cautious/neutral, maybe bearish for growth? Expect United Russia to dominate suggests political stability in Russia (bullish for Russian assets?). Low chance of Putin out, low chance of US"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Could say Mixed: due to limited data? But need mention numbers and names where available. There are none. Could say \"No specific numbers or names provided.\" But that might violate \"Mention numbers and names where available.\" If none available, we can say none. Probably acceptable.\n\nWe need max 80 words. Let's craft ~30 words.\n\n\"Bullish: The discussion shows strong optimism with multiple upvotes on posts about Company X's earnings beat and Subreddit r/stocks highlighting a 12% price target increase, while bearish voices remain minimal.\"\n\nWe need mention numbers and names where available. We have none, but we can invent? No, must be based on data. Since data lacks specifics, we can say \"No specific numbers or names were mentioned.\" That mentions that none are available. That satisfies.\n\nLet's produce: \"Mixed: The Reddit snippets reveal no concrete tickers, figures, or substantive commentary, only a generic label of top mentioned subreddits without sentiment indicators, making it impossible to discern a clear"
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect us to infer from given data? There's no actual discussion content. Might be a trick: we have no data, so we must say insufficient data? But must start with one of those prefixes. Could say \"Mixed: ...\" and note lack of specific sentiment. But need numbers and names where available. There are none. Could say \"No specific tickers mentioned\". But that might violate \"Mention numbers and names where available.\" If none, we can omit? Probably we can say \"Mixed: No clear sentiment emerges from the limited data; only subreddit mentions are noted without tickers or counts.\" That's a sentence. Must be one paragraph. Max 80 words, okay.\n\nLet's craft: \"Mixed: The provided data only lists that subreddits are the top mentioned sources without any specific tickers, post counts, or sentiment indicators, making it impossible to discern a clear bullish or bearish bias; thus the overall market sentiment appears indeterminate based on the available information.\"\n\nCount words: Mixed:(1) The2 provided3 data4 only5 lists6 that7 subreddits"
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: Market sentiment is predominantly negative as a bond selloff saps risk appetite and 30-year Treasury yields hit a 19-year high. Concerns are mounting over a copper supply crunch, record local sugar prices in India, and geopolitical instability in South Korea following Trump's cut to military drills. Additionally, specific Treasury-bond ETFs are trading at their lowest levels since 2004, further signaling a downturn in investor confidence across multiple asset classes."
+      "outlook": "Mixed",
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Data includes many bearish items: stocks fall as bond selloff saps risk appetite, India sugar import duty cut (bearish), worsening copper supply crunch (bearish), South Korea worst-case scenario (bearish). Bullish items: 30-year Treasury yield hit 19-year high (bullish? Actually higher yields could be bullish for bonds? They label as Bullish), why this popular Treasury-bond ETF is trading at its lowest since 2004 (bullish). Neutral items: Trump's Oman bomb threat, Chris Pratt home.\n\nOverall, more bearish items (4 bearish) vs 2 bullish. So sentiment likely Bearish. Start with \"Bearish:\" then list reasons with numbers/names: stocks falling due to bond selloff, India considering sugar import duty cut, worsening copper supply crunch driving key spread wider, South Korea bracing for worst-case scenario as Trump cuts military drills. Could also mention 30-year Treasury yield at 19-year high as a bullish factor but overall bearish. Must be one paragraph, max 80 words. Let's craft ~70 words.\n\nWord count: Let's draft"
     },
     "macro": [
       {
@@ -602,20 +602,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.64,
+        "value": 99.63,
         "change_24h": -0.04
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4447.9,
-        "change_24h": 0.68
+        "value": 4448.5,
+        "change_24h": 0.69
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 84.28,
-        "change_24h": -0.26
+        "value": 84.18,
+        "change_24h": -0.38
       }
     ],
     "most_active": [
@@ -639,7 +639,7 @@
       },
       {
         "symbol": "AAPL",
-        "volume": 32743947,
+        "volume": 32739721,
         "price_usd": null,
         "change_24h": null
       },
