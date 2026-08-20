@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T07:37:09Z",
+  "updated_at": "2026-08-20T07:41:15Z",
   "crypto": {
     "fear_greed": {
       "value": 62,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 69531,
+        "price_usd": 69519,
         "change_24h": 8.8,
-        "market_cap": 1395401925555,
-        "volume_24h": 51952797635
+        "market_cap": 1395163940625,
+        "volume_24h": 52096825687
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2247.04,
+        "price_usd": 2245.02,
         "change_24h": 18.5,
-        "market_cap": 271151382428,
-        "volume_24h": 32007758269
+        "market_cap": 270947087921,
+        "volume_24h": 31985259544
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 628.43,
+        "price_usd": 627.88,
         "change_24h": 4.8,
-        "market_cap": 83676817218,
-        "volume_24h": 1406057481
+        "market_cap": 83610105941,
+        "volume_24h": 1405513452
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.11,
         "change_24h": 11.2,
-        "market_cap": 69560670894,
-        "volume_24h": 3239599924
+        "market_cap": 69537287022,
+        "volume_24h": 3236903296
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 86.0,
+        "price_usd": 85.9,
         "change_24h": 11.9,
-        "market_cap": 50122159463,
-        "volume_24h": 5043122836
+        "market_cap": 50066815416,
+        "volume_24h": 4999853035
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.07512,
+        "price_usd": 0.075042,
         "change_24h": 7.7,
-        "market_cap": 11683111597,
-        "volume_24h": 933084807
+        "market_cap": 11672642348,
+        "volume_24h": 930621964
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 10.53,
+        "price_usd": 10.52,
         "change_24h": 10.1,
-        "market_cap": 7876341190,
-        "volume_24h": 717360779
+        "market_cap": 7871554286,
+        "volume_24h": 724344469
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.183842,
+        "price_usd": 0.183542,
         "change_24h": 5.3,
-        "market_cap": 6891333857,
-        "volume_24h": 490418373
+        "market_cap": 6878405845,
+        "volume_24h": 489081917
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 6.79,
+        "price_usd": 6.8,
         "change_24h": 7.2,
-        "market_cap": 2932561247,
-        "volume_24h": 364466041
+        "market_cap": 2933711866,
+        "volume_24h": 363099465
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 7,
+        "price_usd": 69519,
+        "change_24h": 8.8
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 2,
+        "price_usd": 2245.02,
+        "change_24h": 18.5
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 85.9,
+        "change_24h": 11.9
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 627.88,
+        "change_24h": 4.8
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.11,
+        "change_24h": 11.2
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.183542,
+        "change_24h": 5.3
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.075042,
+        "change_24h": 7.7
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 6.8,
+        "change_24h": 7.2
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 10.52,
+        "change_24h": 10.1
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Live updates: Bitcoin ETFs draw $517 million, ether pulls $189 million in biggest inflows in months",
@@ -282,20 +343,41 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on data.\n\nData points:\n\n- Bitcoin reaching $72,500 in August: Yes 46% (vol $285,467)\n- Bitcoin above $72,000 on Aug 20: Yes 4% (vol $275,677)\n- Bitcoin reaching $75,000 in August: Yes 21% (vol $264,381)\n- Bitcoin reaching $120,000 by Dec 31, 2026: Yes 7% (vol $249,420)\n- Bitcoin dip to $62,500 in August: Yes 10% (vol $234,785)\n- Bitcoin Up or Down on Aug 20: Yes 85% (vol $211,465) – ambiguous: \"Yes\" meaning up? Likely \"Will Bitcoin be up on Aug 20?\" Yes 85% suggests bullish short-term.\n- Bitcoin above $70,000 on Aug 20: Yes 32% (vol $20"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data shows various predictions: Bitcoin reaching $72,500 in August: Yes 46% (vol $285k). Bitcoin above $72k on Aug 20: Yes 4% (vol $275k). Bitcoin reaching $75k in August: Yes 21% (vol $264k). Bitcoin reaching $120k by Dec 31 2026: Yes 7% (vol $249k). Bitcoin dip to $62.5k in August: Yes 10% (vol $235k). Bitcoin Up or Down on Aug 20: Yes 85% (vol $211k) – ambiguous: \"Yes\" meaning up? Probably \"Up\". So 85% think up. Bitcoin above $70k on Aug 20: Yes 32% (vol $203k). Ethereum reach $3k in August: Yes 2% (vol $184k).\n\nOverall sentiment: Mixed, with strong belief in short-term up (85% up on Aug 20) but low confidence in hitting"
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 7,
+          "ETH": 2,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: \"Top mentioned: Subreddits:\" but no further details? The data seems incomplete. Possibly they expect we infer from given data? But only \"Top mentioned: Subreddits:\" is given, no actual subreddit names. Might be a trick: we have no specifics, so we must say insufficient data? But we must mention numbers and names where available. Since none available, we can say no specific numbers/names. But we still need to start with Bullish/Bearish/Mixed and give reasons. Could say Mixed: due to limited data showing equal mentions across subreddits, no clear trend. But we need to mention numbers and names where available—none, so we can say \"No specific subreddit names or counts provided.\" That's still mentioning that there are none.\n\nWe need max 80 words. Let's craft ~30 words.\n\n\"Mixed: The discussion shows no dominant subreddit or clear bullish/bearish bias, with top mentions lacking specific names or counts, indicating uncertainty among participants about crypto market direction.\"\n\nCheck word count: Mixed:(1) The(2) discussion3 shows4 no5 dominant6 subreddit7 or8 clear9 bullish/b"
+      "summary": "Mixed: Sentiment is fragmented despite high activity (100/100) in r/CryptoCurrency. While BTC dominates the conversation with 7 mentions, indicating strong focus on the market leader, ETH follows with only 2 mentions. The complete absence of mentions for SOL, BNB, and XRP suggests a narrow interest in major assets and a lack of confidence or momentum in altcoins, leaving the overall market outlook uncertain."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Let's weigh: Bullish items: Bitcoin ETFs draw $517M, ether $189M biggest inflows in months; HYPE jumps 20% as Trump signals legal US path for Hyperliquid. Bearish: Trader lost $24M on ether in 12 seconds after making $49M shorting crypto; Bearish crypto bets lose record $2.7B as bitcoin surges toward $70k; Trump says AI could be 'Bigger Than the Internet' as he pushes light-touch regulation (that's labeled Bearish). Neutral items: Here's what happened in crypto today; Rushed CLARITY Act vote could set legislation back; Bitcoin's Sharpest Rally in Five Months Flips Markets From Bearish to Coin Flip.\n\nOverall, there are strong bullish inflows and price surge, but also massive bearish bets losing and trader loss. The net seems mixed but leaning bullish due to inflows and price surge. However the record $2.7B loss on bearish bets indicates bearish positioning being wiped out, which is bullish for price. So overall sentiment: Bullish.\n\nWe need to start with \"Bullish:\" then reasons, include"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's weigh: Bullish items: Bitcoin ETFs draw $517M, ether $189M biggest inflows; HYPE jumps 20% as Trump signals legal US path for Hyperliquid. Bearish: Trader lost $24M on ether in 12 seconds after making $49M shorting crypto; Bearish crypto bets lose record $2.7B as bitcoin surges toward $70k; Trump says AI could be bigger than internet as he pushes light-touch regulation (that's labeled Bearish). Neutral items: Here's what happened in crypto today; Rushed CLARITY Act vote could set legislation back; Bitcoin's Sharpest Rally in Five Months Flips Markets From Bearish to Coin Flip.\n\nOverall, seems mixed but leaning bullish? There are strong inflows, bitcoin surge, HYPE up. Bearish bets lost $2.7B indicates bullish pressure. The trader loss is bearish but specific. Trump AI comment bearish but maybe less weight. I'd say Mixed: because both bullish and bearish signals.\n\nWe need to start with \"Mixed:\" then reasons, include numbers and names. Max"
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 117,
+      "active_threads": 118,
       "mentions": {
         "BTC": 20,
         "XRP": 18,
@@ -380,14 +462,14 @@
         "change_24h": 0.22
       },
       "vix": {
-        "value": 14.91,
-        "change_24h": 0.13
+        "value": 14.96,
+        "change_24h": 0.47
       }
     },
     "market_mood": {
-      "score": 0.067,
-      "label": "Neutral",
-      "color": "yellow"
+      "score": 0.45,
+      "label": "Bullish",
+      "color": "green"
     },
     "prices": [
       {
@@ -431,11 +513,6 @@
         "change_24h": -3.71
       },
       {
-        "symbol": "PLTR",
-        "price_usd": 175.19,
-        "change_24h": 2.13
-      },
-      {
         "symbol": "COIN",
         "price_usd": 160.2,
         "change_24h": 9.55
@@ -464,10 +541,10 @@
         "color": "yellow"
       },
       {
-        "title": "RBI Chief Estimates $80 Billion Inflow From Rupee Measures",
+        "title": "NSE Said to Plan Allowing Trading Its Shares on Own Platform",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-20/rbi-s-net-short-dollar-position-very-manageable-malhotra-says",
-        "published": "Thu, 20 Aug 2026 01:55:54 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/nse-said-to-plan-allowing-trading-its-shares-on-own-platform",
+        "published": "Thu, 20 Aug 2026 07:24:34 GMT",
         "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
@@ -663,16 +740,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Markets are bullish on monetary stability, with a 72% probability of no Fed rate hike in September 2026. Geopolitical sentiment is cautious; while there is high confidence in a continued US-Iran ceasefire (90% through August 31), there is deep skepticism regarding a nuclear deal (10%) or the end of the Iranian blockade (6%). Political stability in China remains expected, with only a 4% chance of Xi Jinping exiting power before 2027."
+      "summary": "Mixed: Markets are bullish on monetary stability, with a 72% probability of no Fed rate increase in September 2026. Geopolitical sentiment is cautious; while a ceasefire against Iran is highly likely (90% through August 31), confidence in a final nuclear deal is low at 10%. Stability in China is expected, with only a 4% chance of Xi Jinping exiting power before 2027. Overall, investors anticipate steady rates but persistent diplomatic friction."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data only shows \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to note that there is no data? But we must still produce a paragraph. Perhaps we infer that no specific mentions given, so we say insufficient data? But must start with one of those words. Could say \"Mixed: ...\" and note lack of concrete sentiment. But need numbers and names where available. There are none. Could say \"No specific tickers or numbers were mentioned in the provided data, indicating unclear sentiment.\" That mentions that no numbers/names were mentioned. That satisfies mention numbers and names where available (none). Must be max 80 words. Let's craft ~30 words.\n\nParagraph: \"Mixed: The Reddit discussion did not highlight any particular stock ticker or provide quantitative metrics, with no top‑mentioned subreddits listed, suggesting participants are neither strongly optimistic nor pessimistic and are awaiting clearer cues before forming a consensus.\"\n\nCheck word count: Count words.\n\n\"Mixed:\" (1) \"The\"(2) \"Reddit\"(3) \"discussion\"(4) \"did\"(5) \"not\"(6) \"highlight\"(7) \"any\"(8)"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: \"Top mentioned: Subreddits:\" but no actual data? The user gave only placeholder? Possibly they omitted data. We need to infer? Might be that the data is missing; we must respond based on given data. Since no specifics, we can say insufficient data? But must start with Bullish/Bearish/Mixed and mention numbers and names where available. If no data, we could say \"No specific data provided\" but that might violate requirement to mention numbers and names. Could we say \"Mixed: ...\"? But we need numbers and names. Perhaps we can note that no top mentioned subreddits were listed, so sentiment cannot be determined. But we still need to start with one of those prefixes. Could we say \"Mixed: Insufficient data to determine sentiment; no subreddit mentions or metrics provided.\" That mentions no numbers/names though. Might be okay? The instruction: \"Mention numbers and names where available.\" If none available, we don't need to mention. So we can say Mixed: ... and note lack of data.\n\nWe must keep max 80 words. Let's craft ~30 words.\n\n\"Mixed: The provided data lacks specific subreddit names"
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons, mention numbers and names where available, max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's list items with sentiment tags:\n\n- Stocks Waver as Treasury Rally Runs Out of Steam: Markets Wrap (Bullish) -> bullish\n- Australia Outraged as Israel Ends Probe of Aid Worker Death (Neutral) -> neutral\n- RBI Chief Estimates $80 Billion Inflow From Rupee Measures (Bullish) -> bullish, number $80B\n- Trump announces 'economic warfare' on Iran, threatens ‘tremendous’ consequences for its backers (Neutral) -> neutral\n- Bitcoin, ether surge as Trump urges Congress to pass crypto Clarity Act (Bullish) -> bullish\n- Trump scaling down U.S.-South Korea drills risks more than just joint military readiness (Bearish) -> bearish\n- My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair? (Neutral) -> neutral\n- I hold my mother-in-law’s power of attorney. I’m also her executor and trustee. Do I have ultimate authority? (Bearish) -> bearish\n\nWe have bullish: 3"
+      "outlook": "Bullish",
+      "summary": "Bullish: Market sentiment is positive, driven by Bitcoin and Ether surging following Trump's push for the Crypto Clarity Act. Additionally, the NSE's plan to allow trading of its own shares on its platform adds optimism. While Treasury rallies are wavering and geopolitical tensions persist regarding Iran and South Korea, the strong momentum in digital assets and Indian equity infrastructure outweighs the neutral and bearish noise from political and personal legal disputes."
     },
     "macro": [
       {
@@ -684,20 +761,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 98.8,
-        "change_24h": -0.03
+        "value": 98.79,
+        "change_24h": -0.04
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4542.4,
-        "change_24h": 1.18
+        "value": 4540.7,
+        "change_24h": 1.14
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 85.58,
-        "change_24h": -0.29
+        "value": 85.76,
+        "change_24h": -0.08
       }
     ],
     "most_active": [
@@ -767,19 +844,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 52
+          "interest_score": 55
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 12
+          "interest_score": 11
         },
         {
           "keyword": "Solana",
-          "interest_score": 7
+          "interest_score": 8
         },
         {
           "keyword": "crypto",
-          "interest_score": 29
+          "interest_score": 31
         }
       ]
     }
@@ -792,28 +869,28 @@
       "price_usd": 47.31,
       "change_1d": 0.16,
       "change_1w": 0.01,
-      "change_1m": -0.24,
-      "high_3m": 47.44,
-      "low_3m": 46.96,
+      "change_1m": 0.55,
+      "high_3m": 47.4,
+      "low_3m": 46.69,
       "week52_high": 48.89,
       "week52_low": 46.84,
-      "rsi": 61.8,
+      "rsi": 74.5,
       "div_yield": 7.55,
       "last_div": null,
       "outlook": {
-        "label": "Mild Bullish",
-        "color": "green",
-        "score": 1,
+        "label": "Neutral",
+        "color": "yellow",
+        "score": 0,
         "bull_count": 2,
-        "bear_count": 1,
-        "total": 5,
+        "bear_count": 2,
+        "total": 6,
         "confidence": "Low",
         "reasons": [
           "Price above 20-day moving average ↑",
-          "Short-term trend below long-term (bearish cross) ↓",
-          "RSI 61.8 — Above neutral, mild upward momentum ↑",
+          "Short-term trend above long-term (bullish cross) ↑",
+          "RSI 74.5 — Overbought zone, historically signals a pullback ↓",
           "5-day momentum +0.0% — consolidating sideways →",
-          "1-month return -0.2% — range-bound"
+          "1-month return +0.5% — range-bound"
         ]
       }
     },
