@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T15:10:52Z",
+  "updated_at": "2026-08-22T15:15:07Z",
   "crypto": {
     "fear_greed": {
       "value": 71,
@@ -7,7 +7,80 @@
       "previous_value": 72,
       "previous_label": "Greed"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 76972,
+        "change_24h": 0.1,
+        "market_cap": 1545026352128,
+        "volume_24h": 46995447358
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 2409.43,
+        "change_24h": 1.5,
+        "market_cap": 290829946413,
+        "volume_24h": 27247132157
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 691.63,
+        "change_24h": 2.0,
+        "market_cap": 92131103008,
+        "volume_24h": 2465134039
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.44,
+        "change_24h": 3.1,
+        "market_cap": 90207563151,
+        "volume_24h": 11992022944
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 93.1,
+        "change_24h": 2.6,
+        "market_cap": 54310839051,
+        "volume_24h": 8245089471
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.089891,
+        "change_24h": 7.5,
+        "market_cap": 13999883794,
+        "volume_24h": 2866186226
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 11.57,
+        "change_24h": 2.4,
+        "market_cap": 8669439589,
+        "volume_24h": 1067473844
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.223086,
+        "change_24h": 3.6,
+        "market_cap": 8367548171,
+        "volume_24h": 1309500264
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 7.45,
+        "change_24h": -1.2,
+        "market_cap": 3216579963,
+        "volume_24h": 568477000
+      }
+    ],
     "top_mentioned": [],
     "news": [
       {
@@ -149,7 +222,7 @@
       {
         "title": "Bitcoin Up or Down on August 22?",
         "volume_24h": 293073,
-        "yes_price": 0.17,
+        "yes_price": 0.1,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-up-or-down-on-august-22-2026"
       },
@@ -163,7 +236,7 @@
       {
         "title": "Ethereum Up or Down on August 22?",
         "volume_24h": 145681,
-        "yes_price": 0.84,
+        "yes_price": 0.8,
         "category": "crypto",
         "url": "https://polymarket.com/event/ethereum-up-or-down-on-august-22-2026"
       },
@@ -184,7 +257,7 @@
       {
         "title": "Will Bitcoin reach $85,000 in August?",
         "volume_24h": 112717,
-        "yes_price": 0.18,
+        "yes_price": 0.17,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-85k-in-august-2026"
       },
@@ -367,6 +440,16 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-22/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+        "published": "Sat, 22 Aug 2026 15:06:32 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
         "title": "US Colleges Face a Shrinking Student Pipeline",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/videos/2026-08-22/us-colleges-face-a-shrinking-student-pipeline-video",
@@ -385,16 +468,6 @@
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
-      },
-      {
-        "title": "Small Dogs, Big Demand as Dachshund Popularity Takes Off",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-22/small-dogs-big-demand-as-dachshund-popularity-takes-off-video",
-        "published": "Sat, 22 Aug 2026 14:05:26 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
       },
       {
         "title": "U.S.-Canada trade talks collapse, ushering in wave of new tariffs",
@@ -522,7 +595,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.333,
+      "score": -0.467,
       "label": "Bearish",
       "color": "red"
     },
@@ -595,7 +668,7 @@
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: 6 bullish vs 12 bearish signals detected across stock/finance news data."
+      "summary": "Bearish: 5 bullish vs 13 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -698,11 +771,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 8
+          "interest_score": 7
         },
         {
           "keyword": "crypto",
-          "interest_score": 24
+          "interest_score": 23
         }
       ]
     }
