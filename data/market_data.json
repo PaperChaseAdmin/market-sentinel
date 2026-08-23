@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T19:50:59Z",
+  "updated_at": "2026-08-23T20:01:02Z",
   "crypto": {
     "fear_greed": {
       "value": 66,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 77403,
-        "change_24h": 0,
-        "market_cap": 1553441632087,
-        "volume_24h": 28604665638
+        "price_usd": 77345,
+        "change_24h": 0.1,
+        "market_cap": 1552410482090,
+        "volume_24h": 28590164268
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2450.52,
-        "change_24h": 0.9,
-        "market_cap": 295716438704,
-        "volume_24h": 15564289992
+        "price_usd": 2445.54,
+        "change_24h": 0.8,
+        "market_cap": 295147290178,
+        "volume_24h": 15514432307
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.5,
-        "change_24h": 1.7,
-        "market_cap": 94353177158,
-        "volume_24h": 5235651057
+        "change_24h": 0.6,
+        "market_cap": 94053332348,
+        "volume_24h": 5212066310
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 699.41,
-        "change_24h": 0.4,
-        "market_cap": 93123351859,
-        "volume_24h": 1071166637
+        "price_usd": 699.2,
+        "change_24h": 0.1,
+        "market_cap": 93116053108,
+        "volume_24h": 1075295554
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 95.3,
-        "change_24h": 1.1,
-        "market_cap": 55558836315,
-        "volume_24h": 4422773497
+        "price_usd": 95.11,
+        "change_24h": 0.7,
+        "market_cap": 55479673743,
+        "volume_24h": 4414426406
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.092784,
-        "change_24h": -0.4,
-        "market_cap": 14432773652,
-        "volume_24h": 1212854705
+        "price_usd": 0.092466,
+        "change_24h": -0.3,
+        "market_cap": 14393431360,
+        "volume_24h": 1207544558
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.53,
-        "change_24h": -1.2,
-        "market_cap": 8623126086,
-        "volume_24h": 594324767
+        "price_usd": 11.5,
+        "change_24h": -1.9,
+        "market_cap": 8600508910,
+        "volume_24h": 592457549
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.224115,
-        "change_24h": -1.6,
-        "market_cap": 8400090544,
-        "volume_24h": 585480207
+        "price_usd": 0.223789,
+        "change_24h": -2.6,
+        "market_cap": 8390645874,
+        "volume_24h": 583177228
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 7.57,
-        "change_24h": 0.2,
-        "market_cap": 3268489417,
-        "volume_24h": 268645426
+        "price_usd": 7.55,
+        "change_24h": -0.1,
+        "market_cap": 3260801433,
+        "volume_24h": 276610979
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 7,
+        "price_usd": 77345,
+        "change_24h": 0.1
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 2445.54,
+        "change_24h": 0.8
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 95.11,
+        "change_24h": 0.7
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 699.2,
+        "change_24h": 0.1
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.5,
+        "change_24h": 0.6
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.223789,
+        "change_24h": -2.6
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.092466,
+        "change_24h": -0.3
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 7.55,
+        "change_24h": -0.1
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 11.5,
+        "change_24h": -1.9
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Regulation Crypto is here: State of Crypto",
@@ -270,7 +331,28 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 7,
+          "ETH": 1,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -281,7 +363,7 @@
     },
     "fourchain": {
       "thread_count": 200,
-      "active_threads": 141,
+      "active_threads": 142,
       "mentions": {
         "BTC": 28,
         "XRP": 24,
@@ -303,7 +385,7 @@
       {
         "symbol": "CATALORIAN",
         "name": "Elon's Space Cat",
-        "rank": 948,
+        "rank": 930,
         "score": 0,
         "change_24h": 0
       },
@@ -312,42 +394,42 @@
         "name": "Pump.fun",
         "rank": 45,
         "score": 1,
-        "change_24h": 6.66
+        "change_24h": 5.53
       },
       {
         "symbol": "CYBERLEEK",
         "name": "CyberLeek",
-        "rank": 971,
+        "rank": 957,
         "score": 2,
-        "change_24h": 233.87
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 9,
-        "score": 3,
-        "change_24h": 2.35
+        "change_24h": 236.83
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
         "rank": 10,
+        "score": 3,
+        "change_24h": 1.29
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 9,
         "score": 4,
-        "change_24h": 2.16
+        "change_24h": 2.36
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "rank": 78,
         "score": 5,
-        "change_24h": 3.82
+        "change_24h": 2.71
       },
       {
         "symbol": "TAO",
         "name": "Bittensor",
         "rank": 41,
         "score": 6,
-        "change_24h": 5.32
+        "change_24h": 6.23
       }
     ]
   },
@@ -748,7 +830,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 58
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 8
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 7
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 23
+        }
+      ]
     }
   },
   "portfolio": [
