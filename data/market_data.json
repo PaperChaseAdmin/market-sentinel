@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T23:18:13Z",
+  "updated_at": "2026-08-24T23:20:59Z",
   "crypto": {
     "fear_greed": {
       "value": 73,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 78741,
-        "change_24h": 1.61,
-        "market_cap": 1580364146951,
-        "volume_24h": 51390017423
+        "price_usd": 78765,
+        "change_24h": 1.58,
+        "market_cap": 1581259917700,
+        "volume_24h": 51277369257
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2477.77,
-        "change_24h": 1.09,
-        "market_cap": 298932642278,
-        "volume_24h": 20131282056
+        "price_usd": 2478.39,
+        "change_24h": 1.02,
+        "market_cap": 299072434121,
+        "volume_24h": 20064181315
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 701.47,
-        "change_24h": -0.07,
-        "market_cap": 93388064924,
-        "volume_24h": 1196584755
+        "price_usd": 701.4,
+        "change_24h": -0.19,
+        "market_cap": 93403757211,
+        "volume_24h": 1190003588
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.47,
-        "change_24h": -2.91,
-        "market_cap": 92477417597,
-        "volume_24h": 5834244920
+        "change_24h": -3.24,
+        "market_cap": 92507234244,
+        "volume_24h": 5826912982
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 97.61,
-        "change_24h": 2.46,
-        "market_cap": 56914468914,
-        "volume_24h": 5508928776
+        "price_usd": 97.59,
+        "change_24h": 2.21,
+        "market_cap": 56919895826,
+        "volume_24h": 5508829438
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.089449,
-        "change_24h": -3.87,
-        "market_cap": 13913197793,
-        "volume_24h": 1071099027
+        "price_usd": 0.089435,
+        "change_24h": -4.14,
+        "market_cap": 13918420038,
+        "volume_24h": 1100593707
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 11.6,
-        "change_24h": 0.81,
-        "market_cap": 8672700864,
-        "volume_24h": 514273226
+        "change_24h": 0.69,
+        "market_cap": 8674309209,
+        "volume_24h": 514002992
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.219639,
-        "change_24h": -2.76,
-        "market_cap": 8229581054,
-        "volume_24h": 574548941
+        "price_usd": 0.219887,
+        "change_24h": -2.84,
+        "market_cap": 8243729232,
+        "volume_24h": 570410921
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 7.53,
-        "change_24h": -1.04,
-        "market_cap": 3248391978,
-        "volume_24h": 279685794
+        "price_usd": 7.52,
+        "change_24h": -1.18,
+        "market_cap": 3247095312,
+        "volume_24h": 282264696
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 6,
+        "price_usd": 78765,
+        "change_24h": 1.58
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 5,
+        "price_usd": 2478.39,
+        "change_24h": 1.02
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 1,
+        "price_usd": 701.4,
+        "change_24h": -0.19
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 97.59,
+        "change_24h": 2.21
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.47,
+        "change_24h": -3.24
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.219887,
+        "change_24h": -2.84
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.089435,
+        "change_24h": -4.14
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 7.52,
+        "change_24h": -1.18
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 11.6,
+        "change_24h": 0.69
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
@@ -279,7 +340,28 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 6,
+          "ETH": 5,
+          "BNB": 1,
+          "SOL": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -411,6 +493,11 @@
         "change_24h": 0.94
       },
       {
+        "symbol": "AMZN",
+        "price_usd": 262.07,
+        "change_24h": 1.33
+      },
+      {
         "symbol": "META",
         "price_usd": 559.02,
         "change_24h": 1.66
@@ -434,16 +521,6 @@
     "top_mentioned": [],
     "news": [
       {
-        "title": "Latest Oil Market News and Analysis for Aug. 25",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-24/latest-oil-market-news-and-analysis-for-aug-25",
-        "published": "Mon, 24 Aug 2026 22:02:31 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
         "title": "Asian Stocks Under Pressure After US Tech Selloff: Markets Wrap",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-08-24/stock-market-today-dow-s-p-live-updates",
@@ -452,6 +529,16 @@
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
+      },
+      {
+        "title": "Latest Oil Market News and Analysis for Aug. 25",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-24/latest-oil-market-news-and-analysis-for-aug-25",
+        "published": "Mon, 24 Aug 2026 22:02:31 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "NZ Market Watchdog Finds Māori Face Insurance Gaps, Cost Barrier",
@@ -680,14 +767,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4723.7,
-        "change_24h": 2.15
+        "value": 4726.5,
+        "change_24h": 2.21
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 85.11,
-        "change_24h": -2.24
+        "value": 85.1,
+        "change_24h": -2.25
       }
     ],
     "most_active": [
@@ -757,7 +844,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 66
+          "interest_score": 62
         },
         {
           "keyword": "Ethereum",
@@ -765,11 +852,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 10
+          "interest_score": 9
         },
         {
           "keyword": "crypto",
-          "interest_score": 36
+          "interest_score": 31
         }
       ]
     }
