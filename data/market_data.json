@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T19:53:31Z",
+  "updated_at": "2026-08-24T20:01:17Z",
   "crypto": {
     "fear_greed": {
       "value": 73,
@@ -7,81 +7,69 @@
       "previous_value": 66,
       "previous_label": "Greed"
     },
-    "prices": [
+    "prices": [],
+    "top_mentioned": [
       {
         "symbol": "BTC",
-        "name": "Bitcoin",
-        "price_usd": 78776,
-        "change_24h": 1.8,
-        "market_cap": 1581421359504,
-        "volume_24h": 52080322212
+        "mentions": 5,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "ETH",
-        "name": "Ethereum",
-        "price_usd": 2468.98,
-        "change_24h": 0.85,
-        "market_cap": 298020454909,
-        "volume_24h": 21331706878
+        "mentions": 5,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "BNB",
-        "name": "BNB",
-        "price_usd": 702.0,
-        "change_24h": 0.41,
-        "market_cap": 93501869677,
-        "volume_24h": 1234451566
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price_usd": 1.48,
-        "change_24h": -1.58,
-        "market_cap": 92636321782,
-        "volume_24h": 6110828446
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "SOL",
-        "name": "Solana",
-        "price_usd": 96.4,
-        "change_24h": 1.25,
-        "market_cap": 56229682196,
-        "volume_24h": 5255417911
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
       },
       {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price_usd": 0.089137,
-        "change_24h": -3.72,
-        "market_cap": 13878052340,
-        "volume_24h": 1125298777
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price_usd": 11.54,
-        "change_24h": 0.28,
-        "market_cap": 8640707576,
-        "volume_24h": 537744414
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "ADA",
-        "name": "Cardano",
-        "price_usd": 0.219321,
-        "change_24h": -2.01,
-        "market_cap": 8226238494,
-        "volume_24h": 609312880
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
       },
       {
         "symbol": "AVAX",
-        "name": "Avalanche",
-        "price_usd": 7.52,
-        "change_24h": -0.5,
-        "market_cap": 3249538155,
-        "volume_24h": 288965957
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
       }
     ],
-    "top_mentioned": [],
     "news": [
       {
         "title": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
@@ -238,7 +226,7 @@
       {
         "title": "Will Bitcoin reach $82,500 in August?",
         "volume_24h": 136588,
-        "yes_price": 0.47,
+        "yes_price": 0.46,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-82pt5k-in-august-2026"
       },
@@ -252,7 +240,7 @@
       {
         "title": "Will Ethereum reach $2,600 in August?",
         "volume_24h": 87240,
-        "yes_price": 0.59,
+        "yes_price": 0.58,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-ethereum-reach-2600-in-august-2026"
       },
@@ -275,7 +263,28 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 5,
+          "ETH": 5,
+          "BNB": 1,
+          "SOL": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -310,125 +319,140 @@
         "name": "Zano",
         "rank": 220,
         "score": 0,
-        "change_24h": 8.36
+        "change_24h": 8.45
       },
       {
         "symbol": "CASHCAT",
         "name": "Cash Cat",
         "rank": 177,
         "score": 1,
-        "change_24h": 56.7
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "rank": 12,
-        "score": 2,
-        "change_24h": -6.32
+        "change_24h": 60.31
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
+        "score": 2,
+        "change_24h": 1.6
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "rank": 12,
         "score": 3,
-        "change_24h": 2.01
+        "change_24h": -6.22
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "rank": 99,
+        "rank": 100,
         "score": 4,
-        "change_24h": 6.74
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 10,
-        "score": 5,
-        "change_24h": -3.97
+        "change_24h": 5.12
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
         "rank": 103,
+        "score": 5,
+        "change_24h": 10.6
+      },
+      {
+        "symbol": "CYBERLEEK",
+        "name": "CyberLeek",
+        "rank": 979,
         "score": 6,
-        "change_24h": 10.66
+        "change_24h": -1.8
       }
     ]
   },
   "stocks": {
     "indices": {
       "sp500": {
-        "value": 7652.72,
+        "value": 7652.96,
         "change_24h": -0.28
       },
       "nasdaq": {
-        "value": 25989.49,
-        "change_24h": -0.73
+        "value": 25980.19,
+        "change_24h": -0.76
       },
       "dow": {
-        "value": 53432.27,
-        "change_24h": 0.29
+        "value": 53416.99,
+        "change_24h": 0.26
       },
       "vix": {
-        "value": 15.81,
-        "change_24h": 4.49
+        "value": 15.84,
+        "change_24h": 4.69
       }
     },
     "market_mood": {
-      "score": -0.315,
+      "score": -0.332,
       "label": "Bearish",
       "color": "red"
     },
     "prices": [
       {
         "symbol": "NVDA",
-        "price_usd": 207.91,
-        "change_24h": -3.17
+        "price_usd": 208.48,
+        "change_24h": -2.91
       },
       {
         "symbol": "TSLA",
-        "price_usd": 349.86,
-        "change_24h": -3.58
+        "price_usd": 348.95,
+        "change_24h": -3.83
       },
       {
         "symbol": "AAPL",
-        "price_usd": 310.82,
-        "change_24h": 0.48
+        "price_usd": 310.34,
+        "change_24h": 0.32
+      },
+      {
+        "symbol": "MSFT",
+        "price_usd": 487.31,
+        "change_24h": 0.84
       },
       {
         "symbol": "GOOGL",
-        "price_usd": 348.59,
-        "change_24h": 1.09
+        "price_usd": 348.06,
+        "change_24h": 0.94
       },
       {
         "symbol": "AMZN",
-        "price_usd": 262.37,
-        "change_24h": 1.45
+        "price_usd": 262.07,
+        "change_24h": 1.33
       },
       {
         "symbol": "META",
-        "price_usd": 560.77,
-        "change_24h": 1.98
+        "price_usd": 559.02,
+        "change_24h": 1.66
       },
       {
         "symbol": "AMD",
-        "price_usd": 455.87,
-        "change_24h": -3.67
+        "price_usd": 456.74,
+        "change_24h": -3.49
       },
       {
         "symbol": "PLTR",
-        "price_usd": 176.99,
-        "change_24h": -1.64
+        "price_usd": 175.89,
+        "change_24h": -2.25
       },
       {
         "symbol": "COIN",
-        "price_usd": 178.82,
-        "change_24h": -4.11
+        "price_usd": 179.48,
+        "change_24h": -3.76
       }
     ],
     "top_mentioned": [],
     "news": [
+      {
+        "title": "NHL Team Futures ETFs Filed, Draw Attention",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-24/nhl-team-futures-etfs-filed-draw-attention-video",
+        "published": "Mon, 24 Aug 2026 19:55:36 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
       {
         "title": "US to Open More Ports to Mexican Cattle in Beef Supply Boost",
         "source": "Bloomberg",
@@ -448,16 +472,6 @@
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
-      },
-      {
-        "title": "Need 'All-Weather' Portfolio: Tuttle's Newton",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-24/need-all-weather-portfolio-tuttle-s-newton-video",
-        "published": "Mon, 24 Aug 2026 19:42:27 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
       },
       {
         "title": "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
@@ -492,6 +506,18 @@
         "color": "green"
       },
       {
+        "title": "SpaceX plans to put Nvidia-powered AI satellites in orbit next year",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/spacex-plans-to-put-nvidia-powered-ai-satellites-in-orbit-next-year-ab57083c?mod=mw_rss_topstories",
+        "published": "Mon, 24 Aug 2026 19:59:00 GMT",
+        "assets": [
+          "NVDA"
+        ],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Bessent’s sweeping sanctions against Iran send oil prices to their biggest drop in 3 weeks, while fueling hopes of de-escalation",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
@@ -509,16 +535,6 @@
         "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
-        "color": "green"
-      },
-      {
-        "title": "Trump’s trade war with Canada could lead the U.S. back to quantitative easing",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/trumps-canada-trade-war-could-lead-the-u-s-back-to-quantitative-easing-eef9be8b?mod=mw_rss_topstories",
-        "published": "Mon, 24 Aug 2026 19:03:00 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.5,
         "color": "green"
       },
       {
@@ -585,9 +601,9 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.267,
-      "label": "Neutral",
-      "color": "yellow"
+      "score": -0.3,
+      "label": "Bearish",
+      "color": "red"
     },
     "polymarket": [
       {
@@ -670,82 +686,82 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.02,
-        "change_24h": 0.22
+        "value": 99.0,
+        "change_24h": 0.21
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4704.6,
-        "change_24h": 1.74
+        "value": 4708.8,
+        "change_24h": 1.83
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 85.01,
-        "change_24h": -2.35
+        "value": 85.04,
+        "change_24h": -2.32
       }
     ],
     "most_active": [
       {
         "symbol": "NVDA",
-        "volume": 96573188,
-        "price_usd": 207.88,
-        "change_24h": -3.18
+        "volume": 116517077,
+        "price_usd": 208.48,
+        "change_24h": -2.91
       },
       {
         "symbol": "TSLA",
-        "volume": 33089761,
-        "price_usd": 349.84,
-        "change_24h": -3.59
+        "volume": 38021032,
+        "price_usd": 348.95,
+        "change_24h": -3.83
       },
       {
         "symbol": "QQQ",
-        "volume": 31999731,
-        "price_usd": 706.5,
-        "change_24h": -0.97
+        "volume": 35150941,
+        "price_usd": 706.32,
+        "change_24h": -1.0
       },
       {
         "symbol": "SPY",
-        "volume": 25742937,
-        "price_usd": 763.44,
-        "change_24h": -0.3
-      },
-      {
-        "symbol": "PLTR",
-        "volume": 23987021,
-        "price_usd": 176.95,
-        "change_24h": -1.66
+        "volume": 29363582,
+        "price_usd": 763.54,
+        "change_24h": -0.28
       },
       {
         "symbol": "AAPL",
-        "volume": 20695727,
-        "price_usd": 310.77,
-        "change_24h": 0.46
+        "volume": 27767727,
+        "price_usd": 310.34,
+        "change_24h": 0.32
+      },
+      {
+        "symbol": "PLTR",
+        "volume": 27597107,
+        "price_usd": 175.89,
+        "change_24h": -2.25
       },
       {
         "symbol": "AMZN",
-        "volume": 20586112,
-        "price_usd": 262.35,
-        "change_24h": 1.44
-      },
-      {
-        "symbol": "BAC",
-        "volume": 18435369,
-        "price_usd": 62.4,
-        "change_24h": 1.14
+        "volume": 26834672,
+        "price_usd": 262.07,
+        "change_24h": 1.33
       },
       {
         "symbol": "GOOGL",
-        "volume": 17977891,
-        "price_usd": 348.56,
-        "change_24h": 1.08
+        "volume": 22065589,
+        "price_usd": 348.06,
+        "change_24h": 0.94
       },
       {
-        "symbol": "AMD",
-        "volume": 11582599,
-        "price_usd": 455.94,
-        "change_24h": -3.66
+        "symbol": "BAC",
+        "volume": 20037080,
+        "price_usd": 62.34,
+        "change_24h": 1.05
+      },
+      {
+        "symbol": "MSFT",
+        "volume": 14443414,
+        "price_usd": 487.31,
+        "change_24h": 0.84
       }
     ],
     "google_trends": {
@@ -753,7 +769,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 72
+          "interest_score": 71
         },
         {
           "keyword": "Ethereum",
@@ -761,11 +777,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 8
+          "interest_score": 9
         },
         {
           "keyword": "crypto",
-          "interest_score": 25
+          "interest_score": 28
         }
       ]
     }
@@ -808,14 +824,14 @@
       "name": "Global X S&P 500 Covered Call",
       "type": "Covered Call Income",
       "price_usd": 41.28,
-      "change_1d": -0.88,
-      "change_1w": -0.9,
-      "change_1m": 1.26,
+      "change_1d": -0.86,
+      "change_1w": -0.89,
+      "change_1m": 1.28,
       "high_3m": 41.66,
       "low_3m": 39.24,
       "week52_high": 41.71,
       "week52_low": 38.22,
-      "rsi": 30.6,
+      "rsi": 30.9,
       "div_yield": 9.49,
       "last_div": null,
       "outlook": {
@@ -829,7 +845,7 @@
         "reasons": [
           "Price below 20-day moving average ↓",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 30.6 — Below neutral, mild downward pressure ↓",
+          "RSI 30.9 — Below neutral, mild downward pressure ↓",
           "5-day momentum -0.9% — consolidating sideways →",
           "1-month return +1.3% — range-bound"
         ]
@@ -839,15 +855,15 @@
       "symbol": "JEPQ",
       "name": "JPMorgan Nasdaq Equity Premium",
       "type": "Equity Income",
-      "price_usd": 59.41,
-      "change_1d": -0.72,
-      "change_1w": -1.9,
-      "change_1m": 3.76,
+      "price_usd": 59.42,
+      "change_1d": -0.7,
+      "change_1w": -1.88,
+      "change_1m": 3.77,
       "high_3m": 60.56,
       "low_3m": 55.46,
       "week52_high": 61.72,
       "week52_low": 53.51,
-      "rsi": 47.6,
+      "rsi": 47.8,
       "div_yield": 10.76,
       "last_div": null,
       "outlook": {
@@ -861,7 +877,7 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 47.6 — In neutral range (45–55)",
+          "RSI 47.8 — In neutral range (45–55)",
           "5-day momentum -1.9% — short-term selling pressure ↓",
           "1-month return +3.8% — sustained uptrend ↑"
         ]
@@ -871,15 +887,15 @@
       "symbol": "SCHD",
       "name": "Schwab US Dividend Equity",
       "type": "Dividend Growth",
-      "price_usd": 35.22,
-      "change_1d": 0.3,
-      "change_1w": 2.7,
-      "change_1m": 5.78,
-      "high_3m": 35.22,
+      "price_usd": 35.21,
+      "change_1d": 0.27,
+      "change_1w": 2.67,
+      "change_1m": 5.75,
+      "high_3m": 35.21,
       "low_3m": 31.61,
       "week52_high": 35.31,
       "week52_low": 26.32,
-      "rsi": 74.5,
+      "rsi": 74.4,
       "div_yield": 3.13,
       "last_div": null,
       "outlook": {
@@ -893,7 +909,7 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 74.5 — Overbought zone, historically signals a pullback ↓",
+          "RSI 74.4 — Overbought zone, historically signals a pullback ↓",
           "5-day momentum +2.7% — short-term buying pressure ↑",
           "1-month return +5.8% — sustained uptrend ↑"
         ]
@@ -903,7 +919,7 @@
       "symbol": "QQQM",
       "name": "Invesco Nasdaq 100",
       "type": "Growth",
-      "price_usd": 290.82,
+      "price_usd": 290.81,
       "change_1d": -1.0,
       "change_1w": -3.23,
       "change_1m": 3.24,
