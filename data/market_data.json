@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T20:01:17Z",
+  "updated_at": "2026-08-24T20:10:57Z",
   "crypto": {
     "fear_greed": {
       "value": 73,
@@ -7,69 +7,81 @@
       "previous_value": 66,
       "previous_label": "Greed"
     },
-    "prices": [],
-    "top_mentioned": [
+    "prices": [
       {
         "symbol": "BTC",
-        "mentions": 5,
-        "price_usd": null,
-        "change_24h": null
+        "name": "Bitcoin",
+        "price_usd": 78707,
+        "change_24h": 1.89,
+        "market_cap": 1579993443103,
+        "volume_24h": 52457749931
       },
       {
         "symbol": "ETH",
-        "mentions": 5,
-        "price_usd": null,
-        "change_24h": null
+        "name": "Ethereum",
+        "price_usd": 2471.88,
+        "change_24h": 1.32,
+        "market_cap": 298296787106,
+        "volume_24h": 21499859555
       },
       {
         "symbol": "BNB",
-        "mentions": 1,
-        "price_usd": null,
-        "change_24h": null
-      },
-      {
-        "symbol": "SOL",
-        "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "name": "BNB",
+        "price_usd": 702.31,
+        "change_24h": 0.53,
+        "market_cap": 93522089989,
+        "volume_24h": 1235292648
       },
       {
         "symbol": "XRP",
-        "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "name": "XRP",
+        "price_usd": 1.48,
+        "change_24h": -1.44,
+        "market_cap": 92740680814,
+        "volume_24h": 6139719119
       },
       {
-        "symbol": "ADA",
-        "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 96.35,
+        "change_24h": 1.4,
+        "market_cap": 56215799811,
+        "volume_24h": 5332067911
       },
       {
         "symbol": "DOGE",
-        "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
-      },
-      {
-        "symbol": "AVAX",
-        "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "name": "Dogecoin",
+        "price_usd": 0.089025,
+        "change_24h": -3.69,
+        "market_cap": 13852417722,
+        "volume_24h": 1127609569
       },
       {
         "symbol": "LINK",
-        "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "name": "Chainlink",
+        "price_usd": 11.54,
+        "change_24h": 0.73,
+        "market_cap": 8635955821,
+        "volume_24h": 537042260
       },
       {
-        "symbol": "TON",
-        "mentions": 0,
-        "price_usd": null,
-        "change_24h": null
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.218799,
+        "change_24h": -2.19,
+        "market_cap": 8206478693,
+        "volume_24h": 603262948
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 7.53,
+        "change_24h": -0.16,
+        "market_cap": 3251635876,
+        "volume_24h": 291575678
       }
     ],
+    "top_mentioned": [],
     "news": [
       {
         "title": "Bitcoin nears $80,000, but analysts say the next pullback will be key",
@@ -104,6 +116,26 @@
         "color": "yellow"
       },
       {
+        "title": "Bernstein sees new USDC growth cycle, sets $140 Circle price target",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Mon, 24 Aug 2026 20:00:39 +0000",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
+        "title": "Here’s what happened in crypto today",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Mon, 24 Aug 2026 19:58:34 +0000",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Coinbase-affiliated advocacy group endorses candidates for US midterms",
         "source": "Cointelegraph",
         "url": "https://cointelegraph.com/news/coinbase-stand-crypto-advocacy-group-endorses-midterm-candidates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -112,30 +144,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Coinbase tokenized stocks go live on Base with Chainlink price feeds",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/coinbase-taps-chainlink-for-tokenized-stock-data-on-base?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Mon, 24 Aug 2026 19:11:48 +0000",
-        "assets": [
-          "LINK"
-        ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "Bitcoin price hits $80K as 24-hour crypto short liquidations pass $220M",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Mon, 24 Aug 2026 17:48:44 +0000",
-        "assets": [
-          "BTC"
-        ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "Coinbase Brings Tokenized Stocks to Ethereum L2 Base",
@@ -204,35 +212,35 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.083,
+      "score": 0.25,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin reach $90,000 in August?",
-        "volume_24h": 151769,
+        "volume_24h": 150700,
         "yes_price": 0.06,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-90k-in-august-2026"
       },
       {
         "title": "Will Bitcoin dip to $75,000 in August?",
-        "volume_24h": 141201,
-        "yes_price": 0.42,
+        "volume_24h": 141418,
+        "yes_price": 0.43,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-75k-in-august-2026"
       },
       {
         "title": "Will Bitcoin reach $82,500 in August?",
-        "volume_24h": 136588,
-        "yes_price": 0.46,
+        "volume_24h": 136610,
+        "yes_price": 0.43,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-82pt5k-in-august-2026"
       },
       {
         "title": "Will Bitcoin reach $85,000 in August?",
-        "volume_24h": 96080,
+        "volume_24h": 96072,
         "yes_price": 0.25,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-85k-in-august-2026"
@@ -240,20 +248,20 @@
       {
         "title": "Will Ethereum reach $2,600 in August?",
         "volume_24h": 87240,
-        "yes_price": 0.58,
+        "yes_price": 0.57,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-ethereum-reach-2600-in-august-2026"
       },
       {
         "title": "Will Bitcoin dip to $67,500 in August?",
         "volume_24h": 82757,
-        "yes_price": 0.03,
+        "yes_price": 0.04,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-67pt5k-in-august-2026"
       },
       {
         "title": "Will Ethereum reach $3,000 in August?",
-        "volume_24h": 65377,
+        "volume_24h": 65342,
         "yes_price": 0.06,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-ethereum-reach-3000-in-august-2026"
@@ -263,47 +271,26 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [
-      {
-        "subreddit": "r/CryptoCurrency",
-        "mentions": {
-          "BTC": 5,
-          "ETH": 5,
-          "BNB": 1,
-          "SOL": 0,
-          "XRP": 0,
-          "ADA": 0,
-          "DOGE": 0,
-          "AVAX": 0,
-          "LINK": 0,
-          "TON": 0
-        },
-        "activity_score": 100,
-        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
-        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
-        "top_post_score": 0,
-        "posts": 25
-      }
-    ],
+    "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: 3 bullish vs 4 bearish signals detected across crypto news data."
+      "outlook": "Bullish",
+      "summary": "Bullish: 4 bullish vs 0 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 134,
+      "active_threads": 133,
       "mentions": {
-        "BTC": 33,
-        "XRP": 13,
+        "BTC": 32,
+        "XRP": 12,
         "ETH": 4
       },
-      "bullish_hits": 118,
+      "bullish_hits": 116,
       "bearish_hits": 56,
-      "bullish_pct": 68,
+      "bullish_pct": 67,
       "top_coin": "BTC",
       "top_posts": [
         "/smg/ - stock market general open up the casino edition &gt;educational sites: https://www.investopedia.com https://www.",
@@ -319,56 +306,56 @@
         "name": "Zano",
         "rank": 220,
         "score": 0,
-        "change_24h": 8.45
+        "change_24h": 8.21
       },
       {
         "symbol": "CASHCAT",
         "name": "Cash Cat",
-        "rank": 177,
+        "rank": 182,
         "score": 1,
-        "change_24h": 60.31
+        "change_24h": 56.54
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 2,
-        "change_24h": 1.6
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "rank": 12,
-        "score": 3,
-        "change_24h": -6.22
-      },
-      {
-        "symbol": "INJ",
-        "name": "Injective",
-        "rank": 100,
-        "score": 4,
-        "change_24h": 5.12
+        "change_24h": 1.77
       },
       {
         "symbol": "AERO",
         "name": "Aerodrome Finance",
         "rank": 103,
-        "score": 5,
-        "change_24h": 10.6
+        "score": 3,
+        "change_24h": 10.43
       },
       {
-        "symbol": "CYBERLEEK",
-        "name": "CyberLeek",
-        "rank": 979,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "rank": 49,
+        "score": 4,
+        "change_24h": -7.27
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "rank": 401,
+        "score": 5,
+        "change_24h": 50.29
+      },
+      {
+        "symbol": "INJ",
+        "name": "Injective",
+        "rank": 100,
         "score": 6,
-        "change_24h": -1.8
+        "change_24h": 6.18
       }
     ]
   },
   "stocks": {
     "indices": {
       "sp500": {
-        "value": 7652.96,
+        "value": 7652.86,
         "change_24h": -0.28
       },
       "nasdaq": {
@@ -376,16 +363,16 @@
         "change_24h": -0.76
       },
       "dow": {
-        "value": 53416.99,
+        "value": 53417.16,
         "change_24h": 0.26
       },
       "vix": {
-        "value": 15.84,
-        "change_24h": 4.69
+        "value": 15.86,
+        "change_24h": 4.82
       }
     },
     "market_mood": {
-      "score": -0.332,
+      "score": -0.339,
       "label": "Bearish",
       "color": "red"
     },
@@ -444,34 +431,34 @@
     "top_mentioned": [],
     "news": [
       {
-        "title": "NHL Team Futures ETFs Filed, Draw Attention",
+        "title": "Stocks Fall as Chip Rout Overshadows Drop in Oil: Markets Wrap",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-24/nhl-team-futures-etfs-filed-draw-attention-video",
-        "published": "Mon, 24 Aug 2026 19:55:36 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
-      },
-      {
-        "title": "US to Open More Ports to Mexican Cattle in Beef Supply Boost",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-24/usda-to-reopen-two-new-mexico-ports-to-mexican-cattle",
-        "published": "Mon, 24 Aug 2026 18:39:31 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
-      },
-      {
-        "title": "Trump Vows to Double Canadian Auto Tariffs, Escalating Fight",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-24/trump-vows-to-double-canadian-auto-tariffs-video",
-        "published": "Mon, 24 Aug 2026 19:44:04 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
+        "published": "Sun, 23 Aug 2026 22:10:35 GMT",
         "assets": [],
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
+      },
+      {
+        "title": "Dollar Gains as US Plan to Cut Off Iran Spurs Haven Demand",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-24/dollar-gains-as-us-plan-to-cut-off-iran-spurs-haven-demand",
+        "published": "Mon, 24 Aug 2026 20:04:12 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
+      },
+      {
+        "title": "Texas Stock Exchange Lures Two ETFs From NYSE",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-24/texas-stock-exchange-lures-two-etfs-from-nyse-video",
+        "published": "Mon, 24 Aug 2026 20:04:07 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "Trump admin unveils anti-Iran global sanctions plan, signals China not exempt",
@@ -570,30 +557,30 @@
         "color": "red"
       },
       {
-        "title": "Jack Welch fired him from GE. He became a Fortune 500 CEO 3 years later",
+        "title": "Parents cough up thousands decorating their kids’ dorms even as total college costs hit six figures a year",
         "source": "Fortune",
-        "url": "https://fortune.com/article/david-cote-honeywell-vertiv-ceo/",
-        "published": "Mon, 24 Aug 2026 11:32:26 +0000",
+        "url": "https://fortune.com/2026/08/24/college-dorm-decor-parents-spending-six-figure-tuition/",
+        "published": "Mon, 24 Aug 2026 19:49:51 +0000",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
       },
       {
-        "title": "‘It’s hard to know exactly what the objective of DOGE was’: Former IRS boss warns Elon Musk’s cuts to the tax agency will be felt in years to come",
+        "title": "Exclusive: Accounting AI startup Rillet reaches unicorn status with $1 billion valuation. Its founder says he wants to give CFOs back their weekends",
         "source": "Fortune",
-        "url": "https://fortune.com/2026/08/24/former-irs-acting-commissioner-doge-cuts-budget-automation/",
-        "published": "Mon, 24 Aug 2026 16:50:13 +0000",
+        "url": "https://fortune.com/2026/08/18/rillet-unicorn-1-billion-valuation-series-c-nicolas-kopp-accounting-ai/",
+        "published": "Tue, 18 Aug 2026 21:30:03 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
-        "title": "The Treasury’s recent moves in the bond and currency markets add up to ‘soft-form financial repression’ to lower debt costs, economist warns",
+        "title": "FTC moves to make retailers disclose use of ‘personalized pricing’ as technology now enables broad consumer surveillance",
         "source": "Fortune",
-        "url": "https://fortune.com/2026/08/23/treasury-bond-buyback-dollar-yen-currency-markets-financial-repression-us-debt-costs/",
-        "published": "Sun, 23 Aug 2026 17:22:27 +0000",
+        "url": "https://fortune.com/2026/08/24/ftc-retailers-personalized-pricing-consumer-surveillance/",
+        "published": "Mon, 24 Aug 2026 19:40:13 +0000",
         "assets": [],
         "sentiment": "Bearish",
         "score": -1.0,
@@ -601,14 +588,14 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.3,
+      "score": -0.333,
       "label": "Bearish",
       "color": "red"
     },
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 413712,
+        "volume_24h": 414573,
         "yes_price": 0.67,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
@@ -622,42 +609,42 @@
       },
       {
         "title": "US announces end of Iranian blockade by August 31, 2026?",
-        "volume_24h": 355020,
+        "volume_24h": 353557,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-august-31-2026-20260713152715084-642-513-584-641-939-632-729"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "volume_24h": 296743,
+        "volume_24h": 309453,
         "yes_price": 0.33,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649"
       },
       {
         "title": "US ceasefire against Iran continues through August 31?",
-        "volume_24h": 250275,
+        "volume_24h": 253423,
         "yes_price": 0.92,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-august-31"
       },
       {
         "title": "Will Renan Santos win the 2026 Brazilian presidential election?",
-        "volume_24h": 242231,
+        "volume_24h": 245134,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/will-renan-santos-win-the-2026-brazilian-presidential-election"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 234442,
+        "volume_24h": 234680,
         "yes_price": 0.17,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "Will WTI Crude Oil (WTI) hit (HIGH) $95 in August?",
-        "volume_24h": 120626,
+        "volume_24h": 120623,
         "yes_price": 0.09,
         "category": "finance",
         "url": "https://polymarket.com/event/will-wti-reach-95-in-august-2026"
@@ -673,8 +660,8 @@
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "Mixed: 6 bullish vs 7 bearish signals detected across stock/finance news data."
+      "outlook": "Bearish",
+      "summary": "Bearish: 5 bullish vs 13 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -686,20 +673,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.0,
-        "change_24h": 0.21
+        "value": 99.02,
+        "change_24h": 0.23
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4708.8,
-        "change_24h": 1.83
+        "value": 4708.4,
+        "change_24h": 1.82
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 85.04,
-        "change_24h": -2.32
+        "value": 85.06,
+        "change_24h": -2.3
       }
     ],
     "most_active": [
@@ -769,7 +756,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 71
+          "interest_score": 74
         },
         {
           "keyword": "Ethereum",
@@ -777,11 +764,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 9
+          "interest_score": 8
         },
         {
           "keyword": "crypto",
-          "interest_score": 28
+          "interest_score": 29
         }
       ]
     }
