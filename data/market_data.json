@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T18:31:19Z",
+  "updated_at": "2026-08-25T18:32:37Z",
   "crypto": {
     "fear_greed": {
       "value": 74,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 79263,
-        "change_24h": 0.28,
-        "market_cap": 1591231075633,
-        "volume_24h": 42727971090
+        "price_usd": 79228,
+        "change_24h": 0.27,
+        "market_cap": 1590765810450,
+        "volume_24h": 42695118048
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2472.33,
+        "price_usd": 2471.49,
         "change_24h": -0.33,
-        "market_cap": 298379237730,
-        "volume_24h": 15084567472
+        "market_cap": 298308189513,
+        "volume_24h": 15164669809
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 700.57,
-        "change_24h": -0.57,
-        "market_cap": 93292453473,
-        "volume_24h": 1086206860
+        "price_usd": 700.44,
+        "change_24h": -0.6,
+        "market_cap": 93272039786,
+        "volume_24h": 1084740927
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.48,
-        "change_24h": -0.39,
-        "market_cap": 92816029055,
-        "volume_24h": 4512818831
+        "change_24h": -0.51,
+        "market_cap": 92838602102,
+        "volume_24h": 4505292403
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 98.63,
-        "change_24h": 2.44,
-        "market_cap": 57546096004,
-        "volume_24h": 6494807897
+        "price_usd": 98.7,
+        "change_24h": 2.42,
+        "market_cap": 57563045434,
+        "volume_24h": 6492769770
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.088854,
+        "price_usd": 0.088838,
         "change_24h": -0.85,
-        "market_cap": 13829854964,
-        "volume_24h": 869232851
+        "market_cap": 13826520966,
+        "volume_24h": 868413280
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.55,
-        "change_24h": -0.4,
-        "market_cap": 8638446756,
-        "volume_24h": 452186208
+        "price_usd": 11.57,
+        "change_24h": -0.27,
+        "market_cap": 8652937357,
+        "volume_24h": 453676742
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.215349,
-        "change_24h": -2.45,
-        "market_cap": 8075643471,
-        "volume_24h": 491236150
+        "price_usd": 0.215384,
+        "change_24h": -2.44,
+        "market_cap": 8076776878,
+        "volume_24h": 491139748
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 7.51,
-        "change_24h": -0.75,
-        "market_cap": 3242087614,
-        "volume_24h": 247456929
+        "change_24h": -0.72,
+        "market_cap": 3243757824,
+        "volume_24h": 242393618
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 4,
+        "price_usd": 79228,
+        "change_24h": 0.27
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 2,
+        "price_usd": 2471.49,
+        "change_24h": -0.33
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 98.7,
+        "change_24h": 2.42
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 700.44,
+        "change_24h": -0.6
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.48,
+        "change_24h": -0.51
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.215384,
+        "change_24h": -2.44
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.088838,
+        "change_24h": -0.85
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 7.51,
+        "change_24h": -0.72
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 11.57,
+        "change_24h": -0.27
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "LayerZero unveils trading infrastructure for crypto and tokenized markets, ZRO surges",
@@ -288,7 +349,28 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 4,
+          "ETH": 2,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -376,73 +458,73 @@
         "change_24h": 0.22
       },
       "nasdaq": {
-        "value": 26102.29,
+        "value": 26102.48,
         "change_24h": 0.47
       },
       "dow": {
-        "value": 53534.46,
+        "value": 53535.15,
         "change_24h": 0.22
       },
       "vix": {
-        "value": 15.55,
-        "change_24h": -1.89
+        "value": 15.56,
+        "change_24h": -1.83
       }
     },
     "market_mood": {
-      "score": 0.208,
+      "score": 0.205,
       "label": "Neutral",
       "color": "yellow"
     },
     "prices": [
       {
         "symbol": "NVDA",
-        "price_usd": 212.44,
-        "change_24h": 1.9
+        "price_usd": 212.62,
+        "change_24h": 1.99
       },
       {
         "symbol": "TSLA",
-        "price_usd": 352.09,
-        "change_24h": 0.9
+        "price_usd": 351.9,
+        "change_24h": 0.85
       },
       {
         "symbol": "AAPL",
-        "price_usd": 309.59,
-        "change_24h": -0.24
+        "price_usd": 309.48,
+        "change_24h": -0.28
       },
       {
         "symbol": "MSFT",
-        "price_usd": 490.07,
-        "change_24h": 0.57
+        "price_usd": 490.12,
+        "change_24h": 0.58
       },
       {
         "symbol": "GOOGL",
-        "price_usd": 346.08,
-        "change_24h": -0.57
+        "price_usd": 346.05,
+        "change_24h": -0.58
       },
       {
         "symbol": "AMZN",
-        "price_usd": 260.17,
-        "change_24h": -0.73
+        "price_usd": 260.0,
+        "change_24h": -0.79
       },
       {
         "symbol": "META",
-        "price_usd": 565.36,
-        "change_24h": 1.13
+        "price_usd": 565.22,
+        "change_24h": 1.11
       },
       {
         "symbol": "AMD",
-        "price_usd": 479.32,
-        "change_24h": 4.94
+        "price_usd": 479.58,
+        "change_24h": 5.0
       },
       {
         "symbol": "PLTR",
-        "price_usd": 173.2,
-        "change_24h": -1.53
+        "price_usd": 173.37,
+        "change_24h": -1.43
       },
       {
         "symbol": "COIN",
-        "price_usd": 188.32,
-        "change_24h": 4.93
+        "price_usd": 188.06,
+        "change_24h": 4.78
       }
     ],
     "top_mentioned": [],
@@ -454,7 +536,7 @@
         "published": "Tue, 25 Aug 2026 13:12:05 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -473,19 +555,19 @@
         "url": "https://www.bloomberg.com/news/videos/2026-08-25/united-airlines-ceo-on-expansion-plans-airfares-demand-video",
         "published": "Tue, 25 Aug 2026 18:21:45 GMT",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "Iran and Oman discuss joint shipping route in Strait of Hormuz and mine clearing mission",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/08/25/iran-oman-strait-hormuz-oil.html",
-        "published": "Tue, 25 Aug 2026 18:21:55 GMT",
+        "published": "Tue, 25 Aug 2026 18:31:22 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.4,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Stanley Druckenmiller leads doubters who think Bessent's bond ploys will fail",
@@ -493,9 +575,9 @@
         "url": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html",
         "published": "Tue, 25 Aug 2026 17:15:50 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.8,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "SpaceX plans to build a $100 billion spaceport in Louisiana",
@@ -508,14 +590,27 @@
         "color": "green"
       },
       {
+        "title": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/why-amd-can-beat-rivals-intel-and-nvidia-in-the-market-for-data-center-cpus-e49a53f1?mod=mw_rss_topstories",
+        "published": "Tue, 25 Aug 2026 18:29:00 GMT",
+        "assets": [
+          "NVDA",
+          "AMD"
+        ],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
         "title": "Here’s where it takes new homeowners almost 40 to 50 years to break even on buying a house",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/heres-where-it-takes-new-homeowners-almost-40-to-50-years-to-break-even-on-buying-a-house-c503cb50?mod=mw_rss_topstories",
         "published": "Tue, 25 Aug 2026 17:50:00 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon",
@@ -530,23 +625,13 @@
         "color": "green"
       },
       {
-        "title": "‘There is considerable tension’: My grandmother, 99, wants to cut my mother out of her will. Should I intervene?",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/there-is-considerable-tension-my-grandmother-99-wants-to-cut-my-mother-out-of-her-will-should-i-intervene-5e8f408e?mod=mw_rss_topstories",
-        "published": "Tue, 25 Aug 2026 17:30:00 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
         "source": "WSJ",
         "url": "https://www.wsj.com/articles/wall-street-banks-prepare-to-sell-billions-of-dollars-of-x-loans-c609beb1?mod=pls_whats_news_us_business_f",
         "published": "Fri, 24 Jan 2025 15:37:00 -0500",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.7,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -556,7 +641,7 @@
         "published": "Fri, 24 Jan 2025 15:13:00 -0500",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.9,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -568,7 +653,7 @@
           "AMZN"
         ],
         "sentiment": "Bearish",
-        "score": -0.6,
+        "score": -1.0,
         "color": "red"
       },
       {
@@ -589,9 +674,9 @@
         "url": "https://fortune.com/2026/08/25/trump-h1b-visas-fee-startups/",
         "published": "Tue, 25 Aug 2026 17:42:08 +0000",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Elon Musk’s former X product chief Nikita Bier is charging venture-backed founders $15,000 for a 30-minute consulting call",
@@ -605,9 +690,9 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.3,
-      "label": "Bearish",
-      "color": "red"
+      "score": -0.067,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
@@ -678,14 +763,14 @@
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 9 bullish vs 9 bearish signals detected across stock/finance news data."
+      "summary": "Mixed: 7 bullish vs 9 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
         "symbol": "^TNX",
         "name": "10Y Treasury Yield",
         "value": 4.64,
-        "change_24h": -1.34
+        "change_24h": -1.3
       },
       {
         "symbol": "DX-Y.NYB",
@@ -696,8 +781,8 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4706.0,
-        "change_24h": 1.4
+        "value": 4706.2,
+        "change_24h": 1.41
       },
       {
         "symbol": "CL=F",
@@ -709,63 +794,63 @@
     "most_active": [
       {
         "symbol": "NVDA",
-        "volume": 73274161,
-        "price_usd": 212.45,
-        "change_24h": 1.9
+        "volume": 73588803,
+        "price_usd": 212.63,
+        "change_24h": 1.99
       },
       {
         "symbol": "TSLA",
-        "volume": 23103517,
-        "price_usd": 352.13,
-        "change_24h": 0.91
+        "volume": 23156861,
+        "price_usd": 351.89,
+        "change_24h": 0.84
       },
       {
         "symbol": "PLTR",
-        "volume": 17798363,
-        "price_usd": 173.18,
-        "change_24h": -1.54
+        "volume": 17831542,
+        "price_usd": 173.34,
+        "change_24h": -1.45
       },
       {
         "symbol": "QQQ",
-        "volume": 17269727,
-        "price_usd": 709.62,
+        "volume": 17309651,
+        "price_usd": 709.64,
         "change_24h": 0.47
       },
       {
         "symbol": "SPY",
-        "volume": 16952438,
-        "price_usd": 765.19,
+        "volume": 17021055,
+        "price_usd": 765.2,
         "change_24h": 0.23
       },
       {
         "symbol": "AAPL",
-        "volume": 14000050,
-        "price_usd": 309.58,
-        "change_24h": -0.25
+        "volume": 14026948,
+        "price_usd": 309.5,
+        "change_24h": -0.27
       },
       {
         "symbol": "BAC",
-        "volume": 13646211,
+        "volume": 13687136,
         "price_usd": 62.44,
         "change_24h": 0.18
       },
       {
         "symbol": "AMD",
-        "volume": 13383208,
-        "price_usd": 479.36,
-        "change_24h": 4.95
+        "volume": 13414506,
+        "price_usd": 479.55,
+        "change_24h": 4.99
       },
       {
         "symbol": "AMZN",
-        "volume": 13126198,
-        "price_usd": 260.16,
-        "change_24h": -0.73
+        "volume": 13155723,
+        "price_usd": 260.02,
+        "change_24h": -0.78
       },
       {
         "symbol": "MSFT",
-        "volume": 10655762,
-        "price_usd": 490.06,
-        "change_24h": 0.56
+        "volume": 10671286,
+        "price_usd": 490.17,
+        "change_24h": 0.59
       }
     ],
     "google_trends": {
@@ -773,7 +858,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 69
+          "interest_score": 71
         },
         {
           "keyword": "Ethereum",
@@ -781,11 +866,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 8
+          "interest_score": 9
         },
         {
           "keyword": "crypto",
-          "interest_score": 30
+          "interest_score": 29
         }
       ]
     }
@@ -891,15 +976,15 @@
       "symbol": "SCHD",
       "name": "Schwab US Dividend Equity",
       "type": "Dividend Growth",
-      "price_usd": 35.11,
-      "change_1d": -0.28,
-      "change_1w": 1.74,
-      "change_1m": 5.03,
+      "price_usd": 35.12,
+      "change_1d": -0.27,
+      "change_1w": 1.75,
+      "change_1m": 5.04,
       "high_3m": 35.21,
       "low_3m": 31.61,
       "week52_high": 35.31,
       "week52_low": 26.32,
-      "rsi": 77.5,
+      "rsi": 77.7,
       "div_yield": 3.13,
       "last_div": null,
       "outlook": {
@@ -913,8 +998,8 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 77.5 — Overbought zone, historically signals a pullback ↓",
-          "5-day momentum +1.7% — short-term buying pressure ↑",
+          "RSI 77.7 — Overbought zone, historically signals a pullback ↓",
+          "5-day momentum +1.8% — short-term buying pressure ↑",
           "1-month return +5.0% — sustained uptrend ↑"
         ]
       }
@@ -923,7 +1008,7 @@
       "symbol": "QQQM",
       "name": "Invesco Nasdaq 100",
       "type": "Growth",
-      "price_usd": 292.17,
+      "price_usd": 292.18,
       "change_1d": 0.47,
       "change_1w": -1.11,
       "change_1m": 4.03,
