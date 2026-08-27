@@ -1,87 +1,148 @@
 {
-  "updated_at": "2026-08-26T23:59:58Z",
+  "updated_at": "2026-08-27T00:01:44Z",
   "crypto": {
     "fear_greed": {
-      "value": 65,
+      "value": 71,
       "label": "Greed",
-      "previous_value": 74,
+      "previous_value": 65,
       "previous_label": "Greed"
     },
     "prices": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 79087,
-        "change_24h": 0.73,
-        "market_cap": 1587713148728,
-        "volume_24h": 28465778808
+        "price_usd": 79031,
+        "change_24h": 0.61,
+        "market_cap": 1586818257552,
+        "volume_24h": 28467290785
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2507.16,
-        "change_24h": 2.65,
-        "market_cap": 302538511367,
-        "volume_24h": 12228262056
+        "price_usd": 2505.91,
+        "change_24h": 2.61,
+        "market_cap": 302432478267,
+        "volume_24h": 12230594657
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 707.8,
-        "change_24h": 1.97,
-        "market_cap": 94252200092,
-        "volume_24h": 904999349
+        "price_usd": 707.52,
+        "change_24h": 1.9,
+        "market_cap": 94226774330,
+        "volume_24h": 906780140
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.42,
-        "change_24h": -0.76,
-        "market_cap": 89281646104,
-        "volume_24h": 3950106386
+        "change_24h": -0.85,
+        "market_cap": 89242325676,
+        "volume_24h": 3953362792
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 102.27,
-        "change_24h": 5.82,
-        "market_cap": 59715105537,
-        "volume_24h": 3556721301
+        "price_usd": 102.06,
+        "change_24h": 5.6,
+        "market_cap": 59622634955,
+        "volume_24h": 3565045133
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.087764,
-        "change_24h": 2.46,
-        "market_cap": 13662235530,
-        "volume_24h": 657383251
+        "price_usd": 0.087709,
+        "change_24h": 2.32,
+        "market_cap": 13652494112,
+        "volume_24h": 655283418
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 11.62,
-        "change_24h": 2.93,
-        "market_cap": 8691136055,
-        "volume_24h": 352187742
+        "change_24h": 2.9,
+        "market_cap": 8691236280,
+        "volume_24h": 352230395
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.212699,
-        "change_24h": 1.7,
-        "market_cap": 7974365781,
-        "volume_24h": 381059881
+        "price_usd": 0.212398,
+        "change_24h": 1.61,
+        "market_cap": 7968648990,
+        "volume_24h": 380814892
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 7.44,
-        "change_24h": 1.59,
-        "market_cap": 3214247735,
-        "volume_24h": 165491115
+        "change_24h": 1.57,
+        "market_cap": 3213717890,
+        "volume_24h": 171680072
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 4,
+        "price_usd": 79031,
+        "change_24h": 0.61
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 1,
+        "price_usd": 707.52,
+        "change_24h": 1.9
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 2505.91,
+        "change_24h": 2.61
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 102.06,
+        "change_24h": 5.6
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.42,
+        "change_24h": -0.85
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.212398,
+        "change_24h": 1.61
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.087709,
+        "change_24h": 2.32
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 7.44,
+        "change_24h": 1.57
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 11.62,
+        "change_24h": 2.9
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "SEC resurrecting U.S. crypto custody rule the previous administration failed to land",
@@ -251,10 +312,31 @@
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 4,
+          "BNB": 1,
+          "ETH": 0,
+          "SOL": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: top mentioned: BTC (4 mentions), BNB (1 mention), ETH (0), SOL (0), XRP (0). Subreddits: r/r/CryptoCurrency: activity 100/100. So high activity, BTC most mentioned, BNB some. No other mentions. Likely sentiment: bullish due to high activity and BTC mentions. Provide reasons: BTC 4 mentions, BNB 1 mention, activity 100/100. Keep under 80 words. Let's craft ~40 words.\n\nParagraph: \"Bullish: The r/r/CryptoCurrency subreddit shows maximal activity (100/100) with Bitcoin dominating discussion at four mentions and Binance Coin receiving one mention, while Ethereum, Solana, and XRP register zero mentions, indicating strong focus on leading assets and optimistic market tone.\"\n\nCount words: Bullish:(1) The2 r/r/CryptoCurrency3 subreddit4 shows5 maximal6 activity7 (100/100)8 with9 Bitcoin10 dominating11 discussion12 at13 four14 mentions15 and16 Binance17 Coin"
     },
     "news_summary": {
       "outlook": "Mixed",
@@ -262,7 +344,7 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 150,
+      "active_threads": 149,
       "mentions": {
         "BTC": 32,
         "XRP": 9,
@@ -408,40 +490,98 @@
         "change_24h": -2.87
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "NVDA",
+        "mentions": 6,
+        "price_usd": 209.66,
+        "change_24h": -1.59
+      },
+      {
+        "symbol": "META",
+        "mentions": 1,
+        "price_usd": 576.14,
+        "change_24h": 1.07
+      },
+      {
+        "symbol": "TSLA",
+        "mentions": 0,
+        "price_usd": 345.82,
+        "change_24h": -1.26
+      },
+      {
+        "symbol": "AAPL",
+        "mentions": 0,
+        "price_usd": 313.45,
+        "change_24h": 1.15
+      },
+      {
+        "symbol": "MSFT",
+        "mentions": 0,
+        "price_usd": 496.37,
+        "change_24h": 0.95
+      },
+      {
+        "symbol": "GOOGL",
+        "mentions": 0,
+        "price_usd": 342.0,
+        "change_24h": -1.43
+      },
+      {
+        "symbol": "AMZN",
+        "mentions": 0,
+        "price_usd": 260.28,
+        "change_24h": -0.3
+      },
+      {
+        "symbol": "AMD",
+        "mentions": 0,
+        "price_usd": 480.93,
+        "change_24h": 0.37
+      },
+      {
+        "symbol": "PLTR",
+        "mentions": 0,
+        "price_usd": 177.5,
+        "change_24h": 2.76
+      },
+      {
+        "symbol": "GME",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
-        "title": "Nasdaq Futures, AI Stocks Rise on Nvidia’s Outlook: Markets Wrap",
+        "title": "Economists See RBA Rate Hike as Early as September After Hot CPI",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap",
-        "published": "Wed, 26 Aug 2026 22:10:37 GMT",
-        "assets": [
-          "NVDA",
-          "QQQ"
-        ],
+        "url": "https://www.bloomberg.com/news/articles/2026-08-26/economists-see-rba-rate-hike-as-early-as-september-after-hot-cpi",
+        "published": "Wed, 26 Aug 2026 23:50:08 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
+        "title": "Gold Consolidates Above $4,600 as Investors Weigh Fed Rate Path",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-26/gold-consolidates-above-4-600-as-investors-weigh-fed-rate-path",
+        "published": "Wed, 26 Aug 2026 23:48:19 GMT",
+        "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
       },
       {
-        "title": "Latest Oil Market News and Analysis for Aug. 27",
+        "title": "Thai Yield Gap May Narrow as Tame Inflation Boosts Long Bonds",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-26/latest-oil-market-news-and-analysis-for-aug-27",
-        "published": "Wed, 26 Aug 2026 22:02:04 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-26/thai-yield-gap-may-narrow-as-tame-inflation-boosts-long-bonds",
+        "published": "Wed, 26 Aug 2026 23:43:33 GMT",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
-      },
-      {
-        "title": "Li Ka-shing Keeps Ports Sale’s Price Tag Despite Panama Loss",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-26/li-ka-shing-keeps-ports-sale-s-price-tag-despite-panama-loss",
-        "published": "Wed, 26 Aug 2026 23:00:00 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "Salesforce stock jumps 12% on AI growth and Anthropic investment gain",
@@ -571,7 +711,7 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.067,
+      "score": 0.08,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -634,17 +774,72 @@
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: 2 bullish vs 1 bearish signals detected across finance prediction markets data."
+      "outlook": "Mixed",
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on the data.\n\nData points:\n\n- Fed increase 25 bps after Sep 2026: Yes 33% (vol $433,763)\n- No change after Sep 2026: Yes 67% (vol $361,736)\n- US announces end of Iranian blockade by Aug 31, 2026: Yes 4% (vol $303,606)\n- WTI Crude Oil hit $90 in Aug: Yes 4% (vol $215,304)\n- Mitch McConnell steps down before term ends: Yes 10% (vol $185,002)\n- US ceasefire against Iran continues through Sep 15: Yes 90% (vol $160,021)\n- China invades Taiwan by end 2026: Yes 4% (vol $153,547)\n- US ceasefire against Iran continues through Aug 31: Yes 96% (vol $138,605)\n\nInterpretation: High probability of cease"
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/wallstreetbets",
+        "mentions": {
+          "NVDA": 6,
+          "META": 1,
+          "TSLA": 0,
+          "AAPL": 0,
+          "MSFT": 0,
+          "GOOGL": 0,
+          "AMZN": 0,
+          "AMD": 0,
+          "PLTR": 0,
+          "GME": 0
+        },
+        "activity_score": 100,
+        "top_post": "Weekly Earnings Thread 8/24 - 8/28",
+        "top_post_url": "https://old.reddit.com/r/wallstreetbets/comments/1vumyj2/weekly_earnings_thread_824_828/",
+        "top_post_score": 0,
+        "posts": 25,
+        "posts_list": [
+          {
+            "title": "Weekly Earnings Thread 8/24 - 8/28",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vumyj2/weekly_earnings_thread_824_828/"
+          },
+          {
+            "title": "What Are Your Moves Tomorrow, August 27, 2026",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vz814z/what_are_your_moves_tomorrow_august_27_2026/"
+          },
+          {
+            "title": "PUMP IT 🚀",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vza7sw/pump_it/"
+          },
+          {
+            "title": "old meme remastered",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vz2n52/old_meme_remastered/"
+          },
+          {
+            "title": "The AI bubble crowd lose again",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vzag6s/the_ai_bubble_crowd_lose_again/"
+          },
+          {
+            "title": "Thank you papa Jensen",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vzb98g/thank_you_papa_jensen/"
+          },
+          {
+            "title": "Nvidia tops Q2 expectations, offers strong outlook, but stock falls",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vz8vpx/nvidia_tops_q2_expectations_offers_strong_outlook/"
+          },
+          {
+            "title": "How long before Michael Burry cries uncle?",
+            "url": "https://old.reddit.com/r/wallstreetbets/comments/1vzbnjb/how_long_before_michael_burry_cries_uncle/"
+          }
+        ]
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: top mentioned: NVDA (6 mentions), META (1 mentions), TSLA (0), AAPL (0), MSFT (0). Subreddits: r/r/wallstreetbets: activity 100/100 (maybe means high activity). So sentiment likely bullish due to NVDA high mentions. Provide reasons: NVDA 6 mentions, META 1, high activity in WSB. No negative mentions. So Bullish. Must be one paragraph, max 80 words. Let's craft ~45 words.\n\n\"Bullish: The discussion shows strong interest in NVIDIA with 6 mentions and a single mention of Meta, while Tesla, Apple and Microsoft received no mentions, indicating focus on AI‑chip growth. The WallStreetBets subreddit is at peak activity (100/100), amplifying positive chatter and suggesting optimistic sentiment.\"\n\nCount words: Bullish:(1) The2 discussion3 shows4 strong5 interest6 in7 NVIDIA8 with9 610 mentions11 and12 a13 single14 mention15 of16 Meta,17 while18 Tesla,19 Apple20 and21 Microsoft2"
     },
     "news_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: 11 bullish vs 6 bearish signals detected across stock/finance news data."
+      "outlook": "Mixed",
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Need to decide overall market sentiment based on data. Let's count bullish items: Gold consolidates above $4,600 (bullish), Salesforce stock jumps 12% (bullish), Salesforce’s stock gets an Anthropic boost (bullish). That's three bullish. Bearish: Economists see RBA rate hike as early as September after hot CPI (bearish). Others neutral: Thai yield gap may narrow, Meta settlement, Okta pops 20% (neutral), Roth conversion question (neutral). So more bullish than bearish. Overall sentiment likely Bullish. Need to start with \"Bullish:\" then reasons, mention numbers and names. Must be one paragraph, max 80 words. Let's craft ~55 words.\n\nInclude: Gold above $4,600, Salesforce up 12% on AI growth and Anthropic investment, also mention Anthropic boost. Also note RBA rate hike concern as a counter but overall bullish. Must mention numbers and names. Let's write:\n\n\"Bullish: Gold is holding above $4,600 as investors watch the Fed’s rate path, Salesforce shares jumped 12% after reporting AI‑driven growth and a boost"
     },
     "macro": [
       {
@@ -656,14 +851,14 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.12,
-        "change_24h": 0.2
+        "value": 99.13,
+        "change_24h": 0.21
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4677.3,
-        "change_24h": 0.85
+        "value": 4677.8,
+        "change_24h": 0.86
       },
       {
         "symbol": "CL=F",
@@ -736,24 +931,7 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": [
-        {
-          "keyword": "Bitcoin",
-          "interest_score": 76
-        },
-        {
-          "keyword": "Ethereum",
-          "interest_score": 12
-        },
-        {
-          "keyword": "Solana",
-          "interest_score": 12
-        },
-        {
-          "keyword": "crypto",
-          "interest_score": 46
-        }
-      ]
+      "crypto": []
     }
   },
   "portfolio": [
