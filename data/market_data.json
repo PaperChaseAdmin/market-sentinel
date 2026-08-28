@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T05:01:38Z",
+  "updated_at": "2026-08-28T05:11:20Z",
   "crypto": {
     "fear_greed": {
       "value": 73,
@@ -11,78 +11,151 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 79657,
-        "change_24h": 1.14,
-        "market_cap": 1599191748104,
-        "volume_24h": 36553176361
+        "price_usd": 79597,
+        "change_24h": 1.16,
+        "market_cap": 1598181965807,
+        "volume_24h": 36604801328
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2486.57,
-        "change_24h": -0.02,
-        "market_cap": 300080059836,
-        "volume_24h": 15677587598
+        "price_usd": 2483.83,
+        "change_24h": -0.07,
+        "market_cap": 299772542303,
+        "volume_24h": 15729194310
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 709.29,
-        "change_24h": 1.04,
-        "market_cap": 94449334126,
-        "volume_24h": 879827941
+        "price_usd": 708.6,
+        "change_24h": 0.91,
+        "market_cap": 94359888569,
+        "volume_24h": 893833441
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.42,
-        "change_24h": 1.39,
-        "market_cap": 89230716780,
-        "volume_24h": 3324073777
+        "change_24h": 1.28,
+        "market_cap": 89061253492,
+        "volume_24h": 3311797158
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 106.81,
-        "change_24h": 5.7,
-        "market_cap": 62382002553,
-        "volume_24h": 7028976594
+        "price_usd": 106.75,
+        "change_24h": 5.59,
+        "market_cap": 62349534519,
+        "volume_24h": 6995355786
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.08766,
-        "change_24h": 1.15,
-        "market_cap": 13645372247,
-        "volume_24h": 745995252
+        "price_usd": 0.087556,
+        "change_24h": 1.06,
+        "market_cap": 13630960225,
+        "volume_24h": 764357745
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.75,
-        "change_24h": 1.91,
-        "market_cap": 8793494512,
-        "volume_24h": 473464117
+        "price_usd": 11.73,
+        "change_24h": 1.69,
+        "market_cap": 8775038173,
+        "volume_24h": 472045935
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.210138,
-        "change_24h": 0.64,
-        "market_cap": 7879878045,
-        "volume_24h": 420416812
+        "price_usd": 0.209754,
+        "change_24h": 0.46,
+        "market_cap": 7866599730,
+        "volume_24h": 419143538
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 7.43,
-        "change_24h": 1.33,
-        "market_cap": 3209704198,
-        "volume_24h": 245955851
+        "change_24h": 1.35,
+        "market_cap": 3208232801,
+        "volume_24h": 247770084
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 6,
+        "price_usd": 79597,
+        "change_24h": 1.16
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 2,
+        "price_usd": 106.75,
+        "change_24h": 5.59
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 1,
+        "price_usd": 708.6,
+        "change_24h": 0.91
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 0,
+        "price_usd": 2483.83,
+        "change_24h": -0.07
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.42,
+        "change_24h": 1.28
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.209754,
+        "change_24h": 0.46
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.087556,
+        "change_24h": 1.06
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 7.43,
+        "change_24h": 1.35
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 11.73,
+        "change_24h": 1.69
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
+      {
+        "title": "Bitcoin is trading at a premium on Coinbase after a long time. Here's what it means",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-is-trading-at-a-premium-on-coinbase-after-a-long-time",
+        "published": "Fri, 28 Aug 2026 05:02:22 +0000",
+        "assets": [
+          "BTC"
+        ],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
       {
         "title": "Bitcoin under $80,000, solana leads majors higher before Warsh's Jackson Hole debut",
         "source": "CoinDesk",
@@ -107,16 +180,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/news-analysis/2026/08/27/connecticut-s-new-lawsuit-against-kalshi-piles-on-to-prediction-market-legal-fight",
-        "published": "Thu, 27 Aug 2026 18:28:53 +0000",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.6,
-        "color": "red"
       },
       {
         "title": "Abu Dhabi royal backs 49% stake in Trump-linked crypto bank venture: WSJ",
@@ -223,38 +286,45 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.117,
+      "score": 0.25,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin reach $82,500 in August?",
-        "volume_24h": 166243,
+        "volume_24h": 160613,
         "yes_price": 0.41,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-82pt5k-in-august-2026"
       },
       {
         "title": "Will Bitcoin reach $85,000 in August?",
-        "volume_24h": 116255,
+        "volume_24h": 116480,
         "yes_price": 0.16,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-85k-in-august-2026"
       },
       {
         "title": "Will Bitcoin reach $87,500 in August?",
-        "volume_24h": 106517,
+        "volume_24h": 106524,
         "yes_price": 0.07,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-87pt5k-in-august-2026"
       },
       {
         "title": "Will the price of Bitcoin be above $78,000 on August 28?",
-        "volume_24h": 102139,
+        "volume_24h": 103105,
         "yes_price": 0.85,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-78k-on-august-28-2026"
+      },
+      {
+        "title": "Will the price of Bitcoin be above $82,000 on August 28?",
+        "volume_24h": 94737,
+        "yes_price": 0.09,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/bitcoin-above-82k-on-august-28-2026"
       },
       {
         "title": "Will Bitcoin reach $90,000 in August?",
@@ -264,43 +334,57 @@
         "url": "https://polymarket.com/event/will-bitcoin-reach-90k-in-august-2026"
       },
       {
-        "title": "Will the price of Bitcoin be above $82,000 on August 28?",
-        "volume_24h": 91782,
-        "yes_price": 0.1,
+        "title": "Bitcoin Up or Down on August 28?",
+        "volume_24h": 91053,
+        "yes_price": 0.34,
         "category": "crypto",
-        "url": "https://polymarket.com/event/bitcoin-above-82k-on-august-28-2026"
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-august-28-2026"
       },
       {
         "title": "Will Bitcoin dip to $77,500 in August?",
-        "volume_24h": 87060,
+        "volume_24h": 87153,
         "yes_price": 0.54,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-77pt5k-in-august-2026"
-      },
-      {
-        "title": "Will the price of Bitcoin be above $76,000 on August 28?",
-        "volume_24h": 86471,
-        "yes_price": 0.98,
-        "category": "crypto",
-        "url": "https://polymarket.com/event/bitcoin-above-76k-on-august-28-2026"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data shows high probability for lower thresholds (above $76k 98%, above $78k 85%) but lower probabilities) but low for higher thresholds (above $82.5k 41%, $85k 16%, $87.5k 7%, $90k 3%). Also dip to $77.5k 54% (so chance of dip). So overall sentiment: moderate optimism for staying above $76k-$78k, but skepticism about reaching higher levels. That's mixed.\n\nWe need to start with \"Mixed:\" then reasons. Include numbers and names where available. Names: Bitcoin. Provide numbers: percentages and volumes maybe. Must be max 80 words.\n\nLet's craft ~70 words.\n\n\"Mixed: Prediction markets show strong confidence Bitcoin will stay above $76 k (98% yes, $86.5k vol) and $78 k (85% yes, $102k vol), but fading optimism for higher targets—only 41% see $82.5 k ($166k vol), 16% for $"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: Data shows high probability for above $78k (85%) but low for higher thresholds (41% for $82.5k, 16% for $85k, etc). Also probability of dip to $77.5k is 54% (yes). Bitcoin Up or Down on Aug 28: Yes 34% (maybe meaning up? ambiguous). Overall seems mixed: moderate optimism for staying above $78k but low chance for higher targets, and >50% chance of dip to $77.5k. So Mixed.\n\nWe need to mention numbers and names where available. Names: Bitcoin. Provide percentages and volumes.\n\nWord count max 80. Let's craft ~55 words.\n\nParagraph: \"Mixed: Bitcoin shows strong confidence of staying above $78,000 on Aug 28 (85% yes, $103k vol) but only modest odds of hitting higher August targets—41% for $82.5k ($160k vol), 16% for $85k ($116k vol), 7% for $87.5k ($106"
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 6,
+          "SOL": 2,
+          "BNB": 1,
+          "ETH": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: The provided Reddit discussion data is entirely empty. Consequently, no specific topics, subreddits, numbers, or names are available to assess overall market sentiment. A summary is impossible without any input."
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: top mentioned: BTC (6 mentions), SOL (2 mentions), BNB (1 mentions), ETH (0 mentions), XRP (0 mentions). Subreddits: r/r/CryptoCurrency: activity 100/100. So high activity, mentions of BTC, SOL, BNB. No ETH or XRP. Likely bullish sentiment due to high activity and mentions of major coins. Provide reasons: high activity, BTC leading mentions, SOL and BNB also mentioned. Keep within 80 words. One paragraph. Let's craft ~45 words.\n\nStart with \"Bullish:\" then reasons.\n\nWord count: Let's draft:\n\n\"Bullish: The r/CryptoCurrency subreddit shows maximal activity (100/100), with Bitcoin leading discussion at six mentions, followed by Solana (two) and Binance Coin (one), indicating strong focus on major assets and no notable chatter around Ethereum or XRP, suggesting overall optimistic sentiment.\"\n\nCount words.\n\nCount: Bullish:(1) The2 r/CryptoCurrency3 subreddit4 shows5 maximal6 activity7 (100/100),8 with9 Bitcoin10"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. There are bullish items: Bitcoin under $80k (actually under $80k is maybe bearish? But they label as Bullish in parentheses). Solana leads majors higher before Warsh's Jackson Hole debut (bullish). XRP treasury company backed by Ripple is a shareholder vote away from Nasdaq (bullish). Bearish: Connecticut lawsuit against Kalshi (bearish). Abu Dhabi royal backs 49% stake in Trump-linked crypto bank venture (bearish). Neutral items: Virtu, Tradeweb onchain repo, etc.\n\nWe have more bullish (3) than bearish (2). So overall maybe Bullish. Provide reasons with numbers and names: Bitcoin under $80,000, Solana leading majors higher, XRP treasury company backed by Ripple near Nasdaq vote, Connecticut lawsuit against Kalshi, Abu Dhabi royal 49% stake in Trump-linked crypto bank venture.\n\nWe need to start with \"Bullish:\" then reasons. Must be one paragraph, max 80 words. Let's craft ~70 words.\n\nWord count: Let's draft:\n\n\"Bullish: Bitcoin trading"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: multiple bullish items: Bitcoin premium on Coinbase, Bitcoin under $80,000, Solana leads majors higher before Warsh's Jackson Hole debut, XRP treasury company backed by Ripple is a shareholder vote away from Nasdaq. Bearish: Abu Dhabi royal backs 49% stake in Trump-linked crypto bank venture (WSJ). Neutral items: Virtu, Tradeweb onchain repo, etc.\n\nOverall sentiment: likely bullish outweighs bearish. So start with Bullish: then list reasons with numbers/names. Must be <=80 words.\n\nLet's craft: \"Bullish: Bitcoin is trading at a premium on Coinbase after a long time, stays below $80,000 while Solana leads major altcoins higher ahead of Fed Governor Warsh’s Jackson Hole debut, and an XRP‑focused treasury firm backed by Ripple is one shareholder vote from a Nasdaq listing; the only bearish note is Abu Dhabi’s royal taking a 49% stake in a Trump‑linked crypto bank venture per WSJ.\"\n\nCount words. Let's count.\n\n\"Bullish:\" counts as one? Actually \"Bullish:\" is one token maybe but we count words"
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 134,
+      "active_threads": 133,
       "mentions": {
         "BTC": 41,
         "XRP": 19,
@@ -324,49 +408,49 @@
         "name": "Solana",
         "rank": 7,
         "score": 0,
-        "change_24h": 5.86
+        "change_24h": 5.81
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 1,
-        "change_24h": 1.23
+        "change_24h": 1.27
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "rank": 90,
         "score": 2,
-        "change_24h": 21.99
+        "change_24h": 21.49
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 95,
         "score": 3,
-        "change_24h": 0.9
+        "change_24h": 1.12
+      },
+      {
+        "symbol": "PONS",
+        "name": "Pons",
+        "rank": 278,
+        "score": 4,
+        "change_24h": -3.52
       },
       {
         "symbol": "HYPE",
         "name": "Hyperliquid",
         "rank": 10,
-        "score": 4,
-        "change_24h": 3.38
-      },
-      {
-        "symbol": "MON",
-        "name": "Monad",
-        "rank": 128,
         "score": 5,
-        "change_24h": -2.28
+        "change_24h": 2.92
       },
       {
-        "symbol": "PONS",
-        "name": "Pons",
-        "rank": 279,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "rank": 75,
         "score": 6,
-        "change_24h": -7.08
+        "change_24h": 6.26
       }
     ]
   },
@@ -449,6 +533,26 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Asian Shares Rise, Treasuries Steady Before Warsh: Markets Wrap",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
+        "published": "Thu, 27 Aug 2026 22:08:04 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
+        "title": "India’s Cheap Weight-Loss Drugs Get A Reality Check",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-28/india-s-cheap-weight-loss-drugs-get-a-reality-check-video",
+        "published": "Fri, 28 Aug 2026 05:06:58 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -0.333,
+        "color": "red"
+      },
+      {
         "title": "CanSino CEO Xuefeng Yu on Earnings, Pipeline",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/videos/2026-08-28/cansino-ceo-xuefeng-yu-on-earnings-pipeline-video",
@@ -457,26 +561,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "Inside India's AI Ambitions",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-28/inside-india-s-ai-ambitions-video",
-        "published": "Fri, 28 Aug 2026 04:54:48 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "Top Sydney Builder’s $2.3 Billion Debt Woes Hit Private Credit",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-28/top-sydney-builder-s-2-3-billion-debt-woes-hit-private-credit",
-        "published": "Fri, 28 Aug 2026 04:37:15 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Judge blocks Pentagon blacklist of Anthropic as supply chain risk",
@@ -499,14 +583,14 @@
         "color": "yellow"
       },
       {
-        "title": "OpenAI rolls out ads on select ChatGPT plans in India to boost monetization, support wider access",
+        "title": "Trump’s Greenland fixation puts security at the heart of Iceland’s knife-edge EU vote",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/28/openai-strategy-india-anthropic-ipo.html",
-        "published": "Fri, 28 Aug 2026 03:29:45 GMT",
+        "url": "https://www.cnbc.com/2026/08/28/iceland-eu-referendum-trump-greenland-arctic.html",
+        "published": "Fri, 28 Aug 2026 05:06:43 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Judge says Trump administration’s blacklist of Anthropic was illegal",
@@ -604,21 +688,21 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.2,
+      "score": -0.222,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 2359020,
+        "volume_24h": 2358787,
         "yes_price": 0.12,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "Will Augusto Cury win the 2026 Brazilian presidential election?",
-        "volume_24h": 989647,
+        "volume_24h": 997260,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/will-augusto-cury-win-the-2026-brazilian-presidential-election"
@@ -632,35 +716,35 @@
       },
       {
         "title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-        "volume_24h": 217969,
+        "volume_24h": 219661,
         "yes_price": 0.57,
         "category": "finance",
         "url": "https://polymarket.com/event/will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election"
       },
       {
         "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 206563,
+        "volume_24h": 205627,
         "yes_price": 0.69,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
       },
       {
         "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-        "volume_24h": 143690,
+        "volume_24h": 143390,
         "yes_price": 0.37,
         "category": "finance",
         "url": "https://polymarket.com/event/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election"
       },
       {
         "title": "US announces end of Iranian blockade by September 30, 2026?",
-        "volume_24h": 140959,
+        "volume_24h": 141044,
         "yes_price": 0.24,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-september-30-2026-20260727171615364-722-649-646-561-213-644-414-831"
       },
       {
         "title": "US announces end of Iranian blockade by September 7, 2026?",
-        "volume_24h": 124298,
+        "volume_24h": 124292,
         "yes_price": 0.06,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-september-7-2026"
@@ -668,16 +752,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes various predictions. Likely overall sentiment? Let's see: US invade Iran before 2027: only 12% yes => low expectation of invasion => maybe bullish for peace? Brazilian election: Lula 57% yes (leading), Flávio Bolsonaro 37%, Augusto Cury 3%, Renan Santos 2%. So Lula favored. Fed rates no change after Sep 2026 meeting: 69% yes => expectation of stable rates. US announces end of Iranian blockade by Sep 30 2026: 24% yes; by Sep 7 2026: 6% yes => low expectation of blockade ending soon. So overall: moderate optimism about US policy (no rate change, low invasion chance), but skepticism about Iran blockade ending. Mixed? Probably Mixed: some bullish (stable rates, Lula lead) and bearish (low chance of Iran blockade ending, low invasion probability maybe bearish for geopolitical risk? Actually low invasion chance is bullish for stability). So overall maybe Mixed.\n\nWe need to start with \"Mixed:\" then reasons, include numbers and names. Must be <=8"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment: The data includes predictions about US invasion of Iran (12% yes), Brazilian election probabilities: Augusto Cury 3%, Renan Santos 2%, Lula 57%, Flávio Bolsonaro 37%. Fed interest rates no change after Sep 2026 meeting: 69% yes. US announces end of Iranian blockade by Sep 30 2026: 24% yes; by Sep 7 2026: 6% yes.\n\nOverall sentiment? Mixed: high confidence in Fed no change (69%) suggests bearish? Actually no change could be seen as stable, maybe bullish for markets? Lula leading 57% suggests bullish for Brazil? Flávio Bolsonaro 37% also notable. Low probabilities for US invasion of Iran (12%) and end of blockade (24%/6%) suggests low expectation of geopolitical escalation, maybe bullish. So overall maybe Bullish due to stable Fed, Lula lead, low invasion risk. But also some uncertainty: Brazilian election split, blockade low. Could be Mixed.\n\nWe need to pick one start. Let's decide Mixed: because there are both"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed:. Must be max 80 words. Must mention numbers and names where available. Data given: \"Top mentioned: Subreddits:\" but no actual data? Possibly missing. We need to infer? The data is incomplete. Perhaps we need to respond with something like \"Mixed: ...\" but we need numbers and names. Since no data, we can say no clear sentiment? But must mention numbers and names where available. If none, we can say none mentioned. But we need to start with one of those prefixes. Could say \"Mixed: No specific tickers or sentiment indicators were highlighted in the provided data, with zero mentions of any stock or subreddit activity.\" That mentions numbers (zero). That satisfies. Must be <=80 words. Let's count: \"Mixed: No specific tickers or sentiment indicators were highlighted in the provided data, with zero mentions of any stock or subreddit activity.\" Count words: Mixed:(1) No2 specific3 tickers4 or5 sentiment6 indicators7 were8 highlighted9 in10 the11 provided12 data,13 with14 zero15 mentions16 of17 any18 stock19 or20 subreddit21 activity22. That's 22 words. Good. Provide exactly one paragraph. Ensure no extra line breaks. Provide as final."
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" maybe they omitted details. We need to infer? Possibly they expect we note that no specific tickers or numbers given, so we say insufficient data? But must mention numbers and names where available. Since none, we can say no specific numbers or names provided. But we must start with one of the three prefixes. Could say \"Mixed: ...\" and note lack of concrete data. Must be <=80 words. Let's craft ~30 words.\n\n\"Mixed: The Reddit snapshot shows only subreddit listings without ticker mentions, vote counts, or comment sentiment, making it impossible to gauge bullish or bearish bias; no specific numbers or named stocks are provided to support a directional view.\"\n\nCheck word count: Mixed:(1) The(2) Reddit(3) snapshot(4) shows(5) only(6) subreddit(7) listings(8) without(9) ticker(10) mentions,(11) vote(12) counts,(13) or(14) comment(15) sentiment,(16)"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nWe have bullish items: CanSino CEO Xuefeng Yu on Earnings, Pipeline (Bullish); OpenAI rolls out ads on select ChatGPT plans in India to boost monetization, support wider access (Bullish). Bearish: Judge blocks Pentagon blacklist of Anthropic as supply chain risk (Bearish); Judge says Trump administration’s blacklist of Anthropic was illegal (Bearish). Neutral items: Inside India's AI Ambitions; Top Sydney Builder’s $2.3 Billion Debt Woes Hit Private Credit; Iran links Hormuz reopening to ending regional wars as Trump reportedly rejects return to June deal; Marvell boosts its forecasts, but the stock slides as Wall Street wonders if there’s more to the story.\n\nOverall sentiment? Mixed: both bullish and bearish signals. So start with Mixed: then mention specifics: CanSino CEO Xuefeng Yu bullish earnings/pipeline; OpenAI ads in India bullish; Judge blocks/illegal blacklist of Anthropic bearish; Sydney builder $2.3B debt neutral but note; Marvell forecast boost but stock slides neutral. Keep under 80 words.\n\nLet's craft ~70 words."
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed:. Must be max 80 words. Summarize overall market sentiment based on data. Count words.\n\nWe need to decide sentiment: There are bullish items: Asian Shares Rise, CanSino CEO earnings, maybe others. Bearish: India weight-loss drugs reality check, Judge blocks Pentagon blacklist of Anthropic (bearish), Judge says Trump admin blacklist illegal (bearish). Neutral: Iran Hormuz, Trump Greenland, Marvell boosts forecasts but stock slides.\n\nOverall maybe mixed. So start with Mixed: then reasons with numbers/names where available. Need numbers: maybe mention Asian Shares Rise (no number), CanSino CEO Xuefeng Yu, India weight-loss drugs, Judge blocks Pentagon blacklist of Anthropic, Judge says Trump admin blacklist illegal, Marvell boosts forecasts but stock slides.\n\nWe need to keep under 80 words. Let's craft ~50 words.\n\n\"Mixed: Asian shares rose ahead of the Warsh wrap, while CanSino CEO Xuefeng Yu highlighted strong earnings and pipeline growth. Conversely, India’s cheap weight‑loss drugs faced a reality check, and two rulings deemed the Trump administration’s Anthropic blacklist illegal, weighing on sentiment. Neutral notes on Hormuz, Greenland, and Marvell’s forecast boost with a sliding stock complete the picture.\"\n\nNow"
     },
     "macro": [
       {
@@ -689,20 +773,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.18,
-        "change_24h": 0.02
+        "value": 99.19,
+        "change_24h": 0.03
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4634.0,
-        "change_24h": 0.53
+        "value": 4636.4,
+        "change_24h": 0.58
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 83.24,
-        "change_24h": -0.35
+        "value": 83.28,
+        "change_24h": -0.3
       }
     ],
     "most_active": [
@@ -772,11 +856,11 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 100
+          "interest_score": 97
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 11
+          "interest_score": 14
         },
         {
           "keyword": "Solana",
@@ -784,7 +868,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 71
+          "interest_score": 69
         }
       ]
     }
