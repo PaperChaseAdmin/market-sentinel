@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T13:41:42Z",
+  "updated_at": "2026-08-29T13:51:36Z",
   "crypto": {
     "fear_greed": {
       "value": 68,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 77694,
-        "change_24h": -1.93,
-        "market_cap": 1559990104028,
-        "volume_24h": 28125816182
+        "price_usd": 77686,
+        "change_24h": -1.91,
+        "market_cap": 1559628679682,
+        "volume_24h": 27841821486
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2435.14,
-        "change_24h": -2.59,
-        "market_cap": 293908027781,
-        "volume_24h": 11713310361
+        "price_usd": 2435.23,
+        "change_24h": -2.68,
+        "market_cap": 293875472382,
+        "volume_24h": 11612721473
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 688.24,
-        "change_24h": -2.28,
-        "market_cap": 91645831929,
-        "volume_24h": 728791150
+        "price_usd": 688.22,
+        "change_24h": -2.3,
+        "market_cap": 91642438243,
+        "volume_24h": 729915791
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.39,
-        "change_24h": -2.33,
-        "market_cap": 86986014391,
-        "volume_24h": 2300297547
+        "change_24h": -2.2,
+        "market_cap": 86955427307,
+        "volume_24h": 2284458269
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 103.82,
-        "change_24h": -1.0,
-        "market_cap": 60637678521,
-        "volume_24h": 4441406477
+        "price_usd": 103.75,
+        "change_24h": -1.11,
+        "market_cap": 60597911814,
+        "volume_24h": 4409535848
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.084889,
-        "change_24h": -2.13,
-        "market_cap": 13217801385,
-        "volume_24h": 523498049
+        "price_usd": 0.084888,
+        "change_24h": -2.09,
+        "market_cap": 13213986086,
+        "volume_24h": 526697572
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 11.32,
-        "change_24h": -3.33,
-        "market_cap": 8473438086,
-        "volume_24h": 299366048
+        "change_24h": -3.35,
+        "market_cap": 8471174227,
+        "volume_24h": 298268629
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.20015,
-        "change_24h": -3.64,
-        "market_cap": 7506967667,
-        "volume_24h": 311459335
+        "price_usd": 0.200222,
+        "change_24h": -3.48,
+        "market_cap": 7507347694,
+        "volume_24h": 310551434
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 7.28,
-        "change_24h": -1.32,
-        "market_cap": 3143788579,
-        "volume_24h": 150424072
+        "change_24h": -1.33,
+        "market_cap": 3142332944,
+        "volume_24h": 149982174
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 2,
+        "price_usd": 77686,
+        "change_24h": -1.91
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 2435.23,
+        "change_24h": -2.68
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 0,
+        "price_usd": 103.75,
+        "change_24h": -1.11
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 688.22,
+        "change_24h": -2.3
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.39,
+        "change_24h": -2.2
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.200222,
+        "change_24h": -3.48
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.084888,
+        "change_24h": -2.09
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 7.28,
+        "change_24h": -1.33
+      },
+      {
+        "symbol": "LINK",
+        "mentions": 0,
+        "price_usd": 11.32,
+        "change_24h": -3.35
+      },
+      {
+        "symbol": "TON",
+        "mentions": 0,
+        "price_usd": null,
+        "change_24h": null
+      }
+    ],
     "news": [
       {
         "title": "Tokenized assets are busier than the data shows",
@@ -225,7 +286,7 @@
       {
         "title": "Will Bitcoin dip to $75,000 in August?",
         "volume_24h": 164878,
-        "yes_price": 0.2,
+        "yes_price": 0.18,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-75k-in-august-2026"
       },
@@ -260,16 +321,37 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: multiple questions about Bitcoin dipping or reaching certain levels, with low probabilities (Yes percentages low). For dip to $75k: Yes 20% (vol $164,878). For dip to $72.5k: Yes 4% (vol $127,199). For dip to $74k: Yes 4% (vol $78,587). For reach $82.5k: Yes 4% (vol $142,529). For price above $78k on Aug 29: Yes 7% (vol $116,083). So overall sentiment: low probability of bullish moves (reaching higher price) and low probability of dips except one moderate 20% chance of dip to $75k. So overall mixed or slightly bearish? The dip probabilities are low except one moderate. The chance of price above $78k is only 7% (bullish). So overall sentiment is bearish-leaning: market expects price to stay below $78k and not dip much? Actually dip to $75k 20% chance suggests"
+      "summary": "We need to produce exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: multiple questions about Bitcoin dipping or reaching certain levels. The probabilities (Yes %) are low: 18% for dip to $75k, 4% for reach $82.5k, 4% dip to $72.5k, 7% price above $78k on Aug 29, 4% dip to $74k Aug 24-30. So overall sentiment: low probability of upward moves, moderate probability of dip to $75k (18%). So bearish sentiment.\n\nWe need to mention numbers and names where available. Names: Bitcoin. Provide numbers: percentages and volumes.\n\nWe need to keep under 80 words. Let's craft ~50 words.\n\nParagraph: \"Bearish: Prediction markets show only an 18% chance (vol $164,878) that Bitcoin will dip to $75,000 in August, while odds of reaching $82,500 (4%, vol $142,529) or staying above $78,000 on Aug 29 (7%, vol $116,083) remain low,"
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 2,
+          "ETH": 1,
+          "SOL": 0,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0,
+          "LINK": 0,
+          "TON": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" maybe they omitted actual list? We need to work with what we have. Possibly they expect we infer that no data means we cannot mention numbers? But we must mention numbers and names where available. If none available, we can say none? But they said mention numbers and names where available. If none, we can just not mention? Might be okay. But we need to start with Bullish/Bearish/Mixed. Since no sentiment data, maybe we say Mixed due to lack of clear direction. Provide reasons: limited data, no clear trend. Mention that no specific numbers or names were provided. Keep under 80 words.\n\nLet's craft: \"Mixed: The Reddit snapshot shows only a header 'Top mentioned: Subreddits:' with no actual posts, upvote counts, or token names, making it impossible to gauge bullish or bearish bias; without concrete metrics or cited projects, sentiment remains indeterminate.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 a7 header8 'Top9 mentioned:10 Sub"
+      "summary": "Mixed: High activity (100/100) on r/CryptoCurrency indicates significant engagement around crypto. BTC (2 mentions) and ETH (1 mention) are discussed, but the data lacks specific positive or negative indicators, making a definitive directional sentiment impossible to ascertain."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Must mention numbers and names where available. Max 80 words. Need to decide overall sentiment based on data: we have several bullish items: Ripple preparing XRP Ledger for quantum computers (bullish), BitGo buys NYDIG's institutional trading arm (bullish), Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish (bullish). Bearish: Trump-promoted brand touts GOLD before token collapse (bearish), Stablecoins not credible for payments at scale, BIS chief says (bearish). Neutral items: tokenized assets busier than data shows, Bitcoin wallets untouched for 10 years moved $40 million (neutral), Here's what happened in crypto today (neutral). So we have 3 bullish, 2 bearish, 3 neutral. Overall maybe Mixed? But we need to start with Bullish:, Bearish:, or Mixed:. Choose Mixed: because both bullish and bearish present. Provide specific reasons with numbers/names: mention Ripple, XRP Ledger, quantum computers; BitGo buying NYDIG's institutional trading arm; Bitcoin rally stalls but long-term sentiment bullish; Trump-promoted brand touts GOLD before token collapse; BIS chief says stablecoins not credible for payments at scale. Also maybe mention $4"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nWe have several items: Tokenized assets neutral, Bitcoin wallets moved $40M neutral, Ripple preparing XRP Ledger for quantum computers bullish, Trump-promoted brand touts GOLD before token collapse bearish, Stablecoins not credible for payments at scale BIS chief bearish, BitGo buys NYDIG's institutional trading arm bullish, Bitcoin Rally stalls but long-term sentiment remains bullish.\n\nOverall sentiment: mix of bullish and bearish, but more bullish? Let's count: Bullish: Ripple, BitGo, Bitcoin Rally long-term (3). Bearish: Trump-promoted brand, Stablecoins BIS (2). Neutral: tokenized assets, Bitcoin wallets, Here's what happened (3). So overall maybe Mixed. Provide reasons with numbers and names.\n\nWe need to start with \"Mixed:\" then reasons. Must be one paragraph, max 80 words. Let's craft ~70 words.\n\nInclude numbers: $40 million, maybe mention Ripple, BitGo, NYDIG, BIS chief, Trump-promoted brand (maybe mention brand name? Not given). Could say \"Trump-promoted brand\". Provide specifics.\n\nWord count:"
     },
     "fourchain": {
       "thread_count": 201,
@@ -295,51 +377,51 @@
       {
         "symbol": "PONS",
         "name": "Pons",
-        "rank": 204,
+        "rank": 202,
         "score": 0,
-        "change_24h": 57.12
+        "change_24h": 61.5
       },
       {
         "symbol": "BTR",
         "name": "Bitlayer",
-        "rank": 409,
+        "rank": 408,
         "score": 1,
-        "change_24h": 30.94
+        "change_24h": 33.22
       },
       {
         "symbol": "HNT",
         "name": "Helium",
-        "rank": 348,
+        "rank": 343,
         "score": 2,
-        "change_24h": 70.95
+        "change_24h": 71.56
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 10,
+        "score": 3,
+        "change_24h": -2.67
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
-        "rank": 49,
-        "score": 3,
-        "change_24h": -1.86
-      },
-      {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "rank": 173,
+        "rank": 48,
         "score": 4,
-        "change_24h": -2.21
+        "change_24h": -1.33
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 94,
         "score": 5,
-        "change_24h": -3.25
+        "change_24h": -3.49
       },
       {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 10,
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "rank": 173,
         "score": 6,
-        "change_24h": -2.83
+        "change_24h": -0.27
       }
     ]
   },
@@ -543,7 +625,7 @@
       {
         "title": "Google Maps renames Lake Ontario to \"Lake America\" by August 31, 2026?",
         "volume_24h": 163606,
-        "yes_price": 0.22,
+        "yes_price": 0.23,
         "category": "finance",
         "url": "https://polymarket.com/event/google-maps-renames-lake-ontario-to-lake-america-by-august-31-2026"
       },
@@ -571,23 +653,23 @@
       {
         "title": "Kanye West performs in Russia by October 31?",
         "volume_24h": 81012,
-        "yes_price": 0.42,
+        "yes_price": 0.41,
         "category": "finance",
         "url": "https://polymarket.com/event/kanye-west-performs-in-russia-by-october-31"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret overall market sentiment based on these prediction markets. Likely mixed: some high probability for Fed no change (56% yes) vs increase 43% yes. Also high probability for US ceasefire against Iran continues (88% yes). Low probability for Brazilian election candidates (3%,2%). Google Maps rename low 22%. Kanye West 42%. US end of Iranian blockade low 10%.\n\nOverall sentiment: maybe mixed but leaning slightly bullish? The high probability of ceasefire suggests geopolitical stability (bullish). Fed uncertainty (mixed). So overall mixed.\n\nWe need to start with \"Mixed:\" then reasons, include numbers and names. Must be <=80 words. Let's craft ~70 words.\n\nCount words. Let's draft:\n\n\"Mixed: Prediction markets show a 56% chance the Fed holds rates steady after September 2026 versus 43% for a 25‑bp hike, indicating policy uncertainty; meanwhile, an 88% probability that the US‑Iran ceasefire persists through Sep 15 suggests geopolitical calm, but low odds for Augusto Cury (3%) and Renan Santos (2%) to win Brazil’s 2026 election,"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to interpret overall market sentiment based on the data. The data includes various prediction markets: Fed interest rates after Sep 2026 meeting: Yes 56% (no change) vs increase 25 bps Yes 43%. So slight expectation of no change (56% vs 43%). That suggests somewhat neutral to slightly bullish? Actually no change could be seen as stable, maybe bullish for markets? The US ceasefire against Iran continues through Sep 15: Yes 88% high confidence. US announces end of Iranian blockade by Sep 14: Yes 10% low. So ceasefire likely, blockade end unlikely. That could be seen as reducing geopolitical risk, bullish. Brazilian election: Augusto Cury 3%, Renan Santos 2% - both low, implying unlikely winners; maybe indicates uncertainty or bearish for Brazil? Google Maps rename Lake Ontario to Lake America: Yes 23% moderate. Kanye West performs in Russia by Oct 31: Yes 41% moderate.\n\nOverall sentiment: Mixed? There's some bullish signals (ceasefire high probability, Fed likely no change) and some bearish/uncertain (low probability of"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The data seems incomplete. Possibly they expect we infer from given? But there is no actual mentions. Might need to note that no specific tickers or sentiment given, so we say Mixed due to lack of data? But must mention numbers and names where available. Since none, we can say no specific tickers mentioned. But we need to start with one of those prefixes. Perhaps we can say Mixed: No clear bullish or bearish signals; discussion limited to subreddit activity without specific tickers or numbers. That mentions no numbers though. Could mention that zero tickers were mentioned. That's a number. So: Mixed: The discussion did not highlight any specific stocks, with zero tickers named and no quantitative metrics cited, indicating ambiguous sentiment. That's about 20 words. Ensure one paragraph. Let's craft ~30 words.\n\nCheck word count: \"Mixed: The discussion did not highlight any specific stocks, with zero tickers named and no quantitative metrics cited, indicating ambiguous sentiment.\" Count words: Mixed:(1) The2 discussion3 did4 not5 highlight6 any7 specific8 stocks,9 with10 zero11 tickers12"
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The data seems incomplete. Possibly they expect we infer from given data: only \"Top mentioned: Subreddits:\" with no subreddits listed. Might be a trick: we have no specifics, so we must say Mixed? But need to mention numbers and names where available. Since none available, we can say no specific numbers or names. But must mention numbers and names where available—if none, we can omit? The instruction: \"Mention numbers and names where available.\" If none, we just don't mention any. Provide one paragraph, start with Bullish:, Bearish:, or Mixed:. Choose Mixed due to lack of clear sentiment. Provide reasons: limited data, no clear consensus, etc. Keep under 80 words.\n\nLet's craft: \"Mixed: The Reddit snippet only shows that subreddits were the top mentioned category without listing any specific communities, tickers, or sentiment cues, so there is no quantifiable bullish or bearish evidence to draw a clear conclusion; consequently, sentiment appears ambiguous given the absence of named stocks, comment counts, or upvote/downvote ratios.\" Count words.\n\nCount: Mixed:(1)"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, start with Bullish:, Bearish:, or Mixed:. Must be max 80 words. Summarize overall market sentiment based on data. Data includes many neutral, some bearish: Nepal rescuers (bearish), tech backlash (bearish), Trump deal with Venezuela (bearish). No bullish items. So overall sentiment likely Bearish. Provide reasons with numbers/names: Nepal rescuers race to find thousands missing (implies humanitarian crisis), tech backlash AI angst, Trump deal with Venezuela to secure >65 billion barrels oil reserves (maybe geopolitical risk). Keep within 80 words. Let's craft ~45 words.\n\n\"Bearish: Market sentiment is weighed down by humanitarian concerns as Nepal rescuers race to find thousands missing, growing tech backlash amid AI angst and social‑media fears, and geopolitical risk from Trump’s announced deal with Venezuela to secure over 65 billion barrels of oil reserves, outweighing neutral headlines.\"\n\nCount words: Let's count.\n\nBearish:(1) Market2 sentiment3 is4 weighed5 down6 by7 humanitarian8 concerns9 as10 Nepal11 rescuers12 race13 to14 find15 thousands16 missing,17 growing18 tech19 backlash20 amid21 AI22 angst23 and24 social‑media25 fears,2"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data. Data includes many neutral and their sentiment tags: Nepal Rescuers Race to Find Thousands Missing (Bearish) - likely negative. By The Way: Headlines You Should See (Neutral). Iran War Exposes Limits of US Military Endurance (Neutral). Tech backlash reaches fever pitch as AI angst collides with social media fears (Bearish). Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves (Bearish). K, C or E? Why economists can’t agree on the shape of today’s economy (Neutral). Why would someone lock up money by rolling it into a 401(k)? (Neutral). 5 affordable cities to retire in the U.S. right now (Neutral).\n\nThus we have three bearish items, rest neutral. So overall sentiment likely Bearish. Need to mention numbers and names where available: \"more than 65 billion barrels of oil reserves\", \"Nepal rescuers\", \"Tech backlash\", \"AI angst\", \"social media fears\". Also maybe mention \"Iran War\". But we need to keep within 80 words.\n\nLet's craft: \"Bearish: Market sentiment is"
     },
     "macro": [
       {
@@ -682,7 +764,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 45
+          "interest_score": 47
         },
         {
           "keyword": "Ethereum",
@@ -690,11 +772,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 6
+          "interest_score": 7
         },
         {
           "keyword": "crypto",
-          "interest_score": 22
+          "interest_score": 24
         }
       ]
     }
