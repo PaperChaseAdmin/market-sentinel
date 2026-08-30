@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T22:30:53Z",
+  "updated_at": "2026-08-30T22:40:55Z",
   "crypto": {
     "fear_greed": {
       "value": 69,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 78337,
-        "change_24h": 0.26,
-        "market_cap": 1572842612528,
-        "volume_24h": 16663861040
+        "price_usd": 78400,
+        "change_24h": 0.31,
+        "market_cap": 1573523078861,
+        "volume_24h": 16768497862
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2466.04,
-        "change_24h": 0.63,
-        "market_cap": 297664699565,
-        "volume_24h": 8841092070
+        "price_usd": 2467.6,
+        "change_24h": 0.7,
+        "market_cap": 297601826578,
+        "volume_24h": 8978199861
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 694.05,
-        "change_24h": 0.22,
-        "market_cap": 92418388859,
-        "volume_24h": 607235797
+        "price_usd": 693.7,
+        "change_24h": 0.16,
+        "market_cap": 92350378013,
+        "volume_24h": 612925745
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.39,
-        "change_24h": -0.41,
-        "market_cap": 86961336931,
-        "volume_24h": 1449300290
+        "price_usd": 1.38,
+        "change_24h": -0.54,
+        "market_cap": 86835315946,
+        "volume_24h": 1457935417
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 103.59,
-        "change_24h": -1.47,
-        "market_cap": 60617195129,
-        "volume_24h": 2622766225
+        "price_usd": 103.56,
+        "change_24h": -1.55,
+        "market_cap": 60571541995,
+        "volume_24h": 2640891080
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.08359,
-        "change_24h": -1.73,
-        "market_cap": 13014014403,
-        "volume_24h": 452798425
+        "price_usd": 0.083649,
+        "change_24h": -1.69,
+        "market_cap": 13017286326,
+        "volume_24h": 471206732
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.44,
-        "change_24h": 0.18,
-        "market_cap": 8557547989,
-        "volume_24h": 264947849
+        "price_usd": 11.43,
+        "change_24h": 0.14,
+        "market_cap": 8549525306,
+        "volume_24h": 265828301
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.199031,
-        "change_24h": -1.11,
-        "market_cap": 7463523038,
-        "volume_24h": 251239040
+        "price_usd": 0.198132,
+        "change_24h": -1.57,
+        "market_cap": 7426080145,
+        "volume_24h": 254857790
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 7.3,
-        "change_24h": -0.19,
-        "market_cap": 3152517462,
-        "volume_24h": 129493769
+        "change_24h": -0.28,
+        "market_cap": 3150587960,
+        "volume_24h": 135108673
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 2,
+        "price_usd": 78400,
+        "change_24h": 0.31
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 2467.6,
+        "change_24h": 0.7
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 1,
+        "price_usd": 103.56,
+        "change_24h": -1.55
+      },
+      {
+        "symbol": "UNI",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "ATOM",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 693.7,
+        "change_24h": 0.16
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.38,
+        "change_24h": -0.54
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.198132,
+        "change_24h": -1.57
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.083649,
+        "change_24h": -1.69
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 7.3,
+        "change_24h": -0.28
+      }
+    ],
     "news": [
       {
         "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
@@ -150,6 +211,18 @@
         "color": "yellow"
       },
       {
+        "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/376911/polygon-quietly-patched-security-flaws",
+        "published": "Sun, 30 Aug 2026 22:31:04 +0000",
+        "assets": [
+          "MATIC"
+        ],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
         "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
         "source": "Decrypt",
         "url": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
@@ -173,16 +246,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "After Their AI Models Hacked Real Companies, AI Labs Call for Stronger Cyber Defenses",
-        "source": "Decrypt",
-        "url": "https://decrypt.co/376863/ai-models-hacked-companies-ai-labs-cyber-defenses",
-        "published": "Sun, 30 Aug 2026 13:31:04 +0000",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC",
@@ -220,15 +283,15 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.319,
-      "label": "Bullish",
-      "color": "green"
+      "score": 0.236,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin reach $80,000 in August?",
-        "volume_24h": 100265,
-        "yes_price": 0.33,
+        "volume_24h": 105111,
+        "yes_price": 0.29,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-80k-in-august-2026-from-august-28"
       },
@@ -241,24 +304,24 @@
       },
       {
         "title": "Will Bitcoin reach $82,500 in August?",
-        "volume_24h": 78056,
+        "volume_24h": 78250,
         "yes_price": 0.04,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-82pt5k-in-august-2026"
       },
       {
-        "title": "Will Bitcoin dip to $75,000 in August?",
-        "volume_24h": 76917,
-        "yes_price": 0.04,
-        "category": "crypto",
-        "url": "https://polymarket.com/event/will-bitcoin-dip-to-75k-in-august-2026"
-      },
-      {
         "title": "Will Ethereum reach $2,700 in August?",
-        "volume_24h": 76057,
-        "yes_price": 0.03,
+        "volume_24h": 76700,
+        "yes_price": 0.02,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-ethereum-reach-2700-in-august-2026"
+      },
+      {
+        "title": "Will Bitcoin dip to $75,000 in August?",
+        "volume_24h": 76646,
+        "yes_price": 0.05,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/will-bitcoin-dip-to-75k-in-august-2026"
       },
       {
         "title": "Will Bitcoin dip to $50,000 by December 31, 2026?",
@@ -269,15 +332,15 @@
       },
       {
         "title": "Will the price of Bitcoin be above $76,000 on August 31?",
-        "volume_24h": 68219,
+        "volume_24h": 69775,
         "yes_price": 0.97,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-76k-on-august-31-2026"
       },
       {
         "title": "Will Bitcoin dip to $77,500 in August?",
-        "volume_24h": 64785,
-        "yes_price": 0.45,
+        "volume_24h": 67708,
+        "yes_price": 0.47,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-77pt5k-in-august-2026-from-august-29"
       }
@@ -286,26 +349,47 @@
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 2,
+          "ETH": 1,
+          "SOL": 1,
+          "UNI": 1,
+          "ATOM": 1,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: 9 bullish vs 1 bearish signals detected across crypto news data."
+      "summary": "Bullish: 8 bullish vs 4 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 146,
+      "active_threads": 147,
       "mentions": {
         "BTC": 22,
         "XRP": 13,
         "ETH": 2
       },
       "bullish_hits": 104,
-      "bearish_hits": 57,
-      "bullish_pct": 65,
+      "bearish_hits": 58,
+      "bullish_pct": 64,
       "top_coin": "BTC",
       "top_posts": [
         "/gme/ - gs: the lost age edition &gt;basic information &gt;gme.cac site redacted due to aids https://finra-markets.morni",
@@ -319,51 +403,51 @@
       {
         "symbol": "SKR",
         "name": "Seeker",
-        "rank": 189,
+        "rank": 187,
         "score": 0,
-        "change_24h": 125.45
+        "change_24h": 130.95
       },
       {
         "symbol": "ZYLO",
         "name": "Zylo Ecosystem",
-        "rank": 630,
+        "rank": 631,
         "score": 1,
-        "change_24h": 20.86
+        "change_24h": 20.47
       },
       {
         "symbol": "PONS",
         "name": "Pons",
         "rank": 140,
         "score": 2,
-        "change_24h": 71.54
+        "change_24h": 70.62
       },
       {
         "symbol": "HNT",
         "name": "Helium",
         "rank": 206,
         "score": 3,
-        "change_24h": 92.13
+        "change_24h": 94.95
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 4,
-        "change_24h": 0.45
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "rank": 48,
-        "score": 5,
-        "change_24h": -6.32
+        "change_24h": 0.41
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "rank": 72,
+        "score": 5,
+        "change_24h": 3.87
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "rank": 49,
         "score": 6,
-        "change_24h": 4.59
+        "change_24h": -6.43
       }
     ]
   },
@@ -508,6 +592,16 @@
         "color": "green"
       },
       {
+        "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
+        "published": "Sun, 30 Aug 2026 22:31:00 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -0.333,
+        "color": "red"
+      },
+      {
         "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
@@ -526,16 +620,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "U.S. stock futures flat as chances of rate hike rise after Warsh’s Jackson Hole comments",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
-        "published": "Sun, 30 Aug 2026 22:14:00 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
@@ -601,21 +685,21 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.133,
+      "score": 0.111,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 662677,
+        "volume_24h": 663805,
         "yes_price": 0.47,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "volume_24h": 379610,
+        "volume_24h": 372769,
         "yes_price": 0.53,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649"
@@ -629,35 +713,35 @@
       },
       {
         "title": "Israel x Iran ceasefire continues through August 31?",
-        "volume_24h": 194389,
-        "yes_price": 0.95,
+        "volume_24h": 207098,
+        "yes_price": 0.97,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-august-31-20260716224448970-754-896-823"
       },
       {
         "title": "Israel x Iran ceasefire continues through September 30?",
-        "volume_24h": 141888,
-        "yes_price": 0.8,
+        "volume_24h": 146860,
+        "yes_price": 0.81,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-september-30"
       },
       {
+        "title": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in August?",
+        "volume_24h": 135912,
+        "yes_price": 0.05,
+        "category": "finance",
+        "url": "https://polymarket.com/event/will-wti-reach-90-in-august-2026"
+      },
+      {
         "title": "Putin out as President of Russia by December 31, 2026?",
-        "volume_24h": 135804,
+        "volume_24h": 127959,
         "yes_price": 0.07,
         "category": "finance",
         "url": "https://polymarket.com/event/putin-out-before-2027-346"
       },
       {
-        "title": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in August?",
-        "volume_24h": 133588,
-        "yes_price": 0.06,
-        "category": "finance",
-        "url": "https://polymarket.com/event/will-wti-reach-90-in-august-2026"
-      },
-      {
         "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "volume_24h": 127179,
+        "volume_24h": 127149,
         "yes_price": 0.71,
         "category": "finance",
         "url": "https://polymarket.com/event/will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election"
@@ -673,8 +757,8 @@
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: 9 bullish vs 5 bearish signals detected across stock/finance news data."
+      "outlook": "Mixed",
+      "summary": "Mixed: 8 bullish vs 7 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -692,14 +776,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4512.0,
-        "change_24h": 0.76
+        "value": 4509.0,
+        "change_24h": 0.69
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 84.98,
-        "change_24h": 1.89
+        "value": 84.82,
+        "change_24h": 1.7
       }
     ],
     "most_active": [
@@ -781,7 +865,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 44
+          "interest_score": 43
         }
       ]
     }
