@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T19:36:48Z",
+  "updated_at": "2026-08-30T19:40:48Z",
   "crypto": {
     "fear_greed": {
       "value": 69,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 78880,
-        "change_24h": 0.84,
-        "market_cap": 1583980066120,
-        "volume_24h": 15750420545
+        "price_usd": 78799,
+        "change_24h": 0.76,
+        "market_cap": 1582409773023,
+        "volume_24h": 15734768948
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2504.5,
-        "change_24h": 1.99,
-        "market_cap": 302351647392,
-        "volume_24h": 7885898527
+        "price_usd": 2500.96,
+        "change_24h": 1.87,
+        "market_cap": 301877021039,
+        "volume_24h": 7904792804
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 699.9,
-        "change_24h": 0.98,
-        "market_cap": 93211542123,
-        "volume_24h": 597367004
+        "price_usd": 699.06,
+        "change_24h": 0.86,
+        "market_cap": 93093981907,
+        "volume_24h": 596714269
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.41,
-        "change_24h": 1.41,
-        "market_cap": 88773054954,
-        "volume_24h": 1319665347
+        "change_24h": 1.08,
+        "market_cap": 88589009436,
+        "volume_24h": 1307853436
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 106.19,
-        "change_24h": 0.5,
-        "market_cap": 62156649988,
-        "volume_24h": 2391925085
+        "price_usd": 106.0,
+        "change_24h": 0.42,
+        "market_cap": 62049856219,
+        "volume_24h": 2387805766
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.08585,
+        "price_usd": 0.085795,
         "change_24h": 0.61,
-        "market_cap": 13371718364,
-        "volume_24h": 401377591
+        "market_cap": 13358564338,
+        "volume_24h": 400261580
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.62,
-        "change_24h": 1.56,
-        "market_cap": 8699376354,
-        "volume_24h": 257510245
+        "price_usd": 11.6,
+        "change_24h": 1.45,
+        "market_cap": 8681776915,
+        "volume_24h": 258176939
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.20404,
-        "change_24h": 1.13,
-        "market_cap": 7654632921,
-        "volume_24h": 227619255
+        "price_usd": 0.203587,
+        "change_24h": 0.96,
+        "market_cap": 7635687489,
+        "volume_24h": 227046915
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 7.42,
-        "change_24h": 1.36,
-        "market_cap": 3205115370,
-        "volume_24h": 121448104
+        "price_usd": 7.41,
+        "change_24h": 1.25,
+        "market_cap": 3199700696,
+        "volume_24h": 121911044
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 2,
+        "price_usd": 78799,
+        "change_24h": 0.76
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 2500.96,
+        "change_24h": 1.87
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 1,
+        "price_usd": 106.0,
+        "change_24h": 0.42
+      },
+      {
+        "symbol": "UNI",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "ATOM",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 699.06,
+        "change_24h": 0.86
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.41,
+        "change_24h": 1.08
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.203587,
+        "change_24h": 0.96
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.085795,
+        "change_24h": 0.61
+      },
+      {
+        "symbol": "AVAX",
+        "mentions": 0,
+        "price_usd": 7.41,
+        "change_24h": 1.25
+      }
+    ],
     "news": [
       {
         "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
@@ -232,16 +293,44 @@
       {
         "title": "Will Bitcoin reach $80,000 in August?",
         "volume_24h": 90646,
-        "yes_price": 0.51,
+        "yes_price": 0.47,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-80k-in-august-2026-from-august-28"
+      },
+      {
+        "title": "Will Bitcoin dip to $40,000 by December 31, 2026?",
+        "volume_24h": 88048,
+        "yes_price": 0.06,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167-531-959"
       }
     ],
     "polymarket_summary": {
       "outlook": "Bearish",
       "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 2,
+          "ETH": 1,
+          "SOL": 1,
+          "UNI": 1,
+          "ATOM": 1,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0,
+          "AVAX": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
@@ -705,11 +794,11 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 63
+          "interest_score": 57
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 10
+          "interest_score": 9
         },
         {
           "keyword": "Solana",
@@ -717,7 +806,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 59
+          "interest_score": 60
         }
       ]
     }
