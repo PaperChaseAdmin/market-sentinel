@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T09:11:21Z",
+  "updated_at": "2026-08-31T09:21:50Z",
   "crypto": {
     "fear_greed": {
       "value": 62,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 78598,
-        "change_24h": 0.67,
-        "market_cap": 1577724194960,
-        "volume_24h": 25363477753
+        "price_usd": 78665,
+        "change_24h": 0.76,
+        "market_cap": 1579650092827,
+        "volume_24h": 25520016710
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2447.98,
-        "change_24h": -0.34,
-        "market_cap": 295363910450,
-        "volume_24h": 13837640842
+        "price_usd": 2446.84,
+        "change_24h": -0.38,
+        "market_cap": 295323928629,
+        "volume_24h": 13835176637
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 688.5,
-        "change_24h": -0.84,
-        "market_cap": 91645986498,
-        "volume_24h": 785723874
+        "price_usd": 688.34,
+        "change_24h": -0.79,
+        "market_cap": 91661012361,
+        "volume_24h": 791072327
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.37,
-        "change_24h": -1.2,
-        "market_cap": 86220516917,
-        "volume_24h": 2207714910
+        "change_24h": -1.22,
+        "market_cap": 86216171718,
+        "volume_24h": 2215635681
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 103.28,
-        "change_24h": -1.46,
-        "market_cap": 60389309502,
-        "volume_24h": 3682579002
+        "price_usd": 103.14,
+        "change_24h": -1.62,
+        "market_cap": 60357783764,
+        "volume_24h": 3691240645
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.082933,
-        "change_24h": -2.04,
-        "market_cap": 12907597239,
-        "volume_24h": 673338966
+        "price_usd": 0.082929,
+        "change_24h": -2.0,
+        "market_cap": 12914429534,
+        "volume_24h": 673354997
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.29,
-        "change_24h": -0.79,
-        "market_cap": 8438778030,
-        "volume_24h": 357881720
+        "price_usd": 11.28,
+        "change_24h": -0.86,
+        "market_cap": 8436117848,
+        "volume_24h": 357735772
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.196532,
-        "change_24h": -2.05,
-        "market_cap": 7364722829,
-        "volume_24h": 364657561
+        "price_usd": 0.19617,
+        "change_24h": -2.32,
+        "market_cap": 7359263693,
+        "volume_24h": 355467492
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 7.22,
-        "change_24h": -1.52,
-        "market_cap": 3115303401,
-        "volume_24h": 193485490
+        "change_24h": -1.66,
+        "market_cap": 3115879740,
+        "volume_24h": 192897815
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 6,
+        "price_usd": 78665,
+        "change_24h": 0.76
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 2446.84,
+        "change_24h": -0.38
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 1,
+        "price_usd": 103.14,
+        "change_24h": -1.62
+      },
+      {
+        "symbol": "MATIC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "UNI",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "ATOM",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 688.34,
+        "change_24h": -0.79
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.37,
+        "change_24h": -1.22
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.19617,
+        "change_24h": -2.32
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.082929,
+        "change_24h": -2.0
+      }
+    ],
     "news": [
       {
         "title": "U.S. jobs report, Russia’s digital ruble rollout: Crypto Week Ahead",
@@ -286,16 +347,37 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to interpret the data: Several predictions about Bitcoin price.\n\n- Will Bitcoin reach $80,000 in August?: Yes 19% (vol $175,802) => low confidence.\n\n- Will Bitcoin dip to $75,000 in August?: Yes 7% (vol $154,997) => low chance of dip to 75k.\n\n- Will Bitcoin dip to $45,000 by Dec 31 2026?: Yes 9% (vol $121,271) => low chance.\n\n- Will price be above $76,000 on Aug 31?: Yes 95% (vol $110,990) => high confidence.\n\n- Will price be above $80,000 on Aug 31?: Yes 4% (vol $98,678) => low.\n\n- Will Bitcoin dip to $40,000 by Dec 31 2026?: Yes 7% (vol $88,277) => low.\n\n- Bitcoin Up or Down on August 31?: Yes"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to interpret the data: Several markets: \"Will Bitcoin reach $80,000 in August?\" Yes 19% (vol $175,802). \"Will Bitcoin dip to $75,000 in August?\" Yes 7% (vol $154,997). \"Will Bitcoin dip to $45,000 by Dec 31, 2026?\" Yes 9% (vol $121,271). \"Will the price of Bitcoin be above $76,000 on August 31?\" Yes 95% (vol $110,990). \"Will the price of Bitcoin be above $80,000 on August 31?\" Yes 4% (vol $98,678). \"Will Bitcoin dip to $40,000 by Dec 31, 2026?\" Yes 7% (vol $88,277). \"Bitcoin Up or Down on August 31?\" Yes 20% (vol $80,502). \"Will Bitcoin dip to $50,0"
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 6,
+          "ETH": 1,
+          "SOL": 1,
+          "MATIC": 1,
+          "UNI": 1,
+          "ATOM": 1,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: top mentioned: BTC (6 mentions), ETH (1), SOL (1), MATIC (1), UNI (1). Subreddits: r/r/CryptoCurrency: activity 100/100 (maybe high activity). So overall sentiment? Not given directly, but we infer from mentions? Could be bullish due to high activity and many BTC mentions. But we need to decide. Probably bullish because BTC mentioned most, high activity. Provide reasons: BTC 6 mentions, high subreddit activity 100/100, etc. Keep within 80 words.\n\nOne paragraph, start with \"Bullish:\" then reasons. Ensure max 80 words. Let's craft ~45 words.\n\n\"Bullish: Bitcoin dominates discussion with 6 mentions, while Ethereum, Solana, Polygon, and Uniswap each appear once, indicating broad interest; the r/CryptoCurrency subreddit shows maximal activity (100/100), suggesting strong community engagement and optimism about the market’s direction.\"\n\nCount words: Bullish:(1) Bitcoin2 dominates3 discussion4 with5 6 mentions,6 while7 Ethereum,8 Sol"
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: Market sentiment is weighed down by significant security failures, including a $75M exploit on Cronos via Tectonic and undisclosed security flaws patched by Polygon. Additionally, insider trading fines for a former White House operator and a $9.3M reserve drain at Markets lending add to the negativity. While Bitcoin remains stable at $78,000, these systemic vulnerabilities and regulatory penalties overshadow neutral macroeconomic updates regarding the U.S. jobs report and the digital ruble."
+      "summary": "Bearish: 0 bullish vs 5 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
@@ -321,51 +403,51 @@
       {
         "symbol": "PONS",
         "name": "Pons",
-        "rank": 151,
+        "rank": 150,
         "score": 0,
-        "change_24h": 4.22
+        "change_24h": 1.16
       },
       {
         "symbol": "SKR",
         "name": "Seeker",
-        "rank": 191,
+        "rank": 189,
         "score": 1,
-        "change_24h": 72.88
+        "change_24h": 76.95
       },
       {
         "symbol": "BOME",
         "name": "BOOK OF MEME",
         "rank": 378,
         "score": 2,
-        "change_24h": -5.65
+        "change_24h": -5.99
       },
       {
-        "symbol": "HNT",
-        "name": "Helium",
-        "rank": 209,
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "rank": 1,
         "score": 3,
-        "change_24h": 21.15
+        "change_24h": 0.67
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "rank": 72,
         "score": 4,
-        "change_24h": 7.78
-      },
-      {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 97,
-        "score": 5,
-        "change_24h": -3.28
+        "change_24h": 7.95
       },
       {
         "symbol": "SOL",
         "name": "Solana",
         "rank": 7,
+        "score": 5,
+        "change_24h": -1.46
+      },
+      {
+        "symbol": "HNT",
+        "name": "Helium",
+        "rank": 211,
         "score": 6,
-        "change_24h": -1.42
+        "change_24h": 17.97
       }
     ]
   },
@@ -384,8 +466,8 @@
         "change_24h": -0.02
       },
       "vix": {
-        "value": 15.21,
-        "change_24h": 5.41
+        "value": 15.22,
+        "change_24h": 5.47
       }
     },
     "market_mood": {
@@ -666,17 +748,17 @@
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: 2 bullish vs 0 bearish signals detected across finance prediction markets data."
+      "outlook": "Mixed",
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes various predictions. Overall sentiment? Let's see: US invade Iran low 15% (bearish for conflict). Fed rates: no change 47%, increase 25bps 52% (slightly bullish for rate hike). Augusto Cury win 3% (very low). WTI hit $90 in Aug only 4% (bearish for oil price). Israel-Iran ceasefire continues through Sep30: Yes 85% (bullish for peace). US announces end of Iranian blockade by Sep30 2026: Yes 20% (low). Putin out as President by Dec31 2026: Yes 7% (low). So overall: mixed but leaning bearish? The high probability of ceasefire suggests bullish for geopolitical stability, but low probabilities for conflict escalation, oil price rise, political changes. Fed rate hike slightly >50% suggests expectation of tightening (could be bearish for equities). So overall mixed.\n\nWe need to start with 'Mixed:' then reasons, mention numbers and names. Must be <=80 words. Let's craft ~70 words"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data provided: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no specific mentions, we can say no clear sentiment? But must start with one of those. Could say Mixed: due to limited data, no strong bullish or bearish signals, etc. Mention numbers? We have none. Could mention that no specific tickers were mentioned. But need numbers and names where available. If none, we can say \"No specific tickers were mentioned\". That's a name? Not really. Could say \"0 mentions\". That's a number. So we can say: Mixed: The discussion showed 0 mentions of any specific ticker, with no clear bullish or bearish bias across subreddits. That's within 80 words. Let's craft ~30 words.\n\nParagraph: Mixed: The Reddit data revealed no top-mentioned tickers or subreddits, indicating a lack of concentrated bullish or bearish chatter; with zero specific stock references, sentiment appears neutral and unfocused.\n\nCheck word count: Mixed:(1) The(2) Reddit(3"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Items: Bullish: China Coking Coal record monthly gain (supply crunch). Gold declines (bearish). Emerging-market stocks set for best August in two decades (neutral). US/Iran exchange strikes (neutral). China's Xi diplomatic clout (neutral). Russia preparing massive strikes on Ukraine energy sites (neutral). Historic $7.5M LA home restored by Tim Curry finds buyer (bullish). Prince Harry/Meghan mansion valuation (neutral).\n\nSo we have two bullish items, one bearish, rest neutral. Overall maybe Mixed. Provide reasons with numbers: China Coking Coal record monthly gain (no number but record). Gold declines due to Warsh speech raising Fed rate-hike bets. $7.5M LA home sale. Emerging-market stocks best August in two decades. So Mixed.\n\nWe need to start with \"Mixed:\" then reasons. Max 80 words. Let's craft ~70 words.\n\nParagraph: \"Mixed: China’s coking coal posted a record monthly gain amid a supply crunch, and a historic $7.5 million Los Angeles home restored by Tim Curry sold quickly after his death, signaling bullish pockets; however, gold extended its"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: then specific reasons, mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data. We have bullish items: China Coking Coal record monthly gain, historic $7.5M L.A. home restored by Tim Curry finds buyer. Bearish: Gold extends decline as Warsh speech raises Fed rate-hike bets. Others neutral. So overall maybe Mixed. Provide reasons with numbers: record monthly gain (no number given but \"record monthly gain\"), $7.5 million home, Gold decline (no %). Could mention \"Gold extends decline\". Provide concise paragraph <=80 words. Let's craft ~55 words.\n\nStart with \"Mixed:\" then reasons.\n\nWord count: Let's draft:\n\n\"Mixed: China’s coking coal posted a record monthly gain amid a supply crunch, while a historic $7.5 million Los Angeles home restored by ‘Rocky Horror’ actor Tim Curry sold quickly after his death, signaling bullish pockets; however, gold extended its decline as former Fed governor Warsh’s remarks heightened expectations for further rate hikes, weighing on sentiment.\"\n\nCount words.\n\nCount: Mixed:(1) China’s2 coking3 coal4 posted5 a6 record7 monthly8 gain9 amid10 a11 supply12 crunch,13 while14 a15 historic1"
     },
     "macro": [
       {
@@ -688,20 +770,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.57,
-        "change_24h": -0.13
+        "value": 99.55,
+        "change_24h": -0.15
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4488.3,
+        "value": 4488.5,
         "change_24h": 0.23
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 86.37,
-        "change_24h": 3.56
+        "value": 86.42,
+        "change_24h": 3.62
       }
     ],
     "most_active": [
@@ -771,15 +853,15 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 54
+          "interest_score": 55
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 9
+          "interest_score": 8
         },
         {
           "keyword": "Solana",
-          "interest_score": 9
+          "interest_score": 7
         },
         {
           "keyword": "crypto",
