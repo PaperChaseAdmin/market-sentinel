@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T05:41:49Z",
+  "updated_at": "2026-08-31T05:51:43Z",
   "crypto": {
     "fear_greed": {
       "value": 62,
@@ -11,77 +11,138 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 77880,
-        "change_24h": -0.32,
-        "market_cap": 1564087852717,
-        "volume_24h": 22199813353
+        "price_usd": 77976,
+        "change_24h": -0.19,
+        "market_cap": 1565534529455,
+        "volume_24h": 22299863146
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2430.08,
-        "change_24h": -1.05,
-        "market_cap": 293283279029,
-        "volume_24h": 12814141467
+        "price_usd": 2435.77,
+        "change_24h": -0.82,
+        "market_cap": 293960279853,
+        "volume_24h": 12885524145
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 685.89,
-        "change_24h": -1.21,
-        "market_cap": 91339835331,
-        "volume_24h": 750804335
+        "price_usd": 686.64,
+        "change_24h": -1.08,
+        "market_cap": 91414650728,
+        "volume_24h": 752246032
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.36,
-        "change_24h": -2.35,
-        "market_cap": 85434413208,
-        "volume_24h": 2007846070
+        "change_24h": -2.15,
+        "market_cap": 85572940333,
+        "volume_24h": 2015892517
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 102.34,
-        "change_24h": -2.55,
-        "market_cap": 59888951843,
-        "volume_24h": 3382210980
+        "price_usd": 102.58,
+        "change_24h": -2.29,
+        "market_cap": 60024622983,
+        "volume_24h": 3395824479
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.082689,
-        "change_24h": -2.75,
-        "market_cap": 12876199179,
-        "volume_24h": 674289129
+        "price_usd": 0.082839,
+        "change_24h": -2.58,
+        "market_cap": 12894843546,
+        "volume_24h": 666085772
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.27,
-        "change_24h": -1.05,
-        "market_cap": 8431402277,
-        "volume_24h": 339138902
+        "price_usd": 11.26,
+        "change_24h": -1.2,
+        "market_cap": 8427649978,
+        "volume_24h": 339918297
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.195126,
-        "change_24h": -2.83,
-        "market_cap": 7320886096,
-        "volume_24h": 345201656
+        "price_usd": 0.195554,
+        "change_24h": -2.67,
+        "market_cap": 7332386037,
+        "volume_24h": 346445491
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 7.2,
-        "change_24h": -1.3,
-        "market_cap": 3110759057,
-        "volume_24h": 185638642
+        "change_24h": -1.33,
+        "market_cap": 3109075594,
+        "volume_24h": 182521542
       }
     ],
-    "top_mentioned": [],
+    "top_mentioned": [
+      {
+        "symbol": "BTC",
+        "mentions": 5,
+        "price_usd": 77976,
+        "change_24h": -0.19
+      },
+      {
+        "symbol": "ETH",
+        "mentions": 1,
+        "price_usd": 2435.77,
+        "change_24h": -0.82
+      },
+      {
+        "symbol": "SOL",
+        "mentions": 1,
+        "price_usd": 102.58,
+        "change_24h": -2.29
+      },
+      {
+        "symbol": "MATIC",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "UNI",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "ATOM",
+        "mentions": 1,
+        "price_usd": null,
+        "change_24h": null
+      },
+      {
+        "symbol": "BNB",
+        "mentions": 0,
+        "price_usd": 686.64,
+        "change_24h": -1.08
+      },
+      {
+        "symbol": "XRP",
+        "mentions": 0,
+        "price_usd": 1.36,
+        "change_24h": -2.15
+      },
+      {
+        "symbol": "ADA",
+        "mentions": 0,
+        "price_usd": 0.195554,
+        "change_24h": -2.67
+      },
+      {
+        "symbol": "DOGE",
+        "mentions": 0,
+        "price_usd": 0.082839,
+        "change_24h": -2.58
+      }
+    ],
     "news": [
       {
         "title": "Zcash private transactions could go from three-second waits to under 200 milliseconds",
@@ -89,9 +150,9 @@
         "url": "https://www.coindesk.com/tech/2026/08/31/zcash-private-transactions-could-go-from-three-second-waits-to-under-200-milliseconds",
         "published": "Mon, 31 Aug 2026 05:23:57 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Cronos halts blockchain after $75 million lending exploit hits lending app Tectonic",
@@ -114,9 +175,9 @@
           "BTC",
           "LINK"
         ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Cronos halts network after Tectonic exploit involving estimated $75M",
@@ -139,9 +200,9 @@
           "BTC",
           "SOL"
         ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Saylor signals Strategy is ‘Back’ to Bitcoin buying",
@@ -161,9 +222,9 @@
         "url": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading",
         "published": "Sun, 30 Aug 2026 23:31:03 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
@@ -173,9 +234,9 @@
         "assets": [
           "MATIC"
         ],
-        "sentiment": "Bullish",
-        "score": 0.7,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
@@ -186,9 +247,9 @@
           "BTC",
           "ETH"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
         "title": "CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC",
@@ -208,9 +269,9 @@
         "url": "https://cryptoslate.com/us-treasury-relies-on-stablecoins-to-fund-short-term-debt-but-they-cant-fix-its-28b-long-bond-problem/",
         "published": "Sun, 30 Aug 2026 18:25:24 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "Wall Street’s favorite Bitcoin broker just walked away from institutional trading to chase gigawatts of power",
@@ -220,28 +281,28 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bearish",
-        "score": -0.7,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       }
     ],
     "news_sentiment": {
-      "score": 0.25,
+      "score": -0.208,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin reach $80,000 in August?",
-        "volume_24h": 179406,
-        "yes_price": 0.18,
+        "volume_24h": 181512,
+        "yes_price": 0.17,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-80k-in-august-2026-from-august-28"
       },
       {
         "title": "Will Bitcoin dip to $75,000 in August?",
         "volume_24h": 149673,
-        "yes_price": 0.07,
+        "yes_price": 0.06,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-75k-in-august-2026"
       },
@@ -254,24 +315,17 @@
       },
       {
         "title": "Will the price of Bitcoin be above $76,000 on August 31?",
-        "volume_24h": 109514,
-        "yes_price": 0.94,
+        "volume_24h": 110072,
+        "yes_price": 0.95,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-76k-on-august-31-2026"
       },
       {
         "title": "Will the price of Bitcoin be above $80,000 on August 31?",
-        "volume_24h": 97550,
+        "volume_24h": 99975,
         "yes_price": 0.05,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-80k-on-august-31-2026"
-      },
-      {
-        "title": "Will Bitcoin reach $82,500 in August?",
-        "volume_24h": 89860,
-        "yes_price": 0.02,
-        "category": "crypto",
-        "url": "https://polymarket.com/event/will-bitcoin-reach-82pt5k-in-august-2026"
       },
       {
         "title": "Will Bitcoin dip to $40,000 by December 31, 2026?",
@@ -286,20 +340,48 @@
         "yes_price": 0.14,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111"
+      },
+      {
+        "title": "Bitcoin Up or Down on August 31?",
+        "volume_24h": 68435,
+        "yes_price": 0.21,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/bitcoin-up-or-down-on-august-31-2026"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
+      "outlook": "Mixed",
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to interpret the data: Several predictions about Bitcoin price in August and long term.\n\n- \"Will Bitcoin reach $80,000 in August?: Yes 17% (vol $181,512)\" => low confidence.\n\n- \"Will Bitcoin dip to $75,000 in August?: Yes 6% (vol $149,673)\" => low.\n\n- \"Will Bitcoin dip to $45,000 by Dec 31 2026?: Yes 9% (vol $121,395)\" low.\n\n- \"Will the price of Bitcoin be above $76,000 on August 31?: Yes 95% (vol $110,072)\" high confidence.\n\n- \"Will the price of Bitcoin be above $80,000 on August 31?: Yes 5% (vol $99,975)\" low.\n\n- \"Will Bitcoin dip to $40,000 by Dec 31 2026?: Yes 7% (vol $88,277)\" low.\n\n- \"Will Bitcoin dip to $50"
     },
-    "reddit": [],
+    "reddit": [
+      {
+        "subreddit": "r/CryptoCurrency",
+        "mentions": {
+          "BTC": 5,
+          "ETH": 1,
+          "SOL": 1,
+          "MATIC": 1,
+          "UNI": 1,
+          "ATOM": 1,
+          "BNB": 0,
+          "XRP": 0,
+          "ADA": 0,
+          "DOGE": 0
+        },
+        "activity_score": 100,
+        "top_post": "Daily Crypto Discussion - August 17, 2026 (GMT+0)",
+        "top_post_url": "https://old.reddit.com/r/CryptoCurrency/comments/1vr7srb/daily_crypto_discussion_august_17_2026_gmt0/",
+        "top_post_score": 0,
+        "posts": 25
+      }
+    ],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
+      "summary": "We need to produce exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: top mentioned: BTC (5 mentions), ETH (1), SOL (1), MATIC (1), UNI (1). Subreddits: r/r/CryptoCurrency: activity 100/100. So high activity, many mentions of BTC. Likely bullish sentiment due to BTC dominance. Provide reasons: BTC mentioned 5 times, high activity 100/100. Could be mixed if other tokens low. But overall likely bullish. Provide one paragraph, start with \"Bullish:\" then reasons. Ensure max 80 words. Let's craft ~40 words.\n\n\"Bullish: Bitcoin dominates discussion with 5 mentions, while Ethereum, Solana, Polygon and Uniswap each appear once, indicating focused interest on BTC; the r/CryptoCurrency subreddit shows maximal activity (100/100), suggesting strong positive engagement and optimism about Bitcoin's near‑term prospects.\"\n\nCount words: Bullish:(1) Bitcoin2 dominates3 discussion4 with5 5 mentions,6 while7 Ethereum,8 Solana,9 Polygon10 and11 Uniswap12 each13 appear14"
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 3 bullish vs 5 bearish signals detected across crypto news data."
+      "outlook": "Mixed",
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: many bearish items: Zcash private transactions faster (bearish?), Cronos halt after $75M exploit (bearish), another Cronos halt (duplicate), ex-White House operator fined (bearish), Polygon patched flaws before disclosing (bearish). Bullish: Saylor signals Strategy is 'Back' to Bitcoin buying. Neutral: Bitcoin barely blinks as US hits Iran, Bitcoin’s new quantum defenses, 18.9M SOL cancelled.\n\nOverall more bearish than bullish. So start with 'Bearish:' then list reasons with numbers/names.\n\nWe need exactly one paragraph, max 80 words. Let's craft ~70 words.\n\nParagraph: \"Bearish: Cronos halted its blockchain twice after a $75 million exploit hit the Tectonic lending app, Zcash aims to cut private‑transaction latency from three seconds to under 200 ms, an ex‑White House teleprompter operator was fined for insider trading on prediction markets, and Polygon quietly fixed security flaws in two hard forks before disclosure; only MicroStrategy’s Michael Saylor signaled a renewed Bitcoin buying stance,"
     },
     "fourchain": {
       "thread_count": 201,
@@ -325,51 +407,51 @@
       {
         "symbol": "PONS",
         "name": "Pons",
-        "rank": 151,
+        "rank": 152,
         "score": 0,
-        "change_24h": 17.54
+        "change_24h": 16.4
       },
       {
         "symbol": "SKR",
         "name": "Seeker",
-        "rank": 172,
+        "rank": 168,
         "score": 1,
-        "change_24h": 109.81
+        "change_24h": 113.9
+      },
+      {
+        "symbol": "HNT",
+        "name": "Helium",
+        "rank": 232,
+        "score": 2,
+        "change_24h": 2.1
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
         "rank": 50,
-        "score": 2,
-        "change_24h": -12.98
-      },
-      {
-        "symbol": "HNT",
-        "name": "Helium",
-        "rank": 242,
         "score": 3,
-        "change_24h": -7.86
-      },
-      {
-        "symbol": "HYPE",
-        "name": "Hyperliquid",
-        "rank": 9,
-        "score": 4,
-        "change_24h": -2.43
+        "change_24h": -13.15
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 98,
-        "score": 5,
-        "change_24h": -3.59
+        "score": 4,
+        "change_24h": -3.48
       },
       {
         "symbol": "LIT",
         "name": "Lighter",
         "rank": 72,
+        "score": 5,
+        "change_24h": 4.14
+      },
+      {
+        "symbol": "CRO",
+        "name": "Cronos",
+        "rank": 36,
         "score": 6,
-        "change_24h": 4.24
+        "change_24h": -1.84
       }
     ]
   },
@@ -417,11 +499,6 @@
         "symbol": "MSFT",
         "price_usd": 513.53,
         "change_24h": 1.68
-      },
-      {
-        "symbol": "GOOGL",
-        "price_usd": 346.59,
-        "change_24h": 1.74
       },
       {
         "symbol": "AMZN",
@@ -485,7 +562,7 @@
         "title": "Trump threatens to blow up Iran's Kharg Island oil hub as hostilities escalate once again",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/08/30/us-iran-strikes-strait-hormuz.html",
-        "published": "Mon, 31 Aug 2026 02:48:30 GMT",
+        "published": "Mon, 31 Aug 2026 05:49:48 GMT",
         "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
@@ -612,42 +689,42 @@
     "polymarket": [
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 640995,
+        "volume_24h": 640911,
         "yes_price": 0.15,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 597473,
+        "volume_24h": 603114,
         "yes_price": 0.47,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "volume_24h": 468616,
+        "volume_24h": 457216,
         "yes_price": 0.52,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649"
       },
       {
         "title": "Will Augusto Cury win the 2026 Brazilian presidential election?",
-        "volume_24h": 241899,
+        "volume_24h": 412818,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/will-augusto-cury-win-the-2026-brazilian-presidential-election"
       },
       {
         "title": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in August?",
-        "volume_24h": 175319,
-        "yes_price": 0.05,
+        "volume_24h": 176744,
+        "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/will-wti-reach-90-in-august-2026"
       },
       {
         "title": "Israel x Iran ceasefire continues through September 30?",
-        "volume_24h": 170247,
+        "volume_24h": 170260,
         "yes_price": 0.83,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-september-30"
@@ -674,11 +751,11 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect us to infer from given data? There's no actual discussion content. Might be a trick: we have no data, so we cannot mention numbers or names. But we must mention numbers and names where available. Since none are available, we can just say no specific numbers/names. But we must start with one of those labels. Probably we choose Mixed: because insufficient data. Provide reasons: lack of clear sentiment, limited data. Must be <=80 words. One paragraph.\n\nLet's craft: \"Mixed: The Reddit snippet only lists that the top-mentioned subreddits were referenced without providing any actual comment volume, tickers, or user opinions, so there is no quantifiable bullish or bearish signal to cite; consequently, sentiment remains indeterminate given the absence of specific numbers, stock names, or discussion tone.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snippet4 only5 lists6 that7 the8 top-mentioned9 subreddits10 were11 referenced12 without13 providing14 any15 actual16 comment17 volume,18 tickers,"
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Let's tally: Bullish: China Coking Coal record monthly gain, Trump threatens to blow up Iran's Kharg Island oil hub (bullish). Bearish: Grand Canyon flash flood (bearish), France sovereign debt problems (bearish), U.S. stock futures slip (bearish), regifting house (bearish). Neutral: Oil market news, Jackson Hole analyst roundup (neutral). So more bearish items (4) vs bullish (2). So overall Mixed? Could be Bearish leaning. But we must start with one of the three labels. Choose Mixed: because there are both bullish and bearish signals. Provide reasons with numbers/names where available.\n\nWe need numbers: China Coking Coal record monthly gain (no number given). Trump threatens to blow up Iran's Kharg Island oil hub (no number). Grand Canyon flash flood leaves one dead, 15 others missing (numbers). France government borrowing costs hit near 2008 highs (no exact number). U.S. stock futures slip (no number). Could mention \"near 2008 highs\". Also mention \"Jackson Hole\" etc.\n\nWe need max 80 words. Let's craft ~70 words"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Let's list items with sentiment:\n\n- Oil Market News (Neutral)\n- Grand Canyon Flash Flood (Bearish)\n- China Coking Coal record monthly gain (Bullish)\n- Trump threatens to blow up Iran's Kharg Island oil hub (Bullish)\n- Jackson Hole analyst roundup: Warsh's speech sends hike chances higher, may put Fed at odds with Treasury (Neutral)\n- France sovereign debt problems, borrowing costs near 2008 highs (Bearish)\n- U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments (Bearish)\n- 'It's the ultimate regifting' ... (Bearish) (some personal finance advice, but labeled Bearish)\n\nSo we have Bullish: 2 items (China coking coal, Trump threat). Bearish: 4 items (Grand Canyon flood, France debt, US stock futures slip, regifting). Neutral: 2 items.\n\nOverall more bearish signals. So start with 'Bearish:' then list reasons with numbers/names.\n\nWe need to mention numbers and names where available: e.g., Grand Canyon Flash Flood leaves one dead,"
     },
     "macro": [
       {
@@ -690,20 +767,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.59,
-        "change_24h": -0.11
+        "value": 99.61,
+        "change_24h": -0.09
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4485.0,
-        "change_24h": 0.15
+        "value": 4483.5,
+        "change_24h": 0.12
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 85.9,
-        "change_24h": 3.0
+        "value": 85.92,
+        "change_24h": 3.02
       }
     ],
     "most_active": [
@@ -773,11 +850,11 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 61
+          "interest_score": 72
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 7
+          "interest_score": 13
         },
         {
           "keyword": "Solana",
@@ -785,7 +862,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 39
+          "interest_score": 42
         }
       ]
     }
