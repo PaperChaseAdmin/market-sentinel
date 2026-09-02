@@ -1,88 +1,98 @@
 {
-  "updated_at": "2026-09-01T23:50:52Z",
+  "updated_at": "2026-09-02T00:01:32Z",
   "crypto": {
     "fear_greed": {
-      "value": 69,
+      "value": 63,
       "label": "Greed",
-      "previous_value": 62,
+      "previous_value": 69,
       "previous_label": "Greed"
     },
     "prices": [
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 77536,
-        "change_24h": -1.27,
-        "market_cap": 1556403429715,
-        "volume_24h": 30104923871
+        "price_usd": 77410,
+        "change_24h": -1.45,
+        "market_cap": 1554315106720,
+        "volume_24h": 30134441825
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2422.98,
-        "change_24h": -1.76,
-        "market_cap": 292347083866,
-        "volume_24h": 12755458687
+        "price_usd": 2417.99,
+        "change_24h": -1.93,
+        "market_cap": 291813094450,
+        "volume_24h": 12772256784
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 683.05,
-        "change_24h": -1.12,
-        "market_cap": 90939683122,
-        "volume_24h": 698958040
+        "price_usd": 682.75,
+        "change_24h": -1.2,
+        "market_cap": 90919293621,
+        "volume_24h": 708789276
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.35,
-        "change_24h": -1.87,
-        "market_cap": 84848115150,
-        "volume_24h": 2069028333
+        "change_24h": -1.99,
+        "market_cap": 84813769011,
+        "volume_24h": 2076712351
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 100.13,
-        "change_24h": -2.76,
-        "market_cap": 58569094999,
-        "volume_24h": 3411950953
+        "price_usd": 99.98,
+        "change_24h": -2.91,
+        "market_cap": 58515479534,
+        "volume_24h": 3416676578
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.08174,
-        "change_24h": -1.26,
-        "market_cap": 12726367166,
-        "volume_24h": 538631630
+        "price_usd": 0.081661,
+        "change_24h": -1.38,
+        "market_cap": 12718442553,
+        "volume_24h": 537381516
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.24,
-        "change_24h": -0.7,
-        "market_cap": 8402907926,
-        "volume_24h": 375884190
+        "price_usd": 11.23,
+        "change_24h": -0.82,
+        "market_cap": 8398861049,
+        "volume_24h": 375791893
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.196747,
-        "change_24h": -0.62,
-        "market_cap": 7371156965,
-        "volume_24h": 355297307
+        "price_usd": 0.196557,
+        "change_24h": -0.6,
+        "market_cap": 7371703896,
+        "volume_24h": 352281052
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 7.23,
-        "change_24h": 0.02,
-        "market_cap": 3120566255,
-        "volume_24h": 191270831
+        "price_usd": 7.22,
+        "change_24h": -0.15,
+        "market_cap": 3116558235,
+        "volume_24h": 188907420
       }
     ],
     "top_mentioned": [],
     "news": [
+      {
+        "title": "SEC proposes transfer agent rule, sets event to figure out round-the-clock U.S. trading",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/policy/2026/09/01/sec-proposes-transfer-agent-rule-sets-event-to-figure-out-round-the-clock-u-s-trading",
+        "published": "Tue, 01 Sep 2026 23:55:46 +0000",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
       {
         "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
         "source": "CoinDesk",
@@ -102,18 +112,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "Musk’s X hit by wave of unsolicited password reset emails",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/tech/2026/09/01/musk-s-x-hit-by-wave-of-unsolicited-password-reset-emails",
-        "published": "Tue, 01 Sep 2026 14:59:12 +0000",
-        "assets": [
-          "SOL"
-        ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Crypto-backed PAC scales back ad spending in Massachusetts primary",
@@ -209,7 +207,7 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.25,
+      "score": 0.167,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -250,11 +248,11 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
+      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed:. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave placeholder? Possibly they expect we infer from data? But there is no actual data. Might need to respond with something like \"Mixed: ...\" but we need numbers and names. Since no data, we can say insufficient data? But must follow instruction. Could we say \"Mixed: No specific data provided, so sentiment unclear.\" But need numbers and names. Could we say \"Mixed: 0 mentions, no subreddits listed.\" That includes number 0. That might be acceptable. Must be <=80 words. Let's craft: \"Mixed: The provided data shows no specific subreddit names or mention counts, indicating a lack of discernible crypto discussion volume; with 0 top-mentioned subreddits listed, sentiment cannot be inferred as bullish or bearish, resulting in a neutral/mixed outlook.\" Count words.\n\nCount: Mixed:(1) The2 provided3 data4 shows5 no6 specific7 subreddit8 names9 or10 mention11 counts,12 indicating13 a14 lack15 of16 discernible17 crypto18 discussion19 volume;20 with21 022 top-mentioned23"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 6 bullish vs 5 bearish signals detected across crypto news data."
+      "summary": "Mixed: 6 bullish vs 6 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
@@ -282,49 +280,49 @@
         "name": "Pons",
         "rank": 123,
         "score": 0,
-        "change_24h": 14.21
+        "change_24h": 11.71
       },
       {
         "symbol": "RAM",
         "name": "Ramses",
-        "rank": 900,
+        "rank": 926,
         "score": 1,
-        "change_24h": -76.54
+        "change_24h": -77.48
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 103,
         "score": 2,
-        "change_24h": -3.44
-      },
-      {
-        "symbol": "CASHCAT",
-        "name": "Cash Cat",
-        "rank": 165,
-        "score": 3,
-        "change_24h": 14.68
+        "change_24h": -2.75
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
+        "score": 3,
+        "change_24h": -1.27
+      },
+      {
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "rank": 168,
         "score": 4,
-        "change_24h": -1.31
+        "change_24h": 12.65
       },
       {
         "symbol": "USELESS",
         "name": "Useless Coin",
         "rank": 242,
         "score": 5,
-        "change_24h": 25.76
+        "change_24h": 26.85
       },
       {
-        "symbol": "SOL",
-        "name": "Solana",
-        "rank": 7,
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "rank": 51,
         "score": 6,
-        "change_24h": -2.87
+        "change_24h": -1.15
       }
     ]
   },
@@ -450,7 +448,7 @@
         "title": "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html",
-        "published": "Tue, 01 Sep 2026 23:33:42 GMT",
+        "published": "Tue, 01 Sep 2026 23:52:21 GMT",
         "assets": [],
         "sentiment": "Bullish",
         "score": 1.0,
@@ -589,7 +587,7 @@
       {
         "title": "Israel x Iran ceasefire continues through September 30?",
         "volume_24h": 220087,
-        "yes_price": 0.83,
+        "yes_price": 0.82,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-september-30"
       },
@@ -617,14 +615,14 @@
       {
         "title": "Iran full airspace closure by September 30?",
         "volume_24h": 114526,
-        "yes_price": 0.12,
+        "yes_price": 0.1,
         "category": "finance",
         "url": "https://polymarket.com/event/iran-full-airspace-closure-by-september-30-20260727170320670"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: 2 bullish vs 0 bearish signals detected across finance prediction markets data."
+      "outlook": "Mixed",
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on the data. The data includes Fed interest rate predictions: \"Will there be no change in Fed interest rates after the September 2026 meeting?: Yes 41%\" and \"Will the Fed increase interest rates by 25 bps after the September 2026 meeting?: Yes 58%\". So more probability of increase (58%) vs no change (41%). So expectation of rate hike => bearish for equities? Typically higher rates bearish for stocks, bullish for dollar. Also geopolitical: US invade Iran before 2027: Yes 17% low probability. Israel x Iran ceasefire continues through Sep 30: Yes 82% high probability => suggests stability, bullish for region. Brazilian election: Augusto Cury 2%, Renan Santos 3% both low, implying incumbent likely? Not given. US announces end of Iranian blockade by Sep 7, 2026: Yes 2% low. Iran full airspace closure by Sep 30: Yes 10% low. So overall: expectation of Fed rate hike (somewhat bearish for stocks), but high chance of Israel-I"
     },
     "reddit": [],
     "reddit_summary": {
@@ -632,8 +630,8 @@
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 6 bullish vs 11 bearish signals detected across stock/finance news data."
+      "outlook": "Mixed",
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: Many bearish items: Gold holds drop as higher oil, bond selloff raise rate-hike bets (Bearish). Asian stocks set to fall as oil gains, bonds drop (Bearish). US strikes Iran raising risk of wider war (Bearish). Dow drops below a key chart level, warning of more trouble ahead (Bearish). Bullish items: Why high yields on government bonds are causing alarm (Bullish) - note: high yields causing alarm is actually bearish? But they label Bullish. China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says (Bullish). Canada's Carney slaps Trump admin for 'doing memes ... throwing shade' (Bullish). 'It’s not fair': My twin brother... (Bullish) - irrelevant.\n\nSo we have 4 bearish, 3 bullish. Mixed sentiment likely. Need to start with \"Mixed:\" then reasons, mention numbers and names where available. We have names: Bessent, Carney, Trump admin, maybe mention Dow, oil, bonds. Numbers: maybe mention \"key chart level\" no number; could mention \"h"
     },
     "macro": [
       {
@@ -645,20 +643,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 99.67,
-        "change_24h": 0.24
+        "value": 99.66,
+        "change_24h": 0.23
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4381.1,
-        "change_24h": -1.13
+        "value": 4378.6,
+        "change_24h": -1.18
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 90.8,
-        "change_24h": 5.88
+        "value": 90.77,
+        "change_24h": 5.84
       }
     ],
     "most_active": [
@@ -725,24 +723,7 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": [
-        {
-          "keyword": "Bitcoin",
-          "interest_score": 78
-        },
-        {
-          "keyword": "Ethereum",
-          "interest_score": 15
-        },
-        {
-          "keyword": "Solana",
-          "interest_score": 14
-        },
-        {
-          "keyword": "crypto",
-          "interest_score": 56
-        }
-      ]
+      "crypto": []
     }
   },
   "portfolio": [
