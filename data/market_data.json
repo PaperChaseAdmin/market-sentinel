@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T22:02:04Z",
+  "updated_at": "2026-09-07T22:11:56Z",
   "crypto": {
     "fear_greed": {
       "value": 71,
@@ -7,80 +7,7 @@
       "previous_value": 73,
       "previous_label": "Greed"
     },
-    "prices": [
-      {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "price_usd": 79192,
-        "change_24h": -0.9,
-        "market_cap": 1590229054559,
-        "volume_24h": 24146990413
-      },
-      {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "price_usd": 2491.3,
-        "change_24h": -0.6,
-        "market_cap": 304010068635,
-        "volume_24h": 11803629011
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price_usd": 739.29,
-        "change_24h": -1.56,
-        "market_cap": 98446047382,
-        "volume_24h": 904489735
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price_usd": 1.4,
-        "change_24h": -1.84,
-        "market_cap": 87675091111,
-        "volume_24h": 2065255523
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price_usd": 103.94,
-        "change_24h": -1.82,
-        "market_cap": 60928584315,
-        "volume_24h": 3263447924
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price_usd": 0.090438,
-        "change_24h": -0.01,
-        "market_cap": 14093510375,
-        "volume_24h": 814370230
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price_usd": 12.76,
-        "change_24h": -0.91,
-        "market_cap": 9547258754,
-        "volume_24h": 713256000
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price_usd": 0.220596,
-        "change_24h": -0.36,
-        "market_cap": 8276274892,
-        "volume_24h": 470891866
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price_usd": 8.11,
-        "change_24h": 4.22,
-        "market_cap": 3503389245,
-        "volume_24h": 410188821
-      }
-    ],
+    "prices": [],
     "top_mentioned": [],
     "news": [
       {
@@ -176,6 +103,18 @@
         "color": "red"
       },
       {
+        "title": "Strong jobs just triggered a hawkish UBS reversal that could pressure Bitcoin through December",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/strong-jobs-just-triggered-a-hawkish-ubs-reversal-that-could-pressure-bitcoin-through-december/",
+        "published": "Mon, 07 Sep 2026 22:05:44 +0000",
+        "assets": [
+          "BTC"
+        ],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
         "title": "Ethereum arbitrage study reveals builders receive $5 for every $1 burned by the network",
         "source": "CryptoSlate",
         "url": "https://cryptoslate.com/ethereum-arbitrage-study-reveals-builders-receive-5-for-every-1-burned-by-the-network/",
@@ -196,51 +135,38 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Solana beats Bitcoin on one key metric, but a single software bug could still take down the network",
-        "source": "CryptoSlate",
-        "url": "https://cryptoslate.com/solana-beats-bitcoin-on-one-key-metric-but-a-single-software-bug-could-still-take-down-the-network/",
-        "published": "Mon, 07 Sep 2026 19:00:42 +0000",
-        "assets": [
-          "BTC",
-          "SOL"
-        ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.208,
+      "score": -0.125,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Ethereum dip to $2,250 by December 31, 2026?",
-        "volume_24h": 136076,
-        "yes_price": 0.54,
+        "volume_24h": 161558,
+        "yes_price": 0.55,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-ethereum-dip-to-2250-by-december-31-2026"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed:. Summarize overall market sentiment based on the data: only one prediction: Ethereum dip to $2,250 by Dec 31 2026: Yes 54% (vol $136,076). So 54% think it will dip (yes). That suggests bearish sentiment (expecting price to go down). So start with Bearish: then mention that 54% of market participants expect ETH to fall to $2,250 by end 2026, with volume $136k, indicating moderate bearish bias. Must be max 80 words. One paragraph. Let's craft ~40 words.\n\n\"Bearish: The prediction market shows 54% of participants expect Ethereum to dip to $2,250 by December 31, 2026, with a trading volume of $136,076, indicating a slight majority betting on a price decline and thus a modestly bearish overall sentiment.\"\n\nCount words: Bearish:(1) The2 prediction3 market4 shows5 54%6 of7 participants8 expect9 Ethereum10 to11 dip12 to13 $2,25014 by15 December16 31,17 2026"
+      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed:. Summarize overall market sentiment based on the data: only one prediction: Ethereum dip to $2,250 by Dec 31 2026: Yes 55% (vol $161,558). So 55% think yes (dip), implying bearish sentiment slightly majority. So overall sentiment: Bearish, because >50% expect dip. Provide reasons: 55% probability of dip to $2,250, volume $161,558 indicates moderate interest. Must be max 80 words. One paragraph. Let's craft ~40 words.\n\n\"Bearish: 55% of traders expect Ethereum to fall to $2,250 by December 31, 2026, indicating a slight majority anticipating a downside move; the market shows modest engagement with $161,558 in volume on this contract, reinforcing the bearish tilt.\"\n\nCount words: Bearish:(1) 55%(2) of3 traders4 expect5 Ethereum6 to7 fall8 to9 $2,25010 by11 December12 31,3 2026,14 indicating15 a16 slight17 majority18 anticipating19 a2"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names and numbers where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave only that line. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no specifics, we can say insufficient data leads to mixed sentiment? But need mention numbers and names where available—none available. Could say \"No specific numbers or names provided.\" But that might violate \"Mention numbers and names where available.\" If none, we can say none available. That's okay.\n\nWe need max 80 words. Let's craft ~30 words.\n\nStart with \"Mixed:\" then reasons: limited data, no clear trend, top mentioned subreddits unspecified, etc.\n\nWord count: Let's draft:\n\n\"Mixed: The Reddit snapshot shows only the label 'Top mentioned: Subreddits:' without any actual subreddit names, post counts, or sentiment indicators, making it impossible to gauge a clear bullish or bearish bias; consequently, market sentiment appears ambiguous pending more detailed data.\"\n\nCount words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 the7 label8 'Top9 mentioned:10 Subreddits:'1"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave only a header. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no data, we might say insufficient data? But must start with one of those prefixes. Could say \"Mixed: ...\" and note lack of concrete sentiment. But must mention numbers and names where available. There are none. Could we say \"No specific numbers or names were provided.\" That mentions that there are none. That might be acceptable. Must be max 80 words. Let's craft: \"Mixed: The Reddit snapshot shows only the label 'Top mentioned: Subreddits:' without any actual posts, upvote counts, or named tokens, making it impossible to gauge bullish or bearish bias; consequently sentiment appears neutral with no quantifiable metrics to support a directional view.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 the7 label8 'Top9 mentioned:10 Subreddits:'11 without12 any13 actual14 posts,15 upvote16 counts,17 or18 named19 tokens,2"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: we have several items: Hunter Biden memecoin (neutral), Polish prosecutors charge fifth suspect (bearish), Stablecoin wallets challenge banks (bearish), Here's what happened in crypto today (neutral), UK watchdog weighs lifting prediction markets ban (bearish), Ethereum Foundation names 2 'must ship' EIPs for Hegotá upgrade (bullish), LG TV listening (neutral), OpenAI chief scientist warns AI labs may need to slow down (bearish). So more bearish items (Polish prosecutors, stablecoin wallets, UK watchdog, OpenAI) = 4 bearish. Bullish: Ethereum Foundation (1). Neutral: others. So overall sentiment likely Bearish. Must start with \"Bearish:\" then reasons, mention numbers and names where available. Include numbers: fifth suspect, 2 'must ship' EIPs, maybe mention Hegotá upgrade. Also mention Polish prosecutors, stablecoin wallets, UK financial watchdog, OpenAI Chief Scientist. Keep under 80 words.\n\nLet's craft ~55 words.\n\n\"Bearish: Polish prosecutors charged a fifth suspect in a major crypto probe,"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: we have several items: Hunter Biden memecoin (neutral), Polish prosecutors charge fifth suspect (bearish), Stablecoin wallets challenge banks (bearish), Here's what happened in crypto today (neutral), UK financial watchdog weighs lifting prediction markets ban (bearish), Ethereum Foundation names 2 'must ship' EIPs for Hegotá upgrade (bullish), LG TV listening (neutral), OpenAI Chief Scientist warns AI labs may need to slow down (bearish). So more bearish items (Polish prosecutors, stablecoin wallets, UK watchdog, OpenAI) = 4 bearish; bullish: 1 (Ethereum Foundation). Neutral: 3. Overall sentiment likely bearish. So start with \"Bearish:\" then list reasons with numbers/names: Polish prosecutors charging fifth suspect, stablecoin wallets challenging banks, UK financial watchdog weighing lifting prediction markets ban, OpenAI chief scientist warning AI labs may need to slow down. Also maybe mention Ethereum Foundation's 2 must-ship EIPs as a bullish counter but overall bearish. Must mention numbers and names where available. So include \""
     },
     "fourchain": {
       "thread_count": 199,
-      "active_threads": 147,
+      "active_threads": 148,
       "mentions": {
         "XRP": 23,
         "BTC": 19,
@@ -264,49 +190,49 @@
         "name": "Firo",
         "rank": 950,
         "score": 0,
-        "change_24h": -6.23
+        "change_24h": -8.92
       },
       {
         "symbol": "PONS",
         "name": "Pons",
         "rank": 109,
         "score": 1,
-        "change_24h": -17.81
-      },
-      {
-        "symbol": "PUMP",
-        "name": "Pump.fun",
-        "rank": 52,
-        "score": 2,
-        "change_24h": 9.27
+        "change_24h": -17.36
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
         "rank": 9,
+        "score": 2,
+        "change_24h": -7.48
+      },
+      {
+        "symbol": "PUMP",
+        "name": "Pump.fun",
+        "rank": 52,
         "score": 3,
-        "change_24h": -7.51
+        "change_24h": 8.74
       },
       {
         "symbol": "STONK",
         "name": "STONK",
         "rank": 250,
         "score": 4,
-        "change_24h": -16.59
+        "change_24h": -15.11
       },
       {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 104,
+        "symbol": "AERO",
+        "name": "Aerodrome Finance",
+        "rank": 93,
         "score": 5,
-        "change_24h": -3.26
+        "change_24h": 11.71
       },
       {
-        "symbol": "INJ",
-        "name": "Injective",
-        "rank": 95,
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "rank": 24,
         "score": 6,
-        "change_24h": 18.71
+        "change_24h": -4.0
       }
     ]
   },
@@ -453,32 +379,30 @@
         "color": "yellow"
       },
       {
-        "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
+        "title": "Why does almost nobody want to befriend older people like me — except scammers?",
         "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
-        "published": "Mon, 07 Sep 2026 19:30:00 GMT",
+        "url": "https://www.marketwatch.com/story/why-does-almost-nobody-want-to-befriend-older-people-like-me-except-scammers-fda849d1?mod=mw_rss_topstories",
+        "published": "Mon, 07 Sep 2026 22:00:00 GMT",
         "assets": [],
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
       },
       {
-        "title": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
-        "published": "Mon, 07 Sep 2026 19:17:00 GMT",
-        "assets": [
-          "AMC"
-        ],
-        "sentiment": "Bullish",
-        "score": 0.333,
-        "color": "green"
-      },
-      {
         "title": "‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out?",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories",
-        "published": "Mon, 07 Sep 2026 18:30:00 GMT",
+        "published": "Mon, 07 Sep 2026 22:00:00 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
+        "title": "‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/i-didnt-know-what-i-didnt-know-i-thought-id-have-to-depend-on-social-security-then-i-taught-myself-how-to-invest-0129870b?mod=mw_rss_topstories",
+        "published": "Mon, 07 Sep 2026 19:30:00 GMT",
         "assets": [],
         "sentiment": "Bearish",
         "score": -1.0,
@@ -548,21 +472,21 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.311,
+      "score": -0.4,
       "label": "Bearish",
       "color": "red"
     },
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
-        "volume_24h": 695632,
+        "volume_24h": 687165,
         "yes_price": 0.47,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
-        "volume_24h": 443985,
+        "volume_24h": 443904,
         "yes_price": 0.52,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649"
@@ -590,38 +514,38 @@
       },
       {
         "title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-        "volume_24h": 77020,
+        "volume_24h": 77015,
         "yes_price": 0.58,
         "category": "finance",
         "url": "https://polymarket.com/event/will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election"
       },
       {
         "title": "Israel x Iran ceasefire continues through December 31?",
-        "volume_24h": 73722,
+        "volume_24h": 72088,
         "yes_price": 0.64,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-december-31-415"
       },
       {
         "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-        "volume_24h": 63814,
+        "volume_24h": 63809,
         "yes_price": 0.4,
         "category": "finance",
         "url": "https://polymarket.com/event/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: 2 bullish vs 0 bearish signals detected across finance prediction markets data."
+      "outlook": "Mixed",
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes Fed rate no change 47% yes, increase 25bps 52% yes (so slight tilt to increase). US-Iran nuclear deal low 10%, Putin out 7% low. Israel-Iran ceasefire continues through Sep 30 high 86%, through Dec 31 64% (still relatively high). Brazilian election: Lula 58% yes, Bolsonaro 40% yes (so Lula favored). Overall sentiment: Mixed? There's some bullish signs (ceasefire, Lula win) and bearish (low chance of nuclear deal, Putin out). Fed rate increase slightly more likely than no change (52% vs 47%) suggests expectation of tightening (maybe bearish for equities). So overall mixed.\n\nWe need to start with \"Mixed:\" then reasons, include numbers and names. Must be <=80 words. Let's craft ~70 words.\n\nCount words: We'll aim ~65.\n\nParagraph: \"Mixed: Markets show a slight bias toward a Fed rate hike (52% chance of a 25‑bp increase vs 47% for no change after"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" maybe they omitted details. We need to infer? Possibly they expect we note that no specific tickers or numbers given, so we can say sentiment unclear? But must start with one of those words. Could say Mixed: due to limited data showing equal mentions across subreddits? But we have no numbers.\n\nWe could say: Mixed: The discussion shows balanced activity across multiple subreddits with no clear dominance, indicating uncertainty. But need numbers and names where available. Since none provided, we can say \"No specific tickers or volume figures were cited.\" That's still mentioning that numbers are absent.\n\nWe need max 80 words. Let's craft ~30 words.\n\n\"Mixed: Reddit chatter is spread evenly among several subreddits without any single ticker or thread gaining notable traction, and no specific mention counts or stock names were highlighted, reflecting indecisive sentiment among retail investors.\"\n\nCheck word count: Mixed:(1) Reddit(2) chatter(3) is(4) spread(5) evenly(6) among(7) several(8"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect us to infer from given data? But there is no actual discussion content. Maybe they expect we note that no specific tickers or sentiment given, so we say Mixed due to lack of data? But we need to mention numbers and names where available. There's no numbers or names. Could we say \"No specific tickers mentioned\"? That would be a name? Not really.\n\nMaybe the intention: The data is just placeholder; we need to produce a concise summary based on that limited data: \"Top mentioned: Subreddits:\" implies no subreddits listed, so we can say sentiment cannot be determined, thus Mixed due to insufficient data. Mention numbers? None.\n\nWe could say: \"Mixed: The discussion did not highlight any specific stocks or subreddits, with zero top-mentioned tickers and no quantifiable sentiment indicators, resulting in an unclear market outlook.\" That's about 24 words.\n\nStart with \"Mixed:\" then reasons. Ensure one paragraph, max 80 words. Let's craft ~30 words.\n\nCheck: \"Mixed: The Reddit data shows no top-mentioned"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's tally: Bullish items: EM Stocks Jump to Highest Since June as Tech Offsets Higher Oil (Bullish); Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit (Bullish); Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels (Bullish). That's three bullish.\n\nBearish: Sapporo Breweries CSO on Tariffs, Iran War (Bearish); ‘Poverty doesn’t have to be my reality’: I thought I’d have to rely on Social Security. Then I taught myself how to invest. (Bearish). That's two bearish.\n\nNeutral: Bathla Group Collapse; Crashed Amazon cargo jet; Trump says Bombardier can't sell in U.S. unless Canada aerospace giant builds there. Those are neutral.\n\nOverall more bullish signals (3 vs 2). So overall sentiment likely Bullish. Provide reasons: EM stocks highest since June, oil prices at 6-week high, Saudi Aramco refinery hit causing price rise, offsetting tariffs concerns. Mention numbers: EM stocks highest since June,"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nData includes: Sapporo Breweries CSO on Tariffs, Iran War (Bearish) - bearish. EM Stocks Jump to Highest Since June as Tech Offsets Higher Oil (Bullish). Bathla Group Collapse (Neutral). Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit (Bullish). Crashed Amazon cargo jet (Neutral). Trump says Bombardier can't sell in U.S. unless Canada aerospace giant builds there (Neutral). Why does almost nobody want to befriend older people like me — except scammers? (Bearish). ‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out? (Bearish).\n\nSo we have bullish: EM stocks jump, oil price rise. Bearish: Sapporo Breweries CSO on tariffs/Iran war, older people befriend scammers, IRA cash out question (maybe tax concerns). Neutral items not affect sentiment.\n\nOverall sentiment maybe mixed but leaning? There are 2 bullish, 3 bearish (including two personal finance bearish). Could be mixed. Provide reasons with"
     },
     "macro": [
       {
@@ -716,19 +640,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 52
+          "interest_score": 61
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 9
+          "interest_score": 12
         },
         {
           "keyword": "Solana",
-          "interest_score": 9
+          "interest_score": 12
         },
         {
           "keyword": "crypto",
-          "interest_score": 39
+          "interest_score": 42
         }
       ]
     }
