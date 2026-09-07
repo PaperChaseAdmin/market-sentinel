@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T18:01:25Z",
+  "updated_at": "2026-09-07T18:03:58Z",
   "crypto": {
     "fear_greed": {
       "value": 71,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 79162,
-        "change_24h": -0.71,
-        "market_cap": 1589682892521,
-        "volume_24h": 24369753278
+        "price_usd": 79186,
+        "change_24h": -0.7,
+        "market_cap": 1590183682894,
+        "volume_24h": 24346805242
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2494.26,
-        "change_24h": 0.12,
-        "market_cap": 304400554949,
-        "volume_24h": 11979082800
+        "price_usd": 2495.39,
+        "change_24h": 0.13,
+        "market_cap": 304504896185,
+        "volume_24h": 11969166332
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 740.61,
-        "change_24h": -1.0,
-        "market_cap": 98628162478,
-        "volume_24h": 958564908
+        "price_usd": 740.52,
+        "change_24h": -0.98,
+        "market_cap": 98617453955,
+        "volume_24h": 945605563
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.4,
-        "change_24h": -0.77,
-        "market_cap": 87732198922,
-        "volume_24h": 2042534331
+        "change_24h": -0.78,
+        "market_cap": 87753452402,
+        "volume_24h": 2036015220
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 104.01,
-        "change_24h": -2.05,
-        "market_cap": 60982880365,
-        "volume_24h": 3307717101
+        "price_usd": 103.9,
+        "change_24h": -2.15,
+        "market_cap": 60940872978,
+        "volume_24h": 3297637403
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.090092,
-        "change_24h": 1.04,
-        "market_cap": 14039159259,
-        "volume_24h": 810784702
+        "price_usd": 0.090004,
+        "change_24h": 1.0,
+        "market_cap": 14035002164,
+        "volume_24h": 817081916
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 12.96,
-        "change_24h": 5.21,
-        "market_cap": 9694985266,
-        "volume_24h": 888072778
+        "price_usd": 12.91,
+        "change_24h": 5.27,
+        "market_cap": 9696163777,
+        "volume_24h": 908719459
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.220912,
-        "change_24h": 1.34,
-        "market_cap": 8287697216,
-        "volume_24h": 476195583
+        "price_usd": 0.220923,
+        "change_24h": 1.27,
+        "market_cap": 8289690392,
+        "volume_24h": 475530304
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 8.11,
-        "change_24h": 6.43,
-        "market_cap": 3504692336,
-        "volume_24h": 392731948
+        "change_24h": 6.39,
+        "market_cap": 3502060934,
+        "volume_24h": 402450222
       }
     ],
     "top_mentioned": [],
@@ -229,7 +229,7 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no specifics, we can say insufficient data leads to mixed? But we need to mention numbers and names where available. There are none. Could we say \"No specific numbers or names provided\"? That mentions none. Might be acceptable. Must start with one of the three prefixes. Choose Mixed: because ambiguous. Provide reasons: lack of clear consensus, limited data, etc. Keep under 80 words.\n\nLet's craft: \"Mixed: The Reddit snapshot shows only subreddit listings without volume or sentiment metrics, making it impossible to gauge bullish or bearish bias; no specific tickers, comment counts, or user sentiment scores are provided, so analysts cannot assign a clear directional stance.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 subreddit7 listings8 without9 volume10 or11 sentiment12 metrics,13 making14 it15 impossible16 to17 gauge18 bullish19 or20 bearish21 bias;2"
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Bearish",
@@ -610,11 +610,11 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
+      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed:. Must mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect we infer from given? But there is no actual discussion content. Might be a trick: we have no data, so we must say Mixed: insufficient data? But need numbers and names where available. There are none. Could we say \"Mixed: No specific tickers or sentiment indicators were provided in the data, making a definitive assessment impossible.\" That mentions no numbers. But they said mention numbers and names where available. If none, we can omit? Probably okay.\n\nWe need max 80 words. One paragraph. Let's craft ~30 words.\n\n\"Mixed: The provided Reddit data only lists top-mentioned subreddits without any ticker symbols, comment volume, or sentiment cues, so no clear bullish or bearish bias can be derived from the available information.\"\n\nCount words: Mixed:(1) The2 provided3 Reddit4 data5 only6 lists7 top-mentioned8 subreddits9 without10 any11 ticker12 symbols,13 comment14 volume,15 or16 sentiment17 cues,18 so19 no20 clear21 bullish22 or23 bearish24 bias2"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's tally: Bearish: Copper hits all-time high amid tariff turmoil, mine struggles (Bearish). High Expectations Leave Stocks Vulnerable: Noviskis (Bearish). Why does almost nobody want to befriend older people like me — except scammers? (Bearish). That's 3 bearish.\n\nBullish: Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit (Bullish). SpaceX rival launches rocket in historic first, says industry is 'desperate' for more (Bullish). That's 2 bullish.\n\nNeutral: US Stocks Slip as Oil Gains Keep Traders Cautious: Markets Wrap (Neutral). Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts (Neutral). We’re in our 60s. We earn $345,000 and have $1 million in 403(b)s. Is it too late for Roth conversions? (Neutral). That's"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's tally: Bearish: Copper hits all-time high amid tariff turmoil, mine struggles (Bearish). High Expectations Leave Stocks Vulnerable: Noviskis (Bearish). Why does almost nobody want to befriend older people like me — except scammers? (Bearish). That's 3 bearish.\n\nBullish: Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit (Bullish). SpaceX rival launches rocket in historic first, says industry is 'desperate' for more (Bullish). That's 2 bullish.\n\nNeutral: US Stocks Slip as Oil Gains Keep Traders Cautious: Markets Wrap (Neutral). Trump says he's made 'Hundreds of Billions of Dollars on Stocks' for the U.S., in stream of AI posts (Neutral). We’re in our 60s. We earn $345,000 and have $1 million in 403(b)s. Is it too late for Roth conversions? (Neutral). That's 3 neutral.\n\nOverall sentiment maybe"
     },
     "macro": [
       {
@@ -627,7 +627,7 @@
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
         "value": 98.91,
-        "change_24h": -0.25
+        "change_24h": -0.26
       },
       {
         "symbol": "GC=F",
@@ -709,15 +709,15 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 51
+          "interest_score": 62
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 6
+          "interest_score": 13
         },
         {
           "keyword": "Solana",
-          "interest_score": 8
+          "interest_score": 7
         },
         {
           "keyword": "crypto",
