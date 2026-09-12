@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T11:51:35Z",
+  "updated_at": "2026-09-12T11:56:03Z",
   "crypto": {
     "fear_greed": {
       "value": 63,
@@ -7,7 +7,80 @@
       "previous_value": 56,
       "previous_label": "Greed"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 77337,
+        "change_24h": 0.49,
+        "market_cap": 1553184452986,
+        "volume_24h": 31965564497
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 2535.06,
+        "change_24h": 3.18,
+        "market_cap": 309402519284,
+        "volume_24h": 23636747171
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 735.99,
+        "change_24h": 3.26,
+        "market_cap": 97994415359,
+        "volume_24h": 1245985036
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.37,
+        "change_24h": 3.33,
+        "market_cap": 86299173296,
+        "volume_24h": 2486226262
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 102.04,
+        "change_24h": 2.61,
+        "market_cap": 59861210375,
+        "volume_24h": 4400352792
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.085064,
+        "change_24h": 1.71,
+        "market_cap": 13261072974,
+        "volume_24h": 722700828
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 11.56,
+        "change_24h": 1.34,
+        "market_cap": 8646287175,
+        "volume_24h": 477432815
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.20914,
+        "change_24h": 3.38,
+        "market_cap": 7847625919,
+        "volume_24h": 539282952
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 7.44,
+        "change_24h": 1.22,
+        "market_cap": 3293864612,
+        "volume_24h": 314540312
+      }
+    ],
     "top_mentioned": [],
     "news": [
       {
@@ -19,7 +92,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -29,7 +102,7 @@
         "published": "Fri, 11 Sep 2026 23:47:51 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -39,7 +112,7 @@
         "published": "Fri, 11 Sep 2026 17:12:45 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.3,
         "color": "red"
       },
       {
@@ -60,9 +133,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "Hyperliquid’s biggest risk is regulation, says Ran Neuner",
@@ -71,7 +144,7 @@
         "published": "Fri, 11 Sep 2026 18:45:15 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.4,
         "color": "red"
       },
       {
@@ -80,9 +153,9 @@
         "url": "https://decrypt.co/378094/cyberattacks-law-firms-stolen-documents-dark-web",
         "published": "Fri, 11 Sep 2026 21:45:05 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.7,
+        "color": "red"
       },
       {
         "title": "Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up",
@@ -92,9 +165,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.6,
+        "color": "red"
       },
       {
         "title": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal",
@@ -104,9 +177,9 @@
         "assets": [
           "ETH"
         ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "Wall Street is building tokenized deposits to lock in customer balances",
@@ -115,7 +188,7 @@
         "published": "Sat, 12 Sep 2026 10:30:03 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.6,
         "color": "green"
       },
       {
@@ -126,9 +199,9 @@
         "assets": [
           "DOGE"
         ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "Blockstream bets 600 Bitcoin by rejecting Liquid hacker’s $50 million bounty demand",
@@ -138,13 +211,13 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 0.4,
+        "color": "green"
       }
     ],
     "news_sentiment": {
-      "score": -0.167,
+      "score": -0.233,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -180,27 +253,27 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Must be concise. Let's craft.\n\nData: Bitcoin Up or Down on Sep12: Yes 4% (vol $108,392) meaning only 4% think up? Actually \"Yes\" meaning up? Probably yes = up. So low bullish sentiment for short term. Bitcoin reach $95k by Dec31 2026: Yes 33% (vol $79,653) moderate. Bitcoin reach $80k in Sep: Yes 66% (vol $78,910) relatively bullish for near term. Ethereum Up or Down Sep12: Yes 4% (vol $74,460) low.\n\nOverall: Mixed: near-term Bitcoin up to $80k in Sep 66% bullish, but short-term up/down Sep12 only 4% bullish for both BTC and ETH, long-term $95k by 2026 only 33%. So mixed.\n\nWe need to mention numbers and names. Keep under 80 words. Let's count.\n\nDraft: \"Mixed: Bitcoin shows strong near‑term optimism with 66% betting it will hit $80,00"
+      "summary": "Mixed: Short-term sentiment is bearish, with only 4% predicting a price increase for Bitcoin and Ethereum on September 12. However, medium-term outlooks are bullish, as 66% expect Bitcoin to hit $80,000 in September. Long-term confidence is more cautious, with only 33% betting on Bitcoin reaching $95,000 by December 31, 2026."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect us to infer from that? Actually the data given is just \"Top mentioned: Subreddits:\" with nothing else. Might be a trick: we have no specifics, so we must say insufficient data? But we must start with one of those prefixes and give reasons, mention numbers and names where available. Since no numbers or names given, we could say no specific data, but we still need to mention numbers and names where available—none available, so we can omit? The instruction: \"Mention numbers and names where available.\" If none, we just don't mention any. Must be max 80 words. Provide one paragraph.\n\nWe need to decide sentiment. With no data, maybe we say Mixed due to lack of clear direction. Or we could say Bullish? But we need reasons; we have none. Could say \"No specific data provided, so sentiment cannot be determined.\" But that doesn't start with Bullish/Bearish/Mixed? Could start with Mixed: and then say \"Insufficient data to gauge sentiment.\" That mentions no numbers/names. That's okay.\n\nWord count: Let's craft: \""
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete? Possibly they omitted data. We must work with what we have: only \"Top mentioned: Subreddits:\" no numbers or names. We need to mention numbers and names where available, but none are available. Could we still produce a paragraph? Might need to say no data? But must start with Bullish/Bearish/Mixed. Could say Mixed: due to lack of clear sentiment in top mentioned subreddits. But need numbers and names where available—none, so we can say none provided. But still mention numbers? Could say \"No specific numbers or names were provided\". That still mentions that there are none. That satisfies mention numbers and names where available (i.e., none). Must be max 80 words. One paragraph.\n\nLet's craft: \"Mixed: The discussion shows no clear consensus, with top-mentioned subreddits not indicating a dominant bullish or bearish tilt and no specific token names or volume figures cited, suggesting traders are uncertain amid mixed signals.\" Count words.\n\nCount: Mixed:(1) The2 discussion3 shows4 no5 clear6 consensus,7 with8 top-mentioned9 subredd"
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data items with sentiment tags. Let's tally: Bearish: Bitcoin activity, passports exposed after Revolut falls for fake government request; legal drama of imprisoned Sam Bankman-Fried; Hyperliquid’s biggest risk is regulation, says Ran Neuner. Bullish: Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up. Neutral: Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud; Here’s what happened in crypto today; Bitcoin Suisse to shift up to half of Swiss jobs abroad; Cyberattacks on Law Firms Nearly Double as Stolen Documents Hit the Dark Web.\n\nThus overall sentiment likely Mixed, as both bullish and bearish present. Need to start with \"Mixed:\" then reasons, mention numbers and names where available. Include numbers: \"up to half of Swiss jobs\", \"nearly double\". Names: Revolut, Sam Bankman-Fried, Ran Neuner, Bitcoin Suisse, Hyperliquid, Robinhood CEO (maybe name not given). Also mention Bitcoin Golden Cross.\n\nWe need max 80 words. Let's craft ~70 words.\n\nParagraph: \"Mixed: While Bitcoin’s golden cross flickered off amid firming rate‑hike bets, bearish pressures mounted from Revolut’s fake‑"
+      "outlook": "Bearish",
+      "summary": "Bearish: 1 bullish vs 8 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 143,
+      "active_threads": 142,
       "mentions": {
         "BTC": 16,
         "XRP": 12,
         "DOGE": 3
       },
-      "bullish_hits": 78,
-      "bearish_hits": 59,
+      "bullish_hits": 80,
+      "bearish_hits": 60,
       "bullish_pct": 57,
       "top_coin": "BTC",
       "top_posts": [
@@ -561,16 +634,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data shows high probability of Fed rate hike (89% for Fed rate hike in 2026, 79% for 25 bps increase after Sep 2026 meeting, only 20% for no change). That suggests expectation of tightening -> bearish for equities? Usually higher rates bearish for stocks, bullish for dollar. Also high probability Democrats control House (88%) maybe bullish for certain sectors? Brazilian election close (48% Lula, 50% Flávio Bolsonaro) uncertain. Low chance of US invading Iran (15%) and Putin out (7%) low. Overall sentiment maybe mixed: expectations of tighter monetary policy (bearish for risk assets) but political stability (Democrats control House) maybe bullish. So we choose Mixed: and give reasons with numbers.\n\nNeed max 80 words. Let's craft ~70 words.\n\nParagraph: \"Mixed: Markets price a strong likelihood of further Fed tightening, with an 89% chance of a rate hike in 2026 and a 79% probability of a 25‑bp increase after the September 20"
+      "summary": "We need exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons. Must be max 80 words. Summarize overall market sentiment based on data. The data shows high probability of Fed rate hike (89% for hike in 2026, 79% for 25bps after Sep 2026 meeting, only 20% for no change). So sentiment likely bullish on rates rising (tightening). Also high probability Democrats control House (88%). Brazilian election close (Lula 48%, Bolsonaro 50%). Low chance of Putin out (7%). Low chance US invade Iran (15%). Overall sentiment: Expect tighter monetary policy, political stability in US (Democrats controlling House), uncertain Brazil, low geopolitical risk. Could be mixed? But overall maybe bullish on US equities? Actually rate hikes are bearish for equities. But sentiment in prediction markets: expectation of rate hikes suggests bearish for stocks, bullish for dollar. The prompt: \"overall market sentiment\". Could interpret as sentiment about future economic outlook: rate hikes indicate tightening, possibly bearish for growth. But also Democrats controlling House may be seen as stable. I'd choose Mixed: because some indicators bullish (Democrats control House, low Iran invasion), some bearish (rate hikes). Provide numbers. Must start with"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" maybe they omitted actual list. We need to infer? Possibly they expect we note that no specific tickers or numbers given, so we can't mention numbers? But we must mention numbers and names where available. Since none provided, we can say no specific numbers or names were provided. But we still need to start with Bullish/Bearish/Mixed. Based on lack of data, maybe Mixed? We can say sentiment unclear due to limited data. Provide reasons: limited mentions, no clear trend. Must be <=80 words. One paragraph.\n\nLet's craft: \"Mixed: The Reddit snapshot shows only subreddit categories without specific tickers, sentiment indicators, or volume metrics, making it impossible to gauge a clear bullish or bearish bias; without named stocks or mention counts, any directional inference remains speculative.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 subreddit7 categories8 without9 specific10 tickers,11 sentiment12 indicators,13 or14 volume15 metrics,16 making17 it18 impossible19 to"
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words 80. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data? Possibly they expect us to infer from that? The data is minimal: \"Top mentioned: Subreddits:\" no list. Might be a trick: we have no data, so we cannot mention numbers or names. But we must mention numbers and names where available. Since none, we can say none available. But we need to start with Bullish/Bearish/Mixed. We need to decide sentiment based on no data? Could say Mixed: insufficient data. But need to mention numbers and names where available - none, so we can say \"No specific numbers or names were provided.\" That still mentions that none were provided. That might be acceptable.\n\nWord count: Let's craft: \"Mixed: The Reddit discussion data provided only a header indicating top-mentioned subreddits without any actual posts, tickers, or sentiment cues, so no concrete bullish or bearish signals can be extracted; consequently, sentiment remains indeterminate given the lack of specific numbers, stock names, or comment volume.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 discussion4 data5 provided6 only7 a8 header"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's list items with sentiment tags:\n\n- HDFC Bank Submits Names of Two Candidates for CEO Role to RBI (Bearish)\n- Oil and Gas Markets Signal Winter Crisis and Rising Interest Rates (Neutral)\n- Leaders Arrive At Bharat Mandapam (Bullish)\n- Here’s the inflation breakdown for August 2026 — in one chart (Bearish)\n- Tehran won’t surrender to the U.S., Iranian President Pezeshkian says, as India's Modi urges dialogue and peace (Neutral)\n- Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq (Bearish)\n- ‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out? (Bearish)\n- The Fed could raise interest rates three times. Here’s where the market could face the stiffest test. (Neutral)\n\nWe have many bearish items: HDFC Bank CEO candidates (bearish), inflation breakdown (bearish), Saudi pipeline shutdown (bearish), IRA cash-out question (bearish). Bullish: Leaders Arrive At Bhar"
+      "summary": "We need to produce exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's list items with sentiment tags:\n\n- HDFC Bank Submits Names of Two Candidates for CEO Role to RBI (Bearish)\n- Oil and Gas Markets Signal Winter Crisis and Rising Interest Rates (Neutral)\n- Leaders Arrive At Bharat Mandapam (Bullish)\n- Here’s the inflation breakdown for August 2026 — in one chart (Bearish)\n- Tehran won’t surrender to the U.S., Iranian President Pezeshkian says, as India's Modi urges dialogue and peace (Neutral)\n- Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq (Bearish)\n- ‘I’m the executor’: My two siblings and I inherited an IRA. Can we just cash it out? (Bearish)\n- The Fed could raise interest rates three times. Here’s where the market could face the stiffest test. (Neutral)\n\nWe have Bearish: HDFC Bank, inflation breakdown, Saudi pipeline shutdown, IRA cash-out question (maybe personal finance but bearish). Bullish: Leaders Arrive At Bharat Mandapam (maybe event). Neutral: oil and gas"
     },
     "macro": [
       {
@@ -665,11 +738,11 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 27
+          "interest_score": 25
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 5
+          "interest_score": 4
         },
         {
           "keyword": "Solana",
@@ -677,7 +750,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 19
+          "interest_score": 21
         }
       ]
     }
