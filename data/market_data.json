@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T11:41:40Z",
+  "updated_at": "2026-09-17T11:51:27Z",
   "crypto": {
     "fear_greed": {
       "value": 50,
@@ -11,78 +11,88 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 76184,
-        "change_24h": 0.29,
-        "market_cap": 1530324025277,
-        "volume_24h": 29380454351
+        "price_usd": 76172,
+        "change_24h": -0.06,
+        "market_cap": 1529954287117,
+        "volume_24h": 29225167459
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2430.42,
-        "change_24h": 0.73,
-        "market_cap": 296639423167,
-        "volume_24h": 15199729788
+        "price_usd": 2428.67,
+        "change_24h": 0.3,
+        "market_cap": 296434353144,
+        "volume_24h": 15058954319
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 721.02,
-        "change_24h": 1.14,
-        "market_cap": 96067979440,
-        "volume_24h": 965514375
+        "price_usd": 720.74,
+        "change_24h": 0.91,
+        "market_cap": 95973733349,
+        "volume_24h": 863908707
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.29,
-        "change_24h": 0.29,
-        "market_cap": 81328166816,
-        "volume_24h": 3610822383
+        "change_24h": -0.3,
+        "market_cap": 81274421945,
+        "volume_24h": 3598585831
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 99.63,
-        "change_24h": 2.04,
-        "market_cap": 58511335574,
-        "volume_24h": 3537614810
+        "price_usd": 99.58,
+        "change_24h": 1.51,
+        "market_cap": 58473722182,
+        "volume_24h": 3513839237
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.080726,
-        "change_24h": 0.85,
-        "market_cap": 12588136199,
-        "volume_24h": 724621139
+        "price_usd": 0.08062,
+        "change_24h": 0.49,
+        "market_cap": 12572817299,
+        "volume_24h": 722955080
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.14,
-        "change_24h": 2.65,
-        "market_cap": 8333192586,
-        "volume_24h": 432272749
+        "price_usd": 11.1,
+        "change_24h": 1.97,
+        "market_cap": 8304922256,
+        "volume_24h": 430350097
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.197608,
-        "change_24h": 1.56,
-        "market_cap": 7413956013,
-        "volume_24h": 434099680
+        "price_usd": 0.197686,
+        "change_24h": 1.34,
+        "market_cap": 7417741891,
+        "volume_24h": 433937259
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 7.53,
-        "change_24h": 3.3,
-        "market_cap": 3332338992,
-        "volume_24h": 300297661
+        "change_24h": 2.88,
+        "market_cap": 3334422253,
+        "volume_24h": 300399013
       }
     ],
     "top_mentioned": [],
     "news": [
+      {
+        "title": "How Circle’s institutional Arc blockchain got taken over by memecoins on day one",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/business/2026/09/17/circle-launched-a-corporate-l2-backed-by-blackrock-but-traders-immediately-turned-it-into-a-memecoin-casino",
+        "published": "Thu, 17 Sep 2026 11:42:22 +0000",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
       {
         "title": "Optimism creeps back into crypto, with the 2022 test still to come",
         "source": "CoinDesk",
@@ -94,21 +104,13 @@
         "color": "green"
       },
       {
-        "title": "Live updates: Zcash jumps 17% as $345 million of liquidations hit crypto traders",
+        "title": "Live updates: Bitcoin flat near $76,000 as stocks set for sharply higher open",
         "source": "CoinDesk",
         "url": "https://www.coindesk.com/tech/2026/09/17/live-updates-zcash-jumps-17-as-usd345-million-of-liquidations-hit-crypto-traders",
         "published": "Thu, 17 Sep 2026 10:41:15 +0000",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "Crypto rallies through the Fed's first rate increase since 2023",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/markets/2026/09/17/crypto-rallies-through-the-fed-s-first-rate-increase-since-2023",
-        "published": "Thu, 17 Sep 2026 10:40:01 +0000",
-        "assets": [],
+        "assets": [
+          "BTC"
+        ],
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
@@ -211,7 +213,7 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.0,
+      "score": 0.083,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -240,7 +242,7 @@
       {
         "title": "Will Ethereum reach $2,600 in September?",
         "volume_24h": 67535,
-        "yes_price": 0.48,
+        "yes_price": 0.47,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-ethereum-reach-2600-in-september-2026-from-september-15"
       },
@@ -253,17 +255,17 @@
       }
     ],
     "polymarket_summary": {
-      "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret data: Bitcoin dip to $45k by Dec 2026: Yes 7% (low chance). Bitcoin up or down on Sep 17: Yes 80% (meaning \"Yes\" to up? The question: \"Bitcoin Up or Down on September 17?: Yes 80%\" ambiguous: likely \"Will Bitcoin be up on Sep 17?\" Yes 80% => bullish short term. Bitcoin reach $90k in Sep: Yes 3% (very low). Ethereum reach $2,600 in Sep: Yes 48% (roughly even). Bitcoin dip to $65k in Sep: Yes 4% (low chance of dip). Overall sentiment: short term bullish (up on Sep 17 80%), but long term dip to $45k low probability, and reaching $90k Sep very unlikely, Ethereum about even. So mixed? Probably Mixed: short-term bullish but medium-term bearish/unlikely big gains. Provide numbers.\n\nWord count max 80. Let's craft ~45 words.\n\nParagraph: \"Mixed: Bitcoin shows strong short‑term optimism with an 80%"
+      "outlook": "Bullish",
+      "summary": "Bullish: Market sentiment leans positive as traders show high confidence in Bitcoin's immediate direction, with an 80% probability of an upward move on September 17. Long-term downside risks appear minimal, evidenced by only a 7% chance of Bitcoin dipping to $45,000 by late 2026 and a mere 4% chance of a $65,000 dip this month. While the $90,000 Bitcoin target remains unlikely at 3%, Ethereum shows moderate optimism with a 47% chance of hitting $2,600."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, based on the given data, a concise financial analyst summary. The data only shows \"Top mentioned: Subreddits:\" but no actual content. Possibly the data is incomplete. We must still produce a paragraph starting with Bullish:, Bearish:, or Mixed: with specific reasons, mention numbers and names where available, max 80 words. Since we have no actual discussion content, we might need to infer that there is no data, but we must still produce something. Perhaps we can say that no clear sentiment emerges, thus Mixed. But we need numbers and names where available; none available, so we can say none mentioned. But we must still obey constraints: exactly one paragraph, start with Bullish:, Bearish:, or Mixed:. Max 80 words.\n\nLet's produce: Mixed: ... mention that no specific tickers or numbers were cited in the sampled Reddit posts, indicating uncertainty. That's within 80 words.\n\nCount words: Let's craft ~30 words.\n\n\"Mixed: The sampled Reddit discussion lacked clear bullish or bearish cues, with no specific tokens, price targets, or user counts highlighted; participants expressed varied opinions without consensus, indicating uncertainty in the short‑term crypto outlook.\"\n\nNow count words.\n\nMixed:(1) The2 sampled3 Reddit4 discussion5 lacked6 clear7 bullish8 or9 bearish10 cues,11 with12 no13"
+      "summary": "Please provide the Reddit discussion data (Top mentioned coins/topics and Subreddits). Once you provide the data, I will generate the concise summary for you."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Must mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nWe need to decide sentiment: There are bullish items: Optimism creeps back, Zcash jumps 17% (though neutral label but it's a gain), Zcash gains 20% as Paradigm founder reveals investment, House Committee Advances US Bitcoin Reserve Bill (bullish). Bearish: Revolut says no direct contact after $3 million public ransom demand, Polymarket users referred to prosecutors in South Korea. Neutral: Live updates: Zcash jumps 17% as $345 million of liquidations hit crypto traders (neutral), Crypto rallies through the Fed's first rate increase since 2023 (neutral), Crypto Tax Bill Clears House Committee After Clarity Act Setback (neutral). Overall seems mixed but leaning bullish due to multiple bullish and positive price moves. Could be Mixed. Provide reasons with numbers: Zcash +17%, +20%, $345 million liquidations, $3 million ransom demand, etc.\n\nWe need exactly one paragraph, start with Bullish:, Bearish:, or Mixed:. Let's choose Mixed: because there are both bullish and bearish signals. Provide reasons.\n\nWord count max 8"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: many bullish items: Circle's institutional Arc blockchain taken over by memecoins (bullish), optimism creeps back, Zcash gains 20% due to Paradigm founder investment, House Committee advances US Bitcoin Reserve Bill (bullish). Bearish: Revolut no direct contact after $3 million public ransom demand, Polymarket users referred to prosecutors in South Korea. Neutral: Bitcoin flat near $76k, Crypto Tax Bill clears House Committee after Clarity Act setback.\n\nOverall more bullish than bearish. So start with \"Bullish:\" then list reasons with numbers/names.\n\nWe need to keep under 80 words. Let's craft ~70 words.\n\nParagraph: \"Bullish: Circle’s institutional Arc blockchain was overtaken by memecoins on its first day, optimism is returning to crypto, Zcash jumped 20% after Paradigm founder revealed a ZEC investment, and the House Committee advanced a US Bitcoin Reserve Bill on a party‑line split; these positives outweigh bearish notes like Revolut’s lack of direct contact after a $3 million ransom demand and Polymarket users being referred to South Korean prosecutors, while"
     },
     "fourchain": {
       "thread_count": 201,
@@ -291,49 +293,49 @@
         "name": "Official Trump",
         "rank": 102,
         "score": 0,
-        "change_24h": 3.66
+        "change_24h": 3.02
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "rank": 28,
         "score": 1,
-        "change_24h": 15.37
+        "change_24h": 15.18
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
         "rank": 9,
         "score": 2,
-        "change_24h": 11.26
+        "change_24h": 8.81
       },
       {
         "symbol": "DRV",
         "name": "Derive",
         "rank": 157,
         "score": 3,
-        "change_24h": 35.52
+        "change_24h": 35.29
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 112,
         "score": 4,
-        "change_24h": 4.87
+        "change_24h": 4.09
       },
       {
         "symbol": "JPYC",
         "name": "JPY Coin",
-        "rank": 227,
+        "rank": 228,
         "score": 5,
-        "change_24h": 135.9
+        "change_24h": 130.2
       },
       {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "rank": 67,
+        "symbol": "PONS",
+        "name": "Pons",
+        "rank": 115,
         "score": 6,
-        "change_24h": 13.95
+        "change_24h": 7.48
       }
     ]
   },
@@ -352,8 +354,8 @@
         "change_24h": -1.21
       },
       "vix": {
-        "value": 15.94,
-        "change_24h": -9.99
+        "value": 15.95,
+        "change_24h": -9.94
       }
     },
     "market_mood": {
@@ -476,6 +478,16 @@
         "color": "green"
       },
       {
+        "title": "‘I just want out’: Why Jeffrey Gundlach is moving his money as far from AI as possible — and what he’s doing instead",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/i-just-want-out-why-jeffrey-gundlach-is-moving-his-money-as-far-from-ai-as-possible-and-what-hes-doing-instead-54281010?mod=mw_rss_topstories",
+        "published": "Thu, 17 Sep 2026 11:41:00 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "How can I get my employees to stop oversharing at work?",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/how-can-i-get-my-employees-to-stop-oversharing-at-work-540ba78c?mod=mw_rss_topstories",
@@ -494,18 +506,6 @@
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
-      },
-      {
-        "title": "Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI power player",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/generacs-stock-soars-more-than-30-after-amazon-deal-cements-its-status-as-ai-power-player-a842b0dc?mod=mw_rss_topstories",
-        "published": "Thu, 17 Sep 2026 10:55:00 GMT",
-        "assets": [
-          "AMZN"
-        ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
       },
       {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
@@ -571,7 +571,7 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.067,
+      "score": 0.0,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -635,16 +635,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 2 bullish vs 2 bearish signals detected across finance prediction markets data."
+      "summary": "Mixed: Markets show stability in geopolitics, with low probabilities for a China-Taiwan invasion (4%) or Xi Jinping's removal (4%). Political confidence is high for United Russia (74%) in parliamentary elections. However, monetary sentiment is divided; while 53% ($1.1M vol) expect no Fed rate change by October 2026, a significant 46% ($799k vol) anticipate a 25 bps increase, reflecting uncertainty regarding long-term US interest rate trajectories."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The data seems incomplete. Possibly they expect we infer from that? But there is no actual mentions. Might need to note that no specific tickers or sentiment given, so we say Mixed due to lack of data? But must mention numbers and names where available. Since none, we can say no specific tickers mentioned. But we need to start with one of those prefixes. Perhaps we can say Mixed: because discussion shows balanced mentions across subreddits with no clear bias, citing that top mentioned subreddits list is empty or not provided. However we need numbers. Could say \"0 mentions of any ticker\" etc. But that seems odd.\n\nMaybe the intention: The data is just placeholder; we should respond that insufficient data to determine sentiment, thus Mixed. Provide reasons: no specific tickers, no sentiment indicators. Mention that top mentioned subreddits list is blank. That's a number (0). Let's craft: \"Mixed: The Reddit snapshot shows no tickers or sentiment cues, with zero mentions of any stock and an empty list of top subreddits, indicating neither bullish nor bearish dominance.\" Count words.\n\nCount"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The data seems incomplete. Possibly they expect we infer from given? There's no actual mentions. Might need to say insufficient data? But must start with one of those prefixes. Could say Mixed: due to lack of clear sentiment, no numbers. But need mention numbers and names where available—none available, so maybe say none. Could say Mixed: No specific tickers or sentiment indicators were highlighted in the provided data, resulting in an unclear overall market stance. That mentions no numbers though. Could say Mixed: The data shows no top-mentioned tickers or sentiment cues, making sentiment indeterminate. That's okay. Must be <=80 words. Let's craft ~30 words.\n\n\"Mixed: The supplied Reddit discussion data lists only subreddit categories without any specific tickers, comment counts, or sentiment cues, preventing a clear bullish or bearish assessment and resulting in an indeterminate overall market outlook.\"\n\nWord count: Mixed: (1) The(2) supplied3 Reddit4 discussion5 data6 lists7 only8 subreddit9 categories10 without11 any12 specific13 tickers,14 comment15 counts,16"
     },
     "news_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: 10 bullish vs 6 bearish signals detected across stock/finance news data."
+      "summary": "Bullish: Markets are rallying as oil prices retreat and the Bank of England maintains steady rates. Positive momentum is driven by the NSE’s $2.4 billion India IPO and optimistic geopolitical signals from Trump regarding the Iran conflict. Additionally, Jera anticipates rising LNG spot prices for winter. While Jeffrey Gundlach is pivoting away from AI, the overall sentiment remains strongly positive across equities, treasuries, and energy sectors."
     },
     "macro": [
       {
@@ -656,20 +656,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 100.24,
-        "change_24h": -0.07
+        "value": 100.26,
+        "change_24h": -0.05
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4367.5,
-        "change_24h": -0.46
+        "value": 4363.1,
+        "change_24h": -0.56
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 100.75,
-        "change_24h": -1.64
+        "value": 100.9,
+        "change_24h": -1.49
       }
     ],
     "most_active": [
@@ -739,19 +739,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 62
+          "interest_score": 59
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 9
+          "interest_score": 8
         },
         {
           "keyword": "Solana",
-          "interest_score": 10
+          "interest_score": 8
         },
         {
           "keyword": "crypto",
-          "interest_score": 41
+          "interest_score": 38
         }
       ]
     }
