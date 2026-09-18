@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T03:51:19Z",
+  "updated_at": "2026-09-18T04:01:47Z",
   "crypto": {
     "fear_greed": {
       "value": 56,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 77335,
-        "change_24h": 1.21,
-        "market_cap": 1553187296468,
-        "volume_24h": 24445691746
+        "price_usd": 77324,
+        "change_24h": 1.24,
+        "market_cap": 1553307788169,
+        "volume_24h": 24575310460
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2475.25,
-        "change_24h": 1.66,
-        "market_cap": 302153860425,
-        "volume_24h": 12339050215
+        "price_usd": 2476.77,
+        "change_24h": 1.75,
+        "market_cap": 302343912423,
+        "volume_24h": 12534553930
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 751.35,
-        "change_24h": 3.62,
-        "market_cap": 100056182624,
-        "volume_24h": 1080372109
+        "price_usd": 750.83,
+        "change_24h": 3.57,
+        "market_cap": 100007218181,
+        "volume_24h": 1085751202
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.32,
         "change_24h": 1.69,
-        "market_cap": 83181414157,
-        "volume_24h": 2482189645
+        "market_cap": 83195061864,
+        "volume_24h": 2496520857
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 104.18,
-        "change_24h": 4.37,
-        "market_cap": 61162866192,
-        "volume_24h": 3569921824
+        "price_usd": 104.52,
+        "change_24h": 4.63,
+        "market_cap": 61383379744,
+        "volume_24h": 3660705626
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.084244,
+        "price_usd": 0.084243,
         "change_24h": 3.86,
-        "market_cap": 13141843383,
-        "volume_24h": 609772443
+        "market_cap": 13141638372,
+        "volume_24h": 616661379
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
         "price_usd": 11.74,
-        "change_24h": 5.46,
-        "market_cap": 8781341457,
-        "volume_24h": 378554317
+        "change_24h": 5.52,
+        "market_cap": 8781357947,
+        "volume_24h": 383786112
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.215823,
-        "change_24h": 10.05,
-        "market_cap": 8099163756,
-        "volume_24h": 506334639
+        "price_usd": 0.2161,
+        "change_24h": 10.24,
+        "market_cap": 8096690014,
+        "volume_24h": 509492484
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 7.92,
-        "change_24h": 4.92,
-        "market_cap": 3511944176,
-        "volume_24h": 284422004
+        "price_usd": 7.93,
+        "change_24h": 5.04,
+        "market_cap": 3510635194,
+        "volume_24h": 293640060
       }
     ],
     "top_mentioned": [],
@@ -218,35 +218,42 @@
     "polymarket": [
       {
         "title": "Will the price of Bitcoin be above $80,000 on September 18?",
-        "volume_24h": 78496,
+        "volume_24h": 78641,
         "yes_price": 0.02,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-80k-on-september-18-2026"
+      },
+      {
+        "title": "Will the price of Bitcoin be above $76,000 on September 18?",
+        "volume_24h": 62387,
+        "yes_price": 0.93,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/bitcoin-above-76k-on-september-18-2026"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Only one market: \"Will the price of Bitcoin be above $80,000 on September 18?: Yes 2% (vol $78,496)\". So only 2% probability for Yes, implying low confidence that BTC > $80k. So sentiment is bearish. Provide reasons: low probability, volume $78,496. Must start with \"Bearish:\" then reasons. Must be one paragraph, max 80 words. Let's craft ~30 words.\n\n\"Bearish: The prediction market shows only a 2% chance that Bitcoin will exceed $80,000 by September 18, with a modest trading volume of $78,496, indicating weak bullish conviction and prevailing skepticism about near‑term price upside.\"\n\nCount words: Bearish:(1) The2 prediction3 market4 shows5 only6 a7 2%8 chance9 that10 Bitcoin11 will12 exceed13 $80,00014 by15 September16 18,17 with18 a19 modest20 trading21 volume22 of23 $78,"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Two prediction markets:\n\n- Will price of Bitcoin be above $80,000 on Sep 18: Yes 2% (vol $78,641)\n- Will price of Bitcoin be above $76,000 on Sep 18: Yes 93% (vol $62,387)\n\nInterpretation: High confidence that price > $76k, but low confidence > $80k. So sentiment: moderately bullish but with uncertainty about higher target. Could be Mixed? Actually overall sentiment: bullish for $76k threshold, but bearish for $80k threshold. So overall maybe Mixed. Provide reasons: 93% chance > $76k, only 2% chance > $80k, volumes indicate activity. So Mixed.\n\nWe need to start with \"Mixed:\" then reasons. Must be one paragraph, max 80 words. Let's craft ~45 words.\n\n\"Mixed: Prediction markets show a 93% probability (volume $62,387) that Bitcoin will exceed $76,000 by September 18, indicating strong near‑term bullish sentiment, but"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave only placeholder? Possibly they expect we infer from that? There's no actual discussion data. Might need to say insufficient data? But must follow instruction: start with one of those words, mention numbers and names where available. Since no data, we could say \"Mixed: ...\" but need numbers and names. Could say \"No specific data provided\" but that doesn't mention numbers/names. Might be considered not following. Perhaps we assume the data is missing, so we state that sentiment cannot be determined. But must start with Bullish/Bearish/Mixed. Could say \"Mixed: Insufficient data to gauge sentiment; no specific mentions or numbers provided.\" That mentions no numbers/names though. Could we mention that zero mentions? \"0 mentions\" is a number. Could say \"Mixed: 0 mentions across subreddits, indicating lack of discussion; no specific tokens or users named.\" That includes number 0. That seems okay.\n\nWe need max 80 words. Let's craft ~30 words.\n\n\"Mixed: Zero mentions across tracked subreddits show no active discussion; consequently, no specific tokens, us"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer? But we must use given data. There's no numbers or names. Might need to say that data insufficient? But we must start with one of those prefixes and give reasons, mention numbers and names where available. Since none available, we can say none mentioned. But we still need to be concise, max 80 words.\n\nWe could say: Mixed: ... but we have no specifics. Could say: Mixed: No clear bullish or bearish signals evident from the limited Reddit data, which only shows top-mentioned subreddits without sentiment indicators or volume metrics. That mentions no numbers/names. But we need to mention numbers and names where available—none, so we can say none.\n\nMake sure it's one paragraph, start with Mixed:.\n\nWord count: Let's craft ~30 words.\n\n\"Mixed: The Reddit snapshot shows only top-mentioned subreddits without any sentiment cues, volume figures, or named tokens, making it impossible to discern a clear bullish or bearish bias from the provided data.\"\n\nCount words: Mixed:(1) The2 Reddit3 snapshot"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Let's count: Bearish items: BoJ rate hike (Bearish), SEC real stocks on blockchain (Bearish), US sanctions Iran's BitBank (Bearish), Security Experts want US/China promise never let AI control nukes (Bearish). That's 4 bearish.\n\nBullish items: Ondo Finance succession crisis gets messier (Bullish), World launches self-custodial 'super app' World Money (Bullish), North Korea drives onchain malware surge, CoinEx shuts: Asia Express (Bullish). That's 3 bullish.\n\nNeutral: OpenAI models writing jailbreak instructions (Neutral).\n\nThus more bearish than bullish, so overall sentiment Bearish.\n\nWe need to start with 'Bearish:' then give specific reasons, mention numbers and names where available. Include numbers: BoJ raises interest rates by 25 basis points, Bitcoin tops $77,000, US sanctions Iran's BitBank, etc. Also mention names: Ondo Finance, Kathleen Allman’s daughter, World Money, CoinEx, Asia Express, OpenAI, US and China.\n\nWe need max"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Let's count: Bearish items: Bank of Japan raises rates (Bearish), Real stocks on blockchain SEC (Bearish), US sanctions Iran's BitBank (Bearish), Security Experts want US/China promise never let AI control nukes (Bearish). That's 4 bearish.\n\nBullish items: Ondo Finance succession crisis gets messier (Bullish), World launches self-custodial 'super app' World Money (Bullish), North Korea drives onchain malware surge, CoinEx shuts: Asia Express (Bullish). That's 3 bullish.\n\nNeutral: OpenAI models writing jailbreak instructions (Neutral).\n\nThus more bearish than bullish, so overall sentiment Bearish.\n\nWe need to start with \"Bearish:\" then reasons, mention numbers and names where available. Include numbers: Bank of Japan raises interest rates by 25 basis points, Bitcoin tops $77,000. Also mention Ondo Finance, Kathleen Allman’s daughter, World Money, North Korea, CoinEx, US sanctions Iran’s BitBank, Security Experts want US and China promise never let AI control nukes. Keep within 80 words."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 149,
+      "active_threads": 148,
       "mentions": {
         "BTC": 18,
         "XRP": 6,
         "ETH": 1
       },
-      "bullish_hits": 110,
-      "bearish_hits": 55,
+      "bullish_hits": 113,
+      "bearish_hits": 56,
       "bullish_pct": 67,
       "top_coin": "BTC",
       "top_posts": [
@@ -259,53 +266,53 @@
     },
     "cg_trending": [
       {
-        "symbol": "FIRO",
-        "name": "Firo",
-        "rank": 921,
-        "score": 0,
-        "change_24h": 7.04
-      },
-      {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
-        "rank": 25,
+        "rank": 24,
+        "score": 0,
+        "change_24h": 29.53
+      },
+      {
+        "symbol": "FIRO",
+        "name": "Firo",
+        "rank": 922,
         "score": 1,
-        "change_24h": 27.11
-      },
-      {
-        "symbol": "ARB",
-        "name": "Arbitrum",
-        "rank": 58,
-        "score": 2,
-        "change_24h": 34.43
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "rank": 9,
-        "score": 3,
-        "change_24h": 8.13
-      },
-      {
-        "symbol": "UNI",
-        "name": "Uniswap",
-        "rank": 21,
-        "score": 4,
-        "change_24h": 25.4
+        "change_24h": 6.56
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 112,
+        "score": 2,
+        "change_24h": 6.89
+      },
+      {
+        "symbol": "UNI",
+        "name": "Uniswap",
+        "rank": 21,
+        "score": 3,
+        "change_24h": 26.84
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "rank": 9,
+        "score": 4,
+        "change_24h": 9.61
+      },
+      {
+        "symbol": "ARB",
+        "name": "Arbitrum",
+        "rank": 58,
         "score": 5,
-        "change_24h": 6.78
+        "change_24h": 36.6
       },
       {
         "symbol": "PONS",
         "name": "Pons",
         "rank": 105,
         "score": 6,
-        "change_24h": 23.18
+        "change_24h": 22.82
       }
     ]
   },
@@ -320,7 +327,7 @@
         "change_24h": 1.69
       },
       "dow": {
-        "value": 51778.0,
+        "value": 51778.04,
         "change_24h": 0.61
       },
       "vix": {
@@ -388,6 +395,16 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Stocks Rise, Yen Slips as BOJ Hikes in Split Vote: Markets Wrap",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
+        "published": "Thu, 17 Sep 2026 22:14:33 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Yen Extends Declines After BOJ Hikes Rates With Two Dissents",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-09-18/yen-drops-against-dollar-after-boj-raises-rates-as-expected",
@@ -406,16 +423,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "BOJ Split Vote Sends Bearish Signal on Yen, Strategists Say",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-18/boj-split-vote-sends-bearish-signal-on-yen-strategists-say",
-        "published": "Fri, 18 Sep 2026 03:29:32 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "UN mission finds evidence signaling U.S. war crimes in Iran; Washington rejects report",
@@ -541,42 +548,42 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.356,
-      "label": "Bearish",
-      "color": "red"
+      "score": -0.289,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "volume_24h": 530729,
+        "volume_24h": 529843,
         "yes_price": 0.77,
         "category": "finance",
         "url": "https://polymarket.com/event/will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election"
       },
       {
         "title": "Will China invade Taiwan by end of 2026?",
-        "volume_24h": 520556,
+        "volume_24h": 520600,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/will-china-invade-taiwan-before-2027"
       },
       {
         "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "volume_24h": 514426,
+        "volume_24h": 514175,
         "yes_price": 0.49,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031"
       },
       {
         "title": "Putin out as President of Russia by December 31, 2026?",
-        "volume_24h": 464868,
+        "volume_24h": 464867,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/putin-out-before-2027-346"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-        "volume_24h": 348968,
+        "volume_24h": 349264,
         "yes_price": 0.51,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032"
@@ -590,14 +597,14 @@
       },
       {
         "title": "Will AfD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
-        "volume_24h": 181657,
-        "yes_price": 0.47,
+        "volume_24h": 182354,
+        "yes_price": 0.49,
         "category": "finance",
         "url": "https://polymarket.com/event/will-afd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
       },
       {
         "title": "Will SPD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
-        "volume_24h": 176351,
+        "volume_24h": 176355,
         "yes_price": 0.51,
         "category": "finance",
         "url": "https://polymarket.com/event/will-spd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections"
@@ -605,16 +612,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret overall market sentiment based on these prediction markets. Let's see: United Russia gaining most seats: 77% yes (high confidence). China invade Taiwan: 4% (very low). Fed no change after Oct 2026: 49% yes (close to 50). Putin out by end 2026: 4% (low). Fed increase rates 25bps after Oct 2026: 51% yes (slightly above). US invade Iran before 2027: 17% (low). AfD win most seats in Mecklenburg-Vorpommern 2026: 47% (close). SPD win most seats: 51% (slightly above). So overall: Mixed signals: high confidence in United Russia dominance, low geopolitical conflict expectations (China Taiwan, Putin out, US Iran). Fed rates uncertain ~50/50. German state election close between AfD and SPD. So overall sentiment maybe Mixed: optimism about Russian political stability, low war risk, but uncertainty about US monetary policy and German politics.\n\nWe need to start with \"Mixed:\" then reasons, include numbers and names. Must be <=80 words. Let"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret overall market sentiment based on these prediction markets. The data includes various events: United Russia gaining most seats (77% yes), China invading Taiwan (4% yes), Fed no change after Oct 2026 meeting (49% yes), Putin out by Dec 31 2026 (4% yes), Fed increase rates by 25 bps after Oct 2026 meeting (51% yes), US invade Iran before 2027 (17% yes), AfD win most seats in Mecklenburg-Vorpommern 2026 (49% yes), SPD win most seats (51% yes).\n\nInterpretation: High confidence in United Russia winning (bullish for Russia?), low confidence in China invading Taiwan (bearish for geopolitical risk), Fed rates uncertain ~50/50, Putin staying (low chance of removal), slight tilt to rate increase (51% yes), low chance US invades Iran, German state election nearly tied.\n\nOverall sentiment maybe mixed: some bullish indicators (United Russia strong, SPD slight edge, rate increase likely) and bearish (low China invasion, low Putin removal, low Iran invasion). So Mixed.\n\nWe need"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave placeholder? Possibly they expect we infer from given data? The data is incomplete: only \"Top mentioned: Subreddits:\" with no list. Might be a trick: we have no specifics, so we must say insufficient data? But must start with one of those words and mention numbers and names where available. Since none available, we could say no specific numbers/names. But must mention numbers and names where available—if none, we can omit? Probably we should say \"Mixed: ...\" and note lack of concrete data. But need to stay within 80 words.\n\nWe could say: \"Mixed: The discussion shows no clear consensus; top mentioned subreddits were not specified, and no tickers or sentiment counts were provided, making it impossible to gauge bullish or bearish bias.\" That's one paragraph, starts with Mixed:. No numbers/names. That's okay because we mention that none were available. Word count: Let's count.\n\n\"Mixed: The discussion shows no clear consensus; top mentioned subreddits were not specified, and no tickers or sentiment counts were provided, making it impossible to gauge bullish"
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's tally: Bearish items: Yen declines after BOJ hikes (2 dissents), BOJ split vote bearish signal, UN mission evidence US war crimes (bearish), oil prices fall (bearish), BOJ raises rates to 31-year high (bearish). That's 5 bearish.\n\nBullish items: Vietnam stocks early foreign flows as FTSE upgrade nears, 10-year Treasury worst run but investors buying bonds anyway (bullish), Micron, Intel and other chip stocks furthering strong comebacks (bullish). That's 3 bullish.\n\nOverall more bearish. So start with 'Bearish:' then list reasons with numbers/names.\n\nWe need max 80 words. Let's craft ~60 words.\n\nParagraph: \"Bearish: The yen fell after the BOJ raised rates to a 31‑year high with two dissents, and a split vote signaled further weakness; oil prices dropped as Saudi supply hopes eclipsed Houthi strikes; the UN mission cited evidence of U.S. war crimes in Iran, which Washington rejected; meanwhile, Vietnam stocks attracted early foreign inflows ahead of a FT"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Must mention numbers and names where available. Max 80 words. Need to decide overall sentiment based on data. Let's tally: Bullish items: Vietnam stocks early foreign flows (FTSE upgrade), 10-year Treasury worst run but investors buying bonds anyway (bullish), Micron, Intel chip stocks strong comebacks. Also maybe \"Stocks Rise, Yen Slips as BOJ Hikes in Split Vote\" neutral. Bearish items: Yen extends declines after BOJ hikes with two dissents, UN mission evidence US war crimes in Iran (bearish), oil prices fall as Saudi supply hopes outweigh Houthi strikes (bearish), BOJ raises rates to 31-year high, flags inflation concerns (bearish). So more bearish items (4) vs bullish (3). However the neutral one maybe slight bullish? But overall maybe Mixed. Provide Mixed: with reasons citing both sides. Must include numbers and names where available: BOJ hike to 31-year high, 10-year Treasury worst run in over 100 years, oil prices fall (no number), Vietnam stocks early foreign flows, FTSE upgrade, Micron, Intel chip stocks, UN mission evidence US war crimes in Iran, Saudi supply hopes, Houthi strikes. Need to keep under 80 words."
     },
     "macro": [
       {
@@ -626,20 +633,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 100.26,
-        "change_24h": -0.05
+        "value": 100.22,
+        "change_24h": -0.09
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4390.9,
-        "change_24h": 0.08
+        "value": 4399.7,
+        "change_24h": 0.28
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 101.19,
-        "change_24h": -1.21
+        "value": 101.91,
+        "change_24h": -0.51
       }
     ],
     "most_active": [
@@ -709,19 +716,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 66
+          "interest_score": 69
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 10
-        },
-        {
-          "keyword": "Solana",
           "interest_score": 9
         },
         {
+          "keyword": "Solana",
+          "interest_score": 12
+        },
+        {
           "keyword": "crypto",
-          "interest_score": 49
+          "interest_score": 51
         }
       ]
     }
