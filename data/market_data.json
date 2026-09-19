@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T13:01:27Z",
+  "updated_at": "2026-09-19T13:11:31Z",
   "crypto": {
     "fear_greed": {
       "value": 71,
@@ -7,7 +7,80 @@
       "previous_value": 56,
       "previous_label": "Greed"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 81242,
+        "change_24h": 4.2,
+        "market_cap": 1632130433634,
+        "volume_24h": 38505331417
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 2638.18,
+        "change_24h": 5.68,
+        "market_cap": 322057053357,
+        "volume_24h": 20651861104
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 770.39,
+        "change_24h": 3.18,
+        "market_cap": 102613715975,
+        "volume_24h": 1262053303
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.44,
+        "change_24h": 8.86,
+        "market_cap": 90616679123,
+        "volume_24h": 4355800888
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 111.56,
+        "change_24h": 5.71,
+        "market_cap": 65540042545,
+        "volume_24h": 5255878164
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.088679,
+        "change_24h": 4.17,
+        "market_cap": 13851440736,
+        "volume_24h": 1066797853
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 12.5,
+        "change_24h": 5.99,
+        "market_cap": 9354359789,
+        "volume_24h": 518709183
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.227217,
+        "change_24h": 5.54,
+        "market_cap": 8525610500,
+        "volume_24h": 672191664
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 9.26,
+        "change_24h": 15.83,
+        "market_cap": 4090949687,
+        "volume_24h": 702201935
+      }
+    ],
     "top_mentioned": [],
     "news": [
       {
@@ -73,6 +146,18 @@
         "color": "yellow"
       },
       {
+        "title": "Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade",
+        "source": "Decrypt",
+        "url": "https://decrypt.co/378674/solana-heartbeat-quickens-speed-upgrade",
+        "published": "Sat, 19 Sep 2026 13:01:04 +0000",
+        "assets": [
+          "SOL"
+        ],
+        "sentiment": "Bullish",
+        "score": 0.333,
+        "color": "green"
+      },
+      {
         "title": "Coinbase Files to List Single-Stock Perps on Apple, Tesla and Nvidia",
         "source": "Decrypt",
         "url": "https://decrypt.co/378681/coinbase-single-stock-perps-apple-tesla-nvidia",
@@ -91,18 +176,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "Bitcoin Will Hit $1 Million, Says Kevin O’Leary—But There’s a Quantum Catch",
-        "source": "Decrypt",
-        "url": "https://decrypt.co/378664/kevin-oleary-bitcoin-1-million-quantum-catch",
-        "published": "Fri, 18 Sep 2026 18:35:54 +0000",
-        "assets": [
-          "BTC"
-        ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Did RWA futures really overtake crypto? Only if you ignore 90% of the market",
@@ -138,35 +211,35 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.028,
+      "score": 0.0,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will the price of Bitcoin be above $82,000 on September 19?",
-        "volume_24h": 168138,
+        "volume_24h": 169138,
         "yes_price": 0.05,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-82k-on-september-19-2026"
       },
       {
         "title": "Will Bitcoin reach $85,000 in September?",
-        "volume_24h": 151153,
+        "volume_24h": 150749,
         "yes_price": 0.46,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-85k-in-september-2026"
       },
       {
         "title": "Bitcoin Up or Down on September 19?",
-        "volume_24h": 142961,
+        "volume_24h": 143427,
         "yes_price": 0.94,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-up-or-down-on-september-19-2026"
       },
       {
         "title": "Will Bitcoin reach $82,500 in September?",
-        "volume_24h": 119844,
+        "volume_24h": 119618,
         "yes_price": 0.8,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-82pt5k-in-september-2026"
@@ -180,7 +253,7 @@
       },
       {
         "title": "Will Ethereum reach $3,200 in September?",
-        "volume_24h": 81818,
+        "volume_24h": 81269,
         "yes_price": 0.06,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-ethereum-reach-3200-in-september-2026"
@@ -188,16 +261,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: Most predictions show high probability for Bitcoin up on Sep 19 (94% Yes), Bitcoin reaching $82,500 (80% Yes), Bitcoin reaching $85k (46% Yes), Bitcoin above $82k on Sep 19 (5% Yes). Ethereum: $2,700 (80% Yes), $3,200 (6% Yes). So overall sentiment: bullish for short-term Bitcoin up and $82.5k, but less bullish for higher targets. Mixed? The data shows strong belief Bitcoin will be up on Sep 19 (94%) and reach $82.5k (80%), moderate for $85k (46%), low for above $82k on that date (5%). Ethereum moderate for $2.7k (80%), low for $3.2k (6%). So overall sentiment is bullish for near-term moderate gains, but skeptical of big spikes. Could be \"Mixed:\" because some bullish, some bearish. But we need to start with one of those words. I'd choose \"Mixed:\" and explain reasons.\n\nNeed to mention numbers and names where available. Include"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret data: Several Bitcoin predictions: price above $82k on Sep19: Yes 5% (low confidence). Bitcoin reach $85k in Sep: Yes 46% (moderate). Bitcoin Up or Down on Sep19: Yes 94% (likely means price will be up? ambiguous). Bitcoin reach $82.5k in Sep: Yes 80% (high). Ethereum reach $2.7k in Sep: Yes 80% (high). Ethereum reach $3.2k in Sep: Yes 6% (low). Overall sentiment: Mixed? Many high probabilities for moderate targets, low for extreme high. The \"Up or Down\" 94% Yes suggests expectation of increase. So overall bullish but with caution on extreme targets. Could be Bullish.\n\nWe need to start with \"Bullish:\" then reasons, mention numbers and names. Must be one paragraph, max 80 words.\n\nLet's craft ~70 words.\n\n\"Bullish: Prediction markets show strong confidence that Bitcoin will be higher on September 19 (94% Yes, $143k volume) and reach $82,500 by month"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data provided: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer that there is no data? But we must still produce a summary based on given data. Since data is minimal, we can say that no specific sentiment can be derived. But we must start with one of the three prefixes. Perhaps we can say \"Mixed: ...\" and note lack of concrete data. But need to mention numbers and names where available. There are none. Could we say \"No specific numbers or names provided\"? That would be mentioning that none are available. That might satisfy.\n\nWe need max 80 words. Let's craft ~30 words.\n\n\"Mixed: The Reddit discussion shows varied opinions without clear dominance; no specific tickers, price targets, or user counts were highlighted in the provided data, indicating uncertainty among participants about the crypto market's direction.\"\n\nCheck word count: Mixed:(1) The(2) Reddit3 discussion4 shows5 varied6 opinions7 without8 clear9 dominance;10 no11 specific12 tickers,13 price14 targets,15 or16 user17 counts18 were19 highlighted20 in2"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: Sentiment is split between institutional growth and regulatory/operational setbacks. Bullish drivers include Wall Street's focus on institutional tokenization and Zcash development updates. However, bearish pressure stems from a 97% collapse in Robinhood Chain fees and a $1.6B bribery scandal involving a former Hong Kong banker. Neutral developments include Coinbase listing single-stock perps and Bastion's conditional OCC approval, while Michael Saylor continues to defend Bitcoin's longevity."
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's count: Bullish items: \"Why Wall Street giants build tokenization money for institutions, not regular consumers\" (Bullish). \"Solana's Heartbeat Quickens: Block Times Fall 17% in Latest Speed Upgrade\" (Bullish). That's 2 bullish.\n\nBearish items: \"Robinhood Chain fees collapse 97% even as transactions stay near record highs\" (Bearish). \"Hong Kong jails former banker over $1.6B false credit, cryptocurrency bribes: Report\" (Bearish). That's 2 bearish.\n\nNeutral items: \"The orange tie stays\": Michael Saylor responds to venture capitalist's bitcoin obituary (Neutral). \"Bastion wins conditional OCC approval for national trust bank charter\" (Neutral). \"Here’s what happened in crypto today\" (Neutral). \"Coinbase Files to List Single-Stock Perps on Apple, Tesla and Nvidia\" (Neutral). So equal bullish and bearish. So overall Mixed.\n\nWe need to start with \"Mixed:\" then reasons, mention numbers and names where available."
     },
     "fourchain": {
       "thread_count": 201,
@@ -350,6 +423,16 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Trump Moves to Bar Three News Outlets From White House",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/videos/2026-09-19/trump-moves-to-bar-three-news-outlets-from-white-house-video",
+        "published": "Sat, 19 Sep 2026 13:01:07 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Buffett Son Takes Chair as Berkshire Transition Ends",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/videos/2026-09-19/buffett-son-takes-chair-as-berkshire-transition-ends-video",
@@ -370,16 +453,6 @@
         "color": "yellow"
       },
       {
-        "title": "JPMorgan Sees No Clear Endgame for Oil Markets",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-09-19/jpmorgan-sees-no-clear-endgame-for-oil-markets-video",
-        "published": "Sat, 19 Sep 2026 12:11:23 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
         "title": "The AI kill switch, explained: 'It's not too little, but it's probably too late'",
         "source": "CNBC",
         "url": "https://www.cnbc.com/2026/09/19/ai-kill-switch-explained.html",
@@ -390,24 +463,34 @@
         "color": "yellow"
       },
       {
-        "title": "Trump says U.S. to build a 'large Military presence' in Greenland as part of a security deal with it and Denmark",
+        "title": "MS NOW reporters denied access to White House after Trump bans three media outlets",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/09/18/trump-greenland-denmark-military-deal.html",
-        "published": "Sat, 19 Sep 2026 10:36:18 GMT",
+        "url": "https://www.cnbc.com/2026/09/19/trump-media-ban-ms-now.html",
+        "published": "Sat, 19 Sep 2026 13:02:29 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 0.333,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
-        "title": "Buffett takes next step in plan to keep Berkshire from straying",
+        "title": "Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
         "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/09/19/warren-buffett-takes-next-step-in-plan-to-keep-berkshire-from-straying.html",
-        "published": "Sat, 19 Sep 2026 12:43:56 GMT",
+        "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html",
+        "published": "Sat, 19 Sep 2026 12:50:49 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
+      },
+      {
+        "title": "Warsh’s Fed shows it’s serious about taming inflation. Why Wall Street now believes it.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/warshs-fed-shows-its-serious-about-taming-inflation-why-wall-street-now-believes-it-55dc5af5?mod=mw_rss_topstories",
+        "published": "Sat, 19 Sep 2026 13:00:00 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
         "title": "The old new thing: Cisco and retro tech are back and forming the AI buildout’s backbone",
@@ -423,16 +506,6 @@
         "title": "Starbucks’s Snoopy cups and McDonald’s SpongeBob toys are commanding huge markups on eBay",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/starbuckss-snoopy-cups-and-mcdonalds-spongebob-toys-are-commanding-huge-markups-on-ebay-ed3e514d?mod=mw_rss_topstories",
-        "published": "Sat, 19 Sep 2026 12:00:00 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "I just started dating someone I really like, but he’s moving to Mexico for six months. Should I spend the money to visit him?",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/i-just-started-dating-someone-i-really-like-but-hes-moving-to-mexico-for-six-months-should-i-spend-the-money-to-visit-him-be4f8c8b?mod=mw_rss_topstories",
         "published": "Sat, 19 Sep 2026 12:00:00 GMT",
         "assets": [],
         "sentiment": "Neutral",
@@ -472,6 +545,16 @@
         "color": "red"
       },
       {
+        "title": "Top Chef finalist Brian Malarkey: After 27 restaurants, I’m betting big on my hometown Portland — and we’re headed for $10 million in sales this year",
+        "source": "Fortune",
+        "url": "https://fortune.com/2026/09/19/top-chef-brian-malarkey-opening-portland-restaurant-hometown/",
+        "published": "Sat, 19 Sep 2026 12:30:00 +0000",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "I fled communism. Are Gen Z drawn to it?",
         "source": "Fortune",
         "url": "https://fortune.com/2026/09/19/why-gen-z-is-drawn-to-communism-socialism/",
@@ -490,93 +573,83 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "‘A huge problem’: Trump has traded more stocks than all of Congress combined. A Bush-era ethics lawyer explains why you should worry",
-        "source": "Fortune",
-        "url": "https://fortune.com/2026/09/19/trump-trades-congress-index-fund-ethics/",
-        "published": "Sat, 19 Sep 2026 10:00:00 +0000",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.178,
+      "score": -0.267,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "volume_24h": 2617690,
-        "yes_price": 0.74,
+        "volume_24h": 2643490,
+        "yes_price": 0.73,
         "category": "finance",
         "url": "https://polymarket.com/event/will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election"
       },
       {
         "title": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
-        "volume_24h": 564512,
-        "yes_price": 0.23,
+        "volume_24h": 568173,
+        "yes_price": 0.24,
         "category": "finance",
         "url": "https://polymarket.com/event/will-new-people-nl-gain-the-most-seats-in-the-next-russian-parliamentary-election"
       },
       {
+        "title": "Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?",
+        "volume_24h": 484649,
+        "yes_price": 0.02,
+        "category": "finance",
+        "url": "https://polymarket.com/event/will-the-liberal-democratic-party-of-russia-ldpr-gain-the-most-seats-in-the-next-russian-parliamentary-election"
+      },
+      {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 248411,
+        "volume_24h": 248390,
         "yes_price": 0.15,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
-        "volume_24h": 173811,
+        "volume_24h": 174920,
         "yes_price": 0.91,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-democratic-party-control-the-house-after-the-2026-midterm-elections"
       },
       {
         "title": "Trump x Greenland deal signed by December 31?",
-        "volume_24h": 150990,
+        "volume_24h": 152138,
         "yes_price": 0.96,
         "category": "finance",
         "url": "https://polymarket.com/event/trump-x-greenland-deal-signed-by-december-31"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-        "volume_24h": 121342,
+        "volume_24h": 121330,
         "yes_price": 0.56,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032"
       },
       {
         "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "volume_24h": 120291,
+        "volume_24h": 120516,
         "yes_price": 0.43,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031"
-      },
-      {
-        "title": "Xi Jinping out before 2027?",
-        "volume_24h": 106189,
-        "yes_price": 0.04,
-        "category": "finance",
-        "url": "https://polymarket.com/event/xi-jinping-out-before-2027"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret overall market sentiment based on prediction market data. The data includes various events with probabilities.\n\nWe need to decide if overall sentiment is bullish, bearish, or mixed. Likely mixed because some high probabilities for Democratic control (91%) and Trump Greenland deal (96%) maybe bullish for US? But also low probability for US invading Iran (15%) and Xi out (4%) maybe bearish? Hard to say.\n\nWe need to mention numbers and names where available. Provide reasons.\n\nWe need to keep within 80 words. Let's craft ~70 words.\n\nStart with \"Mixed:\" then reasons.\n\nInclude: United Russia 74% likely to gain most seats, New People 23%; Democratic Party control House 91%; Trump Greenland deal 96%; Fed rate increase 56% vs no change 43%; US invade Iran 15%; Xi out 4%.\n\nInterpretation: high confidence in Democratic control and Trump deal suggests optimism about US political stability; high United Russia dominance suggests continued Russian consolidation; low Iran invasion and Xi removal suggest low geopolitical risk; Fed split indicates uncertainty.\n\nThus mixed sentiment.\n\nNow produce paragraph.\n\nWord count: Let's draft ~65"
+      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to summarize overall market sentiment based on these prediction markets. Let's interpret: high probability for United Russia gaining most seats (73%) suggests bullish for Russian political stability? Also Democratic Party control House 91% high. Trump x Greenland deal signed 96% high. Fed rate increase 56% vs no change 43% fairly balanced. US invade Iran low 15%. New People 24%, LDPR 2%.\n\nOverall sentiment: seems optimistic about political outcomes (US Democrats, Trump deal, United Russia dominance) and moderate on Fed rates. Low chance of US invading Iran. So overall bullish? Mixed? There's some uncertainty on Fed rates but overall high confidence in many events. I'd say Bullish.\n\nNeed to mention numbers and names. Must be one paragraph, max 80 words. Let's craft ~70 words.\n\nParagraph: \"Bullish: Prediction markets show strong confidence that United Russia will dominate the next parliamentary election (73% yes, $2.6M volume) and that Democrats will retain the House after 2026 (91% yes, $175k), while a Trump‑Greenland deal is seen as almost certain (96% yes"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" maybe they omitted actual list. We need to infer? Possibly they expect we note that no data given? But we must mention numbers and names where available. Since no data, we might say no specific numbers or names provided. But we must still start with one of those prefixes.\n\nWe could say: Mixed: The discussion shows limited engagement with only a few top-mentioned subreddits (no specific names provided) and no quantitative sentiment metrics, indicating uncertainty among retail investors. That's within 80 words.\n\nBut we need to mention numbers and names where available. Since none, we could say \"no specific numbers or names were provided\". That mentions that there are none. That's okay.\n\nMake sure it's one paragraph. Max 80 words. Let's craft ~30 words.\n\n\"Mixed: The Reddit snapshot shows only a generic 'Top mentioned: Subreddits:' header without any listed communities, vote counts, or ticker references, leaving no concrete bullish or bearish cues and suggesting uncertain sentiment among participants.\"\n\nCount words: Mixed:(1) The2 Reddit3"
+      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" maybe they omitted details. We need to infer? Possibly they expect we note that no specific tickers or numbers given, so we can say insufficient data? But must mention numbers and names where available. Since none available, we can say no specific numbers or names provided. But we still need to start with Bullish/Bearish/Mixed. We could say Mixed: due to lack of clear sentiment in the data. Mention that no specific tickers or numbers were cited. That's within 80 words.\n\nMake sure it's one paragraph. No extra line breaks. Let's craft ~30 words.\n\n\"Mixed: The Reddit snippet only lists that subreddits were top mentioned without naming any stocks, providing no quantitative metrics or specific tickers, so sentiment cannot be clearly determined as bullish or bearish.\"\n\nCount words: Mixed:(1) The2 Reddit3 snippet4 only5 lists6 that7 subreddits8 were9 top10 mentioned11 without12 naming13 any14 stocks,15 providing16 no17 quantitative1"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have data: Trump says U.S. to build a 'large Military presence' in Greenland as part of a security deal with it and Denmark (Bullish). The old new thing: Cisco and retro tech are back and forming the AI buildout’s backbone (Bullish). Others neutral.\n\nThus overall sentiment likely Bullish due to those two bullish items. Provide reasons: Trump's military presence in Greenland, Cisco retro tech AI backbone. Mention numbers? No numbers given. Could mention \"large Military presence\" but no number. Could mention \"Cisco\" name. Provide maybe \"Trump's plan for a large military presence in Greenland\" and \"Cisco's retro tech forming AI backbone\". Keep under 80 words.\n\nOne paragraph, start with \"Bullish:\" then reasons. Ensure max 80 words. Let's craft ~45 words.\n\n\"Bullish: Trump’s announcement of a large U.S. military presence in Greenland, part of a security deal with Denmark, signals geopolitical stability and defense spending upside, while Cisco’s revival of retro‑tech hardware as the backbone of the AI buildout highlights renewed infrastructure investment and tech sector strength.\"\n\nCount words: Bullish:(1) Trump’s2 announcement3 of4 a5 large6 U.S."
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Items: many neutral, some bearish: MS NOW reporters denied access (Bearish), Warsh’s Fed shows it’s serious about taming inflation. Why Wall Street now believes it. (Bearish). Bullish: The old new thing: Cisco and retro tech are back and forming the AI buildout’s backbone (Bullish). So we have both bullish and bearish signals. Overall maybe Mixed. Provide reasons: mention Cisco, retro tech, AI buildout; Fed's inflation stance; media access ban; maybe mention numbers? No numbers given. Could mention \"Cisco\" name, \"Warsh’s Fed\". Provide specific reasons.\n\nWord count max 80. Let's craft ~45 words.\n\nParagraph: \"Mixed: Bullish momentum from Cisco’s resurgence and retro‑tech hardware powering the AI buildout, while bearish pressure stems from the Fed’s aggressive inflation stance under Warsh and the White House ban on MS NOW and two other outlets, which raises concerns about information flow and market sentiment.\"\n\nCheck words: Count.\n\n\"Mixed:\" (1) then space.\n\n\"Bullish\" (2) \"momentum\" (3) \"from\" ("
     },
     "macro": [
       {
@@ -671,11 +744,11 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 44
+          "interest_score": 47
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 7
+          "interest_score": 8
         },
         {
           "keyword": "Solana",
@@ -683,7 +756,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 29
+          "interest_score": 38
         }
       ]
     }
