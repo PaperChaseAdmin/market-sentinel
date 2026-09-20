@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T18:41:30Z",
+  "updated_at": "2026-09-20T18:51:09Z",
   "crypto": {
     "fear_greed": {
       "value": 71,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 81198,
-        "change_24h": -0.35,
-        "market_cap": 1630978719525,
-        "volume_24h": 24178744897
+        "price_usd": 81139,
+        "change_24h": -0.36,
+        "market_cap": 1630635215064,
+        "volume_24h": 24161745416
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2633.01,
-        "change_24h": -0.37,
-        "market_cap": 321400056616,
-        "volume_24h": 10934284676
+        "price_usd": 2629.16,
+        "change_24h": -0.35,
+        "market_cap": 321069424706,
+        "volume_24h": 10917037588
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 769.06,
-        "change_24h": 0.76,
-        "market_cap": 102407005750,
-        "volume_24h": 950090230
+        "price_usd": 769.15,
+        "change_24h": 0.91,
+        "market_cap": 102418336840,
+        "volume_24h": 954177591
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.41,
-        "change_24h": -1.6,
-        "market_cap": 88432652506,
-        "volume_24h": 2471756914
+        "change_24h": -1.37,
+        "market_cap": 88413912371,
+        "volume_24h": 2466657867
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 109.81,
-        "change_24h": -1.24,
-        "market_cap": 64504586804,
-        "volume_24h": 3105187730
+        "price_usd": 109.67,
+        "change_24h": -1.09,
+        "market_cap": 64473392368,
+        "volume_24h": 3095398632
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.086805,
-        "change_24h": -3.52,
-        "market_cap": 13541263804,
-        "volume_24h": 907595155
+        "price_usd": 0.086782,
+        "change_24h": -3.01,
+        "market_cap": 13554897012,
+        "volume_24h": 908358384
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 12.46,
-        "change_24h": -0.73,
-        "market_cap": 9317462545,
-        "volume_24h": 484530094
+        "price_usd": 12.43,
+        "change_24h": -0.57,
+        "market_cap": 9311422891,
+        "volume_24h": 484007749
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.227436,
-        "change_24h": -1.0,
-        "market_cap": 8533740067,
-        "volume_24h": 474375127
+        "price_usd": 0.227202,
+        "change_24h": -0.56,
+        "market_cap": 8542163320,
+        "volume_24h": 473620332
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 11.09,
-        "change_24h": 13.8,
-        "market_cap": 4913397278,
-        "volume_24h": 1542418120
+        "price_usd": 11.2,
+        "change_24h": 15.76,
+        "market_cap": 4969486769,
+        "volume_24h": 1592465820
       }
     ],
     "top_mentioned": [],
@@ -223,15 +223,15 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect we infer from given data? There's no actual discussion content. Might need to say insufficient data? But must start with one of those prefixes. Could say Mixed: due to limited data, no clear sentiment, mention numbers? There are no numbers. Could say \"No specific numbers or names provided.\" But need to mention numbers and names where available—if none, we can say none available. Must be <=80 words.\n\nLet's craft: \"Mixed: The Reddit snapshot shows only subreddit labels without comment volume or user sentiment, so no clear bullish or bearish tilt can be inferred; no specific tickers, price mentions, or user counts are provided to quantify sentiment.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 subreddit7 labels8 without9 comment10 volume11 or12 user13 sentiment,14 so15 no16 clear17 bullish18 or19 bearish20 tilt21 can22 be23 inferred;24 no25 specific26 tickers,27 price2"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no specifics, we can say insufficient data leads to mixed? But must mention numbers and names where available. If none, we can say no specific numbers mentioned. But we need to start with one of those prefixes.\n\nWe could say: Mixed: ... but we need reasons. Since no data, we can say \"No clear sentiment emerges from the limited data; top mentioned subreddits show ...\". But we need numbers and names where available. There are none, so we can say \"No specific numbers or names were provided\". That still mentions that none are available.\n\nWord count: Let's craft ~30 words.\n\n\"Mixed: The Reddit snippet only lists that subreddits were top mentioned without providing any specific posts, comment counts, or user names, so no clear bullish or bearish bias can be inferred from the available information.\"\n\nCount words: Mixed:(1) The2 Reddit3 snippet4 only5 lists6 that7 subreddits8 were9 top10 mentioned11 without12 providing"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's tally: Bullish items: Coinbase, Robinhood, Circle could be early winners of SEC's tokenized-stock push (Bullish). Grayscale’s Zcash ETF files for 3-for-1 forward share split (Bullish). That's two bullish.\n\nBearish items: Crypto traders braced for a total wipeout this week but Bitcoin had other plans (Bearish). Anthropic taps Accenture as embedded evaluator to help with AI slowdown proposal (Bearish). Visa Moves to Close Meme Coin Credit Card Rewards Loophole (Bearish). That's three bearish.\n\nNeutral items: Gemini’s stock down 80% from IPO reviving takeover speculation (Neutral). Trump says US will form ‘AI Force’ and appoint AI czar (Neutral). Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years (Neutral). So more bearish than bullish. Overall sentiment likely Bearish.\n\nWe need to start with 'Bearish:' then give reasons, mention numbers and names where available. Include numbers: Gemini’s stock down 80%, Grayscale’s Z"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's count bullish vs bearish vs neutral.\n\nBullish items:\n- Coinbase, Robinhood, Circle could be early winners of SEC's tokenized-stock push (Bullish)\n- Grayscale’s Zcash ETF files for 3-for-1 forward share split (Bullish)\n\nBearish items:\n- Crypto traders braced for a total wipeout this week but Bitcoin had other plans (Bearish) (some nuance)\n- Anthropic taps Accenture as embedded evaluator to help with AI slowdown proposal (Bearish)\n- Visa Moves to Close Meme Coin Credit Card Rewards Loophole (Bearish)\n\nNeutral items:\n- Crypto platform Gemini’s stock is down 80% from its IPO. That’s reviving takeover speculation (Neutral)\n- Trump says US will form ‘AI Force’ and appoint AI czar: Reports (Neutral)\n- Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years (Neutral)\n\nSo we have 2 bullish, 3 bearish, 3 neutral. Overall maybe mixed, leaning bearish? The instruction: start with Bullish"
     },
     "fourchain": {
-      "thread_count": 201,
-      "active_threads": 146,
+      "thread_count": 200,
+      "active_threads": 145,
       "mentions": {
         "BTC": 18,
         "XRP": 11,
@@ -255,49 +255,49 @@
         "name": "NEAR Protocol",
         "rank": 22,
         "score": 0,
-        "change_24h": 11.59
-      },
-      {
-        "symbol": "TRUMP",
-        "name": "Official Trump",
-        "rank": 101,
-        "score": 1,
-        "change_24h": -1.97
+        "change_24h": 10.56
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
         "rank": 9,
+        "score": 1,
+        "change_24h": -0.6
+      },
+      {
+        "symbol": "TRUMP",
+        "name": "Official Trump",
+        "rank": 102,
         "score": 2,
-        "change_24h": 0.03
+        "change_24h": -2.55
       },
       {
         "symbol": "AKE",
         "name": "Akedo",
-        "rank": 62,
+        "rank": 59,
         "score": 3,
-        "change_24h": 3.46
+        "change_24h": 4.84
       },
       {
         "symbol": "BP",
         "name": "Backpack",
         "rank": 182,
         "score": 4,
-        "change_24h": 48.98
+        "change_24h": 47.5
       },
       {
         "symbol": "FIRO",
         "name": "Firo",
-        "rank": 843,
+        "rank": 844,
         "score": 5,
-        "change_24h": -12.75
+        "change_24h": -11.07
       },
       {
         "symbol": "SUI",
         "name": "Sui",
         "rank": 32,
         "score": 6,
-        "change_24h": 4.53
+        "change_24h": 2.7
       }
     ]
   },
@@ -380,6 +380,26 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Qatar on Diplomacy and Global Growth",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/videos/2026-09-20/qatar-on-diplomacy-and-global-growth-video",
+        "published": "Sun, 20 Sep 2026 18:22:26 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
+        "title": "Pimco Likes Rates Where They Are, CEO Roman Says",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/videos/2026-09-20/pimco-likes-rates-where-they-are-ceo-roman-says-video",
+        "published": "Sun, 20 Sep 2026 18:37:06 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Qatar, Citi and PIMCO on Capital Discipline and Resilience",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/videos/2026-09-20/qatar-citi-on-capital-discipline-and-resilience-video",
@@ -388,26 +408,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "Aliko Dangote on Investing in Africa",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-09-20/aliko-dangote-on-investing-in-africa-video",
-        "published": "Sun, 20 Sep 2026 17:49:18 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "Bloomberg This Weekend 9/20/2026",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-09-20/bloomberg-this-weekend-9-20-2026-video",
-        "published": "Sun, 20 Sep 2026 17:43:41 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
@@ -542,14 +542,14 @@
     "polymarket": [
       {
         "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
-        "volume_24h": 3114396,
+        "volume_24h": 3197042,
         "yes_price": 0.94,
         "category": "finance",
         "url": "https://polymarket.com/event/will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election"
       },
       {
         "title": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
-        "volume_24h": 806127,
+        "volume_24h": 812751,
         "yes_price": 0.06,
         "category": "finance",
         "url": "https://polymarket.com/event/will-new-people-nl-gain-the-most-seats-in-the-next-russian-parliamentary-election"
@@ -563,21 +563,21 @@
       },
       {
         "title": "US x Iran ceasefire continues through September 25?",
-        "volume_24h": 216661,
+        "volume_24h": 220735,
         "yes_price": 0.88,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-25-20260917"
       },
       {
         "title": "US x Iran ceasefire continues through September 30?",
-        "volume_24h": 201826,
+        "volume_24h": 202516,
         "yes_price": 0.79,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-30-20260917"
       },
       {
         "title": "Will voter turnout be 62% or higher in the 2026 Russian parliamentary election?",
-        "volume_24h": 178035,
+        "volume_24h": 179399,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/will-voter-turnout-be-62-or-higher-in-the-2026-russian-parliamentary-election"
@@ -591,24 +591,24 @@
       },
       {
         "title": "Israel x Iran ceasefire continues through September 30?",
-        "volume_24h": 170936,
+        "volume_24h": 170966,
         "yes_price": 0.93,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-september-30"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: 1 bullish vs 0 bearish signals detected across finance prediction markets data."
+      "outlook": "Mixed",
+      "summary": "Mixed: Markets show strong confidence in political stability and ceasefires, with United Russia favored to win the Russian election (94%) and high probabilities for US-Iran (79-88%) and Israel-Iran (93%) ceasefires. However, sentiment is bearish regarding Russian voter turnout (3% for 62%+) and Republican control of the House in 2026 (7%). Overall, traders bet on the status quo in Russia and Middle East peace, but expect Democratic House retention."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data only shows \"Top mentioned: Subreddits:\" but no actual data? Possibly missing. We have to work with given data: only \"Top mentioned: Subreddits:\" no numbers or names. Might need to infer that no data? But we must mention numbers and names where available. If none, we can say none? But must mention numbers and names where available—if none, we can say none mentioned. However we need to start with Bullish/Bearish/Mixed. Since no sentiment data, maybe Mixed? But we need reasons. Could say insufficient data to determine sentiment. But must start with one of those prefixes. Could say \"Mixed: insufficient data...\" but then mention numbers? None. Could say \"Mixed: No specific tickers or sentiment indicators were provided in the data.\" That mentions no numbers/names. Might be acceptable. Must be max 80 words. Let's craft ~30 words.\n\n\"Mixed: The provided data only lists that subreddits were top mentioned without naming any specific stocks, sentiment scores, or numerical metrics, making it impossible to discern a clear bullish or bearish bias from the discussion.\"\n\nWord count: Mixed: (1) The(2) provided3 data"
+      "summary": "Please provide the stock Reddit discussion data (Top mentioned stocks and Subreddits) so I can analyze it and write the summary for you."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's list items with sentiment tags:\n\n- Qatar, Citi and PIMCO on Capital Discipline and Resilience (Bullish)\n- Aliko Dangote on Investing in Africa (Neutral)\n- Bloomberg This Weekend 9/20/2026 (Neutral)\n- ‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies (Neutral)\n- Bessent meets China Vice Premier He Lifeng ahead of Trump-Xi summit (Neutral)\n- Nvidia CEO Jensen Huang emerges as Trump's top ally in AI safety debate (Neutral)\n- I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy? (Bearish)\n- ‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do? (Bullish)\n\nSo we have 2 Bullish, 1 Bearish, rest Neutral. Overall maybe Mixed, but leaning Bullish? The instruction: start with Bullish:, Bearish:,"
+      "summary": "Mixed: Sentiment is divided between institutional optimism and corporate struggle. Bullish signals come from Citi, PIMCO, and Qatar regarding capital discipline and resilience, alongside high-net-worth liquidity. However, bearish pressure persists as American companies face \"awful\" squeezes from tariffs, fuel costs, and high interest rates. Neutral stances from PIMCO CEO Roman on rates and diplomatic movements involving Bessent and Nvidia's Jensen Huang suggest a market in a cautious waiting period."
     },
     "macro": [
       {
@@ -703,7 +703,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 57
+          "interest_score": 56
         },
         {
           "keyword": "Ethereum",
@@ -711,11 +711,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 9
+          "interest_score": 8
         },
         {
           "keyword": "crypto",
-          "interest_score": 47
+          "interest_score": 45
         }
       ]
     }
