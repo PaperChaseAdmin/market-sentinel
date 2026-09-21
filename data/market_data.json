@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T01:21:22Z",
+  "updated_at": "2026-09-21T01:31:19Z",
   "crypto": {
     "fear_greed": {
       "value": 70,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 81699,
-        "change_24h": 0.68,
-        "market_cap": 1641588759394,
-        "volume_24h": 25326014457
+        "price_usd": 81542,
+        "change_24h": 0.53,
+        "market_cap": 1637439145027,
+        "volume_24h": 25871203008
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2685.3,
-        "change_24h": 2.38,
-        "market_cap": 327919750188,
-        "volume_24h": 13847792229
+        "price_usd": 2676.06,
+        "change_24h": 2.09,
+        "market_cap": 326502874558,
+        "volume_24h": 14065313236
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 782.37,
-        "change_24h": 2.48,
-        "market_cap": 104185769234,
-        "volume_24h": 1098919322
+        "price_usd": 780.91,
+        "change_24h": 2.47,
+        "market_cap": 103936195548,
+        "volume_24h": 1120173439
       },
       {
         "symbol": "XRP",
         "name": "XRP",
-        "price_usd": 1.43,
-        "change_24h": 1.69,
-        "market_cap": 89689426067,
-        "volume_24h": 2537858925
+        "price_usd": 1.42,
+        "change_24h": 1.78,
+        "market_cap": 89504492666,
+        "volume_24h": 2594131054
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 112.57,
-        "change_24h": 1.91,
-        "market_cap": 66149722112,
-        "volume_24h": 3502590716
+        "price_usd": 112.34,
+        "change_24h": 1.85,
+        "market_cap": 65926803309,
+        "volume_24h": 3553091386
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.088859,
-        "change_24h": 1.79,
-        "market_cap": 13864399058,
-        "volume_24h": 855853314
+        "price_usd": 0.088904,
+        "change_24h": 2.14,
+        "market_cap": 13852329259,
+        "volume_24h": 832308400
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 12.71,
-        "change_24h": 3.02,
-        "market_cap": 9510222312,
-        "volume_24h": 499591288
+        "price_usd": 12.7,
+        "change_24h": 3.15,
+        "market_cap": 9478772636,
+        "volume_24h": 512525213
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.231672,
-        "change_24h": 1.78,
-        "market_cap": 8689439652,
-        "volume_24h": 466626258
+        "price_usd": 0.231168,
+        "change_24h": 1.7,
+        "market_cap": 8662862639,
+        "volume_24h": 474679150
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 11.68,
-        "change_24h": 17.34,
-        "market_cap": 5137439854,
-        "volume_24h": 1587096657
+        "price_usd": 11.5,
+        "change_24h": 16.0,
+        "market_cap": 5098491021,
+        "volume_24h": 1501306248
       }
     ],
     "top_mentioned": [],
@@ -219,38 +219,31 @@
     },
     "polymarket": [
       {
-        "title": "Will Bitcoin reach $82,000 September 14-20?",
-        "volume_24h": 125903,
-        "yes_price": 0.56,
-        "category": "crypto",
-        "url": "https://polymarket.com/event/will-bitcoin-reach-82k-september-14-20-2026"
-      },
-      {
         "title": "Will the price of Bitcoin be above $84,000 on September 21?",
-        "volume_24h": 87000,
-        "yes_price": 0.06,
+        "volume_24h": 90068,
+        "yes_price": 0.05,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-84k-on-september-21-2026"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have two data points: Bitcoin reaching $82k Sep 14-20: Yes 56% (vol $125,903). Bitcoin above $84k Sep 21: Yes 6% (vol $87,000). So sentiment: moderate optimism for near term, but low for later. Mixed? Could be bullish for short term, bearish for longer. Probably Mixed: because one shows >50% chance for $82k, other only 6% for $84k later. So Mixed: mention numbers.\n\nWord count: need <=80 words. Let's craft ~45 words.\n\nParagraph: \"Mixed: the market shows a 56% probability (≈$126k volume) that Bitcoin will hit $82,000 between September 14‑20, indicating near‑term optimism, but only a 6% chance (≈$87k volume) of exceeding $84,000 on September 21, suggesting skepticism about sustained upward momentum.\"\n\nCount words: Mixed:(1) the2 market3 shows4 a5 56%6 probability7 (≈$"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: Only one market: \"Will the price of Bitcoin be above $84,000 on September 21?: Yes 5% (vol $90,068)\". So only 5% chance of Yes, implying low confidence that Bitcoin will be above $84k. That suggests bearish sentiment. So start with 'Bearish:' then mention that only 5% of market participants expect Bitcoin > $84k by Sep 21, with volume $90,068 indicating limited activity. That's the only data.\n\nWe need to keep under 80 words. Let's craft maybe ~30 words.\n\n\"Bearish: Prediction markets assign just a 5% probability to Bitcoin exceeding $84,000 by September 21, with only $90,068 traded on that contract, indicating weak confidence and low trading interest in a near‑term upside breakout.\"\n\nCount words: Let's count.\n\nBearish:(1) Prediction2 markets3 assign4 just5 a6 5%7 probability8 to9 Bitcoin10 exceeding11 $84,00012 by13 September 21,14 with1"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer? But we must use given data. The data only shows \"Top mentioned: Subreddits:\" with nothing after. So we have no numbers or names. We must still mention numbers and names where available, but none are available. Could we say none? Might be okay to say no specific numbers or names were provided. But instruction: \"Mention numbers and names where available.\" If none, we can omit? Probably we can say \"No specific numbers or names were mentioned.\" That still mentions that none are available. Must be concise, max 80 words.\n\nWe need to decide sentiment. With no data, we cannot infer. Perhaps we say Mixed due to lack of clear sentiment. Provide reasons: insufficient data, no clear trend. So start with \"Mixed:\" then reasons: lack of concrete mentions, no clear bullish/bearish signals, etc.\n\nWord count: Let's craft ~30 words.\n\n\"Mixed: The Reddit data shows only a header 'Top mentioned: Subreddits:' with no specific subreddit names, post counts, or sentiment indicators, making it impossible"
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nWe need to decide overall sentiment: Mixed? Let's weigh: Bullish items: Coinbase, Robinhood, Circle could be early winners (bullish); ARB could see 70X increase (bullish); Grayscale’s Zcash ETF files for 3-for-1 forward share split (bullish). Bearish: Crypto traders braced for total wipeout but Bitcoin had other plans (bearish); Visa moves to close meme coin credit card rewards loophole (bearish). Neutral: Gemini stock down 80% reviving takeover speculation (neutral); Trump AI Force (neutral); Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years (neutral). So we have 3 bullish, 2 bearish, 3 neutral. Overall maybe Mixed.\n\nWe need to start with \"Mixed:\" then reasons. Must mention numbers and names where available. Include numbers: 80% down, 70X increase, 3-for-1 split, total wipeout (maybe not a number), etc. Keep under 80 words.\n\nLet's craft ~70 words.\n\nParagraph: \"Mixed: Gemini’s stock is down 80"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's weigh: Bullish items: Coinbase, Robinhood, Circle could be early winners of SEC's tokenized-stock push (Bullish); ARB could see 70X increase (Bullish); Grayscale’s Zcash ETF files for 3-for-1 forward share split (Bullish). Bearish: Crypto traders braced for a total wipeout this week but Bitcoin had other plans (Bearish); Visa Moves to Close Meme Coin Credit Card Rewards Loophole (Bearish). Neutral: Gemini stock down 80% from IPO (Neutral); Trump AI Force (Neutral); Why Holding Anything But Bitcoin Has Been a Losing Bet for Two Years (Neutral). So more bullish points (3) vs bearish (2). Overall maybe Mixed but leaning bullish? The instruction: start with Bullish:, Bearish:, or Mixed:. We need to pick one. Since there are both bullish and bearish, Mixed seems appropriate. Provide specific reasons with numbers and names. Must be max 80 words.\n\nLet's craft: \"Mixed: Bullish signals include Coinbase, Robinhood and"
     },
     "fourchain": {
       "thread_count": 201,
       "active_threads": 141,
       "mentions": {
-        "BTC": 22,
+        "BTC": 23,
         "XRP": 11,
         "AVAX": 2
       },
@@ -268,53 +261,53 @@
     },
     "cg_trending": [
       {
+        "symbol": "NEAR",
+        "name": "NEAR Protocol",
+        "rank": 21,
+        "score": 0,
+        "change_24h": 20.25
+      },
+      {
         "symbol": "ZANO",
         "name": "Zano",
         "rank": 241,
-        "score": 0,
-        "change_24h": 4.17
+        "score": 1,
+        "change_24h": 5.22
       },
       {
         "symbol": "FIRO",
         "name": "Firo",
-        "rank": 836,
-        "score": 1,
-        "change_24h": -7.05
+        "rank": 838,
+        "score": 2,
+        "change_24h": -7.06
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "rank": 23,
+        "score": 3,
+        "change_24h": 17.34
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "rank": 101,
-        "score": 2,
-        "change_24h": -0.21
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "rank": 24,
-        "score": 3,
-        "change_24h": 15.95
-      },
-      {
-        "symbol": "NEAR",
-        "name": "NEAR Protocol",
-        "rank": 21,
         "score": 4,
-        "change_24h": 19.99
-      },
-      {
-        "symbol": "SUI",
-        "name": "Sui",
-        "rank": 31,
-        "score": 5,
-        "change_24h": 8.18
+        "change_24h": 0.02
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 107,
+        "score": 5,
+        "change_24h": 2.11
+      },
+      {
+        "symbol": "SUI",
+        "name": "Sui",
+        "rank": 31,
         "score": 6,
-        "change_24h": 2.42
+        "change_24h": 8.71
       }
     ]
   },
@@ -397,30 +390,30 @@
     "top_mentioned": [],
     "news": [
       {
-        "title": "Tata’s Rival Camps Lawyer Up Ahead of Looming Legal Battle",
+        "title": "Gold Steadies as Traders Weigh Inflation and Fed Path for Rates",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-20/tata-s-rival-camps-lawyer-up-ahead-of-looming-legal-battle",
-        "published": "Sun, 20 Sep 2026 10:41:42 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-20/gold-steadies-as-traders-weigh-inflation-and-fed-hike-outlook",
+        "published": "Sun, 20 Sep 2026 23:45:47 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -0.333,
+        "color": "red"
+      },
+      {
+        "title": "Latest Oil Market News and Analysis for Sept. 21",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-20/latest-oil-market-news-and-analysis-for-sept-21",
+        "published": "Sun, 20 Sep 2026 22:05:05 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
       },
       {
-        "title": "Union Says US Steel Talks Make Little Progress Ahead of Deadline",
+        "title": "Tata’s Rival Camps Lawyer Up Ahead of Looming Legal Battle",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-21/union-says-us-steel-talks-make-little-progress-ahead-of-deadline",
-        "published": "Mon, 21 Sep 2026 00:55:05 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
-      },
-      {
-        "title": "Trump & Xi to Meet Amidst Friction on Wars, Tech, Trade",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-09-21/trump-xi-to-meet-amidst-friction-on-wars-tech-trade-video",
-        "published": "Mon, 21 Sep 2026 00:50:09 GMT",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-20/tata-s-rival-camps-lawyer-up-ahead-of-looming-legal-battle",
+        "published": "Sun, 20 Sep 2026 10:41:42 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
@@ -552,63 +545,63 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.2,
+      "score": -0.289,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 328012,
+        "volume_24h": 332995,
         "yes_price": 0.17,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "Russia Elections: United Russia Wins Every Region?",
-        "volume_24h": 194197,
-        "yes_price": 0.95,
+        "volume_24h": 193877,
+        "yes_price": 0.93,
         "category": "finance",
         "url": "https://polymarket.com/event/russia-elections-united-russia-wins-every-region"
       },
       {
-        "title": "US x Iran ceasefire continues through September 25?",
-        "volume_24h": 132315,
-        "yes_price": 0.89,
-        "category": "finance",
-        "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-25-20260917"
-      },
-      {
         "title": "US announces end of Iranian blockade by September 30, 2026?",
-        "volume_24h": 128557,
+        "volume_24h": 128982,
         "yes_price": 0.1,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-september-30-2026-20260727171615364-722-649-646-561-213-644-414-831"
       },
       {
+        "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+        "volume_24h": 128128,
+        "yes_price": 0.59,
+        "category": "finance",
+        "url": "https://polymarket.com/event/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election"
+      },
+      {
+        "title": "US x Iran ceasefire continues through September 25?",
+        "volume_24h": 123882,
+        "yes_price": 0.89,
+        "category": "finance",
+        "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-25-20260917"
+      },
+      {
         "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "volume_24h": 120678,
+        "volume_24h": 122597,
         "yes_price": 0.45,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031"
       },
       {
         "title": "Will voter turnout be between 56% and 59% in the 2026 Russian parliamentary election?",
-        "volume_24h": 115821,
+        "volume_24h": 115769,
         "yes_price": 0.31,
         "category": "finance",
         "url": "https://polymarket.com/event/will-voter-turnout-be-between-56-and-59-in-the-2026-russian-parliamentary-election"
       },
       {
-        "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-        "volume_24h": 113063,
-        "yes_price": 0.59,
-        "category": "finance",
-        "url": "https://polymarket.com/event/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election"
-      },
-      {
         "title": "Israel x Iran ceasefire continues through November 30?",
-        "volume_24h": 112615,
+        "volume_24h": 112605,
         "yes_price": 0.69,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-november-30"
@@ -616,16 +609,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret overall market sentiment based on these prediction markets. Let's see: US invade Iran before 2027: only 17% yes (low). Russia elections: United Russia wins every region: 95% yes (high). US x Iran ceasefire continues through Sep 25: 89% yes (high). US announces end of Iranian blockade by Sep 30 2026: only 10% yes (low). Fed rates unchanged after Oct 2026 meeting: 45% yes (moderate). Russian parliamentary election turnout 56-59%: 31% yes (low). Flávio Bolsonaro win 2026 Brazilian presidential: 59% yes (slightly above half). Israel x Iran ceasefire continues through Nov 30: 69% yes (moderately high).\n\nOverall sentiment: Mixed? There are some bullish signs (high confidence in Russia election win, US-Iran ceasefire, Israel-Iran ceasefire) and bearish signs (low chance of US invading Iran, low chance of end of blockade, moderate Fed rates, low turnout expectation). So Mixed.\n\nWe need to start with \"Mixed"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on these prediction markets. Let's see: US invade Iran before 2027: Yes 17% low => low chance of invasion => bullish? Actually low chance of conflict is bullish for markets. Russia elections: United Russia wins every region: Yes 93% high => expectation of political stability in Russia => bullish? US announces end of Iranian blockade by Sep 30 2026: Yes 10% low => low expectation of blockade ending => bearish? US x Iran ceasefire continues through Sep 25: Yes 89% high => expectation of ceasefire continuing => bullish. Flávio Bolsonaro win 2026 Brazilian election: Yes 59% moderate-high => bullish for Brazil? No change in Fed rates after Oct 2026 meeting: Yes 45% ~ neutral. Voter turnout between 56-59% in Russian parliamentary election: Yes 31% low => expectation turnout lower => maybe bearish? Israel x Iran ceasefire continues through Nov 30: Yes 69% moderate-high => bullish.\n\nOverall, many high probabilities for ceasefires and political stability, low invasion"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data: \"Top mentioned: Subreddits:\" maybe they omitted details. We need to infer? Possibly they expect we note that no specific tickers or numbers are given, so we say insufficient data? But must mention numbers and names where available. Since none provided, we could say no specific numbers or names mentioned. But we still need to start with one of the three prefixes. We could say \"Mixed: ...\" and note that the discussion shows balanced sentiment with X mentions etc. But we have no numbers. Could we assume something? Probably better to state that the data lacks specifics, so sentiment cannot be determined, but we must still give a paragraph. Could say \"Mixed: The Reddit discussion shows no clear bullish or bearish bias, with equal numbers of positive and negative comments across subreddits (e.g., r/stocks and r/investing each contributed roughly 50% of mentions).\" But that's making up numbers. Might be considered hallucination. The instruction: \"Mention numbers and names where available.\" If not available, we shouldn't invent. So we should say that no specific numbers or"
+      "summary": "Mixed: the provided Reddit data only lists “Top mentioned: Subreddits” without any specific tickers, post counts, or sentiment indicators, so there is insufficient quantitative or named information to determine a clear bullish or bearish bias."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's list items with sentiment tags:\n\n- Tata’s Rival Camps Lawyer Up Ahead of Looming Legal Battle (Neutral)\n- Union Says US Steel Talks Make Little Progress Ahead of Deadline (Bullish)\n- Trump & Xi to Meet Amidst Friction on Wars, Tech, Trade (Neutral)\n- ‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies (Neutral)\n- Bessent calls meeting with China Vice Premier He Lifeng 'successful' ahead of Trump-Xi summit (Bullish)\n- Trump to meet with NYC Mayor Zohran Mamdani on Monday ahead of UN General Assembly (Neutral)\n- I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy? (Bearish)\n- ‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do? (Bullish)\n\nWe have 3 Bullish, 1 Bear"
+      "summary": "We need to produce exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Data includes: Gold Steadies as Traders Weigh Inflation and Fed Path for Rates (Bearish) - bearish. Latest Oil Market News and Analysis for Sept. 21 (Neutral). Tata’s Rival Camps Lawyer Up Ahead of Looming Legal Battle (Neutral). ‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies (Neutral). Bessent calls meeting with China Vice Premier He Lifeng 'successful' ahead of Trump-Xi summit (Bullish). Trump to meet with NYC Mayor Zohran Mamdani on Monday ahead of UN General Assembly (Neutral). I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy? (Bearish). ‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do? (Bullish).\n\nSo we have 2 bullish, 2 bearish, rest neutral. Overall sentiment maybe Mixed. So"
     },
     "macro": [
       {
@@ -637,20 +630,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 100.23,
-        "change_24h": 0.01
+        "value": 100.22,
+        "change_24h": -0.0
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4417.7,
-        "change_24h": -0.16
+        "value": 4414.9,
+        "change_24h": -0.23
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 93.87,
-        "change_24h": -6.41
+        "value": 93.74,
+        "change_24h": -6.54
       }
     ],
     "most_active": [
@@ -720,11 +713,11 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 64
+          "interest_score": 98
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 13
+          "interest_score": 18
         },
         {
           "keyword": "Solana",
@@ -732,7 +725,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 71
+          "interest_score": 75
         }
       ]
     }
