@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T18:11:11Z",
+  "updated_at": "2026-09-26T18:21:21Z",
   "crypto": {
     "fear_greed": {
       "value": 74,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 84098,
-        "change_24h": 0.22,
-        "market_cap": 1689505025300,
-        "volume_24h": 18284385054
+        "price_usd": 84069,
+        "change_24h": 0.05,
+        "market_cap": 1688895548923,
+        "volume_24h": 18190929504
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2688.76,
-        "change_24h": -0.04,
-        "market_cap": 328248694267,
-        "volume_24h": 6051372313
+        "price_usd": 2687.35,
+        "change_24h": -0.36,
+        "market_cap": 328072772716,
+        "volume_24h": 5970256996
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 772.4,
-        "change_24h": -0.25,
-        "market_cap": 102851774225,
-        "volume_24h": 648978111
+        "price_usd": 772.19,
+        "change_24h": -0.47,
+        "market_cap": 102824843879,
+        "volume_24h": 634343632
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.54,
-        "change_24h": -2.13,
-        "market_cap": 96526906607,
-        "volume_24h": 2733725572
+        "change_24h": -2.64,
+        "market_cap": 96554901269,
+        "volume_24h": 2713314603
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 121.4,
-        "change_24h": 0.03,
-        "market_cap": 71341485006,
-        "volume_24h": 3438413786
+        "price_usd": 121.32,
+        "change_24h": -0.8,
+        "market_cap": 71304078493,
+        "volume_24h": 3359506590
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.097625,
-        "change_24h": 0.32,
-        "market_cap": 15236694834,
-        "volume_24h": 754388787
+        "price_usd": 0.097586,
+        "change_24h": -0.3,
+        "market_cap": 15231239149,
+        "volume_24h": 747274573
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 14.29,
-        "change_24h": 3.65,
-        "market_cap": 10688321691,
-        "volume_24h": 617099422
+        "price_usd": 14.21,
+        "change_24h": 2.47,
+        "market_cap": 10633935119,
+        "volume_24h": 614391182
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.256451,
-        "change_24h": 0.58,
-        "market_cap": 9624373360,
-        "volume_24h": 564939768
+        "price_usd": 0.256225,
+        "change_24h": -0.08,
+        "market_cap": 9617107491,
+        "volume_24h": 560412744
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
-        "price_usd": 10.89,
-        "change_24h": 3.94,
-        "market_cap": 4823025584,
-        "volume_24h": 546299455
+        "price_usd": 10.87,
+        "change_24h": 3.01,
+        "market_cap": 4815426303,
+        "volume_24h": 542062156
       }
     ],
     "top_mentioned": [],
@@ -228,15 +228,15 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer? But we must use given data. Since data is minimal, we can say something like: \"Bullish: ...\" but need numbers and names. There's no numbers or names. Could we say \"No specific numbers or names provided\"? But they said mention numbers and names where available. If none, we can omit? Might be okay to say none available. But we need to start with Bullish/Bearish/Mixed. We need to decide sentiment based on data? No data. Could assume neutral? But must pick one. Perhaps we say \"Mixed: ...\" and note lack of concrete data. But need to mention numbers and names where available—none, so we just don't mention any. That satisfies.\n\nWord count max 80. Let's craft ~30 words.\n\n\"Mixed: The discussion shows varied opinions across subreddits, with no clear consensus; users cite both optimism about upcoming upgrades and concerns over regulatory scrutiny, but specific metrics or named projects are absent.\"\n\nCheck word count: Mixed:(1) The2 discussion3 shows4 varied5 opinions6 across7 subreddits,8 with"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since data is missing, we might say insufficient data? But must start with one of those prefixes. Could say \"Mixed: ...\" and note lack of concrete data? But need to mention numbers and names where available. If none, we can say none mentioned. But still need to be concise.\n\nWe could say: \"Mixed: The discussion shows no clear dominance, with only generic mentions of subreddits and no specific tokens or price movements cited, resulting in ambiguous sentiment.\" That mentions no numbers/names. But requirement: \"Mention numbers and names where available.\" If none, we can say none available. That's okay.\n\nWord count: Let's craft ~30 words.\n\n\"Mixed: The Reddit snapshot lists only top-mentioned subreddits without naming any cryptocurrencies, citing no price changes, volume figures, or user counts, leaving the market sentiment indeterminate between optimism and caution.\"\n\nCount words: Mixed:(1) The2 Reddit3 snapshot4 lists5 only6 top-mentioned7 subred"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nWe have mixed signals: some bullish (Bitcoin ETFs winning streak, 2026 flows turn green), some bearish (Bitget hacker moves $83M XRP, Kalshi loses appeal, SEC Commissioner Hester Peirce leaving), some neutral. Overall maybe Mixed.\n\nWe need to start with \"Mixed:\" then reasons, include numbers and names. Keep under 80 words.\n\nLet's craft ~70 words.\n\nParagraph: Mixed: Bitcoin ETFs posted a seven‑day winning streak with 2026 inflows turning green, signaling bullish momentum, while Bitget’s hacker moved $83 million of stolen XRP that Ripple cannot freeze and Kalshi lost its appeal, setting up a possible Supreme Court case, and SEC Commissioner Hester Peirce announced her Oct. 2 departure, all weighing on sentiment; neutral notes on Kraken’s parent Payward, Binance‑Circle stablecoin deal, and regulatory adaptation temper the outlook.\n\nCount words. Let's count.\n\nMixed:(1) Bitcoin2 ETFs3 posted4 a5 six‑day? Wait we said seven‑day. Let's count properly.\n\n\"Mixed:\""
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: There are bullish (Bitcoin ETFs seven-day winning streak, 2026 flows turn green). Bearish: Bitget hacker moves $83M XRP, Kalshi loses appeal, SEC Commissioner Hester Peirce leaving (bearish). Neutral items: Kraken parent betting billions, Binance deal gives Circle boost, \"Here's what happened in crypto today\", \"How Crypto Stopped Waiting for Congress...\". So mixed signals. Probably Mixed: with reasons: bullish ETF streak, bearish hack, regulatory departure, etc. Must mention numbers and names where available. Include $83 million, Bitget, XRP, Kalshi, SEC Commissioner Hester Peirce, Bitcoin ETFs seven-day winning streak, 2026 flows turn green. Keep under 80 words.\n\nLet's craft ~70 words.\n\nParagraph: \"Mixed: Bitcoin ETFs recorded a seven‑day winning streak with 2026 flows turning green, signaling bullish momentum, while bearish pressures emerged from a Bitget hacker moving $83 million in stolen XRP that Ripple cannot freeze and Kalshi losing its appeal, plus the impending departure"
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 144,
+      "active_threads": 146,
       "mentions": {
         "BTC": 17,
         "XRP": 11,
@@ -258,51 +258,51 @@
       {
         "symbol": "SI",
         "name": "Super Inu",
-        "rank": 962,
+        "rank": 951,
         "score": 0,
-        "change_24h": -10.03
+        "change_24h": -11.15
+      },
+      {
+        "symbol": "EDEL",
+        "name": "Edel",
+        "rank": 897,
+        "score": 1,
+        "change_24h": 4.03
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "rank": 104,
-        "score": 1,
-        "change_24h": 2.15
-      },
-      {
-        "symbol": "EDEL",
-        "name": "Edel",
-        "rank": 896,
         "score": 2,
-        "change_24h": 3.27
+        "change_24h": 1.89
       },
       {
         "symbol": "QNT",
         "name": "Quant",
         "rank": 60,
         "score": 3,
-        "change_24h": 26.06
+        "change_24h": 26.25
       },
       {
         "symbol": "KAS",
         "name": "Kaspa",
-        "rank": 71,
+        "rank": 70,
         "score": 4,
-        "change_24h": 20.3
-      },
-      {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 100,
-        "score": 5,
-        "change_24h": 2.67
+        "change_24h": 19.22
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "rank": 22,
+        "score": 5,
+        "change_24h": -2.16
+      },
+      {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "rank": 100,
         "score": 6,
-        "change_24h": -2.1
+        "change_24h": 2.09
       }
     ]
   },
@@ -385,6 +385,16 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Bloomberg This Weekend 09/26/2026",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/videos/2026-09-26/bloomberg-this-weekend-09-26-2026-video",
+        "published": "Sat, 26 Sep 2026 16:53:56 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/videos/2026-09-26/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
@@ -399,16 +409,6 @@
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-09-26/us-says-china-to-buy-10-million-tons-of-coal-in-2027-and-2028",
         "published": "Sat, 26 Sep 2026 04:52:45 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
-      },
-      {
-        "title": "US and China Seek Common Ground on AI",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/videos/2026-09-26/us-and-china-seek-common-ground-on-ai-video",
-        "published": "Sat, 26 Sep 2026 15:04:37 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
@@ -547,49 +547,49 @@
     "polymarket": [
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 774256,
+        "volume_24h": 777269,
         "yes_price": 0.17,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "US x Iran ceasefire continues through September 30?",
-        "volume_24h": 438375,
+        "volume_24h": 440033,
         "yes_price": 0.94,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-30-20260917"
       },
       {
         "title": "US announces end of Iranian blockade by September 30, 2026?",
-        "volume_24h": 276109,
+        "volume_24h": 276660,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-september-30-2026-20260727171615364-722-649-646-561-213-644-414-831"
       },
       {
         "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "volume_24h": 188277,
+        "volume_24h": 188253,
         "yes_price": 0.34,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031"
       },
       {
         "title": "2026 Balance of Power: R Senate, R House",
-        "volume_24h": 163869,
+        "volume_24h": 163874,
         "yes_price": 0.07,
         "category": "finance",
         "url": "https://polymarket.com/event/2026-balance-of-power-r-senate-r-house-537"
       },
       {
         "title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-        "volume_24h": 127603,
+        "volume_24h": 124841,
         "yes_price": 0.42,
         "category": "finance",
         "url": "https://polymarket.com/event/will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election"
       },
       {
         "title": "US announces end of Iranian blockade by October 31, 2026?",
-        "volume_24h": 123080,
+        "volume_24h": 123352,
         "yes_price": 0.28,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-october-31-2026-20260727171711632-895-372-622-413-171-454-592-696"
@@ -604,16 +604,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes predictions about US-Iran conflict, ceasefire, blockade, Fed rates, US politics, Brazilian election, Kharg Island.\n\nWe need overall market sentiment: Many high probability for ceasefire (94%) suggests optimism about de-escalation. Low probability for invasion (17%) and blockade ending (4% and 28%) suggests skepticism about US actions. Fed rates unchanged 34% moderate. US Senate/House Republican 7% low. Lula win 42% moderate. Kharg Island not under Iranian control 7% low.\n\nOverall seems mixed but leaning bearish on US aggression? Actually ceasefire high suggests bullish for peace, but low chance of blockade ending suggests bearish for oil supply? Hard.\n\nWe need choose one label. Probably Mixed: because conflicting signals: high ceasefire optimism vs low invasion and blockade probabilities.\n\nWe need to mention numbers and names where available. Must be <=80 words.\n\nLet's craft ~70 words.\n\nParagraph: \"Mixed: markets show strong confidence in a US‑Iran ceasefire continuing through September 30 (94%, $438k volume) but only a 17% chance of a US invasion of Iran before 2027 ($"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on data. The data includes predictions about US-Iran conflict, ceasefire, blockade, Fed rates, US Senate/House, Brazilian election, Kharg Island.\n\nWe need to decide overall sentiment: likely mixed? Let's see: US-Iran ceasefire continues through Sep30: Yes 94% high volume => bullish for peace. US announces end of Iranian blockade by Sep30 2026: Yes only 4% low => bearish for blockade ending. US announces end of Iranian blockade by Oct31 2026: Yes 28% moderate. US invade Iran before 2027: Yes 17% low => low chance of invasion => bullish for stability. Fed rates no change after Oct2026 meeting: Yes 34% moderate. 2026 Balance of Power: R Senate, R House: Yes 7% low => unlikely Republican sweep => maybe bearish for Republicans? Lula win 2026 Brazilian election: Yes 42% moderate. Kharg Island no longer under Iranian control by Dec31: Yes 7% low => unlikely loss of control => bullish for Iran retaining control."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave incomplete data. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no specifics, we could say insufficient data leads to Mixed? But need mention numbers and names where available. There are none. Could we say \"No specific tickers mentioned\"? Might be okay. Must start with Bullish:, Bearish:, or Mixed:. Choose Mixed: because ambiguous. Provide reasons: limited discussion, no clear consensus, etc. Must be <=80 words. Let's craft ~30 words.\n\n\"Mixed: Reddit users show divided sentiment, with some praising recent earnings beats (e.g., AAPL up 2%) while others warn of valuation concerns; overall mention count low, no dominant ticker, indicating uncertainty.\"\n\nCheck word count: Mixed:(1) Reddit(2) users3 show4 divided5 sentiment,6 with7 some8 praising9 recent10 earnings11 beats12 (e.g.,13 AAPL14 up15 2%)16 while17 others18 warn19 of20 valuation21 concerns;22 overall23 mention24 count25 low,"
+      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. The data given: \"Top mentioned: Subreddits:\" but no actual data? Possibly missing. We must work with what we have: only \"Top mentioned: Subreddits:\" and nothing else. That seems insufficient. Perhaps we need to infer that there is no data, so we say Mixed: insufficient data? But must mention numbers and names where available. There are none. Could we say \"No specific tickers or numbers were mentioned in the provided data.\" That would be a reason. Must start with Bullish:, Bearish:, or Mixed:. Choose Mixed: because ambiguous. Then give reasons: no specific tickers, no sentiment indicators, only subreddit mention placeholder. Keep under 80 words.\n\nLet's craft: \"Mixed: The provided data only lists 'Top mentioned: Subreddits:' without any actual ticker symbols, comment counts, or sentiment indicators, making it impossible to discern a clear bullish or bearish bias; consequently, sentiment remains indeterminate based on the available information.\"\n\nCount words: Mixed:(1) The2 provided3 data4 only5 lists6 'Top7 mentioned:8 Subreddits:'9 without10 any11 actual12 ticker13 symbols,14 comment15 counts,16"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Items: Bloomberg's Weekly News Quiz For Risk-Takers (Bearish) - indicates bearish sentiment. Trump-Xi Summit Yields Coal Pledge as Tariff Talks Extend (Neutral). US and China Seek Common Ground on AI (Neutral). The 10-year Treasury yield is at its highest in nearly two decades. How we got here (Bullish). Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics (Neutral). OpenAI expands review of model behavior after more rogue agent incidents emerge (Bullish). From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years (Bearish). Social Security checks are projected to be cut by $540 a month in just six years (Bearish).\n\nSo we have 2 bullish items (10-year Treasury yield high, OpenAI review), 3 bearish items (Bloomberg quiz, inflation charts, Social Security cut), and rest neutral. Overall maybe mixed but leaning bearish? The instruction: start with Bullish:, Bearish:, or Mixed:. We need"
+      "summary": "Mixed: Sentiment is split between growth and instability. Bullish signals come from OpenAI's model expansions and rising 10-year Treasury yields. However, bearish pressure mounts due to persistent inflation trends, projected $540 monthly Social Security cuts, and risk-averse outlooks from Bloomberg. Neutral factors include a $5.7 billion patent verdict against Apple and ongoing Trump-Xi tariff negotiations, creating an uncertain environment for investors."
     },
     "macro": [
       {
@@ -708,19 +708,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 75
+          "interest_score": 62
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 13
+          "interest_score": 10
         },
         {
           "keyword": "Solana",
-          "interest_score": 12
+          "interest_score": 17
         },
         {
           "keyword": "crypto",
-          "interest_score": 43
+          "interest_score": 54
         }
       ]
     }
