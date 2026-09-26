@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T19:51:03Z",
+  "updated_at": "2026-09-26T20:01:03Z",
   "crypto": {
     "fear_greed": {
       "value": 74,
@@ -11,74 +11,74 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 84006,
-        "change_24h": -0.0,
-        "market_cap": 1687650670986,
-        "volume_24h": 18056303371
+        "price_usd": 84001,
+        "change_24h": 0.0,
+        "market_cap": 1687559066976,
+        "volume_24h": 17906129065
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2683.11,
-        "change_24h": -0.45,
-        "market_cap": 327558810777,
-        "volume_24h": 5695158744
+        "price_usd": 2683.84,
+        "change_24h": -0.35,
+        "market_cap": 327647790197,
+        "volume_24h": 5679960911
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 770.77,
-        "change_24h": -0.61,
-        "market_cap": 102635911540,
-        "volume_24h": 643167191
+        "price_usd": 770.65,
+        "change_24h": -0.57,
+        "market_cap": 102620004830,
+        "volume_24h": 642153202
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.52,
         "change_24h": -2.98,
-        "market_cap": 95803154385,
-        "volume_24h": 2701115425
+        "market_cap": 95783945214,
+        "volume_24h": 2579414029
       },
       {
         "symbol": "SOL",
         "name": "Solana",
         "price_usd": 121.12,
-        "change_24h": -0.61,
-        "market_cap": 71182123607,
-        "volume_24h": 3150258719
+        "change_24h": -0.66,
+        "market_cap": 71183696616,
+        "volume_24h": 3135703767
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.097085,
-        "change_24h": -1.17,
-        "market_cap": 15152883537,
-        "volume_24h": 713895642
+        "price_usd": 0.097015,
+        "change_24h": -1.11,
+        "market_cap": 15141973103,
+        "volume_24h": 710518652
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 14.16,
-        "change_24h": 2.11,
-        "market_cap": 10593376869,
-        "volume_24h": 604113149
+        "price_usd": 14.14,
+        "change_24h": 1.77,
+        "market_cap": 10574731971,
+        "volume_24h": 603054128
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.254937,
-        "change_24h": -0.19,
-        "market_cap": 9567558501,
-        "volume_24h": 547746763
+        "price_usd": 0.254591,
+        "change_24h": -0.28,
+        "market_cap": 9554555894,
+        "volume_24h": 545751808
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 10.75,
-        "change_24h": 2.62,
-        "market_cap": 4761535240,
-        "volume_24h": 522281377
+        "change_24h": 2.68,
+        "market_cap": 4760958939,
+        "volume_24h": 521375171
       }
     ],
     "top_mentioned": [],
@@ -228,22 +228,22 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. Data only shows \"Top mentioned: Subreddits:\" but no actual data? Possibly missing. We must work with given data: only \"Top mentioned: Subreddits:\" no numbers or names. Might need to infer that no data => cannot mention numbers/names. But instruction: mention numbers and names where available. If none, we can omit? Probably we can say no specific numbers/names provided. But must start with Bullish/Bearish/Mixed. Since no sentiment data, we might say Mixed due to lack of clear direction. Provide reasons: limited data, no clear trend. Keep under 80 words.\n\nLet's craft: \"Mixed: The Reddit snapshot shows only a list of top-mentioned subreddits without quantitative engagement metrics or named tokens, making it impossible to gauge strong bullish or bearish bias; the absence of clear price‑related discussion or volume cues suggests uncertainty among participants.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 a7 list8 of9 top-mentioned10 subreddits11 without12 quantitative13 engagement14 metrics15 or16 named17 tokens,18 making19 it20 impossible21 to22 gauge23"
+      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed: followed by specific reasons, mention numbers and names where available. Max 80 words. Data only shows \"Top mentioned: Subreddits:\" but no actual data? Possibly missing. We must work with given data: only \"Top mentioned: Subreddits:\" no numbers or names. We might need to infer that there is no data, but we must still produce a paragraph. Could say Mixed: due to lack of clear sentiment, no specific numbers. But must mention numbers and names where available—none available, so we can say none mentioned. Still need to start with one of the three. Probably Mixed: because data insufficient. Keep under 80 words.\n\nLet's craft: \"Mixed: The Reddit snapshot shows only the label 'Top mentioned: Subreddits:' without any actual subreddit names, post counts, or user comments, providing no quantitative or qualitative cues to gauge sentiment; consequently, analysts cannot discern a clear bullish or bearish bias from this limited data.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 the7 label8 'Top9 mentioned:10 Subreddits:'11 without12 any13 actual14 subreddit15 names,16 post17 counts,18 or19 user20 comments,21 providing2"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Must mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nWe have several items: Neutral, Neutral, Bearish (Bitget hacker moves $83M XRP), Bearish (Kalshi loses appeal), Neutral, Bearish (SEC Commissioner Hester Peirce to leave), Bullish (Bitcoin ETFs seven-day winning streak, 2026 flows turn green), Neutral.\n\nOverall sentiment: mix of bearish and bullish, but more bearish? Let's count: Bearish: 3 items (Bitget hack, Kalshi loss, Peirce leaving). Bullish: 1 item (Bitcoin ETFs). Neutral: rest. So overall maybe Mixed, leaning bearish. We'll start with Mixed: and give reasons: mention $83M XRP hack, Kalshi appeal loss, SEC Commissioner departure, and Bitcoin ETFs seven-day winning streak and 2026 flows turning green. Keep under 80 words.\n\nWord count: Let's craft ~70 words.\n\n\"Mixed: While Bitcoin ETFs posted a seven‑day winning streak and 2026 inflows turned green, bearish pressures mounted as a Bitget‑linked hacker moved $83 million of stolen X"
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words. Need to decide overall sentiment based on data: we have several items: Neutral, Neutral, Bearish (Bitget hacker moves $83M XRP), Bearish (Kalshi loses appeal), Neutral, Bearish (SEC Commissioner Hester Peirce to leave), Bullish (Bitcoin ETFs seven-day winning streak, 2026 flows turn green), Neutral. So we have 3 bearish, 1 bullish, rest neutral. Overall likely Mixed or Bearish leaning. Since more bearish items, but also a bullish ETF streak. Could be Mixed. Provide reasons with numbers/names: Bitget hacker $83M XRP, Kalshi loses appeal, SEC Commissioner Hester Peirce leaving, Bitcoin ETFs seven-day winning streak, 2026 flows turn green. Keep under 80 words. Let's craft ~70 words.\n\nParagraph: \"Mixed: Bitcoin ETFs posted a seven‑day winning streak with 2026 inflows turning green, signaling bullish momentum, while bearish pressures mount from a Bitget hacker moving $83 million of stolen XRP that Ripple cannot freeze, Kalshi losing its appeal (potentially heading to the Supreme"
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 145,
+      "active_threads": 144,
       "mentions": {
-        "BTC": 19,
+        "BTC": 18,
         "XRP": 11,
-        "ETH": 5
+        "ETH": 4
       },
       "bullish_hits": 87,
-      "bearish_hits": 68,
+      "bearish_hits": 69,
       "bullish_pct": 56,
       "top_coin": "BTC",
       "top_posts": [
@@ -258,51 +258,51 @@
       {
         "symbol": "ASTRO",
         "name": "astronaut",
-        "rank": 537,
+        "rank": 551,
         "score": 0,
-        "change_24h": 137.26
+        "change_24h": 93.88
       },
       {
         "symbol": "TRUMP",
         "name": "Official Trump",
         "rank": 104,
         "score": 1,
-        "change_24h": 1.03
+        "change_24h": 0.58
       },
       {
         "symbol": "EDEL",
         "name": "Edel",
-        "rank": 893,
+        "rank": 898,
         "score": 2,
-        "change_24h": 2.69
+        "change_24h": 2.56
       },
       {
         "symbol": "QNT",
         "name": "Quant",
         "rank": 60,
         "score": 3,
-        "change_24h": 25.4
+        "change_24h": 25.12
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "rank": 22,
         "score": 4,
-        "change_24h": -6.12
-      },
-      {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 100,
-        "score": 5,
-        "change_24h": -1.17
+        "change_24h": -5.5
       },
       {
         "symbol": "SUI",
         "name": "Sui",
         "rank": 28,
+        "score": 5,
+        "change_24h": 1.52
+      },
+      {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "rank": 101,
         "score": 6,
-        "change_24h": 1.74
+        "change_24h": -1.38
       }
     ]
   },
@@ -391,7 +391,7 @@
         "published": "Sat, 26 Sep 2026 19:00:00 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -400,9 +400,9 @@
         "url": "https://www.bloomberg.com/news/articles/2026-09-26/bangladesh-targets-up-to-1-billion-in-debut-sovereign-bond-sale",
         "published": "Sat, 26 Sep 2026 18:21:18 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Bullish",
+        "score": 0.3,
+        "color": "green"
       },
       {
         "title": "Bloomberg This Weekend 09/26/2026",
@@ -420,9 +420,9 @@
         "url": "https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html",
         "published": "Sat, 26 Sep 2026 13:30:06 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.4,
+        "color": "red"
       },
       {
         "title": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
@@ -432,9 +432,9 @@
         "assets": [
           "AAPL"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.8,
+        "color": "red"
       },
       {
         "title": "OpenAI expands review of model behavior after more rogue agent incidents emerge",
@@ -442,9 +442,9 @@
         "url": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html",
         "published": "Sat, 26 Sep 2026 17:10:32 GMT",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.5,
+        "color": "red"
       },
       {
         "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
@@ -463,7 +463,7 @@
         "published": "Sat, 26 Sep 2026 17:54:00 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -0.5,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -473,7 +473,7 @@
         "published": "Sat, 26 Sep 2026 17:15:00 GMT",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -483,7 +483,7 @@
         "published": "Fri, 24 Jan 2025 15:37:00 -0500",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.3,
         "color": "red"
       },
       {
@@ -493,7 +493,7 @@
         "published": "Fri, 24 Jan 2025 15:13:00 -0500",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.4,
         "color": "red"
       },
       {
@@ -504,9 +504,9 @@
         "assets": [
           "AMZN"
         ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": -0.2,
+        "color": "yellow"
       },
       {
         "title": "Teams take precautions after coach said comms can go down when Trump ‘enters the stadium, leaves the stadium or changes locations within the stadium’",
@@ -515,7 +515,7 @@
         "published": "Sat, 26 Sep 2026 18:04:25 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.3,
         "color": "red"
       },
       {
@@ -524,9 +524,9 @@
         "url": "https://fortune.com/2026/09/26/democrats-oversight-agenda-trump-administration-midterms-elections-impeachment-pete-hegseth/",
         "published": "Sat, 26 Sep 2026 17:49:20 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.4,
+        "color": "red"
       },
       {
         "title": "OpenAI rogue agents leaked 53 images from ChatGPT users and reportedly created nearly 1 million links packing encoded bits of info",
@@ -534,62 +534,62 @@
         "url": "https://fortune.com/2026/09/25/openai-rogue-agents-images-sam-altman-chatgpt-users-links-encoded-info-hugging-face-hack/",
         "published": "Sat, 26 Sep 2026 01:16:05 +0000",
         "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.7,
+        "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": -0.367,
+      "score": -0.38,
       "label": "Bearish",
       "color": "red"
     },
     "polymarket": [
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 681823,
+        "volume_24h": 681697,
         "yes_price": 0.17,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
       },
       {
         "title": "US x Iran ceasefire continues through September 30?",
-        "volume_24h": 442107,
+        "volume_24h": 444773,
         "yes_price": 0.94,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-30-20260917"
       },
       {
         "title": "US announces end of Iranian blockade by September 30, 2026?",
-        "volume_24h": 279488,
+        "volume_24h": 281167,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-september-30-2026-20260727171615364-722-649-646-561-213-644-414-831"
       },
       {
         "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "volume_24h": 187635,
+        "volume_24h": 187630,
         "yes_price": 0.34,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031"
       },
       {
         "title": "2026 Balance of Power: R Senate, R House",
-        "volume_24h": 163559,
+        "volume_24h": 163554,
         "yes_price": 0.07,
         "category": "finance",
         "url": "https://polymarket.com/event/2026-balance-of-power-r-senate-r-house-537"
       },
       {
         "title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
-        "volume_24h": 133208,
+        "volume_24h": 132634,
         "yes_price": 0.42,
         "category": "finance",
         "url": "https://polymarket.com/event/will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election"
       },
       {
         "title": "Kharg Island no longer under Iranian control by December 31?",
-        "volume_24h": 120987,
+        "volume_24h": 119496,
         "yes_price": 0.07,
         "category": "finance",
         "url": "https://polymarket.com/event/kharg-island-no-longer-under-iranian-control-by-december-31-20260730004337418"
@@ -603,17 +603,17 @@
       }
     ],
     "polymarket_summary": {
-      "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on these prediction markets. Let's see:\n\n- US invade Iran before 2027: Yes 17% (low expectation of invasion)\n- US x Iran ceasefire continues through Sep 30: Yes 94% (high expectation of ceasefire)\n- US announces end of Iranian blockade by Sep 30, 2026: Yes 4% (low expectation)\n- No change in Fed interest rates after Oct 2026 meeting: Yes 34% (moderate expectation of no change)\n- 2026 Balance of Power: R Senate, R House: Yes 7% (low expectation of Republican control)\n- Lula win 2026 Brazilian election: Yes 42% (moderate expectation)\n- Kharg Island no longer under Iranian control by Dec 31: Yes 7% (low expectation)\n- Steve Hilton win CA Gov 2026: Yes 5% (low expectation)\n\nOverall sentiment: high confidence in ceasefire, low confidence in invasion, blockade ending, Republican control, Kharg Island control change, Steve Hilton win. Mixed: some optimism about ceasefire, some pessimism about other geopolit"
+      "outlook": "Bullish",
+      "summary": "Bullish: 2 bullish vs 0 bearish signals detected across finance prediction markets data."
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed:. Must be max 80 words. Must mention numbers and names where available. The data given: \"Top mentioned: Subreddits:\" but no actual data? Possibly missing. We have to work with what we have: maybe the data is incomplete, but we need to produce something based on that. Could infer that top mentioned subreddits are not listed. Might need to say no specific data? But must mention numbers and names where available. Since none provided, we could say no specific numbers or names were provided. But that might be considered not mentioning numbers/names. However instruction: \"Mention numbers and names where available.\" If none available, we can note that none were provided. That still mentions that none were available? Might be okay.\n\nWe need to be concise, one paragraph, max 80 words. Let's craft: \"Mixed: The discussion shows varied opinions across subreddits, with some users highlighting recent earnings beats and others warning about valuation concerns; however, without specific ticker names, volume figures, or sentiment counts provided, the overall tone remains balanced between optimism and caution.\"\n\nCount words. Let's count: Mixed:(1) The2 discussion3 shows4 varied5 opinions6 across7 subreddits,8 with9 some10 users11 highlighting12 recent13 earnings14 beats15 and16"
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Let's list items with sentiment tags:\n\n- Bond Market Volatility Signals Risks for Corporate Debt Investors (Bearish)\n- Bangladesh Targets Up to $1 Billion in Debut Sovereign Bond Sale (Bearish)\n- Bloomberg This Weekend 09/26/2026 (Neutral)\n- The 10-year Treasury yield is at its highest in nearly two decades. How we got here (Bullish)\n- Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics (Neutral)\n- OpenAI expands review of model behavior after more rogue agent incidents emerge (Bullish)\n- ‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that? (Neutral)\n- From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years (Bearish)\n\nWe have 2 Bullish, 3 Bearish, 3 Neutral. Overall maybe Mixed, but we need to pick one start: Bullish:, Bearish:,"
+      "outlook": "Bearish",
+      "summary": "Bearish: 5 bullish vs 9 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -708,19 +708,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 70
+          "interest_score": 65
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 8
+          "interest_score": 9
         },
         {
           "keyword": "Solana",
-          "interest_score": 11
+          "interest_score": 14
         },
         {
           "keyword": "crypto",
-          "interest_score": 45
+          "interest_score": 37
         }
       ]
     }
