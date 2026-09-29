@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T06:21:13Z",
+  "updated_at": "2026-09-29T06:31:13Z",
   "crypto": {
     "fear_greed": {
       "value": 73,
@@ -10,6 +10,16 @@
     "prices": [],
     "top_mentioned": [],
     "news": [
+      {
+        "title": "$50 million in Bitget hacker swaps puts NEAR Intents’ ‘permissionless’ claim to the test",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/09/29/usd50-million-in-bitget-hacker-swaps-puts-near-intents-permissionless-claim-to-the-test",
+        "published": "Tue, 29 Sep 2026 06:23:47 +0000",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
       {
         "title": "Anthropic plans to spend $518 billion on AI infrastructure. Pre-IPO perps barely blink.",
         "source": "CoinDesk",
@@ -33,16 +43,6 @@
         "sentiment": "Neutral",
         "score": 0.2,
         "color": "yellow"
-      },
-      {
-        "title": "Goldman Sachs brings $100 billion Treasury fund into crypto’s institutional plumbing",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing",
-        "published": "Mon, 28 Sep 2026 18:00:00 +0000",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
       },
       {
         "title": "Here’s what happened in crypto today",
@@ -139,35 +139,35 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.067,
+      "score": -0.233,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin dip to $80,000 in September?",
-        "volume_24h": 159108,
+        "volume_24h": 160907,
         "yes_price": 0.07,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-80k-in-september-2026-from-september-18"
       },
       {
         "title": "Will Bitcoin dip to $82,500 in September?",
-        "volume_24h": 140510,
-        "yes_price": 0.48,
+        "volume_24h": 140491,
+        "yes_price": 0.47,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-82pt5k-in-september-2026"
       },
       {
         "title": "Will Bitcoin dip to $77,500 in September?",
-        "volume_24h": 113054,
+        "volume_24h": 113348,
         "yes_price": 0.02,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-77pt5k-in-september-2026-from-september-18"
       },
       {
         "title": "Will the price of Bitcoin be above $86,000 on September 29?",
-        "volume_24h": 94427,
+        "volume_24h": 101229,
         "yes_price": 0.03,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-86k-on-september-29-2026"
@@ -181,38 +181,38 @@
       },
       {
         "title": "Will Bitcoin reach $87,500 in September?",
-        "volume_24h": 71959,
+        "volume_24h": 74841,
         "yes_price": 0.07,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-87pt5k-in-september-2026"
       },
       {
+        "title": "Will the price of Bitcoin be above $82,000 on September 29?",
+        "volume_24h": 73487,
+        "yes_price": 0.97,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/bitcoin-above-82k-on-september-29-2026"
+      },
+      {
         "title": "Will Ethereum reach $2,900 in September?",
-        "volume_24h": 69058,
+        "volume_24h": 70433,
         "yes_price": 0.04,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-ethereum-reach-2900-in-september-2026"
-      },
-      {
-        "title": "Will the price of Bitcoin be above $82,000 on September 29?",
-        "volume_24h": 67591,
-        "yes_price": 0.96,
-        "category": "crypto",
-        "url": "https://polymarket.com/event/bitcoin-above-82k-on-september-29-2026"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on prediction market data.\n\nData points:\n\n- Bitcoin dip to $80k in Sep: Yes 7% (vol $159k) => low probability of dip to 80k.\n- Bitcoin dip to $82.5k: Yes 48% (vol $140k) => near 50% chance dip to 82.5k.\n- Bitcoin dip to $77.5k: Yes 2% (vol $113k) => very low chance dip to 77.5k.\n- Bitcoin above $86k on Sep 29: Yes 3% (vol $94k) => low chance above 86k.\n- Bitcoin reach $130k by Dec 31 2026: Yes 6% (vol $83k) => low chance long term.\n- Bitcoin reach $87.5k in Sep: Yes 7% (vol $71k) => low chance.\n- Ethereum reach $2,900 in Sep: Yes 4% (vol $69k) => low chance.\n- Bitcoin above $82k on Sep"
+      "summary": "We need exactly ONE paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: Most predictions about dips to lower levels have low probability (7%, 47% for $82.5k dip, 2% for $77.5k dip). The probability of being above $86k on Sep 29 is only 3% (so bearish). But probability of being above $82k on Sep 29 is 97% (bullish). So overall mixed: high chance above $82k, low chance above $86k, moderate chance dip to $82.5k (47%). Ethereum low chance to reach $2.9k (4%). Bitcoin reaching $130k by 2026 low 6%. So sentiment: Mixed, with short-term bullish above $82k but uncertainty about higher levels and dip risk.\n\nWe need to mention numbers and names where available. Include percentages and volumes maybe. Keep under 80 words.\n\nLet's craft ~70 words.\n\nParagraph: \"Mixed: traders assign a 97% chance (vol $73,487) that Bitcoin stays above $82,000 on Sep 29, indicating near‑term bullish bias, yet only a"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave only a placeholder. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no data, we can say insufficient data? But must start with Bullish/Bearish/Mixed and mention numbers and names where available. If no data, we could say \"No specific data provided\" but that wouldn't mention numbers/names. Could we say \"Based on the provided data, there is insufficient information to determine sentiment\"? That would not start with required prefix? It must start with Bullish:, Bearish:, or Mixed:. We could choose Mixed: and say \"Insufficient data to determine clear sentiment; no specific numbers or names were provided.\" That mentions that no numbers/names were provided, which is a statement about numbers/names. It starts with Mixed:. That satisfies. Must be max 80 words. Let's craft ~30 words.\n\n\"Mixed: The Reddit data shows no clear dominance of bullish or bearish posts, with no specific subreddit names, coin mentions, or numeric sentiment metrics provided, indicating ambiguous market sentiment among users.\"\n\nCheck word count: Mixed:(1) The"
+      "summary": "Mixed: No clear sentiment emerges from the limited data; only subreddit mentions are noted without quantitative metrics or named assets."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data. Let's tally:\n\nBullish: Anthropic $518B AI infra (bullish), Goldman Sachs $100B Treasury fund into crypto (bullish). That's two bullish.\n\nBearish: Tether froze $550M Iran-linked USDT (bearish). One bearish.\n\nNeutral: Bitcoin holds $83k as ZEC drops 12% and oil climbs (neutral), Here's what happened in crypto today (neutral), Coinbase CFTC approval (neutral), OpenAI halts model training (neutral), RSA attack (neutral). So many neutral.\n\nOverall sentiment: more bullish than bearish, but many neutrals. Likely Mixed? But we need to pick one start label. Could be Bullish: because two bullish points outweigh one bearish. Provide reasons: Anthropic $518B AI infra, Goldman Sachs $100B Treasury fund, mention Bitcoin holding $83k, ZEC -12%, Tether froze $550M. But need to keep within 80 words.\n\nLet's craft: \"Bullish: Anthropic’s planned $518 billion AI‑infrastructure spend and"
+      "summary": "Mixed: 6 bullish vs 7 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
@@ -240,49 +240,49 @@
         "name": "Quant",
         "rank": 33,
         "score": 0,
-        "change_24h": -10.28
+        "change_24h": -9.66
       },
       {
         "symbol": "FIRO",
         "name": "Firo",
-        "rank": 813,
+        "rank": 811,
         "score": 1,
-        "change_24h": 0.05
+        "change_24h": 0.19
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "rank": 22,
         "score": 2,
-        "change_24h": -8.69
-      },
-      {
-        "symbol": "HBAR",
-        "name": "Hedera",
-        "rank": 26,
-        "score": 3,
-        "change_24h": 21.23
-      },
-      {
-        "symbol": "RHEA",
-        "name": "RHEA",
-        "rank": 525,
-        "score": 4,
-        "change_24h": -25.57
+        "change_24h": -8.44
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
         "rank": 9,
-        "score": 5,
-        "change_24h": -9.75
+        "score": 3,
+        "change_24h": -9.39
       },
       {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 102,
+        "symbol": "HBAR",
+        "name": "Hedera",
+        "rank": 26,
+        "score": 4,
+        "change_24h": 22.53
+      },
+      {
+        "symbol": "RHEA",
+        "name": "RHEA",
+        "rank": 521,
+        "score": 5,
+        "change_24h": -24.89
+      },
+      {
+        "symbol": "PRL",
+        "name": "Pearl",
+        "rank": 123,
         "score": 6,
-        "change_24h": -4.36
+        "change_24h": -5.43
       }
     ]
   },
@@ -365,7 +365,7 @@
     "top_mentioned": [],
     "news": [
       {
-        "title": "What to Expect From Burnham's Speech to Labour Party (Video)",
+        "title": "What to Expect From Burnham's Speech to Labour Party",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/videos/2026-09-29/what-to-expect-from-burnham-s-speech-to-labour-party-video",
         "published": "Tue, 29 Sep 2026 06:18:40 GMT",
@@ -373,6 +373,16 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
+      },
+      {
+        "title": "Spain, Portugal, Luxembourg Urge EU to Set 2040 Renewables Goal",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-29/spain-portugal-luxembourg-urge-eu-to-set-2040-renewables-goal",
+        "published": "Tue, 29 Sep 2026 06:16:45 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "Kenyan Court Pauses Building of $16 Billion Dangote Refinery",
@@ -383,16 +393,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "South Africa Retailers Turn to New Leaders in Fight for Shoppers",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-29/south-africa-retailers-turn-to-new-leaders-in-fight-for-shoppers",
-        "published": "Tue, 29 Sep 2026 06:00:00 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
       },
       {
         "title": "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high",
@@ -520,80 +520,80 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.089,
+      "score": 0.022,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "US announces end of Iranian blockade by September 30, 2026?",
-        "volume_24h": 245801,
+        "volume_24h": 241313,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-september-30-2026-20260727171615364-722-649-646-561-213-644-414-831"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-        "volume_24h": 212503,
+        "volume_24h": 212520,
         "yes_price": 0.69,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032"
       },
       {
         "title": "Putin out as President of Russia by December 31, 2026?",
-        "volume_24h": 211015,
+        "volume_24h": 210892,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/putin-out-before-2027-346"
       },
       {
-        "title": "US x Iran ceasefire continues through September 30?",
-        "volume_24h": 209476,
-        "yes_price": 0.97,
-        "category": "finance",
-        "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-30-20260917"
-      },
-      {
         "title": "US announces end of Iranian blockade by October 31, 2026?",
-        "volume_24h": 199534,
+        "volume_24h": 201020,
         "yes_price": 0.27,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-october-31-2026-20260727171711632-895-372-622-413-171-454-592-696"
       },
       {
         "title": "Trump renames AI by September 30?",
-        "volume_24h": 192676,
-        "yes_price": 0.54,
+        "volume_24h": 193247,
+        "yes_price": 0.53,
         "category": "finance",
         "url": "https://polymarket.com/event/trump-renames-ai-by-september-30"
       },
       {
-        "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-        "volume_24h": 184057,
-        "yes_price": 0.58,
-        "category": "finance",
-        "url": "https://polymarket.com/event/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election"
-      },
-      {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 180453,
+        "volume_24h": 180441,
         "yes_price": 0.14,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
+      },
+      {
+        "title": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+        "volume_24h": 178489,
+        "yes_price": 0.77,
+        "category": "finance",
+        "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636"
+      },
+      {
+        "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+        "volume_24h": 177724,
+        "yes_price": 0.58,
+        "category": "finance",
+        "url": "https://polymarket.com/event/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on data. Let's see: US end of Iranian blockade by Sep 30 2026: Yes 3% (low). Fed increase rates after Oct 2026: Yes 69% (high). Putin out by Dec 31 2026: Yes 3% (low). US-Iran ceasefire continues through Sep 30: Yes 97% (very high). US announces end of Iranian blockade by Oct 31 2026: Yes 27% (moderate low). Trump renames AI by Sep 30: Yes 54% (slightly above half). Flávio Bolsonaro win 2026 Brazilian election: Yes 58% (slightly above half). US invade Iran before 2027: Yes 14% (low).\n\nOverall sentiment: high confidence in ceasefire, moderate confidence in Fed rate hike, moderate confidence in Trump renaming AI and Bolsonaro win, low confidence in blockade ending, Putin out, US invasion. Mixed signals: some bullish (ceasefire, Fed hike, Bolsonaro, Trump AI rename)"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes various prediction markets. Likely overall sentiment? Let's see: Fed rate increase probabilities high (69% Oct, 77% Dec) suggests expectation of tightening -> bearish for equities? But also US ending Iranian blockade low probability (3% Sep, 27% Oct) suggests low chance of geopolitical easing. Putin out low 3%. Trump renames AI 53% (moderate). Flávio Bolsonaro win 58% (moderate). US invade Iran before 2027 14% low. So overall: expectations of continued Fed tightening, low chance of geopolitical de-escalation, moderate political outcomes. That seems bearish for risk assets. So start with 'Bearish:' then reasons: high probability of Fed rate hikes (69% Oct, 77% Dec), low chance of Iranian blockade ending (3% Sep, 27% Oct), low Putin out (3%), low invasion chance (14%). Also mention Trump renames AI 53% and Bolsonaro 58% as mixed but overall bearish.\n\nNeed to keep within 80 words. Let's craft ~"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The data seems incomplete. Possibly they expect us to infer from given snippet? The snippet only shows \"Top mentioned:\" then \"Subreddits:\" with nothing else. Might be a trick: we have no data, so we must say insufficient data? But must start with Bullish/Bearish/Mixed and mention numbers and names where available. Since no numbers or names, we could say \"No specific data provided\" but that would not mention numbers/names. Could we say \"Mixed: No concrete sentiment indicators were found in the provided data.\" That mentions no numbers/names, but requirement: \"Mention numbers and names where available.\" If none available, we can omit? It says mention numbers and names where available. So if none, we don't need to mention. So we can produce a mixed sentiment statement.\n\nWe need max 80 words. One paragraph. Let's craft ~30 words.\n\n\"Mixed: The Reddit discussion lacks clear bullish or bearish signals, with no prominent tickers or volume metrics highlighted, resulting in ambiguous sentiment among users.\"\n\nCheck word count: Mixed:(1) The(2) Reddit(3)"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: \"Top mentioned: Subreddits:\" but no actual data? The user gave only placeholder? Possibly they omitted actual data. We need to infer? Might be that the data is missing; we must respond based on given data-less? Could say insufficient data? But must start with Bullish/Bearish/Mixed and mention numbers and names where available. Since no data, we could say \"No specific data provided\" but that would not mention numbers/names. Might be considered not following instruction.\n\nWe could assume that the data is empty, so we say \"Mixed: No clear sentiment due to lack of specific mentions.\" But that doesn't mention numbers/names. Could we mention that zero mentions? \"0 mentions\" is a number. Could say \"Mixed: 0 mentions across subreddits indicate no discernible sentiment.\" That mentions number 0. That satisfies mention numbers. No names though. Could mention \"no specific tickers\". Could say \"No named stocks were mentioned.\" That's a name? Not really.\n\nMaybe we can say \"Mixed: 0 mentions in top subreddits, no specific tickers cited, indicating neutral sentiment.\" That includes number 0 and mentions \"no specific tickers\". That"
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe have several bullish items: Burnham's speech (Bullish), South Africa retailers turn to new leaders (Bullish), Anthropic’s potential $2 trillion IPO (Bullish), AMD makes a big bet on AI with World Labs acquisition (Bullish). Neutral items: Kenyan Court pauses building of $16B Dangote refinery (neutral), US/Iran mediator talks (neutral), Australia says more hikes not off the table after raising rates to 15-year high (neutral), India readies $25B for Deep Tech investment (neutral). Overall sentiment likely bullish due to multiple bullish items outweighing neutrals. So start with \"Bullish:\" then list reasons with numbers and names.\n\nWe need max 80 words. Let's craft ~70 words.\n\nParagraph: \"Bullish: Burnham’s upcoming speech to the Labour Party is expected to boost confidence; South African retailers are appointing new leaders to win back shoppers; Anthropic eyes a potential $2 trillion IPO, signaling strong investor appetite; and AMD’s acquisition of World Labs underscores a big bet on the next AI era. While neutral notes—such as the Kenyan court pausing the $16 billion Dang"
+      "outlook": "Bullish",
+      "summary": "Bullish: 7 bullish vs 1 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -605,20 +605,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 101.23,
-        "change_24h": 0.03
+        "value": 101.26,
+        "change_24h": 0.06
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4176.3,
-        "change_24h": 0.19
+        "value": 4173.8,
+        "change_24h": 0.13
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 93.75,
-        "change_24h": 1.24
+        "value": 93.97,
+        "change_24h": 1.48
       }
     ],
     "most_active": [
@@ -688,7 +688,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 51
+          "interest_score": 54
         },
         {
           "keyword": "Ethereum",
@@ -696,11 +696,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 5
+          "interest_score": 7
         },
         {
           "keyword": "crypto",
-          "interest_score": 31
+          "interest_score": 32
         }
       ]
     }
