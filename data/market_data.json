@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T04:01:20Z",
+  "updated_at": "2026-09-29T04:11:15Z",
   "crypto": {
     "fear_greed": {
       "value": 73,
@@ -144,7 +144,7 @@
       {
         "title": "Will Bitcoin dip to $82,500 in September?",
         "volume_24h": 171101,
-        "yes_price": 0.73,
+        "yes_price": 0.74,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-82pt5k-in-september-2026"
       },
@@ -198,15 +198,15 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Data provided: \"Top mentioned: Subreddits:\" but nothing else? The data seems incomplete. Possibly they omitted details. We need to infer? Might be that the data is just placeholder. We need to produce a summary based on given data: only \"Top mentioned: Subreddits:\" with no further info. We can't mention numbers or names because none given. But instruction says mention numbers and names where available. If none, we can still comply by not mentioning? Might be okay. But we need to start with Bullish/Bearish/Mixed. Since no sentiment data, we could say Mixed due to lack of clear direction. Provide reasons: limited data, no clear trend. Must be <=80 words. One paragraph.\n\nLet's craft: \"Mixed: The Reddit snapshot shows only that subreddits were the top mentioned category without any specific tickers, sentiment scores, or volume figures, making it impossible to discern a clear bullish or bearish bias; consequently, analysts interpret the silence as neutral, indicating uncertainty among crypto traders.\" Count words.\n\nCount: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 that7 subreddits8 were9 the10 top11 mentioned1"
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall sentiment based on data: Bullish items: Goldman Sachs $100B Treasury fund into crypto’s institutional plumbing (bullish). The restaking gold rush is over, and top protocols are barely making a profit (they label as Bullish? Actually they wrote \"(Bullish)\" after that line, but content says restaking gold rush is over, top protocols barely making profit - that sounds bearish, but they labeled Bullish. We'll trust label. NEAR Intents blocked $50M tied to Bitget hackers (Bearish). Others neutral.\n\nThus we have two bullish, one bearish, many neutral. Overall maybe Mixed? But we need to start with one of those words. Could argue overall bullish due to institutional inflow outweighing bearish. Provide reasons: Goldman Sachs $100B Treasury fund, restaking gold rush over but protocols barely profit (still bullish per label), NEAR blocked $50M hack (bearish). Mention numbers and names.\n\nWord count max 80. Let's craft ~70 words.\n\nParagraph: \"Bullish: Goldman Sachs is bringing a $100 billion Treasury‑fund pipeline into crypto’s institutional plumbing,"
+      "outlook": "Bullish",
+      "summary": "Bullish: 5 bullish vs 3 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 142,
+      "active_threads": 141,
       "mentions": {
         "XRP": 8,
         "BTC": 7,
@@ -230,49 +230,49 @@
         "name": "Quant",
         "rank": 33,
         "score": 0,
-        "change_24h": -8.01
+        "change_24h": -6.95
       },
       {
         "symbol": "FIRO",
         "name": "Firo",
         "rank": 812,
         "score": 1,
-        "change_24h": 0.26
+        "change_24h": -0.17
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "rank": 22,
         "score": 2,
-        "change_24h": -10.73
+        "change_24h": -10.75
       },
       {
         "symbol": "HBAR",
         "name": "Hedera",
         "rank": 26,
         "score": 3,
-        "change_24h": 24.19
+        "change_24h": 25.77
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
         "score": 4,
-        "change_24h": -0.32
+        "change_24h": -0.27
       },
       {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 104,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "rank": 13,
         "score": 5,
-        "change_24h": -6.46
+        "change_24h": 7.16
       },
       {
         "symbol": "PRL",
         "name": "Pearl",
         "rank": 122,
         "score": 6,
-        "change_24h": -5.5
+        "change_24h": -5.4
       }
     ]
   },
@@ -355,6 +355,26 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Gold Edges Higher as Treasuries Stabilize After Sharp Selloff",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-29/gold-trades-near-seven-week-low-as-rate-hike-pressure-mounts",
+        "published": "Tue, 29 Sep 2026 00:02:41 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
+        "title": "Copper Edges Higher as Chile Mine Dispute Raises Supply Concerns",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-29/copper-edges-higher-as-chile-mine-dispute-raises-supply-concerns",
+        "published": "Tue, 29 Sep 2026 03:58:50 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
         "title": "Samsung Bets $1 Billion on AI Data Centers From Ex-AWS Chief",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-09-28/samsung-to-invest-1-billion-in-kkr-s-ai-infrastructure-company",
@@ -365,24 +385,14 @@
         "color": "yellow"
       },
       {
-        "title": "Global Stocks Drop to One-Week Low, Oil Advances: Markets Wrap",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-28/stock-market-today-dow-s-p-live-updates",
-        "published": "Mon, 28 Sep 2026 22:11:04 GMT",
+        "title": "U.S., Iran hold separate mediator talks as Mideast oil exports hit war-time high",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/29/us-iran-war-trump-hormuz-.html",
+        "published": "Tue, 29 Sep 2026 04:02:47 GMT",
         "assets": [],
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Japan 40-Year Bond Sale Sees Strongest Demand Since 2020",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-29/japan-40-year-bond-sale-sees-strongest-demand-since-2020",
-        "published": "Tue, 29 Sep 2026 03:43:37 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
       },
       {
         "title": "Oil extends gains as Middle East supply concerns persist",
@@ -403,18 +413,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
-        "published": "Tue, 29 Sep 2026 01:48:52 GMT",
-        "assets": [
-          "NVDA"
-        ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Anthropic’s potential $2 trillion IPO comes with the following fine print",
@@ -512,7 +510,7 @@
       }
     ],
     "news_sentiment": {
-      "score": 0.089,
+      "score": -0.111,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -527,7 +525,7 @@
       {
         "title": "US announces end of Iranian blockade by October 31, 2026?",
         "volume_24h": 231322,
-        "yes_price": 0.26,
+        "yes_price": 0.27,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-october-31-2026-20260727171711632-895-372-622-413-171-454-592-696"
       },
@@ -555,7 +553,7 @@
       {
         "title": "Trump renames AI by September 30?",
         "volume_24h": 190474,
-        "yes_price": 0.54,
+        "yes_price": 0.55,
         "category": "finance",
         "url": "https://polymarket.com/event/trump-renames-ai-by-september-30"
       },
@@ -576,16 +574,16 @@
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret sentiment: The data includes various predictions. Let's see: US end of Iranian blockade by Sep 30 2026: only 3% yes (low). By Oct 31 2026: 26% yes (still low). Putin out by Dec 31 2026: 3% yes (low). Fed increase rates by 25 bps after Oct 2026 meeting: 69% yes (high). US-Iran ceasefire continues through Sep 30: 96% yes (very high). Trump renames AI by Sep 30: 54% yes (moderate). Flávio Bolsonaro win 2026 Brazilian election: 58% yes (moderate-high). US invade Iran before 2027: 14% yes (low).\n\nOverall sentiment: Mixed? There's high confidence in ceasefire and Fed rate hike, moderate confidence in Bolsonaro win and Trump renaming AI, low confidence in blockade ending, Putin out, US invasion. So overall maybe Mixed: some bullish signs (ceasefire, rate hike) and bearish signs (low"
+      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret market sentiment based on the data. The data includes various prediction markets: US ends Iranian blockade by Sep 30 2026: Yes 3% (low). By Oct 31 2026: Yes 27% (still low). Putin out by Dec 31 2026: Yes 3% (low). Fed increase rates by 25 bps after Oct 2026 meeting: Yes 69% (high). US-Iran ceasefire continues through Sep 30: Yes 96% (very high). Trump renames AI by Sep 30: Yes 55% (moderate). Flávio Bolsonaro win 2026 Brazilian presidential election: Yes 58% (moderate). US invade Iran before 2027: Yes 14% (low).\n\nOverall sentiment: high confidence in ceasefire, moderate confidence in Fed rate hike, Brazilian election, Trump renames AI; low confidence in blockade ending, Putin out, US invasion. Mixed signals: some bullish (ceasefire, Fed hike, election, AI rename) and bearish (low blockade end, Putin out"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nData: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect we infer from given? But there is no actual discussion content. Might be a trick: we have no data, so we cannot mention numbers/names. But we must mention numbers and names where available. If none, we can say none? But must mention numbers and names where available—if none, we can omit? The instruction: \"Mention numbers and names where available.\" If none, we just don't mention any. That's okay.\n\nWe need to decide sentiment based on data: only \"Top mentioned: Subreddits:\" no subreddits listed. So no sentiment info. Could be neutral? But we must start with Bullish:, Bearish:, or Mixed:. Choose Mixed: maybe because insufficient data? Or we could say Bullish: no negative signals? But better to say Mixed: due to lack of clear sentiment.\n\nWe need max 80 words. One paragraph. Let's craft ~30 words.\n\n\"Mixed: The discussion shows no clear consensus, with only top‑mentioned subreddits listed but no specific tickers, price targets, or user counts provided, leaving sentiment ambiguous.\"\n\nCheck"
+      "summary": "We need to produce exactly one paragraph, starting with either \"Bullish:\", \"Bearish:\", or \"Mixed:\" followed by specific reasons, mention numbers and names where available. Max 80 words. Data: \"Top mentioned: Subreddits:\" but no actual data? The user gave only that line. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no specific mentions, we can say insufficient data? But must mention numbers and names where available. If none, we can say no specific tickers mentioned. But we need to start with Bullish/Bearish/Mixed. Perhaps we choose Mixed due to lack of clear sentiment. Provide reasons: limited data, no clear consensus, etc. Must be <=80 words. Let's craft ~40 words.\n\n\"Mixed: The Reddit discussion shows no dominant ticker or clear consensus, with only generic mentions of subreddits and no specific stock names or volume figures cited, indicating divided opinions among participants.\"\n\nCheck word count: Mixed:(1) The(2) Reddit3 discussion4 shows5 no6 dominant7 ticker8 or9 clear10 consensus,11 with12 only13 generic14 mentions15 of16 subreddits17 and18 no19 specific20 stock21 names22 or23 volume24 figures25 cited,26 indicating2"
     },
     "news_summary": {
-      "outlook": "Bullish",
-      "summary": "Bullish: 9 bullish vs 4 bearish signals detected across stock/finance news data."
+      "outlook": "Mixed",
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Data includes: Gold edges higher as Treasuries stabilize after sharp selloff (Bearish). Copper edges higher as Chile mine dispute raises supply concerns (Bearish). Samsung bets $1B on AI data centers from ex-AWS chief (Neutral). US, Iran hold separate mediator talks as Mideast oil exports hit war-time high (Neutral). Oil extends gains as Middle East supply concerns persist (Neutral). Senate advances college sports bill aimed at regulating NIL deals (Bullish). Anthropic’s potential $2 trillion IPO comes with fine print (Bullish). AMD makes a big bet on next era of AI with World Labs acquisition (Bullish).\n\nSo we have 3 bullish items, 2 bearish, 3 neutral. Overall maybe mixed but leaning bullish? The instruction: start with Bullish:, Bearish:, or Mixed:. We need to pick one. Considering more bullish items (3) vs bearish (2) and neutrals (3). Could argue mixed sentiment due to offsetting factors. But we need to mention numbers and names where available. Provide specific reasons.\n\nIf we choose Mixed:, we need to mention both bullish and bear"
     },
     "macro": [
       {
@@ -597,20 +595,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 101.2,
-        "change_24h": 0.23
+        "value": 101.28,
+        "change_24h": 0.08
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4168.4,
-        "change_24h": -3.54
+        "value": 4164.1,
+        "change_24h": -0.1
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 92.6,
-        "change_24h": 0.21
+        "value": 94.04,
+        "change_24h": 1.56
       }
     ],
     "most_active": [
@@ -677,7 +675,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 48
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 8
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 8
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 29
+        }
+      ]
     }
   },
   "portfolio": [
