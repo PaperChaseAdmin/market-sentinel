@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T16:11:30Z",
+  "updated_at": "2026-09-29T16:21:33Z",
   "crypto": {
     "fear_greed": {
       "value": 73,
@@ -169,14 +169,14 @@
       {
         "title": "Will Bitcoin reach $87,500 in September?",
         "volume_24h": 107563,
-        "yes_price": 0.03,
+        "yes_price": 0.02,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-87pt5k-in-september-2026"
       },
       {
         "title": "Will Bitcoin dip to $82,500 in September?",
         "volume_24h": 95206,
-        "yes_price": 0.74,
+        "yes_price": 0.69,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-82pt5k-in-september-2026"
       },
@@ -188,29 +188,36 @@
         "url": "https://polymarket.com/event/will-bitcoin-reach-130000-by-december-31-2026-756-151-855"
       },
       {
+        "title": "Will Bitcoin dip to $77,500 in September?",
+        "volume_24h": 79656,
+        "yes_price": 0.02,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/will-bitcoin-dip-to-77pt5k-in-september-2026-from-september-18"
+      },
+      {
         "title": "Will Ethereum reach $2,800 in September?",
         "volume_24h": 70675,
-        "yes_price": 0.09,
+        "yes_price": 0.1,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-ethereum-reach-2800-in-september-2026-from-september-22"
       }
     ],
     "polymarket_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 0 bullish vs 1 bearish signals detected across crypto prediction markets data."
+      "outlook": "Mixed",
+      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: then specific reasons, mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nData shows: Ethereum reaching $2,900 in Sep: Yes 2% (low). Bitcoin dip to $80k: Yes 10% (low). Bitcoin reach $87.5k: Yes 2% (low). Bitcoin dip to $82.5k: Yes 69% (high). Bitcoin reach $130k by Dec 2026: Yes 5% (low). Bitcoin dip to $77.5k: Yes 2% (low). Ethereum reach $2,800: Yes 10% (low). So high probability for Bitcoin dip to $82.5k (69%). Others low. So sentiment bearish (expect price dip). Provide numbers.\n\nWord count: need <=80 words. Let's craft ~45 words.\n\nParagraph: \"Bearish: Prediction markets show a strong 69% chance Bitcoin will dip to $82,500 in September (vol $95k), while odds for upside moves are weak—only 2% for ETH $2,900, 2% for BTC $87.5k, 5% for BTC"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed:. Must be max 80 words. Must mention numbers and names where available. The data given: \"Top mentioned: Subreddits:\" but no actual data? Possibly missing. We need to infer? The prompt says \"Based on the following crypto Reddit discussion data\". The data only shows \"Top mentioned: Subreddits:\" with nothing else. Possibly they expect we note that no specific mentions? But we must mention numbers and names where available. If none, we can say none mentioned. But we need to be concise.\n\nWe could say: Mixed: ... but we need reasons. Since no data, we could say insufficient data to determine sentiment. But must start with Bullish:, Bearish:, or Mixed:. Choose Mixed: and say that the discussion shows balanced views with X mentions etc. But we have no numbers.\n\nMaybe we assume that the data omitted but we can still produce a generic answer: Mixed: The Reddit chatter shows ... but we need numbers and names. Could say: No specific subreddit names or mention counts were provided, so sentiment cannot be quantified. But that might violate \"Mention numbers and names where available.\" If none available, we can say none were provided.\n\nLet's craft: Mixed: The limited Reddit snippet only lists \"Top mentioned: Subreddits:\" without any actual subreddit names or mention counts,"
+      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly one paragraph, start with Bullish:, Bearish:, or Mixed: followed by specific reasons. Must mention numbers and names where available. Max 80 words. Summarize overall market sentiment based on data.\n\nData includes: Bitcoin beats gold, surge to $100,000 in play (Bullish). Bitcoin ETF inflows leave institutional demand unclear: CoinShares (Bullish). Bitcoin Hovers at $84K as Treasury Yields Hold Near Multi-Year Highs (Bullish). Morning Minute: Citi and Coinbase Just Made Stablecoins Invisible (Bearish). Others neutral.\n\nOverall sentiment: seems mixed but leaning bullish due to Bitcoin price and ETF inflows, but bearish note on stablecoins. Could be Mixed. Need start with Mixed: then reasons, mention numbers and names.\n\nWord count max 80. Let's craft ~60 words.\n\nParagraph: \"Mixed: Bitcoin’s rally above $84K and talk of a $100K surge, plus CoinShares noting ETF inflows, signal bullish momentum, while Citi and Coinbase’s move to make stablecoins less visible introduces bearish pressure; neutral items like zk.money’s return and the Clarity Act’s defeat add little directional bias.\"\n\nCount words.\n\nLet's count: Mixed:(1) Bitcoin’s2 rally3 above4 $84K5"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words. Need to decide overall sentiment based on data.\n\nData items with sentiment tags: \n- Ethereum users get another way to pay privately as zk.money returns after three years (Neutral)\n- Democrats killed the Clarity Act (Neutral)\n- Bitcoin beats gold, surge to $100,000 in play (Bullish)\n- Peter Brandt says Bitcoin may hit $600K by 2029, calls XRP a ‘fool coin’ (Neutral)\n- Here’s what happened in crypto today (Neutral)\n- Bitcoin ETF inflows leave institutional demand unclear: CoinShares (Bullish)\n- Bitcoin Hovers at $84K as Treasury Yields Hold Near Multi-Year Highs (Bullish)\n- Morning Minute: Citi and Coinbase Just Made Stablecoins Invisible (Bearish)\n\nWe have 3 bullish, 1 bearish, rest neutral. Overall likely Bullish. So start with \"Bullish:\" then list reasons: Bitcoin beating gold, surge to $100k play, Bitcoin ETF inflows (CoinShares), Bitcoin hovering at $84K despite high Treasury yields, maybe mention Peter Brandt"
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 137,
+      "active_threads": 136,
       "mentions": {
         "BTC": 7,
         "XRP": 6,
@@ -234,130 +241,150 @@
         "name": "Quant",
         "rank": 33,
         "score": 0,
-        "change_24h": 14.45
+        "change_24h": 8.15
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 102,
         "score": 1,
-        "change_24h": 3.64
+        "change_24h": 3.12
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "rank": 21,
         "score": 2,
-        "change_24h": 1.87
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "rank": 26,
-        "score": 3,
-        "change_24h": 8.28
+        "change_24h": 1.84
       },
       {
         "symbol": "PUMP",
         "name": "Pump.fun",
         "rank": 41,
+        "score": 3,
+        "change_24h": 11.98
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "rank": 26,
         "score": 4,
-        "change_24h": 13.54
+        "change_24h": 8.7
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
         "rank": 42,
         "score": 5,
-        "change_24h": 16.93
+        "change_24h": 15.85
       },
       {
-        "symbol": "ONDO",
-        "name": "Ondo",
-        "rank": 46,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "rank": 13,
         "score": 6,
-        "change_24h": -0.73
+        "change_24h": 0.83
       }
     ]
   },
   "stocks": {
     "indices": {
       "sp500": {
-        "value": 7662.49,
+        "value": 7662.26,
         "change_24h": -0.28
       },
       "nasdaq": {
-        "value": 26790.49,
-        "change_24h": -0.11
+        "value": 26778.21,
+        "change_24h": -0.16
       },
       "dow": {
-        "value": 51159.22,
-        "change_24h": -0.63
+        "value": 51170.59,
+        "change_24h": -0.6
       },
       "vix": {
-        "value": 16.32,
-        "change_24h": 1.56
+        "value": 16.36,
+        "change_24h": 1.8
       }
     },
     "market_mood": {
-      "score": -0.206,
+      "score": -0.22,
       "label": "Neutral",
       "color": "yellow"
     },
     "prices": [
       {
         "symbol": "NVDA",
-        "price_usd": 230.38,
-        "change_24h": 0.66
+        "price_usd": 230.26,
+        "change_24h": 0.61
       },
       {
         "symbol": "TSLA",
-        "price_usd": 353.95,
-        "change_24h": -0.98
+        "price_usd": 353.65,
+        "change_24h": -1.06
       },
       {
         "symbol": "AAPL",
-        "price_usd": 330.8,
-        "change_24h": -2.25
+        "price_usd": 330.85,
+        "change_24h": -2.23
       },
       {
         "symbol": "MSFT",
-        "price_usd": 508.76,
-        "change_24h": -0.09
+        "price_usd": 508.86,
+        "change_24h": -0.07
       },
       {
         "symbol": "GOOGL",
-        "price_usd": 338.9,
-        "change_24h": -1.12
+        "price_usd": 339.23,
+        "change_24h": -1.03
       },
       {
         "symbol": "AMZN",
-        "price_usd": 246.51,
-        "change_24h": 0.15
+        "price_usd": 246.79,
+        "change_24h": 0.26
       },
       {
         "symbol": "META",
-        "price_usd": 719.55,
-        "change_24h": 0.55
+        "price_usd": 718.89,
+        "change_24h": 0.46
       },
       {
         "symbol": "AMD",
-        "price_usd": 613.76,
-        "change_24h": 0.97
+        "price_usd": 612.96,
+        "change_24h": 0.84
       },
       {
         "symbol": "PLTR",
-        "price_usd": 186.16,
-        "change_24h": -0.7
+        "price_usd": 186.08,
+        "change_24h": -0.75
       },
       {
         "symbol": "COIN",
-        "price_usd": 190.17,
-        "change_24h": -0.84
+        "price_usd": 190.11,
+        "change_24h": -0.88
       }
     ],
     "top_mentioned": [],
     "news": [
+      {
+        "title": "Stellantis Plans Temporary Halts at Several Plants in France",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-29/stellantis-plans-temporary-halts-at-some-of-its-plants-in-france",
+        "published": "Tue, 29 Sep 2026 15:13:46 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
+        "title": "Latest Oil Market News and Analysis for Sept. 29",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-28/latest-oil-market-news-and-analysis-for-sept-29",
+        "published": "Mon, 28 Sep 2026 22:02:33 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
       {
         "title": "Stocks Fall as Long-Term Yields Hit 24-Year High: Markets Wrap",
         "source": "Bloomberg",
@@ -367,26 +394,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "US 30-Year Treasury Yield Rises to Highest Level Since 2002",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-29/us-30-year-treasury-yield-approaches-highest-level-since-2002",
-        "published": "Tue, 29 Sep 2026 14:34:23 GMT",
-        "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
-      },
-      {
-        "title": "Bulgaria Sells €2.25 Billion in Bonds to Plug Budget Deficit",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-09-29/bulgaria-selling-2-25-billion-in-bonds-to-plug-budget-deficit",
-        "published": "Tue, 29 Sep 2026 15:20:32 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.333,
-        "color": "red"
       },
       {
         "title": "Consumer optimism slides to lowest since 2014 as fears escalate over rising prices and jobs",
@@ -419,6 +426,16 @@
         "color": "yellow"
       },
       {
+        "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+        "published": "Tue, 29 Sep 2026 16:15:00 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
+      {
         "title": "‘I have $400,000 in equity’: I’m 80 years old. Should I move out of my house because of dangerous stairs?",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
@@ -437,16 +454,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Job openings are low and hiring is weak. Why the U.S. labor market won’t get better soon.",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/job-openings-are-low-and-hiring-is-weak-why-the-u-s-labor-market-wont-get-better-soon-18292734?mod=mw_rss_topstories",
-        "published": "Tue, 29 Sep 2026 15:21:00 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
@@ -514,7 +521,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.189,
+      "score": -0.233,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -550,7 +557,7 @@
       {
         "title": "US announces end of Iranian blockade by October 31, 2026?",
         "volume_24h": 216455,
-        "yes_price": 0.3,
+        "yes_price": 0.31,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-october-31-2026-20260727171711632-895-372-622-413-171-454-592-696"
       },
@@ -571,110 +578,110 @@
       {
         "title": "US x Iran ceasefire continues through September 30?",
         "volume_24h": 141960,
-        "yes_price": 0.97,
+        "yes_price": 0.98,
         "category": "finance",
         "url": "https://polymarket.com/event/us-x-iran-ceasefire-continues-through-september-30-20260917"
       }
     ],
     "polymarket_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Must mention numbers and names where available. Max 80 words.\n\nWe need to infer overall market sentiment from the data. The data includes predictions about US invasion of Iran (14% yes), US ends Iranian blockade by Sep 30 2026 (3% yes), Trump renames AI by Sep 30 (71% yes), Putin out as President by Dec 31 2026 (3% yes), US ends Iranian blockade by Oct 31 2026 (30% yes), Fed increase rates by 25 bps after Oct 2026 meeting (67% yes), No change in Fed rates after Oct 2026 meeting (34% yes), US-Iran ceasefire continues through Sep 30 (97% yes).\n\nInterpretation: High confidence in ceasefire (97% yes) and Trump renames AI (71% yes) and Fed rate increase (67% yes). Low confidence in US invasion of Iran (14% yes), ending blockade (3% and 30% yes), Putin out (3% yes). Mixed signals: some bullish (rate increase, ceasefire, AI rename) and some bearish (low chance of invasion, blockade ending low)."
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to interpret overall market sentiment based on these prediction markets. Let's see:\n\n- US invade Iran before 2027: Yes 14% (low probability)\n- US announces end of Iranian blockade by Sep 30 2026: Yes 3% (very low)\n- Trump renames AI by Sep 30: Yes 71% (high)\n- Putin out as President of Russia by Dec 31 2026: Yes 3% (low)\n- US announces end of Iranian blockade by Oct 31 2026: Yes 31% (moderate)\n- Fed increase interest rates by 25 bps after Oct 2026 meeting: Yes 67% (high)\n- No change in Fed interest rates after Oct 2026 meeting: Yes 34% (lower)\n- US x Iran ceasefire continues through Sep 30: Yes 98% (very high)\n\nInterpretation: High confidence in ceasefire, Fed rate hike likely, Trump renames AI likely. Low confidence in US invading Iran, ending blockade, Putin out. Mixed signals: some bullish (rate hike, ceasefire, AI"
     },
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "We need to produce exactly ONE paragraph, starting with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words. Data given: \"Top mentioned: Subreddits:\" but no actual data? The user gave minimal data. Possibly they expect us to infer that there is no data? But we must still produce a paragraph. Since no specifics, we can say insufficient data leads to mixed sentiment? But must mention numbers and names where available. There are none. Could we say \"No specific tickers mentioned\"? That would be a mention of absence? Might be okay.\n\nWe need to start with one of those prefixes. Choose Mixed: because unclear. Then give reasons: limited discussion, no clear consensus, top mentioned subreddits unspecified, etc. Must be max 80 words. Let's craft ~40 words.\n\n\"Mixed: The Reddit snapshot shows only a generic 'Top mentioned: Subreddits:' header with no tickers, post counts, or sentiment indicators, making it impossible to discern a clear bullish or bearish bias; without concrete mentions of stocks or volume, sentiment remains ambiguous.\"\n\nCount words: Mixed:(1) The2 Reddit3 snapshot4 shows5 only6 a7 generic8 'Top9 mentioned:10 Subreddits:'11 header12 with13 no14 tickers,15"
+      "summary": "We need to produce exactly one paragraph, starting with Bullish:, Bearish:, or Mixed:. Must be max 80 words. Must mention numbers and names where available. Data given: \"Top mentioned: Subreddits:\" but no further data? The data seems incomplete. Possibly they expect we infer from that? There's no actual discussion content. Might need to note that no specific sentiment can be derived, but we must still produce a paragraph. Could say Mixed: due to lack of clear sentiment, mention that top mentioned subreddits are ... but we don't have names. The data only shows \"Top mentioned: Subreddits:\" with nothing after colon. Could interpret that there is no data, so we say Mixed: insufficient data to determine sentiment. Must mention numbers and names where available—none available, so we can say no specific numbers or names were provided. Must be <=80 words.\n\nLet's craft: \"Mixed: The Reddit discussion data provided only indicates that subreddits were the top mentioned category without listing any specific communities, tickers, or sentiment‑bearing comments, and no quantitative metrics (e.g., upvote counts, comment volumes) were supplied, making it impossible to discern a clear bullish or bearish bias; therefore the overall sentiment remains indeterminate.\"\n\nCount words. Let's count.\n\nMixed:(1) The2 Reddit3 discussion4 data5 provided6 only7 indicates8 that9 sub"
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "We need exactly ONE paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide overall market sentiment based on data. Data includes: Stocks fall as long-term yields hit 24-year high (Neutral). US 30-year Treasury yield rises to highest since 2002 (Bullish). Bulgaria sells €2.25B bonds to plug deficit (Bearish). Consumer optimism slides to lowest since 2014 (Bearish). Others neutral.\n\nThus overall sentiment likely Mixed or Bearish? Let's weigh: Bullish: rising yields (maybe indicates strong economy). Bearish: consumer optimism low, Bulgaria bond sale (deficit), stocks falling due to yields. So mixed.\n\nWe need start with \"Mixed:\" then reasons, include numbers and names. Must be <=80 words.\n\nLet's craft: \"Mixed: Stocks slipped as the 30‑year Treasury yield climbed to its highest since 2002 (≈4.8%), reflecting higher borrowing costs, while consumer optimism fell to its lowest level since 2014 and Bulgaria raised €2.25 billion in bonds to cover a budget deficit, signaling fiscal strain; these bearish pressures are offset by the yield rise, which some view as a sign of economic strength"
+      "summary": "We need exactly one paragraph, start with 'Bullish:', 'Bearish:', or 'Mixed:' followed by specific reasons. Mention numbers and names where available. Max 80 words.\n\nWe need to decide sentiment based on data: Many neutral, some bearish: consumer optimism slides to lowest since 2014, personal story about executor (bearish). No bullish items. So overall sentiment likely Bearish. Provide reasons: consumer optimism lowest since 2014, rising prices and jobs fears, personal finance concerns, maybe mention Stellantis plant halts (neutral) not needed. Provide numbers: lowest since 2014, $400,000 equity? That's neutral. Could mention long-term yields hit 24-year high (neutral). But we need to mention numbers and names where available. So include consumer optimism lowest since 2014, long-term yields 24-year high, Stellantis plant halts in France, $400k equity. Keep within 80 words.\n\nOne paragraph, start with \"Bearish:\" then reasons.\n\nWord count: Let's craft ~70 words.\n\n\"Bearish: Consumer optimism has slipped to its lowest level since 2014 amid rising prices and job worries, while long‑term Treasury yields have climbed to a 24‑year high, pressuring equities. Stellantis announced temporary production halts at"
     },
     "macro": [
       {
         "symbol": "^TNX",
         "name": "10Y Treasury Yield",
         "value": 5.28,
-        "change_24h": 0.86
+        "change_24h": 0.82
       },
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 101.47,
+        "value": 101.48,
         "change_24h": 0.27
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4188.5,
-        "change_24h": -3.07
+        "value": 4183.8,
+        "change_24h": -3.18
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 90.46,
-        "change_24h": -2.31
+        "value": 90.39,
+        "change_24h": -2.39
       }
     ],
     "most_active": [
       {
         "symbol": "NVDA",
-        "volume": 43756808,
-        "price_usd": 230.35,
-        "change_24h": 0.65
+        "volume": 44812473,
+        "price_usd": 230.26,
+        "change_24h": 0.61
       },
       {
         "symbol": "TSLA",
-        "volume": 14671989,
-        "price_usd": 353.96,
-        "change_24h": -0.98
+        "volume": 15092217,
+        "price_usd": 353.63,
+        "change_24h": -1.07
       },
       {
         "symbol": "SPY",
-        "volume": 14094367,
-        "price_usd": 763.23,
+        "volume": 14360253,
+        "price_usd": 763.25,
         "change_24h": -0.31
       },
       {
         "symbol": "AAPL",
-        "volume": 13634286,
-        "price_usd": 330.77,
-        "change_24h": -2.25
+        "volume": 14236235,
+        "price_usd": 330.73,
+        "change_24h": -2.27
       },
       {
         "symbol": "BAC",
-        "volume": 11467849,
-        "price_usd": 54.83,
-        "change_24h": -1.16
+        "volume": 11941071,
+        "price_usd": 54.86,
+        "change_24h": -1.1
       },
       {
         "symbol": "QQQ",
-        "volume": 10582173,
-        "price_usd": 737.2,
-        "change_24h": 0.09
+        "volume": 10882935,
+        "price_usd": 736.87,
+        "change_24h": 0.05
       },
       {
         "symbol": "AMZN",
-        "volume": 9481747,
-        "price_usd": 246.46,
-        "change_24h": 0.13
+        "volume": 9903018,
+        "price_usd": 246.79,
+        "change_24h": 0.26
       },
       {
         "symbol": "AMD",
-        "volume": 8995087,
-        "price_usd": 613.63,
-        "change_24h": 0.95
+        "volume": 9141137,
+        "price_usd": 612.82,
+        "change_24h": 0.81
       },
       {
         "symbol": "GOOGL",
-        "volume": 8474412,
-        "price_usd": 338.89,
-        "change_24h": -1.13
+        "volume": 8633860,
+        "price_usd": 339.24,
+        "change_24h": -1.02
       },
       {
         "symbol": "META",
-        "volume": 7502527,
-        "price_usd": 719.52,
-        "change_24h": 0.54
+        "volume": 7734384,
+        "price_usd": 718.86,
+        "change_24h": 0.45
       }
     ],
     "google_trends": {
@@ -682,19 +689,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 91
+          "interest_score": 85
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 24
+          "interest_score": 12
         },
         {
           "keyword": "Solana",
-          "interest_score": 11
+          "interest_score": 13
         },
         {
           "keyword": "crypto",
-          "interest_score": 41
+          "interest_score": 50
         }
       ]
     }
@@ -704,15 +711,15 @@
       "symbol": "BKHY",
       "name": "BlackRock High Yield Bond",
       "type": "Bond Income",
-      "price_usd": 45.9,
-      "change_1d": -0.26,
-      "change_1w": -1.71,
-      "change_1m": -2.55,
+      "price_usd": 45.92,
+      "change_1d": -0.2,
+      "change_1w": -1.66,
+      "change_1m": -2.5,
       "high_3m": 47.19,
-      "low_3m": 45.9,
+      "low_3m": 45.92,
       "week52_high": 48.75,
       "week52_low": 45.89,
-      "rsi": 17.1,
+      "rsi": 17.4,
       "div_yield": 7.4,
       "last_div": null,
       "outlook": {
@@ -726,9 +733,9 @@
         "reasons": [
           "Price below 20-day moving average ↓",
           "Short-term trend below long-term (bearish cross) ↓",
-          "RSI 17.1 — Oversold zone, historically signals a bounce ↑",
+          "RSI 17.4 — Oversold zone, historically signals a bounce ↑",
           "5-day momentum -1.7% — short-term selling pressure ↓",
-          "1-month return -2.6% — range-bound"
+          "1-month return -2.5% — range-bound"
         ]
       }
     },
@@ -736,15 +743,15 @@
       "symbol": "XYLD",
       "name": "Global X S&P 500 Covered Call",
       "type": "Covered Call Income",
-      "price_usd": 41.53,
-      "change_1d": -0.08,
-      "change_1w": -0.28,
-      "change_1m": 0.73,
+      "price_usd": 41.51,
+      "change_1d": -0.11,
+      "change_1w": -0.3,
+      "change_1m": 0.7,
       "high_3m": 41.66,
       "low_3m": 39.61,
       "week52_high": 41.8,
       "week52_low": 38.22,
-      "rsi": 58.7,
+      "rsi": 58.4,
       "div_yield": 9.43,
       "last_div": null,
       "outlook": {
@@ -758,7 +765,7 @@
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 58.7 — Above neutral, mild upward momentum ↑",
+          "RSI 58.4 — Above neutral, mild upward momentum ↑",
           "5-day momentum -0.3% — consolidating sideways →",
           "1-month return +0.7% — range-bound"
         ]
@@ -768,10 +775,10 @@
       "symbol": "JEPQ",
       "name": "JPMorgan Nasdaq Equity Premium",
       "type": "Equity Income",
-      "price_usd": 61.17,
-      "change_1d": 0.1,
-      "change_1w": -0.0,
-      "change_1m": 2.86,
+      "price_usd": 61.16,
+      "change_1d": 0.08,
+      "change_1w": -0.02,
+      "change_1m": 2.85,
       "high_3m": 61.24,
       "low_3m": 54.83,
       "week52_high": 61.72,
@@ -792,7 +799,7 @@
           "Short-term trend above long-term (bullish cross) ↑",
           "RSI 66.7 — Above neutral, mild upward momentum ↑",
           "5-day momentum -0.0% — consolidating sideways →",
-          "1-month return +2.9% — range-bound"
+          "1-month return +2.8% — range-bound"
         ]
       }
     },
@@ -832,31 +839,31 @@
       "symbol": "QQQM",
       "name": "Invesco Nasdaq 100",
       "type": "Growth",
-      "price_usd": 303.62,
-      "change_1d": 0.11,
-      "change_1w": -1.35,
-      "change_1m": 3.03,
+      "price_usd": 303.38,
+      "change_1d": 0.03,
+      "change_1w": -1.43,
+      "change_1m": 2.95,
       "high_3m": 307.78,
       "low_3m": 272.22,
       "week52_high": 308.21,
       "week52_low": 228.75,
-      "rsi": 62.6,
+      "rsi": 62.3,
       "div_yield": 44.0,
       "last_div": null,
       "outlook": {
         "label": "Bullish",
         "color": "green",
-        "score": 4,
-        "bull_count": 4,
+        "score": 3,
+        "bull_count": 3,
         "bear_count": 0,
         "total": 5,
-        "confidence": "High",
+        "confidence": "Medium",
         "reasons": [
           "Price above 20-day moving average ↑",
           "Short-term trend above long-term (bullish cross) ↑",
-          "RSI 62.6 — Above neutral, mild upward momentum ↑",
+          "RSI 62.3 — Above neutral, mild upward momentum ↑",
           "5-day momentum -1.4% — consolidating sideways →",
-          "1-month return +3.0% — sustained uptrend ↑"
+          "1-month return +2.9% — range-bound"
         ]
       }
     }
