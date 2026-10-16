@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T10:03:16Z",
+  "updated_at": "2026-10-16T10:12:06Z",
   "crypto": {
     "fear_greed": {
       "value": 63,
@@ -7,7 +7,80 @@
       "previous_value": 53,
       "previous_label": "Neutral"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 81811,
+        "change_24h": 1.02,
+        "market_cap": 1644371281798,
+        "volume_24h": 30937756142
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 2444.31,
+        "change_24h": 3.32,
+        "market_cap": 298607000485,
+        "volume_24h": 14185453555
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 729.28,
+        "change_24h": 1.19,
+        "market_cap": 97125453235,
+        "volume_24h": 810846461
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.33,
+        "change_24h": 1.43,
+        "market_cap": 84118274169,
+        "volume_24h": 1573560391
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 105.82,
+        "change_24h": 3.36,
+        "market_cap": 62376528179,
+        "volume_24h": 3236788547
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.081924,
+        "change_24h": 2.61,
+        "market_cap": 12810876035,
+        "volume_24h": 1150279754
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 12.57,
+        "change_24h": 4.37,
+        "market_cap": 9640873893,
+        "volume_24h": 346678234
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.230207,
+        "change_24h": 3.83,
+        "market_cap": 8646417838,
+        "volume_24h": 353550358
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 10.33,
+        "change_24h": 7.78,
+        "market_cap": 4580912619,
+        "volume_24h": 365105745
+      }
+    ],
     "top_mentioned": [],
     "news": [
       {
@@ -150,14 +223,14 @@
       {
         "title": "Will Bitcoin dip to $77,500 in October?",
         "volume_24h": 243618,
-        "yes_price": 0.36,
+        "yes_price": 0.4,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-77pt5k-in-october-2026"
       },
       {
         "title": "Will the price of Bitcoin be above $80,000 on October 16?",
         "volume_24h": 151037,
-        "yes_price": 0.96,
+        "yes_price": 0.95,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-80k-on-october-16-2026"
       },
@@ -171,7 +244,7 @@
       {
         "title": "Will Bitcoin reach $87,500 in October?",
         "volume_24h": 94503,
-        "yes_price": 0.36,
+        "yes_price": 0.34,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-87pt5k-in-october-2026"
       },
@@ -219,7 +292,7 @@
     },
     "fourchain": {
       "thread_count": 200,
-      "active_threads": 142,
+      "active_threads": 143,
       "mentions": {
         "BTC": 10,
         "XRP": 5,
@@ -241,51 +314,51 @@
       {
         "symbol": "STREAM",
         "name": "streamoors",
-        "rank": 674,
+        "rank": 639,
         "score": 0,
-        "change_24h": 471.64
-      },
-      {
-        "symbol": "IGNITION",
-        "name": "IGNITION",
-        "rank": 877,
-        "score": 1,
-        "change_24h": 176.42
+        "change_24h": 421.51
       },
       {
         "symbol": "TIA",
         "name": "Celestia",
         "rank": 101,
-        "score": 2,
-        "change_24h": 26.54
-      },
-      {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 118,
-        "score": 3,
-        "change_24h": 4.13
+        "score": 1,
+        "change_24h": 27.7
       },
       {
         "symbol": "INJ",
         "name": "Injective",
         "rank": 84,
-        "score": 4,
-        "change_24h": 26.77
+        "score": 2,
+        "change_24h": 26.47
+      },
+      {
+        "symbol": "PENGU",
+        "name": "Pudgy Penguins",
+        "rank": 119,
+        "score": 3,
+        "change_24h": 3.64
       },
       {
         "symbol": "PRL",
         "name": "Pearl",
         "rank": 102,
-        "score": 5,
-        "change_24h": 8.1
+        "score": 4,
+        "change_24h": 9.69
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "rank": 19,
+        "score": 5,
+        "change_24h": 12.95
+      },
+      {
+        "symbol": "QTC",
+        "name": "Quantus",
+        "rank": 637,
         "score": 6,
-        "change_24h": 13.35
+        "change_24h": -1.14
       }
     ]
   },
@@ -304,14 +377,14 @@
         "change_24h": 1.08
       },
       "vix": {
-        "value": 16.06,
-        "change_24h": -2.43
+        "value": 16.09,
+        "change_24h": -2.25
       }
     },
     "market_mood": {
-      "score": 0.308,
-      "label": "Bullish",
-      "color": "green"
+      "score": 0.299,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "prices": [
       {
@@ -378,6 +451,16 @@
         "color": "red"
       },
       {
+        "title": "US Steel Prices Climb to Four-Year High as Trump’s Tariffs Bite",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-16/us-steel-prices-climb-to-four-year-high-as-trump-s-tariffs-bite",
+        "published": "Fri, 16 Oct 2026 10:00:00 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 0.333,
+        "color": "green"
+      },
+      {
         "title": "Uganda in Final Stages of Oil Production",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/videos/2026-10-16/uganda-in-final-stages-of-oil-production-video",
@@ -386,16 +469,6 @@
         "sentiment": "Neutral",
         "score": 0.0,
         "color": "yellow"
-      },
-      {
-        "title": "Indonesia Unveils $117 Million in Fines After MSCI Warning",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-16/indonesia-unveils-117-million-in-fines-after-msci-warning",
-        "published": "Fri, 16 Oct 2026 09:40:58 GMT",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       },
       {
         "title": "Trump says he won't use nuclear weapons or send ground troops to Iran",
@@ -492,6 +565,26 @@
         "color": "red"
       },
       {
+        "title": "The bloodletting in stocks is stanched as investors buy the dip and rotate out of tech",
+        "source": "Fortune",
+        "url": "https://fortune.com/2026/10/16/bloodletting-stocks-stanched-investors-buy-dip-rotate-out-of-tech/",
+        "published": "Fri, 16 Oct 2026 09:45:03 +0000",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
+        "title": "The case for CEOs who can laugh at themselves",
+        "source": "Fortune",
+        "url": "https://fortune.com/2026/10/16/mark-zuckerberg-guinness-ceos-laugh-at-themselves/",
+        "published": "Fri, 16 Oct 2026 09:50:43 +0000",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "The ultra-rich are piling into Rolexes, rubies and Klimts as inflation hedges—but the real return may be about more than money",
         "source": "Fortune",
         "url": "https://fortune.com/2026/10/16/ultra-rich-family-offices-luxury-assets-art-watches-inflation-hedge/",
@@ -500,30 +593,10 @@
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
-      },
-      {
-        "title": "CoreWeave investor explains how the loss-making AI ‘neocloud’ provider plans to claw its way out of debt",
-        "source": "Fortune",
-        "url": "https://fortune.com/2026/10/16/coreweave-investor-explains-ai-neocloud-debt/",
-        "published": "Fri, 16 Oct 2026 08:00:54 +0000",
-        "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
-      },
-      {
-        "title": "Strict liability is gaining traction as a solution to force AI companies to institute better safety controls. But it has some big downsides too",
-        "source": "Fortune",
-        "url": "https://fortune.com/2026/10/13/strict-liability-is-gaining-traction-as-a-solution-to-force-ai-companies-to-institute-better-safety-controls-but-it-has-some-big-downsides-too/",
-        "published": "Tue, 13 Oct 2026 19:52:42 +0000",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.6,
+      "score": -0.444,
       "label": "Bearish",
       "color": "red"
     },
@@ -531,7 +604,7 @@
       {
         "title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
         "volume_24h": 1577769,
-        "yes_price": 0.23,
+        "yes_price": 0.21,
         "category": "finance",
         "url": "https://polymarket.com/event/will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election"
       },
@@ -592,11 +665,11 @@
     "reddit": [],
     "reddit_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
+      "summary": "Please provide the stock Reddit discussion data (Top mentioned stocks and Subreddits) so I can analyze it and write the summary for you."
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 0 bullish vs 8 bearish signals detected across stock/finance news data."
+      "outlook": "Mixed",
+      "summary": "Mixed: 4 bullish vs 6 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -608,20 +681,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 101.71,
-        "change_24h": -0.28
+        "value": 101.7,
+        "change_24h": -0.3
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 4203.6,
-        "change_24h": 0.8
+        "value": 4197.8,
+        "change_24h": 0.66
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 95.66,
-        "change_24h": -2.36
+        "value": 95.8,
+        "change_24h": -2.21
       }
     ],
     "most_active": [
@@ -691,19 +764,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 33
+          "interest_score": 39
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 5
+          "interest_score": 6
         },
         {
           "keyword": "Solana",
-          "interest_score": 5
+          "interest_score": 4
         },
         {
           "keyword": "crypto",
-          "interest_score": 15
+          "interest_score": 14
         }
       ]
     }
