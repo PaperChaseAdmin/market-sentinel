@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:10:52Z",
+  "updated_at": "2026-11-03T11:20:57Z",
   "crypto": {
     "fear_greed": {
       "value": 26,
@@ -11,78 +11,90 @@
       {
         "symbol": "BTC",
         "name": "Bitcoin",
-        "price_usd": 77081,
-        "change_24h": -0.97,
-        "market_cap": 1549944258218,
-        "volume_24h": 27318861434
+        "price_usd": 77107,
+        "change_24h": -0.88,
+        "market_cap": 1550607758294,
+        "volume_24h": 27435780716
       },
       {
         "symbol": "ETH",
         "name": "Ethereum",
-        "price_usd": 2269.3,
-        "change_24h": -0.6,
-        "market_cap": 277326369238,
-        "volume_24h": 9193011173
+        "price_usd": 2267.15,
+        "change_24h": -0.71,
+        "market_cap": 277042877884,
+        "volume_24h": 9179410392
       },
       {
         "symbol": "BNB",
         "name": "BNB",
-        "price_usd": 697.95,
-        "change_24h": -0.9,
-        "market_cap": 91790233625,
-        "volume_24h": 845507080
+        "price_usd": 697.94,
+        "change_24h": -0.87,
+        "market_cap": 91792781737,
+        "volume_24h": 842559394
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "price_usd": 1.26,
-        "change_24h": 0.89,
-        "market_cap": 79757424725,
-        "volume_24h": 1367334512
+        "change_24h": 0.72,
+        "market_cap": 79674804433,
+        "volume_24h": 1378644669
       },
       {
         "symbol": "SOL",
         "name": "Solana",
-        "price_usd": 92.5,
-        "change_24h": -1.52,
-        "market_cap": 54607404069,
-        "volume_24h": 2473640218
+        "price_usd": 92.45,
+        "change_24h": -1.44,
+        "market_cap": 54576325106,
+        "volume_24h": 2468702835
       },
       {
         "symbol": "DOGE",
         "name": "Dogecoin",
-        "price_usd": 0.074521,
-        "change_24h": -0.98,
-        "market_cap": 11670518485,
-        "volume_24h": 402168164
+        "price_usd": 0.074479,
+        "change_24h": -0.97,
+        "market_cap": 11661362407,
+        "volume_24h": 405834480
       },
       {
         "symbol": "LINK",
         "name": "Chainlink",
-        "price_usd": 11.12,
-        "change_24h": -1.19,
-        "market_cap": 8531675492,
-        "volume_24h": 294324918
+        "price_usd": 11.13,
+        "change_24h": -1.03,
+        "market_cap": 8538062577,
+        "volume_24h": 293329625
       },
       {
         "symbol": "ADA",
         "name": "Cardano",
-        "price_usd": 0.189036,
-        "change_24h": -0.84,
-        "market_cap": 7105808217,
-        "volume_24h": 197885693
+        "price_usd": 0.189233,
+        "change_24h": -0.66,
+        "market_cap": 7112281273,
+        "volume_24h": 198334595
       },
       {
         "symbol": "AVAX",
         "name": "Avalanche",
         "price_usd": 8.52,
-        "change_24h": -0.36,
-        "market_cap": 3783052591,
-        "volume_24h": 179869031
+        "change_24h": -0.22,
+        "market_cap": 3787196912,
+        "volume_24h": 180528145
       }
     ],
     "top_mentioned": [],
     "news": [
+      {
+        "title": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
+        "source": "CoinDesk",
+        "url": "https://www.coindesk.com/markets/2026/11/03/liquid-s-bitcoin-ious-are-fully-backed-again-after-a-usd320-million-exploit",
+        "published": "Tue, 03 Nov 2026 11:12:12 +0000",
+        "assets": [
+          "BTC"
+        ],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
       {
         "title": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
         "source": "CoinDesk",
@@ -104,16 +116,6 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
-      },
-      {
-        "title": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
-        "source": "CoinDesk",
-        "url": "https://www.coindesk.com/business/2026/11/03/north-korea-denies-role-in-usd6-4-billion-binance-hack-after-fbi-points-to-tradertraitor",
-        "published": "Tue, 03 Nov 2026 09:40:32 +0000",
-        "assets": [],
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
@@ -216,7 +218,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.25,
+      "score": -0.167,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -239,8 +241,8 @@
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across crypto Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 3 bullish vs 5 bearish signals detected across crypto news data."
+      "outlook": "Mixed",
+      "summary": "Mixed: 4 bullish vs 6 bearish signals detected across crypto news data."
     },
     "fourchain": {
       "thread_count": 201,
@@ -250,9 +252,9 @@
         "BTC": 10,
         "BNB": 5
       },
-      "bullish_hits": 86,
+      "bullish_hits": 88,
       "bearish_hits": 67,
-      "bullish_pct": 56,
+      "bullish_pct": 57,
       "top_coin": "XRP",
       "top_posts": [
         "/smg/ - stock market general real estate edition &gt;links for intcels https://suicidepreventionlifeline.o rg/ https://w",
@@ -266,51 +268,51 @@
       {
         "symbol": "DACITYCOIN",
         "name": "AudaCity",
-        "rank": 802,
+        "rank": 815,
         "score": 0,
-        "change_24h": 5.0
-      },
-      {
-        "symbol": "MON",
-        "name": "Monad",
-        "rank": 159,
-        "score": 1,
-        "change_24h": -7.29
+        "change_24h": -9.91
       },
       {
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "rank": 21,
-        "score": 2,
-        "change_24h": -7.16
+        "score": 1,
+        "change_24h": -6.22
       },
       {
-        "symbol": "QTC",
-        "name": "Quantus",
-        "rank": 790,
-        "score": 3,
-        "change_24h": -2.33
+        "symbol": "MON",
+        "name": "Monad",
+        "rank": 159,
+        "score": 2,
+        "change_24h": -6.65
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
+        "score": 3,
+        "change_24h": -0.97
+      },
+      {
+        "symbol": "QTC",
+        "name": "Quantus",
+        "rank": 790,
         "score": 4,
-        "change_24h": -1.17
+        "change_24h": -2.24
       },
       {
         "symbol": "ZEC",
         "name": "Zcash",
         "rank": 11,
         "score": 5,
-        "change_24h": -6.81
+        "change_24h": -6.13
       },
       {
         "symbol": "FET",
         "name": "Artificial Superintelligence Alliance",
         "rank": 121,
         "score": 6,
-        "change_24h": -2.74
+        "change_24h": -2.28
       }
     ]
   },
@@ -329,21 +331,16 @@
         "change_24h": 0.41
       },
       "vix": {
-        "value": 21.31,
-        "change_24h": 0.76
+        "value": 21.29,
+        "change_24h": 0.66
       }
     },
     "market_mood": {
-      "score": -0.184,
+      "score": -0.179,
       "label": "Neutral",
       "color": "yellow"
     },
     "prices": [
-      {
-        "symbol": "NVDA",
-        "price_usd": 202.06,
-        "change_24h": -1.26
-      },
       {
         "symbol": "TSLA",
         "price_usd": 403.82,
@@ -393,6 +390,26 @@
     "top_mentioned": [],
     "news": [
       {
+        "title": "Emaar Said to Study Buyout of $15 Billion Construction Arm",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-03/emaar-is-said-to-study-buyout-of-14-billion-construction-arm",
+        "published": "Tue, 03 Nov 2026 10:39:51 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
+        "title": "US Stocks Drift as Midterms Keep Traders Cautious: Markets Wrap",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-02/stock-market-today-dow-s-p-live-updates",
+        "published": "Mon, 02 Nov 2026 22:25:14 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Bayer Raises Profit Outlook on Strong Demand for Drugs",
         "source": "Bloomberg",
         "url": "https://www.bloomberg.com/news/articles/2026-11-03/bayer-raises-profit-outlook-helped-by-strong-demand-for-drugs",
@@ -401,26 +418,6 @@
         "sentiment": "Bullish",
         "score": 1.0,
         "color": "green"
-      },
-      {
-        "title": "Gold Falls After Oil Rebounds on Lack of US-Iran Deal Progress",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-03/gold-holds-biggest-jump-in-two-months-on-iran-peace-deal-hopes",
-        "published": "Tue, 03 Nov 2026 00:20:16 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.2,
-        "color": "yellow"
-      },
-      {
-        "title": "Latest Oil Market News and Analysis for Nov. 3",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-02/latest-oil-market-news-and-analysis-for-nov-3",
-        "published": "Mon, 02 Nov 2026 23:01:19 GMT",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Oil prices climb after U.S. strikes Iran's Qeshm Island",
@@ -551,7 +548,7 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.142,
+      "score": -0.089,
       "label": "Neutral",
       "color": "yellow"
     },
@@ -624,7 +621,7 @@
     },
     "news_summary": {
       "outlook": "Mixed",
-      "summary": "Mixed: 12 bullish vs 11 bearish signals detected across stock/finance news data."
+      "summary": "Mixed: 11 bullish vs 9 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -636,20 +633,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 101.82,
-        "change_24h": 0.07
+        "value": 101.84,
+        "change_24h": 0.09
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 3915.0,
-        "change_24h": -1.38
+        "value": 3918.6,
+        "change_24h": -1.28
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 97.55,
-        "change_24h": 1.13
+        "value": 97.84,
+        "change_24h": 1.43
       }
     ],
     "most_active": [
@@ -723,7 +720,7 @@
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 4
+          "interest_score": 3
         },
         {
           "keyword": "Solana",
@@ -731,7 +728,7 @@
         },
         {
           "keyword": "crypto",
-          "interest_score": 11
+          "interest_score": 10
         }
       ]
     }
