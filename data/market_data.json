@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T08:01:01Z",
+  "updated_at": "2026-11-12T08:10:50Z",
   "crypto": {
     "fear_greed": {
       "value": 28,
@@ -7,7 +7,80 @@
       "previous_value": 29,
       "previous_label": "Fear"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 73591,
+        "change_24h": -0.54,
+        "market_cap": 1479978895216,
+        "volume_24h": 23913377591
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 2049.64,
+        "change_24h": -0.82,
+        "market_cap": 250492090962,
+        "volume_24h": 8732928403
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 673.76,
+        "change_24h": -1.07,
+        "market_cap": 88606995282,
+        "volume_24h": 511047602
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 1.044,
+        "change_24h": -1.23,
+        "market_cap": 66321270035,
+        "volume_24h": 1554520684
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 82.92,
+        "change_24h": -0.32,
+        "market_cap": 49046404098,
+        "volume_24h": 2010461269
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.066985,
+        "change_24h": -1.51,
+        "market_cap": 10496914371,
+        "volume_24h": 479351157
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 10.1,
+        "change_24h": -2.36,
+        "market_cap": 7748825123,
+        "volume_24h": 243598638
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.172863,
+        "change_24h": -1.18,
+        "market_cap": 6493941487,
+        "volume_24h": 204929887
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 8.62,
+        "change_24h": 0.02,
+        "market_cap": 3842184756,
+        "volume_24h": 240738694
+      }
+    ],
     "top_mentioned": [],
     "news": [
       {
@@ -18,9 +91,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
+        "sentiment": "Bearish",
+        "score": -0.8,
+        "color": "red"
       },
       {
         "title": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
@@ -31,7 +104,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -0.333,
+        "score": -0.6,
         "color": "red"
       },
       {
@@ -41,7 +114,7 @@
         "published": "Thu, 12 Nov 2026 05:49:44 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": 0.2,
         "color": "yellow"
       },
       {
@@ -61,7 +134,7 @@
         "published": "Thu, 12 Nov 2026 05:54:48 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.3,
         "color": "red"
       },
       {
@@ -71,7 +144,7 @@
         "published": "Thu, 12 Nov 2026 05:07:11 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.7,
         "color": "red"
       },
       {
@@ -81,7 +154,7 @@
         "published": "Wed, 11 Nov 2026 22:36:03 +0000",
         "assets": [],
         "sentiment": "Bullish",
-        "score": 1.0,
+        "score": 0.8,
         "color": "green"
       },
       {
@@ -92,9 +165,9 @@
         "assets": [
           "BTC"
         ],
-        "sentiment": "Bullish",
-        "score": 0.5,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -0.9,
+        "color": "red"
       },
       {
         "title": "Bitcoin Short-Term Holders Send $3.6 Billion in BTC to Exchanges at a Loss",
@@ -105,7 +178,7 @@
           "BTC"
         ],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.8,
         "color": "red"
       },
       {
@@ -115,7 +188,7 @@
         "published": "Thu, 12 Nov 2026 06:50:40 +0000",
         "assets": [],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.2,
         "color": "yellow"
       },
       {
@@ -125,7 +198,7 @@
         "published": "Thu, 12 Nov 2026 05:10:20 +0000",
         "assets": [],
         "sentiment": "Bearish",
-        "score": -1.0,
+        "score": -0.7,
         "color": "red"
       },
       {
@@ -137,26 +210,26 @@
           "ETH"
         ],
         "sentiment": "Neutral",
-        "score": 0.0,
+        "score": -0.2,
         "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.236,
-      "label": "Neutral",
-      "color": "yellow"
+      "score": -0.35,
+      "label": "Bearish",
+      "color": "red"
     },
     "polymarket": [
       {
         "title": "Variational FDV above $800M one day after launch?",
         "volume_24h": 115981,
-        "yes_price": 0.78,
+        "yes_price": 0.79,
         "category": "crypto",
         "url": "https://polymarket.com/event/variational-fdv-above-800m-one-day-after-launch-842-835-884"
       },
       {
         "title": "Will the price of Bitcoin be above $76,000 on November 12?",
-        "volume_24h": 81714,
+        "volume_24h": 86778,
         "yes_price": 0.03,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-76k-on-november-12-2026"
@@ -170,7 +243,7 @@
       },
       {
         "title": "Pete Hegseth out as Secretary of Defense by December 31?",
-        "volume_24h": 57166,
+        "volume_24h": 56736,
         "yes_price": 0.14,
         "category": "crypto",
         "url": "https://polymarket.com/event/pete-hegseth-out-as-secretary-of-defense-by-december-31"
@@ -191,14 +264,14 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 143,
+      "active_threads": 141,
       "mentions": {
         "XRP": 35,
         "BTC": 12,
         "ETH": 10
       },
       "bullish_hits": 91,
-      "bearish_hits": 60,
+      "bearish_hits": 61,
       "bullish_pct": 60,
       "top_coin": "XRP",
       "top_posts": [
@@ -215,49 +288,49 @@
         "name": "ZIG Finance",
         "rank": 412,
         "score": 0,
-        "change_24h": -0.45
+        "change_24h": 0.36
       },
       {
         "symbol": "PENGU",
         "name": "Pudgy Penguins",
         "rank": 116,
         "score": 1,
-        "change_24h": -0.46
-      },
-      {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "rank": 11,
-        "score": 2,
-        "change_24h": -0.61
-      },
-      {
-        "symbol": "PEARL",
-        "name": "Pearl",
-        "rank": 98,
-        "score": 3,
-        "change_24h": 1.57
-      },
-      {
-        "symbol": "GRAM",
-        "name": "Gram (prev. Toncoin)",
-        "rank": 28,
-        "score": 4,
-        "change_24h": 3.69
+        "change_24h": -0.71
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
-        "score": 5,
-        "change_24h": -0.43
+        "score": 2,
+        "change_24h": -0.58
+      },
+      {
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "rank": 11,
+        "score": 3,
+        "change_24h": -1.24
+      },
+      {
+        "symbol": "PEARL",
+        "name": "Pearl",
+        "rank": 98,
+        "score": 4,
+        "change_24h": 1.66
       },
       {
         "symbol": "AERO",
         "name": "Aero",
         "rank": 118,
+        "score": 5,
+        "change_24h": -1.44
+      },
+      {
+        "symbol": "EPIC",
+        "name": "Epic Private Internet Cash",
+        "rank": 927,
         "score": 6,
-        "change_24h": -1.56
+        "change_24h": 15.53
       }
     ]
   },
@@ -337,26 +410,24 @@
     "top_mentioned": [],
     "news": [
       {
-        "title": "Alibaba Shares Drop 7% as Nvidia Saga Triggers Chip Access Fears",
+        "title": "Mittal: Clear Govt Policy Made UAE an Expansion Hub",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-12/alibaba-shares-drop-7-as-nvidia-saga-triggers-chip-access-fears",
-        "published": "Thu, 12 Nov 2026 07:00:44 GMT",
-        "assets": [
-          "NVDA"
-        ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
+        "url": "https://www.bloomberg.com/news/videos/2026-11-12/mittal-clear-govt-policy-made-uae-an-expansion-hub-video",
+        "published": "Thu, 12 Nov 2026 08:04:42 GMT",
+        "assets": [],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
       },
       {
-        "title": "Aussie Falls to Lowest Since January on RBA Outlook, AI Concern",
+        "title": "Gross: Private Credit Remains Attractive",
         "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-12/aussie-falls-to-lowest-since-january-on-rba-slowdown-ai-fears",
-        "published": "Thu, 12 Nov 2026 05:57:01 GMT",
+        "url": "https://www.bloomberg.com/news/videos/2026-11-12/gross-private-credit-remains-attractive-video",
+        "published": "Thu, 12 Nov 2026 08:03:42 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -0.5,
-        "color": "red"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
         "title": "OMNIYAT on What Draws Global Wealth to Dubai in 2026",
@@ -510,14 +581,14 @@
       }
     ],
     "news_sentiment": {
-      "score": -0.433,
-      "label": "Bearish",
-      "color": "red"
+      "score": -0.267,
+      "label": "Neutral",
+      "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
-        "volume_24h": 627822,
+        "volume_24h": 627753,
         "yes_price": 0.1,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-50-bps-after-the-december-2026-meeting-20260729232808637"
@@ -531,21 +602,21 @@
       },
       {
         "title": "Will David Lisnard win the 2027 French presidential election?",
-        "volume_24h": 287125,
+        "volume_24h": 287474,
         "yes_price": 0.16,
         "category": "finance",
         "url": "https://polymarket.com/event/will-david-lisnard-win-the-2027-french-presidential-election"
       },
       {
         "title": "US announces end of Iranian blockade by November 30, 2026?",
-        "volume_24h": 263569,
+        "volume_24h": 263694,
         "yes_price": 0.1,
         "category": "finance",
         "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-by-november-30-2026"
       },
       {
         "title": "Will the U.S. invade Iran before 2027?",
-        "volume_24h": 239419,
+        "volume_24h": 239686,
         "yes_price": 0.07,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027"
@@ -558,23 +629,23 @@
         "url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-by-december-31-2026"
       },
       {
+        "title": "Will JD Vance win the 2028 US Presidential Election?",
+        "volume_24h": 218382,
+        "yes_price": 0.12,
+        "category": "finance",
+        "url": "https://polymarket.com/event/will-jd-vance-win-the-2028-us-presidential-election"
+      },
+      {
         "title": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-        "volume_24h": 211569,
+        "volume_24h": 210666,
         "yes_price": 0.86,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636"
-      },
-      {
-        "title": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-        "volume_24h": 195225,
-        "yes_price": 0.2,
-        "category": "finance",
-        "url": "https://polymarket.com/event/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day"
       }
     ],
     "polymarket_summary": {
       "outlook": "Bullish",
-      "summary": "Bullish: 3 bullish vs 1 bearish signals detected across finance prediction markets data."
+      "summary": "Bullish: 2 bullish vs 0 bearish signals detected across finance prediction markets data."
     },
     "reddit": [],
     "reddit_summary": {
@@ -582,8 +653,8 @@
       "summary": "Mixed: 0 bullish vs 0 bearish signals detected across stock Reddit discussion data."
     },
     "news_summary": {
-      "outlook": "Bearish",
-      "summary": "Bearish: 5 bullish vs 10 bearish signals detected across stock/finance news data."
+      "outlook": "Mixed",
+      "summary": "Mixed: 5 bullish vs 5 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -595,20 +666,20 @@
       {
         "symbol": "DX-Y.NYB",
         "name": "US Dollar Index",
-        "value": 102.93,
-        "change_24h": 0.02
+        "value": 102.92,
+        "change_24h": 0.01
       },
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 3967.2,
-        "change_24h": -0.83
+        "value": 3968.7,
+        "change_24h": -0.79
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 86.92,
-        "change_24h": 0.45
+        "value": 87.02,
+        "change_24h": 0.57
       }
     ],
     "most_active": [
@@ -675,7 +746,24 @@
     ],
     "google_trends": {
       "stocks": [],
-      "crypto": []
+      "crypto": [
+        {
+          "keyword": "Bitcoin",
+          "interest_score": 13
+        },
+        {
+          "keyword": "Ethereum",
+          "interest_score": 4
+        },
+        {
+          "keyword": "Solana",
+          "interest_score": 2
+        },
+        {
+          "keyword": "crypto",
+          "interest_score": 6
+        }
+      ]
     }
   },
   "portfolio": [
