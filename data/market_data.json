@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T12:41:18Z",
+  "updated_at": "2026-11-17T12:50:54Z",
   "crypto": {
     "fear_greed": {
       "value": 12,
@@ -7,7 +7,80 @@
       "previous_value": 10,
       "previous_label": "Extreme Fear"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 64867,
+        "change_24h": 1.13,
+        "market_cap": 1304686220975,
+        "volume_24h": 34386091107
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 1819.0,
+        "change_24h": 1.22,
+        "market_cap": 222331650947,
+        "volume_24h": 11507867238
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 592.84,
+        "change_24h": 1.17,
+        "market_cap": 77964401238,
+        "volume_24h": 582153287
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 0.969366,
+        "change_24h": 2.26,
+        "market_cap": 61570849029,
+        "volume_24h": 1580270933
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 73.63,
+        "change_24h": 4.17,
+        "market_cap": 43568530623,
+        "volume_24h": 2952771579
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.059337,
+        "change_24h": 1.89,
+        "market_cap": 9302828880,
+        "volume_24h": 488347322
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 9.26,
+        "change_24h": 2.11,
+        "market_cap": 7104816857,
+        "volume_24h": 191138102
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.154554,
+        "change_24h": 2.47,
+        "market_cap": 5807044885,
+        "volume_24h": 204050261
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 7.22,
+        "change_24h": 2.11,
+        "market_cap": 3225790531,
+        "volume_24h": 173725109
+      }
+    ],
     "top_mentioned": [],
     "news": [
       {
@@ -169,7 +242,7 @@
       {
         "title": "Will the price of Bitcoin be above $66,000 on November 17?",
         "volume_24h": 57730,
-        "yes_price": 0.12,
+        "yes_price": 0.11,
         "category": "crypto",
         "url": "https://polymarket.com/event/bitcoin-above-66k-on-november-17-2026"
       },
@@ -203,9 +276,9 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 139,
+      "active_threads": 140,
       "mentions": {
-        "BTC": 22,
+        "BTC": 21,
         "XRP": 8,
         "ETH": 2
       },
@@ -225,51 +298,51 @@
       {
         "symbol": "GATO",
         "name": "Gato The Cat",
-        "rank": 818,
+        "rank": 828,
         "score": 0,
-        "change_24h": 8.3
+        "change_24h": 13.31
       },
       {
         "symbol": "BP",
         "name": "Backpack",
         "rank": 139,
         "score": 1,
-        "change_24h": 23.78
-      },
-      {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "rank": 1,
-        "score": 2,
-        "change_24h": 1.26
-      },
-      {
-        "symbol": "LIT",
-        "name": "Lighter",
-        "rank": 81,
-        "score": 3,
-        "change_24h": 17.78
+        "change_24h": 23.73
       },
       {
         "symbol": "SOL",
         "name": "Solana",
         "rank": 7,
-        "score": 4,
-        "change_24h": 3.82
+        "score": 2,
+        "change_24h": 4.15
+      },
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "rank": 1,
+        "score": 3,
+        "change_24h": 1.21
       },
       {
         "symbol": "INJ",
         "name": "Injective",
-        "rank": 80,
-        "score": 5,
-        "change_24h": 14.14
+        "rank": 79,
+        "score": 4,
+        "change_24h": 14.93
       },
       {
-        "symbol": "PENGU",
-        "name": "Pudgy Penguins",
-        "rank": 126,
+        "symbol": "LIT",
+        "name": "Lighter",
+        "rank": 81,
+        "score": 5,
+        "change_24h": 18.4
+      },
+      {
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 10,
         "score": 6,
-        "change_24h": -0.95
+        "change_24h": 6.49
       }
     ]
   },
@@ -288,12 +361,12 @@
         "change_24h": -1.41
       },
       "vix": {
-        "value": 22.6,
-        "change_24h": -1.35
+        "value": 22.78,
+        "change_24h": -0.57
       }
     },
     "market_mood": {
-      "score": -0.599,
+      "score": -0.638,
       "label": "Bearish",
       "color": "red"
     },
@@ -339,6 +412,11 @@
         "change_24h": -5.58
       },
       {
+        "symbol": "PLTR",
+        "price_usd": 160.39,
+        "change_24h": -4.52
+      },
+      {
         "symbol": "COIN",
         "price_usd": 119.84,
         "change_24h": -6.12
@@ -346,6 +424,16 @@
     ],
     "top_mentioned": [],
     "news": [
+      {
+        "title": "Chile Central Bank Says New Rules Eased Fallout From Swap Losses",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-17/chile-central-bank-says-new-rules-eased-fallout-from-swap-losses",
+        "published": "Tue, 17 Nov 2026 12:31:11 GMT",
+        "assets": [],
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
+      },
       {
         "title": "Argentina’s Energy Boom to Extend Surge of Bond Sales Into 2027",
         "source": "Bloomberg",
@@ -362,18 +450,6 @@
         "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring",
         "published": "Tue, 17 Nov 2026 12:30:00 GMT",
         "assets": [],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
-      },
-      {
-        "title": "Stock Selloff Loses Steam Ahead of Nvidia Test: Markets Wrap",
-        "source": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
-        "published": "Mon, 16 Nov 2026 22:06:51 GMT",
-        "assets": [
-          "NVDA"
-        ],
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
@@ -411,6 +487,16 @@
         "color": "red"
       },
       {
+        "title": "Now’s the perfect time for networking. Here’s how to send a cringe-free email.",
+        "source": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/nows-the-perfect-time-for-networking-heres-how-to-send-a-cringe-free-email-73ad34ea?mod=mw_rss_topstories",
+        "published": "Tue, 17 Nov 2026 12:46:00 GMT",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Fund managers just slashed their tech bets at the fastest pace in two decades — and this is the tail risk keeping them up at night",
         "source": "MarketWatch",
         "url": "https://www.marketwatch.com/story/fund-managers-just-slashed-their-tech-bets-at-the-fastest-pace-in-two-decades-and-this-is-the-tail-risk-keeping-them-up-at-night-60fcc160?mod=mw_rss_topstories",
@@ -428,16 +514,6 @@
         "assets": [
           "NVDA"
         ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
-      },
-      {
-        "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-        "source": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-        "published": "Tue, 17 Nov 2026 12:15:00 GMT",
-        "assets": [],
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
@@ -475,40 +551,38 @@
         "color": "red"
       },
       {
-        "title": "Latham & Watkins partners: Corporate leaders should prepare for a new era of congressional scrutiny",
+        "title": "Bots in the boardroom: Could an AI ever replace board directors?",
         "source": "Fortune",
-        "url": "https://fortune.com/2026/11/17/congressional-investigations-democrats-oversight-corporate-subpoenas-latham-watkins/",
-        "published": "Tue, 17 Nov 2026 12:00:00 +0000",
+        "url": "https://fortune.com/2026/11/10/bots-in-the-boardroom-could-an-ai-ever-replace-board-directors/",
+        "published": "Tue, 10 Nov 2026 12:04:35 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Bearish",
+        "score": -1.0,
+        "color": "red"
       },
       {
-        "title": "The next customer brands need to win over isn’t human—and it doesn’t care how big your company is",
+        "title": "Catching rogue agents and preventing cyberattacks—quantum computing is about to have its ‘ChatGPT moment’",
         "source": "Fortune",
-        "url": "https://fortune.com/2026/11/16/the-next-customer-brands-need-to-win-over-isnt-human-and-it-doesnt-care-how-big-your-company-is/",
-        "published": "Mon, 16 Nov 2026 09:00:00 +0000",
+        "url": "https://fortune.com/2026/11/12/catching-rogue-agents-and-preventing-cyberattacks-quantum-computing-is-about-to-have-its-chatgpt-moment/",
+        "published": "Thu, 12 Nov 2026 11:14:47 +0000",
         "assets": [],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       },
       {
-        "title": "Nvidia interim CEO Kress will need to deliver pristine Q3 numbers tonight (and face off internally against Jensen Huang’s daughter Madison)",
+        "title": "The resignation of Jensen Huang marks the end of an era. And not the one you think",
         "source": "Fortune",
-        "url": "https://fortune.com/2026/11/17/nvidia-q3-earnings-colette-kress-madison-huang/",
-        "published": "Tue, 17 Nov 2026 11:04:13 +0000",
-        "assets": [
-          "NVDA"
-        ],
-        "sentiment": "Bullish",
-        "score": 1.0,
-        "color": "green"
+        "url": "https://fortune.com/2026/11/16/the-resignation-of-jensen-huang-marks-the-end-of-an-era-and-not-the-one-you-think/",
+        "published": "Mon, 16 Nov 2026 08:00:00 +0000",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
       }
     ],
     "news_sentiment": {
-      "score": -0.4,
+      "score": -0.6,
       "label": "Bearish",
       "color": "red"
     },
@@ -516,7 +590,7 @@
       {
         "title": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
         "volume_24h": 724055,
-        "yes_price": 0.08,
+        "yes_price": 0.09,
         "category": "finance",
         "url": "https://polymarket.com/event/will-candidate-a-be-the-next-ceo-of-nvidia"
       },
@@ -581,7 +655,7 @@
     },
     "news_summary": {
       "outlook": "Bearish",
-      "summary": "Bearish: 6 bullish vs 11 bearish signals detected across stock/finance news data."
+      "summary": "Bearish: 6 bullish vs 12 bearish signals detected across stock/finance news data."
     },
     "macro": [
       {
@@ -599,14 +673,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 3859.2,
-        "change_24h": 0.16
+        "value": 3859.6,
+        "change_24h": 0.17
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 86.23,
-        "change_24h": 0.59
+        "value": 86.33,
+        "change_24h": 0.71
       }
     ],
     "most_active": [
@@ -676,19 +750,19 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 71
+          "interest_score": 70
         },
         {
           "keyword": "Ethereum",
-          "interest_score": 8
+          "interest_score": 7
         },
         {
           "keyword": "Solana",
-          "interest_score": 9
+          "interest_score": 8
         },
         {
           "keyword": "crypto",
-          "interest_score": 24
+          "interest_score": 21
         }
       ]
     }
