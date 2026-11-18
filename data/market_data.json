@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T00:10:47Z",
+  "updated_at": "2026-11-18T00:21:06Z",
   "crypto": {
     "fear_greed": {
       "value": 11,
@@ -7,80 +7,7 @@
       "previous_value": 12,
       "previous_label": "Extreme Fear"
     },
-    "prices": [
-      {
-        "symbol": "BTC",
-        "name": "Bitcoin",
-        "price_usd": 64911,
-        "change_24h": 0.25,
-        "market_cap": 1305596641201,
-        "volume_24h": 35120793529
-      },
-      {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "price_usd": 1824.04,
-        "change_24h": 0.29,
-        "market_cap": 222947581679,
-        "volume_24h": 12288528341
-      },
-      {
-        "symbol": "BNB",
-        "name": "BNB",
-        "price_usd": 597.14,
-        "change_24h": 1.1,
-        "market_cap": 78529480006,
-        "volume_24h": 683623842
-      },
-      {
-        "symbol": "XRP",
-        "name": "XRP",
-        "price_usd": 0.981761,
-        "change_24h": 2.8,
-        "market_cap": 62358136730,
-        "volume_24h": 1618469416
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "price_usd": 75.06,
-        "change_24h": 4.83,
-        "market_cap": 44416829858,
-        "volume_24h": 3223754579
-      },
-      {
-        "symbol": "DOGE",
-        "name": "Dogecoin",
-        "price_usd": 0.060011,
-        "change_24h": 1.88,
-        "market_cap": 9408546964,
-        "volume_24h": 505882291
-      },
-      {
-        "symbol": "LINK",
-        "name": "Chainlink",
-        "price_usd": 9.3,
-        "change_24h": 1.95,
-        "market_cap": 7135379030,
-        "volume_24h": 208881450
-      },
-      {
-        "symbol": "ADA",
-        "name": "Cardano",
-        "price_usd": 0.155124,
-        "change_24h": 1.18,
-        "market_cap": 5828453374,
-        "volume_24h": 235518930
-      },
-      {
-        "symbol": "AVAX",
-        "name": "Avalanche",
-        "price_usd": 7.28,
-        "change_24h": 2.53,
-        "market_cap": 3252517391,
-        "volume_24h": 186805182
-      }
-    ],
+    "prices": [],
     "top_mentioned": [],
     "news": [
       {
@@ -114,6 +41,16 @@
         "color": "yellow"
       },
       {
+        "title": "Nvidia board rejects Huang comeback despite record $116B quarter",
+        "source": "Cointelegraph",
+        "url": "https://cointelegraph.com/markets/nvidia-board-rejects-huang-comeback-amid-record-116b-quarter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Wed, 18 Nov 2026 00:16:43 +0000",
+        "assets": [],
+        "sentiment": "Neutral",
+        "score": 0.0,
+        "color": "yellow"
+      },
+      {
         "title": "Here’s what happened in crypto today",
         "source": "Cointelegraph",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -132,16 +69,6 @@
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
-      },
-      {
-        "title": "Maple Finance CEO targets up to $15B in assets by the end of 2027",
-        "source": "Cointelegraph",
-        "url": "https://cointelegraph.com/news/maple-finance-15b-assets-target-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Tue, 17 Nov 2026 21:56:35 +0000",
-        "assets": [],
-        "sentiment": "Neutral",
-        "score": 0.0,
-        "color": "yellow"
       },
       {
         "title": "Why Microsoft Thinks Smaller, Cheaper AI Can Beat Claude and GPT",
@@ -174,6 +101,18 @@
         "color": "green"
       },
       {
+        "title": "Bitcoin faces a liquidity drain as Anthropic IPO unlocks millions",
+        "source": "CryptoSlate",
+        "url": "https://cryptoslate.com/bitcoin-faces-a-liquidity-drain-as-anthropic-ipo-unlocks-millions/",
+        "published": "Wed, 18 Nov 2026 00:10:37 +0000",
+        "assets": [
+          "BTC"
+        ],
+        "sentiment": "Bullish",
+        "score": 1.0,
+        "color": "green"
+      },
+      {
         "title": "Three wallets hoard $52.7M on XRP’s sidechain, and nobody is trading it",
         "source": "CryptoSlate",
         "url": "https://cryptoslate.com/three-wallets-hoard-52-7m-on-xrps-sidechain-and-nobody-is-trading-it/",
@@ -194,37 +133,25 @@
         "sentiment": "Bearish",
         "score": -1.0,
         "color": "red"
-      },
-      {
-        "title": "Bitcoin developer verifies 164 million unspent coins in just 72 seconds",
-        "source": "CryptoSlate",
-        "url": "https://cryptoslate.com/bitcoin-developer-verifies-164-million-unspent-coins-in-just-72-seconds/",
-        "published": "Tue, 17 Nov 2026 20:00:40 +0000",
-        "assets": [
-          "BTC"
-        ],
-        "sentiment": "Bearish",
-        "score": -1.0,
-        "color": "red"
       }
     ],
     "news_sentiment": {
-      "score": 0.0,
+      "score": 0.167,
       "label": "Neutral",
       "color": "yellow"
     },
     "polymarket": [
       {
         "title": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-        "volume_24h": 116653,
+        "volume_24h": 116814,
         "yes_price": 0.08,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573"
       },
       {
         "title": "Will Bitcoin dip to $63,000 on November 17?",
-        "volume_24h": 96733,
-        "yes_price": 0.02,
+        "volume_24h": 96751,
+        "yes_price": 0.03,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-63k-on-november-17-2026"
       },
@@ -237,29 +164,29 @@
       },
       {
         "title": "Will Bitcoin reach $66,000 on November 17?",
-        "volume_24h": 78898,
+        "volume_24h": 79253,
         "yes_price": 0.11,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-66k-on-november-17-2026"
       },
       {
         "title": "Will Bitcoin dip to $62,500 in November?",
-        "volume_24h": 77509,
-        "yes_price": 0.61,
+        "volume_24h": 77378,
+        "yes_price": 0.62,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-62pt5k-in-november-2026-from-november-15"
       },
       {
         "title": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-        "volume_24h": 74409,
-        "yes_price": 0.18,
+        "volume_24h": 74398,
+        "yes_price": 0.17,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111"
       },
       {
         "title": "Will Bitcoin dip to $60,000 in November?",
-        "volume_24h": 65080,
-        "yes_price": 0.35,
+        "volume_24h": 65072,
+        "yes_price": 0.34,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-60k-in-november-2026"
       }
@@ -279,13 +206,13 @@
     },
     "fourchain": {
       "thread_count": 201,
-      "active_threads": 150,
+      "active_threads": 151,
       "mentions": {
         "BTC": 23,
         "XRP": 10,
-        "BNB": 3
+        "BNB": 2
       },
-      "bullish_hits": 83,
+      "bullish_hits": 82,
       "bearish_hits": 73,
       "bullish_pct": 53,
       "top_coin": "BTC",
@@ -303,49 +230,49 @@
         "name": "Pudgy Penguins",
         "rank": 124,
         "score": 0,
-        "change_24h": 1.16
-      },
-      {
-        "symbol": "VVV",
-        "name": "Venice Token",
-        "rank": 67,
-        "score": 1,
-        "change_24h": 4.35
+        "change_24h": 0.92
       },
       {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
+        "score": 1,
+        "change_24h": 0.31
+      },
+      {
+        "symbol": "VVV",
+        "name": "Venice Token",
+        "rank": 67,
         "score": 2,
-        "change_24h": 0.12
-      },
-      {
-        "symbol": "BP",
-        "name": "Backpack",
-        "rank": 139,
-        "score": 3,
-        "change_24h": 1.89
-      },
-      {
-        "symbol": "SOL",
-        "name": "Solana",
-        "rank": 7,
-        "score": 4,
-        "change_24h": 5.03
+        "change_24h": 4.07
       },
       {
         "symbol": "XRP",
         "name": "XRP",
         "rank": 6,
-        "score": 5,
-        "change_24h": 2.89
+        "score": 3,
+        "change_24h": 2.84
       },
       {
-        "symbol": "ETH",
-        "name": "Ethereum",
-        "rank": 2,
+        "symbol": "PI",
+        "name": "Pi Network",
+        "rank": 86,
+        "score": 4,
+        "change_24h": 0.73
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "rank": 7,
+        "score": 5,
+        "change_24h": 4.72
+      },
+      {
+        "symbol": "BDX",
+        "name": "Beldex",
+        "rank": 93,
         "score": 6,
-        "change_24h": 0.31
+        "change_24h": 1.9
       }
     ]
   },
@@ -597,56 +524,56 @@
     "polymarket": [
       {
         "title": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-        "volume_24h": 1033952,
+        "volume_24h": 1037048,
         "yes_price": 0.1,
         "category": "finance",
         "url": "https://polymarket.com/event/will-candidate-a-be-the-next-ceo-of-nvidia"
       },
       {
         "title": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
-        "volume_24h": 950303,
+        "volume_24h": 951270,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/will-jensen-huang-rejoin-nvidia-by-november-30-2026"
       },
       {
         "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-        "volume_24h": 915354,
+        "volume_24h": 915024,
         "yes_price": 0.08,
         "category": "finance",
         "url": "https://polymarket.com/event/will-jensen-huang-rejoin-nvidia-by-december-31-2026"
       },
       {
         "title": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-        "volume_24h": 506226,
+        "volume_24h": 506969,
         "yes_price": 0.03,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635"
       },
       {
         "title": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
-        "volume_24h": 357974,
+        "volume_24h": 358262,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-50-bps-after-the-december-2026-meeting-20260729232808637"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-        "volume_24h": 350869,
+        "volume_24h": 357395,
         "yes_price": 0.94,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636"
       },
       {
         "title": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-        "volume_24h": 343662,
+        "volume_24h": 343455,
         "yes_price": 0.35,
         "category": "finance",
         "url": "https://polymarket.com/event/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day"
       },
       {
         "title": "Will Puma Shen win the next Taipei Mayor election?",
-        "volume_24h": 258272,
+        "volume_24h": 258182,
         "yes_price": 0.41,
         "category": "finance",
         "url": "https://polymarket.com/event/will-puma-shen-win-the-next-taipei-mayor-election-20260813125857102"
@@ -681,14 +608,14 @@
       {
         "symbol": "GC=F",
         "name": "Gold",
-        "value": 3849.3,
-        "change_24h": -0.1
+        "value": 3843.1,
+        "change_24h": -0.26
       },
       {
         "symbol": "CL=F",
         "name": "Crude Oil",
-        "value": 85.87,
-        "change_24h": 0.17
+        "value": 85.75,
+        "change_24h": 0.03
       }
     ],
     "most_active": [
@@ -758,7 +685,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 71
+          "interest_score": 69
         },
         {
           "keyword": "Ethereum",
@@ -766,11 +693,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 8
+          "interest_score": 7
         },
         {
           "keyword": "crypto",
-          "interest_score": 25
+          "interest_score": 28
         }
       ]
     }
