@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T02:04:57Z",
+  "updated_at": "2026-11-28T02:10:51Z",
   "crypto": {
     "fear_greed": {
       "value": 10,
@@ -7,7 +7,80 @@
       "previous_value": 12,
       "previous_label": "Extreme Fear"
     },
-    "prices": [],
+    "prices": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "price_usd": 60138,
+        "change_24h": -1.91,
+        "market_cap": 1209851097830,
+        "volume_24h": 28808207314
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "price_usd": 1668.47,
+        "change_24h": -2.85,
+        "market_cap": 203998012289,
+        "volume_24h": 10825818849
+      },
+      {
+        "symbol": "BNB",
+        "name": "BNB",
+        "price_usd": 556.05,
+        "change_24h": -0.79,
+        "market_cap": 73124889920,
+        "volume_24h": 547353686
+      },
+      {
+        "symbol": "XRP",
+        "name": "XRP",
+        "price_usd": 0.95414,
+        "change_24h": -0.32,
+        "market_cap": 60594045802,
+        "volume_24h": 1814579245
+      },
+      {
+        "symbol": "SOL",
+        "name": "Solana",
+        "price_usd": 72.13,
+        "change_24h": -0.16,
+        "market_cap": 42732997674,
+        "volume_24h": 2608190170
+      },
+      {
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "price_usd": 0.058037,
+        "change_24h": 1.26,
+        "market_cap": 9106877747,
+        "volume_24h": 427095038
+      },
+      {
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "price_usd": 9.37,
+        "change_24h": -0.73,
+        "market_cap": 7184061645,
+        "volume_24h": 261906943
+      },
+      {
+        "symbol": "ADA",
+        "name": "Cardano",
+        "price_usd": 0.148574,
+        "change_24h": -1.43,
+        "market_cap": 5584506336,
+        "volume_24h": 205530396
+      },
+      {
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "price_usd": 6.64,
+        "change_24h": -0.93,
+        "market_cap": 2966504929,
+        "volume_24h": 123666245
+      }
+    ],
     "top_mentioned": [],
     "news": [
       {
@@ -156,7 +229,7 @@
     "polymarket": [
       {
         "title": "Will Bitcoin dip to $45,000 by December 31, 2026?",
-        "volume_24h": 173547,
+        "volume_24h": 179853,
         "yes_price": 0.11,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573"
@@ -170,10 +243,17 @@
       },
       {
         "title": "Will Bitcoin reach $62,500 in November?",
-        "volume_24h": 141372,
+        "volume_24h": 141242,
         "yes_price": 0.3,
         "category": "crypto",
         "url": "https://polymarket.com/event/will-bitcoin-reach-62pt5k-in-november-2026-from-november-23"
+      },
+      {
+        "title": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+        "volume_24h": 112292,
+        "yes_price": 0.28,
+        "category": "crypto",
+        "url": "https://polymarket.com/event/will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111"
       },
       {
         "title": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
@@ -198,17 +278,10 @@
       },
       {
         "title": "Will the average Ornn H200 rental price in January 2027 be above $6.00?",
-        "volume_24h": 98478,
+        "volume_24h": 98179,
         "yes_price": 0.61,
         "category": "crypto",
         "url": "https://polymarket.com/event/h200-average-rental-price-in-january-2027-above-6pt00"
-      },
-      {
-        "title": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-        "volume_24h": 96991,
-        "yes_price": 0.29,
-        "category": "crypto",
-        "url": "https://polymarket.com/event/will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111"
       }
     ],
     "polymarket_summary": {
@@ -246,53 +319,53 @@
     },
     "cg_trending": [
       {
-        "symbol": "PORTAL",
-        "name": "Portal",
-        "rank": 502,
-        "score": 0,
-        "change_24h": 216.27
-      },
-      {
         "symbol": "BTC",
         "name": "Bitcoin",
         "rank": 1,
+        "score": 0,
+        "change_24h": -1.0
+      },
+      {
+        "symbol": "PORTAL",
+        "name": "Portal",
+        "rank": 436,
         "score": 1,
-        "change_24h": -0.69
+        "change_24h": 296.82
       },
       {
         "symbol": "XMR",
         "name": "Monero",
         "rank": 14,
         "score": 2,
-        "change_24h": -11.42
+        "change_24h": -10.94
       },
       {
-        "symbol": "ZEC",
-        "name": "Zcash",
-        "rank": 11,
+        "symbol": "DRV",
+        "name": "Derive",
+        "rank": 109,
         "score": 3,
-        "change_24h": 7.77
+        "change_24h": -3.96
       },
       {
         "symbol": "AAVE",
         "name": "Aave",
         "rank": 53,
         "score": 4,
-        "change_24h": 1.34
+        "change_24h": 0.95
       },
       {
-        "symbol": "DRV",
-        "name": "Derive",
-        "rank": 109,
+        "symbol": "ZEC",
+        "name": "Zcash",
+        "rank": 11,
         "score": 5,
-        "change_24h": -3.79
+        "change_24h": 7.17
       },
       {
-        "symbol": "ZYLO",
-        "name": "Zylo Ecosystem",
-        "rank": 720,
+        "symbol": "HYPE",
+        "name": "Hyperliquid",
+        "rank": 10,
         "score": 6,
-        "change_24h": 1.17
+        "change_24h": 2.74
       }
     ]
   },
@@ -492,35 +565,35 @@
     "polymarket": [
       {
         "title": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-        "volume_24h": 1213940,
+        "volume_24h": 1218215,
         "yes_price": 0.04,
         "category": "finance",
         "url": "https://polymarket.com/event/will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635"
       },
       {
         "title": "Will Chiang Wan-an win the next Taipei Mayor election?",
-        "volume_24h": 1122889,
+        "volume_24h": 1137906,
         "yes_price": 0.56,
         "category": "finance",
         "url": "https://polymarket.com/event/will-chiang-wan-an-win-the-next-taipei-mayor-election-20260813125857101"
       },
       {
         "title": "Will Puma Shen win the next Taipei Mayor election?",
-        "volume_24h": 483513,
-        "yes_price": 0.44,
+        "volume_24h": 483581,
+        "yes_price": 0.45,
         "category": "finance",
         "url": "https://polymarket.com/event/will-puma-shen-win-the-next-taipei-mayor-election-20260813125857102"
       },
       {
         "title": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-        "volume_24h": 416341,
+        "volume_24h": 418320,
         "yes_price": 0.94,
         "category": "finance",
         "url": "https://polymarket.com/event/will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636"
       },
       {
         "title": "Israel x Iran ceasefire continues through November 30?",
-        "volume_24h": 162755,
+        "volume_24h": 162906,
         "yes_price": 0.96,
         "category": "finance",
         "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-through-november-30"
@@ -534,8 +607,8 @@
       },
       {
         "title": "Will Puma Shen win the 2026 Taipei Mayoral Election by 8% or more?",
-        "volume_24h": 130149,
-        "yes_price": 0.12,
+        "volume_24h": 130173,
+        "yes_price": 0.13,
         "category": "finance",
         "url": "https://polymarket.com/event/will-puma-shen-win-the-2026-taipei-mayoral-election-8-or-more-20261103233704877"
       },
@@ -653,7 +726,7 @@
       "crypto": [
         {
           "keyword": "Bitcoin",
-          "interest_score": 42
+          "interest_score": 40
         },
         {
           "keyword": "Ethereum",
@@ -661,11 +734,11 @@
         },
         {
           "keyword": "Solana",
-          "interest_score": 5
+          "interest_score": 4
         },
         {
           "keyword": "crypto",
-          "interest_score": 21
+          "interest_score": 19
         }
       ]
     }
